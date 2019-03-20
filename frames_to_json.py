@@ -1,16 +1,7 @@
-import json
 import spacy
 from frames_utilities import *
 
 nlp = spacy.load('en')
-
-# dataset_name = "test"
-# dataset_path = "data/frames/"
-# output_path = "data/output/"
-#
-# # Read JSON file
-# with open(dataset_path + "frames_" + dataset_name + ".json") as file:
-#     in_data = json.load(file)
 
 # Data source and output paths
 archive_path = "frames_archive/"
@@ -113,5 +104,3 @@ for dataset_name in sets:
 
     # Write a JSON file
     save_json_data(data_dir, "frames_" + dataset_name + ".json", dialogue_data)
-    # with open(output_path + "frames_" + dataset_name + "_set.json", "w+") as file:
-    #     json.dump(dialogue_data, file, sort_keys=False, indent=4, separators=(',', ': '))
