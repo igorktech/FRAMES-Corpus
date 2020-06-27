@@ -1,0 +1,8 @@
+USR|I just won the 2900 jackpot on the slot machines!!!!|inform
+USR|WooHoo!|inform
+USR|I'm wanting to take my cute little grand-babies on a trip to Punta Cana from Santiago.|inform
+SYS|How many adults and children?|request
+USR|1 adult and 2 children :relaxed:|inform
+SYS|I have packages from Santiago to Punta Cana, but unfortunately none that meet your budget of 2900|sorry
+USR|What about calgary?|inform
+SYS|I also have packages from Santiago to Calgary but again, nothing that meets your budget.|no_result

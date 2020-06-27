@@ -1,0 +1,19 @@
+USR|ok bud I'm sure you've never dealt with this kinda thing in ur line of work but I've got a bit of a bad rap here on the streets of Burlington so I've gotta lay low for a little while... I've got 1700 dollars to burn.|inform
+USR|can ya get me to Long Beach by the first of next month|inform
+SYS|I can get you to your destination on your budget...but only on the 8th of September.|offer
+SYS|Would you still be okay with this?|offer
+USR|what about San Juan to Long Beach.|inform
+USR|any sooner|inform
+SYS|I have another offer for the 8th of September|offer
+USR|well, what if I go to Baltimore?|inform
+USR|I can lay low there for a while...|inform
+SYS|We can get you from Burlington to Baltimore on the 2nd of September.|offer
+SYS|Would you be interested in that?|offer
+USR|YES!|request
+USR|PERFECT!|request
+USR|how much?|request
+SYS|For only 1059.70USD, for a 13 day stay.|inform
+USR|alrighty you got my business, pal book it stat'|inform
+SYS|Booked!|inform
+SYS|Have a great trip!|inform
+USR|thanks bucko|thankyou

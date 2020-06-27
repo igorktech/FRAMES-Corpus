@@ -1,0 +1,13 @@
+USR|Hey|greeting
+SYS|Hi|greeting
+USR|Book a trip for 5 adults from Jerusalem to Kingston, and do it fast.|inform
+USR|Leaving August 21 Returning August 24|inform
+SYS|I will book you 9 days at Ebony Manor Inn & Suites from August 23-31.|offer
+SYS|You will leave from Sacramento.|offer
+USR|No we will not.|inform
+USR|We will be leaving from Jerusalem and going to Kingston.|inform
+USR|Do you understand?|inform
+SYS|No, you will go to Denver and leave from Kingston.|offer
+USR|Jerusalem to Kingston.|inform
+USR|I swear if I have to repeat myself again then I will sue|inform
+SYS|10 days from Dublin to Kingston for 3426.86 USD|inform

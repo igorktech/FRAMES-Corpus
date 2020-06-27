@@ -1,0 +1,13 @@
+USR|Hi there looking to go from SL to Kochi today
+i've got 2000 budget, hoping to squeeze in a trip|inform
+SYS|Do you have a budget?|request
+USR|2000|inform
+SYS|Are you bringing anyone along?|suggest
+USR|nope|negate
+SYS|When would you like to travel?|request
+USR|whenever really|inform
+SYS|Unfortunately there are no trips available within your budget.|sorry
+USR|would it be possible to get from los angeles to kochi on 2000 bucks then?|inform
+SYS|Not from Los Angeles, sorry.|sorry
+USR|ok what if i added 400 to my budget, can i do SL to kochi?|inform
+SYS|No, sorry!|sorry

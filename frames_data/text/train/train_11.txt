@@ -1,0 +1,15 @@
+USR|Hi, I'm leaving from Diagon Alley and going to Coruscant on a budget of $3400.|inform
+USR|The dates don't matter, but I cannot afford anything over my budget.|inform
+SYS|And how many children and adults will you be bringing with you?|request
+USR|Just myself.|inform
+SYS|I'm sorry, but this travel destination is not available.|no_result
+USR|What about Neverland on the same budget?|inform
+SYS|Neverland is unavailable.|suggest
+SYS|Vancouver would be available, however.|suggest
+SYS|Would you like to select another location?|suggest
+USR|No I cannot do another location.|inform
+USR|What if I increased my budget by $400?|inform
+SYS|I am sorry, but we do not have any trips available to the Neverland travel destination.|no_result
+USR|nor Coruscant?|inform
+SYS|Coruscant is not available either.|no_result
+USR|Ok thanks.|thankyou

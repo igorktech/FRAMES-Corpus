@@ -1,0 +1,44 @@
+USR|Hi!|inform
+USR|I'm looking to book a vacation for 5 adults and 2 kids.|inform
+USR|We haven't been on a trip in a long time and i'm super excited to be on a beach somewhere, anywhere really as long as its a nice place :smile:|inform
+SYS|Where do you live and do you have a wish list of places to go?|request
+USR|We live in Los Angeles and we don't have any places in mind, we are just looking to stay at a nice beach resort where we can swim in the ocean, tan, play with the kids on the beach, have some drinks at night, that kind of thing|inform
+SYS|When will you be taking your vacation?|request
+USR|Between August 27th and September 3rd!!|inform
+SYS|You are in luck, We have availability at the Glorious Cloak Inn in St. Louis, which is located right by the beach.|offer
+SYS|This is a 4 day package which included wifi and free buffet breakfast for the whole family.|offer
+SYS|This is a 3 star hotel with a 7.15/10 guest rating.|offer
+USR|Do you have anything longer?|inform
+USR|We were hoping for about a one week package.|inform
+USR|It's quite a hassle to fly with the kids so once we get there we want to stay longer than 4 days|inform
+SYS|I have a package available out of Los Angeles flying out to Columbus.|offer
+SYS|This one would be at the Crown Jungle Inn and it is a 6 day long package.|offer
+SYS|It also includes wifi and parking but breakfast is not included.|offer
+SYS|The good news is, it is also close to the beach.|offer
+USR|That could be cool!|request
+USR|What are the dates and the price for this one?|request
+SYS|The price is $7796.72USD and the dates from August 27 to Sept 1st.|inform
+SYS|This is price is based on an economy class flight.|inform
+USR|ok thanks!|inform
+USR|Ya we would be flying economy.|inform
+USR|The only thing is that i'm not sure how warm the water is in Columbus, do you have any packages for further south?|inform
+USR|We are really looking for a tropical beach kind of vacation :slightly_smiling_face:|inform
+SYS|St. Louis and Columbus are the only places available that are on the beach at the moment.|inform
+USR|Oh no!|inform
+USR|What if the end date was flexible?|inform
+USR|It's less ideal but we could be back as late as September 14th if that gives us better options.|inform
+USR|And we don't need to leave exactly August 27th, as long as the trip is about a week long.|inform
+SYS|Do you have a budget for this trip?|request
+USR|We don't have a budget set, but like I said we want to fly in economy|inform
+SYS|I have the Summer Covert Club located in Atlanta, United States, also on the beach.|offer
+SYS|This one here is a 7 day package that is available to you from September 8th to September 14th also on economy class for 3463.11USD.|offer
+USR|That sounds good!|request
+USR|How fancy is this hotel?|request
+SYS|It is a 3.5 star hotel with free wifi and free parking.|inform
+SYS|It is a brand new hotel so it does not have any guest ratings yet.|inform
+USR|That sounds really good!!|inform
+USR|I'll book this one :slightly_smiling_face:|inform
+SYS|Fantastic, glad we could help you plan and book your vacation.|inform
+SYS|I hope everything is to your satisfaction.|inform
+USR|Yay!!!!|thankyou
+USR|I'm so excited for this, thank you for all your help!|thankyou

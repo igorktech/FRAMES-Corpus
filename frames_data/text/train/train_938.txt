@@ -1,0 +1,20 @@
+USR|pittsburgh to guadalajara.|request
+USR|What's the cost?|request
+SYS|A 14 day stay at our best hotel would be 1355.67 with business flights.|offer
+USR|whats the hotel like|switch_frame
+SYS|It is a 3.0 star hotel near the park and airport.|inform
+SYS|Guest rated 8.37/10.|inform
+SYS|And you can enjoy free wifi, breakfast, and parking during your stay.|inform
+USR|what is available in Kingston|inform
+SYS|The best in Kingston would be a 4 star hotel with 8.22/10 guest ratings.|offer
+SYS|It is conveniently located near the museum and offers free parking, breakfast, and wifi.|offer
+USR|what is the price for that package|request
+SYS|1454.62 for business flights and a 7 day stay.|inform
+USR|i think i would prefer Guadalajara|switch_frame
+SYS|Sure, I can book you the 14 day package at the 3 star hotel in Guadalajara.|suggest
+SYS|Business class?|suggest
+USR|Please.|affirm
+SYS|Booked!|inform
+SYS|You are departing on the 6th and returning on the 19th.|inform
+SYS|Have a good trip!|inform
+USR|thanks !!!|thankyou

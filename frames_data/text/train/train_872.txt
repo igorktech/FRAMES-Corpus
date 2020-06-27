@@ -1,0 +1,44 @@
+USR|Hi there.|inform
+USR|Can I use your services to leave Puebla?|inform
+SYS|Yes!|request
+SYS|Where would you like to go?|request
+USR|Boston please.|inform
+USR|Sometime between September 1 and 16|inform
+SYS|What is your budget?|request
+USR|unlimited budget, but hoping for something in the four star range|inform
+SYS|How many people are travelling?|request
+USR|Me, and potentially a friend.|inform
+USR|But just search for 1 adult right now|inform
+SYS|We only have a 2.5 star hotel.|offer
+SYS|Is this okay?|offer
+USR|Thats fine, but I would probably tell you to look up another place right after :wink: You know what, lets just skip to that
+check dallas for me|inform
+SYS|We have a 2.5 star hotel here as well.|offer
+USR|Goiania?|inform
+SYS|Again, this is yielding only 2.5 star results as well.|offer
+USR|Wow just not my lucky day.|inform
+USR|How about...Mexico City|inform
+SYS|Success!|offer
+SYS|We have 3 and 3.5 star hotels.|offer
+SYS|Which would you prefer?|offer
+USR|cool!|request_compare
+USR|what amenities at each?|request_compare
+SYS|The first 3 star hotel, "Sublime Echo" is near a beach, shopping, and mall, and offers free parking and wifi.|offer
+SYS|The second 3 star hotel, "Hotel Tropic" is near the beach and shopping, and offers free breakfast and wifi.|offer
+SYS|The 3.5 star hotel "Exalted Willow Resort & Suites" is near the beach shopping, and mall, and offers free parking and wifi.|offer
+USR|how much does the 3.5 cost|request
+SYS|For business flights it would cost 1048.47 and for economy it would be 887.53.|offer
+SYS|This package is for 10 days.|offer
+USR|I think that would be the best choice!|inform
+USR|business isn't too exorbitantly priced so that's what I'll have
+and book for two please|inform
+SYS|Okay great!|offer
+SYS|For this option it will cost 2096.95 for two adults and business flights.|offer
+SYS|Still okay?|offer
+USR|still okay|switch_frame
+SYS|Great!|inform
+SYS|Your flights are booked!|inform
+SYS|You will receive an email soon to confirm your purchase!|inform
+SYS|Have a great day!|inform
+USR|thank you!|thankyou
+SYS|Anytime!|you_are_welcome

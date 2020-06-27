@@ -1,0 +1,33 @@
+USR|Barcelona is calling me.|inform
+USR|Please show me the way there from Belo Horizonte.|inform
+SYS|How much are you willing to spend?|request
+USR|Money is just a number.|inform
+USR|It doesn't really matter to me.|inform
+SYS|Is it just you?|suggest
+USR|Well... I'm actually booking for a colleague in the end.... but yes it'll just be one adult.|inform
+SYS|How long for?|request
+USR|I'm free Sept 17-30|inform
+SYS|I can recommend a 13 day trip that will cost you 3333.60 for business class, how does that sound?|offer
+USR|What is the hotel like?|moreinfo
+SYS|It's a 3 star hotel with a 9.16/10 guest rating with wifi and parking included.|inform
+SYS|It's also in the heart of the city and it happens to be near a park and a university.|inform
+SYS|Does that not sound appealing?|inform
+USR|Do you have a higher star level hotel in Barcelona?|inform
+SYS|I'm afraid 3 star hotels are the best we can do at the moment.|sorry
+SYS|Would you like to explore other options?|sorry
+USR|Yes... San Antonio also sounds nice|inform
+SYS|I'm afraid we do not have any San Antonio packages that work.|sorry
+SYS|Are there other options that you would like to explore?|sorry
+USR|I could also leave from Mannheim!|inform
+SYS|Would you like me to search from Mannheim to San Antonio?|confirm
+USR|Yes please!|affirm
+SYS|I'm sorry.|sorry
+SYS|We don't have any such packages that work.|sorry
+SYS|Would you like to explore other options?|sorry
+USR|Could you check if you can find a better package in Barcelona than the previous one if I depart from Mannheim?|inform
+SYS|We have only 3 star hotels in Barcelona no matter where you leave from.|inform
+USR|I will take the 13 day trip then!|switch_frame
+SYS|Business or economy?|suggest
+USR|Hmmm I want to go for business.|inform
+SYS|Consider it done!|inform
+USR|Gracias!|thankyou

@@ -1,0 +1,32 @@
+USR|I'm exhausted and I need to get away.|inform
+USR|I want to treat myself to a five day trip.|inform
+SYS|Ok, wonderful, I can help you out!|request
+SYS|Where are you looking to leave from and do you have a destination in mind?|request
+USR|I will fly out of the airport in Chicago.|inform
+USR|I'm thinking maybe Kingston?|inform
+SYS|Great!|request
+SYS|Do you have a date restriction?|request
+USR|I succeeded in getting some time off from August 19 to August 30|inform
+SYS|I have several packages available for you but they are all 4 days, is this okay?|suggest
+USR|sure that works tell me about them|moreinfo
+SYS|The Golden Excalibur Hotel is located near a museum and has a 3.5 star rating.|offer
+SYS|That one is priced a 1640 for August 27-30.|offer
+SYS|Ebony Manor Inn & Suites is 4.0 stars and also near the museum for a total of 1609.81 $ from August 25-28.|offer
+SYS|Finally there is the Cosmos Inn, a 2.5 star hotel in the heart of Kingston, Canada and next to a park.|offer
+SYS|This trip would cost 1252.33 to travel from August 24-August 27th.|offer
+SYS|All trips include Business class flights and can be purchased for less if you would like to fly economy.|offer
+USR|These all sound good but I'm kinda keen on Milan too what do you have there?|inform
+SYS|In Milan you can stay at El Mundo Hotel or Pink Star Hotel.|offer
+SYS|Both are 4 stars with the former located near the airport and featuring free breakfast and wifi, while the latter features both amenities as well and is in the heart of the city near a museum and cathedral.|offer
+USR|You are so efficient I know I am making you work hard on a Friday afternoon at 4:47 but you get to go home for the weekend soon lol if the dates in Milan work I think I will book one of those|inform
+SYS|I have the following dates in Milan: Aug 19-22, Aug 27-30.|offer
+USR|August 19 to the 22 sounds good.|request
+USR|I like that the Mundo Hotel is near the cathedral.|request
+USR|Exactly how much is that one?|request
+SYS|Sadly no, only the Pink Star Hotel is available for those dates.|sorry
+SYS|The package with economy class flights to Pink Star Hotel is 2906 USD.|sorry
+USR|do you have any business class available?|inform
+SYS|Absolutely!|offer
+SYS|From Aug 19-22 with business class flights the price for you would be 3988.83 USD.|offer
+USR|Oh what the heck it's expensive but I deserve it!|inform
+USR|Let's proceed with that one.|inform

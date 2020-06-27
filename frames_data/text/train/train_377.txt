@@ -1,0 +1,20 @@
+USR|I need to go on a secret vacation so you're gonna need to keep this information on the down low.|inform
+SYS|Where are you looking to go?|request
+USR|I want to go to Leon from London and I'm travelling with Madonna so we are gonna need the best packages you have.|inform
+USR|We need to be back by September 11th because I'm performing the next day so make it happin cappin|inform
+SYS|Would you be interested in Serene Palms Resort?|offer
+SYS|It is a 5.0 star hotel on the beach, located near the palace.|offer
+USR|That sounds fantastic!|inform
+USR|hmmmmm.... Can you check for flights to Curitiba?|inform
+SYS|I have a variety of 3.0 star hotels available in Curitiba and one 3.5 star hotel.|hearmore
+SYS|Would you be interested in hearing more about these options?|hearmore
+USR|no, but can you tell me a bit more about the Leon package?|moreinfo
+SYS|Absolutely!|inform
+SYS|The Hotel Palms has free wifi and the package would cost $3282.81.|inform
+SYS|You would leave London September first and return September seventh.|inform
+USR|That sounds absolutely positively perfect!|inform
+USR|Can you book it for 2!|inform
+SYS|Certainly!|inform
+SYS|The price quoted above is for two adults.|inform
+SYS|I will go ahead and book that for you|inform
+USR|Thank you so much darling|thankyou

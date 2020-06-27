@@ -1,0 +1,4 @@
+USR|I need to get from Sacramento to Osaka on Sept 1
+or shortly thereafter|inform
+SYS|Osaka is not a destination that we have packages in from your departure city.|no_result
+USR|Then I will take my search elsewhere|goodbye

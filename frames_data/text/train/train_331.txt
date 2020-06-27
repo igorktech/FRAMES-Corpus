@@ -1,0 +1,14 @@
+USR|Portland I live I will leave August 31 be back September 17 no more than 3200 dollars go|inform
+SYS|Do you have any destinations in mind?|request
+USR|No|inform
+SYS|I have a 14 day vacation at the Sunny Aurora Hotel in Leon, Spain to offer you.|offer
+SYS|You would be staying in a 5 star hotel with excellent user reviews and you would be flying in business class.|offer
+SYS|This package is available from August 31st to September 12th and costs 2616.74USD, well under your budget.|offer
+USR|That sounds quite impressive.|request
+USR|What is the hotel located near?|request
+SYS|It is close to a market.|inform
+USR|Wonderful, I love markets.|inform
+USR|Ok, let’s book it.|inform
+SYS|I will book it for you!|inform
+SYS|Thank you for using our services.|inform
+USR|Thanks|thankyou

@@ -1,0 +1,22 @@
+USR|london to punta cana|inform
+SYS|How many adults and how many children?|request
+USR|1 man|inform
+SYS|What would be your ideal travel dates?|request
+USR|september 12 unitl 28th|inform
+SYS|Are these flexible at all?|request
+USR|i could leave 7th of sept|inform
+SYS|Anything in particular you would like me to look for in a hotel?|request
+USR|nice
+please|inform
+SYS|Best I have is the El Mar, which is a 2.5 star hotel, located on the beach.|offer
+USR|how much money|request
+SYS|Would you prefer to fly economy or business?|suggest
+USR|economy|inform
+SYS|747.73USD for a 6 day package based on economy class|offer
+USR|wow great deal.|request
+USR|how much for business|request
+SYS|998.8USD for a 6 day package based on business class|offer
+USR|that is great.|switch_frame
+USR|please book it for me|switch_frame
+SYS|I will go ahead and do that for you!|inform
+USR|great thanks|thankyou

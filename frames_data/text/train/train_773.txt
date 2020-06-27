@@ -1,0 +1,23 @@
+USR|do you have hotels near parks in Campinas?|inform
+SYS|All of our hotels in Campinas are located in the heart of the city near the mall and cathedral.|inform
+USR|but none of them near any parks?|confirm
+SYS|Not in Campinas.|suggest
+SYS|I can check other cities for you.|suggest
+USR|check Belem|inform
+SYS|None by a park but I have a nice 4 star hotel on the beach|offer
+USR|Does San Juan have any parks?|inform
+SYS|How long will your stay be?|request
+USR|Between Sept 2 and 12, for a minimum 4 day stretch|inform
+SYS|Number of people travelling together?|request
+USR|2 adults|inform
+SYS|Good news.|offer
+SYS|I have the Supreme Seaside Inn & Suites located right by a park not far from the mall.|offer
+USR|Do you have the right dates for us|request
+SYS|4 day packages available from Sept 6 to 9th|inform
+USR|Ok that will do, whats the cost?|request
+USR|And where do we depart from|request
+SYS|If you leave from Montreal, the cost will be 351.79USD.|inform
+USR|Easily feasible.|inform
+USR|How do we book?|inform
+SYS|I will take care of all the details for you.|inform
+USR|Thank you!|thankyou

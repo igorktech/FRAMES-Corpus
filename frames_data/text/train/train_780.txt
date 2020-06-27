@@ -1,0 +1,17 @@
+USR|i want to dream of a better life in Pittsburgh rather than Houston.|inform
+SYS|You could spend 17 days at Onyx Isle Hotel for only 969.52USD!|offer
+USR|What is the hotel rating?|request
+SYS|3.5 stars with 8.86/10 from users.|inform
+USR|nice.|inform
+USR|well maybe.|inform
+USR|I'd also like to dream about Goiania|inform
+SYS|The 3.5 star Scarlet Palms Resort is available for an 8 day stay at a cost of 2442.91USD|offer
+USR|any higher rated hotels?|inform
+SYS|The Sunset Baron is also 3.5 stars but has a guest rating of 8.69/10|offer
+USR|cool.|inform
+USR|Are there any packages to Fortaleza?|inform
+SYS|Riverside is available for 15 days.|offer
+SYS|It is a 3.0 star hotel with 9.32/10 from guests.|offer
+SYS|Elder Angel is available for 13 days and is also 3 stars, however with 7.15/10 from guests.|offer
+USR|anything else?|request_alts
+SYS|Private Hotel has 3 stars and 11 day packages available.|offer

@@ -1,0 +1,14 @@
+USR|I need to go to Barcelona|inform
+SYS|Where will you be departing from?|request
+USR|Calgary!|inform
+SYS|How does seven days at the Nova Resort sound?|offer
+SYS|Only 2521.51USD If you fly out on the 27th.|offer
+USR|Is that the most expensive hotel… i’ll tell you this im stalking a high profile celebrity|inform
+SYS|If you're looking for the most expensive hotel, I can book you for 7 days at the Hotel De La Felicidad for 2629.67USD.|offer
+SYS|Or, if you'd like the most expensive package I can upgrade you to business class for 700USD more.|offer
+USR|is this all on the 21st|switch_frame
+SYS|Yes, this package is from the 21st to the 27th of August.|inform
+USR|This is just too perfect book it|inform
+SYS|You've got it!|inform
+SYS|Have fun in Barcelona!|inform
+USR|thank you i will!|thankyou

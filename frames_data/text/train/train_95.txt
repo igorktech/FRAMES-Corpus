@@ -1,0 +1,18 @@
+USR|I'd like to book a trip from London to somewhere, for August 17th to August 31st.|inform
+SYS|I can offer you packages for the 24th to the 28th of August.|offer
+SYS|In Punta Cana, you would be staying at the el Mar, a 2.5-star hotel with a 0/10 guest rating, for a total of 607.39USD.|offer
+SYS|In Baltimore, you would be staying at the Countryside Resort, a 3-star hotel with a 7.06/10 guest rating, as well as free breakfast, free wifi and free parking.|offer
+SYS|The total for this package is 1012.6USD.|offer
+SYS|Would you like me to book either of these packages?|offer
+USR|can i have information for a trip to Salvador as well?|inform
+SYS|Actually, I do have a package to Salvador that may be of interest to you.|offer
+SYS|You would be flying out on the 27th of August and returning on the 31st.|offer
+SYS|You would be staying at the Water Motel, a 3.5-star hotel with a 7.15/10 guest rating.|offer
+SYS|The total cost of this package is 2282.40USD.|offer
+USR|I think I will take the trip to Salvador|switch_frame
+SYS|Great!|confirm
+SYS|Would you like me to upgrade your plane tickets from economy to business class?|confirm
+USR|sure!|switch_frame
+SYS|Your vacation has been successfully booked.|inform
+SYS|Enjoy your stay!|inform
+USR|thank you|thankyou

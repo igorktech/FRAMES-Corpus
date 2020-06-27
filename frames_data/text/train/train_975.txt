@@ -1,0 +1,30 @@
+USR|HI I NEED TO GO ON VACATION I LIVE IN WASHINGTON WHERE CAN I GO|inform
+SYS|How much would you like to spend on this vacation?|request
+USR|3300 DOLLARS|inform
+SYS|For one person?|suggest
+USR|YEAH|affirm
+SYS|Are you looking for a luxury hotel or something low key?|request
+USR|I WANT TO BE PAMPERED|inform
+SYS|As far as pampering goes, I have a lovely property in Paris, France available for 18 days.|offer
+SYS|The 4 star Queen's Jungle Hotel, is located near the museum and cathedral with shopping available nearby.|offer
+SYS|It also includes use of wifi and a lovely free breakfast.|offer
+USR|OH OK SOUNDS NICE WHAT IS THE PRICE|request
+SYS|Would you like to travel on business class?|offer
+USR|YEAH OK|switch_frame
+SYS|2472.61USD for your 18 day package|inform
+USR|WHERE ELSE COULD I GO THO|request_alts
+SYS|Are you interested in a beach vacation?|suggest
+USR|OF COURSE!|affirm
+SYS|I have the The Rose Sierra Hotel available in Santo Domingo for 19 days located on the beach and close to shopping for  1363.47USD via business class.|offer
+USR|WHAT IS THE HOTEL RATED|request
+SYS|It is a 3 star hotel with a guest rating of  7.06 / 10 and included free use of wifi, a parking spot and breakfast also free of charge|inform
+USR|IS IT CHEAPER THAN THE PARIS ONE OR MORE EXPESNIVE|request_compare
+SYS|Paris, France is 2472.61USD for your 18 day package and Santo Domingo is 1363.47USD for your 19 day package, both based on business class travel|inform
+USR|OK IS THERE ANYWHERE ELSE I CAN GO THOUGH???|request_alts
+SYS|I have 2 locations.|offer
+SYS|one in Santos and the other in Recife.|offer
+USR|ARE THEY HIGH STAR RATINGS??|request_compare
+SYS|Santos is a 4 star rating, with a 8.49/10 guest rating|inform
+USR|I LIKE PARIS MORE CAN U BOOK PARIS FOR ME|inform
+SYS|I have taken care of that for you and will forward confirmation.|inform
+SYS|Thank you for booking your holiday|inform

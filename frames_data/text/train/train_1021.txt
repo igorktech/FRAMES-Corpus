@@ -1,0 +1,30 @@
+USR|I need a 5 star hotel in Berlin|inform
+SYS|Where from?|request
+USR|Detroit.|inform
+USR|After Monday, the 12th|inform
+SYS|Do you have a budget?|request
+USR|no - not budget|inform
+SYS|Travelling alone?|suggest
+USR|The package must be impressive - keep that in mind.|inform
+USR|I’m bringing 5 high class clients so 6 adults in total/|inform
+SYS|You're in luck!|offer
+SYS|We have an awesome 15 day package from September 13th to 27th at a 5 star hotel in Berlin.|offer
+SYS|The hotel is near a museum, they have a 8.8/10 guest rating, and they offer free breakfast and wifi.|offer
+SYS|For business flights with this package the cost is 16969.96.|offer
+USR|That sounds suitable for some business fat cats.|inform
+USR|Have you got anything that rivals that package, but in Cordoba?|inform
+SYS|This package has a guest rating of 8.98/10, the trip is 13 days instead of 16 from September 17th to 29th, and the cost with business flights included is 20354.83.|offer
+USR|Ok, what are the sights like near that hotel?|request
+USR|And the amenities?|request
+SYS|They are the same as the hotel in Berlin.|inform
+USR|Ah, ok.|inform
+USR|Is there anything available in downtown Vancouver?|inform
+USR|Perhaps near some hot shopping districts, bars, etc..|inform
+SYS|There is a 4 star hotel near a park, museum, and cathedral.|offer
+USR|Ah, that’s not impressive.|inform
+USR|Well I think I’d prefer Cordoba to Berlin..
+Let’s book that - business class|inform
+SYS|Lovely!|inform
+SYS|It is done!|inform
+SYS|Good luck on your trip!|inform
+USR|Thank you, my friend|thankyou

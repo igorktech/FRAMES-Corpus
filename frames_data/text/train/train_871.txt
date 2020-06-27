@@ -1,0 +1,19 @@
+USR|Hi there.|inform
+USR|I’m here to book a trip for my family!|inform
+USR|Its just me, my wife, and my son|inform
+SYS|Cool!|request
+SYS|Where are you guys from?|request
+SYS|And where would you like to go?|request
+USR|We live in beautiful Kingston, and we were thinking of visiting Guadalajara|inform
+SYS|When do you want to travel?|request
+SYS|And how much are you planning on spending on this trip?|request
+USR|Well, I work on my own schedule as a writer so dates are entirely flexible.|inform
+USR|What is far less flexible is my budget
+I only have 1900|inform
+SYS|Unfortunately that won't be enough to take the family to Guadalajara.|sorry
+SYS|Do you have somewhere else in mind?|sorry
+USR|I was also thinking about Mexico City.|inform
+USR|Even a short trip would do, like two days|inform
+SYS|Mexico City won't work either.|suggest
+SYS|Anywhere else you would like to go?|suggest
+USR|That is…it :disappointed:|negate

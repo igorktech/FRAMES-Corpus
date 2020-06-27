@@ -1,0 +1,29 @@
+USR|Hello there!|greeting
+SYS|Hi there, where are you looking to go today?|greeting
+USR|I am not sure yet, I have a few options which I am looking to explore|null
+SYS|I can help with that, where are you looking to depart from?|request
+USR|I need to see to a disobedient little Sharpei in Long Beach I would be available to travel from the first of September until the 18th|inform
+SYS|That sounds like fun!|request
+SYS|Do you have a city of departure in mind?|request
+USR|No, I have no set departure city.|inform
+USR|I am often travelling.|inform
+SYS|Got it.|offer
+SYS|We can get you from Los Angeles to Long Beach, from September 8 to 18.|offer
+SYS|Would this work?|offer
+USR|That could work yes, is it under 4800 dollars?|inform
+SYS|Definitely, total cost comes to 1062.90USD.|inform
+USR|Is the hotel near a park?|inform
+SYS|Its not, but its near an airport!|inform
+USR|Can you look into Pittsburgh for me|inform
+SYS|Would this be Pittsburgh as the city of origin or Pittsburgh as the destination?|confirm
+USR|Destination|affirm
+SYS|I've got you a 3.5 star hotel near the park!|offer
+SYS|How does 13 days at the Onyx Isle Hotel, from September 3 to 18, sound?|offer
+USR|Where is this hotel situated?|request
+SYS|Its in Pittsburgh, as you requested.|inform
+USR|I mean what is nearby the hotel|request
+SYS|Just the park.|inform
+USR|Book me please|inform
+SYS|Will do!|inform
+SYS|Have a great stay!|inform
+USR|Thank you :dog:|thankyou

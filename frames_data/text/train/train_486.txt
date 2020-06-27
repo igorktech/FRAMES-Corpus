@@ -1,0 +1,33 @@
+USR|hey|greeting
+SYS|Hi!|greeting
+SYS|How can I assist?|greeting
+USR|im in an empty office, once again.|request
+USR|dreaming about alexandria.|request
+USR|im south of the border in ciudad juarez.|request
+USR|i havent got the ability to take any time off right now unfortunately, but ive got 5 thousand bucks saved up for when i can take time off.|request
+USR|so whats available in alexandria for that price?|request
+SYS|There's a 3 star hotel near a university.|offer
+SYS|It includes free breakfast, wifi, and parking.|offer
+SYS|The trip departs September 8th and returns on the 13th.|offer
+SYS|Business class flight costs 1109.95 and economy costs 926.57.|offer
+USR|not bad.|inform
+USR|but also not amazing 
+i could always just take a trip for me i suppose… instead of visiting relatives..
+where could i stay if i went to goiania|inform
+SYS|Scarlet Palms Resort.|offer
+SYS|3.5 star rating.|offer
+SYS|Near a park and shopping.|offer
+SYS|Amenities include free breakfast, wifi, and parking.|offer
+SYS|Departure date is August 27th, return date is September 9th .|offer
+SYS|Costs are 4653.52 for business class and 3598.52 for economy.|offer
+SYS|Another package departs August 28th and returns September 15th.|offer
+SYS|Costs are 4148.88 for business class and 3208.28 for economy.|offer
+USR|i could splurge on business class :heart_eyes: so I take it Scarlet Palms resort is the only one you’ve got availabilities at ?|confirm
+SYS|Yes.|affirm
+USR|hmm ok, ok.|inform
+USR|anything impressive in Brasilia?|inform
+SYS|Our best is at a 3.5 star hotel, Parallel Angel.|offer
+SYS|Departing August 29th and returning September 8th.|offer
+SYS|The hotel is near a park, beach, and theatre, with free breakfast wifi and parking included.|offer
+SYS|The cost is 3983.20 for business class.|offer
+USR|I love the sounds of that one thanks, its been a pleasure dreaming with you|thankyou

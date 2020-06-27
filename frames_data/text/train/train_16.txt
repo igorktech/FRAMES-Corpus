@@ -1,0 +1,5 @@
+USR|HI im from Alexandria looking to book a 12 day vacation|inform
+SYS|I only have flights available to Vancouver, Canada at the moment.|suggest
+SYS|Would that be satisfactory?|suggest
+USR|no sorry that wouldn’t.|thankyou
+USR|I will look elsewhere thank you!|thankyou

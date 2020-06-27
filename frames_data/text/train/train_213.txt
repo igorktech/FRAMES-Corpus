@@ -1,0 +1,26 @@
+USR|Hi, I need to go somewhere warm!|inform
+SYS|Where would you like to leave from?|request
+USR|Columbus, it's much colder here than people think.|inform
+SYS|Oh, ok!|request
+SYS|When would you like to travel?|request
+USR|Ideally, I need to leave this Thursday the 25|inform
+SYS|Ok!|request
+SYS|And did you have any particular location in mind?|request
+USR|Not really, just warm, beach and sunshine.|inform
+USR|I have $3400.00 to spend.|inform
+SYS|Alright, and do you have a return date in mind?|request
+USR|Yes I must be back for my sister's wedding on 12 September, I'm the maid of honour.|inform
+USR|She will kill me if I'm not back on time.|inform
+USR|I really need to get a tan before the wedding though!|inform
+SYS|Ok!|offer
+SYS|I have something in mind for you.|offer
+SYS|Would you be interested in Monterrey, Mexico?|offer
+SYS|I can book you a 4.0 star hotel on the beach for 1057.88!|offer
+SYS|You would leave August 27 and return home on September 7|offer
+USR|That sounds so perfect!|inform
+USR|What is included in that package?|inform
+USR|I do not like to pay for my breakfast!|inform
+SYS|You’re in luck!|inform
+SYS|Free breakfast, free wifi, and free parking are all included in the package!|inform
+USR|Book it!|inform
+SYS|Sure thing :slightly_smiling_face: Thank you for using my services today.|inform

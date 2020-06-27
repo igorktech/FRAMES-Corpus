@@ -1,0 +1,29 @@
+USR|hi.|inform
+USR|i have a 6 days vacation.|inform
+USR|starting friday sept 2 2016.|inform
+USR|and id like to go to paris|inform
+SYS|Where are you leaving from?|request
+USR|from toronto|inform
+SYS|Do you have a budget?|request
+USR|no|inform
+SYS|There are only packages from Toronto to Denver and one to Atlanta|suggest
+USR|what not to parises?|inform
+USR|or Marseille|inform
+SYS|There are two options for trips from Toronto to Marseille.|hearmore
+SYS|Would you like more information?|hearmore
+USR|yes|affirm
+SYS|Both hotels are 4 stars.|offer
+SYS|The first option is from September 16th to 18th.|offer
+SYS|The hotel offers free wifi and there is also a museum nearby.|offer
+SYS|The economy seats cost 2365.33 and business seats cost 2985.90.|offer
+SYS|The second option is from September 17th to 18th, the hotel is near a cathedral and offers free wifi and spa.|offer
+SYS|Economy seats for this package costs 2454.40 and business seats cost 3106.38.|offer
+USR|ok economy please, cathedral and spa option|switch_frame
+SYS|Great!|suggest
+SYS|Do you want to book this trip?|suggest
+USR|yes|affirm
+SYS|Lovely!|inform
+SYS|Your trip has now been booked!|inform
+SYS|Thank you and have a nice day!|inform
+USR|thx.|thankyou
+USR|bye.|thankyou

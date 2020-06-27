@@ -1,0 +1,33 @@
+USR|hi.|inform
+USR|i need a vacation.|inform
+USR|im in berlin and wondering about trips to milan|inform
+SYS|I can help you book a vacation!|request
+SYS|What dates did you have in mind?|request
+USR|from berlin to milan.|inform
+USR|what is available|inform
+SYS|I have a 13 day trip departing on August 26, returning on September 7.|hearmore
+SYS|Would you like to hear more about this option?|hearmore
+USR|yes, I would.|affirm
+USR|paint me a picture with your words|affirm
+SYS|With pleasure.|offer
+SYS|For a paltry 646.37USD, you can let loose amidst the luxuries of the 4 star Pink Star Hotel, whose guests have given it a 8.37/10 rating.|offer
+SYS|You will be within easy walking distance of the heart of the city, with museums and the cathedral on offer.|offer
+SYS|The award-winning continental breakfast and state-of-the-art wifi are also provided for our valued guests, free of charge.|offer
+USR|what if i went to san juan?|inform
+USR|what would the packages be like?|inform
+SYS|Would you like to hear more about our 10 day package from September 6 to 14th?|offer
+USR|yes, yes.|switch_frame
+USR|indulge me|switch_frame
+SYS|You would be staying at the exclusive Supreme Seaside Inn & Suites, a 2.5 star hotel near the park and mall.|suggest
+SYS|For only 1657.59USD, you will have full access to amenities such as free breakfast and wifi.|suggest
+SYS|Would you like me to book this package for you?|suggest
+USR|less of a marvel  but lovely in its own right.|inform
+USR|what if I splurged and went all the way to Frankfurt?|inform
+USR|what kind of trip could I have then?|inform
+SYS|We have a trip available for 14 days, from August 29 to September 11.|offer
+SYS|Would you be interested in hearing more about this option?|offer
+USR|yes please, tell me more|switch_frame
+SYS|The trip will be at the delightful Mellow Palms Resort, which is rated 4.5 stars and 8.86/10 by its guests.|suggest
+SYS|For only 810.54USD, you will be able to enjoy free breakfast and free wifi.|suggest
+SYS|Should I book this trip for you?|suggest
+USR|sounds like a great hotel!|goodbye

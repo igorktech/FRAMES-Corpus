@@ -1,0 +1,20 @@
+USR|I need to get to Porto Alegre.|inform
+USR|from Lima
+I need to return by September 10
+but I will leave as soon as possible
+and I'm bringing a friend, I'll be paying for her|inform
+SYS|The most luxurious package with availability in Porto at the moment is the Golden Keep Hotel available for 5 days from Sept 6 to the 10th.|offer
+SYS|It is only a 4 star rated hotel, but it does have a perfect 10/10 guest rating, the highest rating possible.|offer
+USR|what have you got available in Puebla|inform
+SYS|Nothing  at the moment.|request
+SYS|Are you able to change your dates at all?|request
+USR|I can return on the 11th instead.|inform
+USR|does that yield anything better?|inform
+SYS|No it does not.|no_result
+USR|well the Porto 4 star will have to do|switch_frame
+SYS|It is near the beach, park and shopping with business class seats.|suggest
+SYS|Would you like me to book you?|suggest
+USR|yes, do that|inform
+SYS|Total price for this package for 2 adults is 8723.68USD.|inform
+SYS|Thank you for your booking.|inform
+USR|thanks|thankyou

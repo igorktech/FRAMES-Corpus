@@ -1,0 +1,24 @@
+USR|helllloooo, couple of lovebirds here looking to get away to Burlington for our honeymoon :heart_eyes::smiley_cat::two_women_holding_hands:|greeting
+SYS|Hello, I can offer you a deal on a 12-day package in Burlington at the Noble Bazaar Resort.|greeting
+SYS|Your flight would leave from New York.|greeting
+SYS|How does that sound?|greeting
+USR|we are not in New York :confused: can we leave from Stuttgart?|inform
+SYS|I have round-trip packages from Stuttgart running from the 27th to the 31st and from the 18th to the 22nd.|suggest
+SYS|Do either of these dates work for you?|suggest
+USR|leaving on the 18th is great but we would like to go for 7 days perhaps there's something avialable in Santiago?|inform
+SYS|I have one package for Santiago, unfortunately it only runs from the 26th to the 30th of August.|sorry
+SYS|Would you like to hear more about this package, or would you like to try another destination?|sorry
+USR|lets go back to Burlington in that case.. how much for the package leaving on August 18?|request
+SYS|The best deal I could offer you on this package would be 4645.29USD.|suggest
+SYS|The Celestial Inn & Suites is a 3-star hotel with a 8.69/10 guest rating, free breakfast and free wifi.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|aww man, I really can't go that much over the budget... the wedding was way too expensive.|negate
+USR|how much for the Santiago trip?|negate
+SYS|The Santiago package is 1176.93USD in total.|inform
+USR|wow, ok.. let's book that then, assuming the hotel is nice?|moreinfo
+SYS|You would be staying in the Una casa, a 3-star hotel with a 0/10 guest rating, free breakfast, free wifi and free parking.|inform
+USR|ok, that's good enough.|inform
+USR|let's book it :smile:|inform
+SYS|Your desination has been booked.|inform
+SYS|Enjoy your trip!|inform
+USR|thanks!|thankyou

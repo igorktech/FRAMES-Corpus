@@ -1,0 +1,25 @@
+USR|I want to get away for a bit!|inform
+USR|im from Houston|inform
+SYS|I can help you with that!|suggest
+SYS|Would you be interested in travelling to Calgary or Denver?|suggest
+SYS|I have great deals available!|suggest
+USR|OH i've never been to the north pole!|switch_frame
+USR|what is Calgary like?|switch_frame
+SYS|There are cheap hotels available with free wifi and free parking in Calgary!|suggest
+SYS|Would you like me to search for trips to North Pole?|suggest
+USR|I thought calgary was there!|inform
+USR|what do the prices look like?|inform
+SYS|I have a 4 star hotel available for 12 days in Calgary at a cost of 228.28USD.|offer
+SYS|How does this sound?|offer
+USR|what type of flight is that?|request
+SYS|It is a direct economy class flight leaving from Houston at 3pm August 17.|inform
+USR|that seems like it could be a great possibility what about Denver|switch_frame
+SYS|You can book 11 days at a 3 star hotel in Denver for 259.65USD.|offer
+USR|seems like calgary is cheaper.|confirm
+USR|what dates are they?|confirm
+USR|can we book that?|confirm
+SYS|Sure thing!|inform
+SYS|I will book the trip to Calgary for you - the trip dates are from August 17 to August 28.|inform
+USR|sounds amazing!|inform
+USR|lets do it!|inform
+SYS|You're booked!|inform

@@ -1,0 +1,22 @@
+USR|hi.|inform
+USR|I'm looking to go to St. Petersburg from leon
+can you do this for 3100?|inform
+SYS|We can get you there!|request
+SYS|Tell me more about the experience you are looking for i.e # of stars, amenities, your length of stay etc.|request
+USR|Whats the best hotel you got?|inform
+USR|I'm flexible aside from the budget|inform
+SYS|It just so happens that all of our hotels in Leon at the moment are 5 STAR hotels.|offer
+SYS|I have 8, 10 and 12 day stays.|offer
+USR|incredible.|request
+USR|how much does 12 cost|request
+SYS|Do you rather be near the market or on the beach?|suggest
+USR|beach|inform
+SYS|The Serene Palms Resort is located on the beach and is available for a 12 day stay from Sept 6th to Sept 17th.|inform
+SYS|This 5 star resort in not only located on the beach but also close the palace and offers free wifi throughout your 12 day stay.|inform
+SYS|The total value of your complete package is 2439.70USD.|inform
+USR|thats all i needed to know|switch_frame
+SYS|Could I go ahead and book that for you?|suggest
+USR|yes|inform
+SYS|I will look after that immediately and forward confirmation.|inform
+SYS|Thank you and enjoy your holiday!|inform
+USR|thank youQ|thankyou

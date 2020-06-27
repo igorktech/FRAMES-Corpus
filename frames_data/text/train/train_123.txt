@@ -1,0 +1,14 @@
+USR|hi my wife and i wanna bring our 7 little lads n lassies to kochi leaving from san diego  we can spend 28500|inform
+SYS|You're in luck!|hearmore
+SYS|The Remote Hotel has a vacancy from the second to the seventh of September.|hearmore
+SYS|This package is well within your budget at 16738.99USD.|hearmore
+SYS|Would you like to hear more?|hearmore
+USR|brilliant!|request
+USR|whatre the amenities|request
+SYS|This is a 2.5-star hotel with free wifi and a glowing 7.06/10 guest rating.|suggest
+SYS|Would you like me to book this trip?|suggest
+USR|glowing like my wife who is pregnant with our 8 child!|inform
+USR|ok... i will book it.|inform
+SYS|Your trip has been booked!|inform
+SYS|Enjoy your stay!|inform
+USR|thanks buddy|thankyou

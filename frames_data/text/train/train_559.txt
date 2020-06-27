@@ -1,0 +1,22 @@
+USR|Get me and a friend onto a flight to Porto!|inform
+SYS|From where?|request
+USR|Jerusalem|inform
+SYS|I am sorry, my system doesn't return me anything|no_result
+USR|You and your system are TRASH.|inform
+USR|Get me to Santo Domingo then|inform
+SYS|im sorry, maybe try another time|no_result
+USR|No apology not accepted.|inform
+USR|You will get me my trip or die trying
+Vitoria to Porto Alegre then|inform
+SYS|Good news!|offer
+SYS|I have 11 days trip in 4 stars hotel near the beach park and shopping mall at 2764.33USD or 3529.26USD flying business class|offer
+USR|Thats more like it.|inform
+USR|I need to be back before Sept 10|inform
+SYS|In that case, only 3.5 stars hotel are available|offer
+USR|Say it ain't so.|inform
+USR|Ok what if I went from Vitoria to Santo Domingo|inform
+SYS|No results found.|no_result
+USR|Usually I wouldn't want to be caught dead in a 3.5 star hotel, but I'm short on time here.|inform
+USR|Get us on that trip, business class|inform
+SYS|Great, I will book it for you ASAP.|thankyou
+SYS|Thanks for coming|thankyou

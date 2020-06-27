@@ -1,0 +1,32 @@
+USR|get me to puebla|inform
+SYS|Hello|greeting
+USR|from st.|inform
+USR|petersburg|inform
+SYS|Ok!|request
+SYS|Budget?|request
+USR|I've got 1900.|inform
+USR|but only traveling by myself|inform
+SYS|When would you like to travel?|request
+USR|Flexible on dates!|inform
+SYS|Ok!|offer
+SYS|I have a 17 day stay at Grand Brewery Mexico for 1377 USD.|offer
+SYS|It’s a three star hotel with free parking, breakfast, and wifi and a 8.8/10 guest rating.|offer
+USR|Interesting.|inform
+USR|I'm having a hard time deciding between that and Kyoto
+But can you even get me to Kyoto?|inform
+SYS|Not for 1900 dollars unfortunately.|sorry
+USR|What if I left from san jose instead?|inform
+SYS|In that case I have 7 or 9 day packages for you at the Glorious Bazaar hotel plus in Kyoto!|offer
+SYS|A 3 star hotel near a museum with a guest rating of 8.22/10.|offer
+SYS|Also included in this package are free breakfast and free wifi.|offer
+USR|Wow ok!|request
+USR|How much would that cost?|request
+SYS|From Sept 7-14 it would be 1213.16USD with economy class flights.|offer
+SYS|From Sept 2-7 it would cost 1675.12, also in economy class.|offer
+USR|Ok then book me for 7-14 please|inform
+SYS|You’ve got it :slightly_smiling_face: Would you like to upgrade to Business class for an extra $ 329 ?|suggest
+USR|Could I fit that under budget?|switch_frame
+SYS|Yes!|affirm
+USR|I'll play it safe and do economy, but thanks for the offer!|inform
+SYS|Absolutely :slightly_smiling_face: I will go ahead and book you the economy class ticket|inform
+USR|perfect, thanks!|thankyou

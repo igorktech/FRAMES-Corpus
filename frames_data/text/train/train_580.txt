@@ -1,0 +1,15 @@
+USR|Goiania to Marseille, I need a flight for 14 adults for 2300 total.|inform
+USR|This is very important, do you understand?|inform
+SYS|There are no results for your request.|no_result
+USR|Evidently the importance of my request is lost on you.|inform
+USR|Fair enough, find me one ticket for Kyoto then,
+Budget at 7500|inform
+SYS|Our best package comes to 5725.00.|offer
+SYS|The hotel is 3 stars, near a museum, 8.22/10 guest rating, free breakfast and wifi.|offer
+SYS|This is from September 2nd to 13th and this is the business flight.|offer
+USR|Good|switch_frame
+SYS|Would you like to book this?|suggest
+USR|I would|inform
+SYS|Great!|goodbye
+SYS|It is booked!|goodbye
+SYS|Have a great day!|goodbye

@@ -1,0 +1,25 @@
+USR|Hey I'm thinking of going from St. Petersburg to Hamburg, can you help me?|inform
+SYS|I'd love to help!|request
+SYS|When do you need go to?|request
+USR|Anytime between September 14 and 27 would be good.|inform
+SYS|Will it be just you?|suggest
+USR|yep!|affirm
+SYS|I have a fantastic offer for you!|offer
+SYS|It is at the a 4.0 star hotel in the heart of Hamburg for 10 days.|offer
+USR|Oh really, that sounds very good.|request
+USR|What are the dates and how much does it cost?|request
+SYS|It's from the 17th to the 26th and costs 3494.54 with business flights and 2740.40 with economy flights.|offer
+USR|Wow that's excellent.|inform
+USR|Do you mind if I just ask about another city?|inform
+USR|I'm also thinking about going to Indianapolis...|inform
+SYS|No problem!|sorry
+SYS|Unfortunately we don't have anything for Indianapolis that matches your parameters.|sorry
+SYS|Are you dates or budget flexible?|sorry
+USR|Oh that's fine, I'll just stick to Hamburg since it's already such a great deal anyway!|switch_frame
+USR|I'll book the economy package please.|switch_frame
+SYS|Okay it is booked for you!|inform
+SYS|2740.40 will be charged to your account.|inform
+SYS|Anything else I can do for you today?|inform
+USR|No, that's good.|thankyou
+USR|Thanks for helping me out.|thankyou
+SYS|You're very welcome!|you_are_welcome

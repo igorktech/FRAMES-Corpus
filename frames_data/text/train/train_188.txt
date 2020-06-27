@@ -1,0 +1,23 @@
+USR|HELLO THERE I AM IN MILAN AND LOOKING TO TRAVEL TO SANTO DOMINGO ON WEDNESDAY AUGUST 24.|inform
+USR|SORRY FOR ALL THE YELLING I'M IN A HELICOPTER|inform
+SYS|How many people will be travelling with you?|request
+USR|JUST ME.|inform
+USR|JUST GONNA TAKE SOME PICTURES OF MADONNA|inform
+SYS|ok!|request
+SYS|perfect@ when do you need to be back?|request
+USR|DOES NOT MATTER!|inform
+USR|I JUST WANT TO GO ON AUGUST 24|inform
+SYS|How long would you like to go for?|request
+USR|OH I DON'T CARE, BUT I WILL SPEND 3700!|inform
+SYS|How many people will be accompanying you?|request
+USR|ME ONLY ME|inform
+SYS|And how many people will be going?|request
+USR|ME ONLY ME|inform
+SYS|Would a 4 star hotel suit your needs?|suggest
+USR|YES THAT SOUNDS GOOD WHAT IS THE PLACE CALLED ALSO AREN'T THERE ANY 5 STAR HOTELS?|inform
+SYS|Summer Rose, its a 9 day stay with free breakfast, wifi, parking!|suggest
+SYS|it leaves on the 24th as you desired and returns on the 1st of september.|suggest
+SYS|That would be $1930 would you like me to book it?|suggest
+USR|OK BOOK THANK|thankyou
+SYS|I will book that now|inform
+USR|GOODBYE|goodbye

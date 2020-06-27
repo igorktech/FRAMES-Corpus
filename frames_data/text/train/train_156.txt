@@ -1,0 +1,20 @@
+USR|i'm going abroad to check out my options for my internship|inform
+SYS|Hi there!|request
+SYS|Do you have some destinations in mind?|request
+USR|what can you book me from Cancun to Naples under 1200? (|inform
+USR|they aren't paying me so that is a TIGHT budget)|inform
+SYS|It appears I have a flight from Cancun to Naples.|sorry
+SYS|The cheapest available flight is 1947.14USD.|sorry
+SYS|You would be flying out on the 24th of August.|sorry
+SYS|Would you like to hear more about this package?|sorry
+USR|its still over my budget so no I dont care.|inform
+USR|what about to Cordoba?|inform
+SYS|You're in luck!|suggest
+SYS|I can send you to Cordoba for 6 days for 635.35USD.|suggest
+SYS|You would be departing on the 24th.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|ummmm no im leaving the 27th.|inform
+USR|last chance: get me something to Boston|inform
+SYS|I can book you a flight to Boston on the 27th.|suggest
+SYS|The problem is that it is well over your budget at 3067.55USD.|suggest
+SYS|Would you like to hear more about this package anyways?|suggest

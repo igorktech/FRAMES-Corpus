@@ -1,0 +1,23 @@
+USR|We are a large family wanting to travel together to Fortaleza, what can you do for us?|inform
+SYS|How many people?|request
+USR|4 adults and 5 little itty bitty ones|inform
+SYS|Okay.|request
+SYS|Where are you leaving from/|request
+USR|Frankfurt|inform
+SYS|Do you have a budget?|request
+USR|Between us we've got 19900 we saved up|inform
+SYS|When would you like to leave?|request
+USR|Anytime is good for us!|inform
+SYS|Would you like to go for 10 or 6 days?|offer
+USR|Can we go to a nice place for 10 days for 19900?|inform
+SYS|It's a 3 star hotel with a 9.32/10 guest rating, and near a park and museum.|inform
+SYS|They also offer free parking, breakfast, and wifi.|inform
+USR|I like the guest rating on that!|request
+USR|Do you know if there's a pool for the little ones?|request
+SYS|I do not have this information.|inform
+USR|How much is this one?|request
+SYS|15057.55 for economy and 19308.18 for business and this package is from September 21st to 29th.|inform
+USR|Allrighty we will book the economy and keep the rest for a rainy day!|switch_frame
+USR|Thank you kindly.|switch_frame
+SYS|Great!|inform
+SYS|It is booked, have a great trip!|inform

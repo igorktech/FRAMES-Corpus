@@ -1,0 +1,18 @@
+USR|I wanna go to la paz from toluca|inform
+SYS|Ok!|inform
+SYS|Echo is available from August 30-September 7.|inform
+SYS|I will book this for you.|inform
+USR|im not ready to book anything yet, crazy, i wanna see some options here|request_alts
+SYS|What would you like me to assist you with?|null
+USR|i want to see some packages for trips from toluca to la paz|inform
+SYS|The Echo is available for 545.50 dollars from August 30-September 7.|inform
+USR|is there anything else|request_alts
+SYS|The Echo is available from August 25-September 1.|inform
+USR|no.|inform
+USR|lets try from toluca to cordoba|inform
+SYS|The Everland is available from Sept 1-13 for 2634.16USD, or from August 27-September 6 for 3108.14USD.|offer
+USR|Any trips to santos|inform
+SYS|The Hotel Globetrotter from August 30-September 8, Elite Estate Hotel from September 1-10, Starlight from September 2-12 or August 27-September 5.|offer
+USR|i cant book anything.|goodbye
+USR|i dont know why i'm here.|goodbye
+USR|good bye|goodbye

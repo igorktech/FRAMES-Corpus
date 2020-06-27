@@ -1,0 +1,24 @@
+USR|Can you get me out of Pittsburgh on Sunday the 11th|inform
+SYS|Possibly.|request
+SYS|Do you have a budget?|request
+USR|i got 3700 to my name|inform
+SYS|Do you know where you'd like to go?|request
+USR|yes can you get me to essen?|inform
+SYS|Yes.|offer
+SYS|We have a 2 star hotel and a 3 star hotel.|offer
+USR|the 3 star?|request
+USR|how much it cost?|request
+SYS|2262.84 for economy flights and 2908.78 for business flights.|offer
+USR|ok get me out on economy.|confirm
+USR|but it leaves september 11 yes?|confirm
+SYS|There are no flights that leave on the 11th, the 3 star hotel is from September 22nd to 30th.|inform
+USR|how about the 2 star?|request
+USR|as in the earliest departure|request
+SYS|September 16th to 24th.|inform
+USR|ok i'll take what gets me out of here the earliest|inform
+SYS|Alright the economy package for the 2 star hotel leaving the 16th is 2613.80 and the business flights for this package cost 3375.97.|offer
+USR|yeah just get me on the economy flight|switch_frame
+SYS|Great!|inform
+SYS|It is booked!|inform
+SYS|You'll get the rest of the package details in a confirmation email where you can also confirm payment for your trip!|inform
+SYS|Safe travels!|inform

@@ -1,0 +1,39 @@
+USR|hello i need to get to Kyoto after the 12th of September.|inform
+USR|I am leaving from Mexico City|inform
+SYS|Do you have a budget?|request
+USR|and it is very important I be near possible locations for mewtwo spottings ok??|inform
+USR|yeah i am travelling with 3 other adults and all together we have 23700 dollars|inform
+SYS|We have a 3 star hotel near a museum and in the heart of the city.|offer
+USR|how long can we stay there on our budget??|request
+USR|and whne do we leave??|request
+SYS|You can stay for 9 days from September 22nd to 29th.|inform
+USR|you mean you can't get me there any sooner???|inform
+SYS|The earliest flight is on the 16th and it's a 5 day stay to the 9th.|offer
+USR|ok what???|confirm
+USR|16th to the 9th???|confirm
+SYS|19th.|inform
+USR|oh.|inform
+USR|I'd like to stay a little longer than that...
+can you find something more suitable in Ciudad Juarez???|inform
+USR|cause there is a possibility that mewtwo could be there too|inform
+SYS|We have an 8 day stay from the 17th to 23rd in Kyoto.|offer
+USR|oh that sounds ok.|request
+USR|what is that hotel like???|request
+USR|what is it near???|request
+SYS|It is also a 3 star hotel and is near a museum according to my database.|inform
+USR|ah ok.|moreinfo
+USR|but I still wanna check on Ciudad Juarez please|moreinfo
+SYS|We have a 10 day stay from the 14th to 23rd at a 3.5 star hotel near a palace.|offer
+USR|A PALACE.|request
+USR|how much would that package be???|request
+SYS|4176.20.|inform
+USR|SO UNDER BUDGET!!|inform
+USR|yeah yeah yeah lets do it!|inform
+SYS|Great!|confirm
+SYS|The price given was for business class, is this okay?|confirm
+USR|yeah of course !!|affirm
+SYS|Great!|inform
+SYS|The hotel also offers free parking and wifi, along with complimentary breakfasts.|inform
+SYS|I will book this package for you and you will receive a confirmation email shortly.|inform
+SYS|Safe travels!|inform
+USR|you RULE|thankyou

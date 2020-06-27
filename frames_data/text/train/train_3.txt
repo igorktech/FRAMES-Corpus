@@ -1,0 +1,21 @@
+USR|Hi I'd like to go to Caprica from Busan, between Sunday August 21, 2016 and Wednesday August 31, 2016|greeting
+SYS|And what would be your maximum budget for this trip?|request
+USR|Actually it's unlimited for this trip|inform
+SYS|How many adults and how many children will be making this trip?|request
+USR|2 adults|inform
+SYS|I have no trips to Caprica from Busan.|suggest
+SYS|I do have a trip to Mannheim, Germany, one to Kingston , Canada, and another to Toronto Canada.|suggest
+SYS|Would you like to select alternate dates or an alternate travel destination?|suggest
+USR|Do you have anything for San Antonio as a destination?|inform
+SYS|Yes, I do.|suggest
+SYS|I have one for 8445.37 USD.|suggest
+SYS|Would you like to book this package?|suggest
+SYS|The guest rating is 7.15/10 and there is free parking and free wifi.|suggest
+SYS|Leaving Sunday, August 21st at 11:00 a.m. and returning Sunday, August 28th at 1:00 a.m.|suggest
+USR|Is breakfast included?|switch_frame
+SYS|Yes, it is.|inform
+USR|That sounds great.|inform
+USR|1:00 am return on Sunday August 28th is very early in the morning...|inform
+SYS|Would you like to book this package?|suggest
+USR|Yes I would.|thankyou
+USR|Thanks for your help.|thankyou

@@ -1,0 +1,25 @@
+USR|HEY BUD.|inform
+USR|I need to get to Mannheim out of Nagoya.|inform
+USR|I wanna leave Sept 18th|inform
+SYS|How many people are travelling together?|request
+USR|I travel alone|inform
+SYS|I have a 9 day stay and a 15 day stay available in Mannheim|offer
+USR|what’s the price?|request_compare
+SYS|15 days = 2857.72USD and has a departure date of Sept 23rd and lasts 9 days = 3547.22USD and has a departure date of Sept 18|inform
+USR|are those both at the same hotel?|request_compare
+USR|what is the hotel like??\|request_compare
+SYS|Same 5 star hotel, The Regal Resort, just different dates.|inform
+SYS|Wifi is included and there is a spa on the premises.|inform
+USR|Do you know if its close to anything??|request
+SYS|It's right near a park|inform
+USR|they always have pokestops at parks so that’s GOOD NEWS!|inform
+USR|what if I went to Santiago though.. there are also whispers of mewtwo appearing there..|inform
+SYS|Are you trying to stay within a certain budget?|request
+USR|yeah.|inform
+USR|3900 dollars|inform
+SYS|Okay I have the Una casa a 3 star hotel near a museum which includes your breakfast plus parking and wifi for  2995.44USD on a 10 day package|offer
+USR|i would rather be near the park than the museum...so Mannheim instead please|switch_frame
+SYS|Should I book the 15 day package in Mannheim for you then?|suggest
+USR|yeah lets do that PLEASE|inform
+SYS|That has been booked for you, have a great stay in Mannheim|inform
+USR|thanks, friend|thankyou

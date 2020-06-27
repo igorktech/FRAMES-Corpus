@@ -1,0 +1,31 @@
+USR|You can help me by looking for some trips, so that I can escape my problems if only for a short while.|inform
+USR|I need to get out of Nagoya for a bit
+You got flights to Leon?|inform
+USR|I'd like to stay there for 10 days, and I'd like to take my wife and son|inform
+SYS|When would you like to leave?|request
+USR|Not picky with dates, but I hope soon!|inform
+SYS|Do you have a budget?|request
+USR|5400|inform
+SYS|Is there a different destination?|suggest
+USR|Calgary also works|inform
+SYS|There are no results for this either.|suggest
+SYS|Are you able to increase your budget?|suggest
+USR|Unfortunately not...I'm not exactly in good financial standing here Can you think of something here...I really need a trip|request_alts
+SYS|Do you have any other possible destinations in mind?|suggest
+USR|Those were the only two in mind.|request
+USR|You got any other ideas?|request
+SYS|We have trips to Sydney, Munich, Osaka, Kyoto, Tokyo, and Kobe.|suggest
+USR|These are all under my budget?|request_compare
+SYS|yes.|affirm
+USR|Its rather curious that I can get to Sydney but not Calgary But I suppose thats not your fault In any case, can you give me more details?|moreinfo
+SYS|For Sydney?|confirm
+USR|Correct|affirm
+SYS|This is a 4 star hotel near a park, 8.86/10 guest rating, free breakfast, wifi, and parking, departing August 30th, returning September 7th, economy class seats, 5279.67.|offer
+USR|Let me just ask about Munich also|switch_frame
+SYS|The hotel in Munich is a 5 star hotel near a university, 0/10 guest rating, free wifi, departing September 6th, returning September 14th, economy seats, 4635.19.|offer
+USR|0/10 guest rating???|confirm
+SYS|Correct.|affirm
+USR|That is rather frightening Ok I'll ask my wife if Sydney is a suitable destination and get back to you 
+but thanks for all your help, I feel much better now|thankyou
+SYS|No problem!|goodbye
+SYS|Have a nice day!|goodbye

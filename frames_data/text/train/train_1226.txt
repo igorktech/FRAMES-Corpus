@@ -1,0 +1,2 @@
+USR|I would like to find a vacation between the 24th and 27th from San Francisco to Fort Lauderdale for 3800|inform
+SYS|I have no travel packages from San Francisco to Fort Lauderdale|no_result

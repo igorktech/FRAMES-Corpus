@@ -1,0 +1,49 @@
+USR|Hi!|inform
+USR|I hear Hogsmeade has some excellent bars.|inform
+USR|Can you book me a trip there from Diagon Alley, leaving on August 13th?|inform
+USR|For 7 men and women|inform
+SYS|Hi there!|suggest
+SYS|I am searching trips available to Hogsmeade but am unable to find any possibilities.|suggest
+SYS|Is there another destination you might be interested in?|suggest
+USR|Well, we were thinking Dominican Republic could be fun as well.|inform
+SYS|Ok.|inform
+SYS|I will look for trips to Dominican Republic.|inform
+SYS|Do you have another option for a departure city?|inform
+USR|Yes, Vancouver.|inform
+SYS|Great!|request
+SYS|Where would you like to travel to?|request
+USR|Punta Cana is good!|inform
+SYS|Great.|offer
+SYS|I can book a trip for 7 people travelling from Vancouver to Punta Cana for 3853.27USD.|offer
+USR|that's just a little over my budget... what about for 3 adults instead of 7?|negate
+SYS|For three adults, this trip would cost 1651.40USD.|offer
+USR|The trip meant to be a bachelor party for my friend.|switch_frame
+USR|is there an open bar at the hotel?|switch_frame
+SYS|I do not have this information for the El Mar hotel in Punta Cana.|inform
+USR|How many stars is it?|request
+SYS|2.5 stars.|inform
+USR|Let's try 4 stars.|inform
+SYS|I'm having trouble finding 4 star hotels in Punta Cana for you.|request
+SYS|Perhaps if you provided a departure and/or return date I could narrow things down?|request
+USR|End of August, anytime after the 22nd of August.|inform
+SYS|I am only able to find hotels with a 2.5 star rating in Punta Cana for that time.|inform
+USR|2.5 stars will do.|inform
+USR|Can you offer any additional activities?|inform
+SYS|Unfortunately I am not able to provide this information.|sorry
+USR|How about breakfast?|request
+SYS|El Mar does not provide breakfast.|inform
+USR|Are there other hotels in the area that do?|request_alts
+SYS|I am unable to find other hotels in Punta Cana that offer free breakfast.|no_result
+USR|In that case I will book the first one for 1651.|switch_frame
+USR|40 USD.|switch_frame
+SYS|Great!|inform
+SYS|You will leave Vancouver at 10:00 am - Wednesday, August 24th.|inform
+USR|When do we leave?|request
+SYS|You will leave Vancouver at 10:00 am - Wednesday, August 24th.|inform
+USR|leave Punta Cana?|request
+SYS|You will leave Punta Cana at 4:00 am - Tuesday, August 30th.|inform
+USR|Great!|thankyou
+USR|I'll book this one.|thankyou
+USR|Thank you|thankyou
+SYS|Great!|thankyou
+SYS|Thank you|thankyou

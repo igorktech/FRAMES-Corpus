@@ -1,0 +1,23 @@
+USR|hey there!|inform
+USR|i am looking to go to fortaleza for spring break with 3 of the boys.|inform
+USR|what can you get me for 1600|inform
+SYS|Unfortunately the best deal I can give you on a package to Fortaleza is 3491.71USD for four days.|sorry
+SYS|Would you like to try another destination?|sorry
+USR|yeah in that case lets look at burlington|inform
+SYS|I can offer you 12 days in Burlington for 1732.63USD.|offer
+SYS|How does that sound?|offer
+USR|that is close to the budget - i like it!|inform
+USR|can we travel august 25?|inform
+SYS|This particular package leaves August 27th.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|wwhen do we retunr|request
+SYS|Your return flight is on the 7th of September.|inform
+USR|we are hoping to return by the 5th.|inform
+USR|anything from mexico city to burlington between those dates|inform
+SYS|How does August 27th to September 1st sound?|offer
+SYS|I can book you a 6-day stay for 4414.71USD.|offer
+USR|mannnn we really cant spend that much.|inform
+USR|2600 tops
+nothing in fortaleza either??from mexico city|inform
+SYS|Unfortunately I cannot find any packages to these destinations that are within your budget.|sorry
+USR|ah damn|thankyou

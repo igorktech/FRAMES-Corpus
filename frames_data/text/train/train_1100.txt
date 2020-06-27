@@ -1,0 +1,36 @@
+USR|Hey, my colleagues and I want to go on a trip sometime between September 6 and September 10, if possible.|inform
+SYS|Ok, where are you located?|request
+USR|Punta Cana.|inform
+SYS|And where would you like to go?|request
+USR|Punta Cana.|inform
+SYS|How many of you are there?|request
+USR|It will be for the 4 of us.|inform
+SYS|I can’t find anything between those dates unfortunately, could you return a couple days later?|sorry
+USR|What if I try a different destination between those dates?|request_alts
+SYS|Where would you like to try?|request
+USR|Los Angeles.|inform
+SYS|Nothing, sorry.|sorry
+SYS|It seems the dates are the issue.|sorry
+USR|Okay let's stick with Punta Cana.|inform
+USR|I guess we could be a bit flexible with the dates.|inform
+SYS|Great :slightly_smiling_face: Is there a maximum amount of days you would like to travel?|request
+USR|Not really, but something as close to the original dates as possible would be great.|inform
+USR|So maybe about 5 or so days would be good.|inform
+SYS|The shortest I seem to find is 12 days from Sept 6-17.|offer
+USR|What if I go to Los Angeles?|inform
+SYS|I can do 10 days in Los Angeles from Sept 8-17.|offer
+USR|Nevermind.|moreinfo
+USR|Could you please give me more details about the 12 days trip to Punta Cana?|moreinfo
+USR|Thanks.|moreinfo
+SYS|There are 3 packages actually.|inform
+SYS|The Scarlet Peaks Hotel, a 3 star hotel, Atlantis Gorge, a 2.5 star hotel, and the Plaza Serene Raven, another 3 star.|inform
+USR|Which one's the cheapest between the 3 star hotel packages?|request_compare
+SYS|Scarlet Peaks Hotel would cost 3499.15USD.|inform
+USR|And the Plaza Serene Raven?|switch_frame
+SYS|3735.20USD|inform
+USR|Okay, I'll take the Scarlet Peaks Hotel package please.|inform
+SYS|Sure!|inform
+SYS|That hotel has a 6.77/10 user rating, is near a cathedral, and provides free breakfast and wifi.|inform
+USR|Great, sounds perfect.|thankyou
+USR|Thank you.|thankyou
+SYS|My pleasure :slightly_smiling_face:|you_are_welcome

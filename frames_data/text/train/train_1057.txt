@@ -1,0 +1,12 @@
+USR|Hi!|inform
+USR|I'd like to go to Washington from Burlington|inform
+SYS|I have no packages available for Burlington to Washington|no_result
+USR|What about to Toluca?|inform
+SYS|Nothing for Burlington to Toluca either|no_result
+USR|Balderdash!|inform
+USR|What about Melbourne?|inform
+SYS|Nothing for Burlington to Melbourne|no_result
+USR|WHAT!?!?!|goodbye
+USR|Ugh, kill me now.|goodbye
+USR|Okkay fine.|goodbye
+USR|I'll look somewhere else.|goodbye

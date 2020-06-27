@@ -1,0 +1,17 @@
+USR|Hello.|inform
+USR|I have some business trips coming up|inform
+SYS|Hi!|greeting
+SYS|How can I help you with this?|greeting
+USR|I;m trying to get to Rome from Long Beach.|inform
+USR|Between the 20th of September and the 5th of October.|inform
+USR|No budget.|inform
+SYS|Traveling alone?|suggest
+USR|Yes.|affirm
+SYS|We have an 11 day package from September 26th to October 5th at a 4 star hotel.|offer
+USR|Tell me more, please.|moreinfo
+SYS|The hotel has a 8.8/10 guest rating, is near shopping and a cathedral, they offer free breakfast and wifi, 3170.53 for business flights, and 2460.80 for economy flights.|offer
+USR|I like it.|inform
+USR|I’ll book the business class flights.|inform
+SYS|Great!|inform
+SYS|It is booked!|inform
+SYS|Have a great day!|inform

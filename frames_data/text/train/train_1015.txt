@@ -1,0 +1,45 @@
+USR|Hi!|inform
+USR|I’ve got a little duty to take care of - family vacation time :smile:|inform
+SYS|Where would you like to go?|request
+USR|Me and the gang are looking to get out of Barcelona from September 6th until the 15th.|inform
+USR|We’ve got a few destinations in mind - hows about Mexico City?|inform
+SYS|How many people will be traveling?|request
+USR|2 adults and 6 kids|inform
+SYS|We have a great package at a 3.5 star hotel near the beach, museum, shopping, and mall.|offer
+SYS|The hotel has a 6.37/10 guest rating and offers free parking and wifi.|offer
+SYS|This package is from September 8th to 13th.|offer
+SYS|The business flights included put the price to 16699.53 and is all inclusive.|offer
+SYS|If you are looking for a cheaper option, the cheapest package available is 11941.79.|offer
+USR|Ok, that is within our 15 thousand dollar budget.|inform
+USR|But my kids really love La Paz.. so let’s check that place out|inform
+SYS|We have one result at a 4 star hotel, 8.98/10 guest rating, free parking, breakfast and wifi, from September 8th to 13th, economy flights, for a grand total of 14931.80.|offer
+USR|wow - nice!|request
+USR|Any parks or beaches nearby for the young wippersnappers?|request
+SYS|Not that I'm aware of.|canthelp
+USR|ok.|inform
+USR|I wanna check out Milan then|inform
+SYS|We have one result from September 8th to 13th at a 4 star hotel near a museum, cathedral, and in the heart of the city.|offer
+SYS|The hotel has a 8.37/10 guest rating and offers free breakfast and wifi.|offer
+SYS|The business flight option is 5321.90 and the economy flight option is 4473.34.|offer
+USR|hmm, its not really long...I wanna get the family out of the house for as long as we can|inform
+SYS|Unfortunately the packages I have provided are the longest packages available.|sorry
+SYS|There is one other package I didn't mention but it is the same length of time from the 7th to 12th.|sorry
+USR|ahh, ok.|switch_frame
+USR|well if they’re all the same length.. I think I would be best off going with what the kids are interested in
+Mexico City package will be the best for us|switch_frame
+SYS|The Mexico City package is 16699.53 which is over your 15000 budget.|suggest
+SYS|Are you able to increase your budget or would you like to book the cheaper Mexico City package of 11941.79?|suggest
+USR|what is the difference between the two Mexico City packages?|request_compare
+USR|not in price, in hotel|request_compare
+SYS|The more expensive hotel is a 3.5 star hotel near the beach, museum, shopping, and mall.|inform
+SYS|The hotel has a 6.37/10 guest rating and offers free parking and wifi.|inform
+SYS|This is from September 8th to 13th.|inform
+SYS|I overlooked another option that you can afford which is the economy flights version of this package that costs 12919.26.|inform
+SYS|The other hotel which is the cheapest Mexico City package is a 3 star hotel near the beach, shopping, and mall.|inform
+SYS|The hotel has a 6.91/10 guest rating and offers free parking and wifi.|inform
+SYS|This package is only available for economy flights and is from September 7th to 12th.|inform
+USR|even cheaper for a higher guest rating?!|inform
+USR|we’ll take it|inform
+SYS|Great!|goodbye
+SYS|Glad I was able to help!|goodbye
+SYS|Have a nice day and enjoy the vacation!|goodbye

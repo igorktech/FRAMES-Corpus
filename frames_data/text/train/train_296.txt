@@ -1,0 +1,25 @@
+USR|Greetings, my name is Harold.|inform
+USR|My grandson told me that I can book a flight by talking to a robot over the World Wide Web - I could hardly believe my ears!|inform
+USR|Back in my day, you had to saunter over to the local travel agency and wait in line to talk to an agent.|inform
+SYS|How can I help you?|greeting
+USR|Anyway, I am getting off topic here.|inform
+USR|If you could be so kind, I would like to inquire about possible flights departing from Lima and arriving in Mexico City|inform
+SYS|Do you have a budget for your trip?|request
+USR|I can afford to splurge on this trip! :|inform
+USR|slightly_smiling_face:|inform
+SYS|Great!|suggest
+SYS|Will you be travelling alone?|suggest
+USR|I would like to leave between now and September 1 if possible.|inform
+USR|I'm traveling alone|inform
+SYS|We have one result for your request.|offer
+SYS|It is a 3 star hotel near a beach, and mall.|offer
+SYS|This hotel also offers free wifi and free parking.|offer
+SYS|The economy flight is 1329.53 and the business class is 1657.60.|offer
+SYS|This flight is from August 22nd to September 1st.|offer
+USR|How wonderful!|inform
+USR|You know, I was just thinking how great it would be to bring some of my old fishing pals down to Mexico City with me.|inform
+USR|I hate to be a pain in the backside, but would you be able to add three more to my request?|inform
+USR|Business class please, thank you so very much!|inform
+SYS|You are all booked for this trip!|inform
+USR|I cannot begin to thank you enough!|thankyou
+USR|It will be a hoot and a half!|thankyou

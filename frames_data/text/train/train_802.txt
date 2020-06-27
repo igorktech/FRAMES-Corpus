@@ -1,0 +1,18 @@
+USR|I gots ta get to Minneapolis from Lima|inform
+SYS|Ok!|request
+SYS|When?|request
+USR|on or after sept.|inform
+USR|8th|inform
+SYS|I have a 2.5 star hotel for 10 days.|hearmore
+SYS|Would you like to hear more?|hearmore
+USR|yeah|affirm
+SYS|So, its called the Antique Mantle.|inform
+SYS|It has a 7.15/10 guest rating.|inform
+SYS|The hotel is near a university and has free parking, free breakfast, and free wifi!|inform
+USR|is there anything with a higher rating.|inform
+USR|trying to find madonna|inform
+SYS|I have only one other hotel showing up and it is also 2.5 stars in rating.|offer
+USR|how much is it|request
+SYS|1691 dollars for 10 days at the Antique Mantle.|inform
+USR|ok ill take it and i guess ill just explore the other hotels until i find madonna.|thankyou
+USR|thanks|thankyou

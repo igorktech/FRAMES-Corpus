@@ -1,0 +1,38 @@
+USR|Good morning!|inform
+USR|Can you help me out with booking my next vacation?|inform
+SYS|Yes, where would you like to go?|request
+USR|Well, I have a few places in mind, would you mind checking them for me one by one?|inform
+SYS|Sure.|request
+SYS|Before I do I will need a little bit more information.|request
+SYS|Where are you leaving from?|request
+USR|I'm based in Valencia.|inform
+SYS|Do you have a budget?|request
+USR|Nothing set in mind yet.|request_alts
+USR|Can you provide a few options in different ranges if possible and I can try to make up my mind?|request_alts
+SYS|Sure.|suggest
+SYS|Are you travelling with anyone else?|suggest
+USR|Not planning on it.|negate
+SYS|When would you like to leave?|request
+USR|Oh, this is quite important.|inform
+USR|I got Tuesday, August 30, 2016 to Saturday, September 10, 2016 approved by my boss, so the date is definitely not flexible.|inform
+SYS|We have a nice package to Athens at a 3 star hotel, near a mall, 0/10 guest rating, free parking and wifi, from August 30th to September 10th.|offer
+SYS|Economy package is 2528.73, business package is 3372.76.|offer
+USR|I've been having Mannheim on my mind.|inform
+USR|Can you check that for me?|inform
+SYS|Fabulous!|offer
+SYS|We have a 5 star hotel near a park, 8.98/10 guest rating, spa, free wifi, economy package is 1096.47, business package is 1311.50, departing August 30th and returning September 3rd.|offer
+USR|Do you have longer packages at this hotel?|inform
+SYS|Unfortunately we do not, this is our only package to Mannheim.|sorry
+USR|Okay that's fair.|inform
+USR|Lastly, can you check Fortaleza for me?|inform
+SYS|We have a 3 star hotel by a mall, 7.15/10 guest rating, free parking, breakfast, and wifi, the economy package costs 2466.74, the business package costs 3167.70, and the trip is from September 2nd to 6th.|offer
+USR|Okay you know what... my favorite is the business package to Mannheim.|switch_frame
+USR|Can we go back to that?|switch_frame
+SYS|Sure.|suggest
+SYS|Would you like to book it?|suggest
+USR|Yes that'd be awesome if you can book it for me!|inform
+SYS|There!|goodbye
+SYS|It is booked!|goodbye
+SYS|You will get a confirmation email within the next 20 minutes.|goodbye
+SYS|Have a nice day and safe travels!|goodbye
+USR|Super!|thankyou

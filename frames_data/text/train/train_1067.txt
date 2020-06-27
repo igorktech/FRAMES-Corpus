@@ -1,0 +1,19 @@
+USR|Hi I want to go to Tijuana from Santo domingo for 2400|inform
+SYS|One person?|suggest
+USR|yea|affirm
+SYS|Are you available for travel from September 12th to the 20th?|offer
+USR|ya|switch_frame
+SYS|We have the 3 star Resort Jade Covert available for 9 days during that time period.|inform
+SYS|It includes amenities such as wifi, parking and a complimentary breakfast.|inform
+USR|ok....ok...anything to Indianapolis?|inform
+SYS|13 day package okay?|offer
+USR|sure|switch_frame
+SYS|The Hotel Vanilla is a 3 star hotel located near the park, beach, airport and university and included amenities such as wifi, parking and a complimentary breakfast.|inform
+USR|cool beans.|inform
+USR|Anything to Denver?|inform
+SYS|We have a nice 4 star hotel in Denver available for 15 days for 1375.21USD departing September 9th and returning on the 23rd|offer
+USR|ugh.|thankyou
+USR|i want this.|thankyou
+USR|unfortunately im stuck working a dead end job and dont have any vacation days left.|thankyou
+USR|Thanks for entertaining my imagination tho|thankyou
+SYS|You are welcome, come again.|you_are_welcome

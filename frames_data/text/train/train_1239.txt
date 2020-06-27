@@ -1,0 +1,32 @@
+USR|I want to go to Pittsburgh from Boston please.|inform
+SYS|Sure!|request
+SYS|Do you have dates in mind?|request
+USR|nope but i only have 2000|inform
+SYS|No problem!|offer
+SYS|I have 8, 11, and 12 days packages avabilable for you.|offer
+SYS|Which would you prefer?|offer
+USR|12 i suppose|switch_frame
+SYS|Then you would be staying at the 2.5 star Majestic Mountain Inn from September 12th to 23rd.|inform
+SYS|It has a 6.91/10 guest rating and is situated near a park.|inform
+SYS|Furthermore, complimentary breakfast, wifi access, and parking are included in your package price of $990.70.|inform
+USR|Is there anything with a higher rating for the other packages?|request_compare
+SYS|Sunny Wolf Inn & Suites has the same rating but a higher guesting rating: 8.49/10.|inform
+USR|Do you have anything in SL?|inform
+SYS|I have the 3 star Chateau Inn & Suites  for 16 days, the 3.5 stay Palacio Tranquila  for 14 or 11 days, and the 3 star Glorious Cloak Inn for 11 days all within your budget.|inform
+USR|3.5 stars sounds good.|switch_frame
+USR|What is the hotel like?|switch_frame
+SYS|The 3.5 star hotel is 3.5 stars.|inform
+USR|Wow.|request
+USR|Thanks for stating the most obvious thing ever.|request
+USR|What does the hotel include?|request
+SYS|The Palacio Tranquila includes free parking, free breakfast and free wifi.|inform
+SYS|It is near a theatre and offers airport pickup and dropoff services.|inform
+SYS|The guest rating is 9.16.|inform
+USR|ok I would like to book this one.|request
+USR|Can I get business seats and still stay within my budget?|request
+SYS|Absolutely!|offer
+SYS|The total cost would be 1633.0USD.|offer
+USR|Good!|inform
+USR|I'll take it then|inform
+SYS|Great - confirmation will be emailed to you.|inform
+USR|Thanks so much|thankyou

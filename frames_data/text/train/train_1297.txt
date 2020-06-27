@@ -1,0 +1,16 @@
+USR|Hi there, I NEED to go to Miami!|inform
+SYS|Ok :slightly_smiling_face: Where from?|request
+USR|Queenstown.|inform
+USR|It'll be 9 adults and 2 kids|inform
+SYS|I can’t find anything to Miami with that many people.|suggest
+SYS|Can I try another destination for you?|suggest
+USR|What?|inform
+USR|No, Miami is the place I need to get to!|inform
+USR|There's amazing pastry recipes at stake!|inform
+USR|Are you sure about this?|inform
+SYS|Can you leave from somewhere by chance?|suggest
+USR|No, there's too many of us.|goodbye
+USR|I think I'm going to have to use another service.|goodbye
+USR|Goodbye.|goodbye
+SYS|Sorry.|sorry
+SYS|Good luck|sorry

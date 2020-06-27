@@ -1,0 +1,25 @@
+USR|Hi im from Hauston looking to get to my internship|inform
+SYS|Where would you like to go and when would you like to start?|request
+USR|Ulsan, i should be ther on August 27th|inform
+SYS|Let me see what I can find.|request
+SYS|Do you have to stick to a budget?|request
+USR|$5600 unfortunately very tight budget|inform
+SYS|I have here 11 days in Ulsan at a 5 star hotel for 4484.47 USD, what do you think?|offer
+USR|What do you have in Athens|inform
+SYS|I have 5 day stays starting at 4038.40 USD in Athens.|offer
+USR|When does it leave?|request
+SYS|For 4102.24 USD, you can leave on August 27th.|offer
+USR|I will have to book that|inform
+SYS|Great!|inform
+SYS|The Lunar Jewel Lodge is a 3 star hotel with free wifi and parking.|inform
+USR|you know wha never mind scratch that i want to book the 11 day stay in ulsan|inform
+SYS|The Crimson Seaside Hotel has 4 stars and a 7.06/10 user rating.|inform
+SYS|It's located near the market and royal palace, and offers free wifi and parking.|inform
+USR|when would it leave and return?|request
+SYS|It leaves August 27th at 1:29 am and returns on September 5th.|inform
+USR|That seems great!|request_compare
+USR|and what is that like compared to if i wanted to go to Tolucca|request_compare
+SYS|I'm sorry, but I cannot find any results for Tolucca.|sorry
+USR|OKay well let’sbook the one to ulsan|inform
+SYS|Fantastic, you're all booked up!|inform
+USR|Thank yoU!|thankyou

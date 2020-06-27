@@ -1,0 +1,32 @@
+USR|Good afternoon to you, I have 4 days off coming up and I need a little getaway.|inform
+SYS|Great!|request
+SYS|When would you like to travel?|request
+USR|On August 15.|inform
+SYS|Where would you like to go and where will you be leaving from?|request
+USR|I don't really care where I go to be honest.|inform
+USR|If you offer me a good deal leaving on August 15, I will take it.|inform
+USR|No more than 4 days though.|inform
+SYS|Where will you be leaving from?|request
+USR|Berlin|inform
+SYS|Do you have a budget?|request
+USR|No budget.|inform
+USR|I just want it to be fabulous!|inform
+SYS|We have a package to Punta Cana at a 3.5 star hotel that includes free breakfast and wifi.|offer
+SYS|This will cost 2471.91.|offer
+SYS|Does this interest you?|offer
+USR|I've been to Punta Cana.|request_alts
+USR|What else do you have?|request_alts
+SYS|Columbus|suggest
+USR|Can you tell me about the Columbus package.|request
+USR|I hope it has a spa!|request
+SYS|This package has a 3.5 star hotel, museum, shopping mall, and it is in the heart of the city.|inform
+SYS|The hotel provides free breakfast and wifi.|inform
+SYS|This trip is from August 21st to the 24th and costs 2490.14.|inform
+SYS|Does this interest you?|inform
+USR|Do any of the packages in Punta Cana have a spa? :|inform
+USR|haircut:|inform
+SYS|Unfortunately they do not.|sorry
+USR|Are any of the packages in Punta Cana at a 5 star rated hotel or close to the beach?|inform
+SYS|Sorry, none of the packages are by the beach and the highest hotel rating is a 3.5.|sorry
+USR|I really want a spa.|inform
+USR|If you have nothing to offer with a spa, I'll shop around then.|inform

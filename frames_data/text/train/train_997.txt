@@ -1,0 +1,46 @@
+USR|Hi there!|inform
+USR|I'm looking for a nice getaway trip sometime between tomorrow and Monday September 26|inform
+SYS|That sounds wonderful!|request
+SYS|Where are you coming from?|request
+USR|I'll be coming from Seoul and I'm thinking about going to Curitiba|inform
+SYS|Will it just be yourself?|suggest
+USR|No, it will be me and my best friend.|inform
+SYS|Perfect.|request
+SYS|We have quite a few range of offerings.|request
+SYS|Do you have a budget or do you just want to hear the best available packages we have?|request
+USR|No budget, just give me the best you've got!|inform
+SYS|Alrighty, our best vacation package is at a 3.5 star beachside hotel.|offer
+SYS|In the past, guests have rated it 8.22/10.|offer
+SYS|While there, you can enjoy access to free parking, free breakfast, and free wifi.|offer
+SYS|We offer a 8 day stay there with business flights available.|offer
+SYS|If you are interested, we also have a few 3 star hotels available.|offer
+USR|You don't have any hotels with 4 stars?|inform
+USR|And only 8 days?|inform
+USR|I prefer something longer!|inform
+SYS|The 3.5 star hotel is the best available in Curitiba.|offer
+SYS|And we do offer trips up to 14 days.|offer
+SYS|However, they will be at 3 star hotels.|offer
+SYS|Are you interested?|offer
+USR|Huh I don't know.|negate
+SYS|I am giving you the best options in Curitiba.|suggest
+SYS|Would you like to try another destination?|suggest
+USR|Yeah let's try Sydney.|inform
+USR|I want the best and I've got like two and a half weeks of free time.|inform
+SYS|Sydney is looking better!|offer
+SYS|I've got a 4.0 star hotel with 8.86/10 guest rating.|offer
+SYS|I can take you there for 6 days on business flights.|offer
+USR|6 days only?|inform
+USR|I was hoping for something longer.|inform
+SYS|This is the only trip available in Sydney.|inform
+USR|I think Curitiba must be better then.|switch_frame
+SYS|I agree.|inform
+SYS|Would you like to further explore some of the options in Curitiba?|inform
+USR|I think I'll take the beachside hotel deal for 8 days if that's the best there is.|switch_frame
+SYS|Sure!|suggest
+SYS|It will be 12555.78 for the business package.|suggest
+SYS|Would you like me to book it for you?|suggest
+USR|I'll take the package|inform
+SYS|Glad to help!|inform
+SYS|This is booked for you!|inform
+SYS|Hope you have a pleasant trip!|inform
+USR|Thank you.|thankyou

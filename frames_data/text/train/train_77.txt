@@ -1,0 +1,24 @@
+USR|Hi!|greeting
+USR|My 3 best friends and I are looking for a trip to Neverland between August 16 and 19 on a very tight budget of $3500.|greeting
+USR|What can you do for us?|greeting
+SYS|Hello.|confirm
+SYS|Are you totally set on Neverland or do you have any other possible places you would like to visit?|confirm
+USR|Sorry, my mistake.|inform
+USR|we are leaving from Neverland and would like to go to Leon.|inform
+SYS|If you could leave out of Santiago or Valencia, I may have something available in Leon.|suggest
+SYS|Is that a possibility?|suggest
+USR|Sure, why not!|affirm
+USR|Lets see what's available.|affirm
+SYS|Out of Valencia?|confirm
+USR|Our friend The Amazing Peter can take us anywhere, Valencia Spain would be the most convenient.|switch_frame
+SYS|From August 17 to the 23rd, I have a beautiful 5 star property called El Hotel Del Mar available for a 7 day stay.|confirm
+SYS|Are you able to stay until the 23rd?|confirm
+USR|I'll have to check with my 3 best friends.|request
+USR|How much is the package?|request
+SYS|It's well within your budget at $1739.33USD.|suggest
+SYS||suggest
+USR|August 17 to the 23rd works for everyone, even Peter Pan, who will take us to the airport.|request
+USR|Is breakfast included?|request
+SYS|Awesome.|inform
+SYS|I will take care of confirming the booking for you right away.|inform
+USR|Thank you very much!|thankyou

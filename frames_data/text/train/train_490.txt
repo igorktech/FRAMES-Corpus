@@ -1,0 +1,23 @@
+USR|im leaving from belo horizonte.|inform
+USR|send me to dallas|inform
+SYS|How many people?|request
+USR|ahh.|inform
+USR|two|inform
+SYS|Nice!|request
+SYS|When would you like to leave and do you have a budget?|request
+USR|no budget darling.|inform
+USR|leave asap|inform
+SYS|The earliest package we have available leaves August 27th and returns August 30th.|offer
+SYS|This is at Winter Arc, a 2.5 star hotel in the heart of Dallas and near a museum.|offer
+SYS|The hotel also offers free breakfast and wifi.|offer
+SYS|The business package costs 5554.80.|offer
+USR|2.5 stars isnt going to do sadly.|request_alts
+USR|anything better, leaving shortly after?|request_alts
+SYS|This is the only hotel available.|suggest
+SYS|Do you have a different destination?|suggest
+USR|well, far less options available than your competitors.. strike one.|inform
+USR|i suppose tijuana would do as a destination|inform
+SYS|There are two hotels available, Resort Jade Covert which is a 3 star hotel, and Hotel Perfection which is 2.5 stars.|inform
+USR|i could leave from london if need be..what would i be looking at then?|request
+SYS|There is nothing more than 2.5 stars.|negate
+USR|how tragic|null

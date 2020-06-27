@@ -1,0 +1,23 @@
+USR|san antonio i live in.|inform
+USR|i go to anywehere
+i spend 4 thousand dollars plus more 300 dollars|inform
+SYS|There's presently some awesome deals out of San Antonio.|request
+SYS|How long do you want to go for?|request
+USR|until september of ninth but not before i will leave for 3 in september as well too please|inform
+SYS|So how many days maximum?|request
+USR|6 is math answer|inform
+SYS|I have departures on August 27, August 30 or Sept 6, which do you prefer?|suggest
+USR|no.|inform
+USR|i go for 3 of spetmebr
+i will be BACK HOME for 6|inform
+SYS|Are you flexible on your travel dates at all?|request
+USR|i wil lbe back for 9 i mean.|switch_frame
+USR|Leaving 3|switch_frame
+SYS|I only have 4 days packages available from the 6 to the 9 within the dates you have provided me with.|offer
+SYS|Departure Sept 6 and returning September 9.|offer
+SYS|Is that something that would interest you?|offer
+USR|yes thank u where i go|request
+SYS|You can go to Rosario or you can go to Houston.|offer
+USR|price ?|request
+SYS|To Houston 548.25USD, to Rosario 2403.91USD, economy flights for both|inform
+USR|thank you|thankyou

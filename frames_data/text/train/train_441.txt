@@ -1,0 +1,21 @@
+USR|Seven grownups and 4 tots.|inform
+USR|We're heading from Cairo down to our ancestral hometown of Belem.|inform
+USR|Flexible with dates|inform
+SYS|What is your maximum budget for this trip?|request
+USR|32400|inform
+SYS|We have two 4 star hotels and one 4.5 star hotel.|offer
+SYS|Which do you prefer?|offer
+USR|If they're both under budget, then the 4.5 star one obviously Mama ain't raised no fool|inform
+SYS|Would you like economy class seats for your flight or business class seats?|suggest
+USR|We all about the business|inform
+SYS|This package is a 16 day stay at the Zion Hotel.|suggest
+SYS|Amenities include free breakfast, wifi, and parking.|suggest
+SYS|Departing flight leaves on August 24th and the return flight leaves on September 7th.|suggest
+SYS|This package costs 18888.96.|suggest
+SYS|Would you like to book this package?|suggest
+USR|ZION SOUNDS DANK yes lets do it|affirm
+SYS|Great!|goodbye
+SYS|Your flights have been booked and you will receive a confirmation email within the hour!|goodbye
+SYS|Have a great day!|goodbye
+USR|Killing it!|thankyou
+USR|thank|thankyou

@@ -1,0 +1,11 @@
+USR|Hi!|inform
+USR|I'd like to book a trip to Tel Aviv from Tijuana.|inform
+USR|I was wondering if there are any packages from August 23rd to 26th for $3400 for 2 adults.|inform
+USR|My dates are also flexible.|inform
+SYS|I apologize but I do not have any flights available from Tel Aviv to Tijuana.|sorry
+SYS|Would you like me to look for packages at other destinations?|sorry
+USR|What if i increase my budget by $300?|inform
+SYS|It will not make a difference as we do not fly from Tel Aviv to Tijuana.|no_result
+USR|Oh okay.|thankyou
+USR|well thanks anyway.|thankyou
+USR|I might come back later if i decide to go somewhere else.|thankyou

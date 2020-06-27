@@ -1,0 +1,12 @@
+USR|hey, i'm looking to go to Theed from Caprica on August 13th|greeting
+SYS|Okay perfect!|request
+SYS|to help me find the best vacation plan for you, please answer some questions.|request
+SYS|Will you be travelling with anyone?|request
+USR|yeah me and 12 dwarves are going backpacking around the fictional universe because we recently got a ton of gold from smaug's cave so there's 13 of us|inform
+SYS|Great!|confirm
+SYS|are all of you adults?|confirm
+USR|of course!|affirm
+SYS|Do you have a budget?|request
+USR|we want to spend 2500 for all 13 of us|inform
+SYS|I am sorry but it seems as if there are no packages to Theed, is there another destination you prefer?|suggest
+USR|ugh dang it.. Thanks anyhow|thankyou

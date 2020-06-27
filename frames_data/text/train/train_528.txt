@@ -1,0 +1,23 @@
+USR|I'm not having a good day so I'm going to keep this short|greeting
+SYS|Hi!|greeting
+USR|Get me a 6 day vacation out of Phoenix starting this Saturday I don't care how much it costs, just get me something good|inform
+SYS|We have a 4 star hotel near the beach, museum, and theatre in Monterrey.|suggest
+SYS|This trip is from August 27th to September 1st.|suggest
+SYS|The hotel has a 8.8/10 guest rating and offers free parking, breakfast, and wifi.|suggest
+SYS|Business flight costs 1613.46.|suggest
+SYS|Would you like to book this package?|suggest
+USR|Is that 6 days?|request
+SYS|Yes.|affirm
+USR|My coworker went to Monterrey and she told me it wasn't that great.|request_alts
+USR|I'll go if I have to but you got anything else?|request_alts
+SYS|We also have a 6 day trip at a 3 star hotel near a park and museum with a 9.32/10 guest rating and free parking, breakfast, and wifi to Fortaleza, Brazil.|offer
+SYS|The business flight costs 1872.58 and is from September 1st to 7th.|offer
+USR|I heard Fortaleza is overrun with hipsters.|inform
+USR|Got anything in Europe?|inform
+USR|I have very refined tastes you know|inform
+SYS|These are the only trips we have from Phoenix.|no_result
+USR|Fine I suppose I'll go to Monterrey|inform
+SYS|Alright!|goodbye
+SYS|I will book this for you and you will receive a confirmation email soon!|goodbye
+SYS|Safe travels!|goodbye
+USR|Uh huh|goodbye

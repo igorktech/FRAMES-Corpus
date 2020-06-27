@@ -1,0 +1,30 @@
+USR|Hello, I am looking to book a vacation from Gotham City to Mos Eisley for $2100.|greeting
+SYS|Hi.|no_result
+SYS|Sorry, I can't find any trips from Gotham City to Mos Eisley for you.|no_result
+USR|What about a trip from Gotham City to Neverland for the same budget?|inform
+SYS|Sorry, I cannot find any trips leaving from Gotham City.|suggest
+SYS|Could you suggest another nearby departure city?|suggest
+USR|Would any packages to Mos Eisley be available if I increase my budget to $2500?|inform
+SYS|There are no trips available to Mos Eisley.|no_result
+USR|You know what, I'd like to try and visit Neverland|inform
+SYS|I cannot find any trips available to Neverland.|no_result
+USR|Do you have any trips from Gotham City to Kobe for my original budget of $2100?|inform
+SYS|I can book you a 3 day trip to Kobe leaving from Sapporo, Japan.|suggest
+SYS|Is this ok?|suggest
+USR|No, that's too far for me.|inform
+USR|I need a flight that leaves from Birmingham.|inform
+SYS|I can book you a trip from Birmingham to Kobe for 2747.8 USD.|suggest
+USR|How many days would I be in Kobe?|request
+SYS|You would arrive in Kobe August 17th and return to Birmingham on August 22nd.|inform
+USR|What would the price be if I shortened my trip by one day?|inform
+SYS|I can not find any trips from Birmingham to Kobe for 4 days.|no_result
+USR|Ok, then I would like to purchase this package.|request
+USR|What activities are included in this package?|request
+SYS|There are no activities listed for this package.|suggest
+SYS|You will be staying at the Ivory Legacy Hotel for 7 days.|suggest
+SYS|This hotel has a 4.5 star rating and free wifi.|suggest
+SYS|Will I go ahead and book this package?|suggest
+USR|Yes, I would like to book this package.|affirm
+SYS|Great.|inform
+SYS|Your flight departs from Birmingham at 9:00 am - Wednesday, August 17th 2016.|inform
+SYS|Enjoy your trip, I have booked this package for you.|inform

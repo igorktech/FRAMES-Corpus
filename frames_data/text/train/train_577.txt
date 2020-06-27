@@ -1,0 +1,8 @@
+USR|Can you get me out of Tofino???|inform
+SYS|Where would you like to go?|request
+USR|Kochi please|inform
+SYS|Do you have a budget?|request
+USR|3200 dawg, please hurry I want to leave today if I can|inform
+SYS|There are no results for this.|no_result
+USR|What about Houston??|inform
+SYS|Nothing for this either.|no_result

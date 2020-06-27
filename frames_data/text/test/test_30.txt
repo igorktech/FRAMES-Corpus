@@ -1,0 +1,10 @@
+USR|Hi I am the happy father of one children.|inform
+USR|I need to book a trip to Santos from Philadelphia with a 1900 budget|inform
+SYS|Will it just be you and your child?|confirm
+USR|nope, I'm with my wife|inform
+SYS|When would you like to go?|request
+USR|August 27 & sept 6|inform
+SYS|There are no flights from Philadelphia.|no_result
+USR|ok im gonna have to look elsewhere.|thankyou
+USR|thanks|thankyou
+SYS|Have a nice day!|goodbye

@@ -1,0 +1,41 @@
+USR|I need your help!|greeting
+SYS|Hi there, how can I help you?|greeting
+USR|I need to bring my children to visit their mom who has been working very hard on a contract in Pittsburgh.|inform
+SYS|Okay great, how many of you will there be and where will you all be leaving from?|request
+USR|We will be 1 adult and seven children and we will be leaving from Kobe.|inform
+SYS|And do you have a budget?|request
+USR|Not really|inform
+SYS|How long do you plan on going for?|request
+USR|It does not matter really as long as the package is right.|inform
+USR|Can you tell me if you have hotel packages in Pittsburgh?|inform
+SYS|I have 3 different packages, ranging from 11 days, to 10 days, to 7 days.|offer
+SYS|All the hotels are 2.5 stars.|offer
+SYS|Which one would you like to hear about?|offer
+USR|Which package has the soonest departure?|request
+USR|The kids can't wait to see their mama!|request
+SYS|The 11 day package and the 7 day package.|inform
+USR|I think my wife has 2 weeks off, so let's look at the 11 day package please|switch_frame
+SYS|The 11 day package leaves Monday on September 12th and returns on Wednesday September 21st.|offer
+SYS|The hotel has a guest rating of 6.91/10 and economy flights cost 14048.51 whereas business would cost 16434.16.|offer
+SYS|It also includes free parking, free breakfast, and free wifi.|offer
+SYS|Would you be interested in booking this?|offer
+USR|Do you know what activities there are close to the hotel?|request
+USR|Any museums or parks we can visit?|request
+SYS|There is a park nearby.|inform
+USR|Can you tell me a little bit about the hotel in the 7 day package?|moreinfo
+SYS|Sure thing!|offer
+SYS|There is both a park and a museum nearby.|offer
+SYS|The hotel has a guest rating of 8.49/10, and also includes free parking, free breakfast and free wifi.|offer
+SYS|business class would cost a total of 26775.46 whereas economy class would cost 20697.17.|offer
+USR|Hmmmm the 7 day package is a lot more expensive than the 12 day  but it seems like a nicer place, plus I like the fact that we can take the kids to the museum.|request
+USR|Does it depart on September 12th too?|request
+SYS|Yes.|suggest
+SYS|It departs Monday September 12th and returns on Saturday September 17th.|suggest
+SYS|Would you like me to book this trip?|suggest
+USR|Yes, I like this package better.|inform
+USR|Please book us on economy class at a cost of $20697.17  and send me all the details by email.|inform
+USR|Good job, friend!|inform
+SYS|Consider yourself booked!|inform
+SYS|I'll be sending you a confirmation email with all the details shortly.|inform
+USR|Thank you!|thankyou
+SYS|You're very welcome!|you_are_welcome

@@ -1,0 +1,19 @@
+USR|Hi im taking the family on a trip to Manaus is that possible with a budget of $3900|greeting
+SYS|Hey there!|greeting
+SYS|Where would you like to leave from?|greeting
+USR|i would like to leave from salvador|inform
+SYS|Ok!|request
+SYS|How many people are in your family?|request
+USR|3 kids seven adults|inform
+SYS|Could you travel from August 19 to the 27th?|suggest
+USR|ya sure the dates are flexible|switch_frame
+SYS|Ok!|offer
+SYS|I have packages from August 19th to August 24th or from August 27th to September 1st.|offer
+USR|the one on the 27th looks good!|request
+USR|what the price look like?|request
+SYS|Great!|inform
+SYS|The price for that is 3263.60USD|inform
+USR|perfect let’s book it!|inform
+SYS|Sure thing :smile: I will book that for you right away!|inform
+USR|thank you!|thankyou
+SYS|My pleasure|you_are_welcome

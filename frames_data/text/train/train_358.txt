@@ -1,0 +1,44 @@
+USR|My wife and I just had our second baby and would like to take a vacation with our 2 children.|inform
+USR|We are looking for a child-friendly resort, preferably in Queenstown.|inform
+SYS|Sure, I can help you with that!|request
+SYS|Where will you be leaving from?|request
+SYS|And do you have any dates in mind?|request
+USR|We are from Campinas.|inform
+USR|We can depart on August 27 but must return on September 17|inform
+SYS|I have no trips to Queenstown that return on September 17th.|no_result
+SYS|Do you have any other destinations in mind?|no_result
+USR|do you have anything that returns before Sept 17?|inform
+SYS|Yes I have several that return before he 17th.|request
+SYS|What is your budget?|request
+SYS|That would help narrow down the options.|request
+USR|We have $4000 to spend.|inform
+SYS|I have two 5 star hotel packages to offer you.|offer
+SYS|Both are 8 days long,  include the same amenities and are in your budget.|offer
+SYS|The first is from September 8-14.|offer
+SYS|The second is from August 30th to September 5th.|offer
+SYS|Do one of these sets of dates work better for you?|offer
+USR|Can I have the names of those hotels please?|request_compare
+SYS|Yes of course: The first one is the Illustrious Pool Hotel and the second is Silver Orb Palace|inform
+USR|both of those seem like they would work well for use, what do you have within those dates available in San Juan?|inform
+SYS|I have both 9 and 13 day packages.|suggest
+SYS|How long of a holiday were you hoping to take?|suggest
+USR|a 9 day with 2 kids seems like long enough!|inform
+SYS|Fair enough!|offer
+SYS|We have a stay at the Supreme Seaside Inn & Suites, a 2.5 star hotel which would cost you 3099.11USD or a stay at the Fairyland, a 4 star hotel which would come out to 3572.48USD.|offer
+USR|and the dates for these are?|request_compare
+SYS|The first one is from September 6th to 13th and the other one is from September 8th to 13th.|inform
+USR|One more destination, I promise.|inform
+USR|My wife wants me to make absolutely sure that I get ALL the information.|inform
+USR|Do you have anything in Porto?|inform
+SYS|I do not have any trips to Porto.|confirm
+SYS|Do you mean Porto Alegre?|confirm
+USR|yes Porto Alegre.|request
+USR|Out of the 4 resorts you suggested in Queenstown and San Juan, are any of them on the beach?|request
+SYS|Those resorts are not on the beach|inform
+USR|do any of them include breakfast?|request
+USR|It's always nice to eat breakfast at the hotel!|request
+SYS|Supreme Seaside Inn & Suites, Illustrious Pool Hotel and Silver Orb Palace serve a complimentary breakfast to their guests|inform
+USR|okay well they are all within our budget!|inform
+USR|Once I speak to my wife I will get back you you to book!|inform
+SYS|Ok!|goodbye
+SYS|See you later!|goodbye

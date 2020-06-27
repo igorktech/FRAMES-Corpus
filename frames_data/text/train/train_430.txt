@@ -1,0 +1,10 @@
+USR|Good day.|inform
+USR|I live in Kabul and I want to take my extended family on a holiday|inform
+SYS|where would you like to go?|request
+USR|Fort Lauderdale.|inform
+USR|Its for me and my 11 brothers and sisters and our 4 kids|inform
+SYS|We do not fly out of Kabul|no_result
+USR|But what if I offered you 2800, then what could you do for me?|inform
+USR|I'm sure for that offer you can make something work|inform
+SYS|We do not fly out of Kabul|no_result
+USR|not impressed|null

@@ -1,0 +1,18 @@
+USR|Get me a trip to Curitiba next Tuesday|inform
+SYS|Where are you leaving from^|request
+USR|I'm leaving from Essen|inform
+SYS|Do you have a budget?|request
+SYS|Would you be travelling alone or with accompaniment?|request
+USR|I don't want to spend more than $3400.|inform
+USR|Traveling alone|inform
+SYS|I have 10 days trips to Curitiba, leaving from Essen next Tuesday at 2153.69$ or 15 days at 2194.64USD.|offer
+SYS|I also have 16 days trip at 2254.20USD, or 10 days trip at 2775.5USD|offer
+USR|Which one has the best hotel?|request_compare
+SYS|They are all 3 star hotels|inform
+USR|Thats not good enough.|inform
+USR|Can I get a better hotel if I spend up to $4400?|inform
+SYS|I am sorry, those are the only options we have available|sorry
+USR|Which one has the best user review then?|request_compare
+SYS|Dual Basin Residence  15 days has user review of 8.22.|inform
+SYS|It is at 2194.64USD|inform
+USR|Okay fine I'll take it.|inform

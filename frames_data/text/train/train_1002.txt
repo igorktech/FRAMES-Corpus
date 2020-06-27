@@ -1,0 +1,5 @@
+USR|Hi there!|inform
+USR|Hi there, I'm looking to book a trip from Tel Aviv, but I'm still undecided about destinations.|inform
+USR|I have a couple of places in mind though.|inform
+SYS|I'm very sorry to inform you that we do not offer flights out of Tel Aviv.|sorry
+SYS|Can you leave from any other cities?|sorry

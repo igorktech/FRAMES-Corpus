@@ -1,0 +1,25 @@
+USR|Hello there!|inform
+USR|I have 12 days off starting on August 22, and I'm leaving from Santo Domingo|inform
+SYS|Do you have a budget?|request
+USR|Not a strict budget|inform
+SYS|Are you travelling with anyone?|request
+USR|Just by myself|inform
+SYS|You can go to Punta Cana, Atlante, Punta Cana, and Tampa.|suggest
+USR|Could I do 12 day trips at each of these cities?|inform
+SYS|There is an 8 day trip from the 24th to 31st of August.|offer
+USR|To where?|request
+SYS|Atlante.|inform
+USR|How much does it cost?|request
+SYS|428.64|inform
+USR|Okay sign me up!|request
+USR|Do I get a choice of hotels?|request
+SYS|The only hotel for this is 3.5 stars and offers free wifi and parking.|inform
+USR|That will do|null
+SYS|Would you like me to book this for you?|suggest
+USR|Yes please.|affirm
+USR|Thank you!|affirm
+SYS|No problem!|inform
+SYS|Your trip is booked!|inform
+SYS|Thank you and have a great day!|inform
+USR|Thank you!|thankyou
+USR|You too!|thankyou

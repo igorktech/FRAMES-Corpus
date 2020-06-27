@@ -1,0 +1,16 @@
+USR|emergency flight out of Kobe please!!|inform
+USR|get me out on september 16th
+and to fortaleza|inform
+SYS|Certainly.|request
+SYS|Where would you like to go?|request
+USR|FORTALEZA|inform
+SYS|The earliest flight we have that departs from Kobe to Fortaleza is on Tuesday September 20th, is that okay?|offer
+USR|what about out of Salvador|inform
+SYS|From Salvador to Fortaleza?|confirm
+USR|yes|affirm
+SYS|I'm afraid it's also the 20th.|sorry
+SYS|What would you like to do about that?|sorry
+USR|in that case just get me from Kobe to Sendai|inform
+SYS|I'm sorry, the earliest for that one is also the 20th.|sorry
+SYS|Any other options I can explore?|sorry
+USR|nope I guess I need a different (better) agent|negate

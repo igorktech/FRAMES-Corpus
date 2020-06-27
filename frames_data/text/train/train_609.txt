@@ -1,0 +1,43 @@
+USR|I’m planning a family vacation for my half dozen little rug rats and wife!|inform
+USR|We’ve got fifteen grand put aside for this trip so spare no expense finding us a great stay!|inform
+USR|Tijuana is where we live, and we have been talking about going to San Diego.|inform
+SYS|Lovely!|request
+SYS|How many adults and how many children will be traveling on this trip?|request
+USR|2 adults 6 kids|inform
+SYS|I've found a trip for you!|offer
+SYS|It would be at the Anomaly Inn & Suites, where you would be staying from September 12 to 17.|offer
+SYS|Does this sound good to you?|offer
+USR|ohh uh I should’ve told you that we are only free to travel from Sept 5-12.. my bad!|inform
+SYS|I can indeed.|offer
+SYS|Does September 6-10 sound good?|offer
+USR|That would work with our schedule.. what is the hotel like?|switch_frame
+SYS|Its a 2.5 star near the park, but enjoys a 6.91/10 guest rating.|inform
+USR|What’s available in Ulsan?|inform
+SYS|Unfortunately, nothing.|sorry
+USR|Really?|inform
+USR|Not even for 16000?|inform
+SYS|Not for any price - we just don't offer flights from Tijuana to Ulsan.|sorry
+SYS|Apologies!|sorry
+USR|Ah, ok.|inform
+USR|Well last place we wanna check is Buenos Aires|inform
+SYS|We've got results in Buenos Aires!|suggest
+SYS|Would you prefer flying business or economy?|suggest
+USR|Can we afford both on our budget?|moreinfo
+USR|I think I’d like to hear about the hotel details first|moreinfo
+SYS|You certainly can afford both!|inform
+SYS|The hotel is the the Olive Market Hotel, a 4 star hotel in the heart of the city, near a park.|inform
+USR|Great!|request
+USR|Amenities ?|request
+SYS|Free parking, free breakfast, and free wifi!|inform
+USR|Sounds terrific!|request
+USR|What is the price comparison for economy flights compared to business class?|request
+SYS|Business class costs 14258.97USD, and 11161.51USD for economy.|offer
+USR|hmm ok, well I think economy class would be better for us.|switch_frame
+USR|More money to spend on activities|switch_frame
+SYS|Should I go ahead and book this trip for you?|suggest
+USR|What are the dates?|request
+SYS|September 7 to 12.|inform
+USR|Ok, let’s book it!|inform
+SYS|Done.|inform
+SYS|Have a wonderful trip!|inform
+USR|Thanks :smile:|thankyou

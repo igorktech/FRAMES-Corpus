@@ -1,0 +1,17 @@
+USR|Hi hi hi|greeting
+SYS|Hi!|greeting
+USR|I am going to try to bring my kids to see their mother in Jerusalem.|inform
+USR|I would like you to assist me in this booking
+I have no idea where I am leaving from or when or how much money I have
+Just send me to Jerusalem with 5 kids|inform
+SYS|There is nothing available for this number of people.|no_result
+USR|Well what if we go to nearby Cancun|inform
+SYS|Our best package is from September 1st to 15th at a 3 star hotel, 7.15/10 guest rating, free parking, breakfast and wifi.|offer
+SYS|The price for business class is 23688.61.|offer
+USR|Wow quite expensive isn’t it|negate
+SYS|You would need to leave from Athens.|inform
+USR|Let’s book it I guess|inform
+SYS|Great!|goodbye
+SYS|It's booked!|goodbye
+SYS|Safe travels!|goodbye
+USR|Thanks!|thankyou

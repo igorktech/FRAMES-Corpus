@@ -1,0 +1,28 @@
+USR|We have decided to go visit my sister in Sao Paulo.|inform
+USR|What do you have out of Santa Cruz?|inform
+SYS|Yes we do.|request
+SYS|How many are you?|request
+SYS|And when do you want to go?|request
+USR|We are 8 in total.|inform
+USR|6 adults and 2 children.|inform
+USR|We can go whenever, let's see what you have to offer.|inform
+SYS|Is there a budget you want me to work with?|request
+USR|17100|inform
+SYS|Alrighty, we can put the family in a 3.0 star hotel in the heart of Sao Paulo near a cathedral and a theatre for 11 days.|offer
+SYS|How does that sound?|offer
+USR|Well that sounds kind of okay.|request_alts
+USR|What else you've got?|request_alts
+SYS|Your other option is a 2.0 star hotel also close to a cathedral and a theatre.|offer
+SYS|We have a 9 day trip there.|offer
+USR|Nah I prefer the first one.|request
+USR|What does the first package include?|request
+SYS|Breakfast and wifi is included|inform
+USR|And how much is it?|request
+SYS|12800.18 for the family or 16320.33 if you want to splurge for business class.|offer
+USR|I rather fly economy and keep the rest as spending money!|inform
+USR|Can you please make the reservation fo rme?|inform
+SYS|Sure!|inform
+SYS|All is done.|inform
+SYS|You are headed to Sao Paulo for 11 days from September 13-22!|inform
+USR|Thank you, friend|thankyou
+SYS|You're welcome, human!|you_are_welcome

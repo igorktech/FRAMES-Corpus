@@ -1,0 +1,11 @@
+USR|HEY|greeting
+SYS|Hi|greeting
+USR|im tryina get to hamburg|inform
+SYS|where would you like to leave from?|request
+USR|im gonna bring 5 lawyers with me and 5 kids.|inform
+USR|leaving from chicago|inform
+SYS|Any budget in mind|request
+USR|31500|inform
+SYS|Any dates in mind?|request
+USR|meh nah|inform
+SYS|Sorry it seems there are no flights available to Hamburg|sorry

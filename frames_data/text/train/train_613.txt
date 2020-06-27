@@ -1,0 +1,32 @@
+USR|Hey!|inform
+USR|I need to get out of Jerusalem by Sep 2 for a while.|inform
+USR|Any options for Queenstown?|inform
+SYS|Unfortunately not...is there another destination city I can look up for you?|sorry
+USR|What if I leave from Marseille?|inform
+SYS|In that case I can definitely get you to Queenstown!|offer
+SYS|How does a trip from September 12 to 17 sound to you?|offer
+USR|I need to leave by Sep 2 though, is that possible?|inform
+SYS|Absolutely, does August 30 to Sept 2 work?|offer
+USR|I need to stay at least for a week|inform
+SYS|Unfortunately, our longest trips are 6 days long.|sorry
+USR|Alrighty then, what are the 6 day trip options?|switch_frame
+SYS|The option is the one I previously mentioned to you, which departs on September 12.|inform
+USR|Can you check for trips to Hamburg from Jerusalem then?|inform
+SYS|I regret to say that we do not offer trips from Hamburg to Jerusalem.|no_result
+USR|Sorry I was asking for trips to Hamburg from Jerusalem|inform
+SYS|Unfortunately we don't have that in our database either.|sorry
+USR|What about Hamburg from Marseille then?|inform
+SYS|We do have that - how does 8 days at the Hotel Peter, from August 31 to September 7, sound to you?|offer
+USR|Forgot to tell you though, my budget is 1700|inform
+SYS|How many adults and children are traveling with you?|inform
+SYS|For one adult, this package is well below your budget.|inform
+USR|Just myself.|request
+USR|Are there longer packages that would be below my budget?|request
+SYS|8 days is the longest we have, but I can get you this trip for only 148.11USD.|suggest
+SYS|Should I go ahead and book?|suggest
+USR|Just $148.11?|inform
+USR|Okay let's book it!|inform
+SYS|Yup!|inform
+SYS|Perfect, its booked!|inform
+SYS|Have a great trip!|inform
+USR|thanks!|thankyou

@@ -1,0 +1,19 @@
+USR|Hey.|inform
+USR|Looking to get the family out of Montreal for a bit|inform
+SYS|Great idea!|request
+SYS|Where would you like to go?|request
+USR|Not sure, something within our budget of 8500.|inform
+SYS|Definitely.|request
+SYS|Can I ask how many adults and children will be going on this trip?|request
+USR|3 adults and 5 children.|inform
+SYS|I can book you for 6 days for a trip to Lima.|offer
+SYS|Would this be interesting to you?|offer
+USR|If its within our budget, then yes.|request
+USR|What dates?|request
+SYS|It most definitely is!|inform
+SYS|You would leave on August 27 and return on September 1.|inform
+SYS|The trip will cost 8146.92USD in total.|inform
+USR|Fantastic.|inform
+USR|Let’s book!|inform
+SYS|Done!|inform
+SYS|We hope you enjoy your trip :slightly_smiling_face:|inform

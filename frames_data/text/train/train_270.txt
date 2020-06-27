@@ -1,0 +1,49 @@
+USR|Hi there, I'd like to know if you can book a trip for us leaving this upcoming Saturday and returning on the Tuesday after.|inform
+USR|We are six adults and seven children leaving from Punta Cana.|inform
+USR|I know this is really short notice so I'd appreciate anything you can find for us, thank you so much!|inform
+SYS|Hi there.|offer
+SYS|I can book you a trip to Dallas from August 27th-August 30th for 5561.28USD.|offer
+USR|How about Birmingham?|inform
+USR|The kids would love to see it|inform
+SYS|Unfortunately I do not have anything available from Punta Cana to Birmingham at this time.|sorry
+SYS|I can book you a trip to Stuttgart for 28237.3USD.|sorry
+SYS|Does this interest you?|sorry
+USR|Unfortunately that is outside of our budget :disappointed: Do you have anything available from Punta Cana to Burlington?|inform
+SYS|Sadly I have nothing available to Burlington within your date range.|sorry
+SYS|Would you mind telling me your budget so I can better find a trip for you within your parameters?|sorry
+USR|Yes.|inform
+USR|Our budget is 23300.|inform
+USR|Thank you so very much :slightly_smiling_face:|inform
+SYS|I have only trips to Dallas or La Paz within your budget.|sorry
+SYS|Sorry about that.|sorry
+SYS|Do either of these destinations interest you?|sorry
+USR|What about Orlando?|inform
+SYS|I’m sorry but there are no trips in my database from Punta Cana to Orlando.|sorry
+USR|Can you please book us a round trip flight from Dallas to Orlando departing August 27 returning August 30 and tell us how much it would cost?|request
+USR|Thank you!|request
+SYS|Would you be interested in travelling from Dallas to Santo Domingo?|suggest
+USR|Is there no way to get us to Orlando?|inform
+SYS|Sadly there are no trips available to Orlando at this time.|sorry
+USR|Are there any weekend flights you can book for us to Orlando at any point before September 15 this year?|inform
+USR|That would be flights leaving on a Saturday and returning the following Tuesday.|inform
+USR|Thank you once again :slightly_smiling_face:|inform
+SYS|Sadly there are no trips available to Orlando at this time.|sorry
+SYS|My apologies.|sorry
+USR|Okay I will take the trip to Dallas leaving August 27th returning August 30th.|switch_frame
+USR|What's next?|switch_frame
+SYS|Ok, great!|offer
+SYS|Would you like to upgrade to business class flights for 6373.74USD?|offer
+USR|No thank you, but I was wondering if you offer anything as part of the package?|request
+SYS|The hotel is in the heart of the city near museums and features free wifi and free breakfast.|inform
+USR|Is it a five star hotel?|request
+SYS|The hotel is 2.5 stars with a guest rating of 5.14|inform
+USR|How much would a five star hotel package cost (including cost of the flight)?|request
+SYS|Unfortunately the only package I have available is the 2.5 star hotel.|sorry
+USR|How much does the entire package cost?|request
+SYS|For 7 children and 6 children the total 5561.28USD.|inform
+USR|Okay book us the business class flight and the hotels please|inform
+SYS|Absolutely, consider it done.|inform
+SYS|Anything else I can help you with today&gt;|inform
+USR|That's it!|thankyou
+USR|Thank you so so much :):):)|thankyou
+SYS|You are very welcome :slightly_smiling_face:|null

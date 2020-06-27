@@ -1,0 +1,31 @@
+USR|Heyyy!|inform
+USR|I would like to book an awesome trip for me and ma gurls from Fort Lauderdale to Minneapolis.|inform
+SYS|How many will you be?|request
+USR|3 adults|inform
+SYS|For what time period would you like to travel?|request
+USR|September 7th to 19th!|inform
+USR|and we've got 2800 between the 3 of us.|inform
+SYS|I have 2 choices, would you prefer to be close to the museum or the university?|offer
+USR|ooooo frat boyz!!!!!|switch_frame
+USR|University pleaseeee!!|switch_frame
+SYS|I have the Antique Mantle in Minneapolis with either a 7 day stay or an 11 day stay located near the university.. It has a rating of 2.5 stars and included wifi, parking and breakfast.|offer
+SYS|11 days = 2602.69USD and 7 days = 2474.8USD.|offer
+USR|What are the dates for it?|request
+SYS|The 7 or 11 days?|request
+USR|11|switch_frame
+SYS|The 11 day package is from September 8th to September 18th|inform
+USR|Perf!|inform
+USR|Do you have anything to Phoenix?|inform
+USR|We heard its a fall break hot spot!|inform
+SYS|I have the The Recreation Inn , also close to the university, from Sept 9th to the 19th at 2266.58USD.|offer
+SYS|This is a 3 star hotel with free parking, wifi and breakfast.|offer
+USR|How much??|request
+SYS|2266.58USD|inform
+USR|Is that for economy?|request
+SYS|Yes, business is 2632.65USD|offer
+USR|Well I think we'd like to splurge a bit and this package seems way better!|inform
+USR|Can you book it for us?|inform
+SYS|Absolutely I can.|inform
+SYS|I will look after it right away.|inform
+SYS|Have a fun trip.|inform
+USR|Thanks!!|thankyou

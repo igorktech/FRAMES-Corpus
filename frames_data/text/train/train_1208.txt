@@ -1,0 +1,33 @@
+USR|I would like you to find me, my wife, and my 4 children, a trip to Guadalajara from Seattle.|inform
+SYS|Sure!|request
+SYS|When would you like to go?|request
+USR|september 11th to 21st or somewhere in between.|inform
+SYS|Have you got a budget in mind?|request
+USR|We have 4700 to spend.|inform
+SYS|Great!|offer
+SYS|I have two hotels within your budget.|offer
+SYS|One is 3 stars and near a park, the other is not near anything of note.|offer
+SYS|Both have free parking, breakfast, and wifi.|offer
+USR|What is the other hotel rated?|request
+SYS|2.5|inform
+USR|ew.|inform
+USR|Um okay, do you have anything in Chicago?|inform
+SYS|I just have one hotel.|offer
+SYS|It is 2.5 stars with 8.69/10 from users.|offer
+USR|Anything in Las Vegas?|inform
+SYS|Yes!|offer
+SYS|I have a 3 star hotel near a market, with 8.98/10 from users, and free breakfast included as well as free parking and wifi!|offer
+USR|What is the guest rating at the 3 star hotel in Guadalajara?|request
+SYS|8.49/10|inform
+USR|Okay I think Las Vegas is the winner here.|request
+USR|How much is the package and what are the dates?|request
+SYS|Would you like to fly economy or business?|suggest
+USR|Business if we can|inform
+SYS|The cost would be 6206.38USD.|offer
+USR|Okay and what are the dates?|request
+SYS|September 11th - 21st|inform
+USR|Ah Perfect!|inform
+USR|Yes book this for us please|inform
+SYS|Ok, I will proceed with booking!|inform
+SYS|Please watch for a confirmation email.|inform
+USR|Thanks!|thankyou

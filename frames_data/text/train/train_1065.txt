@@ -1,0 +1,32 @@
+USR|I wanna go to San Juan|inform
+SYS|I want to take you there!|request
+SYS|Where are you coming from?|request
+USR|Belo Horizonte|inform
+SYS|When do you want to go?|request
+USR|between sept.|inform
+USR|17 and oct.|inform
+USR|7|inform
+SYS|Did you have a budget in mind?|request
+USR|no|inform
+SYS|Okay, I can put you in a 4.0 star hotel near the museum, shopping, and market for 7 days.|offer
+SYS|How does that sound?|offer
+USR|good good.|inform
+USR|Got anything to San Francisco?|inform
+SYS|We've just got a 2.0 star hotel in the heart of the city near a museum.|offer
+SYS|I have trips there for 10 or 16 days.|offer
+USR|no thank you.|inform
+USR|anything to Burlington?|inform
+SYS|In Burlington we've got a 3.0 star hotel near the park and we have an 11 day package there.|offer
+USR|Nope.|inform
+USR|Anything to Leon?|inform
+SYS|Sure!|offer
+SYS|We've got a 5.0 star hotel next to the market actually, and we offer 9 day trips there.|offer
+USR|I want it!|request
+USR|When is it?|request
+SYS|It's Sep 24 to Oct 3.|inform
+USR|Thatll work.|inform
+USR|Book it for me|inform
+SYS|Consider it done!|inform
+SYS|An email confirmation with all the details is coming your way shortly.|inform
+SYS|Have a good trip!|inform
+USR|thank ya|thankyou

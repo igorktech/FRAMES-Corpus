@@ -1,0 +1,27 @@
+USR|Three words: Alexandria to Cencun.|inform
+USR|Please book a trip for us.|inform
+USR|two adults.|inform
+USR|Leaving ASAP, returning before Sep 6|inform
+SYS|I would like to comply with your request, but I have nothing in Cancun for you.|no_result
+USR|How about Paris??|inform
+SYS|Neither|no_result
+USR|Ok what if we leave from Kingston.|inform
+USR|could you get us to Paris then?|inform
+SYS|I sure could and I would have you back by the 6th.|offer
+SYS|Would you like to leave on the 27th or the 30th?|offer
+SYS|I have 8 day stays on those dates.|offer
+USR|How's the hotel though?|request_compare
+SYS|4 stars all around.|offer
+SYS|Both include wifi and breakfast but one of them is near the museum and the palace.|offer
+USR|I'd like to be away from the crowds if possible, so probably the hotel which isnt near anything.|request_compare
+USR|Though whats the guest rating?|request_compare
+SYS|8.49 / 10 whereas the one near the museum and palace is 9.16 / 10|inform
+USR|Wow thats enough of a difference to give us some pause.|confirm
+USR|Yeah at the end of the day
+Lets take the one with the higher rating
+Can you get us business class flights?|confirm
+SYS|Yes at a cost of $4271.2USD.|offer
+USR|That ain't no thing.|inform
+USR|Ok get us on that flight pronto!|inform
+SYS|I shall!|inform
+USR|Thanks|thankyou

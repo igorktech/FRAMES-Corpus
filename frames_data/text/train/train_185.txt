@@ -1,0 +1,35 @@
+USR|Why hello there!|inform
+USR|Can you see what's available for North Vancouver from Sydney?|inform
+SYS|Do you have a budget?|request
+USR|naw, I've got tons o money|inform
+SYS|Great!|request
+SYS|Will you be bringing anyone else along with you?|request
+USR|Just my imaginary friend.|inform
+SYS|Okay so I should book you a trip for two.|confirm
+SYS|Do you have dates you'd like to go?|confirm
+USR|Oh yes, that's pretty important information here.|inform
+USR|I'd like to leave around August 25 and be back by September 11.|inform
+SYS|The only result for this trip is from August 27th to September 4th.|offer
+SYS|It is at a 2.5 star hotel, free breakfast, wifi, and parking.|offer
+SYS|The cost of this is 897.18.|offer
+USR|That sounds good, what about Birmingham from Sydney?|inform
+SYS|There is a 4 star hotel from August 30th to September 6th for 1252.33 with free wifi included.|offer
+USR|Meh.|inform
+USR|What about Sydney to Mannheim?|inform
+SYS|There is a 5 star hotel from August 27th to September 1st with free wifi and a spa.|offer
+SYS|The cost for this package is 2666.51.|offer
+USR|Well that sounds nice!|request_alts
+USR|Can we try one more????|request_alts
+SYS|New place?|suggest
+USR|Sydney to Naples!|inform
+USR|Watcha got?|inform
+SYS|There is a 4 star hotel with free breakfast and free wifi.|offer
+SYS|It is from September 2nd to September 5th ad the cost for this package is 3119.46.|offer
+USR|My favorite package is still the Mannheim trip.|request
+USR|Can you tell me what he flight times are?|request
+SYS|Departures are 9:00am or 5.36pm from Sydney to Mannheim, and 3:00am or 11:36am from Mannheim to Sydney.|offer
+USR|Great, book away please!|inform
+SYS|Done!|inform
+SYS|Your flights are booked!|inform
+SYS|Have a great day!|inform
+USR|Thank you!|thankyou

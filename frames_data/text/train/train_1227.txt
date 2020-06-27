@@ -1,0 +1,7 @@
+USR|I would like to go to Salvador from Detroit with 4 adults and 11 children total|inform
+SYS|Sure!|request
+SYS|When can you leave?|request
+USR|Anytime|inform
+SYS|Unfortunately all I can find in Salvador right now are Adult Only hotels.|sorry
+SYS|Are there any other destinations I could look at for you?|sorry
+USR|no|negate

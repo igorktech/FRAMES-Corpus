@@ -1,0 +1,9 @@
+USR|hey there I’m located in Madrid and I would like to explore my travel options to visit my family back in Sydney|inform
+SYS|Do you have a budget?|request
+USR|Yes, 2700 dollars|inform
+SYS|We have 12 days for 2483.75USD, 9 days for 2214.41USD, at the lunar resort|offer
+USR|Nice!|request_compare
+USR|When at the dates for that?|request_compare
+SYS|September 5 to 15 and August 30 to September 6th|inform
+USR|I’m only off work between Sept 11-15 Can you find me something within those dates|request
+SYS|I am sorry, I dont have anything available on those dates|sorry

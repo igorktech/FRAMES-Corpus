@@ -1,0 +1,28 @@
+USR|Do you do flights from Santo Domingo to Frankfurt?|inform
+SYS|We sure do!|offer
+SYS|Are you interested in a 10 day trip to Frankfurt?|offer
+SYS|We've got some great hotels!|offer
+USR|That would be great!|inform
+USR|I have 4300 to spend and I’m bringing 6 grandchildren along with me|inform
+SYS|Unfortunately none of the options in Frankfurt fit within your budget.|sorry
+SYS|Do you have somewhere else you would like to go?|sorry
+USR|Let us try again but with Punta Cana|inform
+SYS|That's a great choice!|request
+SYS|We have quite a few offerings in Punta Cana.|request
+SYS|Do you have any date constraints?|request
+USR|Yes, we’d like to leave between sept 6 and 20|inform
+SYS|Perfect, we have 2 packages from Sept 7 to 17.|offer
+SYS|One is 3 star hotel with a 8.49/10 guest rating, located close to a palace and a theater.|offer
+SYS|Another is a 2.5 star hotel with a 7.15/10 guest rating, located close to a museum, a cathedral, and a palace.|offer
+SYS|I have economy and business options for both.|offer
+USR|I’d like to stay near the museum, so that I can take the children.|request
+USR|Does it offer free breakfast?|request
+SYS|Sounds like a good choice!|inform
+SYS|It offers not just free breakfast... also free wifi!|inform
+USR|How much would this option cost us?|request
+SYS|I can offer the economy package for 2101.5 and the business package for 2313.5.|inform
+USR|And this is for one adult and six children?|confirm
+SYS|Yes!|affirm
+USR|Please book this|inform
+SYS|Consider it done!|inform
+SYS|Time to pack your bags :slightly_smiling_face:|inform

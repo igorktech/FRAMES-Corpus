@@ -1,0 +1,19 @@
+USR|Get me out of LA asap!|inform
+SYS|Ok!|request
+SYS|Do you have a destination in mind?|request
+USR|Heard Kobe is nice.|inform
+USR|Maybe I'll have better luck there..|inform
+SYS|I have a 15 day stay at Resort Ancient Angel for 3050.0USD leaving Los Angeles today!|offer
+USR|The hotel's nice right?|switch_frame
+SYS|It has an official rating of 3.5 but the guest rating is 8.69/10.|inform
+USR|I'll go!|inform
+SYS|I also have a 10 day package at a 4.5 star if you’d prefer that?|offer
+USR|When does that one leave?|request
+SYS|September 20th|inform
+USR|no.|inform
+USR|I need to get out before that!|inform
+SYS|So you’ll take the first one?|suggest
+USR|I'll take the one leaving today pls|inform
+SYS|Sure thing :slightly_smiling_face: I will go ahead and book it for you.|inform
+USR|Thanks, friend|thankyou
+SYS|My pleasure|you_are_welcome

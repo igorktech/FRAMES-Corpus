@@ -1,0 +1,9 @@
+USR|get me and my 7 bros out of houston ok?|request
+USR|10300 to spend
+what can we find in puebla|request
+SYS|You can go to Vancouver, Monterrey, Ciudad Juarez, Long Beach and Philadelphia|suggest
+USR|no i want to puebla|inform
+SYS|Sorry, I don't have anything for that|no_result
+USR|how about houston to sacramento|inform
+SYS|I am sorry I don't have anything for that either.|no_result
+USR|unreal|null

@@ -1,0 +1,19 @@
+USR|Hi|greeting
+SYS|Okay.|request
+SYS|So where would you like to go and where are you leaving from?|request
+USR|Well, I need to find a place where the paparazzi won't find me.|inform
+USR|I was thinking of Phoenix.|inform
+USR|Madonna and I are leaving from Cairo.|inform
+SYS|Do you have dates in mind?|request
+USR|Yes, well, I'd like to leave as soon as possible, but I need to be back by September 7.|inform
+SYS|The best I can offer for Phoenix is a 3 star hotel, offers free breakfast, wifi, and parking.|offer
+SYS|The price for this package is 1767.71.|offer
+USR|I will only look at 5 star hotels.|inform
+SYS|I'm sorry but there are no 5 star hotels for these two destinations.|sorry
+SYS|Is there somewhere else you would be willing to go?|sorry
+USR|Let's take a look at Rio de Janeiro.|inform
+SYS|The best I can offer is a 2.5 star hotel.|offer
+USR|I refuse to stay in anything under 4 stars.|inform
+SYS|Everything available is under 4 stars.|sorry
+SYS|I apologize.|sorry
+USR|Good day.|goodbye

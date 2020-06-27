@@ -1,0 +1,10 @@
+USR|I want to go to brasilia from mannheim, can you recommend me packages from Saturday august 27 to Monday, September 12 for 2500 for 1 adult|inform
+SYS|Sorry, I have nothing available.|sorry
+USR|um dates are flexible|inform
+SYS|How about August 27-31?|offer
+USR|ok|switch_frame
+SYS|That would cost 1943 dollars.|inform
+USR|ok great|null
+SYS|You want to book?|suggest
+USR|pls book that one for me thx|inform
+SYS|Yes, I will|inform

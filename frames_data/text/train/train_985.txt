@@ -1,0 +1,14 @@
+USR|So I need a 5 star hotel for 7 adults in Manaus ASAP.|inform
+USR|Departing from Queenstown
+Make it happen|inform
+SYS|Do you have a budget?|request
+USR|:unamused: No|inform
+SYS|When would you like to leave?|null
+USR|ASAP means as soon as possible.... just so you know|inform
+SYS|There are no results from Queenstown.|no_result
+USR|Queenstown to Stuttgart then|inform
+SYS|There are no results from Queenstown.|no_result
+USR|You're pretty useless huh?|inform
+USR|Ok check Detroit.|inform
+SYS|We don't have any of these flights leaving from Queenstown.|suggest
+SYS|The flights we have available for 7 people leaving from Queenstown are package to Minneapolis, Punta Cana, Rosario, and Porto Alegre.|suggest

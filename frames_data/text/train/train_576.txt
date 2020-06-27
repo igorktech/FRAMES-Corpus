@@ -1,0 +1,11 @@
+USR|I wanna go to Cairo
+No I dont
+I live there actually
+I wanna go to Cleveland|inform
+SYS|Would you have an idea of when?|request
+USR|I wanna go on 9/11|inform
+SYS|We do not have anything available from Cairo to Cleveland|no_result
+USR|Well what if I give it a flexible date|inform
+SYS|We can try that .|no_result
+SYS|Still no results.|no_result
+USR|:angry:|null

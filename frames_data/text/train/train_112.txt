@@ -1,0 +1,25 @@
+USR|hi I am burnt out... i need a vacation|inform
+SYS|Hi let me book you the most relaxing vacation|greeting
+USR|I am off from september 2 to september 23 !|inform
+SYS|ohhh perfect!|request
+SYS|do you have a budget in mind?|request
+USR|can you find me something?|inform
+USR|I hear Madrid is beautiful.|inform
+USR|No budget though|inform
+SYS|sure what city are you departing from?|request
+USR|im leaving from Barcelona, Spain|inform
+SYS|will you be travelling alone?|suggest
+USR|yes, i need a break from it all can you find me anything?|affirm
+SYS|yes i can find a trip on september 6th to the 13th|offer
+USR|hmm ok, that would work!|request
+USR|where would that be?|request
+SYS|its at the El Hotel De La Reina, in Madrid, a five star hotel with free breakfast and wifi, would you like me to book it for you?|suggest
+USR|wow, nice!|request
+USR|what's the price?|request
+SYS|$611 for an economy class ticket and $684 for business class|offer
+USR|and what is available in Santa Cruz?|inform
+SYS|sorry there are no results for santa cruz|sorry
+USR|that's ok.|inform
+USR|let's book Madrid in that case|inform
+SYS|booked!|inform
+USR|thank you|thankyou

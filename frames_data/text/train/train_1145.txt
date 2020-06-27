@@ -1,0 +1,15 @@
+USR|Kingston for 2, from Tofino|inform
+SYS|Unfortunately we currently do not serve flights out of Tofino.|sorry
+SYS|Would you be able to leave from another departure point?|sorry
+USR|well fix that I'll leave from Guadalajara|inform
+SYS|When do you want to be in Kingston?|inform
+USR|whenever.. but should be back here by the 23rd|inform
+SYS|Alright, I would like to recommend you our best package in Kingston.|offer
+SYS|It is a 12 day stay at a 4 star hotel near the museum.|offer
+SYS|It flaunts a guest rating of 8.22/10 and offers free parking, free breakfast, and free wifi.|offer
+USR|nope.|inform
+USR|not staying at a 4 star
+absolutely not
+find a 5 star in Dublin|inform
+SYS|No luck finding a 5 star in Dublin.|no_result
+SYS|Another city you'd like to try?|no_result

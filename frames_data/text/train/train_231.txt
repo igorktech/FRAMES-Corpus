@@ -1,0 +1,24 @@
+USR|I need to get to NAPLES|inform
+SYS|No problem, where are you leaving from?|request
+USR|Seoul|inform
+SYS|When would you like to leave?|request
+USR|August 19th|inform
+SYS|I have packages starting at 2426.22USD.|request
+SYS|Do you have a budget or a companion?|request
+USR|my budget is $4700|inform
+SYS|How about 14 days at the 3 star Courtyard Resort for 4045.13 USD?|offer
+USR|And what if i had no budget?|inform
+SYS|there are no other options|no_result
+USR|what are the dates/|request
+SYS|August 27th to September 8th.|offer
+SYS|I have found a 14 day package for only 2434.53 USD at the 4 star Tower Hotel.|offer
+SYS|Would you like to know more about this hotel?|offer
+USR|I need to go on August 19th|inform
+SYS|For 2426.22 USD you can leave on August 18th and stay for 14 days at the 3 star Courtyard Resort.|offer
+USR|Let’s book it!|inform
+SYS|Great!|suggest
+SYS|Shall I go ahead and book this for you?|suggest
+USR|Yes please!|affirm
+SYS|Your reservation is complete!|inform
+SYS|Thank you!|inform
+USR|hanks|thankyou

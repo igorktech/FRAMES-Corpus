@@ -1,0 +1,10 @@
+USR|Hello there.|inform
+USR|I’m trying to get to to Sapporo
+from Paris|inform
+SYS|Do you have a budget?|request
+USR|3300|inform
+SYS|When do you want to leave?|request
+USR|25 August|inform
+SYS|There are no results for this request.|no_result
+USR|what about for 4300|inform
+SYS|No, sorry.|sorry

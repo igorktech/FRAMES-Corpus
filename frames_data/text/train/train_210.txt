@@ -1,0 +1,37 @@
+USR|H, I need to go to Kyoto pronto!|inform
+SYS|Sure thing!|offer
+SYS|I can offer you a deal on a 7-day package to Kyoto.|offer
+SYS|Would you be able to leave from Nagoya?|offer
+USR|No, I need to leave from Toronto.|inform
+USR|I need to be there sometime between August 25 and Sept 7.|inform
+USR|I'll be travelling alone and I am super nervous :flushed:|inform
+SYS|In that case, I can book you in the Glorious Bazaar Resort from the 25th to the 30th August.|suggest
+SYS|This package will cost you 2656.84USD.|suggest
+SYS|Would you like to hear more about this package?|suggest
+USR|August 25th is awesome man.|moreinfo
+USR|My boss will be impressed.|moreinfo
+USR|Is this a nice hotel?|moreinfo
+SYS|The Glorious Bazaar Resort is a 3-star resort with a 0/10 guest rating, free breakfast and free wifi.|suggest
+SYS|It is conveniently located in close proximity to the museum.|suggest
+SYS|You would be flying out on Thursday, August 5th at 9:00a.m.|suggest
+SYS|and returning on Tuesday, August 30th at 4:00a.m.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|Not yet, I need to do some comparison shopping.|inform
+USR|Our head office is in Chicago.|inform
+USR|Do you have anything leaving on Aug 25th from Toronto|inform
+SYS|Unfortunately the closest departure date I could give you would be the 2nd of September.|sorry
+SYS|However, I can give you a better deal on a flight if you leave on the 7th.|sorry
+SYS|Would you like to hear more about either of these packages?|sorry
+USR|No the 7th is wayyyyyy too late, I need to be BACK by the 7th.|inform
+USR|What do you have to Porto between Aug 25 and Sept 7th?|inform
+USR|Anything under $3300.00?|inform
+USR|I'm poor!|inform
+SYS|I happen to have a package for you that's only 2754.13USD.|offer
+SYS|You would be staying at the Golden Keep Hotel from August 30th to September 2nd.|offer
+USR|OMG this is so confusing, I really don't know what to do!|inform
+USR|I better leave on the 25th, yes that will make my new boss happy....I need to go to Kyoto for sure.|inform
+USR|The Glorious Bazaar Resort sounds like the right choice.|inform
+USR|What information do you need from me to book it?|inform
+SYS|Would you like me to book this trip?|suggest
+USR|Actually, I'm really nervous about booking this right now.|thankyou
+USR|I will talk it over with my new  boss and get back to you, thanks!|thankyou

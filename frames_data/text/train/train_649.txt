@@ -1,0 +1,22 @@
+USR|Fam vacation services please|inform
+SYS|Thats what we do best!|request
+SYS|Where would you like to go?|request
+USR|Portland please.|inform
+USR|2 children and one adult|inform
+SYS|And whence do you intend on departing?|request
+USR|Leaving Baltimore|inform
+SYS|Unfortunately, we don't have results for this flight.|sorry
+SYS|Do you have any alternate plans?|sorry
+USR|I can go instead to Leon|inform
+SYS|How does 14 days at a 5 star beach resort sound to you?|offer
+USR|Very nice
+I would like to hear more
+And know the price|request
+SYS|You'd be indulging your every whim at the Serene Palms Resort, a veritable enclave of decadence situated near the beach and palace.|offer
+SYS|For 9341.63USD, you get a business class flight and free wifi.|offer
+USR|What would be the price for economy flight|request
+SYS|7258.45USD|inform
+USR|Much better
+Ok, book
+Thanks|thankyou
+SYS|And book I shall!|inform

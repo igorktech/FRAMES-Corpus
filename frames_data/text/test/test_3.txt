@@ -1,0 +1,18 @@
+USR|Hello, I would like to book a 2-week trip leaving from Melbourne on August 27.|inform
+USR|I would like to go to Mannheim.|inform
+SYS|Have you got a budget for this vacation?|request
+USR|I do not have a budget, however I would like to pick whichever package is cheapest.|inform
+USR|Could you offer me the cheapest package for each destination?|inform
+SYS|I can book you 9 days in Mannheim for 3258.15USD at a 5 star hotel,|offer
+USR|Is there a package to Mannheim which offers a cheaper hotel?|inform
+USR|I am flexible with my dates of arrival and departure.|inform
+SYS|I am unable to find any cheaper packages for Mannheim|no_result
+USR|What would the cost be if I stayed for 10 days in Mexico City?|inform
+SYS|You can stay in Mexico City for 8 days for 426.16USD leaving from Melbourne, USA.|offer
+USR|Actually I am leaving from Melbourne, Australia.|request
+USR|How does this affect the price of the trip?|request
+SYS|I cannot find any trips available from Melbourne, Australia to Mexico City.|no_result
+USR|Could I purchase a package  to Vancouver similar to the one I was offered?|inform
+SYS|I cannot find any trips available from Melbourne, Australia to any destinations.|no_result
+SYS|This point of departure is not in my database.|no_result
+USR|Ok, thank you for your time anyways|thankyou

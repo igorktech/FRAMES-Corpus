@@ -1,0 +1,45 @@
+USR|I have a business trip coming up in Punta Cana and I was thinking of taking a short vacation to Tofino.|inform
+USR|Whatcha got for me?|inform
+SYS|Where would you like to go and where would you like to leave from?|request
+USR|I want to go to Tofino.|inform
+USR|I want to leave from Punta Cana.|inform
+USR|Comprende?|inform
+SYS|Got it!|request
+SYS|When would you want to leave?|request
+USR|I can travel from Tuesday, September 6, 2016 and Monday, September 26, 2016.|inform
+USR|Comprende?|inform
+SYS|Are you travelling with a budget?|request
+USR|No.|inform
+USR|No budget, But don't rip me off either.|inform
+SYS|I’m having trouble finding something from Punta Cana to Tofino.|suggest
+SYS|Is there anywhere else you would be interested in going?|suggest
+USR|How about form Punta Cana to Santa Cruz?|inform
+SYS|I have availability in Punta Cana, does that interest you?|hearmore
+USR|No, it does not.|inform
+USR|Check Belo Horizonte to Tofino.|inform
+SYS|Sorry, no availability.|sorry
+USR|GRRRRRRRRR Belo Horizonte to Santa Cruz?|inform
+SYS|How about Belo Horizonte to Porto Alegre?|suggest
+USR|ONE LAST TRY - KOBE|inform
+SYS|Would you like to go to Kobe or depart from Kobe?|confirm
+USR|GO TO KOBE|inform
+SYS|Would you like to depart from Tokyo?|suggest
+USR|NO FORM PUNTA CANA|inform
+SYS|I can book you 10 days at Resort Ancient Angel leaving from Belo Horizonte.|offer
+USR|HALLELUJAH|switch_frame
+SYS|Would you like to book 10 days at this hotel leaving from Punta Cana?|inform
+USR|HOW MUCH FOR 2 PEOPLE|inform
+SYS|11385.57USD|offer
+USR|LEAVING FROM WHERE?|switch_frame
+SYS|Punta Cana.|inform
+USR|Can you tell me more about the hotel?|moreinfo
+SYS|The 3.5 star hotel has a 8.69/10 rating and free wifi.|inform
+USR|dates?|request
+SYS|September 9th until the 17th.|inform
+USR|Sounds good.|inform
+USR|Can you just reiterate everything back to me so I know we got the booking right?|inform
+SYS|Punta Cana to Kobe, Sept 9-17, 2 adults, cost of 11385 dollars.|inform
+USR|Very well done... my friend.|thankyou
+USR|Took a while but we got there.|thankyou
+USR|Thanks for your help.|thankyou
+SYS|My pleasure :slightly_smiling_face:|you_are_welcome

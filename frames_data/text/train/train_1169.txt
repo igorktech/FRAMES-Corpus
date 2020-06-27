@@ -1,0 +1,32 @@
+USR|Yes I need to go help 3 pit bulls before it's too late but I have to go where it's easiest and cheapest first.|inform
+USR|Everyone thinks I'm rich but I do this mainly out of love.|inform
+USR|Can you get me something in Mexico City for $2400|inform
+SYS|I can try!|request
+SYS|Where are you leaving from?|request
+USR|I can leave from anywhere is necessary|inform
+SYS|When would you like to leave?|request
+USR|After Sept 7 but I need to be back by Sept 20.|inform
+USR|Please make sure you give me a hotel located near a park|inform
+SYS|Are you travelling by yourself?|suggest
+USR|no my assistant will assist me|inform
+SYS|There are no parks near the hotels but there is a beach!|inform
+USR|Beach could work if we go early in the morning.|request
+USR|What do you have in price range?|request
+SYS|Our most expensive is 2325.23 and our cheapest is 1849.40.|offer
+USR|What's your cheapest in San Juan close to a park or beach?|inform
+SYS|1497.89 is our cheapest package but none of the packages are close to a beach or park, unfortunately.|sorry
+USR|What do you have in Athens?|inform
+SYS|We do not have anything in athens.|no_result
+USR|I guess Mexico City it is!|switch_frame
+USR|Let's go with the cheapest stay, these dogs are all volunteer work.|switch_frame
+SYS|Great!|hearmore
+SYS|Would you like to hear more about the hotel before booking?|hearmore
+USR|Yes please if you can tell me the name and some of the details concerning my stay|moreinfo
+SYS|Hotel Tropic is a 3 star hotel near the beach and shopping hot spots, they have a 6.77/10 guest rating, and they offer free breakfast and wifi.|inform
+SYS|This package includes economy flights and is from September 8th to 20th and as you know, the cost is 1849.40.|inform
+USR|It sounds just fine to me, please go ahead and do the booking|inform
+SYS|All done!|inform
+SYS|Easy as that!|inform
+SYS|You will receive an email confirmation soon as well.|inform
+SYS|Have a great day and enjoy your stay at Hotel Tropic!|inform
+USR|Thank you for your help|thankyou

@@ -1,0 +1,38 @@
+USR|I sure do.|inform
+USR|This will be my first time travelling by myself so I am nervous.|inform
+USR|I really need you to help me find the right package.|inform
+SYS|Okay!|request
+SYS|Where do you need to go?|request
+USR|Chicago.|inform
+USR|I live in Cleveland.|inform
+SYS|Do you have a budget?|request
+USR|Yes - 2700.|inform
+USR|I need to be thrifty with it.|inform
+SYS|Okay.|request
+SYS|Do you have dates of travel in mind?|request
+USR|I can only go between Sept 13 and Sept 23.|inform
+SYS|We have a 9 day package from the 13th to 21st at a 2.5 star hotel near a park, museum, and university.|offer
+SYS|They have a 8.69/10 guest rating and provide free parking, breakfast, and wifi.|offer
+USR|How much for this 9 day package?|switch_frame
+SYS|1434.55 for business class flights and 1148.94 for economy class flights.|offer
+USR|Do you have a 9 day package in Kyoto and can you tell me about it if you do?|inform
+SYS|We have a 7 day package from the 16th to 21st for 2159.81.|offer
+USR|What type of hotel is this?|switch_frame
+SYS|This is a 3 star hotel in the heart of the city and is also near a museum.|inform
+USR|Guest rating?|request
+SYS|6.61/10|inform
+USR|Can you check Hamburg for me ?|inform
+USR|9 day packages.|inform
+SYS|This is a 12 day package from the 13th to 23rd and is a 3 star hotel in the heart of the city, near a museum, and has a 0/10 guest rating, all for 2378.26.|offer
+USR|Does it meet my dates?|confirm
+SYS|Yes your dates are the same as this package.|affirm
+USR|Seems like the 9 day package in Chicago is the best value and it doesn't take me too far away from home.|request
+USR|Can you tell me the exact departure and return dates so I can let my boss know?|request
+SYS|Departure is the 13th and the return is the 21st.|suggest
+SYS|Do you want to book economy or business?|suggest
+USR|Definitely economy, I'm a poor intern.|switch_frame
+SYS|Okay, the total for your package is 1148.94 for economy flights to Chicago.|inform
+SYS|Your flight has been booked!|inform
+SYS|Have a great trip!|inform
+USR|Awesome!!!|thankyou
+USR|Thanks!!!|thankyou

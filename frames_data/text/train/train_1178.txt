@@ -1,0 +1,26 @@
+USR|GOING FROM PORTLAND TO MANAUS.|inform
+USR|4 KIDS TOO|inform
+SYS|Just one adult?|suggest
+USR|YUP JUST ONE ADULT|affirm
+SYS|When are you guys going?|request
+USR|I DONT KNOW YOU TELL ME|inform
+SYS|Do you have a budget?|request
+USR|NOPE NOT AT ALL|inform
+SYS|The best I've got for your consists of an 11 day trip with stays at a 3.5 star hotel near the park and market.|offer
+SYS|How does that sound?|offer
+USR|WHAT AMENITIES?|request
+SYS|Free parking, free breakfast, and free wifi.|inform
+USR|ANY OTHER OPTIONS|request_alts
+SYS|We have a 3 star hotel near the park, museum, and palace.|offer
+SYS|8.49/10 guest ratings with the same amenities as the previous.|offer
+USR|WHATS THE PRICE DIFFERENCE|request_compare
+SYS|15 days at the 3 star is 9527.83.|inform
+SYS|11 days at the 3.5 star is 7141.62.|inform
+USR|BOOK THE 15 DAY PACKAGE PLEASE|switch_frame
+SYS|Great.|offer
+SYS|Would you like to upgrade to business class for 12167.12?|offer
+USR|NO THANK U|negate
+SYS|Alright economy it is!|inform
+SYS|Your trip is booked for you.|inform
+SYS|Anything else you need today?|inform
+USR|NO THANKS|thankyou

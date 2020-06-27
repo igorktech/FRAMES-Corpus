@@ -1,0 +1,12 @@
+USR|hi... i don't usually do this
+as in, book my own trips, associate with proles like you
+me and a friend need to go to fukuoka and be back in sapporo by the 13th of the month
+i cant have this getting out though.. so i'm booking it myself
+last time I had my staff book things I was swarmed by soul sucking paparazzi|inform
+SYS|We have nothing from Sapporo to Fukuoka with a return date of September 13th|no_result
+USR|Belem then|inform
+SYS|From September 14th to Sept 23rd, we have the 4.5 star Zion Hotel in Sapporo|offer
+USR|what is included in this package|moreinfo
+SYS|The Zion is located on a lovely beach and within the package price of  6621.22USD, flying on business class of course, all the amenities such as wifi, parking and breakfast are included.|inform
+USR|fine.|inform
+USR|book that I supposed|inform

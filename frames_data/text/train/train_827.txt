@@ -1,0 +1,30 @@
+USR|hi.|inform
+USR|im just trying to see what i can do with 3000|inform
+SYS|Hello!|request
+SYS|I can help you with that!|request
+SYS|Where would you like to go?|request
+USR|can you do rome to milan?|inform
+SYS|Sure, when would you like to leave?|request
+USR|i don't know haha|inform
+SYS|Okay!|offer
+SYS|Well we have two different packages at the same 4 star hotel near a museum and cathedral.|offer
+SYS|This hotel is also in the heart of the city and has a 8.37/10 guest rating and offers free breakfast and wifi!|offer
+SYS|One package is from the 9th to 17th of September and the other package is from the 8th to 11th.|offer
+USR|oh wow.|inform
+USR|can you also check kyoto?|inform
+SYS|There is one result to Kyoto for a 3 star hotel near a museum, 0/10 guest rating, free breakfast and wifi, and the trip is from the 4th to 20th of September!|offer
+USR|0/10 guest rating is sketch though.|request_alts
+USR|are there other hotels there?|request_alts
+SYS|No just the one for this budget.|inform
+USR|fair point.|inform
+USR|i've also been dreaming about campinas.|inform
+USR|you do flights there?|inform
+SYS|Yes!|offer
+SYS|We have one result at a 3.5 star hotel in the heart of the city, close to a mall and cathedral.|offer
+SYS|They have a 8.49/10 guest rating, free parking, breakfast, and wifi.|offer
+SYS|This package is from September 8th to 13th.|offer
+USR|whats the name of this hotel?|request
+SYS|This is the Wonderland|inform
+USR|I will remember the name.|thankyou
+USR|thanks for all you've done.... friend|thankyou
+SYS|Anytime!|you_are_welcome

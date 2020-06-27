@@ -1,0 +1,17 @@
+USR|Hi there,|greeting
+SYS|Hi!|request
+SYS|Where would you like to go?|request
+USR|I need to get to Porto with 10 adults.|inform
+USR|going from Tel Aviv if possible.|inform
+USR|anytime is good but i need to keep it under 3000|inform
+SYS|Unfortunately there are no flights for this request in my database.|sorry
+USR|how about leaving from Jerusalem instead|inform
+SYS|There is nothing for this search either.|suggest
+SYS|Is there another destination you'd like to visit?|suggest
+USR|yeah in that case lets try flights going to Madrid then|inform
+SYS|From Jerusalem?|confirm
+USR|yes|affirm
+SYS|There are no results for this request either.|no_result
+USR|ok how about tel aviv to madrid?|inform
+SYS|There are no results for this either unfortunately.|sorry
+USR|rats!|goodbye

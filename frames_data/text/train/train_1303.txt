@@ -1,0 +1,18 @@
+USR|My friends and I would love to get to Phoenix please!|inform
+SYS|Where will you be coming from?|request
+SYS|And how many friends?|request
+USR|It'll be 3 of us from Tofino.|inform
+SYS|Sorry, we currently don't have any trips leaving from Tofino.|sorry
+SYS|Any chance you can leave from another city?|sorry
+USR|Oh really?|inform
+USR|I guess we can leave from Beijing then.|inform
+SYS|Unfortunately we also don't serve trips out of Beijing.|sorry
+SYS|Would you have another alternative?|sorry
+USR|We can leave from Beijing though, right?|inform
+SYS|Unfortunately no.|sorry
+SYS|We don't serve flights out of Beijing.|sorry
+SYS|Would you be able to leave from somewhere else?|sorry
+USR|I guess I'll have to go elsewhere to book our trip|null
+SYS|Sorry I was not able to help!|sorry
+USR|That's fine, we'll look somewhere else.|goodbye
+USR|Bye.|goodbye

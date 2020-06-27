@@ -1,0 +1,3 @@
+USR|Seattle please leaving Jerusalem|inform
+SYS|Sorry but we do not do flights out of Jerusalem at this time.|sorry
+SYS|Is there somewhere else you are able to flight out from?|sorry

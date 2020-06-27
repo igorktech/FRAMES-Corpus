@@ -1,0 +1,14 @@
+USR|THIS IS WHAT I NEED: TIX FOR 3 ADULTS FROM BERLIN TO SENDAI.|inform
+USR|LEAVING SEPT 2 OR SOMETIME CLOSE AFTER THAT.|inform
+USR|CAN I GET THIS DONE FOR &lt;$2400?|inform
+SYS|I'm afraid that I only have one seat left on a flights between those cities.|sorry
+USR|WHAT??|inform
+USR|HOW ABOUT BERLIN TO FRANKFURT|inform
+SYS|I can offer you an 8 day package leaving September 6th.|suggest
+SYS|The three of you would stay at Atlantis Peaks Resort which boasts 5 stars.|suggest
+SYS|I can even book you on business class tickets if you would like and the total cost would still be well below your budget.|suggest
+USR|THAT IS SUPERB PLEASE DO!|inform
+SYS|So just to confirm you want me to book you for this 8 day package in Frankfurt with business class flights?|confirm
+USR|Yes yes and yes|affirm
+SYS|Perfect, it's booked!|inform
+USR|:pray:|thankyou

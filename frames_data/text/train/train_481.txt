@@ -1,0 +1,23 @@
+USR|two business class tickets from Birmingham to Montreal ASAP|inform
+SYS|I have a 5 day package at the 4 star The Illustrious Haven Hotel.|suggest
+SYS|With flights in business class it costs 4131.57USD.|suggest
+SYS|Shall I book this for you?|suggest
+SYS|You would leave September 6th and return the 10th.|suggest
+USR|Ok thats not too bad but I neglected to mention one detail I need to be back before September 5|inform
+SYS|In that case I can offer you 5 days at the Twin Canyon Inn and Suites for 4131.50USD.|offer
+USR|How good is the hotel?|request
+SYS|It is a 2.5 star hotel, so not as fancy as the previous one but satisfied customers have given it a 8.86/10 review and it is close to the beach.|inform
+USR|That is exactly 2.5 stars below what a superstar of my stature deserves.|inform
+USR|Ok forget Montreal then.|inform
+USR|Can you get me into the swankiest hotel in Mannheim|inform
+SYS|You are in luck!|offer
+SYS|We have an 8 day package available at The Regal Resort which has 5 stars for 5684.84USD.|offer
+SYS|Is this more what you had in mind?|offer
+USR|Thats more like it.|request
+USR|What are the dates?|request
+SYS|Glad you think so!|inform
+SYS|The dates are August 30th to September 5th.|inform
+USR|My expectations for you weren’t that high to begin with but I have to say you’ve exceeded them.|inform
+USR|Book for two adults please|inform
+SYS|Done!|inform
+SYS|You will get a confirmation shortly.|inform

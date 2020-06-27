@@ -1,0 +1,10 @@
+USR|I need to book a business trip - something impressive... thinking… las vegas
+3 adults find me the best you can out of mannheim after september 11th|inform
+SYS|The best hotel we have in Las Vegas is a 3.0 star hotel.|suggest
+SYS|Would you like to know more about this option or do you have another possible destination?|suggest
+USR|Try Fortaleza|inform
+SYS|The best in Fortaleza is also a 3 star hotel.|offer
+USR|Fukuoka?|inform
+SYS|We do have a better option in Fukuoka.|offer
+SYS|It's a 3.5 star hotel in the heart of the city with guest ratings of 8.22/10.|offer
+SYS|Is this better?|offer

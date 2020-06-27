@@ -1,0 +1,24 @@
+USR|hay i am doing some business globetrotting just me and a colleague.|inform
+USR|we need to get to Fukuoka some time between august 27 and september 6|inform
+SYS|Would you be able to leave from Osaka?|offer
+SYS|I could offer you 4 nights at the Historic Mansion Hotel for 483.14USD.|offer
+USR|I can’t do Osaka.|inform
+USR|anything available from London tho?|inform
+SYS|I can fit in a stay at the Historic Mansion Hotel from the 30th of August to the 2nd of September.|offer
+SYS|Leaving from London will bring your price up to 3250.48USD.|offer
+SYS|Is this ok?|offer
+USR|that would work!|inform
+USR|but before we book it I also want to look at a trip to Mannheim - how much would that be, and could you fit it between aug 27 and sept 6|inform
+SYS|Yes I can!|offer
+SYS|You would be staying at the Regal Resort from the 27th to the 31st of August.|offer
+SYS|The cost of this package is 1971.39USD.|offer
+USR|ok!|confirm
+USR|is that with my one colleauge included ?|confirm
+SYS|The same trip for two would be 3942.78USD.|offer
+SYS|WOuld you like me to book this trip?|offer
+USR|how much would that be for the two of us to fukuoka if we left from Munich?|inform
+SYS|A 6-day package in Fukuoka would be 4773.97USD for two adults.|offer
+USR|what would it be from Munich to Mannheim?|inform
+SYS|Correct, that is from Munich to Fukuoka.|offer
+SYS|The best deal I can offer you on a trip for two from Munich to Mannheim is 1313.14USD for six days.|offer
+USR|I think I will go back and book the trip from London to Fukuoka for 2|inform

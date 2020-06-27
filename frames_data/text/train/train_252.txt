@@ -1,0 +1,22 @@
+USR|Hi!|inform
+USR|We are getting married in beautiful Cleveland underneath the redwoods next weekend.|inform
+USR|We've been soooooo busy we forgot about the honeymoon!|inform
+USR|Do you have any last minute special to Porto?|inform
+SYS|Yes, I do!|suggest
+SYS|What dates would you like to travel?|suggest
+SYS|Do you have a budget?|suggest
+SYS|Will there be just two of you travelling for your honeymoon?|suggest
+USR|The wedding is on the 23rd so it has the be the 24th or after.|inform
+USR|We are hoping for a week in Porto.|inform
+USR|We finally get some time, just the 2 of us!|inform
+SYS|ok, great!|offer
+SYS|I have 4 different hotels you can stay at.|offer
+SYS|Would you like to hear about the 4.0 star hotel first?|offer
+USR|Yes, it's our honeymoon after all!|inform
+USR|But we only have $5100 to spend.|inform
+SYS|Unfortunately I have nothing available within your budget :disappointed:|sorry
+USR|how about a lower end hotel then :disappointed:|inform
+SYS|Sadly the cheapest in Porto for your dates is around 7000.|suggest
+SYS|Anywhere else I could look into for you?|suggest
+USR|No we can only go to Porto... or Porto.|thankyou
+USR|Thanks.|thankyou

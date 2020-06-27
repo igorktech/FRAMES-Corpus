@@ -1,0 +1,14 @@
+USR|hello, please find me a vacation between saturday august 27 2016 and wednesday september 7 2016 for under 6000$ leaving from madrid|inform
+SYS|Hello, what can I help you with today?|greeting
+USR|hello, please find me a vacation between saturday august 27 2016 and wednesday sept 7 for under 6000$ leaving from madrid|inform
+SYS|Ok!|offer
+SYS|Absolutely :slightly_smiling_face: I can book you a trip to Rome from September 2-7 for only $407.55 if you are interested.|offer
+USR|ok.|inform
+USR|can it be for a longer period|inform
+SYS|What about Essen for 610.86USD?|offer
+SYS|You would leave August 30th and return on September 7th.|offer
+USR|ok|switch_frame
+SYS|Shall I go ahead and book that for you?|suggest
+USR|ok|affirm
+SYS|Wonderful, all booked :slightly_smiling_face: Enjoy your stay.|inform
+USR|thanks|thankyou

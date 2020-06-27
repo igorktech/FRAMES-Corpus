@@ -1,0 +1,34 @@
+USR|I'm looking to book a trip from Hamburg starting August 15th.|request
+USR|I have a 14 day vacation.|request
+USR|What packages can you recommend?|request
+SYS|Hi there!|request
+SYS|From where will you be leaving?|request
+USR|Hamburg|inform
+SYS|Will you be travelling with a companion, and is there a budget for this trip?|request
+USR|No and no.|inform
+SYS|I have packages available to Manaus, Denver, Ciudad Juarez and South Korea.|suggest
+SYS|Do any of these places interest you?|suggest
+USR|Can I get more information for Manaus?|moreinfo
+SYS|The package includes a 10 day stay in a 2.5 star hotel and economy flights with a departure on August 19th.|inform
+USR|Do you have information for Denver?|moreinfo
+SYS|The Denver package has a 9 day stay in a 3 star hotel with business class flights and a departure on August 15th.|inform
+USR|How about Ciudad Juarez?|switch_frame
+SYS|You would stay at a 2.5 star hotel and depart on August 15th in economy class.|inform
+USR|Do you have information for the trip to Korea?|moreinfo
+SYS|Certainly!|offer
+SYS|This package includes an 8 day stay at a 5 star hotel with economy flights.|offer
+SYS|Departure is on August 17th.|offer
+SYS|I also have a package to Japan leaving August 17th.|offer
+USR|Are there any other hotel options for the Denver trip?|request_alts
+SYS|Yes, there are two, but departure flights are on August 26th and 27th.|inform
+USR|Is there a trip to Denver that leaves on the 15th?|inform
+SYS|Yes, but they are also all 3 stars.|inform
+SYS|Solar Inn is a 3 star hotel and would be the least expensive at 1881.10 USD for 9 days.|inform
+SYS|Would you like me to list others?|inform
+USR|No, I think I will book this trip to Denver!|inform
+SYS|Great!|suggest
+SYS|Shall I book it now?|suggest
+USR|Sure!|affirm
+SYS|The reservation is complete!|goodbye
+SYS|Have a nice day!|goodbye
+USR|Thank you!|thankyou

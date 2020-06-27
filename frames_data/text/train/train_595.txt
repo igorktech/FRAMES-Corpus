@@ -1,0 +1,10 @@
+USR|Going to Buenos Aires.|inform
+USR|Getting out of Montreal for my bday
+No budget, don’t care about the date cause my bday is every day
+5 stars minimum|inform
+SYS|4 stars is as high as they go for the results I have.|suggest
+USR|Fine we’ll go to Chicago|inform
+SYS|Results tell me the highest rated hotel is 2.5 stars.|inform
+USR|Fortaleza
+5 stars|inform
+SYS|There are only 3 stars.|suggest

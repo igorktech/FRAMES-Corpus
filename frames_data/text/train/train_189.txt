@@ -1,0 +1,23 @@
+USR|Hi there!|inform
+USR|What kind of packages do you have available to Santos from Leon?|inform
+SYS|What would be your travel dates?|request
+SYS|will you be travelling alone or with other travel companions?|request
+USR|I only have a little bit of time off between August 18 and September 6.|inform
+USR|I'll be travelling by myself.|inform
+USR|I don't like other people.|inform
+SYS|For that time frame, I only have high-end 5-star hotels available.|request
+SYS|What is your budget?|request
+USR|I'm going wild this vacation!|inform
+USR|My purpose is to spend money, not save it!|inform
+USR|Hit me with your best shot!|inform
+SYS|Economy or business class flight?|suggest
+USR|Business!|inform
+SYS|The Sunny Aurora Hotel has a first class package available at it's 5-star location in Leon, Spain which includes free wifi, on a  a business class flight for the very reasonable price of 3709.22USD which is available with departures either on August 18 or August 25th.|offer
+USR|How long is the stay?|request
+SYS|10 days.|inform
+SYS|It falls well within your dates.|inform
+USR|Great!|inform
+USR|I'll book this package with departure on the 18th.|inform
+SYS|We will take care of the booking and send you a confirmation.|inform
+SYS|Thank you and have great day.|inform
+USR|Thanks!|thankyou

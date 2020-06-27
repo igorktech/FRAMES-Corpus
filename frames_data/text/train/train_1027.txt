@@ -1,0 +1,6 @@
+USR|Can you get me and my family a vacation that departs from Jerusalem?|inform
+SYS|Any specific destinations in mind?|request
+USR|Tampa|inform
+SYS|How many adults and children in your family?|request
+USR|14 adults 13 children.|inform
+SYS|I do not have any packages available from Jerusalem to Tampa available for that many people.|no_result

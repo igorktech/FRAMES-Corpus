@@ -1,0 +1,30 @@
+USR|i want to leave Pittsburgh.|inform
+USR|for 9 days
+and spend 0 dollars|inform
+SYS|Sorry, but that is not possible.|sorry
+SYS|Is your budget flexible by any chance?|sorry
+USR|I can scrounge up 400 I guess if I raid my mom's couch cushions|inform
+SYS|I could work wth that.|request
+SYS|When do you want to leave?|request
+USR|whenever dude|inform
+SYS|I only have 8 day or 10 day trips.|hearmore
+SYS|Would you like to hear more about the available destinations?|hearmore
+USR|yeah just tell me where I can go|request
+SYS|You can go to Atlanta for 10 days.|offer
+SYS|Or you can go to Denver or Calgary for 8 days.|offer
+USR|what is the Atlanta hotel like?|request
+SYS|It's a 3.5 star beachside hotel that's also close to a park.|inform
+SYS|It offers guests parking and wifi free of charge.|inform
+USR|that's pretty sweet.. how much would the 10 day package be?|request
+SYS|It would fit right under your budget at 385.50.|inform
+USR|dope.|request_compare
+USR|are the hotels in Calgary or Denver nicer tho?|request_compare
+SYS|There are no nicer hotels in Denver, but Calgary's different.|inform
+SYS|It's a 4.0 star hotel next to a university and it offers the same amenities as the Atlanta hotel.|inform
+USR|i'd rather be at a beach than a school...can I afford to fly business class to Atlanta|request
+SYS|No.|negate
+USR|fine book that one but economy class.. i'm just stoked to be staying on the beach for under 400|inform
+SYS|Sounds good.|inform
+SYS|I will sign you up for it!|inform
+SYS|Email confirmation is coming your way.|inform
+USR|thanks bud|thankyou

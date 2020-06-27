@@ -1,0 +1,14 @@
+USR|I need to go to beijing from Atlanta|inform
+SYS|I’m sorry, I can’t offer a flight from Beijing to Atlanta at this time.|sorry
+SYS|Could you perhaps leave from somewhere else?|sorry
+USR|Well good cuz i want to go to beijing from Atlanta.|inform
+SYS|Oh, I’m sorry, I misread.|sorry
+SYS|However I am still unable to accommodate any trips involving Beijing.|sorry
+USR|well take me to Barcelona for 12 adults and $3100|inform
+SYS|Sorry, I cannot provide a trip for 12 adults at that price.|sorry
+SYS|Would you be able to increase your budget or reduce the size of your party?|sorry
+USR|i can go to Stuttgart for 3500 with 6 adults total|inform
+SYS|I can book a week at Hotel Jade Valley in Stuttgart for 6 adults for just under your budget!|offer
+SYS|Would you prefer to leave from Berlin, Hamburg, or Essen?|offer
+USR|I have to leave from Atlanta.|inform
+SYS|Sorry, that is not possible for your budget.|sorry

@@ -1,0 +1,20 @@
+USR|Madonna and Will Smith are on a trip to Houston.|inform
+USR|A picture of them is worth millions.|inform
+USR|I need to go to Houston.|inform
+SYS|Okay.|request
+SYS|Where are you leaving from?|request
+USR|Ciudad Juarez, and I'm on a strict budget of 2800 USD.|inform
+SYS|Travelling alone?|suggest
+USR|Yes sir!|affirm
+USR|No one else can know about this.|affirm
+SYS|Do you have travel dates in mind?|request
+USR|I need to leave on August 17th.|inform
+USR|So I'm already late.|inform
+SYS|How long do you want to be in Houston?|request
+USR|As long as my budget will carry me for.|inform
+SYS|Sorry but there are no trips from Ciudad Juarez to Houston.|sorry
+SYS|Would you be able to leave from somewhere else?|sorry
+USR|But I NEED to go there!|inform
+USR|What if I increased by budget to 3800 dollars?|inform
+SYS|I'm sorry but there are no results for your request in my database.|sorry
+USR|Oh no... I'll have to go to a different agency.|goodbye

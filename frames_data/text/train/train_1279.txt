@@ -1,0 +1,14 @@
+USR|I'd like to go to Washington.|inform
+SYS|Sure thing :slightly_smiling_face: Where would you like to leave from?|request
+USR|Naples|inform
+SYS|Sorry but we do not offer trips straight from Naples to Washington.|sorry
+SYS|Is there another destination you would consider?|sorry
+USR|I also had Sao Paulo in my mind..|inform
+SYS|Ok!|offer
+SYS|I have two hotels available: a 2 star and a 3 star - both with 6.91 guest ratings.|offer
+USR|The 3 star would be great if it's under my budget of 5600..|inform
+SYS|It sure is!|offer
+SYS|You could even fly business class for  2893.46USD total.|offer
+USR|Great let's book it!|inform
+SYS|Consider it booked :slightly_smiling_face:|inform
+USR|Thanks!|thankyou

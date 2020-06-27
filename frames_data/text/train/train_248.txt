@@ -1,0 +1,22 @@
+USR|Wooooohoooooo it's spring break time let's go get wet and wild!|inform
+USR|We need to book a place in the middle of the action in Dallas.|inform
+USR|Close to beach for sure.|inform
+SYS|Hi!|request
+SYS|Let me see what I can do for you.|request
+SYS|Where are you leaving from?|request
+USR|We are from U of Alexandria, biggest spring break partiers on the planet!|inform
+SYS|How many will you be in this party?|request
+USR|we are 3 sophomore girls outta have a crazy time.|inform
+USR|we only have 3200 make sure it stays under that but we have to be on the beach even if it is a dump|inform
+SYS|What are your dates for this trip?|request
+USR|Our spring break is from Aug 19 to September 2 we can also go to santo domingo tons of action there too|inform
+SYS|I have only a 4 day stay at the Winter Arc Hotel, at the heart of city in Dallas.|offer
+SYS|For Santo Domingo I can offer you a 9 day stay on the beach and near shopping for 3025.26USD.|offer
+SYS|What do you think?|offer
+USR|santo domingo it is thanks by the way do we get breakfast|request
+SYS|Yes, breakfast, wifi and parking are all free.|inform
+USR|wooooohoooooo santo domingo it is|inform
+SYS|Should I proceed with the booking?|suggest
+USR|absolutely!!!!!!!|affirm
+SYS|Great, your trip has been booked!|inform
+SYS|Have a wonderful time.|inform

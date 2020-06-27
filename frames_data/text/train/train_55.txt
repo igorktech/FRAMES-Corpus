@@ -1,0 +1,21 @@
+USR|Hi wozbot.|inform
+USR|I'd like to book a vacation for my 7 kids and myself.|inform
+SYS|Where would you all like to go?|request
+USR|I don't really have a preference for a destination, but I would like free breakfast.|inform
+USR|We would be leaving from Kingston for a vacation between August 19 and August 31.|inform
+SYS|I've got a hotel in Toronto available with free breakfast between August 24 and August 30?|offer
+USR|That sounds nice.|switch_frame
+USR|My husband requested I stick to a budget of $25600.|switch_frame
+USR|What is the price of this package?|switch_frame
+SYS|The price of the Toronto package for 1 adult and 7 children is 3148.9USD.|inform
+USR|Do you have any packages with a longer stay that ends preferably by August 24?|inform
+SYS|How about La Paz, Bolivia from August 19-23?|suggest
+USR|Fantastic!|switch_frame
+USR|How much is the trip?|switch_frame
+SYS|9416.57USD is the price for that one.|inform
+USR|Great.|request
+USR|Breakfast is included?|request
+SYS|It certainly is|inform
+USR|Great lets book it!|inform
+SYS|You got it|inform
+USR|Thank you wozbot!|thankyou

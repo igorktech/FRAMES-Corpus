@@ -1,0 +1,25 @@
+USR|Hello!|inform
+USR|I’m looking to get my parents on a nice anniversary trip|inform
+SYS|Happy to help!|request
+SYS|Where do you think they would like to go?|request
+USR|That’s the thing…I’m not sure!|inform
+USR|Can you just see what you can find for flights leaving Portland?|inform
+USR|I have 1100 to spend on this|inform
+SYS|Are you just booking for 2?|suggest
+USR|Yup just the two of them|affirm
+SYS|Are they flexible with their dates?|request
+USR|Decently flexible: anything between September 8 and 28|inform
+SYS|Alrighty, I have 14 day trips to Philadelphia and Pittsburgh, 12 day trips to Atlanta, and 10 day trips to Denver, Boston, San Diego, and Punta Cana.|offer
+SYS|Which ones would you like more information on?|offer
+USR|you can get us a 14 day trip to Philadelphia on my budget??|request
+SYS|Sure can!|inform
+SYS|It's a 2.0 star hotel near a park and a museum.|inform
+SYS|While there, your parents can enjoy free wifi + breakfast + parking.|inform
+SYS|All this for $1098.47!|inform
+USR|What are the dates?|request
+SYS|It's from September 13-26.|inform
+USR|This is excellent, I want to go for it|inform
+SYS|Awesome!|inform
+SYS|I will book it for your parents.|inform
+SYS|The confirmation email will be sent to you!|inform
+USR|Thank you!|thankyou

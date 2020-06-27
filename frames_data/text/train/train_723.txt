@@ -1,0 +1,23 @@
+USR|Hi there, can you help me out with a trip?|inform
+USR|I need to get to Kingston.|inform
+SYS|From where?|request
+USR|I can only leave from Long Beach.|inform
+SYS|Do you have a budget?|request
+USR|Can you stay under 2100 if possible?|inform
+SYS|Are you travelling alone?|suggest
+USR|Yes|affirm
+SYS|When would you like to go?|request
+USR|As long as it's between September 6 and 11|inform
+SYS|There are two options.|offer
+SYS|Option 1: a 3.5 star hotel, 8.69/10 guest rating, free breakfast, and wifi, price is 1822.69.|offer
+SYS|Option 2: a 3 star hotel, 8.49/10 guest rating, free parking, breakfast, and wifi, price is 1811.86.|offer
+SYS|Both hotels are near a museum and both packages are from September 6th to 11th.|offer
+USR|Are those prices for economy flights?|confirm
+SYS|Yes both are also economy flights.|no_result
+SYS|There are no business class options.|no_result
+USR|I'll go with the 3.5 star hotel.|inform
+USR|Will you be able to book it for me?|inform
+SYS|Of course!|inform
+SYS|I will send you a confirmation email now.|inform
+SYS|Have a great trip!|inform
+USR|That's perfect.|thankyou

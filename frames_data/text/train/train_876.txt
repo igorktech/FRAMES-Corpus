@@ -1,0 +1,12 @@
+USR|hi|greeting
+SYS|Hi!|greeting
+USR|I'm about to be a newlywed as of September 8|inform
+SYS|Sure!|request
+SYS|Where would you be leaving from?|request
+USR|Cleveland.|inform
+USR|we'd like to go to Atlanta for a week|inform
+SYS|Good, and do you have a  budget?|request
+USR|2300 for the two of us|inform
+SYS|What is your date range for travel?|request
+USR|anytime after our wedding|inform
+SYS|No, unfortunately.|sorry

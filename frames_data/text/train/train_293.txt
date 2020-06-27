@@ -1,0 +1,38 @@
+USR|THANK YOU I REALLY NEED A VACATION.|inform
+USR|I live in Ulsan|inform
+SYS|I will do my best to help you find a vacation.|request
+SYS|Is there somewhere special you were hoping to go on vacation?|request
+USR|I haven't decided yet but one place was Lima|inform
+SYS|Which would be your most suitable travel dates?|suggest
+SYS|Will you be travelling alone?|suggest
+USR|I managed to be off work from August 27th to September 7th and I'm hoping to be away for the whole time.|inform
+USR|Yes, I'll be alone|inform
+SYS|I have  a package to Lima departing on August 27th that lasts 8 days.|offer
+SYS|It is at a 4 star resort called Olive Summit Hotel.|offer
+SYS|Is thos something that would interest you?|offer
+USR|Can you tell me more about the hotel?|request
+USR|Location?|request
+USR|Price?|request
+USR|What's included?|request
+SYS|It is near the Lima park and includes wifi.|inform
+SYS|It has an excellent guest rating of 8.98/10.|inform
+SYS|The price for an 8 day stay is 3698.79USD.|inform
+SYS|The economy class flight is included in the package price.|inform
+USR|That sounds fantastic!|inform
+USR|The other place I was thinking of escaping to was Essen.|inform
+USR|Can you offer me anything for that destination?|inform
+SYS|I have a flight from Ulsan to Essen departing on August 27, 2016 where you would stay at the Motel Ivory Safari for 7 days.|offer
+SYS|This is a 2 star hotel with a guest rating of 4.93/10 and includes wifi and parking.|offer
+SYS|The cost on this package, based on an economy class flight is 2813.16USD.|offer
+USR|How many stars did the Lima hotel have?|request
+SYS|The Olive Summit Hotel in Lima has 4 star rating.|inform
+SYS|The Motel Ivory Safari has a 2 star rating.|inform
+SYS||Neither included breakfast.|inform
+USR|Great thanks, I think i'll go with the Lima trip, I have no idea when i'll ever get another vacation so I want to go all out.|request
+USR|Can you just confirm the return date for me?|request
+SYS|10:00 am - Saturday, August 27th 2016 returning on Sept 2nd at 1:00am|inform
+USR|Perfect!|inform
+USR|I'll book it|inform
+SYS|Great I will take down all your information.|inform
+SYS|I hope I have been of service to you.|inform
+SYS|I wish you a pleasant afternoon.|inform

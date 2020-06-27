@@ -1,0 +1,29 @@
+USR|hello.|greeting
+SYS|Hello :slightly_smiling_face:|greeting
+USR|i am a humble father of three, and i wish to take my lovely children to see their mother|inform
+SYS|Where would you like to go?|request
+USR|can you get us to porto alegre.|inform
+USR|from sendai|inform
+SYS|Sure!|request
+SYS|Do you have a budget?|request
+USR|i'll spend whatever is left after alimony.|inform
+USR|that cruel siren
+but no i will not have a budget for this trip|inform
+SYS|What dates would you like to travel?|request
+USR|whenever|inform
+SYS|I have 3, 3.5, and 4 star hotels in Porto.|inform
+SYS|I have trips as long as 18 days.|inform
+SYS|Any preference?|inform
+USR|4 stars, i want to rub my newfound wealth in her face.|inform
+USR|whats the longest i can stay there?|inform
+SYS|Ok!|offer
+SYS|The longest trip at the 4.0 star hotel is the Golden Keep package from September 6-16.|offer
+USR|What amenities are there there?|switch_frame
+SYS|Free wifi and free breakfast.|inform
+SYS|The hotel is near a park, beach, shopping, and a mall.|inform
+SYS|The guest rating is 10/10.|inform
+USR|Ok you sold me.|request
+USR|Whats the cost?|request
+SYS|16602.96USD|inform
+USR|Lets book that|inform
+SYS|Ok, sure thing :slightly_smiling_face:|inform

@@ -1,0 +1,25 @@
+USR|I need your help, I'm on the edge of a burn out and if I don't get some vacation time I'm going to end up in a hospital!|inform
+SYS|I can help you find something!|request
+SYS|Can you please give me some details about what you are looking for like dates, budget, departure and destination?|request
+USR|I don't really have a budget, I will grab the best deal.|inform
+USR|I had to fight with my boss for some vacation time and he finally gave me from Friday the second to Tuesday the thirteenth off so it HAS to be somewhere in those dates.|inform
+USR|I live in pittsborgh and I was thinking La Paz might be interesting, that way I could practice my espanol.|inform
+SYS|Unfortunately there are no packages in La Paz available between those dates, did you have anywhere else in mind?|sorry
+USR|Mexico City please|inform
+SYS|The best deal I have for you is a week long stay at Sublime Echo, a 3 star hotel by the beach.|offer
+SYS|The total price would be 743.74USD.|offer
+USR|can you please provide me with flight details - dates and times.|request
+USR|I hope this is in economy, I want nothing to do with business!|request
+SYS|These flights are in economy!|inform
+SYS|Pittsburgh to Mexico City taking off at 10:00 am - Wednesday, September 7th 2016 and landing at 12:47 pm with the return flight taking off at
+4:00 am - Tuesday, September 13th 2016 and landing 6:47 am|inform
+USR|that's cutting close returning on the 13th but I guess that's fine!|request
+USR|what does my package include?|request
+SYS|Sublime Echo offers its guests complimentary wifi and parking.|inform
+USR|how about a nice Mexican breakfast?|request
+SYS|I'm afraid that's not included in the price.|sorry
+USR|okay well it's still a good deal, please go ahead and book it...a week away from this hell hole will do wonders for me!|inform
+SYS|Great!|inform
+SYS|I'll go ahead and book it for you.|inform
+USR|thank you you are a lifesaver!|thankyou
+SYS|My pleasure, glad to be of help!|you_are_welcome

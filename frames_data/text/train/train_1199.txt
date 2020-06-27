@@ -1,0 +1,10 @@
+USR|I want to leave from Tel Aviv and go to Fortaleza for 2300 with 7 adults|inform
+SYS|I'm afraid we do not have any packages that leave from Tel Aviv.|sorry
+SYS|Would you like to leave from another city instead?|sorry
+USR|I can leave from Kabul|inform
+SYS|I'm afraid we have no flights that leave from Kabul either.|sorry
+SYS|Is there another city that you would like to try?|sorry
+USR|I can go to London from Kabul for 2400 and 3 adults|inform
+SYS|I'm afraid we do not have flights that leave from Kabul.|sorry
+SYS|Is there another city that you would like to try?|sorry
+USR|nope|negate

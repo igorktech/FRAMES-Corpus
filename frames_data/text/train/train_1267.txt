@@ -1,0 +1,20 @@
+USR|Please get me back to Manaus asap!!|inform
+SYS|Ok!|request
+SYS|Where are you leaving from?|request
+USR|Currently in Osaka actually|inform
+SYS|Great!|request
+SYS|When would you like to leave?|request
+USR|ASAP!!!|inform
+SYS|I have Hotel Aquamarine River available starting September 14th until the 22nd if this interests you?|offer
+USR|Oh I forgot to mention I only have 4300 bucks to spend.. will this work?|switch_frame
+SYS|Actually, yes!|inform
+SYS|This package is right within your budget at a price of 4217.11USD.|inform
+USR|Okay great!|inform
+USR|Before I book anything, can you check if there are any trips that leave earlier if I go from Stuttgart?|inform
+SYS|From Stuttgart to Manaus the soonest departure I have is also September 14th.|offer
+USR|Alright I'll still leave from Osaka!|inform
+USR|Please finalize this deal for me!|inform
+SYS|Sure thing!|inform
+SYS|You will depart Osaka at 9 AM September 14th.|inform
+USR|Awesome.|thankyou
+USR|Thanks so much!|thankyou

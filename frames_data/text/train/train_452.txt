@@ -1,0 +1,15 @@
+USR|looking to get out of town quick with the family|inform
+SYS|where would you like to go and where from?|request
+USR|you got anything leaving today from goiania and returning next friday give us some destination suggestions|inform
+SYS|What is your budget and how many adults and children are travelling?|request
+USR|3 adults 2 kids.|inform
+USR|lets keep it under 12500|inform
+SYS|The closest result for your request is a 9 day stay from the 24th of August to the 1st of September at a 3.5 star hotel for 12493.91 for business class seats.|offer
+USR|wow that's not bad at all but is there something that leaves on August 25 or later?|inform
+USR|I can be flexible on return date|inform
+SYS|There is a week long stay from August 27th to September 2nd at a 3 star hotel for 12474.78 for economy class seats.|offer
+USR|Yeah lets do that one then|inform
+SYS|Great!|inform
+SYS|Your trip is booked!|inform
+SYS|I'm glad I was able to help you book a trip today!|inform
+USR|Thank you!|thankyou

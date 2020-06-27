@@ -1,0 +1,31 @@
+USR|Hi yes, to Jerusalem please.|inform
+SYS|How many are you and where are you coming from?|request
+USR|Just me.|inform
+USR|I'll leave from Lima.|inform
+SYS|I'm afraid we do not offer any packages from Lima to Jerusalem.|sorry
+SYS|Would you like to book another destination?|sorry
+USR|Tofino?|inform
+SYS|I'm afraid we do not have any flights destined to Tofino either.|sorry
+SYS|Would you like to book another destination?|sorry
+USR|Ugh if you can't get me to New York then we're done.|inform
+SYS|That is indeed possible!|offer
+SYS|We have two packages, one lasting 18 days and the other 14 days.|offer
+SYS|Which one would you like?|offer
+USR|For New York I'm only willing to spend 1600.|request_compare
+USR|Do both of them work?|request_compare
+SYS|Yes indeed!|affirm
+USR|What are the hotels like?|request_compare
+SYS|It's all the same hotel.|inform
+SYS|2.5 stars with a guest rating of 8.22/10.|inform
+SYS|Free parking, breakfast, and wifi come with the package and the hotel is situated near a museum and an airport.|inform
+SYS|Which package are you interested in, the 14 or the 18 day one?|inform
+USR|No shorter packages?|request
+SYS|I'm afraid not.|sorry
+SYS|Shall I book the 14 day package for you then?|sorry
+USR|Alright I guess I have no choice.|inform
+USR|Please take care of the booking for me!|inform
+SYS|Excellent!|inform
+SYS|It has now been booked.|inform
+SYS|You will receive a confirmation email with the next five minutes.|inform
+SYS|Have a good day.|inform
+USR|thanks!|thankyou

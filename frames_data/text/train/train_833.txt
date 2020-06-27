@@ -1,0 +1,35 @@
+USR|well i’d like for our next trip to be a family reunion in kyoto we don’t have a point of departure in mind, but we have 4 adults and 2 children to book for actually.|inform
+USR|sorry i mistyped that
+we are departing from kyoto.|inform
+USR|but do not have a destination in mind|inform
+SYS|Could you let me know your dates and planned budget?|request
+USR|yes definitely.|inform
+USR|dates are september 6 to 19
+budget of 19900|inform
+SYS|Thank you!|offer
+SYS|We have some trips to Rome, Kobe, Ulsan, Fukuoka, and Paris.|offer
+SYS|Any of these interest you?|offer
+USR|you mind if we go through them in order?|request_compare
+SYS|In Rome we have a 15 day package at a 4 star hotel.|inform
+SYS|We have 14 day packages in Kobe at a 3.5 star hotel, in Ulsan at a 4 star hotel, in Fukuoka at a 3.5 star hotel, and in Paris at a 4 star hotel.|inform
+USR|thats a lot of appealing options.|request
+USR|is the rome hotel near the cathedral?|request
+SYS|It is indeed!|inform
+SYS|It also offers free breakfast and free wifi.|inform
+SYS|Guests have rated it 8.98/10.|inform
+USR|And how much does this cost?|request
+SYS|16174.2 if you fly economy.|inform
+USR|Ok I think I want to narrow it down to this one or Ulsan Can you give me more detail on that hotel?|switch_frame
+SYS|Absolutely!|inform
+SYS|The hotel in Ulsan is close to a market and a palace.|inform
+SYS|It offers free wifi and parking.|inform
+SYS|In the past, guests have rated it 7.06/10.|inform
+SYS|The 14 day package costs 3553.83.|inform
+SYS|We also have a business package available for this option if that's something of interest to you.|inform
+USR|this is also very attractive I think since we can afford rome, I’m leaning more to that
+Feel like it would be more culturally different than what we’re used to|switch_frame
+SYS|I agree with you.|suggest
+SYS|Would you like me to book it for you?|suggest
+USR|Please book it|inform
+SYS|Consider it done!|inform
+USR|Thank you|thankyou

@@ -1,0 +1,35 @@
+USR|Hi, I'd like to go to Burlington with my fiance.|inform
+SYS|Where will you two be coming from?|inform
+USR|We'll be coming from Tel Aviv.|inform
+SYS|Sorry, but we do not have the capacity to serve flights out of Tel Aviv.|sorry
+SYS|Do you have an alternative city of departure?|sorry
+USR|Okay then.|inform
+USR|We can also leave from Montreal, if you can find a flight to Burlington from there?|inform
+SYS|I can help with that!|request
+SYS|When would you like to take this trip?|request
+USR|Either on or after Tuesday September 13 please.|inform
+SYS|Do you have a set budget in mind?|request
+USR|Yes!|inform
+USR|3100 is the most I would like to spend so anything under that would be great.|inform
+SYS|Sure, I'd recommend a 4 day stay at a 3.0 star hotel near a park.|offer
+SYS|6.51It has 3.4/10 guest ratings and offers free wifi.|offer
+USR|How much would that cost?|request
+SYS|It would be 2037.8.|inform
+USR|Okay!|inform
+USR|Just curious, do you have anything closer to 3100 for a longer stay, or a better hotel?|inform
+SYS|I can get you on business flights with the same package for 2536.77.|offer
+SYS|Or I can offer you a 5 day stay at a 2.5 star hotel in the heart of the city for 2546.97.|offer
+USR|Does this 2.5 star hotel have a decent guest rating?|request
+SYS|It seems reasonably rated at 6.77/10.|inform
+USR|Is the 3 star hotel also in the heart of the city by any chance?|request
+SYS|That is correct!|inform
+SYS|It also offers free parking and free wifi!|inform
+USR|You know what actually?|inform
+USR|I think I'll take the 4 day stay in the end.|inform
+SYS|That's not a problem!|suggest
+SYS|Would you prefer business or economy class flights?|suggest
+USR|Oh economy!|inform
+SYS|Great!|inform
+SYS|I have processed the reservation and you will be billed a total of 2037.8.|inform
+USR|Great, thanks!|thankyou
+SYS|My pleasure!|you_are_welcome

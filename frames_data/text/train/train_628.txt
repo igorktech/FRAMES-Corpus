@@ -1,0 +1,10 @@
+USR|hey so i need 2 get my parents out of town.|inform
+USR|where can u ship em between septemeber 2 and 13th for 3500 dollars?|inform
+USR|leaving from montreal|inform
+SYS|From Montreal to any destination between September 2nd and 13th on a budget of $3500.|confirm
+SYS|Will that be for 2 adults?|confirm
+USR|yes correct|affirm
+SYS|Are your dates flexible?|request
+USR|ah no|inform
+SYS|I have no flights leaving Montreal on those dates|no_result
+USR|how is that possible|null

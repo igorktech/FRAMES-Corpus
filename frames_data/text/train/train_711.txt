@@ -1,0 +1,13 @@
+USR|I need to be in Cleveland at some point between September 6 to 16.|inform
+USR|Burlington being the point of departure
+Can you do this for 2100?|inform
+SYS|I absolutely can!|offer
+SYS|I have the Pleasant Court Inn available from September 6-13 or 7-16.|offer
+SYS|Have you got a preference?|offer
+USR|yes, book me for the longer of the two please|inform
+SYS|Sure!|offer
+SYS|I can book business class flights for 1285 dollars or economy for 1051.|offer
+USR|since the prices are so reasonable, lets get me on the business class|switch_frame
+SYS|Sure!|inform
+SYS|I will book that for you|inform
+USR|thank you|thankyou

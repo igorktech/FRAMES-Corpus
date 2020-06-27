@@ -1,0 +1,29 @@
+USR|Hi there, I'd like to book a trip from Boston please.|inform
+SYS|Where are you headed and how do you want to be there?|request
+USR|I'd be interested in going to Essen|inform
+SYS|Great, when would you like to go and how much are you planning on spending?|request
+USR|I'd like to book a trip anytime between Friday September 16 and Tuesday September 27.|inform
+SYS|Unfortunately, I can't get you anything in Essen.|sorry
+SYS|Do you have any other places you'd like me to help you search?|sorry
+USR|Yes, how about Burlington?|inform
+SYS|We have a few options in Burlington that could work for you.|offer
+SYS|One is a 11 day stay at a 3 star hotel, and the other is a 7 day stay at a 2.5 star hotel.|offer
+SYS|Which one would you prefer?|offer
+USR|How much does each one cost?|request_compare
+SYS|For 11 days, it will be 962.75 flying economy and 1141.57 flying business.|offer
+SYS|For 7 days, it will be 848.49 flying economy and 1018.47 flying business.|offer
+USR|Could you please tell me about trip packages to Calgary?|inform
+SYS|We have a 7 day trip to Calgary at a 4 star hotel.|hearmore
+SYS|It's 673.40 for economy and 897.78 for business.|hearmore
+SYS|Indeed!|hearmore
+SYS|Do you have any questions about any particular option?|hearmore
+USR|Yes I do!|confirm
+USR|For the 11 day stay in Burlington, that's from Friday September 16 to Tuesday September 27, right?|confirm
+SYS|It's from September 17-27 actually.|inform
+USR|Okay, that's perfectly fine!|inform
+USR|I'd like to book that trip, please.|inform
+USR|Flying economy.|inform
+SYS|Great!|inform
+SYS|I have confirmed your reservation for $962.75.|inform
+SYS|Have a great trip!|inform
+USR|Thank you!|thankyou

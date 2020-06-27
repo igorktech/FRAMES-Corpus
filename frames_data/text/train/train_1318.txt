@@ -1,0 +1,21 @@
+USR|Hey there, I'd love a trip from Recife to Barcelona please, can you help  me?|inform
+SYS|Sure!|request
+SYS|When would you like to go?|request
+USR|I'm flexible with that, I just know I have 4500 to spend on this trip!|inform
+SYS|Are you planning on traveling alone?|suggest
+USR|Yeah, just me.|affirm
+SYS|Okay, I have for you a 3 star hotel in the heart of Barcelona with a whooping 9.16/10 guest rating.|inform
+SYS|We have several packages that works for your budget and the longest is 16 days.|inform
+USR|Sure I'll take the longest then.|switch_frame
+USR|Could you give me more info?|switch_frame
+USR|What else is included?|switch_frame
+SYS|Included in the price is parking and unlimited wifi.|inform
+SYS|You will also have easy access to nearby attractions such as an university and a park.|inform
+USR|Ok how much is it then?|request
+SYS|3188.16, or 4086.16 if you want to upgrade to business class.|offer
+USR|You know what?|switch_frame
+USR|I'll take first class.|switch_frame
+SYS|Sounds good!|inform
+SYS|I have processed the booking for you and you are all set to go :slightly_smiling_face:|inform
+USR|Excellent, thank you very much.|thankyou
+SYS|My pleasure!|you_are_welcome

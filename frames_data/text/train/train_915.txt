@@ -1,0 +1,24 @@
+USR|I got married in Puebla this past tuesday|inform
+SYS|Where would you like to have your perfect honeymoon?|request
+USR|glad to hear it!|inform
+USR|Ok so we’d like to go to Brasilia for 11 days and between the two of us we have 3300|inform
+SYS|Sorry, I don't have anything that matches your budget.|sorry
+SYS|Do you have any other places in mind|sorry
+USR|lets try going to fortaleza|inform
+SYS|That sounds like a nice choice!|offer
+SYS|I can take you there for 10 days.|offer
+SYS|You can stay at a 3 star hotel close to the mall.|offer
+SYS|How does that sound?|offer
+USR|and it fits in our budget?|request
+SYS|Sure does!|inform
+SYS|You can jump on economy seats for 3265.0!|inform
+USR|do we have to pay for breakfast at the hotel?|request
+SYS|Nope, they've got it covered!|inform
+SYS|Same with wifi and parking.|inform
+USR|what are the dates?|request
+SYS|10 days from September 6-15.|suggest
+SYS|Would you like me to book this for you?|suggest
+USR|yes put us down|inform
+SYS|Done!|inform
+SYS|Have a great time at Fortaleza!|inform
+USR|Thank you!|thankyou

@@ -1,0 +1,61 @@
+USR|Hi there!|greeting
+USR|I finally have some vacation time starting on August 22nd and I am hoping to go away somewhere really far away and getting away from it all.|greeting
+USR|Do you have any suggestions for me?|greeting
+SYS|Where would you be leaving from and how long is your trip?|request
+USR|I would be leaving from Sydney and I have to be back by Wednesday, September 7.|inform
+USR|I'm so excited!|inform
+SYS|Do you have any destinations in mind?|request
+USR|Not really.|inform
+USR|As long as it is within those dates, or even returning a bit earlier,  and also within my budget, I really don't care where I go.|inform
+USR|I am just happy to get out of Sydney for a while.|inform
+SYS|Great!|request
+SYS|I'll see what I can do.|request
+SYS|What is your budget for this trip?|request
+USR|I just got my big yearly bonus so I have $6100.00 to spend.|inform
+USR|Send me as far away as possible!|inform
+SYS|Can I interest you in a 5 day 4 star package to Naples, a 9 day 5 star package in Berlin or an 8 day 3 star package in Manaus, Brazil?|offer
+USR|What are the dates for the Berlin package?|request
+USR|A 5 star package sounds fantastic, as long as it is within my budget.|request
+SYS|You would depart on Saturday, August 27th and return on Sunday, September 4th.|inform
+USR|What else is included in that package?|request
+SYS|Free breakfast and free wifi.|suggest
+SYS|It is well within your budget at 4018.16 USD.|suggest
+SYS|Would you like me to search packages in the 5000 USD range?|suggest
+USR|No, but can you please give me some flight details on it?|request
+USR|I don't like flying out too early in the morning!|request
+USR|Also, would I be flying economy or business class?|request
+SYS|Departure from Sydney is at 12:00pm, arrival in Berlin is at 8:37pm.|inform
+SYS|For the return flight, you would depart Berlin at 3:00am and land in Sydney at 11:37am.|inform
+SYS|This is a business class flight.|inform
+USR|3:00am flight out of Berlin?|request
+USR|No way!|request
+USR|That means I will have to be at the airport at like midnight!|request
+USR|What are the dates for the 8 day package to Brazil?|request
+USR|Are the flights any better on that one?|request
+USR|And how much is that package?|request
+SYS|The Brazil package is from August 26th to September 1st at a total of 4006.85 USD.|sorry
+SYS|Unfortunately, all return flights to Sydney leave at 3:00 am.|sorry
+USR|Is it a business class flight also?|request
+USR|Do I get a free breakfast and wifi with that one?|request
+SYS|The flight is business class and breakfast, wifi and parking are all included in your stay at this 3 star hotel.|offer
+SYS|Can I interest you in a 4 star hotel in Brazil for 5003.33USD and a 8.8/10 guest rating?|offer
+USR|Hmmmm that one could be interesting too.|negate
+USR|A 4 star would be much better.|negate
+USR|I don't trust 3 star hotels, they are full of cockroaches!|negate
+USR|Are the dates and flights the same on that package?|negate
+SYS|They are similar.|inform
+SYS|Departure from Sydney is on August 27 at 11:00am and the return flight is on September 3rd at 3:00am.|inform
+SYS|Breakfast, wifi and parking are all included.|inform
+USR|Do you have a flight that departs closer to August 22nd by any chance?|inform
+SYS|The closest I have is the 3 star 8 day package to Manaus we spoke of earlier.|inform
+SYS|The flight is on August 26th.|inform
+USR|How much is the the 4 star rated hotel to Brazil?|request
+USR|Was that one on a business class flight also?|request
+SYS|The 4 star package to Campinas, Brazil is 5003.33 USD, this includes business class flights.|inform
+USR|This sounds like the perfect getaway, Brazil is about as far as I can get from Sydney!|inform
+USR|Can you book that for me please :smile:?|inform
+USR|Thank you so much for all you help.|inform
+SYS|Yes of course, booking is complete.|inform
+SYS|Please follow the below link for your confirmation.|inform
+SYS|Enjoy your vacation!|inform
+USR|Thank you!|thankyou

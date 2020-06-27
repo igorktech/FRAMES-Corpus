@@ -1,0 +1,36 @@
+USR|I need to go to Minneapolis on August 17 on business and I need you take care of this quickly and efficiently.|inform
+USR|Can you do that for me?|inform
+SYS|I can handle it!|request
+SYS|Where are you leaving from and do you have a budget?|request
+USR|I can leave from Kingston.|inform
+USR|It has to be between August 17 and August 31st.|inform
+USR|I want business class flights only.|inform
+SYS|I can offer you 14 days at the Antique, leaving on August 17th in business class.|offer
+SYS|What do you think?|offer
+USR|Is it a 5 star hotel?|inform
+USR|I travel a lot for business and I need a good hotel.|inform
+SYS|It is only a 2.5 star.|request
+SYS|What is your budget?|request
+SYS|I'll see what I can find.|request
+USR|I have no budget, the company pays anyway.|inform
+USR|I want comfort.|inform
+USR|I have colleagues who will also be travelling with me.|inform
+USR|I'm a busy person so let's get this done.|inform
+USR|We can also go to Hamburg if you have better hotels there.|inform
+SYS|How many people will be travelling with you?|request
+USR|We will be 6.|inform
+USR|And we can leave from Tokyo if you can find us a deal in a 4 or 5 star hotel, business class, within my dates.|inform
+SYS|I cannot offer anything above 2.5 stars in Minneapolis, but I can offer you a 4 star 8 day stay in the Traveller Inn, leaving on the 21st of August.|offer
+USR|Do we leave from Tokyo?|confirm
+SYS|Kingston.|offer
+SYS|If you leave from Tokyo you can fly out on August 18th and stay in the 4 star Vortex in Hamburg.|offer
+USR|What does that include?|moreinfo
+SYS|Free breakfast and wifi with business class flights.|inform
+SYS|The hotel also boasts a 8.98/10 guest rating.|inform
+USR|How much is that going to cost the company?|inform
+USR|Oh never mind, just book it.|inform
+USR|I'm not here to shop around.|inform
+SYS|It comes to a total of 16843.68 USD.|inform
+SYS|Your reservation is complete.|inform
+SYS|Have a good trip!|inform
+USR|Thank you, you have been very efficient.|thankyou

@@ -1,0 +1,28 @@
+USR|On late nights at work, friday nights melting into Saturday mornings, I’d dream about the day I can come to you with a booking request.|inform
+USR|I have September 8 to 25 off
+Thinking of going somewhere from Belo Horizonte
+Do you have a flight to MUnich?|inform
+SYS|Ok!|request
+SYS|Would you lke to go anywhere in particular?|request
+USR|Munich|inform
+SYS|Sure!|hearmore
+SYS|I have September 10-17 available at a 5 star hotel in Munich.|hearmore
+SYS|The price is $2853 for this package.|hearmore
+SYS|Are you interested?|hearmore
+USR|That interests me very much.|inform
+USR|What can you get me if I opted for Leon instead?|inform
+SYS|I have a 9 day trip at a 5 star hotel near a market.|offer
+SYS|You could travel from September 8-14 or 12-20 and stay at the Sunny Aurora Hotel with prices ranging from 1660.82 USD to 2293.25 USD.|offer
+USR|Those are so similar, I’m still having trouble deciding!|request
+USR|What amenities are to be had in Leon?|request
+SYS|Sunny Aurora Hotel in Leon has free wifi.|inform
+USR|how about munich?|switch_frame
+SYS|Also free wifi.|inform
+USR|Is the hotel near anything interesting?|request
+SYS|The Munich hotel is near a university.|inform
+USR|I’m just going to flip a coin on this one...Ok Munich it is|inform
+SYS|I will book your stay in Munich :slightly_smiling_face:|inform
+USR|How much would I pay if I wanted to go business class?|request
+SYS|Business class flights would bring your total to 3804 USD|offer
+USR|Yes please get that for me.|inform
+SYS|OK, done!|inform

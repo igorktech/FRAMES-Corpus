@@ -1,0 +1,18 @@
+USR|Greetings...friend|greeting
+SYS|Hi!|greeting
+USR|Run a lil binary scan there with your programy codey little search enginge and find me a vacation out of Vitoria ok?|inform
+USR|I don’t particularly care where you send me... I’m free to travel between the sixth of September and the 26th|inform
+SYS|Do you have a budget?|request
+USR|It is 23 hundred dollars.|inform
+SYS|We have a 3.5 star hotel in Kingston and a 4 star hotel in Rome.|offer
+USR|Rome sounds better.|switch_frame
+USR|What is that hotel like?|switch_frame
+SYS|It is located near shopping and a cathedral, 8.8/10 guest rating and free breakfast and wifi.|inform
+USR|Sold.|request
+USR|Price?|request
+SYS|901.54 for economy flights and 1058.90 for business flights.|offer
+USR|Business it is, what a steal!|request
+USR|What are my travel dates?|request
+SYS|September 8th to 25th.|inform
+USR|Perfect!|thankyou
+USR|Thanks|thankyou

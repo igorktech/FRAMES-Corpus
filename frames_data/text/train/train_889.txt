@@ -1,0 +1,8 @@
+USR|Hi there.|inform
+USR|Could you please get me from Cleveland to Manaus?|inform
+SYS|Yes!|request
+SYS|When would you like to go?|request
+USR|Between September 6 and 13 please|inform
+SYS|Unfortunately we have nothing that works within that timeframe.|sorry
+SYS|Are your dates flexible?|sorry
+USR|They aren’t really|inform

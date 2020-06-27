@@ -1,0 +1,9 @@
+USR|out of kabul|inform
+SYS|Where would you like to go?|request
+USR|birmingham??|inform
+SYS|Do you have a budget?|request
+USR|3300 dollars.|inform
+USR|for 13 adults|inform
+SYS|Unfortunately there are no results for this many people to Birmingham.|sorry
+USR|well i can leave from jerusalem instead|inform
+SYS|We don't have flights to or from Jerusalem as of yet.|no_result

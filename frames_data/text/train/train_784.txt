@@ -1,0 +1,25 @@
+USR|I have $3300 and I’d like to take my 6 darling little grandchildren on a cute little getaway to Salvador from Minneapolis.|inform
+SYS|Sorry, I cannot find a trip from Minneapolis to Salvador for this many people.|sorry
+USR|Well are there any trips to Tampa?|inform
+SYS|Not from Minneapolis, no.|no_result
+USR|Any trips to las vegas?|inform
+SYS|From Minneapolis, USA, yes!|offer
+SYS|You can all fly business class and stay at Retro Inn for 7 days at a cost of 1972.72USD.|offer
+USR|What rating is the hotel?|request
+USR|And my grandchildren want to know if they have whyfly?|request
+USR|I dont know what whyfly is but they said they have to have it for their weird looking devices.|request
+SYS|The hotel is 2.5 stars with 6.91 user review.|inform
+SYS|It is near a park, the airport, and a mall.|inform
+SYS|It features free breakfast, free parking, and has free wifi.|inform
+USR|Ok, well i think that sounds about right!|request
+USR|Thank you, we would like to book this one, the grandkids are already so flabbergasted, the little buggers can’t wait!|request
+USR|How much does this cost?|request
+SYS|1972.72USD for business class flights and a 7 day trip.|inform
+USR|Lovely!|request
+USR|When does this trip leave and come back?|request
+SYS|September 1 until September 7th is the duration of the trip.|inform
+USR|Oh no!|inform
+USR|That just wont do.|inform
+USR|The little ones dont get back from summer camp unitl the 6th and school starts on the 21st.|inform
+USR|Is there a trip between those dates?|inform
+SYS|Not within your budget, sadly.|sorry

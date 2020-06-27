@@ -1,0 +1,30 @@
+USR|I am leaving from Beijing and want to go to Curitiba|inform
+SYS|Unfortunately we do not offer any flights out of Beijing as of right now.|sorry
+USR|oh okay.|inform
+USR|I can leave from Madrid then|inform
+SYS|That works!|request
+SYS|When do you want to travel?|request
+USR|on or after septembr 11|inform
+SYS|Do you have a specific budget I should work with?|request
+USR|3600 for 2 adults|inform
+SYS|How about a 15 day stay at a 3 star beachside hotel?|offer
+USR|not bad at all.|request_alts
+USR|Is that the only option?|request_alts
+SYS|Nope, we also have another 3 star hotel near the museum and market.|offer
+SYS|Here we offer 16 day or 10 day trips.|offer
+USR|Yas, what else can you tell me about the hotel?|request
+SYS|It has 6.61/10 guest ratings, free parking, free breakfast, and free wifi.|inform
+USR|What about the other hotel?|moreinfo
+SYS|The other one has 8.22/10 guest ratings, and also free parking, free breakfast, and free wifi.|inform
+USR|That one is way better.|request
+USR|What are the dates for this package?|request
+SYS|It's from Sep 14-18.|inform
+USR|I thought you said it was 15 days?|confirm
+SYS|You are correct!|inform
+SYS|It is actually from Sep 14-28.|inform
+USR|thats better lol, okay so how much is it?|request
+SYS|It's 2450.26 for economy and 3120.26 for business.|offer
+USR|put us down for business|inform
+SYS|Done!|inform
+SYS|The two of you are headed to Curitiba!|inform
+USR|thnx|thankyou

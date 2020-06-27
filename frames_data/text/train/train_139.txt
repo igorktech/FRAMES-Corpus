@@ -1,0 +1,28 @@
+USR|I want to go to Tijuana.|inform
+SYS|Howdy.|greeting
+SYS|How can I help?|greeting
+USR|I would leave from Belem|inform
+SYS|And where would you like to go?|request
+USR|Tijuana|inform
+SYS|Do you have a set of dates in mind?|request
+USR|Between August 25th and September 8th.|inform
+USR|my dates are flexible|inform
+SYS|I'll see what I can find for you.|request
+SYS|Do you have a budget?|request
+USR|No.|inform
+SYS|I have a few 8 day packages for you, starting at 1787.63USD for a 2.5 star hotel, to 3207.83USD for a 3.0 star hotel.|offer
+USR|okay.|inform
+USR|Is there anything from Rio de Janeiro to Tijuana?|inform
+SYS|Certainly, I can book you an 8 day trip for as low as 1745.77USD in a 2.5 star hotel, and we have an 8 day stay at a 3 star hotel for 3131.34 USD|offer
+USR|Are there any trips from Belem to New York?|request
+SYS|I can book you a 10 day trip for as low as 1037.49USD at a 2.5 star hotel, including breakfast, wifi and parking.|offer
+USR|Is there anything from Rio de Janeiro to New York?|request
+SYS|I have a 13 day trip at a 2.5 star hotel for 2757.89USD.|offer
+SYS|Breakfast, wifi and parking are all included.|offer
+USR|what are the dates for the 10 day trip from Belem to New York?|request
+SYS|Departure is on August 27th and returns Monday September 5th.|inform
+USR|That sounds good to me.|inform
+USR|I'm ready to book that one.|inform
+SYS|Great, we will send you the confirmation details in a few moments.|inform
+USR|Thanks|thankyou
+SYS|Have a nice vacation!|goodbye

@@ -1,0 +1,19 @@
+USR|yo fam.|inform
+USR|got 5100 to blow
+need to get out of Los Angeles for a week
+can u gimme some ideas
+yo i heard rosario is lit
+can i fly there from los angeles|inform
+SYS|When would you like to leave?|request
+USR|anytime dood|inform
+SYS|There are no flights from Los Angeles to Rosario.|suggest
+SYS|Is there somewhere else you would like to go or leave from?|suggest
+USR|damn.|inform
+USR|where else is lit
+throw some ideas at me|inform
+SYS|Unfortunately there are no flights out of Los Angeles.|sorry
+SYS|Is there somewhere else you could leave from?|sorry
+USR|it doesn't have to be rosario.|inform
+USR|i just need to get out of los angeles
+u got flights to dallas?|inform
+SYS|There are no flights from Los Angeles to anywhere.|no_result

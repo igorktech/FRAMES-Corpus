@@ -1,0 +1,27 @@
+USR|Hello there, I'd like to book a vacation for my best friends and myself.|inform
+USR|I live and work in St. Petersburg, and I've been wanting to get out of the city with my buddies for a long time now :slightly_smiling_face:|inform
+SYS|Ok!|request
+SYS|How many of you will be travelling?|request
+SYS|Any destination in mind?|request
+USR|Do you have any flights departing for Santiago on August 24?|inform
+SYS|You’re in luck!|offer
+SYS|I can book you Aug 24-28 in Santiago for only 1563 dollars per person.|offer
+USR|And how about San Juan, departing on the same day?|inform
+SYS|I can book Aug 24-27 in San Juan for 1169.|offer
+USR|What kind of hotel can you find me in Santiago?|request
+SYS|In Santiago I have Una casa available.|inform
+SYS|It is 3 stars with free wifi, free parking, and free breakfast.|inform
+USR|Ooh fancy!|request
+USR|And what about the hotel in San Juan?|request
+SYS|I have the Fairyland, a 4 star hotel near shopping, markets, and a museum with free wifi.|inform
+USR|Would you be able to find me a nicer hotel in any of these cities?|request_compare
+SYS|Unfortunately those are the only hotels that leave on August 24.|sorry
+USR|Can you put us up for Santiago August 24-28.|inform
+USR|Umm book for one please|inform
+SYS|Ok!|confirm
+SYS|I will book for one person for Santiago.|confirm
+SYS|Is this ok?|confirm
+USR|Yes!|thankyou
+USR|Thank you :slightly_smiling_face:|thankyou
+SYS|You are welcome!|inform
+SYS|That will cost 1563.24USD.|inform

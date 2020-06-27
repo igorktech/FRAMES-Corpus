@@ -1,0 +1,19 @@
+USR|i'm looking to go to ulsan from santiago for 12 days.|inform
+USR|leaving on august 27th.|inform
+USR|this is for two people.|inform
+USR|do you have anything for me?|inform
+SYS|Welcome!|request
+SYS|Do you have a budget for your trip?|request
+USR|maximum is 3800, this is strict and i cannot exceed it|inform
+SYS|There aren't any results available for trips to Ulsan from Santiago, but there are results from Santiago to Hamburg, Vitoria, and Rome.|suggest
+SYS|Do any of these destinations spark your interest?|suggest
+USR|can you try mexico city?|inform
+SYS|There are trips from Santiago to Mexico City but there are out of your price range unfortunately.|sorry
+USR|can you make it a shorter trip to fit it within our budget?|inform
+SYS|No, sorry.|sorry
+USR|how about if we go to santiago to ulsan for only 6 days|inform
+SYS|No, sorry, the database has no trips from Santiago to Ulsan.|sorry
+USR|okay, can you give me some of the results from santiago to rome?|switch_frame
+SYS|There is only one result for a package from Santiago to Rome.|offer
+SYS|It is at a 0 star hotel that includes free wifi and breakfast.|offer
+SYS|The cost is 1006.85 and is from September 2nd to 6th.|offer

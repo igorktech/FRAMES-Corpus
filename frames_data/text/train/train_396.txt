@@ -1,0 +1,35 @@
+USR|Hey man!|inform
+USR|I just finished school!!!!|inform
+USR|Yes I know, I graduated, who would have ever imagined that?|inform
+USR|haha haters gonna hate, it took me 7 years but i'm done with uniiii.|inform
+USR|Anyways, I wanna go somewhere starting August 27th.|inform
+USR|I can be gone for 10 days before starting work|inform
+SYS|Where would you like to depart from?|request
+USR|Munich, ma home town|inform
+SYS|Great!|suggest
+SYS|How does Hamburg sound?|suggest
+USR|Cool man, tell me more|moreinfo
+SYS|From Aug 30-Sep 7 you can spend 9 days at a 3 star hotel in the heart of Hamburg for only 193.41USD including round trip flights!|inform
+USR|Damn, sweet deal!|request_alts
+USR|What else you got?|request_alts
+SYS|When would you need your return date to be?|request
+USR|Like about september 6th|inform
+SYS|Ok!|offer
+SYS|I have a 5 day package to Rome that would have you pack in Munich on September sixth for $362.33.|offer
+USR|But just to know, how many stars the one in Rome?|request
+SYS|Ok!|offer
+SYS|Well the Rome hotel I quoted you for is not yet rated.|offer
+SYS|However, I have an 8 day package to Vitoria in the heart of the city for just about  700 dollars.|offer
+SYS|It is a three star hotel .|offer
+USR|That's more like it!|request
+USR|Is there free breakfast?|request
+USR|Because you know a guy like me can eat a lot haha so free breakfast is life|request
+SYS|There is breakfast there.|inform
+USR|Do you have trips to anywhere else in Spain?|inform
+USR|Valencia is in Spain right?|inform
+USR|My buddy told the nightlife there was NEXT LEVEL|inform
+SYS|I’m sorry but the only trips I have to Valencia from Munich would leave on September 6.|sorry
+USR|oh well, next time, book me to Vitoria then and I'll see what's happening there|inform
+SYS|Great :slightly_smiling_face: Can I help you with anything else today?|inform
+USR|That's all man, thanks a lot|thankyou
+SYS|Have fun|goodbye

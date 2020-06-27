@@ -1,0 +1,10 @@
+USR|HI SO I NEED TO GO TO LEON I WILL LEAVE ATLANTA AND I WILL TRAVEL BETWEEN SEPTEMBER 13TH AND 25TH GOT IT???|inform
+SYS|Do you have a budget?|request
+USR|NO I DONT CARE|inform
+SYS|How many people are travelling?|request
+USR|ME ALONE|inform
+SYS|We have a 5 star hotel, business class flights, 9.16/10 guest rating, free wifi, a market nearby, from September 20th to 23rd, 3229.86.|offer
+USR|FINE DONE OK BOOK IT|inform
+SYS|All booked for you!|inform
+SYS|Have a great day!|inform
+USR|GREAT THANK U|thankyou

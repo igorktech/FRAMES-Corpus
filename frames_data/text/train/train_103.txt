@@ -1,0 +1,15 @@
+USR|Hello.|inform
+USR|i want to go to buenos aires
+i live in puebla|inform
+SYS|Great!|suggest
+SYS|I can book you 12 days in the Resort Pleasant Shield starting August 27.|suggest
+SYS|Your flight will leave from Rosario.|suggest
+USR|can i get something leaving from puebla??|inform
+SYS|If you would like to leave from Puebla, I can book you 12 days at the Olive Market Hotel from the 24th of August to the 3rd of September.|offer
+SYS|The total cost of this package would be 2052.70USD.|offer
+USR|great!|inform
+USR|i will go ahead and book that|inform
+SYS|Done!|inform
+SYS|Your trip has been booked.|inform
+SYS|Enjoy your stay!|inform
+USR|thank you :smile:|thankyou

@@ -1,0 +1,26 @@
+USR|ay i need to get my parents out of SL this month ok???|inform
+USR|can u book them somewhere from St. Louis til the 28th for 4300 bucks and get em out of here today if u can|inform
+SYS|We have a trip to Toronto leaving today and returning on on the 23rd and another trip to Santo Domingo or San Francisco leaving tomorrow and returning on the 28th.|offer
+SYS|Which one would you prefer?|offer
+USR|whoa that's amazing.|request_compare
+USR|which one is cheaper|request_compare
+SYS|San Francisco is cheapest at 945.18, followed by Santo Domingo at 3015.99.|inform
+SYS|Toronto costs 3179.24.|inform
+USR|san francisco is way cheaper wow,.|switch_frame
+USR|how many stars are the hotels|switch_frame
+SYS|It's a 2 star hotel with 6.37/10 guest ratings.|inform
+USR|i am gonna need something nicer to sell my folks on it tho.|request
+USR|what is the santo domingo  hotel like?|request
+SYS|It's a 3 star beachside hotel with 7.06/10 ratings and conveniently located next to shopping.|inform
+USR|that sounds better for sure!|request
+USR|is the toronto hotel even nicer?|request
+SYS|It is!|inform
+SYS|It's a 4.0 star hotel next to the airport and the cathedral.|inform
+SYS|It has an average 8.8/10 guest rating.|inform
+USR|ok well that's gonna have to be the winner in that case.|inform
+USR|go for it|inform
+SYS|Alright booked.|inform
+SYS|Your folks are headed to Toronto for 16 days!|inform
+SYS|The flight leaves this afternoon.|inform
+SYS|Better let them know soon!|inform
+USR|thanks dude|thankyou

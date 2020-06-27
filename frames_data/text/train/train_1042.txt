@@ -1,0 +1,69 @@
+USR|Hi there, I'd love to book a vacation.|inform
+USR|I need a break!|inform
+SYS|Where are you located?|request
+USR|I'll be leaving from sf but I haven't really decided on where to go exactly yet.|inform
+SYS|Yes, of course!|request
+SYS|What are your desired dates of travel?|request
+USR|Sometime between Sunday September 11 and Tuesday September 27 would be great!|inform
+SYS|Can you tell me how much money you’re willing to spend?|request
+USR|I don't really have a budget in mind.|inform
+USR|But the package that would make the most of my money and give me the greatest offer is what I'm looking for.|inform
+SYS|Sure!|request
+SYS|What destination should I look at first?|request
+USR|How about Pittsburgh?|inform
+SYS|In Pittsburgh I have a 15 day package available for as low as 1500 dollars.|offer
+SYS|You would be staying at a 2.5 star hotel with a 6.91/10 guest rating.|offer
+SYS|The hotel includes free parking, wifi, and complimentary breakfast, and is situated near a park.|offer
+SYS|The date of departure would be the 12th of September and the return date would be September 26th.|offer
+USR|That doesn't sound bad.|switch_frame
+SYS|Would you like to hear about shorter packages available in Pittsburgh?|suggest
+USR|Nah the time frame sounds good.|inform
+USR|I'm curious about another city though!|inform
+USR|How about Stuttgart?|inform
+SYS|I have one package available in Stuttgart which departs from San Francisco September 20th and returns the 27th.|offer
+SYS|You would spend 9 days at a 3 star hotel near a museum for just over 2500 dollars with economy flights.|offer
+SYS|The hotel’s guest rating is 7.15/10 and it features wireless internet access, breakfast, and parking at no extra charge.|offer
+USR|I'm curious about Punta Cana.|inform
+SYS|I have two different hotels in Punta Cana - one with 10 day packages and the other with 5 day packages.|offer
+SYS|Would you like to hear about both?|offer
+USR|Nah I think I prefer a longer trip so just tell me about the 10 day package please.|moreinfo
+SYS|Sure!|inform
+SYS|That would be the Scarlet Peaks Hotel - a 3 star hotel near a cathedral.|inform
+SYS|For a price of 1992.41 USD, your 10 day stay would include free wifi and breakfast every day.|inform
+SYS|You would leave on September 11th and return home on the 20th.|inform
+SYS|Previous guests have rated this hotel 6.77/10.|inform
+USR|This also sounds really good!|null
+SYS|Yes!|suggest
+SYS|Would you like to book anything yet?|suggest
+USR|I'd love to check out Rome, it's somewhere I've always wanted to go!|inform
+SYS|In Rome I have two different hotels with 9 day packages, one hotel with a 10 day packages, or another hotel with 15 day packages.|offer
+SYS|Which would you prefer to hear about first?|offer
+USR|Let's try the 15 day one!|switch_frame
+SYS|If you chose to spend 15 days in Rome, you could stay at The Double Pastures.|inform
+SYS|This hotel is 4 stars, near a cathedral, and boasts a 8.98/10 guest review rating.|inform
+SYS|The package departs September 11th and returns the 24th.|inform
+SYS|Included with this vacation are wifi access and breakfast.|inform
+SYS|If you chose to fly economy, the price would be $3787.88.|inform
+USR|Wow that sounds really nice!|switch_frame
+USR|What if I decide to stay in Rome for 10 days?|switch_frame
+SYS|In that case you would stay at the Hotel Emerald Legacy, a hotel with very similar features to The Double Pastures but a differing guest rating with 8.22/10.|inform
+SYS|The price for this 10 day package would be 3534.46USD and you would depart September 11th to return on the 19th.|inform
+USR|And for 9 days?|switch_frame
+SYS|There is the unrated Secret|inform
+USR|the unrated Secret?|inform
+SYS|There is the unrated Secret Bay, a hotel with free breakfast and wifi.|offer
+SYS|There is also the 4 star Hotel Grand Residence with the same amenities as the others.|offer
+SYS|This hotel has a 8.8/10 guest rating.|offer
+USR|How much would those cost?|request_compare
+SYS|The Grand Residence would be 2703 for 9 days while the Secret would be 2337.15|inform
+USR|You know what?|switch_frame
+USR|I think I've decided!|switch_frame
+USR|Could you please book the 15 day package to Rome for me?|switch_frame
+SYS|I absolutely can!|request
+SYS|Are economy class flights ok?|request
+USR|Yes, that would be perfect!|affirm
+SYS|Ok!|inform
+SYS|You will receive a confirmation email shortly.|inform
+SYS|Enjoy your stay!|inform
+USR|Great, thanks!|thankyou
+SYS|My pleasure :slightly_smiling_face:|you_are_welcome

@@ -1,0 +1,24 @@
+USR|Hi, I could use some help planning a low-budget honeymoon.|inform
+SYS|Ok, where would you like to go?|request
+USR|Ideally Calgary.|inform
+USR|We can leave from St. Petersburg anytime after Tuesday Aug 30|inform
+SYS|What is your budget?|request
+USR|1200 max|inform
+SYS|For 2 adults?|suggest
+USR|Exactly!|affirm
+SYS|We have a 4 star hotel near a university, free parking and wifi, leaving September 7th and returning the 19th, business package costing 475.43 and economy package costing 356.68.|offer
+USR|Wow that's a good deal!|inform
+USR|Do you have anything leaving earlier though?|inform
+SYS|We have a package at the same hotel leaving September 2nd and returning the 8th.|offer
+USR|That's better!|request
+USR|How much is that one?|request
+SYS|585.28.|inform
+USR|And that's the economy package?|request
+SYS|This is the business package.|inform
+USR|This one is perfect then!|null
+SYS|Would you like to book it?|suggest
+USR|Yes please!|inform
+SYS|Great!|goodbye
+SYS|You will receive confirmation shortly.|goodbye
+SYS|Have a nice day and enjoy the honeymoon!|goodbye
+USR|Nice, thanks!|thankyou

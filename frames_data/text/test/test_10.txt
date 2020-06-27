@@ -1,0 +1,33 @@
+USR|We are 3 adults and three kids looking for a vacation between August 18 and September 4|inform
+SYS|I have several different flights to Vancouver, Canada during this travel period.|offer
+SYS|Would you like to leave on the 19th or the 27th?|offer
+USR|How much does each option cost?|request_compare
+SYS|I have two options available for you: one costs $4253.69 and the other costs $5295.89.|inform
+SYS|Which one would you prefer?|inform
+USR|What kind of hotel is offered for each?|request_compare
+SYS|Both hotels are 4.0 star hotels with 8.8/10 ratings.|inform
+USR|What kind of flight is offered for each?|request_compare
+SYS|These are both Economy flights.|inform
+USR|I can increase my budget by $200, does that open up any new options?|inform
+SYS|No.|null
+SYS||null
+USR|Are there any other flights to Vancouver leaving  around the same time from another departure city?|inform
+SYS|How do you feel about Dallas?|suggest
+USR|I would like to depart from Baltimore|inform
+SYS|You can only go to Toronto, Calgary, or Kingston Canada from Baltimore.|request
+SYS|Which would you prefer?|request
+SYS|Do you have preferred travel dates?|request
+USR|Any time between August 18 and September 4.|inform
+SYS|I can offer you a 2.5 star hotel with a guest rating of 6.37/10 or a 3.0 star hotel with a guest rating of 8.86/10.|offer
+SYS|Which would you prefer?|offer
+USR|For which destination?|request_compare
+SYS|Kingston has the 2.5 star hotel and Toronto has the 3.0 star hotel.|offer
+SYS|Or I can offer you a 4.0 star hotel with a 0/10 rating if you would like to travel to Calgary.|offer
+USR|How much does each of these packages cost?|request_compare
+SYS|Package number #1 to Kingston costs $6251.33 USD, Package number #2 to Toronto costs $5695.54, and Package number #3 to Calgary costs $6494.94 USD.|inform
+USR|What class would I be flying in for each of these destinations?|request_compare
+SYS|All three flights are Economy flights.|hearmore
+SYS|If you would like a Business Class flight, I can offer you one to Calgary.|hearmore
+SYS|The cost of this travel package would be $8666.20 USD.|hearmore
+SYS|Would you like more information on this option?|hearmore
+USR|I would like to buy the Toronto package|inform

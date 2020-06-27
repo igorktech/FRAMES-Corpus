@@ -1,0 +1,49 @@
+USR|Hey, never done this before, but I'll give it a try!|inform
+USR|I finally have some time off work and I want to see if you can help me book my vacation!|inform
+SYS|OK :slightly_smiling_face: I’d love to help you.|request
+SYS|Where are you located and where would you like to go?|request
+USR|I am in Tijuana, send me anywhere nice!|inform
+SYS|Sure!|request
+SYS|How many days would you like to travel?|request
+USR|12 days.|inform
+USR|I can leave on September 18th or shortly thereafter :grinning:|inform
+SYS|And have you got a budget?|request
+USR|Nah, I will take what appeals to me the most|inform
+SYS|Ok!|offer
+SYS|I have 12 day trips available in Barcelona, Belem, Dallas, and Minneapolis.|offer
+SYS|Do any of these destinations interest you?|offer
+USR|Dallas sounds like fun, whatcha got there?|switch_frame
+SYS|I’m sorry - I had an error in my search.|sorry
+SYS|I actually have 10 day packages in Dallas, that is the longest available.|sorry
+SYS|You would stay at a 2.5 star hotel in the heart of the city near a museum.|sorry
+USR|Nothing on the beach?|request
+SYS|Sorry, unfortunately not.|sorry
+USR|Okay tell me what you have in Barcelona please|switch_frame
+SYS|In Barcelona I have a 10 day stay with a 3 star rating and 8.86/10 guest review rating.|offer
+USR|What's it close to?|request
+SYS|A museum.|inform
+USR|Out of all the destinations that you gave me, do any of them have a hotel on the beach?|inform
+SYS|I have an 11 day package in Belem at a 4 star hotel near a beach and airport.|offer
+USR|THAT one sounds good.|switch_frame
+USR|What else comes with the package?|switch_frame
+SYS|Free parking, complimentary breakfast, and unlimited wireless internet access are all included in the package!|inform
+USR|When would I depart and return?|request
+SYS|September 27th would be your departure date and you would return to Tijuana on the 6th of October.|inform
+USR|No departures to this hotel before the 27th?!?|inform
+SYS|I have an 8 day package to this hotel leaving on September 26th if you would prefer.|offer
+USR|How much would that cost me?|request
+SYS|3839.49USD for a business class ticket.|inform
+USR|How about economy?|negate
+USR|Business is a waste of money!|negate
+SYS|If you choose to fly economy class, the cost would be 3001.10USD.|offer
+USR|That sound pretty good for 12 days!|inform
+USR|Can I book that one please?|inform
+SYS|That is an 8 day trip.|inform
+USR|Oh yeah...how much is the 12 day package that leaves the next day?|switch_frame
+SYS|An 11 day stay at this hotel would cost 2267.62USD if you fly economy class.|inform
+USR|So this one is CHEAPER than the 8 day package even though it is at the same hotel?|request_compare
+SYS|Yes - correct.|inform
+SYS|It leaves one day later.|inform
+USR|Weeeelllll this is a no brainer, I 'll just leave the next day and save a whole lotta money!|inform
+USR|Can you book this for me right away so I don't lose it?|inform
+SYS|It's booked!|inform

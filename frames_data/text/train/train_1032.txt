@@ -1,0 +1,19 @@
+USR|I'm good, thanks!|inform
+USR|I'm looking to book a trip for a group of children with me as their chaperone.|inform
+SYS|Sure!|request
+SYS|How many children total?|request
+USR|12!|inform
+SYS|That is a lot!|request
+SYS|Where are you headed from?|request
+SYS|And what's the total budget?|request
+USR|I don't want to spend any more than 2000, and we'll be coming from Belo Horizonte.|inform
+SYS|Sorry, we don't have anything that works with the size of your party and budget.|sorry
+SYS|Would you be flexible with you budget by any chance?|sorry
+USR|I'm only willing to increase by $200, would it be possible to find something with that?|inform
+SYS|Unfortunately it is still a no.|sorry
+SYS|Anything else I can help you search?|sorry
+USR|Not even a nearby city for a couple of days?|request_alts
+SYS|Sadly no.|sorry
+SYS|Not with a budget of 2200.|sorry
+USR|Okay then, thanks for your help anyway!|thankyou
+SYS|You're very welcome!|you_are_welcome

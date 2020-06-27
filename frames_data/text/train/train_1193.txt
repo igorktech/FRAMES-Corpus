@@ -1,0 +1,37 @@
+USR|Hi there, I really want to go to Osaka but don't really know what kind of trip I want.|inform
+USR|I heard from my friend you guys have a wide range of offerings so I want to check out what are the availabilities for Osaka.|inform
+SYS|Sure!|request
+SYS|Where are you leaving from?|request
+USR|I'm from Cleveland.|inform
+SYS|Of course!|request
+SYS|I have a few different hotels available.|request
+SYS|To help me narrow them down, could you provide some additional information?|request
+SYS|Maybe a budget, desired departure date, desired length of stay, etc.|request
+USR|Can you show me things between Sept 12 and 28?|inform
+USR|I've a ballpark budget of 3600.|inform
+SYS|Ok!|offer
+SYS|The longest trip I can offer you would be at Prophecy Hotel.|offer
+SYS|The hotel is 2.5 stars with a 7.06/10 user rating.|offer
+SYS|The hotel is near a museum, has free wifi and breakfast, and costs 2225.77USD.|offer
+USR|Do you have other packages with better hotels?|inform
+SYS|I have an 8 day package at Aquamarine Majesty Hotel!|offer
+SYS|It is a 4 star hotel with a 8.69/10 guest ratings.|offer
+SYS|The hotel is near a park and museum and provides free wireless internet access and parking.|offer
+USR|That's not bad, how much is this one?|request
+SYS|2652.5USD for economy class flights.|offer
+SYS|You can fly business class for a total of 3401.68USD if you prefer.|offer
+USR|How many days is the first package you showed me?|request
+SYS|13 days.|inform
+USR|I assume this 4 star one is the best you can find?|confirm
+SYS|That is correct.|affirm
+USR|If I increase my ballpark by 300 will you be able to find something better?|inform
+SYS|It seems Aquamarine Majesty Hotel is the nicest we have available in Osaka.|inform
+USR|Okay thanks for your help!|inform
+USR|I'll take it.|inform
+SYS|No problem!|confirm
+SYS|Would you like to book business class?|confirm
+USR|It fits in my budget right?|confirm
+USR|Let's book business.|confirm
+SYS|It fits your budget, yes.|inform
+USR|Ok let's go for it|inform
+SYS|Consider it done :slightly_smiling_face: Enjoy your stay!|inform

@@ -1,0 +1,20 @@
+USR|Heyyyy there|greeting
+SYS|Hello!|greeting
+SYS|What do you need help with today?|greeting
+USR|We’d be leaving from San Antonio Sept 8.|inform
+USR|Hoping to go to Busan
+And we’ve got 4600 bucks to spend|inform
+SYS|Sorry, we've got nothing that works with you dates and budget.|sorry
+SYS|The most affordable trip we have costs 4885.11 and leaves on the 14th.|sorry
+USR|What about in Naples?|inform
+SYS|We do have a trip leaving on the 8th to Naples.|offer
+SYS|It will be an 8 day stay at a 3 star hotel at the heart of Naples, and of course, close to the museum.|offer
+USR|Ok!|switch_frame
+USR|What would the price be?|switch_frame
+SYS|The economy package will be 3587.60 and the business package will be just under your budget at 4584.75.|offer
+USR|Ok, great.|switch_frame
+USR|Can we book the economy package?|switch_frame
+SYS|Sure can!|inform
+SYS|I have processed the booking for you.|inform
+SYS|Watch out for a confirmation via email!|inform
+USR|Bless you!!|thankyou

@@ -1,0 +1,38 @@
+USR|Hi I am planning on booking a vacation soon, around August 27th|inform
+SYS|Do you have an idea of where you would like to go?|request
+USR|I was thinking maybe St. Louis|inform
+SYS|what city will you be departing from?|request
+SYS|Any other people travelling with you?|request
+USR|I will be departing from Tijuana.|inform
+USR|I'll be going solo|inform
+SYS|I have several options available.|inform
+SYS|A good option would be Chateau Inn & Suites which is a nicely located 3-star hotel.|inform
+SYS|Departure on an economy flight would be on August 27th, returning on Sept 5th.|inform
+SYS|Total cost for this package is $1324.29.|inform
+SYS|It is also available in business class.|inform
+USR|what type of packages would i get if i were to go to Mannheim instead?|inform
+SYS|If you would rather go to Mannheim, I have 6 day packages available at a 5-star hotel called The Regal Resort.|offer
+USR|im looking for a longer trip, would there perhaps be one in san antonio?|inform
+SYS|I have 9 day trips available in San Antonio but the departure dates are all in September.|suggest
+SYS|Are you able to go in September instead of August 27th?|suggest
+USR|yes i could as long as i return by September 17th|inform
+SYS|I have departures available on September 1st, September 7th and September 8th.|suggest
+SYS|I have two choices in hotels - the Vertex Inn or the Winter Hill Inn.,|suggest
+SYS|both of which are rated two stars.|suggest
+USR|What would the duration be?|inform
+USR|and could I see some better rated hotels?|inform
+SYS|Availability is from Sept 1st to the 9th, Sept 7 to the 15th and Sept 8th to the 16th.|suggest
+SYS|I do not have any hotels available with a better rating.|suggest
+SYS|Please do note that both hotels have free parking,  free breakfast and free wifi.|suggest
+SYS|Are you looking for a flight in economy class or business class?|suggest
+USR|they seem very accommodating, how much would this stay on the 1st be compared a vacation in mannheim at the regal resort?|request_compare
+SYS|In economy or business class?|suggest
+USR|for business class|inform
+SYS|For business class at the Vertex Inn in San Antonio Sept 7 to Sept 15th, the price is $1477.34.|offer
+USR|in contrast to mannheim?|switch_frame
+SYS|Also in business class in San Antonio, I have the Winter Hill either from Sept 1st to 9th or Sept 8th to the 16th at $1477.00.|offer
+SYS|Business class to the Regal in Mannheim is $3451.00 if you choose to go Aug 27 to Aug 31st and if you pick the week of Sept 6th to the 10th, it is $4249.00.|offer
+USR|I think i would like to book the trip to mannheim, leaving on the 27th|inform
+SYS|Okay I will get all your information and we will proceed with the booking.|inform
+SYS|We  appreciate your business.|inform
+USR|thank you very much|thankyou

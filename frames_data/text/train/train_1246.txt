@@ -1,0 +1,20 @@
+USR|Me and 3 friends are going on fall break and want to go to San Diego from Calgary from the 8th to 25th and we have 14000 between us.|inform
+SYS|Do you want the longest stay available?|suggest
+USR|sure as long as it's within our dates|switch_frame
+SYS|Majestic Mountain Inn has a 10 day stay for 4 people at 2652.73USD which includes breakfast, wifi and parking.|offer
+SYS|It is located near a park and has a rating of 2.5 stars.|offer
+USR|What are the dates for it?|switch_frame
+SYS|September 12 to September 21|inform
+USR|good.|inform
+USR|Do you have any other hotels available in San Diego with a better rating?|inform
+SYS|I have the Spare Time at 3 stars with a guest rating of 8.86/10.|offer
+SYS|but the stay is only for 8 days.|offer
+USR|Is there anything better than 3 stars in Cordoba?|inform
+SYS|In Cordoba, the Everland has a 5 star rating, is available within your dates and also sits your budget.|offer
+SYS|The package price of  8962.51USD will cover your 9 day stay for all 4 of you.|offer
+USR|That's perfect!|request
+USR|Is it near anything like a university or park or mall or something?|request
+SYS|Near the museum.|inform
+USR|We will book this one|inform
+SYS|Thank you for your booking.|inform
+USR|Thank you for your help!|thankyou

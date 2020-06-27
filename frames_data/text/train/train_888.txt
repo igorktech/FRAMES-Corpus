@@ -1,0 +1,26 @@
+USR|Hi there.|inform
+USR|San Antonio to Mexico City
+no budget|inform
+SYS|Are you travelling alone?|suggest
+USR|I am!|affirm
+SYS|When do you want to leave?|request
+USR|I just need the entire trip to be somewhere between September 12 and October 2|inform
+SYS|Business or economy flights?|suggest
+USR|Business I guess|inform
+SYS|Okay would you rather stay at a 6.77/10 or 6.91/10 guest rated hotel?|offer
+USR|Well obviously the better one|switch_frame
+SYS|Good choice!|inform
+SYS|This hotel is 3 stars near the beach, and shopping mall, they offer free parking and wifi, the package is from September 24th to October 2nd, and the package costs 1618.66.|inform
+USR|This isn't bad, However it is my prerogative to check some other cities out
+What about Punta Cana?|inform
+SYS|We have a 3.5 star hotel near a cathedral and palace, 8.69/10 guest rating, free parking and wifi, from September 26th to October 2nd, business flight, 1767.47.|offer
+USR|I'm glad I asked then!. Can you look at San Diego for me?|inform
+SYS|We have a 3 star hotel near the park, 8.86/10 guest rating, free parking, breakfast, and wifi, from September 14th to 24th, business class flights, 778.97.|offer
+USR|Is it me, or do these packages keep getting better?|inform
+USR|Ok one last spot to check
+Chicago?|inform
+SYS|We have a 2.5 star hotel near the airport and mall, 6.91/10 guest rating, free parking, breakfast and wifi, from September 18th to 29th, business class, 1057.38.|offer
+USR|Ok Lets lock in San Diego|inform
+SYS|Great!|inform
+SYS|Your package is booked!|inform
+SYS|Enjoy your stay!|inform

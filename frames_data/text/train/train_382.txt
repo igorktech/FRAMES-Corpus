@@ -1,0 +1,42 @@
+USR|I am the happy father of 5 darling children and my wife wants me to plan our family vacation!|inform
+USR|She needs to approve before I make a final decision, I'm quite whipped!|inform
+SYS|Can you please confirm the number of adults and children for this trip?|request
+USR|2 adults and 5 kids.|inform
+SYS|Perfect.|request
+SYS|Please confirm destination city and city of departure.|request
+USR|i want to go to Sydney from Punta Cana please|inform
+SYS|I have 6 and 9 day packages available in Sydney.|request
+SYS|Could you please confirm your dates of travel?|request
+USR|I'd like to go between august 28th and september 13th if possible.|inform
+SYS|I have Aug 30th departures for a 6 day package and Sept 5th departures for a 9 day package.|hearmore
+SYS|Would you like pricing on either of these?|hearmore
+USR|Can I see some packages for the 6 day option?|moreinfo
+SYS|On a 6 day option, I have the Lunar Resort - 6 days, departing on August 30th and returning on September 4th at a grand total of 8766.73USD.|offer
+SYS|Please note this is a 4 star rated hotel.|offer
+USR|Well my budget is 17000 so I can definitely afford it but I just want to see all of my options so I can get the best vacation package for my family.|inform
+USR|Do you have any packages to San Antonio?|inform
+SYS|With that budget, you may also fly business class for  10932.99USD to Sydney.|offer
+SYS|For San Antonio, I only have 9 day packages available at Winter Hill Inn.|offer
+SYS|This two star hotel would be a grand total of 3315.44USD if you flew on economy class.|offer
+SYS|It is available from August 30th to September 7th.|offer
+USR|Hmmm that package doesnt really interest me but can you check one more place for me?|inform
+USR|I want to look into Busan please|inform
+SYS|A 6 day package in Busan would be at the 3 star rated Lethargy Hotel and would cost a grand total of  11787.21USD via economy class.|offer
+SYS|This package is also available on business class.|offer
+SYS|There are also 6 and 10 day trips available.|offer
+USR|What about a 10 day package?|switch_frame
+SYS|The 10 day package to Busan would be at the 3 star rated Smile Hotel -at a total cost of 13976.80USD via an economy class flight.|inform
+SYS|Travel dates are from August 28 to September 5th.|inform
+USR|Hmm after a lot of consideration and discussing it with my wife, I think we are most interested in the 5 star hotel package to Sydney for the 9 day package.|inform
+USR|Do you think you could just give me a little more information on this package before I make my final decision?|inform
+SYS|It is a 4 star hotel package.|suggest
+SYS|It includes wifi, parking and breakfast for the entire family and is located near the park.|suggest
+SYS|The flight departs Punta Cana on September 5th and returns September 13th, The total cost on this package is 8766.73USD should you choose economy class.|suggest
+SYS|The total cost on this package should you choose business class is 10392.75USD.|suggest
+USR|4 stars is great.|inform
+USR|I really like the sounds of this package and so does the wife!|inform
+USR|We will take the business class package for the 9 day stay!|inform
+SYS|Excellent.|thankyou
+SYS|I will book that package for you and email confirmation.|thankyou
+SYS|Thank you for your patronage and have a nice day.|thankyou
+USR|Thank you for your help today, I'm sure I will be back again!|thankyou

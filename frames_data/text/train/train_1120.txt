@@ -1,0 +1,39 @@
+USR|hi.|inform
+USR|i need to get the hell out of minneapolis|inform
+SYS|Where would you like to go?|request
+USR|i havent taken any vacation days in like 2 years, im off though from septmeber 12th to 25th
+maybe essen|inform
+SYS|Do you have a budget for your vacation?|request
+USR|nope - i am treating myself|inform
+SYS|Are you going by yourself?|suggest
+USR|yes, getting away from it all.|affirm
+USR|everything.|affirm
+SYS|We have a 5 day and 6 day package at a 2 star hotel in Essen.|offer
+USR|oh dear a 2 star hotel… for my one vacation in all this time.|inform
+USR|anything nicer in New York?|inform
+SYS|We have a 13 day and 9 day package at a 2.5 star hotel in New York.|offer
+USR|hm.|request
+USR|marginally better
+what are the nearby attractions?|request
+USR|any nice amenities… maybe a relaxing spa?|request
+SYS|It is near a museum and the airport.|inform
+SYS|They offer free parking, breakfast, and wifi.|inform
+USR|sounds dull...what about in essen?|request
+SYS|They offer free wifi and parking.|inform
+USR|and anything nice nearby?|request
+SYS|Nothing nearby according to my database.|inform
+USR|i must say, i am pretty disappointed with this.|inform
+USR|can you check Ciudad Juarez as a saving grace?|inform
+SYS|We have an 8 day and 4 day package at a 3.5 star hotel.|offer
+SYS|They offer free parking, breakfast and wifi, and they are near a palace, they also have a 8.8/10 guest rating.|offer
+USR|oh god, finally something optimistic how much for the 8 day package?|request
+SYS|789.12 for economy flights included and 971.12 for business flights included.|offer
+USR|amazing!!,|inform
+USR|I’ll take it
+business flights|inform
+SYS|Awesome!|inform
+SYS|Well, your flights are booked!|inform
+SYS|You will receive email confirmation soon.|inform
+SYS|Is there anything else I can help you with?|inform
+USR|nope - you have taken great care of me.|thankyou
+USR|thanks!!!!|thankyou

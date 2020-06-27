@@ -1,0 +1,16 @@
+USR|Hey, I'm looking for a trip to Chicago.|inform
+SYS|Where from?|request
+SYS|How many people are travelling?|request
+SYS|What is your budget?|request
+SYS|When do you want to leave?|request
+USR|I'm traveling from Belem by myself.|inform
+USR|Budget's set at 3900.|inform
+USR|I have to travel between 9/1 and 12.|inform
+USR|These dates are not flexible.|inform
+SYS|Our best package is a 2.5 star hotel near a park and museum, 8.22/10 guest rating, free parking, breakfast, and wifi, from September 2nd to 8th, business flight, price is 2856.29.|offer
+USR|Any other options?|request_alts
+SYS|No.|no_result
+USR|Alright then.|inform
+USR|I'll take it.|inform
+SYS|Great!|goodbye
+SYS|Have a nice day!|goodbye

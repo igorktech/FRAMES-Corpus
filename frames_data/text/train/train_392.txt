@@ -1,0 +1,21 @@
+USR|I need to go to San Jose between August 27 and September 5.|inform
+USR|Leaving from Goiania|inform
+SYS|Do you have a budget?|request
+USR|Yeah i got 5 grand|inform
+SYS|This is what I have for you: Snowy Nugget Inn - 11 days, in San Jose, United States, a 2.5 star hotel, near par and  museum for 4209.87USD.|offer
+SYS|Guest Rated it 9.16/10|offer
+USR|Hmm ok what are the exact dates?|request
+SYS|From August 25 to September 3rd|inform
+USR|Do you have anything leaving on August 27?|inform
+USR|I still have class on the 25th|inform
+SYS|We have trips to San Jose, Leaving on September 2nd and coming back on the 3rd.|suggest
+SYS|OR leaving on the 3rd, coming back on the 8th|suggest
+USR|do you have something leaving for hiroshima on the dates i gave you|inform
+SYS|Sorry, I do not|sorry
+USR|How about to Hamburg|inform
+SYS|Yes, we have 6 days trips at 3 and 4 star hotels.|suggest
+SYS|Leaving the last week of August, costing from $2700 to $4000|suggest
+USR|Do any of them fit my schedule of August 27 to September 5|request_compare
+SYS|We have 30 - 31, 27 - 28, 30 - 31, this is all I have|suggest
+USR|Ok you know what, lets just book the original San Jose trip instead then.|inform
+SYS|ok|inform

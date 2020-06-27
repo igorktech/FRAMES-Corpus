@@ -1,0 +1,30 @@
+USR|Hi there.|inform
+USR|I'm trying to take the family somewhere nice this month
+I've been working hard to save up all year, and have 23400 to spend|inform
+SYS|Okay!|request
+SYS|Where would you like to go?|request
+USR|Do you have flights to San Jose?|inform
+SYS|Yes.|request
+SYS|How many people are you?|request
+USR|Two adults, 4 children|inform
+SYS|Where are you flying out from?|request
+USR|Flying out of Fukuoka please|inform
+SYS|When?|request
+USR|Something between September 1 and 9 please|inform
+SYS|We have a result for a 4 star hotel by the beach and also close to a museum.|offer
+SYS|The hotel has a 8.8/10 guest rating and offers free parking, breakfast, and wifi.|offer
+SYS|This package is from September 2nd to 7th and costs 9355.99 for business class and 7392.37 for economy.|offer
+USR|Wow I'm impressed Lets keep that on hold
+My wife wanted me to check some other cities out too
+Can you take me to Hamburg?|inform
+SYS|We have a 4 star hotel in the heart of the city, 8.98/10 guest rating, free breakfast and wifi, from September 1st to 8th, 12012.20 for economy and 15441.35 for business.|offer
+USR|How are your packages to Phoenix?|inform
+SYS|This is a 2.5 star hotel near the airport and a museum, 7.06/10 guest rating, free breakfast, parking, and wifi, from September 2nd to 6th, 20145.70 for business, 15508.67 for economy.|offer
+USR|Ok thats definitely not quite as appealing.|inform
+USR|Can you put us down for San Jose?|inform
+SYS|Sure!|inform
+SYS|No problem!|inform
+SYS|Have a great family vacation!|inform
+USR|Thanks!|thankyou
+USR|Is it confirmed yet?|thankyou
+SYS|No problem!|you_are_welcome

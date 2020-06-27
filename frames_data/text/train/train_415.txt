@@ -1,0 +1,14 @@
+USR|I wanna find a dope vacation package from Ulsan to Rio de Janeiro for under 6500 between August 27th and september 16, my dates are not flexible|inform
+SYS|Ulsan to Rio de Janeiro - budget $6500 - dates Aug 27 to Sept 16.|confirm
+SYS|Is this information correct?|confirm
+USR|yes|affirm
+SYS|I have 2 results with 7 day package and 13 day package.|request
+SYS|Which would you prefer and do you have a maximum amount of money to spend?|request
+USR|6500 is my maximum.|inform
+USR|if the 13 day package is still within my dates i will look at it|inform
+SYS|I have a 13 day package from sept 1 to Sept 12 - Hotel Fernando Ribero located near park, shopping, mall for 4420.98USD.|offer
+SYS|Also available in business class 5894.5USD.|offer
+SYS|Which one do you want to book?|offer
+USR|the business class package please|switch_frame
+SYS|Your package has been booked, thank you and come again.|inform
+USR|Thanks|thankyou

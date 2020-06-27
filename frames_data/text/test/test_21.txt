@@ -1,0 +1,28 @@
+USR|hello|greeting
+SYS|Hi there :slightly_smiling_face: How can I help you today?|greeting
+USR|i am planning my honey moon.|inform
+USR|leaving from miami on sunday august 28 2016.|inform
+USR|for 5 days to stuttgart.|inform
+USR|max 2900|inform
+SYS|I have a one day stay available in Stuttgart from September 2-September 1, does that interest you?|offer
+USR|september 2 - 1?|switch_frame
+SYS|Yes.|sorry
+SYS|Those are the dates.|sorry
+SYS|Sorry.|sorry
+USR|what about kingston?|inform
+SYS|I only have trips that leave in September.|inform
+SYS|Would this be ok?|inform
+USR|ok for 5 dayss?|inform
+SYS|Yes.|offer
+SYS|You could go from September 7-11|offer
+USR|ok|switch_frame
+SYS|Great!|suggest
+SYS|Would you like to book?|suggest
+USR|yes what are the activities and prices|request
+SYS|The price would be 1191.32 USD.|suggest
+SYS|You would be staying in the heart of Kingston near a park.|suggest
+SYS|The hotel has free wifi, breakfast, and parking.|suggest
+SYS|Shall I go ahead and book that for you?|suggest
+USR|yep|affirm
+SYS|Great, booked|inform
+USR|ok thanks|thankyou

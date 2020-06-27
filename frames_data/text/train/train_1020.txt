@@ -1,0 +1,43 @@
+USR|Hi there, I'd like to book a trip for the family, but we haven't decided on a destination yet.|inform
+SYS|I'd be happy to help with that!|request
+SYS|Where are you coming from?|request
+USR|From Sapporo.|inform
+SYS|How big is the family?|request
+USR|Pretty big.|inform
+USR|It'll be 3 adults and 7 kids.|inform
+SYS|Sure is!|request
+SYS|When would you like to take this vacation?|request
+USR|Pretty soon, but no earlier than Thursday September 8|inform
+SYS|How much budget have you allocated to this trip|request
+USR|I don't want to spend any more than $54700|inform
+SYS|That will be enough.|request
+SYS|Is there a date you have to return by?|request
+USR|Yes!|inform
+USR|Wednesday September 28|inform
+SYS|Okay.|suggest
+SYS|I have quite a few options for you.|suggest
+SYS|Do you want to hear the longest trips first or the highest star-rated ones first?|suggest
+USR|Longest I guess!|inform
+USR|Ones that will make the most of my budget!|inform
+SYS|That would surely be an 18 stay at our prestigious 4.0 star hotel next to the park, beach, shopping, and mall.|offer
+SYS|It has a whoping guest rating of 10/10 and I can get you all into business class for 54474.39.|offer
+USR|Oh that sounds good!|request
+USR|But what is the city of destination?|request
+SYS|None but the amazing Porto Alegre!|inform
+USR|Oh wow that's really good.|confirm
+USR|Is that the best option you have?|confirm
+SYS|Yes, it is one of the longest trips we have and the best rated.|affirm
+USR|Do you have anything else comparable?|request_alts
+SYS|We also have 13 day trips to a 3.5 star hotel in both Atlanta.|offer
+SYS|Would this be of interest to you?|offer
+USR|Wow, that also sounds very nice.|request
+USR|How much would that one cost?|request
+SYS|It would be 30657.65 for economy class and 39694.35 for business class.|offer
+USR|How much does the Porto Alegre package cost for economy?|request
+SYS|That would be 41753.92.|offer
+USR|You know what, I'll take the Porto Alegre package, and for business class!|inform
+SYS|That's a great choice!|inform
+SYS|I have secured the booking for you!|inform
+SYS|Your flight leaves on the 8th so better start packing :slightly_smiling_face:|inform
+USR|Perfect, thank you!|thankyou
+SYS|With pleasure :slightly_smiling_face:|you_are_welcome

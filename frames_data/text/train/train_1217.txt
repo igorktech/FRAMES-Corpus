@@ -1,0 +1,21 @@
+USR|Need two tickets out of Buenos Aires!|inform
+SYS|For two adults?|request
+SYS|Where would you like to go?|request
+USR|Yup two adults!|inform
+USR|They can be anywhere in the world except here!|inform
+USR|For as long as possible between the 20th and the 3rd of next month please!|inform
+SYS|Do you have a budget in mind?|request
+USR|Yup, can you find something under 3000?|inform
+SYS|Why yes!|offer
+SYS|We have a wonderful 14 day package for Porto Alegre at a 3.5 star hotel with a guest rating of 9.16/10, costing at 2210.13 for economy class and 2652.90 for business.|offer
+SYS|Are you interested?|offer
+USR|Not bad!|switch_frame
+USR|And when does this trip leave?|switch_frame
+SYS|It leaves September 20th and returns October 3rd, just as you requested :slightly_smiling_face:|inform
+USR|Awesome!!!|inform
+USR|Book it for business please!|inform
+USR|I think that'll do it!|inform
+SYS|Consider it booked!|inform
+SYS|Have a nice trip :slightly_smiling_face:|inform
+USR|Thanks!|thankyou
+USR|I'm sure it will be amazinggg|thankyou

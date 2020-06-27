@@ -1,0 +1,33 @@
+USR|Hi im from Philadelphia|inform
+SYS|Hi!|request
+SYS|Where are you headed today?|request
+USR|Punto cana preferably|inform
+SYS|How would you like to spend 11 days at the Atlantis Gorge?|offer
+SYS|They have a vacancy from the 30th to the 9th of September.|offer
+SYS|The cost of this package is 1018.59USD.|offer
+USR|wow that sounds great does it have any special amenities/|request
+SYS|It is a 2.5-star resort with a 7.15/10 guest rating, free breakfast and free wifi.|inform
+SYS|It is also located in the vicinity of the hotel, museum  and the palace.|inform
+USR|that sounds nice!|request_alts
+USR|sny better rated ones?|request_alts
+SYS|The Atlantis Gorge is a 2.5-star hotel with a 7.15/10 guest rating, located within walking distance of the museum, cathedral and palace.|offer
+SYS|Is offers free breakfast and free wifi.|offer
+SYS|The Scarlet Peaks Hotel is a 3-star hotel with a 6.77/10 guest rating, located within walking distance of the cathedral.|offer
+SYS|Is offers free breakfast and free wifi.|offer
+SYS|The Plaza Serene is a 3-star hotel with a 8.49/10 guest rating, located within walking distance of the theatre and palace.|offer
+SYS|It offers free breakfast, free parking and free wifi.|offer
+USR|man plaza serene looks sweet!|request
+USR|how much would it be?|request
+SYS|The total cost of this package is 1100.10USD.|inform
+SYS|You would be flying out on the 27th of August and returning on the 6th of September.|inform
+USR|let’s keep this in mind, how about Osaka?|inform
+SYS|I can offer you 5 days in the Hotel Prophecy from the 21st to the 24th of August.|offer
+SYS|This package would cost you 3015.97USD.|offer
+USR|what rating would that have?|request
+SYS|This is a 2.5-star resort with a 7.06/10 guest rating.|inform
+SYS|It offers free breakfast and free wifi and is located within walking distance of the museum.|inform
+USR|I think i iwll go with the Plaza Serene|switch_frame
+SYS|Great!|inform
+SYS|I have just finished booking your trip.|inform
+SYS|Have fun in the Cba!|inform
+USR|thanks!|thankyou

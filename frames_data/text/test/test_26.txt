@@ -1,0 +1,31 @@
+USR|helllo|greeting
+SYS|Hey there, what are you looking for?|greeting
+USR|id like to go to porto from santiago, from monday september 5th 2016 to monday sept 19, 2016|inform
+SYS|Ok!|request
+SYS|Are you flexible with your dates?|request
+USR|not really|inform
+SYS|Unfortunately I have nothing available from Santiago to Porto in your date range.|sorry
+USR|ok yes flexible|inform
+SYS|Ok!|offer
+SYS|How about Aug 30-Sept 12?|offer
+USR|ok|switch_frame
+SYS|Would you like to hear more about this package?|hearmore
+USR|yes sure.|affirm
+SYS|You can stay at the Breakwater Hotel from August 30th to September 12 for $2607.|inform
+SYS|This is a 3.5 star hotel in Porto Alegre with free wifi and free breakfast.|inform
+USR|or san francisco as well|inform
+SYS|Would you like to go to Long Beach from Santiago?|suggest
+USR|ok can you tell me more about Long Beach|switch_frame
+SYS|Would you travel from Aug 24-30|suggest
+USR|no..only sept 5 to 19th|inform
+SYS|I can book you August 30th to September 3rd in Long Beach.|offer
+USR|what about valencia|inform
+SYS|I can book Valencia from September 6-11|offer
+USR|ok san francisco?|inform
+SYS|I can book San Francisco from Sept 5-9 at a 2.5 star hotel near a museum for 3289.59USD.|offer
+USR|I will take valencia|switch_frame
+SYS|Absolutely.|offer
+SYS|The cheapest package is $667|offer
+USR|ok I will take that|switch_frame
+SYS|Great :slightly_smiling_face: I will book that for you|inform
+USR|ok thanks|thankyou

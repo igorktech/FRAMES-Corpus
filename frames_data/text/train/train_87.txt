@@ -1,0 +1,19 @@
+USR|Hi im from neverland!|greeting
+USR|and i want to go to Mos eisley|greeting
+SYS|Hello!|greeting
+SYS|I can't seem to find any flights to Mos Eisley, do you have another destination in mind?|greeting
+USR|Maybe Rio de Janeiro?|inform
+SYS|How about an 8-day stay for one at the Hotel Fernando Ribero in Rio de Janeiro?|suggest
+SYS|Your flight would leave on Wednesday, August 17 at 10:38 a.m. Do you want me to book this package?|suggest
+USR|and that leaves from neverland?|switch_frame
+SYS|Unfortunately I can't find any flights leaving Neverland.|sorry
+SYS|Your flight would leave from Salvador, Brazil.|sorry
+USR|and if i were to go to alexandria?|inform
+SYS|I can book you a six-day stay at the Western Landscape Inn & Suites from the 17th to the 22nd of August.|suggest
+SYS|Your flight would leave from Boston.|suggest
+USR|what is the rating of that?|request
+SYS|It is a 2.5-star hotel with a 0/10 guest rating.|inform
+USR|can we book it?|confirm
+SYS|Definitely!|inform
+SYS|Your flight leaves August 17th, 2016 at at 9:00 a.m. Enjoy your stay!|inform
+USR|thank you!|thankyou

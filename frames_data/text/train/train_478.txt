@@ -1,0 +1,26 @@
+USR|Hellllo!|inform
+USR|I am bringing my spouse and infant on a little getaway :+1::skin-tone-4:|inform
+SYS|Where to?|request
+USR|We’ve got a 3500 dollar budget and wanna see what is available in Cleveland.|inform
+USR|We are sick of the sun in Porto|inform
+SYS|When would you like to leave?|request
+USR|We have vacation days from August 27-September.|inform
+USR|Septemeber 13, sorry|inform
+SYS|There are no flights from Porto to Cleveland.|suggest
+SYS|Is there a different location you can fly from?|suggest
+USR|Ahh hm.. well no, but we would be open to going to Pittsburgh|inform
+SYS|I'm sorry but there is nothing from Porto Alegre to Pittsburgh within your budget.|sorry
+USR|And for Porto Alegre to Cleveland?|switch_frame
+SYS|There is nothing within your budget for this either.|no_result
+USR|What about in Santos?|inform
+SYS|There is a 4 star hotel near shopping, includes free breakfast and wifi and is from September 1st to 4th and costs 1906.92.|offer
+SYS|There is also a 3 star hotel near shopping, includes free breakfast and wifi from September 4th to 13th and costs 2154.10 for business class seats, if you're looking for a longer vacation.|offer
+USR|Lovely!|request_compare
+USR|Ok, what are the hotel names|request_compare
+SYS|Hotel Globetrotter for the 2154.10 and Elite Estate Hotel for the 1906.92.|inform
+USR|Ok, I like it.|inform
+USR|Can we book Globetrotter?|inform
+SYS|Sounds great!|thankyou
+SYS|You will get a confirmation email within the next 20 minutes!|thankyou
+SYS|Have a great day and thank you!|thankyou
+USR|Thanks :slightly_smiling_face:|thankyou

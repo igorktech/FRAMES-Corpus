@@ -1,0 +1,22 @@
+USR|Hi!|inform
+USR|I'd like to go on a trip to Monterrey!|inform
+SYS|Hi|greeting
+USR|oops I mean from Monterrey to Ulsan|inform
+SYS|What would be your budget|request
+USR|I dont have one, i'm stinkin' rich!|inform
+SYS|Which days would you want to go?|request
+USR|I'm thinking between September 6th and 15th.|inform
+SYS|How many people would be going?|request
+USR|Just me, myself and I. I'm like super independent :slightly_smiling_face:|inform
+SYS|Would the dates be flexible?|request
+USR|I can go  between August 31st and September 8th as well I suppose|inform
+SYS|1.|offer
+SYS|10 Days at the Sapphire Time, 5 star hotel, at 21807318.3USD|offer
+USR|What's another option?|request_alts
+SYS|2.|offer
+SYS|Crimson Seaside Hotel - 5 days, 4 star, 22308558.83USD|offer
+USR|These are all really expensive....Do you have any cheaper options?|inform
+USR|I'm rich but I'd like to stay rich for as long as possible.|inform
+SYS|so what is your budget sir?|request
+USR|I'm a woman!|inform
+USR|Try to find something 9000 or less if you can.|inform

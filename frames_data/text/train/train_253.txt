@@ -1,0 +1,8 @@
+USR|I HAVE to be in Houston on the 17th!|inform
+SYS|Hello!|request
+SYS|We'll get you there.|request
+SYS|Where are you leaving from?|request
+USR|Fortaleza|inform
+SYS|Sorry, but I can't find any flights to Houston from Fortaleza.|sorry
+SYS|Is there anywhere else you'd like to go?|sorry
+USR|okay well its crucial i get there from Fortaleza so I will call someone else|inform

@@ -1,0 +1,29 @@
+USR|I just got a tip that Madonna might be going to Burlington|inform
+SYS|Where would you be leaving from?|request
+USR|I'd be leaving from Kobe
+Mind you I want you to book me the nicest hotel in Burlington|inform
+SYS|What is your budget?|request
+USR|4700|inform
+SYS|When would you like to leave?|request
+USR|On or after Sept 6|inform
+SYS|The best package we have is a 3 star hotel near a park with a 6.51/10 guest rating and free wifi.|offer
+SYS|This is from September 10th to 19th with economy seats and costs 3668.84.|offer
+USR|Do you have nicer hotels in Burlington?|inform
+SYS|The best are 3 stars.|inform
+USR|Is the one you offered also the hotel with the best user rating?|request
+SYS|There is a hotel with a guest rating of 8.69/10|offer
+USR|How much would that cost?|request
+SYS|3965.45 and this hotel offers free breakfast and wifi.|inform
+SYS|The package is from September 17th to 25th and is an economy class flight.|inform
+USR|Would be it be possible to leave earlier for this hotel?|inform
+SYS|The earliest departure is September 12th.|offer
+USR|Ok thats possible.|request
+USR|Whats the price there?|request
+SYS|The return date is the 16th and costs 4628.60 for business class and 3583.24 for economy class.|offer
+USR|Whew ok|inform
+SYS|Would you like the business flight or economy?|request
+USR|business please|switch_frame
+SYS|Great!|goodbye
+SYS|Your business class flight is booked!|goodbye
+SYS|Have a great day!|goodbye
+USR|:slightly_smiling_face:|null

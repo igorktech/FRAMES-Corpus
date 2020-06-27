@@ -1,0 +1,8 @@
+USR|i need a 5 star getaway in toronto from beijing immediately|inform
+SYS|For how many people and your expected dates of travel please?|request
+USR|i need to be back august 25|inform
+SYS|I do not have flights available from Beijing to Toronto.|no_result
+USR|Indianapolis then|inform
+SYS|May I confirm the number of  people travelling please?|request
+USR|2|inform
+SYS|I do not have flights available at this time from Beijing to Indianapolis.|no_result

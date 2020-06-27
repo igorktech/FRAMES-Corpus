@@ -1,0 +1,18 @@
+USR|hello|greeting
+SYS|How can I help you&gt;|greeting
+USR|i have 9 days of vacation|inform
+SYS|Awesome!|request
+SYS|Where would you like to travel?|request
+USR|from sendai to anywhere.|inform
+USR|starting friday sept 2 2016|inform
+SYS|I have a 9 day package available in Kobe from Sept 13-21|offer
+USR|ok.|inform
+USR|but i have to leave on sept 2|inform
+SYS|I can give you 13 days in Kyoto if you leave on Sept 2|offer
+USR|ok|switch_frame
+SYS|Would you like to book it?|suggest
+USR|what are the details|moreinfo
+SYS|A 3.0 star hotel near a museum with free wifi and free breakfast for $442.70.|inform
+USR|ok I'd like to book it please|inform
+SYS|Ok, booked!|inform
+USR|thanks|thankyou

@@ -1,0 +1,15 @@
+USR|Hello hello :slightly_smiling_face: I'm planning a honeymoon, and I want to go to Kabul from Toronto
+Do you have anything for me leaving on August 28th?|inform
+USR|13 days if possible
+got $3300 to spend|inform
+SYS|How many people will be traveling?|request
+USR|2 of us|inform
+SYS|There are no flights to Kabul|no_result
+USR|Okay how about to Leon?|inform
+SYS|There is one result at a 5 star hotel from August 31st to September 6th.|offer
+SYS|The cost is 3036.30.|offer
+USR|That works!|thankyou
+USR|Please book it for us|thankyou
+SYS|Your trip is booked!|inform
+SYS|Have an amazing honeymoon!|inform
+USR|Thank you :slightly_smiling_face:|thankyou

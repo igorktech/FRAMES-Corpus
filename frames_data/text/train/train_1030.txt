@@ -1,0 +1,11 @@
+USR|santiago|inform
+SYS|Is that your departure?|request
+USR|no i want to go.|inform
+USR|i leave seattle|inform
+SYS|when?|request
+USR|24 until 27 of september|inform
+SYS|Can your dates be flexible at all?|request
+SYS|I have earlier departures.|request
+USR|no they are not flexible.|inform
+USR|you have nothing for me?|inform
+SYS|Not during those dates|no_result

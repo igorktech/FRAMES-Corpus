@@ -1,0 +1,13 @@
+USR|Get me on a flight to San Antonio, stat!|inform
+USR|I need to leave on September 1|inform
+SYS|From where?|request
+USR|Kyoto.|inform
+USR|Get me the best hotel also|inform
+SYS|Do you have a budget?|request
+USR|I want to keep it under $5500 if possible.|inform
+USR|But I'm flexible with return date|inform
+SYS|Travelling alone?|suggest
+USR|Yes all by my lonesome|affirm
+SYS|There are no flights from Kyoto to San Antonio in my database.|suggest
+SYS|Is there another destination you might want to go to?|suggest
+USR|Its gotta be San Antonio man, damn Ok I'll look elsewhere|goodbye

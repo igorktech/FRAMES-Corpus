@@ -1,0 +1,10 @@
+USR|I want to take a trip from Diagon Alley to Naples.|inform
+SYS|Unfortunately I do not have any flights from Diagon Alley.|sorry
+SYS|Are there any other nearby city?|sorry
+USR|nope.|inform
+USR|is there anything to Las Vegas from Diagon Alley?|inform
+SYS|No, sorry, I have no flights from Diagon Alley in my database.|sorry
+USR|oh okay.|thankyou
+USR|thanks anyway.|thankyou
+SYS|I hope that you will return to use our services for your next booking.|goodbye
+SYS|Have a good day.|goodbye

@@ -1,0 +1,23 @@
+USR|I have 0 budget.|inform
+USR|But big dreams
+I’m heading out from Tampa
+Going to Campinas
+But I’m ok with any destination really|inform
+SYS|I'm afraid I cannot help you here.|sorry
+USR|Ok that was a stretch.|inform
+USR|Just trying to see if you would glitch and give me a freebie
+But for real, where can I go with 400$?|inform
+SYS|Now that's better!|suggest
+SYS|I can take you to Punta Cana or Atlanta with that.|suggest
+USR|It would be nice to get out of the country!|request
+USR|What hotel could you find me in Punta Cana?|request
+SYS|You can have a 14 day trip to Punta Cana at a 2.5 star beachside hotel for 167.60 if you fly economy.|inform
+USR|That is a bargain and a half.|request
+USR|Does the hotel also serve free breakfast?|request
+SYS|No, it is void of any amenities.|inform
+SYS|But who needs those when you've got the beach?|inform
+USR|WHY SEE THE WORLD, WHEN YOU’VE GOT THE BEACH??|inform
+USR|you speak wise words
+sign me up|inform
+SYS|Your trip is booked for you|inform
+USR|That is all, my friend|goodbye

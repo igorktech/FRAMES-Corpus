@@ -1,0 +1,20 @@
+USR|leaving from cleveland.|inform
+USR|1 adult, 2 kids
+september 8 to 27|inform
+SYS|Any special destinations on your wishlist?|request
+USR|surprise me!|inform
+SYS|I have a few suggestions, but first I need to know if you have a certain amount of money you would like to allocate to this trip?|request
+USR|I have 5200|inform
+SYS|We have the Glorious Spring Hotel with a 2 star rating close to the park available for a 17 day stay|offer
+USR|lets find something shorter but at a nicer hotel|inform
+SYS|How about 15 days at a 4 star hotel in Vancouver, Canada?|offer
+USR|can you tell me more about this hotel?|moreinfo
+SYS|It's centrally located near a park, museum and cathedral, includes unlimited use of wifi, breakfast free of charge and includes a parking .|inform
+SYS|It also has a 8.8/10 guest rating.|inform
+SYS|Your flight would depart on Sept 13th with a return flight to Cleveland on Sept 27th|inform
+USR|Okay how much would it cost to book our party?|request
+SYS|If we place you in economy class seating it would cost 2945.19USD, and if we place you in business class seating it would cost 3653.42USD.|offer
+USR|In that case we would be willing to splurge for business class.|switch_frame
+SYS|1 adult and 2 children booked in business class seating.|inform
+SYS|Thank you for booking!|inform
+USR|Thank you!|thankyou

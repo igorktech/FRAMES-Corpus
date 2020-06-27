@@ -1,0 +1,13 @@
+USR|I want to get to Paris from Cordoba|inform
+SYS|Great trip destination.|request
+SYS|Is there a certain amount of money you would like to spend on this trip?|request
+SYS|And will you be going on your own or with others?|request
+USR|1 kid and 4 adults for 3300|inform
+SYS|We have a 13  day package and an 11 day package, which would interest you more?|offer
+USR|13|switch_frame
+SYS|Our 13 day package includes an excellent 5 star hotel that provides free breakfast and wifi, costing a grand total of 3130.90.|suggest
+SYS|Would you like to book?|suggest
+USR|yes!|affirm
+SYS|Consider it booked!|inform
+SYS|Enjoy your vacation :slightly_smiling_face:|inform
+USR|Thanks!|thankyou

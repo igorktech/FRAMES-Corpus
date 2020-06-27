@@ -1,0 +1,18 @@
+USR|Tel Aviv - San Francisco please|inform
+SYS|Hi there, what dates are you looking to make this trip on?|request
+USR|dates are flexible, doesn't matter when|inform
+SYS|Alright, and this would be for how many adults and children?|request
+USR|just one adult|inform
+SYS|I regret to inform you that we do not have this flight listed.|suggest
+SYS|Could we help you with another destination?|suggest
+USR|what if I leave from Maceio|inform
+SYS|I've got results for this trip!|request
+SYS|To help me narrow them down, do you have a budget in mind for this trip?|request
+USR|3200|inform
+SYS|Great, I've got an 11 day trip from August 31 to September 9, where you will be staying at the Twin Canyon Inn and Suites.|offer
+SYS|Does this sound good to you?|offer
+USR|What is in the hotel's vicinity|request
+SYS|Its at the heart of the city, and is near a museum!|inform
+USR|lets book it|inform
+SYS|Perfect, I'll send over the confirmation shortly.|inform
+USR|thanks|thankyou

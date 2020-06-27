@@ -1,0 +1,10 @@
+USR|Hello bot.|inform
+USR|I want to go to Manas from Boston on September 2|inform
+SYS|Do you have a budget?|request
+USR|$4,100|inform
+SYS|Will you be travelling alone?|suggest
+USR|Yes|affirm
+SYS|There are only flights from Boston to Alexandria, Calgary, Atlante, and Punta Cana.|suggest
+USR|Okay but what if I leave from Naples instead.|inform
+USR|Can you get me to Manas from Naples?|inform
+SYS|From Naples there are only results to Hamburg and Rome|inform

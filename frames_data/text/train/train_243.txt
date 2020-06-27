@@ -1,0 +1,15 @@
+USR|Well, this is it.|inform
+USR|Time for me to go to Queenstown!|inform
+SYS|Do you know which city you'll be departing from?|request
+USR|probably San Diego|inform
+SYS|If you're headed to Queenstown I can book you for 6 days at the Silver Palace for 2523.42USD.|hearmore
+SYS|There's also a 5-day opening in Ulsan at the Grandiose Willow Resort for 3372.83USD.|hearmore
+SYS|Would you like to hear more about either of these packages?|hearmore
+USR|wwhich one offers better amenities?|request_compare
+SYS|The Silver Palace offers free wifi and free breakfast and is located in close proximity to both the museum and the airport.|inform
+SYS|The Grandiose Willow offers free wifi and free parking, and is located within walking distance of both the park and the university.|inform
+USR|I think queenstown would be a better stay this vacation|switch_frame
+SYS|Nice!|inform
+SYS|I'll get stright to booking it for you then.|inform
+SYS|Have fun on your trip!|inform
+USR|Thanks|thankyou

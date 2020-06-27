@@ -1,0 +1,30 @@
+USR|I need a booking for 6 adults from Milan to Punta Cana|inform
+SYS|Do you have a budget?|request
+USR|No, I’ve got a trust fund|inform
+SYS|When would you like to leave?|request
+USR|Doesn’t matter|inform
+SYS|We have a 0 star hotel near a palace, 0/10 guest rating, from September 2nd to 12th, business class, total cost is 22183.33.|offer
+SYS|There is also a 2.5 star hotel near the beach, 0/10 guest rating, from September 10th to 15th, business class, total cost is 20805.57.|offer
+USR|I’m gonna need stronger ratings.|inform
+USR|Try Puebla instead.|inform
+SYS|We have  a 4 star hotel near a park, 8.49/10 guest rating, free parking, breakfast, and wifi.|offer
+SYS|This package is from August 30th to September 9th, for business class the price is 25367.59 and for economy class the price is 19615.32.|offer
+USR|Not bad!|switch_frame
+USR|Is it located near nightlife?|switch_frame
+SYS|My database does not have this information.|canthelp
+USR|Can you tell me anything about the location..?|request
+SYS|It is near a park.|inform
+SYS|The hotel is called Los Campeones.|inform
+USR|What’ve you got available in Dublin?|inform
+SYS|We have a 2 star hotel in the heart of the city, near a park, mall, and university.|offer
+SYS|The hotel has a 5.14/10 guest rating and free breakfast, wifi, and parking.|offer
+SYS|This package is from August 30th to September 13th.|offer
+SYS|The business class flights cost 15241.10 and the economy class flights cost 11822.12.|offer
+USR|Don’t bother giving me information on anything under 4 stars from now on!|request
+USR|I guess puebla is the only suitable option you can give me ?|request
+SYS|Yes.|affirm
+USR|Fine.|inform
+USR|Book that|inform
+SYS|Okay.|inform
+SYS|This is booked for you!|inform
+SYS|Have a great day!|inform

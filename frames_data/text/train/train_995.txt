@@ -1,0 +1,41 @@
+USR|Hey I think you can help me get from Stuttgart to Toronto right??|inform
+SYS|I can try!|request
+SYS|Do you have a budget?|request
+USR|Yea!!|inform
+USR|I'm travelling with 2 other trainers - we can spend up to 8600 dollars|inform
+SYS|Do you have dates of travel in mind?|request
+USR|We wanna leave on or after the 18th of this month|inform
+SYS|We have a great 4 star hotel near the airport and a cathedral.|offer
+SYS|This is a 10 day package from September 26th to October 5th.|offer
+SYS|the hotel has a 8.8/10 guest rating and they offer free breakfast and wifi.|offer
+SYS|The package will cost 6255.67 for business flights and 4942.53 for economy flights.|offer
+USR|I wanna leave a bit sooner.|inform
+USR|Can we go sooner if we went to Cancun?|inform
+SYS|I can get you to Toronto from the 18th to 25th at a 3 star hotel.|offer
+USR|Ok, well tell me more about that place|moreinfo
+SYS|It is near a cathedral, 9.16/10 guest rating, free breakfast and wifi, economy flights, and the price is 7661.41.|inform
+USR|Before I go ahead with that can you still tell me whatcha got in Cancun??|switch_frame
+USR|I hear that Mewtwo might have been spotted there more recently than Toronto..|switch_frame
+SYS|We have one package at the Winter Vale Hotel available from September 21st to October 2nd.|offer
+SYS|This is a 4 star hotel, 9.16/10 guest rating, free wifi, breakfast, and parking.|offer
+SYS|The total for this package is 7910.35.|offer
+SYS|There is also another availability at the same hotel but from September 20th to 28th for 6704.30.|offer
+USR|Ok, thanks.. I think the Toronto package is better though.|switch_frame
+USR|Cathedrals and old stuff like that are usually great pokestops|switch_frame
+SYS|The hotel in Cancun is near a cathedral and university, if that makes a difference to you.|inform
+USR|What!?|switch_frame
+USR|How could you not have told me that before!|switch_frame
+USR|Cancun it is!|switch_frame
+SYS|Apologies.|sorry
+SYS|Which dates would you prefer, September 21st to October 2nd or September 20th to 28th?|sorry
+USR|Oh ah the 21st to 2nd of Oct please.|confirm
+USR|Thats the cost you gave me before right?|confirm
+SYS|I gave you both prices.|inform
+SYS|The price for September 21st to October 2nd is 7910.35 and for September 20th to 28th is 6704.30.|inform
+USR|oh ok sorry.|inform
+USR|Yes, that is fine as they are both in my budget
+21st trip please|inform
+SYS|Great!|inform
+SYS|It is booked!|inform
+SYS|Have a great trip and good luck on your Pokémon hunt!|inform
+USR|Thank you !|thankyou

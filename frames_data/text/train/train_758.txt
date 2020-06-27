@@ -1,0 +1,23 @@
+USR|can you get me out of sapporo on friday?|inform
+USR|get me to rosario|inform
+SYS|I can try!|request
+SYS|Do you have a budget?|request
+USR|yes i have 9300|inform
+SYS|Just you travelling?|suggest
+USR|correct|affirm
+SYS|The soonest I can get you from Sapporo to Rosario would be Sunday, September fourth.|offer
+SYS|Is that ok?|offer
+USR|thats a little sketchy|negate
+SYS|Another destination?|suggest
+USR|how about kingston, anything earlier for that?|inform
+SYS|Flights to Kingston from Sapporo are not available until Tuesday, September 6th.|offer
+USR|could you get me to rosario faster if I left from phoenix?|inform
+SYS|I‘m sorry - the soonest I can get you to Rosario is still September 4th.|sorry
+USR|phoenix to sapporo??|inform
+SYS|Nothing available.|no_result
+USR|how much does it cost to go from sapporo to rosario on sept 4?|request
+SYS|I can book you in Rosario at a 4 star hotel for 16 days and it would cost 6330 for economy class flights.|inform
+USR|does this hotel have free breakfast?|request
+SYS|It sure does!|affirm
+USR|cool lets book it|inform
+SYS|Consider it done :slightly_smiling_face:|inform

@@ -1,0 +1,32 @@
+USR|psssstttttt|null
+SYS|Hello!|greeting
+SYS|How can I help you?|greeting
+USR|I have 3500 dollars and a helping hand to lend.|inform
+USR|I must try to go to Athens|inform
+SYS|Where are you leaving from?|request
+USR|Lets try Naples|inform
+SYS|When would you like to leave?|request
+USR|I can travel between the second and twentieth of September|inform
+SYS|Are you travelling alone?|suggest
+USR|Yes and I will bring my many dogs :dog:|affirm
+SYS|There's only one result and it is from August 30th to September 8th.|offer
+USR|What is the hotel like?|moreinfo
+USR|What is it nearby?|moreinfo
+SYS|It is a 3 star hotel near a mall and has a 0/10 guest rating and free parking and wifi.|inform
+USR|Can you tell me what is available in Nagoya?|inform
+SYS|There is one package available.|offer
+SYS|It is a 3 star hotel, near a university, 8.69/10 guest rating, free parking, breakfast, and wifi, departing September 6th and returning the 11th, economy flight, total cost is 3217.49.|offer
+USR|Ok, not bad.. Lastly can you check Kyoto Please|inform
+SYS|There are no availabilities.|no_result
+USR|If I leave my departure city open can you find me anything?|inform
+USR|I would like to stay near a park.|inform
+SYS|We have a package to Vancouver at a 4 star hotel near a park and museum.|offer
+SYS|The guest rating is 10/10 and they offer free parking, breakfast, and wifi.|offer
+SYS|The departure flight is September 3rd and the return flight is on the 10th.|offer
+SYS|The price of this package is 2985.94.|offer
+USR|But I need to go to Athens|inform
+SYS|There are no parks near the hotels in Athens.|no_result
+USR|Nagoya?|switch_frame
+SYS|No the only hotel here is near a university.|inform
+USR|What about Kyoto???|switch_frame
+SYS|There are no availabilities.|no_result

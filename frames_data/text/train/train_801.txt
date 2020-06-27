@@ -1,0 +1,2 @@
+USR|i wanna go 2 santa cruz from kabul|inform
+SYS|I’m sorry, I have no trips available for these locations.|sorry

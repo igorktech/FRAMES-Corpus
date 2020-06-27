@@ -1,0 +1,17 @@
+USR|hi i need to get to mexico city|inform
+SYS|Hi!|request
+SYS|Where are you leaving from?|request
+USR|PUNTA CANA come on come on|inform
+SYS|Budget?|request
+USR|1300|inform
+SYS|Travelling alone?|suggest
+USR|yes|affirm
+SYS|When would you like to leave and return?|request
+USR|i want to be there on or after septemeber first|inform
+SYS|We have two 3 star hotels.|offer
+SYS|Are you more interested in free breakfast and wifi, or free wifi and parking?|offer
+USR|i need free parking as ill be renting a car.|inform
+USR|But three stars is not going to attract my target demographic.|inform
+USR|If i throw another thousand dollars on my budget can you find me something better?|inform
+SYS|Unfortunately there are no other hotel ratings|sorry
+USR|oh bullocks|null

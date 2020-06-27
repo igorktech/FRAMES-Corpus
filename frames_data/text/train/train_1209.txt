@@ -1,0 +1,35 @@
+USR|The big boss approved Sept 12-28|inform
+SYS|Where would you like to go and how many of you will there be?|request
+USR|I'm thinking of a solo outing down to Porto.|inform
+SYS|Where will you be coming from?|request
+SYS|And is there a certain amount that you would like to spend?|request
+USR|Cancun!|inform
+USR|Maybe 10 days?|inform
+USR|I've been waiting for too long so don't mind splurging on this trip!|inform
+SYS|I have a great package for you to Porto Alegre!|offer
+SYS|It's a 7 day trip at a 3.5 star hotel with a guest rating of 9.16/10.|offer
+SYS|It includes free breakfast and wifi, and it would cost 2196.98 for economy class and 2810.6 for business.|offer
+SYS|Are you interested?|offer
+USR|Do you have anything longer?|inform
+SYS|I'm afraid we only provide 7 day packages.|sorry
+SYS|Do you have any other preferences that would help me narrow down your search?|sorry
+USR|Have you got anything better in Tampa?|inform
+SYS|We have an 11 day package at a 3 star hotel with a guest rating of 8.8/10 that costs 1239.45 for economy class and 1507.68 for business.|offer
+SYS|Are you interested in booking this trip?|offer
+USR|Anything higher rated?|inform
+SYS|I'm sorry, it's the same hotel for all packages in Tampa.|sorry
+SYS|Would you like to me proceed with booking this trip?|sorry
+USR|In a last attempt to find something.. can you see if there are better trips to Marseille?|inform
+SYS|We have a luxurious 11 day package at the 4 star hotel Duchesse with a guest rating of 8.98/10 costing at 3578.78 for economy and 4601.70 for business.|offer
+SYS|Are you interested?|offer
+USR|Is it close to anything of interest?|request
+SYS|Yes, there is a famous museum nearby.|suggest
+SYS|Would you like to book?|suggest
+USR|Can I check which dates is this trip?|request
+SYS|Of course!|inform
+SYS|It departs Friday September 16th and returns on Sunday September 25th.|inform
+USR|That's nice!|inform
+USR|Alright sign me up!|inform
+SYS|Your package is now booked.|inform
+SYS|Have a wonderful trip!|inform
+USR|Thank you for your help!|thankyou

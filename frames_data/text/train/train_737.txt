@@ -1,0 +1,19 @@
+USR|Hi, I was hoping you can help me find a vacation for under 1000.|inform
+USR|I live in Mannheim.|inform
+SYS|Sure!|request
+SYS|Where would you like to go?|request
+USR|I haven't really thought about it.|inform
+USR|Can you give me some options that are within my budget?|inform
+SYS|Sure.|request
+SYS|When would you like to travel?|request
+USR|Hopefully between August 31 and September 5|inform
+SYS|We have a 4 star hotel near shopping and a cathedral, 8.8/10 guest rating, free breakfast and wifi, from September 2nd to 5th, business flights cost 970.76, economy flights cost 843.20.|offer
+USR|What city is this?|request
+SYS|Rome|inform
+USR|Okay.|inform
+USR|Is there another city I can travel to with my budget?|inform
+SYS|No.|no_result
+USR|Fair, I'll take the economy package to Rome then!|inform
+SYS|Great!|goodbye
+SYS|Have a nice day and safe travels!|goodbye
+USR|Thank you!|thankyou

@@ -1,0 +1,46 @@
+USR|Hello!|inform
+USR|I want to book a trip for two adults and two children from August 25th to August 31st.|inform
+USR|We have several destinations in mind.|inform
+USR|Do you have any packages for Manaus?|inform
+SYS|I do but in order to provide you with the proper information, I would need to know your city of departure|request
+USR|Oh yes!|inform
+USR|We will be flying out of Calgary|inform
+SYS|From Calgary to Manaus, within your dates, I only have one option that I can present you with.|offer
+SYS|It would ba an 8 day package at the 2.5 star  Hotel Aquamarine River located near the shopping district.|offer
+SYS|This option includes the usual amenities such as free parking, free wifi and free breakfast for the entire family.|offer
+USR|Does this hotel have good user reviews?|request
+SYS|It is rated 6.77/10.|suggest
+SYS|Would you like me to look at other possibilities for you and your family flying out from Calgary?|suggest
+USR|Yes, I have several destinations in mind.|inform
+USR|To compare the options can you tell me how much the Manaus trip would be?|inform
+USR|Another destination we are considering is Tokyo|inform
+SYS|If you flew vis economy class, the price would be 6988.7USD.|no_result
+SYS|If you chose to upgrade to business class, the price would be 8992.24USD.|no_result
+SYS|I regret that I have no flights to Tokyo out of Calgary.|no_result
+USR|Ok thanks!|inform
+USR|How about to Minneapolis?|inform
+USR|We would be flying in economy|inform
+SYS|To Minneapolis, I have the 2.5 star rated Viridian Cottage Inn & Suites located near the park, mall and the Inca museum.|offer
+SYS|This package included free wifi, parking and breakfast for you and your party of 4.|offer
+SYS|This is a 4 day package valued at 2662.13USD.|offer
+USR|That is too short for us, is that the only one you have for Minneapolis that fits our dates?|inform
+SYS|Regrettably, yes it is.|suggest
+SYS|Can I have a look at other destinations for you?|suggest
+USR|The last place we were considering was Sao Paulo|inform
+SYS|Let me have a look at Sao Paulo for you.|suggest
+SYS|Anything in particular you would like me to look for?|suggest
+USR|What do you mean?|null
+SYS|Close to the museum, or near a park, or maybe near a beach?|inform
+SYS|My earliest departure to Sao Paulo from Calgary is on Sept. 2nd.|inform
+USR|I see, well unfortunately our dates are not flexible.|request
+USR|Could you please confirm the dates of the Manaus vacation?|request
+SYS|That one was available from August 25th to August 31st.|inform
+SYS|The package price for the Hotel Aquamarine River for 4 people was 6988.7USD.|inform
+USR|Alright thanks, I looked up other reviews and I think it will suit us, i'll book it!|inform
+SYS|Just to confirm, I will proceed with booking the Hotel Aquamarine River in Manaus for your party of 4, arriving from Calgary on August 25th and departing from Manaus on August 31st, all on economy class tickets at a price of $6988USD.|inform
+SYS|Is this information correct to proceed with the booking?|inform
+USR|Yes that sounds good!|thankyou
+USR|Thank you for your help|thankyou
+SYS|You are welcome.|inform
+SYS|We will send over confirmation.|inform
+SYS|Have a good day.|inform

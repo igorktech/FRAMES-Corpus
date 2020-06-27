@@ -1,0 +1,41 @@
+USR|I am the happy father of 3 children|inform
+SYS|Hello!|greeting
+USR|And I would like to treat them with a family trip to Berlin!|inform
+SYS|From where?|request
+USR|Kingston|inform
+SYS|What is your budget?|request
+USR|Eight thousand six hundred dollars|inform
+SYS|How many adults?|request
+USR|Two!|inform
+SYS|When would you like to leave?|request
+USR|August 30th at the earliest|inform
+SYS|There is a 5 star hotel, departing September 3rd and returning on the 14th.|offer
+SYS|This business class flight costs 7649.24.|offer
+USR|Heyyy five stars, there we go!|moreinfo
+USR|Can I hear some more?|moreinfo
+SYS|The other option is at another 5 star hotel, departing September 8th and returning on the 15th.|offer
+SYS|This business flight costs 7944.94.|offer
+USR|Oh, sorry, I should’ve been clear.|moreinfo
+USR|I meant more information
+but you can give me some more info on both packages now :smile:|moreinfo
+SYS|Yes, the first package has a 8.86/10 guest rating and offers free breakfast and wifi.|inform
+SYS|The second package has a 8.8/10 guest rating, is near a museum, and offers free breakfast and wifi.|inform
+USR|Well well well.|request
+USR|First place has it beat in the user’s eye by .1 The first package, the hotel isnt near anything interesting?|request
+SYS|Not according to what my database gives.|canthelp
+USR|Well, lets explore options in Paris|inform
+SYS|We have a 4 star hotel near a museum and palace.|offer
+SYS|Price is 8230.26 for business seats.|offer
+SYS|9.16/10 guest rating.|offer
+SYS|Free breakfast and wifi.|offer
+SYS|Departing August 30th, returning September 6th.|offer
+USR|Wonderful guest rating!|inform
+USR|what might be available in St. Louis?|inform
+SYS|Our best package for this is a 5 star hotel, 8.98/10 guest rating, free breakfast and wifi, business class flights, departing August 31st and returning September 13th, all for the price of 6606.14.|offer
+USR|Lots of swanky hotels to choose from!|inform
+USR|Well, based on length of trip, that one to SL sounds like a great deal.|inform
+USR|I think I wanna go ahead with booking that|inform
+SYS|Lovely!|goodbye
+SYS|Your trip is booked!|goodbye
+SYS|You will get a confirmation email within the hour.|goodbye
+SYS|Have a nice day!|goodbye

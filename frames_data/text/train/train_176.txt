@@ -1,0 +1,9 @@
+USR|hey there how are you i am chef
+for pastry cake.|thankyou
+USR|i want go to coruscant
+live sydney
+pls help me thx
+need to try cookie
+good there|thankyou
+SYS|I am sorry it looks like there are no flights to coruscant|sorry
+USR|ok well this is no good i must bye|goodbye

@@ -1,0 +1,20 @@
+USR|Hi i am planning my honeymoon for my wife and myself.|inform
+USR|I am looking for the best deal but it needs to be the best time!|inform
+USR|can you helo us?|inform
+SYS|Absolutely.|request
+SYS|Where would you like to go and from what city would you be departing?|request
+USR|we’re getting married in San Jose and we want to leave on August 27th.|inform
+USR|we have already spent so much on the wedding and only have $2700 to sepnd|inform
+SYS|We do have a very nice package available with a departure date of August 27 to Montreal.|offer
+SYS|This package includes free wifi, parking and breakfast and you would both fly on business class.|offer
+SYS|The total cost of this package is within your budget at only $1156.55USD.|offer
+USR|is anything a little warmer perhaps?|request_alts
+SYS|From that city, I only have this package available.|suggest
+SYS|Are you able to leave from a different city?|suggest
+USR|`Honestly we cant but that package seems fine as long as we will be together what activities or options does this package have?|request
+SYS|Your package includes free wifi, parking and complimentary breakfast every morning.|inform
+USR|That sounds amazing thank you!|request
+USR|and again how much will that be?|request
+SYS|If you fly business class, the total cost will be 1156.55USD.|suggest
+SYS|Should I go ahead and book that for you?|suggest
+USR|yes please that sounds amazing!|affirm

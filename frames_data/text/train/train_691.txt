@@ -1,0 +1,34 @@
+USR|I'm planning a 5 day vacation, but I haven't given too much thoughts to it.|inform
+USR|Can you give me some suggestions fit for my budget?|inform
+USR|I hope to spend 4600 max.|inform
+SYS|Where are you leaving from?|request
+USR|I live in Tampa.|inform
+SYS|Are you travelling alone?|suggest
+USR|Yes.|affirm
+SYS|When would you like to leave?|request
+USR|My dates are quite flexible.|inform
+SYS|Do you know where you might want to go?|request
+USR|I haven't done much thinking into it.. can you present a few options and maybe I can choose one?|inform
+SYS|Sure!|offer
+SYS|We have packages to Santos, Madrid, and San Jose.|offer
+USR|Awesome!|request_compare
+USR|Are the 5 day packages all within my budget?|request_compare
+SYS|Indeed they are!|affirm
+USR|Fantastic.|request_compare
+USR|Can you tell me a bit more about the hotel options in each city?|request_compare
+SYS|Santos has two hotels, one is a 4 star, the other is a 3 star.|offer
+SYS|Madrid has a 5 star hotel, and San Jose has a 4 star hotel.|offer
+USR|Okay we can scratch the 3 star one in Santos off the list.|request_compare
+USR|Can you tell me a bit more about the 3 hotels that are left?|request_compare
+SYS|The 4 star in Santos has a 8.49/10 guest rating, offers free breakfast and wifi, and is near shopping stores.|inform
+SYS|The 5 star in Madrid has a 9.16/10 guest rating, offers free breakfast and wifi, and is near a museum, cathedral and palace.|inform
+SYS|The 4 star in San Jose has a 8.8/10 guest rating, offers free parking, breakfast and wifi, and is near a museum and beach.|inform
+USR|Madrid is definitely the most appealing to me!|switch_frame
+SYS|I thought it would be.|suggest
+SYS|Would you like me to book it for you?|suggest
+USR|That'd be great!|inform
+SYS|Your package is from September 8th to 12th, would you like me to book you the business class flights or the economy flights?|offer
+USR|Cool... If business flights are within my budget, then why not :slightly_smiling_face:|request
+SYS|Great!|inform
+SYS|Your package is booked and the cost is 2936.42.|inform
+USR|That's awesome, thanks!|thankyou

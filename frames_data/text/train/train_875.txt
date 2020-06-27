@@ -1,0 +1,35 @@
+USR|It seems that a lot of us grandmas are winning the jackpot lately haha  I guess we're the ones at the casino the most.|inform
+USR|oh yes i want to take my six bratty grandchildren with me and spoil them even more|inform
+SYS|Where would you like to go?|request
+USR|Rome where I can drink some nice red wine while the run amok|inform
+SYS|And where did you want to leave from?|request
+USR|Calgary|inform
+SYS|What kind of budget are we working with?|request
+USR|I can spend my entire winnings of $4300 who knows how long I'll be around|inform
+SYS|I have a 12 day package for one adult and six kids for 8820.42USD.|offer
+USR|that would be fun except I would have to rob a bank to get the difference|negate
+SYS|Where else would you like to travel?|suggest
+USR|Leon also has nice red wine|inform
+SYS|Though I hear Leon, Spain is a hotspot for wine, unfortunately I have no packages available for you.|sorry
+USR|...okay how about Minneapolis, cause they must have some nice red wines there|inform
+SYS|I have a wonderful 8 day package available for you and your family to Minneapolis, USA for only 2619.68USD!|offer
+SYS|How does that sound?|offer
+USR|It sounds good but we MUST be near the park so I can relax and drink my wine while the children run amok|request
+SYS|For a total cost of 3340.79USD I can book you an alternative package at Viridian Cottage Inn & Suites.|offer
+SYS|This hotel is near a park, museum, and a mall!|offer
+SYS|Plenty of places to enjoy the highly acclaimed wines of vineyards in Minneapolis, Minnesota.|offer
+USR|I do hear Pennsylvania puts out some nice wines :mask: Is breakfast for the children included?|request
+USR|And what is the rating on this hotel?|request
+SYS|Breakfast is included!|inform
+SYS|And the rating is 2.5 stars.|inform
+USR|Did I mention they start school on Sept 29 so we must be back?|inform
+SYS|You would be back on September 19th!|inform
+USR|They don't get out of camp until Sept 14 so we cannot fly out before then.|inform
+SYS|That’s ok - you would be flying out on September 16th.|inform
+USR|So this is like a 4 day package?|confirm
+SYS|That’s right!|affirm
+USR|Well it all sounds really good except for the crappy Minneapolis, Minnesota wines.|inform
+USR|Please go ahead and process this before I change my mind.|inform
+SYS|You’ve got it- email confirmation will be sent along shortly.|inform
+USR|Thank you, my dear, sweet friend, you have been oh so helpful.|thankyou
+SYS|Happy to help :slightly_smiling_face:|you_are_welcome

@@ -1,0 +1,21 @@
+USR|rome to goiania and i will go from september eight until twenty five
+and i have 4900 dollars in budget|inform
+SYS|Traveling with anyone else or just you?|request
+USR|me alone|inform
+SYS|Do you prefer a 2.5 or a 3.5 star hotel?|offer
+USR|higher star|switch_frame
+SYS|I'm assuming you want the highest guest rating as well?|suggest
+USR|if they are both the same|request_compare
+SYS|One is 8.69/10 and the other is 7.15/10|inform
+USR|ok tell me about the 8.69|switch_frame
+SYS|Business or economy?|suggest
+USR|i just want to know about the hotel|request
+SYS|Near a museum, shopping and airport, free parking, breakfast, and wifi.|inform
+USR|ah, ok, and price for economy?|request
+SYS|Price for business is 4204.51 and economy is 3266.46.|offer
+USR|well economy in that case.|switch_frame
+USR|i would like to book|switch_frame
+SYS|Great!|goodbye
+SYS|All done, enjoy the trip and thank you for booking!|goodbye
+SYS|We love to satisfy people's travel needs as well as we can!|goodbye
+USR|Thank You|thankyou

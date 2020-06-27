@@ -1,0 +1,20 @@
+USR|get me out of berlin|inform
+SYS|Berlin to?|request
+USR|dont care|inform
+SYS|How many people?|request
+USR|1|inform
+SYS|when?|request
+USR|8th-11th|inform
+SYS|During those dates, I only have one option for you in Gaudalajara|offer
+USR|ok.|moreinfo
+USR|details|moreinfo
+SYS|A 4 day stay at Resort Felicity leaving on your requested date and returning on your requested date.|inform
+SYS|This 2.5 star hotel has a 8.49/10 star rating and not only included free wifi and parking, but offers a complimentary breakfast every day of your stay.|inform
+USR|price?|request
+SYS|3020.61USD everything included|inform
+USR|can you upgrade me to business class please|inform
+SYS|Yes for  3889.68USD.|request
+SYS|Is that alright with you?|request
+USR|go for it.|inform
+USR|book please|inform
+SYS|It has been taken care of.|inform

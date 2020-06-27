@@ -1,0 +1,34 @@
+USR|Pokemon !!!!!!|inform
+USR|I need to get to Curitiba
+From Punta Cana
+SNAP
+Get me a seat next to Mewtwo on the plane :wink:|inform
+SYS|Will try.. when would you like to go?|request
+USR|Right after the lure party this weekend!!!!!|inform
+USR|So MONDAY upcoming|inform
+SYS|Do you need to be back by a certain day?|request
+USR|Ha!|inform
+USR|NO - this is my only focus, to catch mewtwo|inform
+SYS|Okay, do you have a budget in mind?|request
+USR|5100 dollars!|inform
+SYS|And you'll be going alone?|suggest
+USR|NO there are 3 of us!|inform
+SYS|Alright, I have a 10 day trip to a 3 star hotel in the heart of the city and a 9 day trip to a 3 star beachside hotel.|offer
+USR|HEART OF THE CITY!|request
+USR|I need that one.|request
+USR|What is included?|request
+SYS|Everything from parking to wifi to breakfast is included in the total price of 3853.33.|inform
+USR|For all 3 of us??|confirm
+SYS|That's right!|affirm
+USR|WOW.|inform
+USR|Could you get us a deal like that to Atlanta too?|inform
+SYS|I can get you an even better deal!|offer
+SYS|15 days at a 3.5 star beachside hotel for just 3456.42!|offer
+USR|15 days is a long time - we could hunt for ages!!|inform
+USR|Do you have another one near downtown ???|inform
+SYS|No I'm afraid we do not have any hotels in the heart of Atlanta.|sorry
+USR|ok well let's go with the other one that IS in the heart of the city.. Curitiba I CHOOSE YOU|inform
+SYS|Alright I will book the trip from September 21-30 for you.|inform
+USR|GREAT Thanks!!!!!!!!|thankyou
+SYS|You're welcome!|you_are_welcome
+SYS|Good luck :slightly_smiling_face:|you_are_welcome

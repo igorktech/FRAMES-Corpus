@@ -1,0 +1,6 @@
+USR|I'd like to book a trip for myself, from Tel Aviv to Tampa from, departing Aug 21, returning Aug 24.|inform
+USR|Do you have such a flight for me?|inform
+SYS|I’m sorry but I have no departures from Tel Aviv in my database.|sorry
+SYS|I can book you from Melbourne ?|sorry
+USR|Then you are useless to me.|goodbye
+USR|Good bye.|goodbye

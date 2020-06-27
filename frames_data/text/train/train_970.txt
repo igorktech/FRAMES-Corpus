@@ -1,0 +1,28 @@
+USR|Hello.|inform
+USR|Send me to Rosario|inform
+SYS|Where will you be leaving from?|request
+USR|Try Denver|inform
+SYS|Do you have a budget?|request
+USR|And I'm free for 10 days starting the ninth of September FYI.|inform
+USR|No budget|inform
+SYS|Sorry, we have no results within a 10 day maximum stay.|sorry
+SYS|Is there somewhere else you would like to go?|sorry
+USR|Fine.|inform
+USR|Phoenix|inform
+SYS|We have a 2.5 star hotel for 9 days and 6 days, and also a 3 star hotel for 7 days.|offer
+SYS|Do you have a preference?|offer
+USR|Tell me more about the 3 star|moreinfo
+SYS|The Recreation Inn  is near a museum and the university, they have a 6.91/10 guest rating, and they also offer free parking, breakfast, and wifi.|inform
+USR|Ok ok What is the date range for that package?|request
+SYS|September 9th to 15th.|inform
+USR|And would it be available for 7 adults?|confirm
+SYS|Yes it is!|affirm
+USR|Great, book it|inform
+SYS|Lovely!|suggest
+SYS|Would you like business flights or economy?|suggest
+USR|Business please.|inform
+SYS|Great!|inform
+SYS|Your package comes to 7321.30.|inform
+SYS|Have a great trip!|inform
+SYS|You will receive a confirmation email shortly!|inform
+USR|Thanks|switch_frame

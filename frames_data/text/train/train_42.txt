@@ -1,0 +1,46 @@
+USR|Good morning.|greeting
+SYS|Good day!|greeting
+SYS|How can I help you?|greeting
+USR|I'd like to book a trip to Rome for business purposes.|inform
+USR|What's available for departures from Calgary?|inform
+SYS|I can book you 6 days in Rome from August 17-August 21 if you leave from Calgary.|offer
+USR|That's a possibility, and what about between August 27 and September 12th?|inform
+SYS|How about August 27th-August 31st?|suggest
+USR|Excellent!|switch_frame
+USR|For how much?|switch_frame
+SYS|I have a 0.0 star hotel available for 1600.96USD.|offer
+USR|I prefer 2 and above.|request_alts
+USR|I may also have a colleague travelling with me.|request_alts
+USR|What else can you offer?|request_alts
+SYS|There is a 4.0 star hotel available for 1952.49USD.|suggest
+SYS|Will you be travelling alone?|suggest
+USR|As I mentioned seconds ago, I may have a colleague travelling with me.|inform
+SYS|How many people is this for again?|request
+USR|FOR TWO PEOPLE!|inform
+SYS|For two people at the Hotel Emerald Legacy the price is 3841.18USD.|offer
+USR|I need free wifi, is this included?|request
+SYS|This place has free wifi as well as free breakfast!|inform
+USR|Excellent!|request_alts
+USR|I will most probably book this one, but I would like to see about one more destination.|request_alts
+SYS|Sure!|request
+SYS|Where would you like to go?|request
+USR|To Paris.|inform
+USR|What can you offer around the same dates?|inform
+USR|Again, for two people.|inform
+SYS|I can book 2 people a trip to Paris from Calgary for 3164.38USD.|offer
+USR|How many stars is the hotel?|request
+SYS|For that price you would stay in a 4.0 star hotel.|inform
+USR|That is suitable.|request
+USR|Is the wifi free?|request
+SYS|There is Wifi|inform
+USR|Excellent.|request
+USR|And what are the departure and arrival dates and times?|request
+SYS|You will leave Calgary 12:00 pm August 30th and arrive in Paris 7:17 pm that evening.|inform
+USR|Great, and for leaving Paris?|inform
+SYS|You will leave Paris at 3:00 am on September 7th and arrive in Calgary at 10:17am that morning.|inform
+USR|I prefer the Hotel Emerald Legacy package.|inform
+USR|I will book this one.|inform
+SYS|Ok.|inform
+SYS|I will book Hotel Emerald Legacy for August 27th-August 31st for two people.|inform
+USR|Thank you.|thankyou
+USR|You can be sure that I will bring my business here again.|thankyou

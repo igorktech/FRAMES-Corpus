@@ -1,0 +1,3 @@
+USR|I WANT TO GO TO CANCUN FROM TEL AVIV AUGUST 25 UNTIL AUGUST 28 9 PPL ALL ADULTS NO BUDGET|inform
+SYS|I am sorry,  but I dont have anything for 9 people|sorry
+USR|NOT GOOD|null

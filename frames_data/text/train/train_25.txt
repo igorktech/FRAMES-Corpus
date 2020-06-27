@@ -1,0 +1,7 @@
+USR|Hi I need a break from Gotham City, the crime rate is just too high.|inform
+USR|I'd like to go to Hogsmead with 3 kids and 9 adults.|inform
+SYS|I cannot find any trips from Gotham City to Hogsmead.|suggest
+SYS|What about Dallas to Vancouver?|suggest
+USR|No thank you, in that case I will stay in Gotham City.|inform
+USR|Thanks for your help.|inform
+SYS|Goodbye.|goodbye

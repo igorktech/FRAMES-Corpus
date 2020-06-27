@@ -1,0 +1,19 @@
+USR|HEY|greeting
+SYS|Hi!|greeting
+SYS|How can I help you?|greeting
+USR|can you book a trip out of Beijing for a bunch of dudes ?|inform
+SYS|Possibly, how many people?|request
+USR|ahhh like 23|inform
+SYS|Big crew!|request
+SYS|Where would you like to go?|request
+USR|for real though.|inform
+USR|ahh maybe Cairo|inform
+SYS|From where will you be departing?|request
+USR|beijing bruh|inform
+SYS|Ah yes.|sorry
+SYS|Apologies.|sorry
+SYS|Do you have a budget?|sorry
+USR|nah we're throwing company money away for this|inform
+SYS|Do you have dates in mind?|request
+USR|september 6-9|inform
+SYS|There are no results from beijing or returning on the 9th.|no_result

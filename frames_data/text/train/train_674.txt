@@ -1,0 +1,31 @@
+USR|Well you start by booking me from Belem to Rome.|inform
+USR|My dates are flexible.|inform
+SYS|Great!|suggest
+SYS|And will you be travelling alone?|suggest
+USR|Yes, if you don't count my legions of groupies and stalkers.|affirm
+SYS|I have packages available ranging from September 2nd until the 17th.|request
+SYS|Do you have a preference for your length of stay?|request
+USR|I only prefer that you put me in the poshest hotel in town.|inform
+SYS|I have several 4.0 star hotel options for you.|hearmore
+SYS|Would you like me to narrow them down for you by amenities, location, or user review rating perhaps?|hearmore
+USR|4 star?|request
+USR|you're doing me dirty here, but sure, fine.|request
+USR|which one is best rated by its guests?|request
+SYS|The Double Pastures has been rated at 8.98/10 stars by previous guests.|offer
+USR|But what amenities?|request
+SYS|Free breakfast and free wifi.|inform
+USR|No spa?|request
+SYS|No spa :disappointed:|inform
+USR|Alright whatever I guess.|inform
+USR|Short on time here: I'll take it|inform
+SYS|Would you like to book economy flights?|suggest
+USR|Is that some kind of sick joke?|inform
+USR|NO, of course not!|inform
+USR|First class if you have it, if not then business|inform
+SYS|I have business class flights available!|offer
+SYS|For 3610.79USD|offer
+USR|What dates would this be for?|request
+SYS|September 6th to 11th|inform
+USR|That will do.|inform
+USR|Book it already!!!|inform
+SYS|Done :slightly_smiling_face: Thank you for using our services.|inform

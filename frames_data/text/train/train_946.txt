@@ -1,0 +1,18 @@
+USR|whats your best hotel in paris?|inform
+SYS|where are you leaving from?|request
+USR|mannheim|inform
+SYS|I cannot answer you question until I verify what is available to us at this time from Mannheim to Paris.|offer
+SYS|It seems that The Hotel Regal Universe, at 4 stars and 9.16/10 user rating is the best we have available.|offer
+USR|could you get me there on september 7?|switch_frame
+SYS|September 11th is the soonest I can get you there!|inform
+USR|And how much would that trip cost?|request
+SYS|Business or economy?|suggest
+USR|business if i can afford it  on my 1000 budget|inform
+SYS|$1013.6USD on business|inform
+USR|economy it is then how much?|request
+SYS|$882.24USD on economy|inform
+USR|how long would i be able to stay there?|request
+SYS|It is an 8 day stay from Sept 11 to 18|inform
+USR|great, i would like to confirm|inform
+SYS|I will look after the booking|inform
+USR|thank you!|thankyou

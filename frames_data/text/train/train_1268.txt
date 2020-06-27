@@ -1,0 +1,35 @@
+USR|I want to go to Guadalajara with my home girlz.|inform
+SYS|For how many people and your city of departure please|request
+USR|7 And Seattle|inform
+SYS|Where will you depart from?|request
+USR|Seattle|inform
+SYS|Are you looking for anything in particular hotel wise?|request
+SYS|Highest rated?|request
+SYS|Location?|request
+USR|5 stars for sure.|inform
+USR|We want the best package.|inform
+SYS|In Guadalajara, our highest rated hotel is a 3 star.|offer
+SYS|Would you like more information on it?|offer
+USR|No I need 5 stars.|inform
+USR|Check Kobe|inform
+SYS|We don't have a 5 star property in Kobe but we have a 4.5 star with a guest rating of 8.69/10.|no_result
+SYS|Interested in this one?|no_result
+USR|Sure, tell me about it.|moreinfo
+SYS|The Ivory Legacy Hotel  has a 10 day business package available, including free wifi for 30399.62USD, with a departure of Sept 23rd|inform
+USR|Anything in Ulsan?|inform
+SYS|In Ulsan I have TWO 5 star hotels, the The Sapphire Time available on a 13 day stay and Escape Cave , also available on a 13 day stay.|offer
+SYS|Both have excellent guest ratings and both include free parking and free wifi.|offer
+SYS|The Escape Cave has an earlier departure on Sept 19 for it's 13 day stay.|offer
+SYS|The Sapphire Time has a departure date of Sept 21.|offer
+USR|Which hotel has a higher guest rating?|request_compare
+SYS|The Sapphire Time has a 8.98/10 guest rating.|inform
+SYS|The Escape Cave has a 8.8/10.|inform
+USR|Do one of the hotels have a spa?|request
+SYS|Neither.|inform
+SYS|They are both well located with The Sapphire Time near the park, market and theatre and the Escape Cave near the park, shopping and mall.|inform
+USR|Well we really love to shop but the other hotel has a better guest rating.|inform
+USR|I think we will just go to the Escape Cave anyway.|inform
+USR|Book it, business class.|inform
+SYS|That will be a total of 31138.96USD for 7 people on business class flights.|inform
+SYS|Enjoy your stay at The Escape Cave in Ulsan!|inform
+USR|Thanks|thankyou

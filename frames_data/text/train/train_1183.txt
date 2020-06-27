@@ -1,0 +1,30 @@
+USR|I have never used this chat thing before I hope I am doing it right I need to book a most awesome vacation for my grandson and I|inform
+SYS|So is that for 1 kid and 1 adult?|request
+SYS|Where are you based and where are you looking to go?|request
+USR|Yes my grandson and I. I won $3600 in the slots you know so i want to give him the best birthday vacation ever he has never been anywhere you know, neither have I .|affirm
+USR|I would like to go to Lima, I heard the weather is very nice there.|affirm
+USR|What do you think of Can cun, my cousing Joe used to live there.|affirm
+SYS|Okay but where are you guys from?|request
+USR|San Juan.|inform
+USR|I have lived here for 45 years I moved there after I married his grandfather, he's passed now, he was a good man, I really miss him.|inform
+USR|My grandson is the light of my life now, his mama works too much.|inform
+SYS|We have an 11 day package at a 4 star hotel, with a park nearby.|offer
+SYS|It costs 1698.75 for an economy flight and 2022.80 for business.|offer
+SYS|Would you be interested?|offer
+USR|Do you think my grandson would like that?|switch_frame
+SYS|You would love the park and the free wifi.|inform
+SYS|And flying is always fun!|inform
+USR|What about La Paz.|inform
+USR|Is there anything fun for him to do in La Paz?|inform
+SYS|Why yes!|offer
+SYS|We have a lovely 7 day package at a 4 star hotel with free parking, free breakfast, and free wifi, all coming to a total of 2527.89 for economy and 3138.47 for business class.|offer
+SYS|Does this entice you?|offer
+USR|We can only leave after Sept 11 and we need to be back before the start of school on Sept 25th.|inform
+USR|Do both these packages suit the dates?|inform
+SYS|I'm afraid only the La Paz one does.|sorry
+SYS|Would you like to book?|sorry
+USR|I guess if only La Paz suits the dates then La Paz it is.|inform
+USR|Yes please go ahead and book and take care sweetie.|inform
+SYS|Consider it booked!|inform
+SYS|Enjoy your trip with your grandson.|inform
+USR|Thank you kindly|thankyou

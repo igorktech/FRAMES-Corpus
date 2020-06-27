@@ -1,0 +1,16 @@
+USR|Hi there, I need to go to North Vancouver please.|inform
+SYS|Hello!|greeting
+SYS|How can I help you with your travel needs?|greeting
+USR|I need to go to Montreal for under 3800 from Valencia.|inform
+USR|Could you help me?|inform
+SYS|Sure I can!|request
+SYS|How many people will you be travelling with?|request
+USR|Just me.|inform
+USR|I need to go between Friday September 30 and Tuesday October 4 though|inform
+SYS|When would you like to travel?|request
+USR|September 30 to October 4|inform
+SYS|There are no results for trips to Montreal from Valencia.|no_result
+USR|Oh that's a shame.|goodbye
+USR|I'm out of here then.|goodbye
+USR|Goodbye|goodbye
+SYS|Sorry!|sorry

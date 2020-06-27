@@ -1,0 +1,15 @@
+USR|Hi im from termina can we find a vacation that starts on the 13th?|greeting
+SYS|The earliest available flight I have leaves on September 20th, leaving from Dallas with Vancouver, Canada as a destination.|suggest
+USR|How about if i leave from Vancouver where would i be able to go?|request
+SYS|Either Calgary or Toronto.|suggest
+USR|and if i were to leave from columbus?|inform
+SYS|From Columbus, I have  flights available to Toronto or Vancouver.|suggest
+USR|what do we have for Toronto?|switch_frame
+SYS|From Toronto I have packages available to Calgary or Vancouver.|request
+SYS|I am only showing the cheapest packages.|request
+SYS|Perhaps if you give me your budget, I can find other more exciting destinations.|request
+USR|i have a budget of $3000, and let’s say that i leave from Mexico City|inform
+SYS|I apologize, but leaving from Mexico City, the only available destinations are Toronto or Vancouver.|sorry
+SYS|Perhaps if we change your dates?|sorry
+USR|no that is all thank you i will try another service.|thankyou
+USR|Thank you|thankyou

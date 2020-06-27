@@ -1,0 +1,16 @@
+USR|Hi wozbot!|inform
+USR|I'd like to book a spring break vacation for myself and 3 of my best friends|inform
+SYS|Hello, from where would you like to leave?|request
+SYS|Do you have an idea of where you would like to go?|request
+USR|We'll be leaving from Goiania.|inform
+USR|Rosario is the place to be this year!|inform
+USR|Our spring break starts on August 28 and ends on September 4, can you find us something between those dates?|inform
+SYS|I am sorry but I have no packages to Rosario on those dates.|no_result
+SYS|Are there any other destinations you would like to go to|no_result
+USR|Is there anything in between?|null
+USR|Not necessarily for the whole length of the break?|null
+SYS|To Punta Cana, all the flights from Goiania depart on August 17th.|suggest
+SYS|For Rosario, I have nothing before September 6th.|suggest
+SYS|Would you like me to check other destinations|suggest
+USR|No, everything's ruined now.|thankyou
+USR|Thanks though.|thankyou

@@ -1,0 +1,36 @@
+USR|Hi there!|inform
+USR|Can you find me a trip to Kingston between August 25 and September 4?|inform
+SYS|Hello, we will do our best to comply with your request.|request
+SYS|In order to proceed, I must have a departure city provided to me.|request
+USR|I'm leaving from Santiago on a very tight budget of 3100 dollars.|inform
+SYS|I have a few selections available to you.|request
+SYS|Where are you leaving from and what is your budget?|request
+USR|As I said, I am leaving from Santiago on a tight budget of 3100 dollars.|inform
+SYS|and where would you like to go?|request
+USR|To Kingston, which is what I said before.|inform
+SYS|I have nothing available from Kingston to Santiago|no_result
+USR|I have no patience for this.|inform
+USR|I am looking for a trip to Kingston from Santiago.|inform
+SYS|I understand, Kingston to Santiago.|inform
+USR|A trip to Kingston from Santiago on a budget of 3100 dollars.|inform
+SYS|and when would you like to go?|request
+USR|Between August 25 and September 4th.|inform
+SYS|I have 4, 6, and 7 day packages.|suggest
+SYS|What is you preference?|suggest
+USR|Lets look at the 6 day packages.|switch_frame
+SYS|Ebony Manor Inn & Suites|offer
+USR|How much would that cost?|request
+SYS|1911.41USD|inform
+USR|And how many stars does this hotel have?|request
+USR|What are the amenities included?|request
+SYS|4.0 star hotel|inform
+USR|Is breakfast included?|request
+USR|wifi?|request
+USR|parking?|request
+SYS|free breakfast, free wifi, free parking.|suggest
+SYS|Book?|suggest
+USR|No.|negate
+USR|I will book elsewhere.|negate
+SYS|I am sorry we could not be of assistance today.|goodbye
+SYS|Have a nice day!|goodbye
+USR|Good bye.|goodbye

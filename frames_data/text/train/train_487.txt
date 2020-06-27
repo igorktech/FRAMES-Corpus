@@ -1,0 +1,21 @@
+USR|Have you ever read the book "Vernon's Travels"?|null
+SYS|I do not understand your question.|request
+SYS|I can only help you search a database for the best trip opportunities on-line.|request
+SYS|Therefore, I will require a departure and a destination.|request
+USR|How much would it cost to get two adults and a child from Monterrey to Paris for 14 days?|request
+SYS|Could you please provide a desired departure date|request
+USR|Totally flexible.|inform
+USR|But I need to spend less than 4700|inform
+SYS|I will now look for packages under $4700 to Paris...I have found several but I am afraid that they do not meet your budget.|sorry
+SYS|I can continue to search for you if you provide me with new guidelines.|sorry
+USR|If Paris is a no-go, how about Kingston?|inform
+USR|Or just look into shorter trips for me|inform
+SYS|I have found a package that meets all you needs but it is only an 8 day package at the Cosmos Inn - in Kingston, Canada departing on Sept 8 and returning on Sept 15th.|offer
+SYS|This package is available for the price of  $4142.76USD and includes unlimited wifi, parking and breakfast at no additional cost.|offer
+USR|Wow that seems decent.|inform
+USR|Any chance I could book this but for a longer time period?|inform
+SYS|No it is only accessible for an 8 day or a 5 day stay.|offer
+USR|Ok fair enough, that seems like my best option then|switch_frame
+SYS|Would you like me to proceed with booking?|suggest
+USR|Yes|affirm
+SYS|Your choice of package has been booked.|inform

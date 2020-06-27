@@ -1,0 +1,19 @@
+USR|Hello!|inform
+USR|I live in Munich and I'd like to book any kind of trip between Monday, August 15th and Friday August 26th for 3 adults and 3 kids.|inform
+SYS|I can book 8 days in Toronto for 5844.99USD, 8 days in Vancouver for 6088.3USD, or 8 days in Calgary for 11900.25USD.|offer
+SYS|Do any of these destinations interest you?|offer
+USR|I have a budget of 2800 USD... Do you have anything cheaper?|inform
+USR|Perhaps for a shorter duration?|inform
+SYS|I can book 9 days in Hamburg for 1296.31USD, 5 days in Rome for 1502.94USD, 5 days in Stuttgart for 2370.61USD, 6 days in Mannheim for 2460.91USD, 9 days in Paris for 2505.13USD, or 6 days in Frankfurt for 2762.18USD.|offer
+USR|I'll book 6 days in Mannheim.|switch_frame
+SYS|Ok.|suggest
+SYS|I can upgrade your flights to business class for a total of 2715.60USD.|suggest
+SYS|Would you like that?|suggest
+USR|Yes perfect.|moreinfo
+USR|How is the hotel?|moreinfo
+SYS|The hotel is 5 stars and includes free wifi with an onsite spa.|inform
+USR|Perfect!|inform
+USR|I will book this one.|inform
+SYS|You will depart Munich at 9:00 am - August 17th and leave Mannheim at 3:00 am - August 22nd.|inform
+SYS|I will book this trip to The Regal Resort for you.|inform
+USR|Thank you!|thankyou

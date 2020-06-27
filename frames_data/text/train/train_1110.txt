@@ -1,0 +1,33 @@
+USR|Hello.|inform
+USR|Oh my next destination is my home.. as soon as I get off work
+If I ever get off ....
+But you know where I would really love to go?|inform
+USR|Somewhere with sun.. anywhere really
+Cleveland is so grey and dead this time of year
+I've been dreaming of going down to South America
+Would I ever be able to get to Campinas from here with 5200 dollars?|inform
+SYS|Sure can!|offer
+SYS|You can go for up to 14 days to a 3.5 star hotel in the heart of Campinas, close to the mall and cathedral.|offer
+USR|Get out!|request
+USR|How much would that cost me... hypothetically|request
+SYS|3355.13 with economy flights and just 4335.7 for an upgrade to business class.|offer
+USR|:heart_eyes: Would I be able to afford a trip to Rio de Janeiro?|request
+SYS|Yes you can.|offer
+SYS|You can afford to stay up to 16 days at a 3.0 star hotel near the park, museum, and university.|offer
+USR|Would I have amenities included?|request
+USR|What would I pay for that one?|request
+SYS|The hotel's got everything covered!|inform
+SYS|With free parking, free breakfast, and free wifi.|inform
+SYS|The economy seats will cost you 4144.38.|inform
+USR|Impressive!!|request
+USR|Now, I may be being greedy here..
+If I was to keep my sunshine spree domestic
+And went to Atlanta..
+I'm wondering if I could be under budget enough that I'd have enough left over for maybe another trip|request
+SYS|That is actually very possible.|offer
+SYS|For a 10 day stay in a 3.5 star beachside hotel, it will just be 1283.2 in business class and 962.67 in economy class.|offer
+USR|Wow!!|thankyou
+USR|Sweet!|thankyou
+USR|Well I am still stuck at work, as you know
+So I can't book anything
+But I appreciate you entertaining me this evening|thankyou

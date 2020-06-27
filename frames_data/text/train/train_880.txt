@@ -1,0 +1,12 @@
+USR|Hi.|inform
+USR|I’m working with a tight budget
+Turns out there’s not much pay for struggling, mildly alcoholic writers
+I know, right?|inform
+USR|Anyway
+Looking for a bit of a break
+Have 2500 to spend on a trip for my wife, me, and our son
+Can you get us from Brasilia to Essen?|inform
+SYS|Wish I could help, but there are no trips from Brasilia to Essen.|suggest
+SYS|Is there somewhere else you want to go?|suggest
+USR|How about Brasilia to San Diego?|inform
+SYS|Sorry, nothing that works for your budget.|sorry

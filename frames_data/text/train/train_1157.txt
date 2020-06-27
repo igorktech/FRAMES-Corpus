@@ -1,0 +1,34 @@
+USR|My lover and I just got married - like TODAY And we wanna fly off to Brazil for a week or so.|inform
+USR|Can you get us to Buenos Aires from Toronto for just under 5000 ?|inform
+SYS|I am afraid we have nothing within your budget of 5000.|sorry
+SYS|Is your budget flexible by any chance?|sorry
+USR|Nope, not at all.|inform
+USR|We’d settle for Chicago though.|inform
+USR|Anything there?|inform
+SYS|Yes there is!|offer
+SYS|We have 6, 9, and 10 day packages.|offer
+SYS|Do you have any preferences in terms of the number of days or anything else?|offer
+USR|Are they all under $4800 ?|confirm
+SYS|Yes|affirm
+USR|Great!|request_compare
+USR|Tell me about the 6 and 9 day packages.|request_compare
+SYS|All the hotels are 2.5 stars.|offer
+SYS|The 9 day package has a hotel closer to the city whereas there are two 6 day packages with one hotel closer to the city and the other hotel closer to the airport.|offer
+SYS|What sounds good to you?|offer
+USR|9 days in the city would be nice.|request
+USR|Amenities ?|request
+USR|Also, please tell me the guest rating is 3.5higher than 2.10 ...|request
+SYS|Good choice!|suggest
+SYS|The guest rating for this hotel is 8.69/10 and it includes parking, breakfast, and wifi!|suggest
+SYS|Would you like to book this trip?|suggest
+USR|That’s a relief … yeah lets do it please!|request
+USR|When do we leave?|request
+SYS|Tuesday September 13th.|suggest
+SYS|Economy or business?|suggest
+USR|What are the respective prices?|request
+SYS|1566.64 for economy and 1894.10 for business.|offer
+SYS|Which one would you like?|offer
+USR|Wow - business absolutely!|switch_frame
+SYS|Consider it booked!|inform
+SYS|Enjoy your holiday!|inform
+USR|Thank you|thankyou

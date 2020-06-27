@@ -1,0 +1,44 @@
+USR|Hiiii!|inform
+USR|I was just selected for an internship and I could do it in 3 different cities.|inform
+USR|Since I'm on a budget I'll go to the city that best fits in my budget.|inform
+USR|The first one is Porto Aleger.|inform
+USR|Do you have any packages from August 27th to September 5th?|inform
+SYS|I am happy to help you with your request.|request
+SYS|First of all, I would need to know which city you will be departing from.|request
+USR|I'll be flying from Monterrey|inform
+SYS|May I ask what your spending limit is please?|request
+USR|My budget is 3800 and I really can't go over that|inform
+SYS|My shortest package in Porto time wise is 13 days.|offer
+SYS|Is that too long?|offer
+USR|As long as I'm in Porto for the dates I gave you,  a longer stay is fine as long as the trip is in my budget!|switch_frame
+USR|Actually, it could be kind of fun to stay longer, I would have time to do some sight seeing as well :slightly_smiling_face:|switch_frame
+SYS|I have a flight departing from Monterrey to Porto on August 27 and returning on Sept 8th.|inform
+SYS|The price on that one is $3072.|inform
+SYS|It is a 3.5 star hotel close to the University.|inform
+USR|That sounds great!|request
+USR|Does it have good reviews?|request
+USR|It's my first time travelling alone so I really don't want to be stuck somewhere unpleasant|request
+SYS|It has an excellent guest rating of 9.16 / 10.|inform
+SYS|It is also close to the shopping district.|inform
+USR|Fantastic!|inform
+USR|Ok, ill keep this one in mind.|inform
+USR|The second city I could go to is Punta Cana|inform
+SYS|I only have one place available in Punta Cana at the moment which unfortunately does not fit into your required dates.|sorry
+SYS|The only departure is on Sept 7|sorry
+USR|Alright, scratch that.|inform
+USR|How about for Brasilia?|inform
+SYS|There are no available flights from Monterrey to Brasilia.|suggest
+SYS|Would you like to look at package number one again, the one to Porto?|suggest
+SYS|That package seemed to suit your dates and budget.|suggest
+USR|Yup!|request
+USR|That one definitely seemed to suit my needs best!|request
+USR|Give me a minute to read over the info again and I'll see if I have any other questions.|request
+USR|oh yes!|request
+USR|I will probably need to get some work done at the hotel, is there free wifi included?|request
+SYS|Not only is there free wifi, breakfast is also included in this package.|suggest
+SYS|Would you like me to go ahead and book this for you?|suggest
+USR|Great!|affirm
+USR|Yes please!|affirm
+SYS|I will proceed with the booking then.|inform
+SYS|Thank you and have a good trip.|inform
+USR|Thank you :slightly_smiling_face:|thankyou

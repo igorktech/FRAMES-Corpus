@@ -1,0 +1,23 @@
+USR|Hi im from Leon and looking to get away|inform
+SYS|Do you have a special destination in mind?|request
+USR|Maybe milan|inform
+SYS|Any specific dates in mind?|request
+USR|august 18th.|inform
+USR|until september 2nd|inform
+SYS|For Milan, I have a trip available departing on Aug 19 and returning on the 23rd.|suggest
+SYS|For Naples, I have a trip departing on August 19 and returning on August 25th.|suggest
+USR|what are the hotels like in these two places|request_compare
+SYS|In Milan I have the Pink Star Hotel, which is a nice 4-star hotel with breakfast and wifi included.|offer
+SYS|In Naples, I have the Courtyard resort with a 3-star rating and the Tower Hotel, which is a 4-star, both of which also include breakfast and wifi.|offer
+USR|what are the price differences for the two 4 star hotels?|request_compare
+SYS|will you be flying business class or economy?|suggest
+USR|let’s say for all packages in respect to business class|inform
+SYS|For the 4-star Pink Star hotel in Milan, business class flight, 7 day  stay the price is $987.81.|offer
+SYS|For the 4-star Tower Hotel in Naples, a 5 day stay is $838.33|offer
+USR|seems like Naples is a little too expensive what packages are there in Hamburg?|inform
+SYS|In Hamburg, in a 4-star hotel for a 10 day stay flying business class, I have the Traveller Inn at $1069.88 and the Vortex at $1098.63.|offer
+USR|i would rather go to milan.|inform
+USR|i would like to take the package with the 4 stars|inform
+SYS|So just to confirm, you will go with the Pink Star hotel in Milan from Friday August 16 until the 25th, business class at a price of $987.81, correct?|confirm
+USR|perfect lets book it.|thankyou
+USR|thank you!|thankyou

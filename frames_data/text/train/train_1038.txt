@@ -1,0 +1,22 @@
+USR|Hey!|greeting
+SYS|Hello|greeting
+USR|So, I am travelling a family trip.. since I am in charge I wanna go to Sao Paulo!|inform
+USR|That's my top destination..|inform
+SYS|From where?|request
+USR|Can you get me, my wife, and 5 kids there from Marseille for 16500?|inform
+SYS|Can you depart on September 7th?|suggest
+USR|No.|inform
+USR|Not until the 20th|inform
+SYS|Is a 19 day holiday too long?|suggest
+USR|As long as we're back by the 7th of October, its all good!|moreinfo
+USR|Tell me about the package|moreinfo
+SYS|That one would have you back on October 8th|inform
+USR|Rats - no good!|inform
+USR|Check out Salvador instead|inform
+SYS|I found you a 17 day holiday in Sao Paulo from the 21st of September to the 6th Azure Spire Hotel, 2 star near the cathedral and the theatre for 6480.13USD including your breakfast|offer
+USR|2 stars... you really think I can bring that to the old lady without repercussions?|inform
+USR|anything better in Detroit?|inform
+SYS|Nothing in Detroit|no_result
+USR|fine.|inform
+USR|book the longer one in Sao Paulo|inform
+SYS|I will proceed with booking!|inform

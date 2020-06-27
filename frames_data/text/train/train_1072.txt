@@ -1,0 +1,15 @@
+USR|i wana go 2 boston from hiroshima|inform
+SYS|When?|request
+USR|betweens sep 20 and oct 4|inform
+SYS|Did you happen to have a budget in mind?|request
+USR|no|inform
+SYS|"Alrighty then", I have a 10 day trip at a 3.0 star hotel in Boston with free parking, free breakfast, and free wifi.|offer
+USR|cool.|inform
+USR|lets check kyoto|inform
+SYS|In Kyoto I've got a few 3.0 star hotels, and we have trips for 9, 7, or 5 days.|offer
+USR|ok.|inform
+USR|whats in Seoul?|inform
+SYS|In Seoul I have a 3.0 star hotel next to a park with 5 or 9 day vacation packages.|offer
+USR|coolio.|inform
+USR|now Recife.|inform
+SYS|Nothing for Recife unfortunately.|sorry

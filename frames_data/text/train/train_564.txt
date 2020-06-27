@@ -1,0 +1,23 @@
+USR|Hi there, do you do flights out of Belo Horizonte?|inform
+SYS|Yes, to Vitoria, Goiania, Naples, Minneapolis or Tampa|offer
+USR|I need to go to Cleveland though|inform
+SYS|We have 10 days and 8 days trips available|offer
+USR|Oh nice, can you do a 10 day trip between September 6 to 21?|inform
+SYS|So I've got 2413.15USD at 3 stars hotel in economy class or  3113.63USD in business class.|offer
+SYS|Hotel is near park & theatre and includes free parking, free breakfast, free wifi|offer
+USR|Would like to inquire about trips to Long Beach also|inform
+SYS|9 days or 7 days?|offer
+USR|9 please|switch_frame
+SYS|2236.40USD in business class and 1728.40USD in economy class.|offer
+USR|Is the hotel any good?|request_compare
+SYS|2.5 stars with 6.91 guest rating.|inform
+SYS|free parking, free breakfast, free wifi|inform
+USR|Book me for Business class please
+but before you do
+can you confirm the dates?|request
+SYS|ok|null
+USR|what are dates?|request
+SYS|September 14 - 21 from Belo Horizonte to Long Beach in business class at 2.5 stars hotel near airport, is that correct?|suggest
+USR|yes, sounds right to me|affirm
+SYS|ok I will book it for you|inform
+USR|:+1:|thankyou

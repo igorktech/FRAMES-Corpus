@@ -1,0 +1,71 @@
+USR|So I live in Long Beach.|inform
+USR|What do you have for Cairo?|inform
+SYS|Hi!|greeting
+SYS|We are here to help you book your best trip possible.|greeting
+SYS|I will search for flight availability from Long Beach to Cairo.|greeting
+SYS|How many people will be travelling together and what is your expected date of departure?|greeting
+USR|just me and it can be between august 30th and september 17th|inform
+SYS|I have one package available during that time period.|inform
+SYS|It would be a 15 day package at the Mellow Horizon Inn & Suites located near the University of Cairo.|inform
+SYS|Would this be of interest to you?|inform
+USR|yes that would be great|switch_frame
+SYS|This is a 3 star rated hotel with a guest rating of 8.8 / 10 .|inform
+SYS|The package included free wifi, parking and breakfast.|inform
+SYS|Flight departs August 27 and returns on Sept 10.|inform
+USR|I thought you said it fit my dates, I asked to leave after August 30th..|inform
+SYS|The flight departs on August 27.|request
+SYS|Are your dates flexible?|request
+USR|Not really, is that all you have for cairo?|inform
+SYS|Yes it is.|suggest
+SYS|Would you like me to look at other destinations for you?|suggest
+USR|Yes, next on my list is San Francisco|inform
+SYS|To San Francisco from Long Beach, I have your requested date of departure available for a package at a 2 star rated hotel and a 2.5 star rated hotel.|offer
+SYS|They are both 10 day packages.|offer
+SYS|I also have 16 day packages available if you depart on August 31st.|offer
+SYS||offer
+USR|10 days should be good|switch_frame
+SYS|Do you have a certain amount you would like to spend?|request
+USR|I haven't set a budget for myself, I want to see what my options are first|request
+SYS|Departing Aug 30th, the Antique Sword Suites is a 2.5 star hotel located near a museum which includes wifi, parking and breakfast.|offer
+SYS|The Twin Canyon Inn and Suites is a 2 star hotel located in the heart of the city and also close to a museum.|offer
+SYS|This one also includes wifi, parking and breakfast and departs on Aug 30th.|offer
+USR|I like the idea of being in the heart of the city.|request
+USR|How much is that one?|request
+SYS|Would you prefer to fly economy or business?|request
+USR|economy|inform
+SYS|$612.58USD for the 10 day package.|offer
+USR|nice!|switch_frame
+USR|that's a great deal!|switch_frame
+SYS|Would you like me to proceed with the booking?|suggest
+USR|have past guests been satisfied there?|request
+SYS|This property carries a guest rating of 5.23 / 10.|inform
+USR|ok, so decent reviews, for the price it would be hard to complain about that.|inform
+USR|I want to compare this on to packages you have t manaus|inform
+SYS|Will the travel dates to Manaus be the same than to San Francisco?|request
+USR|yup I don't have to leave exactly the 30th, the dates I gave you were a range|inform
+SYS|The earliest departure date from Long Beach to Manaus would be August 31st.|offer
+SYS|I have an 11 day package available.|offer
+USR|cool, tell me more!|switch_frame
+SYS|The Hotel Aquamarine River is a 2.5 star property close to shopping.|inform
+SYS|It has a 6.77 / 10 guest rating.|inform
+SYS|The price for an 11 day package based on economy class flights is $2234.29USD|inform
+USR|any free wifi?|request
+SYS|All amenities are included - free wifi, parking and breakfast|inform
+USR|cool thanks!|thankyou
+SYS|Would you like me to book either destination for you?|suggest
+USR|Last place is Hamburg, do you have anything there?|inform
+SYS|Would you prefer an August 30 or August 31st departure from Long Beach to Hamburg?|inform
+USR|I don't mind, is of them in the heart of the city?|inform
+SYS|The Hotel Peter is located in the heart of Hamburg and also close to the museum.|offer
+SYS|If you depart on Aug 30th it is available on a 10 day package and if you depart on Aug 31st it is available on an 11 day package.|offer
+SYS|It is a 3 star property which also provides you with  free wifi, free breakfast,and free parking.|offer
+USR|That sounds like good hotel, how much is each package?|switch_frame
+SYS|Via economy or business?|suggest
+USR|i prefer economy|inform
+SYS|$1847.95USD for a 10 day package and $2072.72USD on an 11 day package.|offer
+USR|Does this hotel have better reviews that the one in Manaus?|request_compare
+SYS|Both hotels have 0/10 guest ratings.|inform
+USR|Ok, Hamburg was the destination I was leaning towards and Hotel Peter suits my needs|inform
+SYS|May I proceed with the booking?|suggest
+USR|I'll take a chance there wih the 10 day packag|inform
+SYS|Have a very pleasant trip|goodbye

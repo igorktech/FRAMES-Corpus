@@ -1,0 +1,13 @@
+USR|Good evening|greeting
+SYS|Good evening|greeting
+USR|I think what I need is to travel, but I have no time.|inform
+USR|I've saved up $3200, would I be able to get out of Valencia and to Busan?|inform
+SYS|Packages for Busan are presently unavailable from Valencia|no_result
+USR|Calgary??|inform
+SYS|Packages to Calgary are presently unavailable from Valencia|no_result
+USR|Berlin???|inform
+SYS|Packages to Berlin are presently unavailable from Valencia|no_result
+USR|:disappointed: :disappointed: :disappointed: Ok one last try How about Milan|inform
+SYS|Packages to Milan are presently unavailable from Valencia.|no_result
+SYS|We suggest you check back with us at a later date.|no_result
+USR|You did what you could, and for that I am grateful...friend|goodbye

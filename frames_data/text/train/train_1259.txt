@@ -1,0 +1,4 @@
+USR|Fukuoka to Belo Horizonte.|inform
+USR|6000.|inform
+USR|9th to 17th.|inform
+SYS|I regret to inform you that we do not fly from Fukuoka to Belo Horizonte|no_result

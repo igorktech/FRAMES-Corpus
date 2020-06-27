@@ -1,0 +1,18 @@
+USR|im leaving kingston need to go to rosario|inform
+SYS|Do you have a date of departure?|request
+USR|no.|inform
+USR|but i must return by sept 11|inform
+SYS|Will you be travelling accompanied by anyone else?|request
+USR|1 other adult|inform
+SYS|We have one flight/hotel package available available between now and Sept 11 at 4 star hotel in Rosario.|hearmore
+SYS|Would you like more details?|hearmore
+USR|fine|moreinfo
+SYS|It is an 11 day package at the Opportunity Suites located near shopping and including free wifi and breakfast.|inform
+SYS|The total price is  5831.3USD.|inform
+USR|guest rating?|request
+SYS|8.86 / 10|inform
+USR|any 5 stars in sao paulo?|inform
+SYS|No availability in Sao Paulo|no_result
+USR|leaving from Santos?|inform
+SYS|Neither|no_result
+USR|book rosario for 2 adults|switch_frame

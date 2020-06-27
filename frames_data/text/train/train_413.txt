@@ -1,0 +1,16 @@
+USR|I need to get a pic of Madonna and her pal, they are going to be in Kobe and I want to leave from Queenstown|inform
+SYS|So that will be 2 adults travelling together?|suggest
+USR|no just 1|inform
+SYS|is there a required date of travel?|request
+USR|September 6th.|inform
+SYS|I have two packages available in Kobe with a departure date of Sept 6.|inform
+SYS|Do you have any parameters on what you require?|inform
+USR|no but I have a budget of 4100|inform
+SYS|The Royal Island Inn is available on Sept 6  for 3522.63USD.|offer
+SYS|You would be on a business class flight.|offer
+USR|what rate is the hotel|request
+SYS|It a 3 star hotel located near the palace which is now used for concerts.|inform
+USR|that sounds like a place Madonna would want to go to..... I'll take this one|inform
+SYS|I will proceed with the booking.|inform
+SYS|Have a nice day.|inform
+USR|Thanks|thankyou

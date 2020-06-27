@@ -1,0 +1,26 @@
+USR|hola.|inform
+USR|I am here in Miami|inform
+SYS|Hello!|greeting
+USR|Me and my terrific partner are imagining a little trippy.|inform
+USR|That’s 5 adults, 2 children.|inform
+USR|And we would like to travel between August 27-30|inform
+SYS|Where would you like to hypothetically go?|request
+USR|Wherever!|inform
+USR|BUT 14900 for all of us, total, please!|inform
+SYS|The only thing available is a trip to Dallas?|offer
+USR|whaaat ok Dallas it is!|moreinfo
+USR|Details?|moreinfo
+SYS|They offer free breakfast and wifi.|offer
+SYS|Departing August 27th and returning on the 30th.|offer
+SYS|This trip costs 9324.44 for the business package and 7473.33 for economy.|offer
+USR|Fantastic!|request
+USR|Is it on the beach by chance?|request
+SYS|Unfortunately no.|sorry
+USR|Ah shucks.|inform
+USR|oh well Lets do it!|inform
+SYS|business or economy?|request
+USR|Lets splurge for business!|switch_frame
+SYS|Great!|goodbye
+SYS|Your flights have been booked!|goodbye
+SYS|Safe travels!|goodbye
+USR|Thank you kindly :smile:|thankyou

@@ -1,0 +1,11 @@
+USR|ok so im following this celeb AGAIn.|inform
+USR|trying to go to Hamburg now
+i want to depart from Tijuana
+i wanna leave the last day of august|inform
+SYS|do you have a budget?|request
+USR|Yes 4900 dollars|inform
+SYS|we have trips at 1582.11USD, 2272.66USD or 3031.0USD|offer
+USR|What kind of hotel?|request_compare
+SYS|3 stars|inform
+USR|That's it?|request_alts
+SYS|I am sorry|sorry

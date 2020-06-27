@@ -1,0 +1,16 @@
+USR|Hi im from Caprica looking to book a vacation to Hyrule|inform
+SYS|Hello, I am sorry but we do not have anything available for those destinations  Are you interested in other destinations?|suggest
+USR|Ya for sure, not sure where, lets see what would fit my plans between the 13th of august and the 16th|inform
+SYS|would you be interested in going to Vancouver or Toronto?|offer
+USR|How about if i leave fro Birmingham?|inform
+SYS|I am sorry, it's a busy time of year and all I have available at the moment is Vancouver or Toronto.|inform
+USR|sure lets try Vancouver then|switch_frame
+SYS|Do you have a date in mind?|request
+USR|I want to leave on the 13th of august and be back on the 16th|inform
+SYS|Do you have a date in mind?|request
+USR|I want to leave on the 13th|inform
+SYS|I have nothing available on the 13th.|suggest
+SYS|I do have something available from the 17th to the 25th of August.|suggest
+USR|you know none of these are meeting my requests.|thankyou
+USR|i will just go with another service.|thankyou
+USR|Thank you.|thankyou

@@ -1,0 +1,31 @@
+USR|Hi!|inform
+USR|I'd like to go to Boston from Mos Eisley on August 15th.|inform
+SYS|Hey there!|suggest
+SYS|I'm having trouble finding trips to Mos Eisley for that date.|suggest
+SYS|How about a trip to Vancouver instead?|suggest
+USR|Not Vancouver, anything for Porto Alegre?|inform
+SYS|Sure!|offer
+SYS|I can book you 14 days in Porto Alegre, but you would leave August 18th.|offer
+SYS|Is this ok?|offer
+USR|What about if I leave from Rome instead of Mos Eisley?|inform
+SYS|I can book you 6 days in Boston for 2390.12USD if you leave from Rome|offer
+USR|Is departure on the 15th of August?|confirm
+SYS|Departure is on August 27th for that price.|inform
+USR|I need to leave on the 15th of August.|inform
+SYS|When would you like to return?|request
+USR|I don't have a specific date in mind.|inform
+SYS|Do you have another departure option?|suggest
+USR|nope.|negate
+SYS|Sorry, I have no trips to Boston leaving from those destinations on August 15th.|no_result
+USR|What about Porto Alegre?|switch_frame
+SYS|I have a trip to Porto Alegre that leaves from Rome on August 15th.|offer
+SYS|It is 12 days long.|offer
+USR|How much is it?|request
+SYS|3334.98USD or 3344.57USD depending on the hotel.|offer
+USR|I should have mentioned earlier, we are 6 adults.|inform
+SYS|Oh!|offer
+SYS|In that case, the cost ranges from 20009.92USD to 20067.46USD.|offer
+USR|That's way too much!|inform
+USR|I have a budget of 3700 USD!|inform
+SYS|Sorry, I cannot offer anything in Porto Alegre for 6 adults at that price.|no_result
+USR|Ok, thank you for your help, friend.|thankyou

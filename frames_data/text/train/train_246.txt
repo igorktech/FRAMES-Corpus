@@ -1,0 +1,24 @@
+USR|I know where Mewtwo is!!!|inform
+USR|I have it from a very good source and I'm gonna go hunt him down!|inform
+SYS|Where would you like to go?|request
+USR|I'm gona be rich i want to go to north vancouver|inform
+SYS|Ok!|request
+SYS|And where are you coming from?|request
+USR|munich!!|inform
+SYS|I have the Twin Canyon Inn and Suites available - you would leave August 27th.|offer
+USR|my hunting party is 5 adults|inform
+SYS|In that case the package would cost you 16111.84USD.|offer
+USR|that sounds good, next i want to go to Belem|inform
+SYS|Would you like to leave from North Vancouver or Munich?|confirm
+USR|munich|inform
+SYS|Ok!|offer
+SYS|There are several options available for you.|offer
+SYS|A 4.5 star beachside hotel, two 4.0  hotels near both the beach and the airport, a 3.0 star hotel near a Cathedral.|offer
+USR|what is the price for this one|request
+SYS|There are 4 different hotels mentioned above.|inform
+USR|all 4|request_compare
+SYS|Prices range from 15883.79USD to 22590.19USD|suggest
+USR|okay we will go to North Vancouver and if Mewtwo is not there I will call you back to go to Belem.|inform
+USR|Book the Twin Canyon Inn and Suites for me and my hunting party|inform
+SYS|Great, consider it done.|inform
+SYS|Good luck :slightly_smiling_face:|inform

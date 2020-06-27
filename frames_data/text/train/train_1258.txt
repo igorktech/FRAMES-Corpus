@@ -1,0 +1,27 @@
+USR|I would like to go to Rosario from St. Petersburg.|inform
+USR|I have 4600.|inform
+USR|I can go anytime for however long.|inform
+SYS|Sure thing!|offer
+SYS|I have two hotels in your budget - a 2 star with an 18 day package and a 4 star with a 12 day package.|offer
+USR|Do you have anything better in Santiago?|inform
+SYS|I have one 3 star hotel available for 12 days.|offer
+USR|what if I leave from SL instead, anything better?|inform
+SYS|The only thing that changes if you leave from St. Louis would be your length of stay increasing to 16 days.|offer
+USR|I didnt notice there was a 4 star in Rosario from St. Petersburg.|moreinfo
+USR|Can you tell me more about that one?|moreinfo
+SYS|The four star Opportunity Suites boasts a 8.86/10 guest rating, is located near shopping, and provides both breakfast and wifi at no extra charge.|inform
+SYS|You can book 12 days at this facility and leave from St. Petersburg on September 18th for a total cost of 3047.40USD.|inform
+USR|rude.|inform
+USR|anyway, i’ll take it|inform
+SYS|Ok - sure thing!|suggest
+SYS|Shall I book ?|suggest
+USR|yeah|affirm
+SYS|Enjoy your stay|inform
+USR|Oh wait!|request
+USR|I forgot to ask, is this economy or business?|request
+SYS|Economy.|suggest
+SYS|Business is outside your budget.|suggest
+USR|Oh.|confirm
+USR|well okay, economy is fine.|confirm
+USR|Is it booked?|confirm
+SYS|Indeed it is, you should receive a confirmation email shortly.|inform

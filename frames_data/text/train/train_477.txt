@@ -1,0 +1,11 @@
+USR|Two tickets from Toronto to Dublin please!|inform
+SYS|Hello!|request
+SYS|for when?|request
+USR|August 30 or after please, flexible on the return date|inform
+SYS|I have nothing to Dublin!|suggest
+SYS|We do have many other destinations to choose from as we offer packages in all over the world.|suggest
+SYS|Can I interest you in a different destination?|suggest
+USR|Very well, could you try Miami then?|inform
+SYS|I regret that Miami is not one of the destinations we offer from Toronto.|suggest
+SYS|Are there others?|suggest
+USR|No there are not...time to write up a scathing review of this service.|goodbye

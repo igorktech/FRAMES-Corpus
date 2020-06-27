@@ -1,0 +1,19 @@
+USR|Hey, i want to go to rome from kochi.|inform
+USR|Can you find me some packages between september 2nd and 6th for 4300|inform
+SYS|Are your dates flexible?|request
+USR|Yes my dates are quite flexible|inform
+SYS|Actually, on further inspection I have found a 4 star hotel available from Sept 2-6 for you!|offer
+SYS|You would stay at the Hotel Grand Residence - a 8.8 user rated hotel with free breakfast and wifi.|offer
+SYS|The total price for this package is $2917.|offer
+USR|Is there a business flight for this package?|inform
+SYS|There sure is!|offer
+SYS|The cost to upgrade to business class would bring your total to 3794.31USD|offer
+USR|oo la la!|request
+USR|that sounds like a great way to spend my money.|request
+USR|Is this hotel near anything?|request
+SYS|It is near shopping and a cathedral|inform
+USR|OOOOOO SHOPPING!!!|inform
+USR|I'll take it!|inform
+USR|Sign me up!|inform
+SYS|Sure thing :slightly_smiling_face:|inform
+USR|Thanks!|thankyou

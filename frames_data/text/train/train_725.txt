@@ -1,0 +1,22 @@
+USR|I am pondering a trip - not ready to book - just pondering.|inform
+USR|Tokyo is where I live, and I would like to see some places outside of Japan
+Can you tell me what trips you have to Las Vegas, on a hypothetical 4200 budget|inform
+SYS|In the city of Las Vegas, I have the Retro Inn with a 2.5 star rating available at the moment.|offer
+SYS|You can stay for 9 days and even treat yourself to business class for under $4200.|offer
+USR|how about trips to munich?|inform
+SYS|In Munich  I have the Regal Bluff with a 5 star rating available at the moment.|offer
+SYS|A 6 day stay on business class is 3462.32USD|offer
+USR|that.|request
+USR|sounds.|request
+USR|amazing.|request
+USR|what amenities?|request
+SYS|Free wifi|inform
+USR|okay please one more place.|inform
+USR|puebla?|inform
+SYS|I have 16 days at the Grand Brewery Mexico.|offer
+SYS|This hotel has a 3 star rating but with a longer stay.|offer
+SYS|This one also includes wifi, parking and a Mexican breakfast.|offer
+USR|is this hotel near anything cool?|switch_frame
+SYS|I have no details on the location of this hotel.|canthelp
+USR|fine|thankyou
+SYS|Glad I could be of help|you_are_welcome

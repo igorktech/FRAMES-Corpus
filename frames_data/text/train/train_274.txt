@@ -1,0 +1,31 @@
+USR|Find me a flight from Belo Horizonte to Brasilia.|inform
+USR|First class only|inform
+SYS|I have a business class flight and 5 day stay at a 3.0 star hotel available for 192.14USD.|offer
+USR|Upgrade that to a five star hotel|inform
+SYS|Unfortunately the best I can give you is a 3.5 star hotel with a guest rating of 8.37.|sorry
+USR|That won't do.|inform
+USR|Find me a flight from Belo Horizonte to Rome, and find me a five star hotel in Rome.|inform
+SYS|Would you be interested in staying at a 4.0 star hotel in Rome?|offer
+USR|eww absolutely not.|inform
+USR|find me a five star hotel.|inform
+USR|I refuse to believe there are no available five star hotels in Rome|inform
+SYS|I am sorry but I have no 5.0 star hotels available in Rome for you :disappointed:|sorry
+USR|are there first class flights from Belo Horizonte to Rome?|inform
+SYS|Yes, I have business class flights available for these locations.|inform
+USR|no first class?|inform
+USR|try london to rome|inform
+SYS|Unfortunately I can only offer economy or business class flights.|sorry
+SYS|I do not have first class flight access in my database.|sorry
+SYS|Would you still like me to explore options from London to Rome?|sorry
+USR|Please do.|inform
+USR|And check again for five star hotels in Rome.|inform
+SYS|I still only have 4.0 star hotels available in Rome.|inform
+USR|What's the earliest flight you have from Belo Horizonte to Rome?|inform
+USR|I need to book for two and return on Sept 5|inform
+SYS|I can book you 5 days at Hotel Grand Residence, a 4.0 star hotel with a guest rating of 8.8 from September 2nd-September 5.|offer
+USR|Check for the earliest flight from London to Rome, also for two and returning Sept 5|inform
+SYS|I have only the same dates available from London.|suggest
+USR|Okay book us business class for the Belo Horizonte to Rome package|switch_frame
+SYS|I am booking your flight|inform
+USR|terrific, wonderful.|thankyou
+USR|thankyou|thankyou

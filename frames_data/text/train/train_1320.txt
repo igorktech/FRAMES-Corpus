@@ -1,0 +1,16 @@
+USR|My name is Stephen King and I want to book a  quiet getaway|inform
+SYS|Ok, where would you like to go?|request
+USR|Kyoto from crazy noisy St. Louis|inform
+SYS|Do you have a budget?|request
+USR|5400 for the 3 of us|inform
+SYS|All adults?|confirm
+USR|Yes my wife and son will be coming with me but he is 18|inform
+SYS|Okay.|request
+SYS|Do you have dates in mind?|request
+USR|I need 12 days to finish my book and we can go anytime|inform
+SYS|There are no results.|no_result
+USR|Try Leon instead please, heard it's quiet there too|inform
+SYS|There are no results for this either.|no_result
+USR|what if we only stay 9 days at either Kyoto or Leon, can you find me something?|inform
+SYS|There are no results.|no_result
+USR|thank you|thankyou

@@ -1,0 +1,12 @@
+USR|Hi, have you got any trips out of Jerusalem?|inform
+USR|I don’t have a destination to focus on yet I just want to ensure that you can find me trips leaving Jerusalem|inform
+SYS|May I have your dates of travel and number of people travelling please?|request
+USR|No not right now.|inform
+USR|Just search flights from Jerusalem|inform
+SYS|With the limited information you have provided, I do not see any flight leaving Jerusalem.|no_result
+SYS|Sometimes, by changing the parameters of my search, I am able to find more information.|no_result
+USR|Ok.|inform
+USR|Check Jerusalem August 25 departure|inform
+SYS|I still yield no results for flights out of Jerusalem.|suggest
+SYS|Can I check other cities of departure for you?|suggest
+USR|No, thanks anyway|thankyou

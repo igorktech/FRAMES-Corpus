@@ -1,0 +1,12 @@
+USR|I don't care what you've been programmed to call yourself.|inform
+USR|Just get me from London to Cairo.|inform
+SYS|I will follow your directions to a tee.|request
+SYS|Please provide your dates, number of people travelling together, and your parameters in what you desire in a hotel - star, amenities, location etc.,|request
+SYS|whether you would like to fly economy or business and the total length of your stay  :grinning:|request
+USR|Whenever, by myself, 5 star hotel, all of the above, don't care, business, whatever.|inform
+USR|IN THAT ORDER|inform
+SYS|I will do my very best to help you with your request :grinning: I regret I do not have any flights from London to Cairo|no_result
+USR|you regret it?|inform
+USR|they know how to program regret?|inform
+USR|get me to tokyo instead|inform
+SYS|Nothing to Tokyo either.|no_result

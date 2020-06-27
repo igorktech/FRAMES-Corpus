@@ -1,0 +1,13 @@
+USR|Hi wozbot!|greeting
+USR|My husband and I are recently married and madly in love.|greeting
+USR|We're looking for a fantastic honeymoon vacation.|greeting
+USR|We live in Mannheim and we'd like to go to Kyoto for 6 days leaving on August 19.|greeting
+USR|What can you do for me?|greeting
+SYS|Hello,  I have perfect packages available for you that are 5 days in length flying from Mannheim to Kyoto, but none depart on the 19th.|greeting
+SYS|Are you a bit flexible with your dates?|greeting
+USR|What's available closest to the 19th?|request
+SYS|The closest one would be on August 25th returning on the 28th.|offer
+SYS|You would stay at the Glorious Bazaar Resort, which is a 3-star hotel that includes breakfast and wifi.|offer
+SYS|I have both economy class and business class available.|offer
+USR|This one sounds interesting, but I'd really like a vacation of 6 days, preferably leaving on the 19th of August.|inform
+USR|Can we take a look at Osaka?|inform

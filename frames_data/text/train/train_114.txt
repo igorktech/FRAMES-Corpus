@@ -1,0 +1,15 @@
+USR|Hi!|greeting
+USR|I'm looking to book a trip from Termina to Atlantis with my family.|greeting
+USR|This includes 1 adult and 3 kids.|greeting
+USR|My budget is at most $3300.|greeting
+SYS|Hello!|greeting
+SYS|What dates would you like to travel between?|greeting
+USR|Any dates that are available.|inform
+SYS|I'm sorry, there are no available packages to Atlantis.|sorry
+SYS|Is there anywhere else you would like to go?|sorry
+USR|No I really need to go to Atlantis.|inform
+USR|I might be willing to pay more if there is an available trip.|inform
+SYS|I'm sorry, there are no available flights to Atlantis from Termina.|sorry
+SYS|Atlantis and Termina do not appear to be in my database.|sorry
+USR|Oh okay.|goodbye
+USR|I will look elsewhere.|goodbye

@@ -1,0 +1,36 @@
+USR|Hello there!|inform
+USR|I'm trying to plan a vacation here for my family - want to bring my wife and three kids somewhere cool before school starts.|inform
+USR|I'm looking for something between August 27th and September 16th, and we're looking at a couple of cities|inform
+SYS|Where will you be leaving from?|request
+USR|I'll be leaving from Seattle.|inform
+USR|Could you do me a favour and check for trips to Toluca please?|inform
+SYS|Do you have a budget?|request
+USR|Yes I do.|inform
+USR|Trying to spend $4800 or less on this vacation|inform
+SYS|We have a 3.5 star hotel with four different packages|offer
+USR|Are these packages for different dates?|request
+SYS|There are two dates to choose from.|offer
+SYS|September 1st to 9th or August 27th to September 6th.|offer
+USR|Oh very cool!|request
+USR|What is the price for the August 27th to September 6th dates?|request
+SYS|3889.55 for economy class and 4702.78 for business class seats.|offer
+USR|Beautiful, thank you!|inform
+USR|Can you see if there are available packages for the same dates going to Santos?|inform
+SYS|There are no trips to Santos|no_result
+USR|Oh rats!|inform
+USR|How about...Kingston?|inform
+SYS|There's a 2.5 star hotel for economy and business class seats from the 7th to 14th of September.|offer
+USR|How much does it cost?|request
+SYS|Economy seats are 3762.80 and business seats are 4783.39.|inform
+USR|Great!|request_alts
+USR|Going back to the Toluca option, do I get a choice of hotels for the economy class trip from August 27th to September 6th?|request_alts
+SYS|There is just the one hotel for Toluca.|inform
+USR|Is it a good hotel?|moreinfo
+SYS|It is a 3.5 star hotel with free breakfast, free wifi, and free parking.|inform
+USR|Thanks!|confirm
+USR|Is the 2.5 star hotel my only option in kingston?|confirm
+SYS|The 2.5 star hotel is the only option in Kingston.|inform
+USR|Okay I will need to confirm with my wife and then I'll let you know|null
+SYS|Sounds great!|null
+USR|Thanks again! :|null
+USR|slightly_smiling_face:|null

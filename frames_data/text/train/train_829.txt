@@ -1,0 +1,30 @@
+USR|Good Morning I Am Writing To Inquire About Possible Booking Availabilities|inform
+SYS|Sure!|request
+SYS|Do you have some destinations in mind?|request
+USR|I Want To Take My Two Grandchildren To Paris|inform
+SYS|Where will you be leaving from?|request
+USR|I Would Be Leaving From San Juan With My Two Grandchildren|inform
+SYS|What is your budget?|request
+USR|Three Thousand Six Hundred Dollars Exactly .To Pay For Tickets For Myself And My Two Grandchildren|inform
+SYS|When would you like to leave and/or return?|request
+USR|On The Sixth Of September|inform
+SYS|Is there a date you need to be back by?|request
+USR|I Would Be Returning On The Twenty Fourth Day Of September With My Two Grandchildren|inform
+SYS|We have one result for your specific request.|offer
+SYS|The Queen's Jungle Hotel is a 4 star hotel near a mall, museum, and cathedral.|offer
+SYS|The hotel has a 8.69/10 guest rating and offers free wifi and a complimentary breakfast!|offer
+SYS|This package is extends from September 7th to 21st and is an economy class flight all for the price of 3341.90.|offer
+USR|Does This Hotel Have A Playground On Its Premises For My Two Grandchildren|request
+SYS|My database does not give me this information however, the museum would be a great place to take your grandchildren.|inform
+USR|I Do Not Know How To Find This Information On The World Wide Web... Why Don't You Tell Me About Trips To Houston I Can Do With My Two Grandchildren|inform
+SYS|Thank you!|suggest
+SYS|Is there anything else I can help you with?|suggest
+SYS|Would you like to book this package to Paris?|suggest
+USR|Please Help Me Book A Trip To Houston For Myself And My Two Grandchildren|inform
+SYS|There are no results for Houston.|no_result
+USR|I would Like To Know If I Can Fly From San Juan To Houston With My Two Grandchildren|inform
+SYS|No sorry.|sorry
+USR|Then I Will Book The Trip To Paris|inform
+SYS|Okay great!|inform
+SYS|Your trip is booked!|inform
+SYS|Have a great day and enjoy the trip!|inform

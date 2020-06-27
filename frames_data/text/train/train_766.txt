@@ -1,0 +1,18 @@
+USR|Hello!|inform
+USR|I'm looking for a vacation for me, my wife, and our 2 kids.|inform
+SYS|I can help with that :slightly_smiling_face: Where are you leaving from?|request
+USR|Burlington|inform
+SYS|And where would you like to go?|request
+USR|We've been thinking about Brasilia|inform
+SYS|Let me see what I’ve got.|request
+SYS|Are you on a budget?|request
+USR|yes, 1800|inform
+SYS|The cheapest family package I have from Burlington to Brasilia is 7402.70USD.|offer
+USR|ouch.|inform
+USR|Okay, how about a vacation in Punta Cana?|inform
+SYS|My best deal would be 4358.48USD.|offer
+USR|Anything for Chicago?|inform
+SYS|I can give you six days in Chicago for 2418.80USD|offer
+USR|What is the hotel like?|moreinfo
+SYS|The hotel is 2.5 stars but has a 8.22/10 guest rating.|inform
+SYS|It is near a park and a museum and features free parking, wifi, and complimentary breakfast.|inform

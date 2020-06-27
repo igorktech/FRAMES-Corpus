@@ -1,0 +1,15 @@
+USR|You can help me by finding me a vacation from Munich to San Juan between August 27 and September 3.|inform
+SYS|The only flight we have available is for August 27 to September 2.|offer
+SYS|Would this still work for you?|offer
+USR|Yes, it would.|moreinfo
+USR|Can I hear some more information about the package?|moreinfo
+SYS|Absolutely!|request
+SYS|You would be staying at The Brass Tower Inn, a 2.5 star hotel close to the famous market.|request
+SYS|Guests have rated this hotel 7.06/10, and it provides amenities such as free breakfast and free wifi.|request
+SYS|How many adults and children are you looking to book for?|request
+USR|Great.|inform
+USR|Book for one adult.|inform
+SYS|Done.|inform
+SYS|The cost will be 3030.88USD.|inform
+SYS|Bon voyage, my friend!|inform
+USR|:slightly_smiling_face:|null

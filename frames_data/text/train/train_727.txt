@@ -1,0 +1,26 @@
+USR|Hi, I need some help booking a very important trip.|inform
+SYS|Okay!|request
+SYS|Where to?|request
+USR|We need to get to Indianapolis.|inform
+SYS|From where?|request
+USR|We're stationed in Santos.|inform
+SYS|Do you have a budget?|request
+USR|I'm willing to pay up to 32900.|inform
+SYS|How many people will be travelling altogether?|request
+USR|7 adults including myself, and my 5 kids are also coming along.|inform
+SYS|When would you like to leave?|request
+USR|We're flexible.|inform
+SYS|We have a 2.5 star hotel|offer
+USR|Is that the only hotel you have in Indianapolis?|request
+SYS|Yes.|affirm
+USR|Can you tell me a bit more about it?|moreinfo
+SYS|It's near the beach and shopping, 6.37/10 guest rating, free parking, breakfast, and wifi.|inform
+USR|Will we still be okay budget-wise if we fly business?|request
+SYS|The cost for the business package is 32198.94 and is from August 31st to September 16th.|offer
+USR|Is that the only package you can offer?|confirm
+SYS|Yes and the economy package costs 24786.99.|offer
+USR|I'll take the business package then.|inform
+USR|Please confirm the booking.|inform
+SYS|Of course.|inform
+SYS|You will receive a confirmation email shortly.|inform
+USR|Cool, thanks!|thankyou

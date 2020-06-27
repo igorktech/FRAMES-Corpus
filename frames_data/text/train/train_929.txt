@@ -1,0 +1,24 @@
+USR|hello|greeting
+SYS|hello|greeting
+USR|i live in new york.|inform
+USR|i have 2600 dollars to spend.|inform
+USR|i can travel between september 5th and 24th.|inform
+USR|what can you find me in leon|inform
+SYS|We can send you to Leon during those dates either for 14 days or 18 days, which do you prefer?|offer
+USR|the longer the better!|switch_frame
+SYS|I have a 5 STAR resort called the Serene Palms Resort in Leon for 2151.0USD, located on a beach and close to the palace.|inform
+USR|what about Valencia?|inform
+SYS|I have another very nice package at a 5 STAR hotel The Gold near the museum and the market in Valencia for 2337.62USD.|offer
+USR|amenities?|request
+SYS|Free wifi on both.|inform
+USR|lastly (and certainly least) what about San Francisco|inform
+SYS|best I can do in San Francisco is the Glorious Spring Hotel for 10 days.|offer
+SYS|2 STAR rating with a price to match of 1444.63USD.|offer
+SYS|However, they do provide free wifi and parking and breakfast is included.|offer
+USR|the beach and palace in Leon sound amazing.|inform
+USR|I think i wanna book that
+but what are the dates though|inform
+SYS|Leon is available from Sept 6 to the 22nd|inform
+USR|i want it|inform
+SYS|I will do the booking then.|inform
+USR|thanks my dude|thankyou

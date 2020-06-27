@@ -1,0 +1,46 @@
+USR|This is a little short notice But I'm trying to get of San Diego for a bit
+I'd like to travel between Sept 8 and 17|inform
+SYS|Where would you like to go?|request
+USR|Rome?|inform
+SYS|Do you have a budget?|request
+USR|No budget for now|inform
+SYS|And travelling alone?|suggest
+USR|Yes|affirm
+SYS|Would you rather travel from September 8th to 16th or September 11th to 15th?|offer
+SYS|Both hotels are 4 stars and offer free breakfast and wifi.|offer
+USR|I think the longer stay would be best!|request
+USR|How much would that cost for economy flights?|request
+SYS|2555.13 for economy flights.|offer
+USR|Cool.|inform
+USR|I have a number of other cities on my list
+Next up is Busan
+You fly there?|inform
+SYS|Yes!|offer
+SYS|Here, we have a 3 star hotel near a park, museum, and university, 6.77/10 guest rating, free parking, breakfast, and wifi.|offer
+SYS|This package is from the 12th to 15th of September.|offer
+SYS|Business flights cost 4644.15, economy flights cost 3566.45.|offer
+USR|Thanks for the detail!|inform
+USR|It seems a lot more expensive than the previous package, so I'll think about it.|inform
+USR|Can you also look at Vancouver?|inform
+SYS|No problem!|suggest
+SYS|We have a 4 star hotel in Vancouver near a park, museum and cathedral, free parking, breakfast and wifi, 8.8/10 guest rating, from September 11th to 17th.|suggest
+SYS|Business flight package costs 1333.77, economy flight package costs 1126.99.|suggest
+SYS|Any other destinations you'd like information for?|suggest
+USR|Yes one more: Chicago|inform
+SYS|Here we have a 2.5 star hotel available.|offer
+SYS|The hotel is close to a museum and university, has a 8.69/10 guest rating, and free parking, breakfast and wifi.|offer
+SYS|This package extends from September 12th to 15th.|offer
+SYS|The business class package is 734.84 and the economy class package is 651.54.|offer
+USR|Hmm.|switch_frame
+USR|I really feel like Rome is the best option here|switch_frame
+SYS|Would you like to book a package?|suggest
+USR|Would I still be able to book that package?|inform
+SYS|Of course!|suggest
+SYS|Would you like economy or business?|suggest
+USR|I think economy will do just fine|inform
+SYS|Great!|inform
+SYS|The package is booked for you!|inform
+SYS|You will get an email for confirmation and details about your trip!|inform
+SYS|Have an awesome day and enjoy!|inform
+USR|My day just got awesome...thanks!|thankyou
+SYS|No problem|you_are_welcome

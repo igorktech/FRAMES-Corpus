@@ -1,0 +1,12 @@
+USR|Hi, id like to go to Goiania with my 4 besties from Kobe|inform
+SYS|Departure?|request
+USR|Kobe…..i just said|inform
+SYS|date|request
+USR|doesnt matter|inform
+SYS|We can provide stays at 2 different hotels, both rated 3.5 stars.|offer
+SYS|Are you interested in hearing more about these?|offer
+USR|No I need 5 stars.|inform
+USR|any 5 stars in Rio de Janeiro?|inform
+SYS|We have no 5 star hotels in Rio de Janeiro|no_result
+USR|Sapporo?|inform
+SYS|All available hotels in Sapporo at the present time are 3 star hotles|inform

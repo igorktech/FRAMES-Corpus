@@ -1,0 +1,37 @@
+USR|I'm a fashion designer and I'm going to be doing an internship with a VERY  famous fashion designer.|inform
+USR|Do you have any flight and hotel packages to Rome?|inform
+SYS|Sure thing!|request
+SYS|Leaving from where?|request
+USR|Busan|inform
+SYS|Unfortunately I don’t have anything available from Busan to Rome|sorry
+USR|Okay....how about to San Antonio? :|inform
+USR|unamused:|inform
+SYS|Would you like to travel to San Antonio or leave from there?|confirm
+USR|To San Antonio from Busan.|inform
+USR|I live in Busan.|inform
+SYS|Ok!|offer
+SYS|How about the Winter Hill Inn?|offer
+SYS|It’s available from August 25-September 1st.|offer
+USR|I cannot leave before the 27th.|inform
+SYS|In that case I can book you September 1-8 at the same hotel.|offer
+USR|Can you give me flight details please?|moreinfo
+SYS|You will leave Busan at 11 am on Thursday September first and arrive at 11:24 pm in San Antonio.|inform
+SYS|You will depart from San Antonio at 1 am September eighth and return home at 1:24 pm.|inform
+USR|How about some details on the Winter Hill Inn?|request
+USR|I really want to be near a park.|request
+SYS|It is near a park, movie theatre and a mall!|inform
+SYS|The hotel is 2.0 stars with a guest rating of 4.74 and features free parking, wifi, and free breakfast|inform
+USR|2 star hotels are usually dumps.|request_alts
+USR|Do you have anything better?|request_alts
+SYS|There is another 2 star available in San Antonio but the guest rating is 7.15/10.|offer
+USR|Hate to sound like a princess but over my dead body I will stay in a 2 star hotel, specially in San Antonio.|negate
+USR|I am a fashion designer.|negate
+USR|Plus I'm travelling alone!|negate
+USR|You got anything in Barcelona instead?|negate
+USR|We have a house of design there too.|negate
+SYS|Ok!|inform
+SYS|I have a couple of 3.0 star hotels available in Barcelona.|inform
+SYS|Would this be ok?|inform
+USR|No that won't do either.|inform
+USR|I need a five star for under $3900.|inform
+SYS|I’m sorry but I have nothing meeting your requirements for the destinations you have given me.|sorry

@@ -1,0 +1,19 @@
+USR|I must get away from the paparazzi.|inform
+USR|What packages can you offer to Hiroshima?|inform
+SYS|Where are you located?|request
+USR|My friend Madonna and I would like to leave from Essen.|inform
+USR|Our only restraint is to be back by September 5.|inform
+SYS|I have nothing to Hiroshma from Essen|no_result
+USR|What about from Paris?|inform
+SYS|You are in luck, I do have some packages to Paris from Essen.|request
+SYS|What type of accomodations are you looking for?|request
+USR|Preferably 5 star, and a spa if it is available.|inform
+SYS|I do not have a 5-star but I do have a 4-star, the Hotel Regal Universe located near the museum and palace.|offer
+SYS|I have business class seats available and it's at a cost of 1065.96USD.|offer
+SYS|You also have free wifi and a free breakfast.|offer
+USR|Yes that should be just fine.|request
+USR|What are the flight dates?|request
+SYS|August 25th returning Sept 3rd|inform
+USR|I'll book this one!|inform
+SYS|I will book and your friend Madonna|inform
+USR|Thank you bot.|thankyou

@@ -1,0 +1,18 @@
+USR|Hi there!|inform
+USR|I'm about to jet out to my first ever internship
+I need to make sure I get this booking exactly right
+Can you get me to Rome?|inform
+SYS|I can!|request
+SYS|Where are you leaving from?|request
+USR|That would be Santiago|inform
+SYS|What is your budget?|request
+USR|Nothing more than 1700 please|inform
+SYS|When do you need to be there?|request
+USR|As long as possible, between September 8 and September 25 (of this year)|inform
+SYS|There are no flights to Rome after the 8th.|no_result
+USR|That's strange.|inform
+USR|What about flights to Fortaleza then?|inform
+SYS|There are no results for this either within your budget.|no_result
+USR|This is alarming!|inform
+USR|How about lets try Sao Paulo|inform
+SYS|There are no results for your date range.|no_result

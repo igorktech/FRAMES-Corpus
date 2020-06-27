@@ -1,0 +1,26 @@
+USR|i have 12 days for vacay|inform
+SYS|Ok!|request
+SYS|Where ya headed?|request
+USR|i dont know, was hoping you could help me decide.|inform
+USR|i live in Kingston and i want to travel on or after the 8th|inform
+SYS|Do you have a budget?|request
+USR|no|inform
+SYS|I have 12 days in Baltimore from Sept 17-28!|offer
+USR|Where else could I go?|request_alts
+SYS|Boston has 12 day packages as well for just over 1500 dollars.|offer
+USR|Anywhere else?|request_alts
+SYS|Berlin, Germany.|offer
+USR|Anywhere else?|request_alts
+SYS|Yes, Seattle and Cancun.|offer
+USR|is that all the options?|confirm
+SYS|That is all that I have given your broad parameters.|affirm
+USR|okay.|switch_frame
+USR|Well what is the best package for Seattle?|switch_frame
+SYS|I have business class flights from Kingston and a stay at a 5 star hotel for 1890.22USD.|inform
+USR|i like it, when are the flights?|request
+SYS|You would leave Kingston on September 10th and return on September 21st.|inform
+USR|that sounds good to me.|inform
+USR|Book me this one.|inform
+SYS|Sure thing!|inform
+SYS|I will email confirmation shortly.|inform
+USR|thanks!|thankyou

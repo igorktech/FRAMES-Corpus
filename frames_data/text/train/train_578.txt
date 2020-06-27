@@ -1,0 +1,17 @@
+USR|Hello there.|inform
+USR|I would be intersted in travelling from Cordoba to Tokyo and I’m hoping you could help me with that|inform
+SYS|Do you have the dates when you'd be travelling and a budget?|request
+USR|20200.|inform
+USR|4 adults 2 kids|inform
+SYS|I have 8, 9 and 11 days trips at 19674.88USD, 18702.67USD and 19736.42USD, at 3 star hotels with spa and free wifi|offer
+USR|Spa and free wifi sounds nice.|moreinfo
+USR|I would be interested in the 9 day trip What are the flight details|moreinfo
+SYS|3.0 star hotel near museum & shopping mall, in ECONOMY class.|inform
+SYS|Guest rating is 6.77|inform
+USR|I want to know the flight details please|request
+SYS|september 2 - 9th|inform
+USR|What time would we leave from Cordoba??|inform
+SYS|9:38 pm on Friday September 2nd|inform
+USR|Ok, I think that’ll work|inform
+SYS|Alright.|inform
+SYS|It's done|inform

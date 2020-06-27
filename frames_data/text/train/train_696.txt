@@ -1,0 +1,4 @@
+USR|Please find a flight from Beijing to Kochi for me.|inform
+USR|Sept 16 to 20|inform
+SYS|Beijing to Kochi in not on out list of destinations.|suggest
+SYS|May I suggest you try a different destination?|suggest

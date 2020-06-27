@@ -1,0 +1,35 @@
+USR|Hi.|inform
+USR|going to throw a bunch of options at you, try to keep up
+Firstly want to know about trips from Seattle to Belo Horizonte|inform
+SYS|We sure do have some trips from Seattle to Belo Horizonte.|inform
+SYS|Do you have desired dates or price points in mind?|inform
+USR|dates are sept 8 to 19.|inform
+USR|flexible on prices|inform
+SYS|We have a 9 day package in Belo Horizonte at a 2.5 star hotel that matches your dates.|hearmore
+SYS|Would you like to hear more about this option?|hearmore
+USR|not really to be honest.|inform
+USR|are there better hotel?|inform
+SYS|That is the best available in Belo Horizonte.|suggest
+SYS|Do you have any other trips you are considering?|suggest
+USR|yes i do.|inform
+USR|can you look at columbus?|inform
+SYS|We do have something better in Columbus!|hearmore
+SYS|It's a 3.5 star hotel with 8.22/10 guest rating at the heart of the city.|hearmore
+SYS|Does this sound more interesting to you?|hearmore
+USR|it absolutely does!|request
+USR|how long would we be able to stay there?|request
+SYS|We have a 4 day package from Sep 12-15, available in economy or business.|offer
+USR|would you have a longer package if we departed from puebla instead?|inform
+SYS|We do!|offer
+SYS|It's a 6 day package from Sep 12-17 at the same hotel, also available in economy or business.|offer
+USR|cool.|request
+USR|how much does it cost?|request
+SYS|How many will you be?|request
+USR|there will be eight|inform
+SYS|It will be 10905.18 for economy and 13494.50 for business.|offer
+USR|we will go big and book business|inform
+SYS|Great!|inform
+SYS|The 6 day business package is booked for you.|inform
+SYS|You are headed to COLORADO :slightly_smiling_face:|inform
+USR|great!|thankyou
+USR|thanks!|thankyou

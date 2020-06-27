@@ -1,0 +1,20 @@
+USR|you can send me to Manaus pronto|inform
+SYS|I'd love to do just that, but where are you departing from?|request
+USR|Curitiba|inform
+SYS|Sure, how does 12 nights at the Hotel Aquamarine River sound?|offer
+USR|well I don't know anything about the hotel aquamarine so......|switch_frame
+SYS|Its a 2.5 star hotel conveniently situated near shopping.|inform
+SYS|Its got a full suite of amenities, from free wifi, to parking to breakfast, which has garnered it a sparkling 6.77/10 guest rating!|inform
+USR|needs a higher rating|inform
+SYS|Sure, I can also offer you 9 nights at the Tranquil Sanctuary Hotel, a 3 star hotel with a 8.49/10 rating.|offer
+SYS|How does that sound?|offer
+USR|also bad.|request_alts
+USR|What else|request_alts
+SYS|This is the best hotel we've got in the city.|suggest
+SYS|Would you like to try a different destination?|suggest
+USR|yeah fine.|inform
+USR|look in Denver for me.|inform
+USR|5 stars please|inform
+SYS|We haven't got a 5 star hotel in Denver - would you be interested in a 4 star hotel with a 8.69/10 guest rating instead?|suggest
+USR|possibly.. does it have a spa?|request
+SYS|No spa but it does have free wi-fi!|inform

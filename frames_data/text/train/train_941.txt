@@ -1,0 +1,31 @@
+USR|Hi there!|greeting
+SYS|How can I help you?|greeting
+USR|I am looking to fly out to Santos I can leave from two possible cities: one of them is Cancun|inform
+SYS|Do you have a budget?|request
+USR|no budget.|inform
+USR|but it needs to be between tomorrow and September 20|inform
+SYS|Do you have a hotel rating preference?|request
+USR|I think a 3 star should be suitable for me.|inform
+USR|I’m not a person with particularly fancy tastes, and neither are any of my 7 companions on this trip|inform
+SYS|8 adults altogether?|confirm
+USR|correct!|affirm
+SYS|Would you rather have a 19 day stay or 14 day stay?|offer
+USR|I need something between the dates of September 3 and 20 ideally.|inform
+SYS|One package is from September 4th to 21st and the other is from September 2nd to 14th.|inform
+USR|There’s nothing shorter?|inform
+SYS|No|no_result
+USR|Ok I suppose I can be flexible with my dates.|inform
+USR|Can you tell me more about the hotel?|inform
+SYS|Which trip would you rather do?|hearmore
+USR|leaning towards the 4th to 21st|switch_frame
+SYS|This a a 3 star hotel close to shopping, 8.37/10 guest rating, free breakfast and wifi, business flights for 22417.40, economy flights for 17467.20.|offer
+USR|that sounds very close to what I asked for, good job!|thankyou
+SYS|Would you like to book?|suggest
+USR|yeah|affirm
+SYS|Economy or business?|suggest
+USR|lets all do business class|switch_frame
+SYS|Great!|inform
+SYS|Your package is booked!|inform
+SYS|Have a great trip!|inform
+USR|Sounds good I meant to say, but also thanks! :|thankyou
+USR|slightly_smiling_face:|thankyou

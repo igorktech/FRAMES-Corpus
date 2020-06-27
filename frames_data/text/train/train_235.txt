@@ -1,0 +1,21 @@
+USR|Hi i got an internship in Frankfurt and need to get there on August 27th|inform
+SYS|Hello!|request
+SYS|Do you know which city you'll be departing from?|request
+USR|Ill be getting out of Madrid|inform
+SYS|It looks like I have a package for Frankfurt from the 27th of August to the 2nd of September.|confirm
+SYS|Does 1163.55USD fall within your budget?|confirm
+USR|yes it does, my budget is $2500.|inform
+USR|anything in maceio|inform
+SYS|Yes I do, however at 3500.58USD it is a bit out of your budget range.|hearmore
+SYS|Would you like to hear more about this package?|hearmore
+USR|yes please|switch_frame
+SYS|You would be staying at the  Hotel Regal Time, a 3.5-star hotel with a 8.8/10 guest rating, free breakfast and free wifi.|suggest
+SYS|This hotel is conveniently located close to the park, the theatre and a local market.|suggest
+SYS|You would be flying out on Sunday, August 21st at 4:00p.m.|suggest
+SYS|and returning Friday, September 2nd at 4:00a.m.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|This seems perfect!|inform
+USR|may you please go ahead and bookit?|inform
+SYS|Your trip has been succesfully booked!|inform
+SYS|Enjoy your stay!|inform
+USR|Thank you!|thankyou

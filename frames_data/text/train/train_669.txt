@@ -1,0 +1,21 @@
+USR|Hi there, I'm in Fukuoka now and I need to get to Pittsburgh asap.|inform
+SYS|Yes.|request
+SYS|Do you have a budget?|request
+USR|Maximum 4000, but the lower the better.|inform
+SYS|When would you like to leave?|request
+USR|On or after September 13.|inform
+SYS|Great, and are you travelling alone?|suggest
+USR|Yup!|affirm
+SYS|We have one hotel.|offer
+SYS|It is a 2.5 star hotel near a park and museum, it has a 8.49/10 guest rating, and they offer free breakfast, wifi, and parking.|offer
+SYS|The flight departs on September 13th and returns on the 21st.|offer
+SYS|The price for the business class package is 3158.28 and the price for the economy class package is 2439.34.|offer
+USR|That's the only hotel you've got in Pittsburgh?|confirm
+SYS|Yes.|affirm
+USR|Alright it looks good to me!|inform
+USR|I'll take the economy package.|inform
+SYS|Great!|goodbye
+SYS|I will book this for you and you will receive a confirmation email soon!|goodbye
+SYS|Have a nice day!|goodbye
+USR|Great!|thankyou
+USR|Thanks!|thankyou

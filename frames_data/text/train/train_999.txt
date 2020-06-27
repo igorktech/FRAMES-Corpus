@@ -1,0 +1,15 @@
+USR|Hi.|inform
+USR|I'm just here at work.... stuck at the old computer desk
+Stuck dreaming about a better place than this one
+I have been wanting to get out of Santa Cruz for ages now
+But I never have any vacation days..|inform
+SYS|Okay, where would you want to go?|request
+USR|I really wanna go to Minneapolis|inform
+SYS|Would you have a budget?|request
+USR|Yeah.. I have 3100 in my savings account.|inform
+SYS|Unfortunately there are no results for this within your budget.|sorry
+SYS|Do you have a second destination you were wondering about?|sorry
+USR|Would I able to get to Kobe maybe?|inform
+SYS|Again, not within your budget.|no_result
+USR|Hiroshima???|inform
+SYS|Nothing available within your budget, sadly.|sorry

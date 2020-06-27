@@ -1,0 +1,21 @@
+USR|Id like to book a trip.|inform
+USR|I have a very tight budget of $2600.|inform
+USR|I would need to be there between August 27th to September 11th.|inform
+SYS|Let me see what I can find you.|request
+SYS|Where will you be leaving from?|request
+USR|Toluca|inform
+SYS|Can I interest you in an 8 day stay at a 3.5 star hotel in Kingston, an 11 day stay at a 5 star hotel in Leon,  or a 9 day stay at a 2.5 star hotel in San Juan?|suggest
+USR|What are the prices for each package?|request_compare
+SYS|The 3.5 star Kingston package is 2028.28 USD, the 5 star Leon package is 2584.26 USD, and the 2.5 star San Juan package is 17619.17USD.|inform
+USR|What are the dates for the Leon package?|request
+SYS|Departure is on August 30th and you return on September 8th.|inform
+USR|what about the dates for the Kingston one?|request
+SYS|You would depart on the 27th of August and return on the 3rd of September.|inform
+USR|I think I will book the Kingston Package.|inform
+SYS|Excellent choice!|suggest
+SYS|It includes free breakfast and wifi.|suggest
+SYS|Shall I go ahead and book the trip?|suggest
+USR|Sounds great!|thankyou
+USR|Yes, thank you!|thankyou
+SYS|Have a nice day!|goodbye
+USR|Thank you|thankyou

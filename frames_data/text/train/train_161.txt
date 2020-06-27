@@ -1,0 +1,19 @@
+USR|i need to get to toronto.. there is apparently someone of interest to me there|inform
+SYS|Hi there!|greeting
+SYS|How can I help you today?|greeting
+USR|i have to bring my lawyer with me to toronto from kobe|inform
+SYS|The best deal I can offer you on a trip to Toronto is a 7-day package starting on the 24th of August.|suggest
+SYS|The total cost of this trip is 2666.51USD.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|does this price include 6 children?|inform
+SYS|The addition of six children will bring your final price to 12553USD.|offer
+SYS|Is this OK?|offer
+USR|yes that would be fine but i need more details about the trip please|request
+SYS|Of course!|inform
+SYS|This trip includes a stay at the Hotel Richard, a 3-star hotel with a 8.86/10 guest rating, free breakfast, free wifi and free parking.|inform
+SYS|It is conveniently located within walking distance of both a market and a cathedral.|inform
+SYS|You would be departing for your destination on Wednesday, August 24th at 8:41 p.m. and returning Monday, August 29th at 12:41 p.m. Would you like me to book this trip?|inform
+USR|that sounds quite suitable.|inform
+USR|ok, let's book it|inform
+SYS|Your trip has successfully been booked!|inform
+SYS|Thank you for using our service!|inform

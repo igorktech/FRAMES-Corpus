@@ -1,0 +1,16 @@
+USR|haayyyyy|greeting
+SYS|Hello.|greeting
+USR|i got a week off from august 27-september 3.|inform
+USR|i think i wanna take a ski trip to miami|inform
+SYS|Where will you flying out of?|request
+USR|pho|inform
+SYS|What will be your budget|request
+USR|no budget|inform
+SYS|I have a beautiful 6 day star atthe Triple Aegis, it is near a mall and a park, with a 3 star rating, it comes with Free parking wifi and breakfast in total only $1105|offer
+USR|wow spectacular!|request
+USR|what are the flight details?|request
+SYS|It leaves on the 27th and returns on the 1st, shall I go ahead and book that for you?|suggest
+USR|yeah i like it!|inform
+USR|please book, thank you|inform
+SYS|Done and done!|inform
+USR|thank you very much kind friend, cheers!|thankyou

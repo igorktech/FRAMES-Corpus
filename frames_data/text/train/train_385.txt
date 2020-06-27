@@ -1,0 +1,19 @@
+USR|Santiago to Queenstown  7 adults two children
+whats the earliest flight you can put me on|inform
+SYS|Do you have a budget?|request
+USR|yes, 11300|inform
+SYS|The earliest fight leaving from Santiago is August 30, in economy class, staying at 5 star hotel for 6 days, for 10474.44USD|offer
+USR|Can you tell me about the amenities at this hotel.|inform
+USR|And are there longer possible stays|inform
+SYS|This hotel offers free wifi, free breakfast and is near museum and airport.|no_result
+SYS|The other option is Illustrious Pool Hotel, and leaves on September 8th, has economy and business class fights.|no_result
+SYS|This one is 8664.67 or 10586.85 and is also 6 days.|no_result
+SYS|There are no longer stays for the budget you provided.|no_result
+USR|I'm willing to increase my budget to 12800.|inform
+USR|Can you check again|inform
+SYS|We have Silver Orb Palace - 7 days, @ 11748.49USD|offer
+USR|Whats the rating for this hotel?|request
+SYS|5 star hotel.|inform
+SYS|It is the same as the one listed before|inform
+USR|DOPE.|inform
+USR|book it|inform

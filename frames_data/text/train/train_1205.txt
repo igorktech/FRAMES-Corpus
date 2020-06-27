@@ -1,0 +1,22 @@
+USR|I need to get home!|inform
+USR|It’s an emergency|inform
+SYS|Where are you located?|request
+USR|Jerusalem|inform
+SYS|I regret that we have no flights out of Jerusalem|no_result
+USR|I can leave minneapolis then.|inform
+USR|I need to get to Lima.|inform
+SYS|The earliest departure I have out of Minneapolis destination Lima is Sept 11th.|offer
+SYS|Are you okay with this?|offer
+SYS|It would cost you 1606.83USD.|offer
+USR|Is there anything leaving on the 14th or 15th?|inform
+SYS|Yes I have departures on both those dates too.|offer
+SYS|The Sept 14th departure comes as part of a 9 day stay and the Sept 15th departure comes as part of an 8 day stay.|offer
+USR|the 14th is best for my schedule.|request
+USR|Can you tell me the cost|request
+SYS|The cost via economy class flights would be 993.58USD.|inform
+SYS|Your stay would be at the Wolf Inn, a 3.5 star with a guest rating of 8.86/10.|inform
+SYS|Your breakfast will be included in the price as will wifi and parking.|inform
+USR|yeah that’s fine, can we book it now?|inform
+SYS|Of course.|inform
+SYS|I will  proceed with the reservation.|inform
+USR|Thanks|thankyou

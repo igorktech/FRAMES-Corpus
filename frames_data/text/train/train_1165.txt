@@ -1,0 +1,20 @@
+USR|Boy oh boy!|inform
+USR|I got these 3 clients and these guys gotta have the best of the best, don't ask me why!|inform
+USR|So what do you have in Dublin that will impress the fellas?|inform
+SYS|When is the earliest you would like to leave?|request
+USR|Soon after September 10th|inform
+SYS|The only hotels here are 2 stars.|inform
+USR|So Stuttgart to Dublin and if the hotels suck check Valencia|inform
+SYS|Our best package for what you are looking for in Valencia is a 6 day stay from September 11th to 16th at a 5 star hotel with a guest rating of 8.98/10.|offer
+USR|Heavens to Betsy!|moreinfo
+USR|you've done it again!|moreinfo
+USR|you've found me a nice place.|moreinfo
+USR|Tell me more.|moreinfo
+SYS|The hotel is near a market and museum, they offer free wifi, business class flights, and the total cost is 5208.42.|inform
+USR|Just to make sure, what do you have in Sao Paulo?|inform
+SYS|Only 3 star hotels.|inform
+USR|Let's book Valencia.|inform
+USR|Pleasure doing business with you.|inform
+SYS|Always a pleasure being able to help!|inform
+SYS|Have a great day and enjoy the trip!|inform
+SYS|Good luck on the deal, not that you need it :wink:|inform

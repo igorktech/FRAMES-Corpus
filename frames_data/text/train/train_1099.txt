@@ -1,0 +1,28 @@
+USR|Hi!|inform
+USR|I would like to go to Naples from London.|inform
+USR|I have 1200 and can go whenever.|inform
+SYS|London to Naples, we have no packages.|no_result
+USR|How about London to Pittsburgh?|inform
+SYS|Actually, if you can increase your budget to  1772.87USD, I do have one something in Naples for you.|offer
+SYS|London to Pittsburgh, I have the 2.5 star Majestic Mountain Inn at  646.43USD for an 11 day stay|offer
+USR|I can't increase my budget at all unfortunately.|negate
+SYS|Majestic Mountain Inn is available in Pittsburgh as well as the Olive Bazaar Inn & Suites.|offer
+SYS|also a 2.5 star for a 10 day stay|offer
+USR|Okay.|inform
+USR|Do you have anything from Phoenix to Naples?|inform
+SYS|No I don't|no_result
+USR|Anything from Phoenix to Pittsburgh?|inform
+SYS|Yes the same hotels as from London to Pittsburgh|inform
+USR|Okay Pittsburgh it is!|request
+USR|What do you have available for my budget?|request
+SYS|Majestic Mountain Inn - 12 days $847.80USD|offer
+USR|Okay, What else can you tell me about the hotel?|moreinfo
+SYS|It is a 2.5 star hotel located near a park.|inform
+SYS|It has a guest rating of 6.91/10.|inform
+SYS|Parking, wifi and breakfast are included in the price.|inform
+SYS|Your departure date from Phoenix is Sept 12 and your return date is the 23rd.|inform
+SYS|The price I quoted you is the price for a business class package.|inform
+USR|Okay thanks!|inform
+USR|I'd like to book this one please|inform
+SYS|The  Majestic Mountain Inn has been reserved for you for 12 days.|inform
+USR|Thanks!|thankyou

@@ -1,0 +1,16 @@
+USR|hayyyy so I just got married :smile: we totally forgot about booking our honeymoon.|inform
+USR|But yeah, the two of us wanna go to Fortaleza.|inform
+USR|the wedding is in Tijuana, and we wanna go on august 27|inform
+SYS|I have a 5 day vacation at the Secret Prairie Resort to offer you.|request
+SYS|It would cost 3097.70USD if you took economy flights or 3916.95USD if you flew in business class.|request
+SYS|Does this fit in your budget?|request
+USR|omg that is actually perfect - our budget is 3100!|moreinfo
+USR|and what are the details??|moreinfo
+USR|whats the place like??|moreinfo
+SYS|It is a 3 star hotel close to a park and shopping and it includes free breakfast, wifi and parking.|inform
+SYS|It has a great user review of 8.22/10 so it should meet all your expectations!|inform
+USR|ok that sounds pretty good actually!!|inform
+USR|i mean id prefer better than 3 stars for our honeymoon and all but if its got a guest rating of 8.22 stars then thats good.|inform
+USR|and what at the flight dates?|inform
+SYS|The trip would be from August 27th as requested to August 31st.|inform
+USR|lets book!|inform

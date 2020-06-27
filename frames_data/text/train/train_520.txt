@@ -1,0 +1,16 @@
+USR|I need to get out of Salvador.|inform
+USR|I don't know if I can, but I want to.|inform
+USR|With 3400, can that get me to Houston?|inform
+SYS|I am sorry but I dont have anything from Salvador to Houston|no_result
+USR|what about to leon|inform
+SYS|We have 8 - 10 - 12 days trips staying at 5 star hotels|offer
+USR|what kind of amenities at the 5 star hotel?|request
+SYS|free wifi|inform
+USR|k how about...san juan|inform
+SYS|4 star hotels for 10 days @ 2499.28USD|offer
+USR|Pittsburgh|inform
+SYS|we have 8 - 11 and 12 days trip|suggest
+USR|what about the hotel?|request
+SYS|3.5 and 2.5 hotels|offer
+USR|ok cool thanks!|thankyou
+USR|just wanted to know even though i can't book|thankyou

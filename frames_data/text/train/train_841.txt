@@ -1,0 +1,25 @@
+USR|Help!|inform
+USR|My wife is working in Berlin and I need to bring the children to see her.|inform
+USR|They are driving me crazy!|inform
+SYS|Sure!|request
+SYS|Where will you leave from, and how many children are you travelling with?|request
+USR|We are in Seoul.|inform
+USR|As much as I would like to just stick them on a plane on their own, I 'll have to go too!|inform
+USR|There are 5 little hellions and me.|inform
+USR|This flight is going to be a nightmare!|inform
+SYS|I have two different 5 star hotels available for your stay!|offer
+SYS|Would you like to travel between the 8-14 or the 3-13?|offer
+USR|The sooner the better, they are driving me nuts!|inform
+USR|First she pops out 5 kids, and then she leaves them with me :tired_face:|inform
+SYS|So you would like to travel the third?|confirm
+USR|Yes the third.|switch_frame
+USR|Today's the 1st right?|switch_frame
+USR|2 more sleeps!|switch_frame
+SYS|For a 12 day stay at Starlight Hotel, leaving Seoul on September third, the price would total 12443.40USD for one adults and five children flying in economy class.|inform
+SYS|The hotel features a 8.86 guest rating, free breakfast, and complimentary wifi access for the duration of your stay.|inform
+USR|Money don't matter!|inform
+USR|Free breakfast is what counts, no cooking, yay!|inform
+USR|Plus wifi so they can play their games.|inform
+USR|Book us in, I need a vacation!|inform
+SYS|Ok, you’ve got it!|inform
+SYS|I will confirm your booking via email shortly.|inform

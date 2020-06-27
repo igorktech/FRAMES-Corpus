@@ -1,0 +1,11 @@
+USR|stuck in Beijing, but I need the first flight back to Las Vegas alright?|inform
+SYS|no results were found for this query.|suggest
+SYS|Could you be so kind so as to supply an alternate destination?|suggest
+USR|fine I can hope over to Ulsan and take off outta there
+whatcha got?|inform
+SYS|Would you fancy a 9 day stay at the Retro Inn?|offer
+USR|yea yea sure wherever
+so long as its under 2300 bucks|inform
+SYS|Unfortunately, we do not have packages that fit that price.|sorry
+USR|yea so I've heard... send me to Paris then|inform
+SYS|No results found.|no_result

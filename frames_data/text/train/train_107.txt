@@ -1,0 +1,21 @@
+USR|Hello, I want to book a trip to Coruscant.|inform
+SYS|Hi there!|sorry
+SYS|Unfortunately I don't have any vacation packages to Coruscant.|sorry
+SYS|Did you have another destination in mind?|sorry
+USR|No, it has to be Coruscant.|request
+USR|We are leaving from Mos Eisley.|request
+USR|We are 7 adults and I can spend $2200, no more.|request
+USR|Can you find me a package to Coruscant?|request
+SYS|Unfortunately I don't have any vacation packages to Coruscant.|sorry
+SYS|However, if you're intersted, I can book you a trip for 6 to Kyoto, Japan and still be well within your budget.|sorry
+SYS|How does that sound?|sorry
+USR|Like I said, I need to go to Coruscant.|negate
+USR|I don't want to go to Kyoto.|negate
+USR|Why would I want to go to Kyoto?|negate
+USR|Can you book me a trip to Coruscant or not?|negate
+USR|If you can't, you are wasting my time!|negate
+SYS|Unfortunately, I can't find any vacation packages to Coruscant.|sorry
+USR|Thank you for trying.|thankyou
+USR|I will go somewhere else.|thankyou
+SYS|No problem!|thankyou
+SYS|We hope to hear from you again in the future!|thankyou

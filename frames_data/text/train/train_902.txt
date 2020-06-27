@@ -1,0 +1,14 @@
+USR|kyoto to boston|inform
+SYS|When?|request
+USR|After sept 11.|inform
+USR|return by sept 25|inform
+SYS|How many people?|request
+USR|just me|inform
+SYS|Alright, the best option we have for you is 6 days at a 3.0 star hotel near a park with 8.37/10 rating.|offer
+USR|what is the cost|request
+SYS|I can offer you the business level for 4753.65 and the economy level for 3666.42.|offer
+USR|when do i leave?|request
+SYS|You will leave on the 20th and return on the 24th.|inform
+USR|book it please|inform
+SYS|Consider it done!|inform
+SYS|Email confirmation is coming your way.|inform

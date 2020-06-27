@@ -1,0 +1,26 @@
+USR|Hi there, I'm looking to book a trip for a week starting this Wednesday.|inform
+USR|We are two adults and seven kids|inform
+SYS|Where would you like to go?|request
+USR|I'm not sure.|inform
+USR|I have a budget of $7000|inform
+SYS|I can.|request
+SYS|Where will you be leaving from|request
+USR|Leaving from Fort Lauderdale|inform
+SYS|Punta Cana, Atlante, Burlington, New York, Minneapolis, and Guadalajara are the available destinations.|suggest
+USR|Do all of them fall under my budget if I book for a week?|request_compare
+SYS|Yes.|affirm
+USR|Can you book me a week in Burlington please?|switch_frame
+SYS|Would you like economy class seats or business class seats?|request
+USR|What's the price difference?|request
+SYS|Economy seats are 4010.72 and business class are 4770.66.|offer
+USR|Can you confirm the dates for me please?|request
+SYS|From September 7th to 12th.|inform
+USR|I need to leave on the 24th of August.|inform
+USR|Are there flights to Burlington leaving on that date?|inform
+SYS|No, sorry.|sorry
+SYS|Punta Cana is the only destination that leaves on the 24th of August.|sorry
+USR|How much does the flight out of Punta Cana cost And can I return on August 31st|inform
+SYS|This flight is from August 24th to August 30th.|offer
+SYS|The economy flight is 2197.29 and the business class flight is 2464.52.|offer
+USR|Okay book us the business class flight|inform
+SYS|I have booked your flight, have a great trip and thank you for using our services!|inform

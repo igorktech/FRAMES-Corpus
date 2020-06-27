@@ -1,0 +1,35 @@
+USR|Hola!|greeting
+USR|I need to go on a trip!|greeting
+SYS|Certainly!|greeting
+SYS|What can I assist you with?|greeting
+USR|The 6 kids miss their mommy very much.|inform
+USR|Can you take us to Jerusalem?|inform
+SYS|I’m sorry but I’m unable to offer packages to Jerusalem at this time.|sorry
+SYS|Would there be an alternate destination you could travel to ?|sorry
+SYS|Can I perhaps find you another destination ?|sorry
+USR|..... I think I got a good idea!!|inform
+USR|I can maybe go to Naples and since it's so nearby my wife can just walk over from Jerusalem eh?|inform
+SYS|Absolutely!|request
+SYS|Where would you like to leave from?|request
+USR|Cordoba|inform
+SYS|Great!|offer
+SYS|I have several options for you.|offer
+SYS|Would you like to stay for 9 days?|offer
+SYS|I also have shorter packages available if you prefer.|offer
+USR|9 days is fine.|request
+USR|Just need a hotel with something to do for the kids maybe... outdoor activities or at least wifi if all else fails|request
+SYS|The 9 day package would be at the 3 star Courtyard hotel in the heart of the city near a museum.|inform
+SYS|There is free breakfast and wifi included in your stay and the hotel has a 8.8/10 guest rating.|inform
+USR|How much is it?|request
+SYS|2603.2USD if you choose to fly economy class|inform
+USR|Are there options that are significantly better?|request_alts
+SYS|I have an 8 day package the Tower Hotel, a 4 star hotel with a 8.86/10 guest rating - though not near any noted points of interest - for 4085.46USD (economy class).|offer
+SYS|The package also includes free wifi and free breakfast.|offer
+USR|You know what, I'd prefer to take the kids to the first one.|inform
+USR|At least they can see the museum and stuff.|inform
+SYS|Great idea :slightly_smiling_face: Shall I go ahead and book that for you?|suggest
+USR|Oh you can do that??|affirm
+USR|YES PLEASE!|affirm
+SYS|Of course - consider it booked!|inform
+USR|Thanks so much!|thankyou
+USR|My kids and wife will be so excited :slightly_smiling_face:|thankyou

@@ -1,0 +1,2 @@
+USR|Do you do New York to Jerusalem?|inform
+SYS|I’m sorry, we don’t offer packages between these locations.|sorry

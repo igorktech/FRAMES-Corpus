@@ -1,0 +1,22 @@
+USR|hey, so even though the year is 2025 i need to book a trip for august 26, 2016 to calgary...|inform
+SYS|Hi there!|request
+SYS|where will you be travelling from?|request
+USR|i am leaving from Fort Lauderdale.|inform
+USR|there are 3 others coming with me
+and we want to go on August 26|inform
+SYS|Ok perfect!|request
+SYS|do you have a budget to keep to?|request
+USR|yes - 15300|inform
+SYS|Are your dates flexible?|request
+USR|sorta|inform
+SYS|Would leaving on the 27th for 10 days work?|offer
+USR|yes!|switch_frame
+USR|definitely!|switch_frame
+SYS|For those dates we have the Amusement which is a 4 star hotel with free parking and wifi for $2801|inform
+USR|ok, is that for all 4 of us?|confirm
+SYS|Yes it is :slightly_smiling_face: would you like me to book that for you?|offer
+SYS|or i can Upgrade you to Business class for $3731|offer
+USR|lets upgrade to business class!|switch_frame
+USR|i need to be well rested for the hunt|switch_frame
+SYS|Perfect let me go ahead and do that for you!|inform
+SYS|enjoy your hunting!|inform

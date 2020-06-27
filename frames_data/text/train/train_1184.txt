@@ -1,0 +1,6 @@
+USR|Hi|greeting
+SYS|Need help booking a trip?|greeting
+USR|I run this start-up in Jerusalem.|inform
+USR|Do you fly out of there?|inform
+SYS|No,sorry we do not.|sorry
+USR|Thanks anyway|thankyou

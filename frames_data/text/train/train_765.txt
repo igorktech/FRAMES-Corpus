@@ -1,0 +1,28 @@
+USR|ONE ticket from Belem to Punta Cana|inform
+SYS|Hello!|greeting
+USR|BUSINESS class|inform
+SYS|Okay.|request
+SYS|When would you like to leave?|request
+SYS|Do you have any budget in mind?|request
+USR|A superstar is not concerned with budgets.|inform
+USR|Just get me there whenever|inform
+SYS|How many days would you like to stay in Punta Cana?|inform
+USR|Just get me a good hotel|inform
+SYS|I'm afraid the best hotel in Punta Cana is 2.5 stars with a guest rating of 0/10.|sorry
+SYS|There might be better hotels in another city if you're open to other destinations.|sorry
+USR|I’d rather go to Phoenix then|inform
+SYS|The best in Phoenix is a 3 star hotel with 6.91/10 guest rating.|offer
+SYS|If this sounds better to you, we have business packages available.|offer
+USR|I think I have to go back to Punta Cana.|request
+USR|Can you make me feel a little better about this potential choice by telling me what the amenities are?|request
+SYS|It does not seem to have any amenities, but at least it's close to the beach where you can get a perfect tan for your shoot :slightly_smiling_face: I can offer you a business package for a 8 or 9 day stay.|offer
+USR|ok put me down for this|inform
+SYS|I agree!|inform
+SYS|Okay, the 8 day business package is 1711.35 and the 9 day business package is 2933.17.|inform
+SYS|Which one would you like to reserve?|inform
+USR|8 days will be enough|switch_frame
+SYS|Okay!|inform
+SYS|You are heading to Punta Cana for 8 days from Sept 7 to 13 :slightly_smiling_face: You will receive an email confirmation shortly.|inform
+SYS|Happy traveling!|inform
+USR|coolio.|thankyou
+USR|I have to thank you|thankyou

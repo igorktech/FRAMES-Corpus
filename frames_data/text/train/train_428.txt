@@ -1,0 +1,16 @@
+USR|Hi there, I'm coming up on the 10th anniversary with my lady, and I thought I'd treat her and I to something special this year.|inform
+USR|Boston is where I call home, and I thought it sure would be nice to get out of town for a change
+What destinations are on offer from my city?|inform
+SYS|Many destinations are possible.|request
+SYS|Do you have a budget or date of departure?|request
+USR|We can leave any time, though the sooner the better.|inform
+SYS|Do you have a budget?|request
+USR|You think you can do me a little favour and get us this trip for free?|inform
+USR|I never forget a favour.|inform
+SYS|I cannot book trips for free.|no_result
+USR|I have about $400 stashed away, is that enough to get me out of here?|inform
+SYS|You can spend 20 days at the Summer Covert Club in Atlanta for 368.93USD.|offer
+USR|Right on!|confirm
+USR|The wifey will be thrilled!|confirm
+USR|This is the price for two adults...correct?|confirm
+SYS|For two adults the price is 737.87USD.|offer

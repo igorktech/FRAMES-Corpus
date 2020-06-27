@@ -1,0 +1,12 @@
+USR|I AM PAPARAZZI.|request
+USR|Kingston to Toluca.|request
+USR|How much|request
+SYS|Our 8 day package to Toluca starts at 1969.40USD and our 11 day one at 1669.7USD.|offer
+USR|Ok but mind you, I need a nice hotel.|inform
+USR|The best|inform
+SYS|Both these packages are at the Apex Hotel , a 3.5 star hotel.|inform
+SYS|It is the only one we have available at the moment.|inform
+USR|Man I dont know.|request_alts
+USR|Are there better hotels in Toluca in your database, if I change parameters?|request_alts
+SYS|That really is the only one we have available.|inform
+USR|Ok I will need to sleep on this|goodbye

@@ -1,0 +1,8 @@
+USR|My name is Gary Peter and I'd like to book a trip to Diagon Alley from Godric's Hollow on August 13th.|inform
+SYS|Hi!|suggest
+SYS|I am sorry but neither of those cities appear in my system.|suggest
+SYS|Do you a major city near you that you could depart from?|suggest
+SYS|Are you interested in any other destinations?|suggest
+USR|That is unfortunate.|goodbye
+USR|Although I suppose I am just a fictional character.|goodbye
+USR|Thank you and goodbye!|goodbye

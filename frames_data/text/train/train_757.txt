@@ -1,0 +1,29 @@
+USR|hi|greeting
+SYS|How can i help you today?|greeting
+USR|do you offer flights from san jose to buenos aires?|inform
+SYS|I sure do :slightly_smiling_face: For how many people?|request
+USR|if its a good deal then i’d like to book for 6 adults|inform
+SYS|When would you like to travel?|request
+USR|between sept 12 and 25|inform
+SYS|For 6 adults I can book 15 days from September 12-25 at a 3 star hotel near a park and museum for $27860.|offer
+SYS|The hotel has a 6.61 guest rating as well as free parking, breakfast, and wifi.|offer
+USR|check denver first|inform
+SYS|Ok!|confirm
+SYS|Same dates and number of travellers?|confirm
+USR|yes yes all the same please|affirm
+SYS|In Denver I would have four different options for you - the Brass Renaissance Resort for 10 days (a three star hotel with 8.86/10 guest rating) from Sept 13-21, Solar Inn for 10 days (a three star hotel with 8.69/10 user rating) from September 15-23, or 8 days from Sept 12-18, and lastly the 3 star Oriental Resort (unrated by users) is available for a nine day stay from Sept 13-20.|offer
+USR|The Brass sounds most appealing.|request
+USR|Is it near any points of interest?|request
+SYS|It is near a park.|inform
+USR|and the solar inn?|request
+SYS|No nearby points of interest are listed in my database.|canthelp
+USR|and can you give me a sense of the costs associated for brass?|request
+SYS|8938.88USD would be the price for 6 adults.|inform
+USR|economy?|request
+SYS|That’s correct.|affirm
+USR|how much for business class|request
+SYS|11309.90USD|inform
+USR|lets do it|inform
+SYS|Indeed!|inform
+SYS|Ok, great!|inform
+SYS|I will go ahead and book that.|inform

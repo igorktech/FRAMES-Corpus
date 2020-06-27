@@ -1,0 +1,17 @@
+USR|Hi there, I live in Dublin but I've always wanted to see what's good in Goiania.|inform
+USR|Do you think that if I forked over $1800, you can get me there?|inform
+SYS|I’m sorry, but I cannot find you any trips on that budget.. The closest I can offer is an 11 day package at the Scarlet Palms Resort for just over 2000 dollars.|sorry
+USR|How about Atlanta, can you get me flights there for my budget|inform
+SYS|Maybe we could explore another destination?|suggest
+USR|Yes please, Atlanta|inform
+SYS|Ok!|offer
+SYS|Well I have two packages in Atlanta at the Summer Covert Club.|offer
+SYS|Would you prefer to leave on September 8 or August 24?|offer
+USR|It doesn't matter, which one is cheaper?|request_compare
+SYS|880.84USD would be the price for the former.|inform
+USR|Do customers like the hotel?|request
+SYS|I do not know, there have been no customer reviews.|inform
+USR|This is some risky business...but beggars can't be choosers right?|request
+USR|Okay one last thing - can you tell me the departure and return date so that I can update my parole officer?|request
+SYS|September 8-13|inform
+USR|Lets do it!|inform

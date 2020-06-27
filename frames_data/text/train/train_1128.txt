@@ -1,0 +1,6 @@
+USR|I'm getting married on the 20th in San Jose and need to try to find a honeymoon to Toronto for 9 days... all under 2200|inform
+SYS|There are no results within your budget.|no_result
+USR|duuuude.|inform
+USR|ah
+what about Ciudad Juarez|inform
+SYS|Nothing available for 2 people.|no_result

@@ -1,0 +1,34 @@
+USR|hi i want 2 bring my wife and kid 2 boston from philadelphia for 1600 from august 30 until september 14|inform
+SYS|Will this be for 2 adults and 2 children?|confirm
+USR|1 kid|inform
+SYS|I have nothing available during this time period.|request
+SYS|Are your dates flexible?|request
+USR|what about for 2600|inform
+SYS|Are your dates flexible?|request
+USR|not really|inform
+SYS|By increasing your budget, I do show two results; an 11 day package and a 5 day package withing your time frame.|suggest
+SYS|How long would you like to go for?|suggest
+USR|11 days would be amazing|switch_frame
+SYS|The Mirror Inn  is a 2 star hotel with a guest rating of  6.61/10.|inform
+SYS|Your $1639.44USD package includes breakfast, wifi and even free parking.|inform
+SYS|Take off is on August 31st and return is on Sept 10th.|inform
+SYS|How does this suit you?|inform
+USR|Is the 5 day package also at a 2 star hotel?|request
+SYS|Yes it is actually at the same hotel.|null
+SYS|The 5 day package is more expensive than the 11 day package.|null
+USR|what would be available in Phoenix same parameters|inform
+SYS|Flying out of Boston again?|confirm
+USR|no.|inform
+USR|philadelphia is our departure point|inform
+SYS|The Prism is available for 5 or 8 days.|offer
+SYS|This one is a higher rated 2.5 star hotel also including breakfast, wifi and parking.|offer
+SYS|coming out of Philadelphia|offer
+USR|Can you check out Montreal for me?|inform
+SYS|How about a 3 star in Phoenix.|no_result
+SYS|I also have the The Recreation Inn  available in Phoenix for 6 days at 1309.57USD.|no_result
+SYS|September 9th to 14th.|no_result
+SYS|All amenities included again breakfast, wifi, parking.|no_result
+SYS|I have nothing available from  Philadelphia to Montreal.|no_result
+USR|Ok, is the 6 day package hotel located near a park?|request
+SYS|No park, but it is close the university and museum and has a 6.91 / 10 guest rating.|inform
+USR|but just in case, I'm gonna run over it with my family/. I'll let you know later, thanks!|goodbye

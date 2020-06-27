@@ -1,0 +1,24 @@
+USR|looking to book a short trip out to toluca.|inform
+USR|you guys do flights there?|inform
+SYS|Yes we do!|request
+SYS|Where are you leaving from?|request
+USR|i would be leaving from columbus
+budget is 1500|inform
+SYS|Okay, when would you like to leave?|request
+USR|between sept 16 and 27|inform
+SYS|Are you travelling alone?|suggest
+USR|yes|affirm
+SYS|Unfortunately there is only one trip to Toluca from Columbus and it's from the 1st to 7th.|sorry
+USR|ok that might still work.|inform
+USR|but is there a longer trip if i paid 1800|inform
+SYS|No, it would still be the same package.|no_result
+USR|alright can you tell me a little more about the hotel?|moreinfo
+SYS|It is a 3.5 star hotel with a 7.06/10 guest rating and they offer free breakfast, free parking, and free wifi.|offer
+SYS|The cost of the economy package is 815.42 and the cost of the business package is 1001.31.|offer
+USR|ok lets just book it|inform
+SYS|Would you like to book the business package or economy package?|suggest
+USR|economy please|switch_frame
+SYS|Alright!|inform
+SYS|Your package is booked and you should receive confirmation soon by email.|inform
+SYS|Have a great day!|inform
+USR|thanks, you too!|thankyou

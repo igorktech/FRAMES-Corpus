@@ -1,0 +1,36 @@
+USR|Hello!|inform
+USR|I live in Pueblla and i must go for a internship to 1 of 3 places.|inform
+USR|I need to shop around a little as i have very little money.|inform
+USR|can you aid me with this task|inform
+SYS|Sure!|confirm
+SYS|Do you mean puebla?|confirm
+USR|yes, but i want to go to Seoul|inform
+SYS|Do you need to be there for specific dates?|request
+USR|aug 30 to sept 12|inform
+SYS|I'm sorry, we do not have flights to Seoul on those dates.|sorry
+SYS|What other cities are you considering?|sorry
+USR|Chicago do u have something cheap there|inform
+SYS|The best option I can offer you leaves August 31st.|request
+SYS|Are your dates flexible at all?|request
+USR|August 31 is fine i can leave bit later|switch_frame
+SYS|Great!|inform
+SYS|Then you could stay at the Sierra Inn & Suites from August 31st to September 17th.|inform
+SYS|It is only a 2 star hotel, but it would only cost you 413.32USD.|inform
+USR|Sounds good but any way I can come back before 17|inform
+SYS|Yes, I have another package at the same hotel from August 31st to September 12th.|offer
+SYS|This one would cost you 427.42USD.|offer
+USR|is there wifi at this hotel i will need that for my project|request
+SYS|Yes!|inform
+SYS|There is free wifi, breakfast and parking.|inform
+USR|i like this package very much but i must check for packages in north vancouver too|inform
+SYS|We currently do not have flights to North Vancouver on the dates that you need.|no_result
+USR|so i guess iw ill go with best deal Sierra Inn from Aug 31 to Sept 12.|switch_frame
+USR|I travel alone- do you know if it is safe neighbourhood?|switch_frame
+SYS|I'm afraid I do not have that information.|sorry
+SYS|All I can tell you is that it is close to a park and to the airport.|sorry
+USR|what is guest rating|request
+SYS|7.06/10|inform
+USR|that seem good, i will book!|inform
+USR|Gracias!|inform
+SYS|No problem!|inform
+SYS|I'll send you a confirmation once the booking is complete.|inform

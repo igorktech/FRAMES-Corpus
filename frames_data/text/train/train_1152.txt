@@ -1,0 +1,18 @@
+USR|Hello I am looking to bring my 6 kids and I to Portland and leave from Minneapolis.|inform
+USR|We can travel whenever and have no budgetary constraints.|inform
+SYS|Unfortunately we don't have any available trips to Portland as of right now.|sorry
+SYS|Is there another city you can go to?|sorry
+USR|Ahh... Let's check Santos then|inform
+SYS|Okay, our best deal in Santos is a 7 day trip at a 3.5 star hotel near a museum and a palace.|offer
+USR|Reasonable.|request
+USR|Any free wifi for the kids?|request
+SYS|Yup, plus free breakfast!|inform
+USR|ok!!|inform
+USR|Go for it!|inform
+SYS|Okay!|offer
+SYS|It will be from Sept 22-27.|offer
+SYS|Do you want to go for business flights for 14513.87 or economy flights for 11317.39?|offer
+USR|Economy please!|switch_frame
+SYS|Done!|inform
+SYS|Confirmation will be coming via email.|inform
+SYS|Hope you have a good trip :slightly_smiling_face:|inform

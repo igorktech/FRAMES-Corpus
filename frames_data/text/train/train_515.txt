@@ -1,0 +1,25 @@
+USR|yes hi.|inform
+USR|dublin to osaka|inform
+SYS|How many people?|request
+USR|2|inform
+SYS|2 Adults or 2 children?|suggest
+USR|thats insulting.|affirm
+USR|adults|affirm
+SYS|Budget?|request
+USR|NO|inform
+SYS|When would you like to leave and return?|request
+USR|leave whenever.|inform
+USR|i should be back for September 11|inform
+SYS|We have a 4 star hotel near a park and museum.|offer
+SYS|The hotel has a 8.69/10 guest rating and offers free parking and wifi.|offer
+SYS|The package is from August 27th to September 4th and is a business class flight for 10757.39.|offer
+USR|i mean… thats ok i guess.|inform
+USR|what do you have in berlin|inform
+SYS|This is a 5 star hotel with a 8.86/10 guest rating and free breakfast and wifi.|offer
+SYS|The flight is business class and is from August 30th to September 10th.|offer
+SYS|The total cost of this trip is 5591.24.|offer
+USR|that sounds lovely.|inform
+USR|book it|inform
+SYS|Wonderful!|goodbye
+SYS|It is booked!|goodbye
+SYS|Have a nice vacation!|goodbye

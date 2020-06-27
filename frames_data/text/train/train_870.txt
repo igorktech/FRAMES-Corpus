@@ -1,0 +1,43 @@
+USR|I have to get home and to be honest with you I'm kinds happy cause I'm sick of carrying around this 50lb backpack!|inform
+SYS|Sure!|request
+SYS|Where are you looking to go?|request
+SYS|And where are looking to leave?|request
+USR|Berlin.|inform
+USR|Tofino.|inform
+SYS|Is there an alternate departure point you could travel from?|suggest
+USR|Toronto|inform
+SYS|Starlight Hotel is available.|offer
+SYS|You can depart September third.|offer
+USR|How much!|switch_frame
+SYS|For this package, a 14 day stay, it's 2459.74USD.|offer
+SYS|An alternate package is available for 2162.77USD from September 8th-17th|offer
+USR|The 3rd is definitely better.|request
+USR|What else can you tell me about what this hotel offers?|request
+SYS|The hotel is 5 stars, has free breakfast and wifi, and is near cathedrals and museums.|inform
+USR|5 star sounds nice after sleeping on the side of the road for months!|request_alts
+USR|But do you have anything cheaper?|request_alts
+USR|Not used to spending money like that.|request_alts
+SYS|That is the cheapest price available unless you leave on the 8th.|suggest
+USR|Even if I go down in hotel category or stay a max of 5 days?|request_alts
+SYS|Yes, just 2162.77USD for 10 days leaving on the 8th.|inform
+USR|I don't need to stay 14 days|negate
+SYS|As I said, 10 days.|inform
+USR|No 5 day packages?|inform
+SYS|No, sorry.|sorry
+USR|Actually.|inform
+USR|let's just see if we can find something in Sao Paulo out of Toronto.|inform
+SYS|I have nothing from Toronto to Sao Paulo.|no_result
+USR|Tofino To Sao Paulo?|inform
+SYS|I have nothing from Tofino to Sao Paulo.|no_result
+USR|Ugh!|inform
+USR|I really need to get home...I'll just book the flight leaving on the 3rd.|inform
+SYS|You're booked!|inform
+USR|What was the name of the place again?|request
+SYS|Berlin.|inform
+USR|The hotel|request
+SYS|Starlight Hotel is available|inform
+USR|Yeah that's the one.|null
+SYS|Ok.|inform
+SYS|Done.|inform
+USR|thanks bud|thankyou
+SYS|My pleasure!|you_are_welcome

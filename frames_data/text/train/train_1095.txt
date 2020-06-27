@@ -1,0 +1,39 @@
+USR|Hey, I need to get to Punta Cana!|inform
+USR|For some important business!|inform
+SYS|Ok!|request
+SYS|From where?|request
+USR|From Tokyo.|inform
+USR|And I'll be bringing my kids with me.|inform
+SYS|How many people in total?|request
+USR|1 adult and 3 kids.|inform
+SYS|And what is the budget for you all?|request
+USR|11600|inform
+SYS|Great!|suggest
+SYS|I have 5 or 6 day packages available.|suggest
+SYS|Do you have any preference?|suggest
+USR|Is a 6 day package the longest you have?|request
+SYS|Yes, it is.|affirm
+USR|How many 6 day packages do you have?|inform
+SYS|Just one, but with either economy or business class flights.|offer
+USR|How much is it and what does it include?|request
+SYS|8320.93USD is the price for your family and the hotel is 2.5 stars, located on the beach.|inform
+USR|That doesn't sound too bad.|inform
+USR|If I increase my budget, would you be able to get me a longer package deal?|inform
+SYS|There is an 11 day package at an unrated hotel for 7909.84USD total.|offer
+USR|So you do have something longer!|request
+USR|Is that hotel also on a beach?|request
+SYS|No, it is near a palace.|inform
+USR|That also sounds good.|inform
+USR|Any other longer package deals that you've been hiding from me?|inform
+SYS|Shall I book?|suggest
+USR|Okay then, I'll book the 11 day package.|inform
+SYS|Ok, great.|suggest
+SYS|Would you like to upgrade to Business class flights?|suggest
+USR|How much would that be?|request
+SYS|10546.23USD|inform
+USR|Sure, that sounds good.|inform
+USR|I'll take that!|inform
+USR|The children will enjoy it.|inform
+SYS|Wonderful.|inform
+SYS|Enjoy your stay|inform
+USR|Thanks!|thankyou

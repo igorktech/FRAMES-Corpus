@@ -1,0 +1,19 @@
+USR|Where can this guy go for 2400???|inform
+USR|I live in Mexico City.|inform
+USR|been dreaming of a trip to Milan|inform
+SYS|Would you like to book a trip?|confirm
+SYS|I can help you with that.|confirm
+SYS|Is Mexico City your departure and Milan your destination?|confirm
+USR|yes|affirm
+SYS|dates of travel?|request
+USR|none yet.|request
+USR|as in i'm not sure.|request
+USR|just tell me about whatever is in your system and i will ponder the possibilities|request
+SYS|we do not have any packages in Milan from Mexico City|no_result
+USR|Really.|inform
+USR|do you have packages to baltimore then?|inform
+SYS|no|negate
+USR|i came here to dream, not to get nightmares.|inform
+USR|i'll give you one last chance mexico city to munich or i hang up|inform
+SYS|I apologize but we do not have any flights out of Mexico City|no_result
+USR|i do not apologize but i will never be using this service again|goodbye

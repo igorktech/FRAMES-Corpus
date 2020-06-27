@@ -1,0 +1,37 @@
+USR|Hi there.|inform
+USR|We are three adults trying to get from Frankfurt to check out some of the hippest cities on earth|inform
+SYS|Okay!|request
+SYS|Do you have a budget?|request
+USR|I do, 9200 for all of us|inform
+SYS|Do you know when you'd like to leave?|request
+USR|Some time between Aug 31 and Sept 8|inform
+SYS|We have an awesome business flight to Ulsan for 7763.68.|offer
+SYS|This is a 5 star hotel near a park, shopping, and mall.|offer
+SYS|They have a 8.8/10 guest rating and they offer free parking and wifi.|offer
+SYS|This package is from August 31st to September 8th!|offer
+USR|Thats really great actually.|inform
+USR|But could you check Tokyo for us.|inform
+USR|We read something about it in GQ|inform
+SYS|We have one result for Tokyo at a 3 star hotel near a museum and shopping.|offer
+SYS|They have a 6.77/10 guest rating and offer a spa and free wifi.|offer
+SYS|The trip is from September 2nd to 6th, it is an economy flight and costs 8681.73.|offer
+USR|Oh nice.|inform
+USR|How about Calgary?|inform
+SYS|We have a 4 star hotel near a university, they have a 0/10 guest rating, and offer free parking and wifi.|offer
+SYS|The trip is from September 2nd to 7th.|offer
+SYS|The business package costs 6077.55 and the economy package costs 4557.29.|offer
+USR|0/10???|confirm
+SYS|Correct.|affirm
+USR|That actually sounds very hip to us, I love it|switch_frame
+SYS|Would like to book one of these packages?|suggest
+USR|Whats the name of this hotel?|inform
+USR|The Calgary one that is|inform
+SYS|Amusement|inform
+USR|Ok yes lets book it|inform
+SYS|Great!|suggest
+SYS|Would you like business flights or economy flights?|suggest
+USR|economy would be good enough for us|switch_frame
+SYS|Okay great!|inform
+SYS|Your trip is booked and you will receive a confirmation email shortly!|inform
+SYS|Have fun!|inform
+USR|Thanks!!|thankyou

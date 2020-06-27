@@ -1,0 +1,30 @@
+USR|Hey there!|inform
+USR|I'm looking to surprise the family with a little vacay Leaving London from Sept 6, trying to be back around the 24th.|inform
+USR|Can you tell me whats available for Belem?|inform
+USR|2 adults 2 kids|inform
+SYS|Would you be looking into 8 days packages or 11 days packages?|offer
+SYS|We have 4 stars and 4.5 star hotels|offer
+USR|I would be interested in whatever I can afford with 6800!|inform
+SYS|We have a package at 5952.41USD, at a 4.5 star hotel near the beach :slightly_smiling_face:|offer
+USR|Wow that sounds fantastic :smile: Is breakfast and wifi free?|request
+SYS|Yes.|inform
+SYS|free parking, free breakfast, free wifi.|inform
+SYS|Leaving on September 8th and coming back on September 14.|inform
+USR|Sounds like a wonderful package, I'm quite impressed!|inform
+USR|What is available in Kobe?|inform
+SYS|I have 8 days trip, 7 days trip or 5 days trip|offer
+USR|What quality are the hotels?|request_compare
+SYS|I have 4.5 stars for the 7 days trip at 3414.7USD or 4411.89USD business class.|offer
+USR|What is the hotel near?|request
+USR|What amenities are included?|request
+SYS|free wifi.|inform
+USR|What is it close to....|request
+SYS|I am sorry I dont have that information|sorry
+USR|Ok, well, so far I'm more impressed with Belem.|inform
+USR|But just before we book can you check out Berlin for me?|inform
+SYS|I am sorry, I couldn't find anything|sorry
+USR|Well ok.|inform
+USR|That's fine.|inform
+USR|The Belem package sounds lovely anyways.|inform
+SYS|You're booked|inform
+USR|Thank you|thankyou

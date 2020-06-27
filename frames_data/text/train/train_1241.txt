@@ -1,0 +1,29 @@
+USR|Anything to Minneapolis from Calgary?|inform
+SYS|How many people is this for and are you on a strict budget?|request
+USR|No budget in mind.. And I'll be traveling solo!|inform
+USR|Although I can only go between Sept 8-18.|inform
+SYS|Yes, we have one package that lasts 8 days at just a mere 556.43 for economy class!|suggest
+SYS|Are you interested in booking this trip?|suggest
+USR|That's really cheap!|switch_frame
+USR|Is it a good hotel?|switch_frame
+SYS|It's 2.5 stars with a guest rating of 7.15/10.|suggest
+SYS|There's a university nearby and it includes free breakfast, parking, and wifi.|suggest
+SYS|Does this interest you?|suggest
+USR|Is there another option?|request_alts
+SYS|That's all we have, I'm afraid!|sorry
+SYS|You can only choose between business and economy.|sorry
+SYS|What will you decide?|sorry
+USR|Don't think I can decide anything until you help me see what's in Dallas first.|inform
+SYS|I'm afraid there is nothing to be found in Dallas.|sorry
+USR|Is there a business class option for the Minneapolis trip?|inform
+SYS|Yes indeed!|suggest
+SYS|It costs a grand total of 633.72!|suggest
+SYS|Shall I book this trip for you?|suggest
+USR|When does this trip begin?|request
+SYS|You leave on Thursday September 8th and return the 15th!|suggest
+SYS|Shall I proceed with booking?|suggest
+USR|Alright that works!|inform
+USR|Please proceed with business class!|inform
+SYS|Your booking has now been processed.|inform
+SYS|Enjoy your stay :slightly_smiling_face:|inform
+USR|Perfect thanks!!|thankyou

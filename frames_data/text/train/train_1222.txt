@@ -1,0 +1,33 @@
+USR|Hey!|inform
+USR|So I'm in charge of planning the next vacay for my wife and me plus our seven munchkins.|inform
+SYS|So that would be 2 adults and 7 children?|request
+SYS|Where are you coming from and where would you like to go?|request
+USR|Yup!|inform
+USR|Our family's settled in Vancouver.|inform
+USR|I've got a few sweet destinations in mind but can you help me check Punta Cana first?|inform
+SYS|Not a problem.|request
+SYS|Do you have a fixed budget?|request
+USR|Yeah that's the hard part... we're hoping to spend only 1300|inform
+SYS|I'm afraid we have nothing that accommodates your budget.|sorry
+SYS|Could you expand your budget?|sorry
+USR|Ugh that's what I thought.|inform
+USR|The most I can convince her to spend is $1000 more|inform
+SYS|I'm afraid we still don't have anything that accommodates your budget.|sorry
+SYS|Would you like to try another destination?|sorry
+USR|This is harder than I thought... What about Denver?|inform
+SYS|I have an 8 day package to Denver costing at 1900.60 for business and 1420.71 for economy.|offer
+SYS|Would this interest you?|offer
+USR|Sounds pretty good.. can you tell me more about the hotel?|moreinfo
+SYS|It's 3 stars with wifi included and there is a museum and university nearby.|inform
+USR|How much did other guests like it?|request
+SYS|There's no guest rating for this one, I'm afraid.|sorry
+SYS|Are you still interested in this package?|sorry
+USR|Are there any other hotels or packages in Denver?|request_alts
+SYS|I'm afraid that's all we have for Denver...|sorry
+USR|Okay.. anything for Santiago then?|inform
+SYS|Nothing that suits your accommodation I'm afraid.|sorry
+SYS|How else may I help you?|sorry
+USR|That's all for now!|goodbye
+USR|I'm going to talk to my wife about the Denver option and come back to you once we've decided.|goodbye
+SYS|My pleasure.|thankyou
+SYS|Have a good day.|thankyou

@@ -1,0 +1,28 @@
+USR|Hi im from Sydney and i want to go to mannheim|inform
+SYS|Ok, great!|request
+SYS|Any time or money constraints?|request
+USR|no budget but i want to go on August 17th to the 31st|inform
+SYS|Ok, let me see what I can do :slightly_smiling_face: Will you be travelling alone?|suggest
+USR|Yes i will be!|affirm
+SYS|Based on the information you’ve given me I can offer you the 5 star Regal Resort from August 17-22!|offer
+USR|What does it offer?|moreinfo
+SYS|Your package, priced at 2059 USD, offers free wifi and access to an onsite spa.|inform
+USR|Do you have anything in Denver|inform
+SYS|I have multiple 3 star hotels available for your dates in Denver!|suggest
+USR|Please tell me about the one that offers the most|switch_frame
+SYS|The Brass Renaissance Resort offers free breakfast and free wifi.|offer
+SYS|It is located near a park.|offer
+USR|how much would it be!|request
+SYS|I can offer you a 6 day package for 1164.27USD|inform
+USR|Any other cheaper hotels|inform
+SYS|In Denver, the cheapest I can do for a 6 day package is 821.83USD at the Oriental Resort.|offer
+SYS|This hotel is located near a University and a Museum.|offer
+USR|whats the rating of this one|switch_frame
+SYS|3.0 stars|inform
+USR|Doyou have anything ini Munich?|inform
+SYS|I have a 5 star hotel in Munich for 2040.38USD!|offer
+USR|Is that more expensive than Regal?|switch_frame
+SYS|No, it is about 20 dollars cheaper.|inform
+USR|Can we book the one to Regal?|inform
+SYS|Done!|inform
+USR|Perfect Thank you!|thankyou

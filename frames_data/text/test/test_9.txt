@@ -1,0 +1,33 @@
+USR|I would like a vacation for one in Mannheim from August 17 to September 7.|inform
+USR|My city of departure is Porto Alegre.|inform
+USR|It should cost less than $3000.|inform
+SYS|I do not have a travel package to Mannheim from Porto Alegre for these travel dates.|offer
+SYS|I do however, have packages available from August 17th to the 29th.|offer
+SYS|Would these dates work for you?|offer
+USR|How much would this package cost?|request
+SYS|I have two options.|inform
+SYS|The first option is a travel package which costs 2314.59 USD.|inform
+SYS|The second package costs 2981.83 USD.|inform
+SYS|Which one would you prefer?|inform
+USR|If I increase my budget to $6000, does that open up any options from August 17 to September 7?|inform
+SYS|I still have only two packages available from August 17th to September 7th.|suggest
+SYS|Would you like to try a different travel destination?|suggest
+USR|What other destinations can you offer me with these dates?|inform
+SYS|I have no other destinations available for these dates.|suggest
+SYS|Would you like to change the start date or the end date?|suggest
+USR|Are there packages for two-week trips within these dates?|inform
+SYS|I have two possible packages for you.|inform
+SYS|Atlanta, United States, to Indianapolis, United States or Brasilia, Brazil to Vancouver, Canada.|inform
+SYS|Which would you prefer?|inform
+USR|Are both of the packages to Porto still available if I bring my wife with me?|inform
+SYS|The only package which would be available would be Atlanta, United States to Vancouver, Canada.|inform
+SYS|I have two packages available for you: one for  $2182.70, and another for $2326.54.|inform
+SYS|Would you like me to describe these two packages for you?|inform
+USR|Yes, please.|affirm
+SYS|The first travel package is an Economy flight from Atlanta, United States to Vancouver, Canada at 6:00 p.m. on August 11th,  and an Economy flight from Vancouver, Canada to Atlanta, United States at 10:00 a.m on August 14th.|inform
+SYS|The cost of $2182.70 includes a 4 star hotel with a 8.8/10 rating.|inform
+USR|What is the second package|switch_frame
+SYS|The second travel package is an Economy flight from Atlanta, United States to Vancouver, Canada at 6:00 p.m. on Friday, August 19th, and an Economy flight from Vancouver, Canada to Atlanta, United States at 10:00 a.m. on Monday, August 22nd.|suggest
+SYS|The cost of $2326.54 includes a 4 star hotel with guest rating of 8.8/10.|suggest
+SYS|Would you like to book this travel package?|suggest
+USR|I would like to book the first package to Vancouver|inform

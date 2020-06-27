@@ -1,0 +1,29 @@
+USR|Get me to Atlanta!|inform
+SYS|Ok!|request
+SYS|From where?|request
+USR|Kochi!|inform
+USR|I need to bring it back to Kochi!|inform
+SYS|I have a lovely package to the Crown Plaza Hotel leaving tomorrow, how does that sound?|offer
+USR|Will it be able to fit my 5 lawyers and 3 mini-chefs too?|switch_frame
+SYS|Sorry, I do not understand.|reject
+SYS|How many adults?|reject
+USR|That would be 6 adults total including me.|inform
+USR|And 3 kids yo|inform
+SYS|Ah, well yes it would be available for your entire party!|inform
+SYS|The cost would be 26719.14USD|inform
+USR|Man I was planning on spending much more than that to get a really nice package... since all of us are so high-class and picky you know|request_alts
+SYS|There are only two hotels available, both are 3 stars, and the one I have suggested to you has the higher guest rating.|inform
+USR|Ugh fine.|request
+USR|Is it near anything of interest?.|request
+USR|Oh also!|request
+USR|Does it have wifi for the kids to play their games?|request
+SYS|Yes, it has free wifi.|inform
+USR|You said it leaves tomorrow right?|confirm
+SYS|That’s right!|inform
+SYS|And returns September 26th.|inform
+SYS|Does that work for you?|inform
+USR|Alright book it for us please!|inform
+SYS|Ok, I will go ahead and book.|inform
+SYS|Enjoy your stay!|inform
+USR|Thanks!|thankyou
+USR|Very excited!|thankyou

@@ -1,0 +1,24 @@
+USR|I need to get to St. Petersburg to shoot another movie.|inform
+USR|Im in Guadalajara|inform
+SYS|Sorry to inform you we currently do not offer flights between those two cities.|sorry
+SYS|Is there somewhere else you'd like to go?|sorry
+USR|this happened last time too ugh.|inform
+USR|I’m kind of getting sick of Selena always ranting about her Justin and Demi problems ugh.|inform
+USR|I’ll just go to Goiania anyway and hope for the best.|inform
+SYS|We do have some options for that.|offer
+SYS|Our best one is a 3.5 star hotel close to the museum, shopping, and airport.|offer
+SYS|We have availabilities for 14 days.|offer
+USR|sure that works.|moreinfo
+USR|Tell me more about the package|moreinfo
+SYS|It has a guest rating of 8.69/10, free parking, free breakfast, and free wifi.|inform
+USR|what are the dates|request
+SYS|Sep 14-27.|inform
+USR|kk.|inform
+USR|How long is the flight and can i get business?|inform
+SYS|Of course, I can get you into business class for 3261.73.|offer
+USR|thanks.|inform
+USR|book it.|inform
+SYS|Consider it done!|inform
+SYS|Anything else I can do for you today?|inform
+USR|Nope.|thankyou
+USR|Thank you|thankyou

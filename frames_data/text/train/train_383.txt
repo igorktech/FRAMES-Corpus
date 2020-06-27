@@ -1,0 +1,24 @@
+USR|Hi My cousin is getting married so I'm looking for a place to stay in Milan from August 27th to September 1st :slightly_smiling_face: I'd be leaving from Punta Cana|inform
+SYS|Great :slightly_smiling_face: Ok, I have El Mundo Hotel available from August 27-31.|offer
+SYS|It’s a four star hotel near the airport with free wifi and breakfast.|offer
+USR|That could work!|request
+USR|How much is it?|request
+SYS|2488.66USD|inform
+USR|Is that the price for 2 people?|inform
+SYS|Just one.|suggest
+SYS|Would you like to know the price for two adults?|suggest
+USR|yes that would be great!|switch_frame
+USR|I'm going with my husband|switch_frame
+SYS|Ok :slightly_smiling_face: In that case I could book the two of you for 4977.33USD|inform
+USR|That's a bit expensive!|inform
+USR|Do you have any cheaper deals?|inform
+SYS|I’m sorry, nothing available for two people at a lower price from Punta Cana to Milan :disappointed:|sorry
+USR|What about if we left earlier?|inform
+USR|Like the 25th?|inform
+SYS|I do have options available leaving on the 25th, however they are more expensive.|suggest
+USR|Ok, let me see them|switch_frame
+SYS|Let me know when you are ready to book :slightly_smiling_face:|suggest
+USR|My husband didn't want to come anyways and we can't afford to both go so I guess i'll book hotel for one person|inform
+SYS|Ok, sure thing!|inform
+SYS|I will take care of that for you|inform
+USR|Thank you!|thankyou

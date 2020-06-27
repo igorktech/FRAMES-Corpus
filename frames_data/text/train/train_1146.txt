@@ -1,0 +1,25 @@
+USR|I have business in Belem… business that requires me to be in close proximity to 5-star hotel type clients.|inform
+USR|I’m leaving from Vitoria, 3200 dollar
+budget|inform
+SYS|Ah I see.|request
+SYS|Do you have departure and return dates in mind?|request
+SYS|And how long would you like to go for?|request
+USR|I just need to be there after the 21st.|inform
+USR|I can stay as long as my budget allows|inform
+SYS|Not a problem!|offer
+SYS|Our most highly rated hotel is a 4.5 star for 6 days, and business class would cost you 3046.43, fitting you right with the budget!|offer
+SYS|Does this interest you?|offer
+USR|That might be good — sounds diva worthy.|request
+USR|is there a spa on site?|request
+SYS|I'm afraid we don't have any hotels that offer spas but there is a beach!|sorry
+USR|That should be fine….|null
+USR|I think I’ll find who I’m looking for|null
+SYS|Excellent.|suggest
+SYS|I'll book it straight away then!|suggest
+USR|Downgrade to economy class though please
+I don’t need to fly business|negate
+SYS|I will switch to economy seats|inform
+USR|I can use that extra money on a wide angle lens.|thankyou
+USR|thanks|thankyou
+SYS|You're welcome.|you_are_welcome
+SYS|Expect an email with all the details within the next hour.|you_are_welcome

@@ -1,0 +1,33 @@
+USR|Hi there, I'd like to take my young'uns somewhere nice I also want to impress my wife with my good taste|inform
+SYS|I can help you with your request.|request
+SYS|Please specify the amount of adults and children that will be travelling together.|request
+USR|Yes I will be traveling with six children and two adults including myself.|inform
+USR|Can you let me know if 13200 is enough to get us to Fukuoka?|inform
+SYS|Where would you be departing from?|request
+USR|Departing from Cairo|inform
+SYS|Do you have certain dates in mind?|request
+USR|Yes, it would have to be between August 25 and Sept 12|inform
+SYS|Between those dates, I have 10, 12 and 16 day packages available.|offer
+SYS|Which one would you prefer?|offer
+USR|I'd be interested in hearing more about the 16 day if it fits my schedule.|moreinfo
+USR|What's the hotel like?|moreinfo
+SYS|The 16 day package departs August 25th and returns on Sept 8th.|inform
+SYS|It is at the HOTEL Sugoi, a 3 star resort.|inform
+SYS|Wifi is included in every room and this hotel is located near the palace.|inform
+SYS|This package is worth 11190.20USD.|inform
+USR|Wow that sounds really good.|inform
+USR|But my wife is very particular so I will need to ask you about a few more destinations.|inform
+USR|Can you tell me if we can get anything good to Santo Domingo?|inform
+SYS|In Santo Domingo, there is availability for a 14 day stay at The Rose Sierra Hotel, a 3 star resort located on the beach and within walking distance to shopping.|offer
+USR|Does it have good guest rating?|request
+SYS|7.06 / 10|inform
+USR|Okay cool.|inform
+USR|How about Indianapolis?|inform
+SYS|Also 14 day stays, departing either on the 27th or 30th|offer
+USR|Yes but how is the hotel?|request_compare
+SYS|There are two choices, depending on what departure date you choose.|inform
+SYS|Hotel Liberty is a 2.5 star hotel on the beach and close to shopping.|inform
+SYS|Hotel Vanilla is a 3 star hotel on the beach but close to airport, park and university.|inform
+SYS|Hotel Liberty is a package deal worth $5347.25USD and Hotel vanilla is a package deal worth $6687.46USD.|inform
+SYS|Pricing on these is based on economy class flights for everybody.|inform
+USR|Wow thats pretty attractive as well Ok I can't book yet since I need to check in with the Mrs. But I will let you know Thanks|thankyou

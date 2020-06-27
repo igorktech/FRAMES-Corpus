@@ -1,0 +1,17 @@
+USR|HI there!|greeting
+USR|my family and i are looking to go to Burlington|greeting
+SYS|I can certainly help you with that!|request
+SYS|How many of you will be travelling?|request
+USR|1 child and 6 adults|inform
+SYS|Ok!|request
+SYS|Where would you like to leave from?|request
+USR|Campinnas|inform
+SYS|Would you like to spend August 17-August 24 in Burlington?|offer
+SYS|I have flights and a hotel available for 9610.39USD.|offer
+USR|ya sure that sounds great!|switch_frame
+USR|and how much would that be for business?|switch_frame
+SYS|To upgrade that package to Business class would total 12376.71USD.|offer
+USR|Let's book it!|switch_frame
+USR|too good of a deal!|switch_frame
+SYS|Sure thing :slightly_smiling_face: Enjoy your stay!|inform
+USR|thank you!|thankyou

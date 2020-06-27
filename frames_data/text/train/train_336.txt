@@ -1,0 +1,39 @@
+USR|Hey there!|greeting
+SYS|Good morning!|greeting
+SYS|How may I help you?|greeting
+USR|I’ve been tasked with booking my own little Brady bunch a dandy tripadoodle the end of this summer :smile: There’s me, my wife, and 7 little angels.|inform
+USR|We would like to check out our options in Mexico City, leaving from Munich, with a budget of 12600.|inform
+SYS|I'd love to help you with that!|offer
+SYS|The first package I can offer you is a 7 day stay at Hotel Tropic which is close to the beach and shopping.|offer
+SYS|It would be from September 2nd to 7th.|offer
+SYS|Would those dates work for you?|offer
+USR|Wow, yippee!|inform
+USR|That’s a stupendous sounding vacation!|inform
+USR|Oh yes, those dates are just fine.|inform
+USR|I guess I should’ve told ya earlier but we are free to travel from August 30th until September 12th.|inform
+SYS|Great!|suggest
+SYS|Should I book this one for you or would you like to consider more options?|suggest
+USR|I’ve gotta be good and thorough though, this trip is gonna set the standard for all our family getaways to come.|request_alts
+USR|What else is available?|request_alts
+SYS|Another option for your family would be to spend 7 days at the 3.5 star Exalted Willow Resort & Suites.|offer
+SYS|This one is also close to the beach and would come out to 10688.56USD.|offer
+USR|Oh, so how many stars was the Hotel Tropic spot you first mentioned?|inform
+SYS|That one had 3 stars.|inform
+USR|Ok!|inform
+USR|Now, I have another destination that I’m interested.. are there any packages available if we went to San Diego?|inform
+SYS|In San Diego I can offer you a week long package at a 2.5 star hotel, Majestic Mountain Inn.|offer
+SYS|It includes free breakfast, wifi and parking.|offer
+SYS|The total cost of this holiday would be 10956.9USD.|offer
+USR|Ok.. well, we are also thinking about visiting Essen as that’s where my wife’s family is from.|inform
+USR|Could you tell me anything about packages to Essen from Munich ?|inform
+SYS|Essen would be a much cheaper destination.|offer
+SYS|I have an 8 day holiday package at the Relaxation Hotel available.|offer
+SYS|You could fly in business class for 3702.62USD.|offer
+USR|Hmm yes, of course.|switch_frame
+USR|Far more affordable to travel domestically.|switch_frame
+USR|I think Mexico City would be far more fun that seeing the crusty in-laws… Let’s go back to those packages.|switch_frame
+USR|I think I’d like to book Exalted in Mexico City.|switch_frame
+USR|It sounds very exotic and beautiful.|switch_frame
+SYS|Sure!|suggest
+SYS|Would you like to go ahead with a booking or would you prefer if I check for more options?|suggest
+USR|Let’s do it :smile:|inform

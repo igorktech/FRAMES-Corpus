@@ -1,0 +1,24 @@
+USR|Can you help me book a trip to Mexico City?|inform
+USR|We'll be 4 adults and 6 kids from Long Baech.|inform
+SYS|When would you like to travel?|request
+USR|Our dates are flexible.|inform
+SYS|I have 6, 9, 10 and 12 day packages available in Mexico City.|request
+SYS|Do you have a dollar amount in mind that you are willing to spend?|request
+USR|I would prefer the longer packages, but my budget total is 8300.|inform
+SYS|For $8300, the longest I can offer you is 6 days at either the Coast, Sublime Echo or the Hotel Tropic.|offer
+SYS|All 3 are located on the beach.|offer
+SYS|The first one is a 3.5 star and the other 2 are 3 star resorts.|offer
+USR|If I increase my budget to $9800, would there be much better options?|inform
+SYS|At that budget, I can offer you the Exalted Willow Resort & Suites for 12 days.|offer
+SYS|Located on the beach, this 3.5 star offers free parking and unlimited wifi.|offer
+SYS|The total price for this resort, economy flights included is 9647.67USD.|offer
+USR|Are there any other options or is this it?|request_alts
+SYS|The other option would be a 10 day package at the Hotel Tropic, discussed previously on the 6 day package.|offer
+SYS|This a 3 star resort beachfront resort offered at a cost of 9774.68USD.|offer
+USR|I would definitely prefer the Exalted Willow Resort & Suites.|switch_frame
+SYS|Should I proceed with the booking then?|suggest
+USR|Yes please!|affirm
+SYS|I have taken care of it.|inform
+SYS|Have a good day.|inform
+USR|Super!|thankyou
+USR|Thanks!|thankyou

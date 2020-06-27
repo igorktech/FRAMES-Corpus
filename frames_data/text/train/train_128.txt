@@ -1,0 +1,28 @@
+USR|Hi.|inform
+USR|I'd like to book a trip from Nagoya to Phoenix from August 15th to August 29th.|inform
+SYS|For how many people?|request
+USR|1|inform
+SYS|And do you have a budget for this trip?|request
+USR|nope|inform
+SYS|I cannot offer any better than 2.5 star hotels.|offer
+SYS|The best that I can offer you is a 10 day 2.5 star hotel with the departure flight leaving on August 15th.|offer
+USR|How about San Francisco?|inform
+SYS|How about a 13 day stay at a 2 star hotel for 3104.34 USD.|offer
+SYS|The flight leaves on August 15th and returns August 26th.|offer
+SYS|The hotel includes free breakfast, wifi and parking!|offer
+USR|Is there anything available to Atlanta?|inform
+SYS|I have just the trip for you!|offer
+SYS|How about 5 days at Summer Covert Club, a 3.5 star resort with free wifi and parking, for 3741.11 USD?|offer
+SYS|The flight leaves on August 15th at 8:37am.|offer
+USR|maybe.|inform
+USR|Do you have any information for Busan?|inform
+SYS|We certainly do!|offer
+SYS|I have offers starting at only 398.99USD for a 3 star hotel including breakfast, wifi and parking.|offer
+SYS|The flight departs on August 18th.|offer
+USR|I think I will book the 13 day stay in San Francisco.|inform
+SYS|San Francisco it is!|suggest
+SYS|Shall I go ahead and book the trip?|suggest
+USR|Yes, thank you|thankyou
+SYS|Excellent!|goodbye
+SYS|The trip is booked.|goodbye
+SYS|Thank you and goodbye.|goodbye

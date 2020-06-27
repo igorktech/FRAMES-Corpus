@@ -1,0 +1,16 @@
+USR|I'm inquiring to see if you have trips from San Jose to Calgary|inform
+SYS|Yes we do!|request
+SYS|When would you like to go?|request
+USR|Sometime between September 7 and 27 would be best|inform
+SYS|I have a hotel available for those dates.|suggest
+SYS|It is a 4 star hotel and I can put you there for either 8 days or 14 days.|suggest
+SYS|Are you by yourself?|suggest
+USR|IS this hotel near a park?|request
+SYS|No, it is close to a university and has free parking and wifi though.|inform
+USR|Would you be able to tell me the cost for a 14 day stay?|request
+SYS|1071.21.|offer
+SYS|Or 1428.22 if you want to splurge on a business flight.|offer
+USR|Don't mind if I do!|switch_frame
+SYS|Alrighty!|inform
+SYS|You are flying business to Calgary from the 7th to the 20th!|inform
+SYS|Anything else I can help you with today?|inform

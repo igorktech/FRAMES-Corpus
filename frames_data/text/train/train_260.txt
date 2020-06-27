@@ -1,0 +1,28 @@
+USR|I'm a world famous photographer and I need to book a trip on August 24.|inform
+USR|Do not disappoint me.|inform
+SYS|Hello!|request
+SYS|Certainly, I'll see what I can do.|request
+SYS|Where would you like to go and where are you leaving from?|request
+USR|It's not "like" to go it's "need" to go.|inform
+USR|Comprende vous?|inform
+USR|I need to go to Pittsburgh.|inform
+USR|This is worth a lot of $ to me so you have to get me there.|inform
+USR|I'm in Buenos Aires at the moment.|inform
+SYS|Of course.|request
+SYS|And when do you need to leave by?|request
+USR|i need to leave on August 24|inform
+SYS|I can offer you a flight on August 24th to the Sunny Wolf Inn and Suites for 1608.50 USD.|offer
+SYS|Does this suit your needs?|offer
+USR|In Pittsburgh right?|confirm
+SYS|I only have 2.5 star hotels in Pittsburgh, however it does offer free breakfast, wifi and parking.|inform
+SYS|It also has a guest rating of 8.49/10.|inform
+USR|Can you find me a five star, even if I have to get there a week in advance?|inform
+USR|I can spend up to $6200 if I have to|inform
+SYS|The best that I have is the 3.5 star Onyx Isle Hotel for 9 days at 2463.27 USD.|offer
+USR|When do I arrive?|request
+SYS|August 18th and you return home August 25th.|inform
+USR|At what time do I leave on August 25th|request
+SYS|You leave at 12:34pm sharp.|inform
+USR|Not enough time to get the shot I will have to get a private jet and camp outside their hotel thanks anyways|thankyou
+SYS|Thank you for using our services.|thankyou
+SYS|Have a good day!|thankyou

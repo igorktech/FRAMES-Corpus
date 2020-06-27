@@ -1,0 +1,12 @@
+USR|I'm trying to debate taking the Amtrak, bus, or flying from Birmingham to Denver|inform
+SYS|Do you have a budget?|request
+USR|If I can get a flight for less than 800, I think I'd like to book it|inform
+SYS|Our best package is a 4 star hotel, business class flights, from September 9th to 21st, 8.69/10 guest rating, free wifi, at a price of only 543.50!|offer
+USR|Thats good enough for me!|switch_frame
+SYS|Would you like to go ahead and book it?|suggest
+USR|yes!|inform
+SYS|Great!|inform
+SYS|Your package is booked!|inform
+SYS|You will get a confirmation email soon!|inform
+SYS|Have a great day an safe travels!|inform
+USR|Thank you!|thankyou

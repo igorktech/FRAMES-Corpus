@@ -1,0 +1,25 @@
+USR|hey what's available from mtl to mexico city?|greeting
+SYS|Hello!|greeting
+SYS|How about a stay at the Hotel Tropic from August 17th-30th?|greeting
+SYS|1189.39 if you book now.|greeting
+SYS|Would you be interested?|greeting
+USR|i wanna leave the 18th if i can.. i could leave from philadelphia instead.|request
+USR|anything ?|request
+SYS|I can't seem to find any flights from Montreal to Mexico City on the 18th of August.|hearmore
+SYS|If you're leaving from Philadelphia the closest date I can give you to your requested date is the 24th of August.|hearmore
+SYS|Would you like to hear more about this package?|hearmore
+USR|hm, nah thats ok what about Philly to Santos?|inform
+SYS|I do have a flight to Santso leaving on the 18th.|suggest
+SYS|You would be spending 7 days at the Hotel Globetrotter and returning on the 23rd of August.|suggest
+SYS|Would you like me to book this trip?|suggest
+USR|that sounds like an option.. anything from montreal to santos though before i book for sure?|request
+SYS|You could fly out on the 18th, spend 6 days at the hotel Globetrotter and return on the 22nd.|suggest
+SYS|Would you like me to book this trip?|suggest
+USR|how much is the package from Philadelphia?|request
+SYS|The package from Philadelphia is 2164.30USD.|inform
+SYS|The package from Montreal is 3052.39USD.|inform
+USR|ok.|inform
+USR|i want to book the trip from montreal for me and 5 colleagues|inform
+SYS|Excellent!|goodbye
+SYS|Your trip has been booked.|goodbye
+SYS|Enjoy your stay!|goodbye

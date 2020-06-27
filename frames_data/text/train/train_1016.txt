@@ -1,0 +1,30 @@
+USR|yes, hi.|inform
+USR|i have to bring 4 clients - real big whigs, need to be well handled - on a schmoozing trip|inform
+SYS|Do you have a departure and a desired destination you would like me to search for you?|request
+USR|we can leave after the tenth, whenever.. and want to maybe go to Manaus from Fort Lauderdale|inform
+SYS|How many adults in TOTAL|request
+USR|wow, no need to yell.|inform
+USR|5 of us|inform
+SYS|An you want to leave after September 10th, correct?|request
+SYS|For how long?|request
+USR|right, for however long I need to to make this big sale|inform
+SYS|And what is your budget for this trip from Fort Lauderdale to Manaus for 5?|inform
+USR|oh it makes no difference|inform
+SYS|In Manaus my highest rated hotel is 3.5 stars, is that okay?|offer
+USR|no, it isnt.|inform
+USR|check Mexico City|inform
+SYS|At the moment, everything I have in Mexico City is also 3.5 star rated hotels or less|offer
+USR|Dude.. you're killing me.|inform
+USR|check out Naples for me.|inform
+USR|I need a LUXURY experience|inform
+SYS|How about a 4 star with a 8.86/10 guest rating?|offer
+USR|I guess that'd have to do.|request
+USR|what are the amenities?|request
+SYS|The Tower Hotel located in Naples includes free breakfast and free wifi and is available in a business class flight for a 10 day stay at 21803.47USD|inform
+USR|that sounds fine.|request
+USR|book business class please, you know how many travels?|request
+SYS|5|inform
+USR|great - do it|inform
+SYS|It has all been taken care of.|inform
+SYS|Pleasant travels.|inform
+USR|you're a lifesaver|thankyou

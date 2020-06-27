@@ -1,0 +1,32 @@
+USR|I need a trip from Queenstown to Manaus.|inform
+USR|for 2
+Luxurious
+but I need you to keep it low key as well
+a private resort ideally|inform
+SYS|Okay.|request
+SYS|Do you have a budget?|request
+USR|ah.. no.|inform
+USR|I haven’t had a budget since before I made it onto Billboard|inform
+SYS|Okay.|request
+SYS|When would you like to go?|request
+USR|as soon as possible.|inform
+USR|I should be back here by the 15th though|inform
+SYS|There are no flights available.|suggest
+SYS|Is there somewhere else you'd like to go?|suggest
+USR|Rome then|inform
+SYS|Still nothing.|no_result
+USR|you’re kidding me...I’ll push my 16th concert ahead
+and come back on the 18th then|inform
+SYS|Nothing.|no_result
+USR|pathetic.. why am I even here.|inform
+USR|check from Lima to Manaus|inform
+SYS|Our best package is a 3 star hotel.|offer
+USR|to Rome then…..|inform
+SYS|We have a 4 star hotel.|offer
+USR|decent...guest rating?|request
+USR|where is it located?|request
+USR|what are the amenities?|request
+SYS|8.22/10 guest rating, located near a cathedral, and offers free breakfast and wifi.|inform
+SYS|It is from the 11th to 18th of September.|inform
+USR|I don’t know what I was thinking for a moment... i am not going to settle for a 4 star
+goodbye|goodbye

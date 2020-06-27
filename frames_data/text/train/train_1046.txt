@@ -1,0 +1,29 @@
+USR|Hi there!|inform
+USR|I need to get out of town on Tuesday September 6!|inform
+SYS|Sure!|request
+SYS|What town?|request
+USR|I'm based in Tokyo!|inform
+SYS|Ok!|request
+SYS|Any idea where you want to go?|request
+USR|Hamburg please!|inform
+SYS|I have 14 days at the Glacier for 3182.55.|offer
+SYS|How does that sound?|offer
+USR|Is that leaving on exactly on Tuesday September 6?|confirm
+SYS|That would be leaving on September 13th|inform
+USR|Do you have anything that leaves sooner?|inform
+USR|I have to leave as soon as possible!|inform
+SYS|I have an 8 day package at the Glacier for 2190.28.|offer
+SYS|It leaves September 8th.|offer
+USR|Do you have anything that leaves soon but also for longer?|inform
+SYS|Sorry, not for Hamburg.|sorry
+USR|That's okay.|moreinfo
+USR|What more can you tell me about the 8 day package at Glacier?|moreinfo
+SYS|This hotel is 4.5 star with 9.16/10 in guest ratings.|inform
+SYS|The hotel is near the airport and has free parking as well as free wifi for guests.|inform
+SYS|The flight departs for Hamburg on September 8th and returns to Tokyo on September 14th.|inform
+USR|That sounds really good!|null
+SYS|Should I proceed with booking?|suggest
+USR|Yes sure!|inform
+SYS|Ok, I will just get your information and secure the package confirmation for you.|inform
+USR|Great, thanks!|thankyou
+SYS|No problem :slightly_smiling_face:|you_are_welcome

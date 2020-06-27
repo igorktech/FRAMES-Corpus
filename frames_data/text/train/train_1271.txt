@@ -1,0 +1,16 @@
+USR|I need to get to Fortaleza from Paris.|inform
+USR|We will be 2 adults and 7 children|inform
+SYS|Do you have a budget in mind?|request
+USR|19500|inform
+SYS|We have a 13 day package that costs 14924.38 for economy.|offer
+SYS|Does this interest you?|offer
+USR|Possibly.|moreinfo
+USR|What is the hotel like?|moreinfo
+SYS|It's a 3 star hotel with a guest rating of 9.32/10 and it includes free parking, breakfast, and wifi.|suggest
+SYS|Would you like to book?|suggest
+USR|yes that is perfect.|inform
+USR|Could you book this for me?|inform
+SYS|Most certainly.|inform
+SYS|Your package has now been booked.|inform
+SYS|Expect an email with details concerning the package shortly.|inform
+USR|THANK YOU!|thankyou

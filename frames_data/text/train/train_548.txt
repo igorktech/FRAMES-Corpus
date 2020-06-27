@@ -1,0 +1,14 @@
+USR|Hello there!|greeting
+SYS|Hello!|greeting
+USR|I’m in charge of booking a work trip.|inform
+USR|leaving from Beijing around August 25
+and we are looking at possibly going to Jersusalem|inform
+SYS|How many people?|request
+USR|Try for 10 for now|inform
+SYS|Nothing available from Beijing to Jerusalem for that many people on that date|no_result
+USR|Ok.. how about 3 people, same date same departures, but to Las Vegas instead|inform
+SYS|We have no hotels in Las Vegas at the moment either.|no_result
+USR|Oh dear, Any other city?|request_alts
+USR|Literally anywhere|request_alts
+SYS|I have no flights out of Beijing|no_result
+USR|Ok, thanks anyway|thankyou

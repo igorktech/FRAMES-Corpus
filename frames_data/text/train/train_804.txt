@@ -1,0 +1,17 @@
+USR|Baltimore to Sacramento|inform
+SYS|I will have a look for you.|request
+SYS|Do you have any date restrictions?|request
+USR|nope|inform
+SYS|How about number of people?|request
+USR|1|inform
+SYS|How long would you like to go for?|request
+USR|undecided, just book me whatever|inform
+SYS|I have 16 days available at The Bronze Luxury Hotel .|offer
+SYS|This hotel has a fantastic 5 star rating along with a 10/10 guest rating.|offer
+USR|book me the earliest business class flight for that package|inform
+SYS|The earliest departs on September 3rd.|offer
+SYS|The total cost on business class will be 2009.43USD.|offer
+USR|book it|inform
+SYS|Your flights and hotel stay have been booked.|inform
+SYS|Confirmation will follow.|inform
+USR|good|thankyou

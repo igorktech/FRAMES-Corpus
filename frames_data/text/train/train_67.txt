@@ -1,0 +1,8 @@
+USR|Hi im looking to book  trip.|inform
+USR|anything leaving from Kakariko Village?|inform
+SYS|I can certainly help you book a trip!|suggest
+SYS|However, I have no outgoing flights from Kakariko Village.|suggest
+SYS|How about another departure city nearby?|suggest
+USR|termina perhaps?|inform
+SYS|Oh dear.. it seems I have nothing from Termina.. Maybe you could tell me a destination instead?|suggest
+USR|Anything going to Caprica|inform

@@ -1,0 +1,52 @@
+USR|Hello, I have 15 vacation days available between June 1st and August 31st.|inform
+USR|I am leaving from Theed.|inform
+USR|I would like to go somewhere with lots of sunshine.|inform
+SYS|I have no departures available from Theed.|suggest
+SYS|Would you like to pick another departure travel location?|suggest
+USR|Do you have any departures from Kobe, Japan?|inform
+SYS|No, I don't.|suggest
+SYS|Would you like to select another location?|suggest
+USR|How about Birmingham City?|inform
+SYS|Sure.|offer
+SYS|Would you like to go to Mexico City?|offer
+SYS|I have a flight available on Wednesday, August 17th at 10:00 a.m. to Tuesday, August 23rd at 4:00 a.m.|offer
+USR|What are my options for hotels?|moreinfo
+SYS|The best hotel I have is a 3.0 star hotel with a 6.91/10 rating.|suggest
+SYS|The flight for this travel package would be from Monday, August 15th at 10:00 a.m. to Sunday, August 21st at 4:00 a.m.  The hotel has free parking and free wifi.|suggest
+SYS|Would you like to book this travel package?|suggest
+USR|How much would this package be?|request
+USR|Could you offer me a cheaper hotel?|request
+SYS|The cost of this package is 1644.98 USD.|suggest
+SYS|Would you like to book this travel package?|suggest
+USR|Could you show me some hotels with lower guest ratings and lower prices?|inform
+SYS|Here are a couple of options.|offer
+SYS|The first option is a 3.0 star hotel (the Tropic), with a guest rating of 6.77/10 and a business class flight.|offer
+SYS|The cost is 1002.27 USD.|offer
+SYS|Or, if you prefer, you could choose the same 3.0 star hotel with a guest rating of 6.77/10 (the Tropic) and an economy flight,  for 812.69.|offer
+USR|What other destinations could you offer me if I'm departing from Birmingham City?|request_alts
+SYS|I could offer you Vancouver, British Columbia, or Porto Alegre, Brazil.|offer
+SYS|Which would you prefer?|offer
+USR|How much are the packages to each city?|request
+SYS|Would you like a more expensive or a less expensive travel package?|request
+USR|I would like to see both options, along with the hotels offered|request
+SYS|I could offer you the package to Porto Alegre, Brazil for 2572.16 USD.|offer
+SYS|The hotel would be the Deluxe Hotel (which has a guest rating of 8.69/10) or the package to Vancouver, British Columbia for 477.93 USD .|offer
+SYS|The hotel would be Parallel Carnaval Bed & Breakfast (which has a guest rating of 8.86/10).|offer
+USR|I can extend my vacation time to the 14th of September, does this open up any new options?|request_alts
+SYS|I have an even better option available for you.|offer
+SYS|You could travel to Vancouver, Canada for $511.80 USD.|offer
+SYS|You would stay at the Western Ridge.|offer
+SYS|It is a 4.0 star hotel with a 10/10 guest rating.|offer
+SYS|If, however, you would really like to travel to Mexico City, I have a great package for you at only 1168.35 USD.|offer
+SYS|You would stay at the Exalted Willow Resort & Suites.|offer
+SYS|It is a 3.5 star hotel with a 8.37/10 guest rating.|offer
+SYS|Which would you prefer?|offer
+USR|Could you tell me which of these resorts offers free wifi?|request_compare
+SYS|Both have wifi|inform
+USR|I am also inquiring about the previous offered packages|request_compare
+SYS|All of them do.|inform
+USR|Could you let me know which class I would be flying in for each destination?|request_compare
+SYS|Would you prefer to fly Business Class or Economy?|suggest
+USR|I would prefer to fly economy|inform
+SYS|The flight to Vancouver and the flight to Mexico City are Economy flights.|inform
+USR|Then I would like to travel to Vancouver and stay at the Western Ridge|inform

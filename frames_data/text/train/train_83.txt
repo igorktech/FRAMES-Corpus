@@ -1,0 +1,25 @@
+USR|Hi!|greeting
+USR|I'd like to plan my honeymoon, but I've spent way too much on my wedding and need to stick to a budget of $4600.|greeting
+USR|Can you offer anything to Marseille for 5 days leaving from Salvador on August 17?|greeting
+SYS|I dont have anything for your budget or start date|no_result
+USR|I'm afraid that I really need to stick to my budget.|inform
+USR|Can you look up packages for Rome?|inform
+SYS|I have the perfect package for you!|offer
+SYS|It is at the Secret Bay in Rome, with a flight leaving on the 17th and returning on the 20th, The total cost on this package is $4517.97USD.|offer
+USR|That is excellent.|switch_frame
+USR|The hotel is how many stars?|switch_frame
+USR|Is there a spa?|switch_frame
+SYS|It is a 0 star hotel but it includes free breakfast and wifi.|sorry
+SYS|Unfortunately, it does not have a spa.|sorry
+USR|Holy moly!|request_alts
+USR|That is not a good way to start a marriage!|request_alts
+USR|Do you have any other packages?|request_alts
+SYS|Not in Rome.|suggest
+SYS|Do you want me to look at other destinations?|suggest
+USR|Let's go back to the Marseille deals, and I will reconsider my budget and dates.|inform
+SYS|The most economical deal we have at the moment in Marseille from Salvador is  $5203.99USD in a 4 star hotel which includes free wifi.|offer
+SYS|It is available from August 21st to August 24th.|offer
+USR|Great, I'd like to book this one please!|inform
+SYS|Perfect, I will take down all your details and send you the confirmation.|inform
+SYS|Enjoy your stay in Marseille!|inform
+USR|Thank you!|thankyou

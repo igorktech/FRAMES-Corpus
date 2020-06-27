@@ -1,0 +1,14 @@
+USR|7 business class flights to Mexico City|inform
+SYS|Where are you leaving from?|request
+USR|Las Vegas|inform
+SYS|When do you want to leave?|request
+USR|Anytime really|inform
+SYS|Do you have a budget?|request
+USR|But what matters to us is we ball out at 5 star hotels, get snapped by the paps, and rub shoulders with the stars.|inform
+USR|no budget obviously|inform
+SYS|We don't have any 5 star hotels available.|no_result
+USR|What about in Chicago then?|inform
+SYS|None here either.|no_result
+USR|Kingston??|inform
+SYS|There are no 5 star hotels here either.|no_result
+USR|Thanks anyway|thankyou

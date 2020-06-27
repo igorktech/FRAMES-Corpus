@@ -1,0 +1,21 @@
+USR|you can help me find a trip.|inform
+USR|from miami
+to tijuana
+between august thirtieth until september third
+one adult|inform
+SYS|Great!|suggest
+SYS|I've got exactly what you're looking for.|suggest
+SYS|Would you prefer to fly economy or business class?|suggest
+USR|how much is business|request
+SYS|Our business class package would come to 1389.63USD.|offer
+USR|what are the dates?|request
+USR|and details|request
+SYS|The dates are as you requested, departing August 30 and returning September 3.|inform
+SYS|You would be staying at the Hotel Perfection near a lovely park.|inform
+SYS|Free wifi, breakfast, and parking are all included in the deal!|inform
+USR|that one is 1389 dollars?|confirm
+SYS|Yes it is!|suggest
+SYS|Would you like for me to confirm this booking?|suggest
+USR|what is the hotel rating|request
+SYS|The hotel is rated 2.5 stars|inform
+USR|ok well I will think think about it|null

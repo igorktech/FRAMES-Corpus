@@ -1,0 +1,36 @@
+USR|My secretary is on vacation so I have to book my own flights today.|inform
+USR|Definitely feels strange
+Please book: San Diego to Rome|inform
+SYS|When would you like to go to Rome?|inform
+USR|After September 8|inform
+SYS|Do you have a budget or do you just want to hear the best packages we've got?|request
+USR|Yes.|inform
+USR|That would be good.|inform
+USR|Give me the priciest options, I’ll expense it on the company|inform
+SYS|Got it!|offer
+SYS|The best package we've got is a 11 day stay at a 4.0 star hotel right by the cathedral.|offer
+SYS|It has a guest rating of 8.98/10 and offers free breakfast and wifi.|offer
+SYS|Business package would cost 3458.79.|offer
+USR|Oh I forgot to mention, we’ll be four adults total|inform
+SYS|Yup, for 4 it will be 13835.19.|offer
+USR|Cool cool.|inform
+USR|I was also thinking of spicing it up a little with a long distance trip
+Can you look into flights to Osaka, also departing from San Diego|inform
+SYS|Would you prefer a 11 day stay at a 2.5 star hotel or a 6 day stay at a 4.0 star hotel?|offer
+USR|Oh definitely the 4 star - but what is it near?|request
+SYS|It's nicely located near a park and a museum.|inform
+USR|What about Denver?|inform
+USR|I know a good seafood restaurant there that I could go to|inform
+SYS|In Denver we have a 11 days package at a 4.0 star hotel.|offer
+USR|Are there decent amenities there?|switch_frame
+SYS|There is wifi free of charge.|inform
+USR|Ok you know what.|inform
+USR|I’m really craving some lobster rolls
+Nothing else matters
+Book us for business|inform
+SYS|Alright get ready for some deliciousness!|inform
+SYS|Your trip is booked for you for 4921.24!|inform
+USR|Thank you!|thankyou
+USR|I’m tempted to do my own bookings in the future now, its fun!|thankyou
+SYS|I'm glad!|you_are_welcome
+SYS|I will always be here for you :slightly_smiling_face:|you_are_welcome

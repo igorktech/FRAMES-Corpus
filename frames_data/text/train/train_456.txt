@@ -1,0 +1,17 @@
+USR|You can help me by booking a flight out of Cordoba to Salvador for me and my friend.|inform
+USR|Leaving ASAP and back before September 8.|inform
+USR|Oh and I'll need the best hotels you can get|inform
+SYS|Okay.|confirm
+SYS|You want to go to Cordoba?|confirm
+USR|No I'm in Cordoba.|inform
+USR|I want to go to Salvador|inform
+SYS|Do you have a budget?|request
+USR|No I have no budget, but I have a parakeet, you want to hear about my parakeet?|inform
+SYS|We have one hotel result with 4 different packages.|hearmore
+SYS|Would you like to hear more?|hearmore
+USR|Only if its a good hotel|switch_frame
+SYS|It is a 3.5 star hotel, near a museum, palace, and theatre.|inform
+USR|3.5 star, are you serious?|inform
+USR|Ok screw it, check LA instead|inform
+SYS|These are only 3 star hotels.|inform
+USR|This is hopeless|null

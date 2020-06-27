@@ -1,0 +1,24 @@
+USR|Hi looking to book a trip to SL|inform
+SYS|Where will you be departing from?|request
+USR|Maceio would be best|inform
+SYS|I can book you in the Chateau Inn & Suites from the 27th to the 31st of August.|request
+SYS|The cost of this package is 2662.94USD.|request
+SYS|Does that fall within your schedule and budget?|request
+USR|Yes and yes but can you tell me more about the hotel|moreinfo
+SYS|The Chateau Inn and Suites is a 3-star hotel with a 6.91/10 guest rating, free breakfast and free wifi.|inform
+SYS|Is conveniently located in the vicinity of both the airport and the beach.|inform
+USR|And are there any other hotels?|request_alts
+SYS|I have two other hotels with vacancies in the same time frame.|offer
+SYS|The Glorious Cloak Inn, a 3-star resort with a 7.15/10 guest rating, free wifi and free breakfast, has an opening from the25th to the 29th of August.|offer
+SYS|This package costs 3134.69USD.|offer
+SYS|There is also the Palacio Tranquila, a 3.5-star hotel with a 9.16/10 guest rating, free breakfast, free wifi and free parking.|offer
+SYS|This resort has a vacancy from the 27th to the 30th of August, bringing the total cost of your package to 3209.60USD.|offer
+USR|I will be going with my 6 kids and my 3 wives… how much would that be for the palacio tranquila|request
+SYS|This would bring your total to 24739.65USD.|offer
+USR|its a little over my budget anything a bit cheaper?|request
+SYS|That is the best deal I can offer you on the Palacio Tranquila.|offer
+SYS|However I can offer cheaper packages for both the Chateau Inn (20525.98USD for the 28th to 31st) and the Glorious Cloak Inn (24162.23USD for the 25th to the 29th.)|offer
+USR|I will have to take Chateau please|inform
+SYS|I will get straight to booking your trip then.|inform
+SYS|Enjoy your stay!|inform
+USR|thanks|thankyou

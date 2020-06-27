@@ -1,0 +1,20 @@
+USR|HEY IM TRYING TO GO ON SPRIIIIING BREEEAAAAKKKK.|inform
+USR|SAN FRANCISCO IS POPPIN RIGHT?|inform
+USR|LETS GO THERE|inform
+SYS|How about 5 days at the Twin Canyon Inn?|offer
+SYS|Your vacation would last from the 27th to the 31st of August.|offer
+SYS|Your flight would leave from Columbus.|offer
+SYS|Would you be interested?|offer
+USR|WE NEED TO LEAVE FROM HOGSMEADE.|inform
+USR|AND I HAVE TO BE BACK BY AUGUST 19|inform
+SYS|Unfortunately my packages to San Francisco don't end before August 27.|sorry
+SYS|Would you like to hear more about these packages?|sorry
+SYS|Or would you like to try another destination?|sorry
+USR|OK DENVER THEN|inform
+SYS|Unfortunately the earliest date I can give you for a flight to Denver is the 26th of August.|sorry
+SYS|Would you like to hear more about this package?|sorry
+SYS|Or would you like to try another destination?|sorry
+USR|NO AUGUST 16-AUGUST 19|inform
+SYS|I can't seem to find trips matching these dates.|suggest
+SYS|Would you like to try another destination?|suggest
+USR|NO BYE|goodbye

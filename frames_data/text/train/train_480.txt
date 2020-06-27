@@ -1,0 +1,16 @@
+USR|Get me on the next flight to Milan baby.|inform
+USR|I’m out in Puebla currently|inform
+SYS|Sure thing, do you have a budget in mind?|request
+USR|5500, but just to be clear I want the best hotel in town|inform
+SYS|I have two 4 star hotels to offer you.|offer
+SYS|One is a 16 day trip and the other is an 11 day trip.|offer
+SYS|You would be leaving August 26th and 27th respectively.|offer
+SYS|Does one suit you better?|offer
+USR|Yes get me out on the 26th.|request
+USR|Is the hotel rated well by guests?|request
+SYS|It has 8.37/10|inform
+USR|Ok yes that will do|inform
+SYS|Great!|suggest
+SYS|Shall I proceed with the booking?|suggest
+USR|Yes chief|affirm
+SYS|Consider it done|inform

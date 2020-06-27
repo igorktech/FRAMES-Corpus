@@ -1,0 +1,30 @@
+USR|I want to go to Barcelona from anywhere between the 12th and the 28th of September.|inform
+USR|I have 2100 and my assistant will be coming along.|inform
+USR|I am specifically looking for hotels near a park or beach or both.|inform
+SYS|I have 2 different hotels available in Barcelona but the Nova Resort is the only one located near a park.|inform
+SYS|How long would you like to stay in Barcelona?|inform
+USR|I'm not picky, i'm travelling for work.|moreinfo
+USR|What is the hotel near the park like?|moreinfo
+SYS|It is in the downtown area close to a park and the university, it has 3 star rating witn an excellent guest rating of 9.16 om 5 and has wifi included along with parking.|offer
+SYS|The price for a 10 day package is  1453.6USD, but it is also available for 9 days at 1725.59USD on a different date.|offer
+USR|Not bad at all.|inform
+USR|Are there any hotels near a park in SL?|inform
+SYS|The only hotel I have available in St. Louis is the Chateau Inn & Suites , which is not near a park but is close to the beach.|offer
+SYS|This is a 15 day package and if you can leave from La Paz,  then the price is 1350.52USD|offer
+USR|hmm very tempting.|inform
+USR|Anything in San Juan?|inform
+SYS|Yes but nothing near a park or beach|offer
+USR|Okay then that is out of the question.|request
+USR|I think I will go to Barcelona for the 9 day package.|request
+USR|When does it leave?|request
+SYS|It leaves from Sept 18 from Paris, France|inform
+USR|When is the return date?|request
+SYS|The retund date is on Sept 26|inform
+USR|good.|confirm
+USR|the price is 1725.59 right?|confirm
+SYS|Yes 1725.59USD is the price for 2 adults flying on economy class|inform
+USR|Ok good.|inform
+USR|We will book this one then|inform
+SYS|I look after all the details and send you confirmation.|inform
+SYS|Have a nice weekend.|inform
+USR|Thank you for the help!|thankyou

@@ -1,0 +1,30 @@
+USR|I'd like to go to Melbourne from Manaus|inform
+SYS|How many people in your party - adults and children?|request
+USR|just me|inform
+SYS|do you have date preferences?|request
+USR|no|inform
+SYS|length of your stay please?|request
+USR|doesn't matter|inform
+SYS|and lastly do you have a budget in mind?|request
+USR|$7,500|inform
+SYS|Unfortunately, we do not have flights to Melbourne from Rio de Janeiro at the moment.|sorry
+SYS|May I check other destinations for you?|sorry
+USR|I'm leaving from Manaus|inform
+SYS|I apologize.|sorry
+SYS|I meant from  Manaus.|sorry
+SYS|No flights from Manaus to Melbourne.|sorry
+USR|okay well how about to Rome|inform
+SYS|I have 6, 7 and 12 day stays in Rome departing from Manaus.|request
+SYS|Anything special you are looking for in a hotel?|request
+USR|Nothing in particular but what are the best packages you can offer?|request_compare
+SYS|do you prefer to fly economy or business?|suggest
+USR|i prefer business|inform
+SYS|May I suggest the 6 day package at Hotel Grand Residence, a 4 star property located near shopping and the cathedral in Rome.|suggest
+SYS|This package includes free wifi and breakfast for 3770.52USD.|suggest
+SYS|As requested, flights are in business class seating departing Sept 2nd and returning Sept 6th.|suggest
+SYS|Would you like to proceed with booking?|suggest
+USR|Heck yes!|inform
+USR|That sounds like a great deal!|inform
+USR|Hook me up!|inform
+SYS|:+1: I will book that for you right away.|inform
+USR|Thank you!|thankyou

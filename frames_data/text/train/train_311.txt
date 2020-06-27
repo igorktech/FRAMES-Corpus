@@ -1,0 +1,28 @@
+USR|yo fam want to take my girl down to Punta Cana|inform
+SYS|Hello :slightly_smiling_face:|greeting
+USR|we from Cancun, tryna leave on Aug 30|inform
+SYS|Ok!|suggest
+SYS|Well I have September 2nd available, would this be ok?|suggest
+USR|damn i dont know dude|negate
+SYS|Do you have a budget?|request
+USR|budget is $2800.|inform
+USR|how about Guadalajara...my cousin told me that place is LIT :fire::fire:|inform
+SYS|Hmm.|sorry
+SYS|well I’m sorry but I have only trips leaving September 2, 11, or 7|sorry
+USR|how long is the trip leaving sept 2 to Cancun|request
+SYS|I thought you lived in Cancun?|confirm
+USR|true, my bad.|switch_frame
+USR|meant to ask about the flight to Punta Cana|switch_frame
+SYS|You would return from Punta Cana on September 3rd|inform
+USR|thats one day fam|negate
+SYS|Would you like to book it?|suggest
+USR|do you have one leaving sept 2 with a different return date?|inform
+USR|like september 7 for example|inform
+SYS|No fam|no_result
+USR|k book me the one day honeymoon.|request
+USR|how much it cost|request
+SYS|Wonderful :slightly_smiling_face: I will book that for you.|inform
+USR|how much should i pay you?|request
+SYS|1808.70USD|inform
+USR|alright booked|inform
+SYS|Done!|inform

@@ -1,0 +1,17 @@
+USR|I want to find a vacation between September 12th and 18th to San Diego from Calgary for under 1800.|inform
+SYS|Ok, I can help you with that :slightly_smiling_face: How many travellers?|request
+USR|just me myself and i|inform
+SYS|I have the perfect trip for you!|offer
+SYS|7 days at Anomaly Inn & Suites from Sept 12-18 for 1113 dollars.|offer
+USR|whats the hotel rated?|request
+SYS|2.0 stars.|inform
+SYS|6.51/10 user rating.|inform
+USR|Is there a hotel with a higher rating?|inform
+SYS|I have only 2 star hotels for your date range.|inform
+USR|okay, thats fine.|inform
+USR|Go ahead and book it for me then, i just wanna get away.|inform
+SYS|Sure thing!|confirm
+SYS|Are economy class flights ok with you?|confirm
+USR|yeah thats fine|affirm
+SYS|Great, enjoy your stay :slightly_smiling_face:|inform
+USR|Thanks|thankyou

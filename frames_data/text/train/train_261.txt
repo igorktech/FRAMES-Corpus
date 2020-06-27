@@ -1,0 +1,28 @@
+USR|Hi I want to go to osaka|inform
+SYS|Hi there!|offer
+SYS|I have an excellent 4-day package for Osaka that's only 428.94USD.|offer
+SYS|Would you be able to leave from Fukuoka?|offer
+USR|Im actually leaving at Kyoto|inform
+SYS|In that case, the price of your package will be 479.78USD.|offer
+SYS|Are you able to fly out on the 21st?|offer
+USR|only on the 27th|inform
+SYS|The closest date I could give you to this would be the 30th of August, with a return flight on the 2nd of September.|offer
+SYS|Does this fit into your schedule?|offer
+USR|That seems good can you tell me about the hotel|moreinfo
+SYS|You would be staying at the Opportunity, a 3-star hotel with a 6.61/10 guest rating, free breakfast and free wifi.|inform
+SYS|It is located within walking distance of the museum if that interests you.|inform
+SYS|The total cost of this package comes to 534.12USD.|inform
+USR|Great!|inform
+USR|what options do you have in Mannheim|inform
+SYS|The best deal I can offer you is a 5-day stay at the Regal Resort, a 5-star hotel with a 8.98/10 guest rating, free wifi and a spa.|offer
+SYS|It is within walking distance of a community park.|offer
+SYS|The total cost of this package is 2888.32USD.|offer
+SYS|Would you be available to travel from the 6th to the 9th of September?|offer
+USR|yes i can but id rather a longer stay, tell me aboot puebla|inform
+SYS|The best deal I can offer you if you're interested in Puebla is 10 days at Los Campeones for 3658.48USD.|offer
+SYS|It is a 4-star resort with a 8.49/10 guest rating, free breakfast, free wifi and free parking.|offer
+SYS|You would be flying out on the 25th of August and returning on September 2nd.|offer
+USR|for a 10 day stay i think puebla is worth it|switch_frame
+SYS|You are now booked for a 10-day stay in Puebla.|inform
+SYS|Enjoy your trip!|inform
+USR|Thank you!|thankyou

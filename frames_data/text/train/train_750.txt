@@ -1,0 +1,32 @@
+USR|My name is Lorraine.|inform
+USR|I would like to book a vacation for myself and my three darling grandchildren, leaving as soon as possible but returning before the children start school on September 19.|inform
+SYS|Where would you like to leave from and where would you like to go?|request
+USR|We would be setting off from Burlington.|inform
+USR|We would be looking to land in Toronto.|inform
+SYS|Burlington to Toronto for 1 adult and 3 children.|suggest
+SYS|I have several options.|suggest
+SYS|Would you prefer to stay in Toronto for 8 or 12 days?|suggest
+USR|I would prefer a longer trip, please!|switch_frame
+USR|However, it behooves me to make mention of my 3300 budget for this voyage.|switch_frame
+SYS|Most everything I have in Toronto for September is under your $3300 dollar budget.|offer
+SYS|For a 12 day stay, the Hotel Eric Perrier is priced at $2441.0USD and has a 4 star rating.|offer
+SYS|It also has an excellent guest rating of  8.8 / 10.|offer
+USR|I would like to know if this hotel offers any amenities?|request
+SYS|Daily breakfast is part of the package, as well as wifi.|offer
+SYS|If you wanted to travel by business class with the children, the price would be 2863.7USD, still below your budget.|offer
+USR|Can you also be so kind as to check for tickets to Philadelphia?|inform
+SYS|I have one package available in Philadelphia, but unlike Toronto, I only have a 5 day package.|offer
+SYS|The Mirror Inn is priced at 2498.21USD and has a 2 star rating.|offer
+SYS|The guest rating on this hotel is 6.61/10|offer
+USR|Understood.|inform
+USR|I would like to submit an application for the Toronto package, for the economy seat option.|inform
+USR|But before I do, can you remind me of the dates?|inform
+SYS|You would depart Burlington on September 8th at 11am and return on September 19 at 3am.|inform
+USR|The return flight is past the children's bedtime.|request_alts
+USR|Do you have any other selections?|request_alts
+SYS|That is the only flight available from Burlington to Toronto on that day.|inform
+USR|Very well.|inform
+USR|Please book this trip for me, thank you.|inform
+SYS|I will go ahead with the booking for you.|inform
+SYS|Safe travels.|inform
+USR|Thank you|thankyou

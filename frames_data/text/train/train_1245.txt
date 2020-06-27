@@ -1,0 +1,42 @@
+USR|I sure hope!|inform
+USR|I want to go to Santo Domingo!|inform
+SYS|You and who else?|request
+USR|No one else!|inform
+SYS|Where from?|request
+USR|I could leave from Ciudad Juarez.|inform
+SYS|I'm afraid there are no trips from Ciudad Juarez to  Santo Domingo.|sorry
+SYS|Would it be possible for you to leave from somewhere else?|sorry
+USR|Actually yeah I could leave from Kochi.|inform
+SYS|Unfortunately there are no flights from Kochi either.|sorry
+SYS|Is there another city of departure that you would like to suggest?|sorry
+USR|How about let's try going to Busan then?|inform
+USR|From Ciudad Juarez is possible?|inform
+SYS|Yes, do you need to adhere to a time frame?|request
+USR|I hope to travel between Sept 8-17.|inform
+USR|But I'm willing to make it flexible to find a food trip.|inform
+SYS|We have one beautiful package for you from Ciudad Juarez to Busan that is 6 days long.|offer
+SYS|The stay would be at a 3 star hotel that includes free parking, breakfast, and wifi.|offer
+SYS|Does this interest you?|offer
+USR|Can I ask you whether it's possible to find a better hotel if I depart from Kochi?|inform
+SYS|Same hotel I'm afraid.|sorry
+USR|Are there longer trips then?|inform
+SYS|From Ciudad Juarez or Kochi?|confirm
+USR|Either, which one offers the longer stay in Busan?|inform
+SYS|Ciudad Juarez, for 6 days.|inform
+USR|Would the hotel be close to any points of interest by any chance?|request
+SYS|Yes, plenty.|suggest
+SYS|A park, a museum, and a university.|suggest
+SYS|Would you be interested in booking?|suggest
+USR|Alright, you convinced me.|inform
+USR|Please tell me business flights are available though|inform
+SYS|Why of course!|suggest
+SYS|It costs 4421.61 in total, departing on Monday September 12th and returning on Friday September 16th.|suggest
+SYS|Shall I proceed with booking?|suggest
+USR|Can you actually book it for 2?|inform
+SYS|For 2 it would cost a grand total of 8843.23 for business class.|offer
+SYS|Shall I proceed with booking?|offer
+USR|Yup go ahead!|inform
+SYS|Your booking is now complete.|inform
+SYS|Please expect an email in the next few hours.|inform
+SYS|Thank you for stopping by.|inform
+USR|Thanks for everything!|thankyou

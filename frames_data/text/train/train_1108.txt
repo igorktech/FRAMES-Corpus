@@ -1,0 +1,28 @@
+USR|hello, I’m looking for an impressive package to Minneapolis
+from Sao Paulo
+for 6 adults|inform
+SYS|Do you have a budget?|request
+USR|no.|inform
+USR|I’m spending to impress here
+so spare no expense|inform
+SYS|When would you like to leave Sao Paulo?|inform
+USR|any time after today|inform
+SYS|All we have in Minneapolis is a 2.5 star hotel.|offer
+USR|yuck, ok try Atlanta please|inform
+SYS|Our best here is a 3.5 star, is this okay?|offer
+USR|not really... anything better in Goiania?|inform
+SYS|Results include 2.5 and 3.5 star hotels in Goiania.|offer
+USR|brutal.|switch_frame
+USR|what are the guest ratings for the 3.5 star|switch_frame
+SYS|7.15/10 and 8.69/10|offer
+USR|where is the 8.69 one?|request
+SYS|Goiania has the 7.15 and 8.69 guest ratings.|inform
+SYS|Atlanta has a 8.8/10 guest rating though.|inform
+USR|oh ok, so there are two in Goiania... what amenities are included for the 8.69 in Goian?|request
+SYS|Free parking, breakfast, and wifi.|inform
+SYS|The hotel is also located near the airport, shopping, and a museum!|inform
+USR|not bad I guess... and the 8.8 guest rating in Atlanta, what is that hotel located near?|request
+SYS|It is near a beach and offers free wifi and parking.|inform
+USR|ok.|thankyou
+USR|I am going to shop around before I rush into anything
+thanks though|thankyou

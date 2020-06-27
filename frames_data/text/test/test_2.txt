@@ -1,0 +1,18 @@
+USR|Hello, I am looking to book a trip for 2 adults and 6 children for $21,300 or less.|greeting
+USR|We are departing from Kochi for Denver.|greeting
+SYS|I have several options available within your budget.|inform
+SYS|How long would you like to travel for?|inform
+SYS|And do you have dates in mind?|inform
+USR|I do not have any dates in mind.|inform
+USR|I would like to spend as much time in Denver as my budget will allow.|inform
+SYS|I can book 7 days at a 4.0 star hotel for 19028.93USD.|offer
+SYS|I can also book 7 days at a 3.0 star hotel for 12824.84USD.|offer
+USR|Do these packages have different departure dates?|request_compare
+USR|When would I be leaving for each of them?|request_compare
+SYS|The 3.0 star trip leaves Kochi August 26 and returns August 31.|inform
+SYS|The 4.0 star leaves August 27 from Kochi and returns September 1.|inform
+USR|Ok, I would like to purchase the trip with the 4-star hotel.|inform
+SYS|Perfect, I will book that trip for you now.|inform
+SYS|You will depart Kochi at 9:00 am August 27.|inform
+SYS|Have a nice day.|inform
+USR|Thank you|thankyou

@@ -1,0 +1,19 @@
+USR|from Punta Cana.|inform
+USR|To indianapolis|inform
+SYS|How many people will be traveling?|request
+USR|just me|inform
+SYS|Do you have set dates or budgets?|request
+USR|2900 and no set dates|inform
+SYS|Okay, we have a 3.0 star hotel with 7.15/10 rating and a 2.5 star hotel with 6.37/10 rating.|hearmore
+SYS|Would you like to hear more about these two options?|hearmore
+USR|yeah just tell me about the 3 star|moreinfo
+SYS|It is has great location!|offer
+SYS|Close to the park, beach, airport, and university.|offer
+SYS|It also offers free parking, free breakfast, and free wifi.|offer
+SYS|We offer business or economy packages for 5 days.|offer
+USR|Sounds good.|request
+USR|Book it for me pls.|request
+USR|If the business package fits my budget book that one|request
+SYS|Done!|inform
+SYS|The business package is booked for you for 2437.55!|inform
+USR|thanks|thankyou

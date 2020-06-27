@@ -1,0 +1,7 @@
+USR|Athens to Busan.|inform
+USR|Aug 30|inform
+SYS|Budget?|request
+USR|3500|inform
+SYS|How many people are travelling?|request
+USR|1|inform
+SYS|There are no result in my database leaving from Athens.|no_result

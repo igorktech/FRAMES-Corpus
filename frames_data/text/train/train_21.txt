@@ -1,0 +1,22 @@
+USR|Hi.|inform
+USR|I live in Busan and I'd like to go to Las Vegas from Wednesday August 17 to Monday September 5.|inform
+USR|What's available?|inform
+SYS|I can get you 7 days in Vancouver, Canada for 2742.44USD.|suggest
+SYS|Does this interest you?|suggest
+USR|Perhaps another time, I'm really just looking for Las Vegas.|inform
+SYS|Do you have a budget in mind?|request
+USR|Around 3000USD|inform
+SYS|You can book 10 days in Cairo for 2532.89USD.|no_result
+SYS|I cannot find anything in Las Vegas, within your budget.|no_result
+USR|How much is a package to Punta Cana?|request
+SYS|I can book 12 days in Punta Cana for 3506.84USD.|offer
+USR|I'd like to compare the Cairo and Punta Cana packages.|request_compare
+USR|What are the hotels, how many stars, free wifi, free breakfast?|request_compare
+SYS|In Cairo you would be staying at Mellow Horizon Inn & Suites.|inform
+SYS|It has a 3.0 star rating with free wifi, breakfast, and parking.|inform
+SYS|In Punta Cana you would be staying at Atlantis Gorge.|inform
+SYS|It has a 2.5 star rating with free wifi and breakfast.|inform
+USR|I'd like to book the Cairo package.|inform
+USR|Thank you!|inform
+SYS|Ok, I will book this package.|inform
+SYS|Enjoy your trip.|inform

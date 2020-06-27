@@ -1,0 +1,16 @@
+USR|Hello, I want to leave from Seoul on August 27 and return on September 9.|inform
+USR|You can go to Manaus.|inform
+SYS|Do you have a maximum budget for this travel package?|request
+USR|No budget, I show me an array of packages with varying prices|inform
+SYS|Only one travel package for Mainaus is available for a departure on August 27th at 8:00 a.m.  The hotel is very good, with a 6.77/10 guest rating.|suggest
+SYS|However, the return date is August 31st at 1:00 a.m. for this travel package.|suggest
+SYS|I have no other locations available for these departure and arrival dates.|suggest
+SYS|Would you like to book this travel package?|suggest
+USR|Would I be staying in a room with an ocean front view?|switch_frame
+USR|How much would it cost to upgrade to such a room?|switch_frame
+SYS|I'm sorry, I do not have that information|canthelp
+USR|Does the hotel have a gym which guests can access?|request
+SYS|Yes there is a gym.|suggest
+SYS|Would you like to book this travel package?|suggest
+USR|Please.|thankyou
+USR|Thanks|thankyou

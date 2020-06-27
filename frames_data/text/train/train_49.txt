@@ -1,0 +1,18 @@
+USR|Hey Im looking for a nice get away can you help me?|inform
+SYS|Definitely, how many people will you be traveling with?|request
+USR|just myself!|inform
+USR|im from North Vancouver|inform
+SYS|I can offer you flights to San Juan, Montreal, Alexandria, Sydney, Cleveland or Seattle.|suggest
+USR|SEATTLE!|request
+USR|what options do we have there?|request
+SYS|I have one package for Seattle from the 27th of August to the 6th of September.|offer
+SYS|You will be staying at the Fairyland, a 3.5-star hotel with a 0/10 guest rating, free wifi and free parking.|offer
+SYS|This trip will total 569.14USD.|offer
+USR|I have some specific dates due to my work i can only be gone from  August 15th until september 2nd|inform
+SYS|I have several Seattle packages for the 27th of August to the 6th of September.|suggest
+SYS|You have  a choice between the Fairyland or the Emerald, a 5-star hotel with a 8.8/10 guest rating and free parking.|suggest
+SYS|You also have a choice between a business flight or an economy flight.|suggest
+USR|is there any possibility of finding a package where i can be back on the 2nd?|inform
+SYS|Unfortunately I do not have any packages matching those dates.|sorry
+USR|thats very upsetting seems like i just wont take a vacation.|thankyou
+USR|thanks anyways'|thankyou

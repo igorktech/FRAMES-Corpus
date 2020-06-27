@@ -1,0 +1,17 @@
+USR|need a vacay
+i only got 3 days off work tho august 27-31
+i wanna go to Kobe whats available?|request
+SYS|If you can fly out from Sapporo, I can book you at White Square from the 27th until the 31st f or only 565.53USD.|offer
+USR|im leaving from brasilia|inform
+SYS|In that case, your price increases to 4220.10USD.|inform
+SYS|Is this OK?|inform
+USR|not bad... what about if i went to punta cana for the same dates?|inform
+SYS|Unofrtunately the only available package for Punta Cana is from the 24th to the 28th of August.|offer
+SYS|Is this ok?|offer
+USR|is the package to Kobe august 27-31?|confirm
+SYS|Yes.|affirm
+USR|ok well that will be the only one to work for me right now.|inform
+USR|lets book it|inform
+SYS|Your vacation has been booked.|inform
+SYS|Enjoy your stay!|inform
+USR|thank you|thankyou

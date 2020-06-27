@@ -1,0 +1,26 @@
+USR|Hi!|inform
+USR|I'm well.|inform
+USR|I'm looking at this website.|inform
+USR|Its got this picture of a pastry.|inform
+USR|I've never seen anything like it and I need to go see it for myself|inform
+SYS|Okay!|request
+SYS|Where would you like to go?|request
+USR|Guadalajara.|inform
+USR|Leaving from Salvador
+Can you get 3 adults and 3 kids there on 15000|inform
+SYS|I can try!|request
+SYS|When would you like to leave?|request
+USR|Anytime, not picky!|inform
+SYS|We have a 3 star hotel near the airport and a park.|offer
+SYS|This hotel has a 8.37/10 guest rating and offers free parking, wifi, and complimentary breakfast also.|offer
+SYS|This package is from September 7th to 22nd.|offer
+SYS|The business package costs 12934.27 and the economy package costs 10036.12.|offer
+USR|Is that the only choice in that city?|confirm
+SYS|No but it is our best package.|offer
+SYS|We also have a 2.5 star hotel from September 8th to 19th, a different 3 star hotel from September 11th to 22nd, and another package from September 6th to 17th at the original 3 star hotel.|offer
+USR|True I agree with that assessment.|inform
+USR|Lets do business class flights then|inform
+SYS|Alright!|inform
+SYS|Is there anything else?|inform
+USR|Thats it!|thankyou
+USR|Thank you|thankyou

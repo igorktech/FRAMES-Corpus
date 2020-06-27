@@ -1,0 +1,18 @@
+USR|Hi I work for a big multinational corporation and they are sending me to San Diego.|inform
+USR|I'm presently working out of Tokyo.|inform
+SYS|Hi there.|request
+SYS|What is your intended departure date and will you have any colleagues joining you?|request
+USR|No it's my first time traveling alone.|inform
+USR|I'm looking forward to it.|inform
+USR|I just want to make sure I make the right decision on where to do my internship.|inform
+USR|It's crucial to my career.|inform
+SYS|And what dates would you like to travel between?|request
+USR|25 August - 31 August|inform
+SYS|I have packages starting at 3677.6USD to San Diego for 5 days.|request
+SYS|Do you have a price limit for this trip?|request
+USR|It's $4800 but I rather not spend it all.|inform
+USR|What do you have to Mannheim?|inform
+SYS|I can offer you 5 days at the 5 star Regal Resort for 3031.30USD.|offer
+SYS|The hotel includes free wifi and a spa.|offer
+USR|Better deal than San Diego and we have an office in Mannheim too :grinning: can you give me dates to make sure they work well?|request
+SYS|Departure is the 27th of August and you would return on the 30th.|inform

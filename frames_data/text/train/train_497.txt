@@ -1,0 +1,7 @@
+USR|Hello, so, I need the BEST hotel in Tokyo that 6100 dollars can me.|inform
+USR|I'm taking off out of Denver, heads up, and leaving August 27th
+Or soon after..|inform
+SYS|I only have 3 star hotels|offer
+USR|7100 dollars.. what then ???|inform
+SYS|5187.40USD can get you to a 3.0 stars hotel with spa and free wifi flying business class|offer
+USR|I don't reckon I'll be finding any hidden celebs there.. Thanks anyways I suppose|thankyou

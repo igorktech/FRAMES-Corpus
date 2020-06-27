@@ -1,0 +1,13 @@
+USR|9 tickets 2 leon pls|inform
+SYS|Are these for adults?|request
+USR|6 of them are|inform
+SYS|Where are you leaving from?|request
+USR|punta cana|inform
+SYS|Do you have a budget?|request
+USR|25 thousand|inform
+SYS|We have a 5 star hotel near the market, 8.69/10 guest rating, spa, from August 31st to September 10th, business class, 22100.80.|offer
+USR|excellent.|inform
+USR|book it|inform
+SYS|Done!|goodbye
+SYS|Have a great day!|goodbye
+USR|thanks|thankyou

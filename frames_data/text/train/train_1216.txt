@@ -1,0 +1,21 @@
+USR|I need to get to North Vancouver to shoot my movie.|inform
+USR|Coming from Birmingham|inform
+SYS|Sure!|request
+SYS|When do you want to travel?|request
+USR|anytime.|inform
+USR|for any price.|inform
+SYS|Sadly I can’t find anything from Birmingham to North Vancouver.|sorry
+SYS|Is there anywhere else you could go?|sorry
+USR|I guess I could hang with Selena in Kingston YET AGAIN.|inform
+SYS|From Birmingham I can book you multiple packages to Ebony Manor Inn & Suites, a 4 star hotel with 8.22/10 user reviews.|offer
+USR|ok tell me about these packages.|moreinfo
+SYS|There’s a 13 day from September 18th-30th or a 7 day from September 24th-30th.|inform
+SYS|The hotel is near a museum and has free breakfast, wifi, and parking included.|inform
+USR|I want the 13 day|inform
+SYS|Sure!|suggest
+SYS|Business class?|suggest
+USR|duh|affirm
+SYS|In that case your total will be 1155.77USD.|inform
+SYS|I shall email booking confirmation shortly.|inform
+SYS|Enjoy your stay :slightly_smiling_face:|inform
+USR|Ya thanks|thankyou

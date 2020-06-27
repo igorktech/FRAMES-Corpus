@@ -1,0 +1,20 @@
+USR|I want to go on a vacation from Munich.|inform
+SYS|Where would you like to go?|request
+USR|idk|inform
+SYS|Do you have dates?|request
+USR|monday to the 22nd.|inform
+SYS|Do you have a specific amount you would like to spend on this trip?|request
+USR|4900|inform
+SYS|Will you be travelling as part of a group or unaccompanied?|request
+USR|just me and my kid|inform
+SYS|I have a 3 star in the beautiful city of Toronto that has a 8.86/10 guest rating.|hearmore
+SYS|Would you like me to tell you more about this hotel?|hearmore
+USR|Is that the highest guest rating?|confirm
+SYS|Yes I searched through all of them and this one has the highest guest rating of what is available.|affirm
+USR|Okay yeah tell me more about the hotel.|moreinfo
+SYS|The Hotel Richard can be booked for a 10 day stay, is located near the market and cathedral and and includes a free breakfast, wifi use and parking.|inform
+SYS|It is available for 2967.36USD.|inform
+USR|Perfect I'll take it!|inform
+SYS|Your booking has been taken care of.|inform
+SYS|Have a  great weekend.|inform
+USR|Thanks|thankyou

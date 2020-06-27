@@ -1,0 +1,10 @@
+USR|I have to be in Kabul on or after September 6.|inform
+SYS|Okay!|request
+SYS|Where will you be leaving from?|request
+USR|Los Angeles|inform
+SYS|How long would you like to go for?|request
+USR|As long as my $3400 lasts but it has to be the absolute nicest place in Kabul|inform
+SYS|I'm afraid no results have been in our database.|sorry
+SYS|Would you like to go somewhere else?|sorry
+USR|No it has to be Kabul.|thankyou
+USR|I will go somewhere else, Thanks.|thankyou

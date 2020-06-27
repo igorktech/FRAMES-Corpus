@@ -1,0 +1,24 @@
+USR|Looking to go to Guadalajara|inform
+SYS|Where from?|request
+USR|Toluca|inform
+SYS|When would you like to go to Guadalajara?|inform
+SYS|And how many are you going with?|inform
+USR|We would be 3 adults and 3 children.|inform
+USR|We aren't picky about dates but we would like to review our hotel options|inform
+SYS|Sure thing, our best options consists of two comparable hotels.|offer
+SYS|Both 3 stars.|offer
+SYS|Both offers free parking, free breakfast, and free wifi.|offer
+SYS|We offer 8 day or 4 day stays for one of them, while the other we only offer 4 day stays.|offer
+USR|Okay, would we be able to travel here from Toluca?|confirm
+SYS|Sure can!|request
+SYS|You can even choose between business or economy.|request
+SYS|Do you have a budget you're keeping?|request
+USR|3800 for the group.|request_compare
+USR|Which one has the better guest rating?|request_compare
+SYS|The one with the 8 & 4 day packages is rated at 8.37/10.|inform
+SYS|The other 8.22/10.|inform
+USR|And what would be the total cost for the 8 day package at the former?|request
+SYS|2444.13 for business seats and just 2104.35 for economy seats.|offer
+USR|Then lets do business class!|switch_frame
+SYS|Perfect!|inform
+SYS|Your vacation is booked for you from Sep 7-14!|inform

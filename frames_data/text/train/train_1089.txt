@@ -1,0 +1,46 @@
+USR|Hi there I'm looking for a trip for me and my assistant.|inform
+SYS|Ok!|request
+SYS|Where would you like to go?|request
+USR|There are a few places but I do have a budget of 2300.|inform
+USR|I'm thinking Belo Horizonte.|inform
+SYS|Where would you like to leave from?|request
+USR|Anywhere really.|inform
+USR|Doesn't matter!|inform
+SYS|Ah, ok.|request
+SYS|When would you like to go?|request
+USR|Sometime between Thursday September 8 and Tuesday September 27, and preferably a trip that lasts at least 4 days or more.|inform
+SYS|I have several beach side hotels available in Belo Horizonte for you within your budget.|inform
+USR|Leaving from where?|request
+SYS|Goinania, Porto Alegre, Santo Domingo, or Maceio.|offer
+USR|Do you have hotels near a park?|inform
+USR|I need a park to walk the dog.|inform
+SYS|They are all near beaches.|inform
+USR|In that case, can I try another destination then?|request_alts
+SYS|Ok.|request
+SYS|Where?|request
+USR|Again, I'm looking for a hotel near a park in Berlin.|inform
+SYS|I have many hotels near museums in Berlin.|suggest
+SYS|Does that interest you?|suggest
+USR|No, I want a hotel near a park.|inform
+SYS|Sorry, I don’t see any in Berlin.|sorry
+USR|I hear Toronto is a good city.|inform
+SYS|Unfortunately I am only seeing trips for one hotel in Toronto and it is not near a park.|sorry
+SYS|I am limited in the amount of results I can fetch; if you could suggest a departure city it would be very helpful to narrow down the selection.|sorry
+USR|In that case, I'll try Belo Horizonte again.|switch_frame
+USR|At least I can take the dog to the beach.|switch_frame
+USR|What's the most highly rated hotel you have in Belo Horizonte?|switch_frame
+SYS|The only hotel I can see in Belo Horizonte is 2.5 stars.|request
+SYS|Do you have a maximum length of stay?|request
+USR|No, as long as it fits my budget.|inform
+USR|And is within those dates I gave you earlier.|inform
+SYS|Ok.|inform
+SYS|I can book 17 days for two adults at Tranquil Season Hotel for only 1332.83USD.|inform
+USR|What are the departure and return dates for that, and where is it leaving from?|request
+SYS|You would leave from Porto on September 9th and return on the 25th.|inform
+USR|Can you tell me more about what this package includes please?|request
+SYS|It is a 2.5 star hotel with free breakfast, free wifi, and free parking.|inform
+USR|That sounds like a pretty good deal.|inform
+SYS|Ok!|inform
+SYS|Consider it booked.|inform
+USR|Great, thanks!|thankyou
+SYS|My pleasure :slightly_smiling_face:|you_are_welcome

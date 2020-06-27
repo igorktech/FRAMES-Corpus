@@ -1,0 +1,17 @@
+USR|3 adults 2 kids, leaving from burlington, destination tbd|inform
+SYS|Do you have a budget?|request
+USR|1800|inform
+SYS|I have a 4 star hotel to Calgary at 1318.84USD, or 1758.8USD business class|offer
+USR|what other destinations do you have?|negate
+USR|we've already been to Calgary so we would prefer somewhere new|negate
+SYS|unfortunately this is all we have|sorry
+USR|What if I upped the budget to 2000?|inform
+SYS|I have trips to Las Vegas and Denver|offer
+USR|Denver sounds nice!|moreinfo
+USR|Could you tell me more about the package?|moreinfo
+SYS|3 star hotel near museum and university at 1837.24USD in economy class|inform
+USR|Ok can you buck us between Sept 13 and 17?|inform
+SYS|Sorry we dont have anything for these dates|sorry
+USR|What about 13 to 26?|inform
+SYS|Only Calgary is available for these dates|inform
+USR|thats a shame i'll need to confer and get back to you then|goodbye

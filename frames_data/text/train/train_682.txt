@@ -1,0 +1,15 @@
+USR|Hello!|inform
+USR|I'm booking for a honeymoon right after our wedding in Monterrey.|inform
+USR|We can leave any day after September 6.|inform
+SYS|Where do you want to go?|request
+USR|Ideally Ulsan for 5 days.|inform
+SYS|Do you have a budget?|request
+USR|4400 tops... spent too much on the wedding already :disappointed:|inform
+SYS|There is nothing available within your budget|no_result
+USR|Nothing??|inform
+USR|That's unfortunate.|inform
+USR|I guess we can also settle for Rome.|inform
+SYS|There is still nothing available.|no_result
+USR|Oh man.. that really sucks.|thankyou
+SYS|Okay.|goodbye
+SYS|Have a nice day!|goodbye

@@ -1,0 +1,41 @@
+USR|I'm so happy, my wife is finally letting me plan the family vacation!|inform
+USR|We saved all of our loonies and twonies this year and we have a whole $5000 to spend!|inform
+USR|Now, I have to impress her by getting the best possible information on all of our options.|inform
+USR|I think Belem would be a great place to take the kiddies!|inform
+SYS|I'd be happy to look into that for you!|request
+SYS|From where are you leaving?|request
+USR|We live in Goiania|inform
+SYS|And how many kids do you have?|request
+USR|We have 5 beautiful children, 2 girls and 3 boys.|inform
+USR|Their names are Sansa, Arya, Robb, Brandon and Rickon.|inform
+SYS|I'll also need the dates you are available.|request
+SYS|Then i'll be able to start presenting you with some options!|request
+USR|We can leave from August 30th to September 6th, before winter sets in|inform
+SYS|For those days, I have one package which is a 4 day stay at the Gentle Tower Resort.|offer
+SYS|Its a four star hotel close to the beach and the airport and it has excellent user reviews.|offer
+SYS|Is that a long enough stay for you?|offer
+USR|We would prefer something longer....winter is coming.|inform
+USR|How about south to Baltimore.|inform
+USR|What do you have available there on the dates I gave you?|inform
+SYS|The packages we have to Baltimore do not fit in your budget.|suggest
+SYS|Did you have any other destinations in mind?|suggest
+USR|well how much is it?|request
+SYS|The cheaper one is over 17000|inform
+USR|We've heard Hamburg is really kid friendly!|inform
+SYS|I have something for you in Hamburg!|offer
+SYS|I can offer you a 7 day holiday at Hotel Peter.|offer
+SYS|You would be staying in the heart of the city and close to a museum.|offer
+SYS|The package includes free breakfast, wifi and parking and you could fly in business class and still be within your budget.|offer
+USR|How much is that one?|request_compare
+USR|Is that one on business class too?|request_compare
+SYS|The one in Hamburg is 4963.89USD in business and 3722.99USD if you prefer to fly in economy.|offer
+SYS|The Gentle Tower package is 4407.43USD and is only available with economy flights.|offer
+USR|What dates for Hambuurg?|inform
+SYS|Your stay there would be from August 31st to September 5th.|inform
+USR|And in Belem?|request
+SYS|That one is from September 2nd to the 5th.|inform
+USR|Well we definitely would not fly business class with all those kids, definitely economy whatever we choose.|switch_frame
+USR|You said Gentle Tower is on the beach, is Hamburg also on the beach?|switch_frame
+SYS|No, the Hamburg hotel is in the heart of the city and close to a museum.|inform
+USR|How many stars is the hotel Peter rated?|request
+SYS|It is a 3 star hotel.|inform

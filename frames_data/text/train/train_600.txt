@@ -1,0 +1,16 @@
+USR|Barcelona to anywhere for 0 dollars|inform
+SYS|We do not offer free trips|no_result
+USR|400 bucks then|inform
+SYS|We happen to have some sales out of Barcelona at the moment, depending on your departure date.|request
+SYS|Do you have any preference?|request
+USR|don’t care nope, whenever|inform
+SYS|How does Rome sound for 11 days?|offer
+SYS|We have the Secret Bay available there from  Sept 6 to Sept 16.|offer
+SYS|This hotel has not been rated yet but includes wifi and breakfast at a price of 384.43USD.|offer
+USR|But before I rush into it, would there be any other trips in my budget?|request_alts
+SYS|The Hotel Peter in Hamburg ia available from August 31st to Sept 9th  at a price of 341.20USD.|offer
+SYS|This one has a 3 star rating and includes free parking, wifi and breakfast.|offer
+USR|I think I’d prefer Rome.|inform
+USR|lets book it|inform
+SYS|I will go ahead and get that booked for you.|inform
+SYS|Have a great week.|inform

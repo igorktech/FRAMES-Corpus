@@ -1,0 +1,9 @@
+USR|Hi do you have packages for 8 adults from Tel Aviv to Vitoria?|inform
+SYS|Hi!|request
+SYS|Do you have a budget?|request
+USR|No, I don't|inform
+SYS|When would you like to leave?|request
+USR|August 26, And return August 29|inform
+SYS|There are no flights from Tel Aviv or to Vitoria.|no_result
+USR|What about Tel Aviv to Goiania|inform
+SYS|There are no results.|no_result

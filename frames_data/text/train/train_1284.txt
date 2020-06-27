@@ -1,0 +1,25 @@
+USR|I am leaving from Marseille and want to bring my friends with me to Hamburg for my birthday bash|inform
+SYS|I can help you with that!|request
+SYS|How many of you are there?|request
+USR|8 altogether|inform
+SYS|Great!|offer
+SYS|I have a 13 day stay at a 4.5 star hotel, or 8 days at a 3 star or a 4 star.|offer
+USR|I think 13 days at a 4.5 star sounds the best.|moreinfo
+USR|Tell me about it!|moreinfo
+SYS|Well, its a hotel near the airport with free parking and free wifi.|inform
+SYS|Guests have given it a 9.16/10 rating.|inform
+USR|Thats good but I think i'd like to look at Mexico City|inform
+SYS|I have two different hotels in Mexico City - both are 3 stars.|offer
+USR|I'm gonna need 5 star options.|inform
+USR|Anything in Essen|inform
+SYS|I have only 2 or 3 star hotels in Essen.|inform
+USR|Ugh that's frustrating.|inform
+USR|Well I think we will have to book the 4.5 star hotel in Hamburg then.|inform
+USR|It's close to 5 stars.|inform
+USR|Yeah just book that one then.|inform
+USR|Business class|inform
+SYS|Ok, I will do that.|confirm
+SYS|Business class flights?|confirm
+USR|yeah|affirm
+SYS|6540.39USD|offer
+USR|kk thanks|thankyou

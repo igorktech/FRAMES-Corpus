@@ -1,0 +1,17 @@
+USR|My friends and I would like to go Belo Horizonte please.|inform
+SYS|How many will you be total?|request
+SYS|And where are you coming from?|request
+USR|We'll be 10 people coming from Guadalajara.|inform
+USR|If you could find us something really cheap, that would be great!|inform
+SYS|Do you have a specific budget in mind?|request
+USR|yeah, 1800 dollars.|inform
+SYS|Sorry, we actually don't have any current openings in trips to Belo Horizonte.|sorry
+SYS|Is there somewhere else you would like to go?|sorry
+USR|What?|null
+USR|Seriously?|null
+USR|That can't be possible.|null
+USR|Can you double-check?|null
+SYS|Unfortunately there is nothing for Belo Horizonte right now.|sorry
+USR|Aw that's a shame.|thankyou
+USR|A lot of people will be disappointed.|thankyou
+USR|Thanks anyways.|thankyou

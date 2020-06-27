@@ -1,0 +1,48 @@
+USR|hi my friend i am going to take a vacation.|inform
+USR|but i want to go many places
+i am unsure where i shall go
+i will leave from vancouver
+can you tell me about Athens?|inform
+USR|what is available there?|inform
+SYS|Are you just 1 adult?|suggest
+USR|that is right!|affirm
+SYS|When would you like to take your vacation?|request
+USR|I can go from the 12th until the end of September|inform
+SYS|I have some places for you in Athens.|inform
+SYS|Do you have a maximum amount of money to spend?|inform
+USR|Nope!|inform
+USR|No max!|inform
+SYS|I have 15 days at the Lunar Jewel Lodge a 3 star hotel with a price tag of 4892.34USD via business class travel.|offer
+USR|What is the hotel like?|request
+USR|what is included?|request
+SYS|This is a simple hotel that includes free wifi and free parking|inform
+USR|What do guests think of it?|request
+SYS|It seems to have no reviews as of yet as the guest rating is 0/10|inform
+USR|ah - not a risk I’m looking to take as of yet.|inform
+USR|What’ve you got available in Dublin?|inform
+SYS|In Dublin, I have 2 options, one is a 2 star and the other a 2.5 star hotel.|hearmore
+SYS|Does this interest you?|hearmore
+USR|No, not particularly.|inform
+USR|Let’s look at Kochi|inform
+SYS|Hotel Grandiose Rose - 10 days, a 3.5 star hotel located in the heart of the city and near a park.|offer
+SYS|It has a guest rating of  7.15 / 10|offer
+USR|When would I leave?|request
+SYS|Sept 11th returning Sept 19|inform
+USR|Any amenities?|request
+SYS|Standard free wifi|inform
+USR|Ah, ok.|inform
+USR|One last spot to check out : San Juan|inform
+SYS|I have an excellent choice in San Juan, the 4 star Fairyland - 11 days close to the museum and market and plenty of shopping in the surrounding areas.|offer
+SYS|Includes free wifi and has a guest rating of 8.98 / 10.|offer
+USR|oh that’s great.|request
+USR|definitely best rated hotel yet
+no free breakfast tho?|request
+SYS|No, just wifi|inform
+USR|that is ok.|request
+USR|what is the cost of that package?|request
+SYS|1262.56USD if you take it on economy|inform
+USR|let’s go for business|inform
+SYS|1561.79USD on business.|suggest
+SYS|Departure is on Sept 14 and return is on Sept 24.|suggest
+SYS|Would you like me to go ahead and process the request?|suggest
+USR|spectacular book please|inform

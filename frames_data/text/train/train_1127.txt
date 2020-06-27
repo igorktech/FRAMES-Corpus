@@ -1,0 +1,15 @@
+USR|hey yea so i need to get 5 adults and 1 child out of osaka between september 24 to the 27th or 28th|inform
+SYS|Do you know where you'd like to go?|request
+USR|nope.|inform
+USR|just keep it under 2700 dollars|inform
+SYS|We have one availability to Kyoto from the 25th to 28th at a 3 star hotel.|offer
+USR|sounds appropriate.|request
+USR|what amenities?|request
+SYS|Free breakfast and wifi, it is also located near a museum.|inform
+USR|and that’s the only thing within our budget?|inform
+USR|what if I increased the budget to 2900?|inform
+SYS|This is still the only result|inform
+USR|ok fine’book that then i suppose|switch_frame
+SYS|Done!|inform
+SYS|Have a great day!|inform
+USR|thanks a bunch!|thankyou

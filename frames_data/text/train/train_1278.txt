@@ -1,0 +1,31 @@
+USR|I have 8 days vacation|inform
+SYS|Great, where would you like to go and where will you be coming from?|request
+USR|from frankfurt and i dont know where i wanna go but i want to leave on or after the 18th|inform
+SYS|Nice!|request
+SYS|Is there a maximum amount that you would like to spend?|request
+USR|no.|inform
+SYS|How many days would you like to go for?|request
+USR|8|inform
+SYS|For 8 days you can go to Rio de Janeiro, Brazil for 3384.75 which includes free parking, breakfast and wifi.|offer
+SYS|Does this interest you?|offer
+USR|Yes that sounds pretty good.|switch_frame
+USR|Can you tell me more?|switch_frame
+SYS|It's a 2.5 star hotel with a park and a shopping mall nearby.|inform
+USR|Ok.|inform
+USR|Do you have any better hotels?|inform
+SYS|Not for Rio de Janeiro, sorry.|sorry
+SYS|However I have a 4 star hotel for a trip to Queenstown South Africa that lasts 7 days.|sorry
+SYS|Would you be interested?|sorry
+USR|yeah tell me more|moreinfo
+SYS|It costs 1112.58 for economy and 1327.80 for business.|suggest
+SYS|Free parking, breakfast, and wifi are also included.|suggest
+SYS|Would you like to book?|suggest
+USR|Sure!|request
+USR|This one seems to be more what I’m looking for.|request
+USR|Is the hotel near anything?|request
+SYS|A famous museum.|suggest
+SYS|Would you like to book business or economy?|suggest
+USR|business for sure|switch_frame
+SYS|Consider it booked!|inform
+SYS|Have a great trip :slightly_smiling_face:|inform
+USR|Thanks so much|thankyou

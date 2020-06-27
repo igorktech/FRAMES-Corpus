@@ -1,0 +1,38 @@
+USR|Heyooooo|greeting
+SYS|Hey|greeting
+USR|We are a group of friendly bros, 7 adults in all, and we want to go from Paris to Athens.|inform
+USR|Leaving Aug 29 returning Sept 9|inform
+SYS|Are you on a budget?|request
+USR|Right on!|inform
+USR|Our budget is 24300|inform
+SYS|I can do this for you!|offer
+SYS|I have one hotel available - Lunar Jewel Lodge.|offer
+SYS|You would go from August 30-September 8.|offer
+USR|Is there no way you could Book us from the 29th of Aug until the 9th of Sept?|inform
+USR|If not, can you check Brasilia for the same dates, and also leaving from Paris?|inform
+SYS|not for Athens.|no_result
+SYS|I will check on Brasilia for you right now!|no_result
+USR|Thanks bro|thankyou
+SYS|I can book August 29-September 8 in Brasilia!|offer
+SYS|Would that be ok?|offer
+USR|What would it cost, and what kind of hotel can you get us?|request
+SYS|I have a 3.5 star hotel - Parallel Angel near the beach, a park, and a theatre for $19719.|inform
+USR|Can you tell me if this hotel has a hot tub?|null
+USR|The boys are hyped for a team hot tub sesh|null
+SYS|It has free breakfast, free wifi, and free parking, but I do not know about anything else.|canthelp
+USR|Damn alright.|request
+USR|Can you check if the hotel in Athens has a hot tub?.|request
+USR|And also tell us what that package would cost|request
+SYS|that information is not in my database.|sorry
+SYS|I am sorry :disappointed:|sorry
+USR|How much does it cost then|request
+SYS|In Athens, the cost would be 17462.92USD.|inform
+USR|What is the user review of the hotel in Athens?|request_compare
+USR|What is the user review of the hotel in Brasilia?|request_compare
+SYS|There are no user reviews for the Athens hotel or for the Brasilia hotel.|inform
+USR|Is there an option to fly business class to Brasilia|inform
+SYS|Yes, that would bring your total cost to 18463.96USD|offer
+USR|Done.|inform
+USR|Book it.|inform
+SYS|Ok :slightly_smiling_face: I will go ahead and book that for you!|inform
+USR|Thank you!|thankyou

@@ -1,0 +1,32 @@
+USR|hi there
+im thinking of going to san juan soon.|inform
+USR|between aug 27 and sep 15|inform
+SYS|Where are you travelling from|request
+USR|prob vitoria|inform
+SYS|Do you have a budget?|request
+USR|no|inform
+SYS|would you rather stay in a 2 star hotel or a 4 star hotel?|offer
+USR|4-star|switch_frame
+SYS|the 4 star hotel is in September 6th to september 9th, it is close to a museum a market and a lot of shopping, and it has free Wifi!|suggest
+SYS|All for $3495, should i book that for you?|suggest
+USR|hmm ok, ill keep it in mind.|inform
+USR|what if i went to hiroshima?|inform
+SYS|Still from Vitoria?|confirm
+USR|sure|affirm
+SYS|Hotel Oishi has a museum next to it and is rated at 4.5 stars, leaving on September 6th and returning on the 9th for $3300|offer
+USR|what if i left from washington instead of vitoria|inform
+SYS|you would only have Hotel Royal with a 3 star rating for the same amount, but leaving on August 30th until september 8th|offer
+USR|ok.|inform
+USR|and what if i went to san juan but i left from Washington
+whats available then|inform
+SYS|How many people are travelling with you?|request
+USR|3 colleagues and i|inform
+SYS|In san juan, you have the option to stay at the 2.5 star Brass Tower Inn for 10 days either on September 4th or August 27th|offer
+USR|when would i return if i went on august 27|switch_frame
+SYS|The 5th of September|inform
+USR|i wanna go back to hotel royal in hiroshima.|request
+USR|Does the hotel have free wifi|request
+SYS|For Hotel Royal, which has free wifi, and leaves on August 30th for 11 days is $12556|inform
+USR|that sounds good, lets book it|inform
+SYS|perfect ill go ahead and do that for you!|inform
+USR|bless :raised_hands:|thankyou

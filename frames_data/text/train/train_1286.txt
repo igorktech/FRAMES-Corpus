@@ -1,0 +1,24 @@
+USR|I want to find a vacation between the 12th and 17th for 4 adults and 1 child.|inform
+USR|We would need to leave from Rio de Janeiro|inform
+SYS|Hello!|greeting
+SYS|How may I help you today?|greeting
+USR|We also have 3100|inform
+SYS|We have two 4 day packages in Goiania, both leaving from September 12th to September 15th.|suggest
+SYS|The more affordable one costs 2834.90.|suggest
+SYS|Would you like to book it?|suggest
+USR|Can you give me a list of places first?|request_alts
+SYS|That's all we have within your dates and budget.|no_result
+USR|Oh okay.|inform
+USR|Well then I guess we will book this one.|inform
+USR|Can you give me information about the hotel?|inform
+SYS|It's a 3.5 star hotel that includes free parking, breakfast, and wifi.|inform
+SYS|Would you like to confirm your booking?|inform
+USR|Is it near anything interesting?|request
+SYS|There's a lovely park and some great shopping areas in the vicinity.|inform
+USR|Great!|inform
+USR|Yes can I book this in business class with my budget?|inform
+SYS|we only have economy class for this package.|offer
+USR|Yeah thats fine|switch_frame
+SYS|Consider it booked!|inform
+SYS|Have a great trip!|inform
+USR|Thanks!|thankyou

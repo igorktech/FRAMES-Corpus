@@ -1,0 +1,26 @@
+USR|Hi.|inform
+USR|I need to get away stat.|inform
+SYS|Good evening!|request
+SYS|I will do what I can to help you.|request
+SYS|What is your destination?|request
+USR|Anywhere!|inform
+USR|I just need to get of of St. Petersburg right away.|inform
+USR|I want to leave August 17 and return by September 6.|inform
+USR|I only have 3900 dollars.|inform
+SYS|I have a package available in Calgary, Canada, 7 days, 4 star hotel, close to the university It is available from August 22 to Sept 2nd.|offer
+SYS|It is a steal of a deal at 259.5USD.|offer
+USR|That really is a steal!|request_alts
+USR|Anything else?|request_alts
+SYS|I have the Olive Bazaar Inn & Suites for 8 days in Pittsburgh.|offer
+SYS|It is located by the airport and there is a park and a museum .|offer
+SYS|It also has all the amenities included such as free parking, free wifi and a free breakfast.|offer
+USR|Cool!|request
+USR|How much is this one?|request
+SYS|332.48USD on an economy class flight which departs on Wednesday, August 17th 2016 and returns on Wednesday, August 24th 2016|inform
+USR|That's extremely cheap... how many stars is it?|inform
+USR|Well nevermind, I dont care!|inform
+USR|Book it please!|inform
+SYS|2.5 star hotel with a guest rating of 8.22/10.|inform
+SYS|I will go ahead and book that for you.|inform
+USR|Niceeeee thanks!|thankyou
+USR|I loved using this agency.|thankyou

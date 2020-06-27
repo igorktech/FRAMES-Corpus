@@ -1,0 +1,36 @@
+USR|I have 11 days of time off starting on August 17.|inform
+USR|Can you offer me any vacation packages leaving from Portland?|inform
+SYS|Hi, would you have a budget in mind for this trip?|greeting
+USR|No, I've recently inherited a gigantic sum of money.|inform
+USR|I prefer 4 stars and above, as well as free breakfast if possible, please.|inform
+SYS|Would you have a special destination in mind?|confirm
+SYS|We will definitely look at luxury hotels that are only a 4 star or more rating.|confirm
+USR|No particular destination in mind, I'm just looking for an adventure.|inform
+USR|How about Paris to start?|inform
+SYS|I have the Muse available for 12 days but that is only a 2 star hotel.|inform
+SYS|However, I do have some suggestions.|inform
+SYS|I have some excellent options available during that time period.|inform
+SYS|A nice 4 star hotel in Calgary, Canada, another nice 4 star hotel in Marseille or a 4.5 star hotel in Frankfurt, Germany all with direct flights from Portland.|inform
+SYS|Do any of these cities interest you?|inform
+USR|The Marseille and Germany packages are very attractive.|switch_frame
+USR|I'd like to know more about hotel in the Marseille package.|switch_frame
+USR|Is breakfast included?|switch_frame
+SYS|The Hotel Duchesse in Marseille is a 4 star hotel which provides you with free wifi, but breakfast is not included in the price.|request
+SYS|It is available from Sunday August 21st to Sunday August 28th.|request
+SYS|I forgot to ask, will you be travelling alone or with a companion?|request
+USR|I will be travelling alone.|request
+USR|How much is this package?|request
+SYS|This package on an economy flight is worth a total of $3049.54USD.|suggest
+SYS|Are you interested in booking it?|suggest
+USR|I am, but first I'd like to see what the price is with an upgrade to business class, and perhaps compare this package to the Germany deal.|request_compare
+SYS|There are no longer business class seats available for this particular package to Marseille.|inform
+SYS|The Mellow Palms Resort in Frankfurt is a 10 day package available from Aug 19 to Aug 27 and includes free wifi and  free breakfast and has a 4.5 star rating.|inform
+SYS|The total cost on this package, also based on an economy class flight is $3091.3USD.|inform
+USR|Is it possible to upgrade the Frankfurt flight to business class?|inform
+SYS|This package is also only available with an economy class seat.|null
+USR|That's fine.|inform
+USR|I will book the 10 day Germany Mellow Palms Resort vacation package.|inform
+SYS|I will get that all booked up for you and send you an email confirmation.|inform
+USR|Great, thank you.|thankyou
+USR|I will most certainly book my next vacation with you.|thankyou
+SYS|Enjoy your trip!|goodbye

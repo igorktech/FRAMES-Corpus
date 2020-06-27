@@ -1,0 +1,25 @@
+USR|Hello, I'd like to go to Kyoto|inform
+SYS|Where will you be coming from?|request
+USR|Toronto.|inform
+USR|I'd like to go sometime between September 17 and October 7 please|inform
+SYS|Will it be for just you?|suggest
+USR|yes.|inform
+USR|Preferably not more than 4300 please|inform
+SYS|No problem.|offer
+SYS|I would like to recommend you the Sakura Inn.|offer
+SYS|We have a 9 day package at this 3.0 star hotel close to the museum that may interest you.|offer
+USR|How much would that cost?|request
+SYS|Total would be 4199.56 including economy flights and wifi at the hotel.|inform
+USR|And what are the dates for this trip?|request
+SYS|Sept 24 - Oct 1|inform
+USR|That sounds pretty good.|inform
+USR|But do you have anything at a nicer more upscale hotel?|inform
+SYS|I presented you our best rated hotel in Kyoto.|suggest
+SYS|Do you want to try with another destination?|suggest
+USR|No, that's fine.|inform
+USR|I'll take this package.|inform
+SYS|Okay!|inform
+SYS|I can process the booking for you!|inform
+SYS|Once done, you will receive an email notification.|inform
+USR|Great thanks!|thankyou
+SYS|You are welcome!|you_are_welcome

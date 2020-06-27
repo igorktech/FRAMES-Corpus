@@ -1,0 +1,44 @@
+USR|Oh my god there are so many places I want to go but I don't know which to choose from.|inform
+SYS|Let’s start with one place - where you’d like to leave from!|request
+USR|Oh I'm from Santo Domingo.|inform
+SYS|Ok!|request
+SYS|Do you have any destinations in mind or would you like me to suggest a few?|request
+USR|Yeah I have a few in mind.|inform
+USR|I hear Queenstown is great, very historical.|inform
+USR|Let's start with that.|inform
+SYS|And do you have a budget?|request
+USR|Nah, not really.|inform
+USR|It's flexible.|inform
+SYS|Any dates in mind?|request
+USR|Oh yes!|inform
+USR|Friday September 16 to Wednesday September 28.|inform
+SYS|Ok !|offer
+SYS|I have Queenstown Emerald Mountain Hotel from Sept 18th-28th.|offer
+SYS|This is a 4 star hotel near a museum with a 8.22/10 guest rating.|offer
+SYS|The facility also hosts free parking, free breakfast, and provides unlimited wifi use at no extra charge.|offer
+USR|Wow that's very good.|inform
+USR|I'm definitely keeping that one in mind.|inform
+USR|I have to say though, I'm also curious about St. Louis.|inform
+SYS|Sorry, I have nothing within your date range.|sorry
+USR|Oh that's fine.|inform
+USR|How about Columbus?|inform
+SYS|I have 5 or 7 day trips to Crown Jungle Inn available.|offer
+SYS|It is a 2.5 star hotel near the beach and a palace.|offer
+SYS|It has a 8.49/10 guest rating and provides free parking and free wifi.|offer
+USR|Ah Queenstown still sounds much better.|switch_frame
+SYS|Shall I book Queenstown for you?|inform
+USR|Hmmm can I just ask about one more destination please?|inform
+USR|I'm also thinking about Busan.|inform
+SYS|I have one hotel in Busan - the Smile Hotel.|offer
+SYS|You would stay 9 days at this 3 star hotel near a park and museum with free parking, free breakfast, and free wifi all included.|offer
+USR|How much would that be and how much would the Queenstown one be?|request_compare
+SYS|This Busan package would cost 4840.13USD with economy class flights.|inform
+USR|And the Queenstown one?|request
+SYS|The Queenstown package price is 2443.66USD if you fly economy class.|inform
+USR|Whoa, huge difference!|inform
+USR|I think we have a clear winner then.|inform
+USR|Queenstown it is!|inform
+SYS|Ok!|inform
+SYS|I’ll go ahead and book that then.|inform
+USR|Great, thanks!|thankyou
+SYS|My pleasure :slightly_smiling_face:|you_are_welcome

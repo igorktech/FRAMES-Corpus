@@ -1,0 +1,27 @@
+USR|I’d like to see where I can go from Hiroshima.|inform
+USR|Between now and September 5|inform
+SYS|Do you have a budget?|request
+USR|yes, 1400|inform
+SYS|Are you travelling alone?|suggest
+USR|Yes|affirm
+SYS|We have no flights from Hiroshima unfortunately.|sorry
+USR|What if I stretch the date range to now and September 18?|inform
+SYS|That helped.|offer
+SYS|We have flights to Osaka, Kochi, Kobe, Ulsan and Sendai.|offer
+USR|Whats the longest trip you have out of those choices?|request_compare
+SYS|Osaka and Kochi.|inform
+USR|And out of those, which one has the best hotel?|request_compare
+SYS|Osaka.|inform
+USR|How many stars this hotel have?|switch_frame
+SYS|4 and is near a park and museum.|inform
+USR|What dates can you get me for this one?|request
+SYS|September 2nd to 13th.|inform
+USR|What would it cost in total?|request
+SYS|Would you like the cost of business or economy flights?|offer
+USR|economy please|switch_frame
+SYS|681.94.|inform
+USR|sign me up, boss|inform
+SYS|Cool!|inform
+SYS|You're all signed up.|inform
+SYS|Have a good trip|inform
+USR|Thanks!|thankyou

@@ -1,0 +1,28 @@
+USR|my assistant and I want to get to ciudad juarez over the next couple weeks to take care of a little chihuahua|inform
+SYS|Where are you coming from and when exactly would you like to go|request
+USR|between the 9th and the 23rd of september; and i can leave from anywhere|inform
+SYS|What's your budget?|request
+USR|uunder 3200 please|inform
+SYS|Okay, our best accommodation in Ciudad Juarez is a 3.5 star hotel next to a palace.|offer
+SYS|It is rated 8.8/10 by guests and offers free wifi, breakfast, and parking.|offer
+USR|there is no park nearby though is there?|request
+SYS|My database does not indicate that it is near a park.|inform
+USR|are there any other ones?|request_alts
+SYS|There is one other.|offer
+SYS|A 3 star hotel near a market with the same amenities.|offer
+SYS|No mention of it being near a park.|offer
+USR|can you check Naples in that case|inform
+SYS|In Naples we have a fantastic 4 star hotel with 8.86/10 guest ratings.|sorry
+SYS|No hotels near a park though, unfortunately.|sorry
+USR|Atlanta|inform
+SYS|In Atlanta we actually have a 3.5 star beachside hotel near the park.|offer
+SYS|You can stay up to 10 days and enjoy free parking and free wifi during your stay.|offer
+USR|i meant to say that sounds perfect!|switch_frame
+USR|beach AND park|switch_frame
+SYS|You can be there for 10 days for 1831.46 if you leave from Baltimore.|suggest
+SYS|Does that work for you?|suggest
+SYS|Otherwise I have other departure cities available too.|suggest
+USR|let's book :wink:|inform
+SYS|Consider it done!|inform
+SYS|You'll be there from the 14th to the 23rd.|inform
+SYS|Have a great trip :slightly_smiling_face:|inform

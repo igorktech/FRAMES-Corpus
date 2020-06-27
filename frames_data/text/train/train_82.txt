@@ -1,0 +1,9 @@
+USR|Hello, I'd like to book a trip to Mos Eisley from Hogsmeade on August 13.|greeting
+SYS|Hello, the origin and destination do not show up in our system.|request
+SYS|Are there any other destinations you are interested in?|request
+SYS|When will you be travelling?|request
+USR|I'd consider travelling to Coruscant with 12 adults on a budget of $2900, leaving on August 13 from Hogsmeade.|inform
+SYS|I apologize, but I cannot accommodate this request either.|sorry
+USR|That is very unfortunate.|thankyou
+USR|Thank you.|thankyou
+SYS|Thank you and sorry we let you down.|sorry

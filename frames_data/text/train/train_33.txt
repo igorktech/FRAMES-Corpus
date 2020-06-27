@@ -1,0 +1,5 @@
+USR|hi I’m looking to go on a trip to Caprica|inform
+SYS|I apologize but we have nothing available to Caprica.|sorry
+SYS|Are there any other destinations that interest you?|sorry
+USR|It seems that that doesn’t work well for me as i need to go there.|goodbye
+USR|Thankos, bye|goodbye

@@ -1,0 +1,21 @@
+USR|Toronto to Denver got it?|inform
+SYS|Sure :slightly_smiling_face: Dates?|request
+SYS|Budget?|request
+SYS|How many in your party?|request
+USR|3300, 1 person, ASAP!|inform
+SYS|Ok!|request
+SYS|When would you like to leave?|request
+USR|as soon as humanly possible|inform
+SYS|I have a trip leaving on Sept 6th until the 12th?|suggest
+USR|How much would it cost?|request
+SYS|$629|inform
+USR|Wow couldn't I spend a little more?|inform
+USR|Not to flaunt my wealth or anything but I'd like to stay at a nice hotel if I can...|inform
+SYS|The package quoted above is a 4.0 star hotel with a 8.69 guest rating!|inform
+USR|A thing like that!|inform
+USR|Just in the interest of being thorough, can you also look up Toronto to Puebla?|inform
+SYS|Sure!|offer
+SYS|I could get you to Puebla Sept first for 1600 dollars at a 3 star hotel with a 8.8/10 guest rating|offer
+USR|Ok lets keep it in Denver then|switch_frame
+SYS|Alright, you got it :slightly_smiling_face:|inform
+USR|Thanks!|thankyou

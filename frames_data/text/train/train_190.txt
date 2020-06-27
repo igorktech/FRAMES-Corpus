@@ -1,0 +1,18 @@
+USR|Hey there, I’m looking to check out a few destinations to see if they’ll be appropriate for me to accept an internship in.|inform
+USR|I want to travel from August 27-30, just enough to get a taste of each location.|inform
+USR|I am leaving from Monterrey and I would like to spend 5200 at most, as my internship is unpaid.|inform
+USR|Is there anything available to Kobe for these dates and price?|inform
+SYS|Unfortunately the closest flight I can book you for Kobe would be the 11th of September.|sorry
+SYS|Would you like to hear more about this package?|sorry
+USR|I was also looking at Munich..|inform
+SYS|If you're interested in Munich, the closest I can give you to your requested dates would be the 27th of August to the 1st of September.|offer
+SYS|However, this package falls well within your budget at 2813.20USD.|offer
+USR|The last destination I am considering is Paris.|inform
+SYS|Unfortunately I can't seem to find anything in Paris matching your required dates.|sorry
+USR|Ok.|inform
+USR|Well I guess Munich is the best choice.|inform
+USR|Let’s go ahead and book that!|inform
+SYS|Wonderful!|inform
+SYS|Your trip has been booked.|inform
+SYS|Have fun!|inform
+USR|Thank you :slightly_smiling_face:|thankyou

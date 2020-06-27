@@ -1,0 +1,12 @@
+USR|Hi!|inform
+USR|Can you get me a trip from FOrtaleza to Puebla?|inform
+SYS|Do you have a budget?|request
+USR|2600 for 1 adult|inform
+SYS|When would you like to travel?|request
+USR|Sept 2 to 11 please!!!|inform
+SYS|There is nothing to Puebla from FOrtaleza|no_result
+USR|What!!!|inform
+USR|What if Increased budget to 2900|inform
+SYS|There are still no results.|suggest
+SYS|Is there a different destination you'd like to try?|suggest
+USR|Thats all i had my heart set on!!|negate

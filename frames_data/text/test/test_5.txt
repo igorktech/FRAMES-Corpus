@@ -1,0 +1,28 @@
+USR|Hi, me and my family want to take a trip to Kakariko Village.|inform
+SYS|How many adults and how many children will you be bringing with you?|request
+SYS|Do you have a preferred departure location?|request
+SYS|What would be your maximum budget?|request
+USR|We are four adults and 11 children departing from Godric's Hollow.|inform
+USR|$3500 is the most we are willing to spend.|inform
+SYS|I do not have any packages available from that departure location for that budget.|suggest
+SYS|Would you like to adjust the budget?|suggest
+USR|I would not be able to spend more than $4500|inform
+SYS|Would you like to suggest another departure location?|request
+SYS|And what travel destination would you like to travel to?|request
+USR|We'll catch a flight from Toronto then.|inform
+USR|We're headed for Kakariko Village.|inform
+SYS|There are no travel packages available to Kakariko Village.|no_result
+USR|Ok, do you have any travel packages to Kingston, Canada for 11 kids and 4 adults, $3500 or less, departing from Toronto?|inform
+SYS|Yes, I have a package available leaving Toronto at 10:00 a.m. on August 24th and returning to Toronto at 4:00 a.m on August 30th.|suggest
+SYS|This package offers free breakfast, free wifi, and free parking.|suggest
+SYS|The cost of this package is 3465.91 USD.|suggest
+SYS|Would you like to book this package?|suggest
+USR|Do you have any information on what activities are included in the package?|switch_frame
+SYS|I can't help you with that.|canthelp
+USR|Is this a direct flight to Kingston or do we have to make a transfer?|request
+USR|Are the tickets business class?|request
+SYS|The tickets are Economy.|suggest
+SYS|I'm sorry, we do not have any tickets available to Business Class for this flight.|suggest
+SYS|Would you like to book this package?|suggest
+USR|Yes, I'll take it.|thankyou
+USR|Thank you|thankyou

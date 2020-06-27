@@ -1,0 +1,7 @@
+USR|YOU FLY OUT OF BEIJING?|inform
+SYS|Nope, sorry.|sorry
+USR|RECIFE TO NEW YORK 1800 6 ADULTS MAKE IT HAPPEN|inform
+SYS|Sorry, it isn't going to happen.|sorry
+SYS|Are you flexible with your departure and arrival cities or your budget?|sorry
+USR|DONT BOTHER.|goodbye
+USR|HAVE A GOOD EVENING!|goodbye

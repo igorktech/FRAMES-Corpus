@@ -1,0 +1,35 @@
+USR|a vacatoin|inform
+SYS|HI where are you looking to go?|request
+USR|indianapolis.|inform
+USR|perhaps
+i am in baltimore right now
+whats available from august 25 to september 14|inform
+SYS|do you have a budget in mind?|request
+USR|nope i am just looking for something dope|inform
+SYS|ok!|request
+SYS|How many people will you be travelling with|request
+USR|nobody.|inform
+USR|i mean myself|inform
+SYS|I have one option of Hotel Vanilla which is a 3 star hotel and offers free wifi, breakfast and parking with a nearby beach, airport and University.|offer
+SYS|It leaves on the 4th and returns on the 14th.|offer
+USR|ok.|inform
+USR|what is available in seoul tho|inform
+SYS|Ok.|offer
+SYS|The only Hotel i have available is the Harborview Hostel, it has free breakfast and wifi and has 3 stars.|offer
+SYS|It leaves on August 25th until the 30th for $2600|offer
+USR|ok let's keep that in mind as you search for packages in Manaus for me|inform
+SYS|There’s a 9 day trip available to The Serene Garden which is a 3.5 star hotel for $2720.|offer
+SYS|It leaves on the 25th and returns on the 1st|offer
+USR|ok cool, any other hotels in Manaus?|request_alts
+SYS|None leaving on your requested date would you like me to show you?|suggest
+USR|what hotels are available in Fukuoka during my travel windowl?|inform
+SYS|Nothing for your desired dates?|no_result
+USR|dang ok well.|request
+USR|whats the serene garden hotel have?|request
+SYS|There is a near by park and museum, would you like me to book that for you?|suggest
+USR|what about breakfast tho|request
+SYS|Free breakfast, Wifi and Parking.|suggest
+SYS|would you like me to book it for you?|suggest
+USR|i think i want to book indianapolis instead|inform
+SYS|Sure Ill go ahead and do that for you|inform
+USR|cool thanks|thankyou

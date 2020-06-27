@@ -1,0 +1,23 @@
+USR|Perhaps I should explain it another time... But first, lets book a vacation to Tijuana!|inform
+SYS|I can do that for you.|request
+SYS|First, could you please tell me what city is the closest to you.|request
+USR|I'm leaving from Birmingham and I'd like to be back by August 30th.|inform
+SYS|I have one package available departing on August 24th and returning on your desired date of August 30th.|offer
+SYS|It is at the 3-star Resort Jade Covert near the shopping district.|offer
+USR|Only one package?|request_alts
+USR|You don't have anything better for the biggest popstar in the world?!|request_alts
+SYS|Not from Birmingham to Tijuana.|suggest
+SYS|Can I interest you in other destinations?|suggest
+USR|Yes, what about packages to La Paz?|inform
+SYS|I have a nice 4 star rated hotel with a guest rating of 8.98/10.|offer
+SYS|That is available from the 19th to the 25th.|offer
+SYS|Free breakfast, free wifi, free parking.|offer
+USR|What if I left from Pittsburgh, are there better packages to Tijuana or La Paz?|request_compare
+SYS|The hotel package from Pittsburgh to Tijuana is only a 3 star.|offer
+SYS|To La Paz it is the same deal as from Birmingham - the Echo 4 star.|offer
+USR|In that case, I prefer the 4 star package to La Paz from Birmingham.|request
+USR|How much is it?|request
+SYS|On business class, it will be 1555.55USD.|suggest
+SYS|Are you ready to book that package?|suggest
+USR|Then yes, please book it right away!:D :airplane:|inform
+SYS|I will proceed with your booking.|inform

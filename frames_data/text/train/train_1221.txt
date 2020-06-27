@@ -1,0 +1,16 @@
+USR|I have 4 kids i want to take on a trip to see their mom in Santa Cruz|inform
+SYS|Where would you leave from?|request
+USR|Belo Horizonte|inform
+SYS|I have no travel packages available out of Belo Horizonte to Santa Cruz.|no_result
+USR|Anything to Punta Cana?|inform
+SYS|Yes.|suggest
+SYS|Just to confirm, this will be for 1 adult and 4 children, correct?|suggest
+USR|ya|affirm
+SYS|Do you have any dates in mind and a possible length of stay?|request
+USR|no whenever|inform
+SYS|I only have one option for you in Punta Cana that can accommodate you and that would be a 17 day stay at the Scarlet Peaks Hotel, a 3 star property  near the cathedral that includes your breakfast and wifi.|offer
+SYS|Total price: 6346.47USD based on economy flights|offer
+USR|Okay that’s fine.|inform
+USR|We’ll take it.|inform
+SYS|I have made the reservation, have a pleasant trip.|inform
+USR|thanks!|thankyou

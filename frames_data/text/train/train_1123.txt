@@ -1,0 +1,10 @@
+USR|Phoenix to Monterrey|inform
+SYS|Do you have a budget?|request
+USR|I don’t think so|inform
+SYS|Do you know when you'd like to go?|request
+USR|yeah between September 6th and 9th.|inform
+USR|but the dates are flexible|inform
+SYS|And will you be traveling alone?|suggest
+USR|no.|inform
+USR|6 adults|inform
+SYS|There are no flights showing from Phoenix to Monterrey.|no_result

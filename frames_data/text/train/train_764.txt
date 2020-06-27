@@ -1,0 +1,29 @@
+USR|Yo, im from Hiroshima.|inform
+USR|My b-day is coming up soon and me and my 3 amigos wanna party in Recife.|inform
+SYS|Ok!|offer
+SYS|I have the Glee from Sept 8-16 available.|offer
+SYS|The hotel is 4 stars and near a park.|offer
+USR|mmm are there any 5 star hotels?|inform
+SYS|I’m sorry, I only have this 4 star hotel and a 3.5 star one.|sorry
+USR|can you check for 5 star hotels in Frankfurt?|inform
+SYS|I have a 5 star available in Frankfurt for 11 days from Sept 10-19!|offer
+USR|That sounds pretty good, do you have more information on the hotel?|moreinfo
+SYS|Of course!|inform
+SYS|It has 9.32 stars in its user rating, free breakfast, and free wifi included.|inform
+USR|ok, well could you check for 5 star hotels in Ulsan?|inform
+SYS|I have The Sapphire Time available - also 5 stars, near a park, market, and theater.|offer
+USR|whats the guest rating?|request
+SYS|8.98|inform
+USR|not bad.|request
+USR|Do they offer free breakfast and wifi?|request
+SYS|They sure do!|affirm
+USR|great!|inform
+USR|I'll take this one then.|inform
+SYS|Sure thing :slightly_smiling_face: I’ll book that for you.|offer
+SYS|Would you like to fly economy or business class?|offer
+USR|business fo sho|switch_frame
+SYS|Sure!|inform
+SYS|For 4 adults that will be 3707.83USD|inform
+USR|cool beans.|thankyou
+USR|thanx|thankyou
+SYS|My pleasure!|you_are_welcome

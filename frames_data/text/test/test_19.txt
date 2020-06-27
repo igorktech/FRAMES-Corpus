@@ -1,0 +1,20 @@
+USR|please find me a vacation between wed aug 31 and wed sept 21 for 2 adult and 2 kids for 4400$ max.|inform
+USR|leaving frmom fortaleza.|inform
+USR|if|inform
+SYS|Absolutely!|suggest
+SYS|Would you be interested in travelling to Sao Paulo?|suggest
+USR|ya sure sao paulo|switch_frame
+SYS|I can offer you a great deal on a package from September 7-13!|offer
+USR|k|switch_frame
+SYS|Great :slightly_smiling_face: Would you like to know some more information about this package before I book?|hearmore
+USR|yes|affirm
+SYS|You would be staying at the Deluxe Hotel, located near a cathedral and a theatre.|inform
+SYS|You would have free wifi, parking and breakfast.|inform
+SYS|This package costs 1769.68USD.|inform
+USR|ok|affirm
+SYS|Would you like to book?|suggest
+USR|for 2 adults and 2 kids???|confirm
+SYS|Yes, for 2 adults and 2 children.|affirm
+USR|ok lets book it!!|inform
+SYS|Great :slightly_smiling_face: Consider it done|inform
+USR|ok thanks so much|thankyou

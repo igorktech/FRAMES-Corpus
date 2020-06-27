@@ -1,0 +1,22 @@
+USR|hello|greeting
+SYS|Hi there!|greeting
+USR|can you recommend a 6 days vacation packaging starting on wednesday august 31, 2016 from fortaleza|inform
+SYS|Yes!|request
+SYS|I can book you 3 days in Manaus from August 31 to September 2nd!|request
+SYS|Are you flexible with your departure date?|request
+USR|ok|inform
+SYS|I have a 6 day package to Manaus available from Sept 11-16|offer
+USR|ok.|inform
+USR|not flexible on depart date.|inform
+USR|maybe another destinatio|inform
+SYS|I can book you in Curitiba from August 31 - September 12.|offer
+USR|ok.|request_alts
+USR|any other destinations|request_alts
+SYS|I am not finding anything else for your departure date.|no_result
+USR|ok.|switch_frame
+USR|ill book that|switch_frame
+SYS|To Curitiba?|confirm
+USR|yup|affirm
+SYS|Ok!|inform
+SYS|I will do that :slightly_smiling_face:|inform
+USR|ok|thankyou

@@ -1,0 +1,12 @@
+USR|I'm traveling alone, from Minneapolis to Ciudad Juarez.|inform
+USR|Sept 2 to Sept 22.|inform
+USR|Do you have any flights that fit?|inform
+SYS|I can do Sept 8-11.|offer
+USR|Is that the only thing you have in this range?|inform
+USR|It just has to be in September ideally|inform
+SYS|There is also Sept 14-15 or the 8-11.|offer
+USR|How much would it cost to take the 8-11 option?|request
+SYS|1411.10USD|inform
+USR|Ok just book it for me then.|inform
+SYS|Yes, I will book that for you :slightly_smiling_face:|inform
+USR|Thank you.|thankyou

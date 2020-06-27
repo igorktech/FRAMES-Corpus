@@ -1,0 +1,23 @@
+USR|from 22nd-28nd of september i just wanna flee town and forget about work, family, my mortgage, responsibilities, my alcoholism, etc.. i am thinking Ciudad Juarez
+from Dalle|inform
+SYS|So just for one adult then?|request
+SYS|Where will you be coming from?|request
+USR|yeah from dallas|inform
+SYS|I have an excellent package for you for 5 days from the 22nd to the 26th of September in Ciudad Juarez.|suggest
+SYS|Let's book it!|suggest
+USR|give me the details|moreinfo
+SYS|It's at a beautiful 3.5 star hotel with free breakfast, free parking and free wifi.|inform
+SYS|Doesn't get any better than that!|inform
+USR|on the beach?|request
+SYS|No but there is a palace.|inform
+SYS|Sounds amazing, doesn't it?|inform
+USR|whatcha got in punta cana??|inform
+SYS|Nothing.|no_result
+USR|check Mexico City|inform
+SYS|A 4 day package with a 3 star hotel where you can find a beach and a shopping mall nearby!|offer
+SYS|Sounds like a winner!|offer
+USR|free breaky?|request
+SYS|No but there is free parking and free wifi.|inform
+SYS|Amazing, right?|inform
+USR|ill go for Ciudad Juarez|switch_frame
+SYS|I'll book the 5 day package at the 3.5 star hotel for you then!|inform

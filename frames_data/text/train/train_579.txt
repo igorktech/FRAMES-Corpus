@@ -1,0 +1,25 @@
+USR|um so i am getting married in calgary next week congrats to me and am trying to maybe book a honeymoon to Hiroshima with my hubby for hmmm some time after september 8 cause thats when we're hitchin|inform
+SYS|If I understand correctly, Hiroshma is the destination and the date is Sept 8.|request
+SYS|Can you please provide the departure city and confirm that my understanding of what you are searching for is correct?|request
+USR|Yea!|inform
+USR|youre so spot on lol i love it on we're leaving from calgary ok, Calgary Canada|inform
+SYS|We have no more packages available from Calgary to Hiroshima, do you have any other dream destinations?|suggest
+USR|ok, well, worse case scenario we had kingston in our back pocket so perhaps you could find us a little love shack there|inform
+SYS|Indeed, we have several very lovely honeymoon destination packages to Kingston, Canada.,|hearmore
+SYS|though we only have one with an actual departure date of September 8.|hearmore
+SYS|Would you like to hear more information on this particular package?|hearmore
+USR|We could also leave after september 8 though just so you know that|inform
+SYS|The lovely Cosmos Inn is is located in the heart of the city and close to a lovely park.|inform
+SYS|This 2.5 star hotel includes wifi services as well as free parking and and a complimentary breakfast.|inform
+SYS|All this is available on an economy class flight at a price of 1673.15USD.|inform
+USR|wow thats just above our budget but tempting.. are there any higher rated hotels available in kingston though??|request
+SYS|If you are willing to travel on Sept 12, we have the lovely Ebony Manor Inn & Suites available for 6 days.|offer
+SYS|This 4 star hotel also includes wifi services as well as free parking and a complimentary breakfast.|offer
+SYS|All this is available on an economy class flight for $2127.1USD|offer
+USR|I love it.|request
+USR|ebony manor
+sounds great!|request
+USR|what's the guest rating?|request
+SYS|It has a guest rating of 8.22/10|inform
+USR|terrific, lets book :smile: thanks|thankyou
+SYS|Have a happy vacation|goodbye

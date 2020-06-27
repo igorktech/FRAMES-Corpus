@@ -1,0 +1,28 @@
+USR|Hi there, I’m off between August 25 and September 11.|request
+USR|I saved up 4000 for a nice trip.|request
+USR|If I flew out from San Francisco, what are your suggestions for where I can go?|request
+SYS|For that budget you could travel to cities in the US, Mexico, Brazil, Italy or Japan.|offer
+SYS|Any preferences?|offer
+USR|Excellent, I’ve always wanted to see Japan.|request
+USR|What kind of hotel can I expect?|request
+SYS|Great, let me check what I have.|suggest
+SYS|First, can I just confirm with you that this is a trip for one adult?|suggest
+USR|Yes it is|affirm
+SYS|Great, thank you, In that case I can offer you 15 days at HOTEL Sugoi, a 3 star hotel close to a Palace.|suggest
+SYS|You would be staying there between August 25th and September 7th.|suggest
+SYS|They offer free wifi and have an excellent guest rating of 8.49/10.|suggest
+SYS|The entire package costs 2024.25USD.|suggest
+SYS|Should I book this for you?|suggest
+USR|That sounds really good actually.|request
+USR|Lets say I have a date I wanted to bring…would Japan be out of my price range then?|request
+SYS|Yes, unfortunately the packages I have for two in Japan do not fit in your budget.|sorry
+SYS|However I can offer you a 13 day beach getaway at the 3 star Rose Sierra Hotel in Santo Domingo.|sorry
+SYS|Would something like that interest you?|sorry
+USR|How are the guest ratings for that place?|request
+SYS|7.06/10, so guests seem to be quite satisfied with the place.|inform
+USR|TRUE.|inform
+USR|You know what, I’m not sure that I’m ready to ask her to travel with me yet anyway.|inform
+USR|Just book me for Sugoi|inform
+SYS|I can do that for you!|goodbye
+SYS|Thank you for using our services and have a great afternoon.|goodbye
+USR|Thanks!|thankyou

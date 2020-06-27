@@ -1,0 +1,36 @@
+USR|were they going to punta cana?|inform
+USR|im in mexico city i need to get there|inform
+SYS|Would you like me to book a trip for you from Mexico City to Punta Cana?|confirm
+USR|yes thats what i said|affirm
+SYS|Excellent, did you have any dates in mind?|request
+USR|i can leave on august 30th|inform
+SYS|Great, will you be traveling alone?|suggest
+USR|yes.|inform
+USR|and keep it under a grand|inform
+SYS|We have a trip departing on August 30th and returning on September 3.|offer
+SYS|You will be staying at the charming La Estrella del Mar hotel, situated near the palace.|offer
+SYS|The trip costs a total of 270.32USD.|offer
+SYS|Would you like to confirm this booking?|offer
+USR|well whats the hotel rating?|request
+USR|it better be good|request
+SYS|Of course!|inform
+SYS|I am pleased to tell you that the hotel is 0 star, and has a 0/10 guest rating.|inform
+USR|gross theres no way im gonna score any candid pics there..what else|request_alts
+SYS|I have one other hotel in Punta Cana, but not for the departure date you listed.|no_result
+SYS|Would you still be interested in this option?|no_result
+USR|fine yeah look into it|switch_frame
+SYS|We have a trip departing on September 7 and returning on September 11.|inform
+SYS|You will be staying at the noble el Mar, a 2.5 star hotel located  on the beach.|inform
+SYS|The trip costs 219.55USD - does this sound good to you?|inform
+USR|2.5 stars are u kidding me.|inform
+USR|I need something diva-worthy what if i up it to 2g's|inform
+SYS|I do not understand, sorry.|sorry
+USR|2000 dollar budget check it|inform
+SYS|Would you like to explore alternate destinations?|suggest
+USR|no I need to check Punta Cana|inform
+SYS|Would you like to choose an alternate date?|suggest
+USR|fine|affirm
+SYS|We have a trip departing on September 10 and returning on September 15.|offer
+SYS|You will be staying at the noble el Mar, a 2.5 star hotel located  on the beach.|offer
+SYS|The trip costs 270.28USD - does this sound good to you?|offer
+USR|i said 2.5 wasnt good enough|negate

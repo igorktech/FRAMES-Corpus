@@ -1,0 +1,34 @@
+USR|Hi!|inform
+USR|I'm looking for a trip to Milan with two of my best friends for march break, what's available?|inform
+SYS|Hi there!|greeting
+SYS|Where would you like to leave from?|greeting
+USR|From Cleveland between Wednesday August 17 and Saturday August 27!|inform
+SYS|I can book you 8 days in Milan between those dates for 9031.87USD.|offer
+USR|Oh no!|inform
+USR|My friends and I are on a budget of $5400!|inform
+SYS|Looks like I don't have anything available for that price.. are you flexible on dates perhaps?|request
+USR|What about Pittsburgh?|inform
+USR|It seems to be a trendy destination this year.|inform
+SYS|Pittsburgh eh?|offer
+SYS|I can book you 9 days near the airport for 2952.62USD.|offer
+USR|The airport isn't chic enough, do you have something else around there?|request_alts
+SYS|What about Onyx Isle Hotel?|offer
+SYS|9 days there will run you 4219.24USD.|offer
+USR|Do you have anything else?|request_alts
+SYS|Ok!|offer
+SYS|I could upgrade you to business class at the same hotel for 5203.45USD.|offer
+USR|Eeeeeeeeeeee I love it!|request
+USR|Ok, so how many stars is the hotel?!|request
+SYS|The hotel has a 3.5 star rating.|hearmore
+SYS|Would you like to hear about its amenities?|hearmore
+USR|Ooooo yes of course!!!!!!|affirm
+SYS|Onyx Isle Hotel features free breakfast, parking, and free wifi|inform
+USR|Perfect!|null
+USR|Is there good shopping nearby?!|null
+SYS|Unfortunately I do not have any information about this.|sorry
+USR|Ok I'll send them a tweet!|inform
+USR|I'll book this one!|inform
+SYS|Terrific!|inform
+SYS|I will book for you now.|inform
+USR|I love you!|thankyou
+USR|Thanks so much!|thankyou

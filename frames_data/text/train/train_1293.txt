@@ -1,0 +1,29 @@
+USR|Hey I'd love to bring my 4 kids to go see their mom who's currently working in Washington, could you find me a flight?|inform
+SYS|Yes!|suggest
+SYS|This will be 1 adult and 4 children?|suggest
+USR|yes please|affirm
+SYS|And where will you fly out from?|request
+USR|We live in Boston|inform
+SYS|Do you have a budget or dates you would like to leave and/or return on?|request
+USR|Nah we're flexible.|inform
+USR|As long as I can take my kids to go see their mother.|inform
+SYS|I am sorry to inform you that we have no flights from Boston to Washington.|sorry
+SYS|Is there somewhere else you can fly to?|sorry
+USR|What!|inform
+USR|It's going to be difficult dragging 4 kids around, but sure I guess we can try Phoenix instead of Washington.|inform
+SYS|Lucky for you we have packages for Phoenix.|inform
+SYS|How long would you like your stay to be?|inform
+USR|I guess the longer packages would be great, thanks.|inform
+SYS|Okay, our longest package is 10 days.|offer
+SYS|The hotel is 2.5 stars, with a 7.06/10 guest rating, near the airport and a museum, and the hotel provides free breakfast, parking, and wifi.|offer
+SYS|This package is from September 21st to 30th.|offer
+USR|How much would that cost?|request
+SYS|For business or economy flights?|suggest
+USR|I'm wondering for both, please.|request_compare
+SYS|For economy it is 2167.71 and business is 2556.30.|offer
+USR|I'll fly business please!|switch_frame
+USR|The kids will have a lot of fun with that.|switch_frame
+SYS|Awesome!|inform
+SYS|Your package has been booked and you should receive your confirmation email within the next 20 minutes!|inform
+SYS|Have a great trip!|inform
+USR|Thanks!|thankyou

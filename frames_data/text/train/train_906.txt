@@ -1,0 +1,9 @@
+USR|Hi there!|greeting
+SYS|How can I help you?|greeting
+USR|I'm trying to see if I can get 13 adults and 2 kids to Miami|inform
+SYS|I can help you with that.|request
+SYS|Where are you all leaving from?|request
+USR|We would be leaving from Tel Aviv|inform
+SYS|I'm sorry to inform you that we do not fly out of Tel Aviv.|sorry
+SYS|Anywhere else you can leave from?|sorry
+USR|Thats the only place we can manage, thanks though|goodbye

@@ -1,0 +1,28 @@
+USR|Hi.|inform
+USR|I am looking to visit friends Queenstown, leaving from Belo Horizonte.|inform
+USR|The total will be 6 adults and 5 children|inform
+SYS|Cool!|request
+SYS|Do you have a departure and return date in mind?|request
+USR|No, we can go whenever is suitable for our budget: 37600 dollars|inform
+SYS|We can put you up at the 5 star Illustrious Pool Hotel for 8 days, from September 12-18.|offer
+SYS|How does that sound?|offer
+USR|Very nice.|request
+USR|What does the hotel include?|request
+SYS|It comes with free breakfast and wifi.|inform
+USR|And is it located near any landmarks?|request
+SYS|The database reveals no such information.|inform
+USR|Ok.|request_alts
+USR|Are there other options?|request_alts
+SYS|There is!|offer
+SYS|I can put you in a different five star hotel, the Silver Orb Palace, which is also close to the museum and airport.|offer
+USR|Ok!|request
+USR|Breakfast included?|request
+SYS|Yes, along with free wifi.|inform
+USR|What is the price difference between Silver Palace and Illustrious Pool|request_compare
+SYS|For economy class flights, the Illustrious Pool costs 28554.62USD for 8 days while the Silver Palace costs 28864.93USD for 7.|offer
+USR|ok, how much for Illustrious Pool if we fly business class?|request
+SYS|36667.82USD|inform
+USR|Great, lets take that package|inform
+SYS|Perfect, its booked.|inform
+SYS|Have fun!|inform
+USR|Thanks!|thankyou

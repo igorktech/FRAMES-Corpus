@@ -1,0 +1,9 @@
+USR|buenos aires pls i go from mannheim|inform
+SYS|Will it just be you?|suggest
+USR|yes|affirm
+SYS|Do you have a budget in mind?|request
+SYS|And how long are you planning on going for?|request
+USR|between september 24 and september 27 ok|inform
+SYS|I'm afraid I don't have anything for that short of a time.|sorry
+SYS|Are your dates flexible?|sorry
+USR|no|inform

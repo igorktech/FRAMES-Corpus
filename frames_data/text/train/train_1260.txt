@@ -1,0 +1,10 @@
+USR|Houston to Milan for 3|inform
+SYS|At this time, we do not have any travel packages from Houston to Milan|no_result
+USR|Houston to San Juan|inform
+SYS|Do you have budget restrictions for this trip?|request
+USR|HAHAHAHAHAHAHAHAH NO!|inform
+SYS|The best I have in San Juan then is a 15 day stay at the 4 STAR Fairyland close to the museum, shopping and market.|hearmore
+SYS|This package includes wifi too.|hearmore
+SYS|Do you want the price for business class flights?|hearmore
+USR|no Do you have anything with 5 stars in Manaus?|inform
+SYS|In Manaus, I have 3 star hotels only.|inform

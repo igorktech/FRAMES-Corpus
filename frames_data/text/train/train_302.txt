@@ -1,0 +1,6 @@
+USR|Can you check if there are any flights from Curitiba to Pittsburgh departing on Sept 2?|inform
+SYS|You’re in luck!|offer
+SYS|I have a package from Curitiba to Pittsburgh from September 2-9|offer
+USR|Would it be possible to do Sept 2 to 15?|inform
+SYS|Sorry, I only have return flights on the ninth for the September second departure.|sorry
+USR|Okay I will get back to you, thanks|goodbye

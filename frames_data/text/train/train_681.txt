@@ -1,0 +1,18 @@
+USR|Where can I go from Fort Lauderdale...for free?|inform
+SYS|I’m sorry, nowhere.|sorry
+SYS|Yes.|sorry
+SYS|I can find you a trip if you have some money though!|sorry
+USR|How about if I get $400 somehow, what then?|inform
+SYS|For 400 I can send you to either Punta Cana or Atlanta.|offer
+SYS|Which would you prefer?|offer
+USR|Punta Cana!!|request
+USR|Would the hotel be decent?|request
+SYS|Ok!|offer
+SYS|I have an unrated hotel near a palace or a 2.5 star hotel on the beach.|offer
+USR|Get me the unrated hotel|switch_frame
+SYS|Great :slightly_smiling_face: From August 30th to Sept 7th, you will spend 9 days at La Estrella del Mar for a total of $347.36 USD|inform
+USR|Perfect, lets confirm it|inform
+SYS|Ok!|inform
+SYS|I will send a confirmation email within the next hour.|inform
+SYS|Enjoy your stay|inform
+USR|Thanks!|thankyou

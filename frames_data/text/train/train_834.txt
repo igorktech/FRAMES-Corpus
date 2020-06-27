@@ -1,0 +1,27 @@
+USR|you do vacation deals out of rome, yes?|inform
+SYS|Yes, where would you like to go?|request
+USR|i was thinking you could help me answer that.|inform
+USR|if i have 3100 to spend|inform
+SYS|Sure, do you have a budget?|request
+USR|and want to leave between sept 3 and 22.|inform
+USR|where could i go|inform
+SYS|You can go to Ulsan, Sendai, Sao Paulo, Kobe, Kyoto, or Montreal.|offer
+USR|wow thats more options than i had imagined could i get a four star hotel in ulsan?|inform
+SYS|I can do you one better with a 5 star hotel in Ulsan!|inform
+SYS|How does that sound?|inform
+USR|that sounds incredible!|request
+USR|how many days?|request
+SYS|15, from the 3rd to 21st of September!|inform
+USR|what kind of amenities do they have??|request
+SYS|They have free parking and wifi, they are also near a park, market, and theatre!|inform
+USR|I don't even care what the other cities have to offer, I'm just going to go with this one|inform
+SYS|Alright!|sorry
+SYS|The hotel has a 8.98/10 guest rating and this package is 2473.96.|sorry
+SYS|Unfortunately there is no business class option for this package so you will be flying economy.|sorry
+SYS|Would you like to book this package?|sorry
+USR|I'm ok with that!|affirm
+SYS|Great!|inform
+SYS|I will book this package for you right away and you will soon receive a confirmation email.|inform
+SYS|Have a fantastic trip!|inform
+USR|thanks thanks|thankyou
+SYS|Anytime!|you_are_welcome

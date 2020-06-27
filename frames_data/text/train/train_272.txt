@@ -1,0 +1,31 @@
+USR|Hi!|inform
+USR|I want to book a 5 day trip leaving from Santa Cruz on September 2nd.|inform
+USR|I don't have a destination in mind yet, what would you recommend?|inform
+SYS|I have several options for you, all cities in Argentina.|suggest
+SYS|How does that sound?|suggest
+USR|That sounds good!|inform
+USR|I'm travelling with a friend and since we have such a short time, we really want to make the most of it so we have a pretty flexible budget.|inform
+USR|Are any of these luxury hotels?|inform
+SYS|I have a 4 star hotel located in Rosario available on a 4 day package but only from Sept 18 to Sept 21st.|offer
+USR|No, unfortunately our dates are not flexible|inform
+SYS|I have a five day package available departing on Sept 2nd to Miami, Florida leaving on the 2nd and returning on the 7th.|offer
+SYS|It is not a luxury hotel but it has 3.5 star rating with a very good guest rating of 8.86/10.|offer
+SYS|It included free wifi, free parking and a complimentary buffet breakfast.|offer
+SYS|Does this interest you?|offer
+USR|Ok, i'll keep this one in mind.|inform
+USR|Do you have any trips to outside the US?|inform
+USR|Even if the hotel isn't as fancy we might prefer that.|inform
+SYS|Well I do have the Opportunity Suites, which is a 4 star hotel located in Rosario departing on Sept 4th  and returning Sept the 6th.|offer
+SYS|It is only a 3 day package but it fits within your time frame and has a higher rating.|offer
+SYS|The cost on this one is 2203.67USD.|offer
+USR|Hmm ok, we were really hoping to go for a full 5 days|inform
+SYS|I have no five day options, however I also have a nice package in Sansot, Brazil at the Starlight which is a six day package departing also on Sept 2nd and returning on Sept 7th.|offer
+SYS|This is a 3.5 star hotel located near the museum and also near the palace.|offer
+USR|Sounds like Miami might be the best option for us then,  at what time are the flights?|request
+SYS|The flight departs from Santa Cruz at 12pm and returns on Sept 5th at 6am.|inform
+SYS|It is an economy class flight.|inform
+USR|Ok we will book that one!|inform
+SYS|Perfect, I will take care of all the details for you and send over a confirmation.|inform
+SYS|Thank you for booking.|inform
+SYS|We wish you a pleasant afternoon.|inform
+USR|Thanks!|thankyou

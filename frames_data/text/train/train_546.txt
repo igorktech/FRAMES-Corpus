@@ -1,0 +1,10 @@
+USR|Hello - looking to go to Sao Paulo and I’m leaving from Tofino|inform
+SYS|For how many travellers?|request
+USR|4 adults.|inform
+USR|August 26 until 29
+Price is flexible|inform
+SYS|I apologize but there are no packages in  Sao Paulo from Tofino at this time.|sorry
+USR|Fine.|inform
+USR|Let’s change the start date to August 20
+and the end date to September 5|inform
+SYS|I do not have availability.|no_result

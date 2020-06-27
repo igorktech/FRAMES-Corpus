@@ -1,0 +1,22 @@
+USR|Yo dude.|greeting
+SYS|Hi!|greeting
+SYS|You are now connected.|greeting
+SYS|What can I help you with today?|greeting
+USR|i wanna get out off this lame city.|inform
+USR|I can leave for 13 days dawg.|inform
+USR|Gotta dip from Puebla.|inform
+SYS|OK!|request
+SYS|Where would you like to go?|request
+USR|anywhere man.|inform
+SYS|Do you have a departure date in mind?|suggest
+SYS|I can send you to Tijuana for ten days if you leave August 30th.|suggest
+SYS|This would be under 500 for flights and hotel!|suggest
+USR|I only got $400|inform
+SYS|The cheapest option in Tijuana, or any destination for that matter, would be 419.96USD.|suggest
+USR|well dang.|inform
+USR|how 'bout if I skedaddle from Montreal?|inform
+SYS|Leaving from Montreal, you could spend 4 days in San Juan for only 175.89USD!|offer
+USR|that's dope!|thankyou
+USR|I'll take it.|thankyou
+USR|you're pretty helpful|thankyou
+SYS|Glad to be of service :slightly_smiling_face:|inform

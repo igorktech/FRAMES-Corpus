@@ -1,0 +1,38 @@
+USR|got a big family trip coming up tomorrow that I havent booked yet - ha!|inform
+USR|we have 13800 to bring our 5 kids somewhere.|inform
+USR|need to be back by september 17 for work|inform
+SYS|Sounds great, where would you like to go?|request
+USR|we live in St. Petersburg and want to check out Munich|inform
+SYS|Absolutely.|request
+SYS|How many adults would be on this trip?|request
+USR|2 adults.|inform
+USR|and of course the 5 youngsters|inform
+SYS|We've got what you're looking for!|offer
+SYS|How does Munich from September 6 to 12 in a five-star hotel sound?|offer
+USR|five stars, yes!|request
+USR|I like it!|request
+USR|what are the deets?|request
+SYS|You would be staying near the university, and wifi-comes free.|inform
+USR|price?|request
+SYS|At 9449.92USD, you would be well under budget.|inform
+USR|St. Louis|inform
+SYS|I could offer you yet another 5-star hotel stay, this time a longer trip too - August 31 to September 14!|offer
+USR|you’re giving me life here today!|request
+USR|what would the hotel be like?|request
+SYS|This hotel gives you free breakfast and wi-fi, and guests have showered it with a 8.98/10 rating.|inform
+USR|Awesome!!!!!|request
+USR|what is that hotel called|request
+SYS|Lunar|inform
+USR|what is available in Burlington?|inform
+SYS|You could get away for a very economical price at 1879.2USD, if you choose to stay at the 2.5 star Excursion Motel from September 7-14.|sorry
+USR|hmm I can’t possibly pass on two 5 star offers.|request
+USR|what is the price for the Lunar package?|request
+SYS|It would be quite reasonable, at 5122.47USD.|inform
+USR|very reasonable indeed
+lots left over for another vacay perhaps!|request
+USR|is the hotel located near the beach or anything like that?|request
+SYS|Unfortunately, I cannot say that it is.|sorry
+USR|ah well, I’m sure it’ll be more than suitable.|inform
+USR|i think ill go ahead with that booking|inform
+SYS|Great, it is done!|inform
+USR|thanks bud!|thankyou

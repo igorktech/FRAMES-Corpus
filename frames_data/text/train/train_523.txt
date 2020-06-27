@@ -1,0 +1,22 @@
+USR|Hey there, I can't book a trip right now because my life sucks, but I was hoping you could look up a few trips in case that changes for me|greeting
+SYS|Sure|greeting
+USR|I live in Portland, and have 3500 to spend on this hypothetical trip.|inform
+USR|Are there flights to Porto Alegre?|inform
+SYS|Our best package for this is at a 4 star hotel near a park, beach, shopping, and a mall.|offer
+SYS|This hotel has a 10/10 guest rating and offers free breakfast and wifi.|offer
+SYS|This package departs September 6th and returns September 11th and is a business class flight.|offer
+SYS|Total price is 2880.78.|offer
+USR|Wow thats exciting.|inform
+USR|Do you mind looking up a flight to Baltimore as well?|inform
+SYS|Our best package is at a 3 star hotel near a park with 8.69/10 guest rating and offers free breakfast, wifi, and parking.|offer
+SYS|This trip is from August 27th to September 6th  and business seats cost 1780.80.|offer
+USR|Wow is this hotel near anything cool?|request
+SYS|Just a park from what my database tells me.|inform
+USR|Ok nice I didn't know our airport serviced so many destinations
+Does it also happen to have flights to Cordoba?|inform
+SYS|Our best package for this is at a 5 star hotel near a museum and has a 8.98/10 guest rating and also offers free breakfast and wifi.|offer
+SYS|This trip is from September 1st to 14th and business class seats included would cost 2353.95.|offer
+USR|Thanks for your help in any case, but I got to go away now|goodbye
+SYS|Great!|goodbye
+SYS|I look forward to hearing back from you!|goodbye
+SYS|Have a nice day!|goodbye

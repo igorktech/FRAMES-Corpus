@@ -1,0 +1,28 @@
+USR|Can you get me to Philadelphia please.|inform
+USR|Leaving from Goiania|inform
+SYS|I will be happy to try to get to you to Philadelphia from Goiania.|inform
+SYS|Any specific dates you would like to fly on?|inform
+USR|It doesn’t matter when I leave, only that I return before September 15.|inform
+USR|Oh and do look into the nicest hotels please, no budget over here|inform
+SYS|I have nothing from Goiania to Philadelphia.|suggest
+SYS|I can check other destinations for you.|suggest
+SYS|Can you confirm whether you are travelling alone or accompanied?|suggest
+USR|I’m traveling with a friend.|inform
+USR|Santos then|inform
+SYS|My highest rated hotel is a 4 star hotel with a 8.49/10 user rating.|hearmore
+SYS|Would you like more details?|hearmore
+USR|Could you get us to Philadelphia if we left from Mannheim?|inform
+SYS|Sure can but my highest rated hotel in Philadelphia is a 2 star|offer
+USR|then forget it.|request
+USR|what are the dates you can get us for Santos?|request
+SYS|For the 4 star hotel you can depart either on the 1st or the 6th|offer
+USR|And when would we return?|request
+SYS|Sept 1st departure returns on the 4th and Sept 6th departure returns on the 15th|inform
+USR|lets take the latter then|switch_frame
+SYS|The price on this flight/hotel bundle is $1504.38USD via business class and the place where you will stay at is the Elite Estate Hotel.|suggest
+SYS|Should I get this all booked up for you?|suggest
+USR|This is for two adults, corrrect?|confirm
+SYS|That is correct, 2 adults.|suggest
+USR|ya|inform
+SYS|All taken care of :blush:|inform
+USR|tyty|thankyou

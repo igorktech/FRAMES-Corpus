@@ -1,0 +1,27 @@
+USR|hi|greeting
+SYS|Hello|greeting
+USR|looking to leave Rio de Janeiro for a spell|inform
+SYS|From where?|request
+USR|between this thursday and september 2.|inform
+USR|leaving from rio de janeiro, want to know where i can go|inform
+SYS|You can go to Manaus, Salvador, Porto Alegre, Goiania|suggest
+USR|can i get to porto alegre for under 1900?|inform
+SYS|yes, for $637.79|offer
+USR|but can you tell me if the hotel is any good...do the guests like it?|request
+SYS|3.5 star hotel, guest rating 8.8 on 10|inform
+USR|can you confirm which dates this package will be?|request
+SYS|from august 30 and september 2nd in economy class.|offer
+SYS|We also have business class at 733.41|offer
+USR|do you have a longer trip to porto?|inform
+USR|that only takes up half my vacation|inform
+SYS|Not to Rio, but to Manaus, Brazil, yes, at 8 days for 583.65$, or Salvador at 616.31 for 7 days.|inform
+USR|that sounds decent, which place has the better hotel?|request_compare
+SYS|Salvador has 3.5 star hotel|inform
+USR|and Manas?|switch_frame
+SYS|2.5 stars|inform
+USR|ok, and the dates for salvador are?|request
+SYS|August 27 to September 2nd|inform
+USR|ok not to be nitpicky but can you tell me a little more about the amenities at salvador, and whether its near anything exciting?|request
+SYS|near hotel, museum, palace, theatre  vs. hotel, shopping for Manaus|inform
+USR|brilliant!|inform
+USR|ok sign me up for the santos package please|inform

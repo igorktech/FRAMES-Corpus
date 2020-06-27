@@ -1,0 +1,16 @@
+USR|Hello.|inform
+USR|I'm just gonna be honest with you, here's my dilemma...I take pictures of people for a living of famous people.|inform
+USR|The more famous the more moolah I make.|inform
+USR|Madonna is having a concert in Melbourne on August 24th and her new boyfriend Justin Bieber will be with her.|inform
+USR|Ya, I know that's a bit gross but that's the rumour.|inform
+USR|Can you get me there from Busan??|inform
+USR|I need to leave on the 23rd.|inform
+SYS|I'm sorry, we do not currently have any flights between Busan and Melbourne.|sorry
+USR|What?!?!|inform
+USR|Any flights to Melbourne from any other destinations?|inform
+SYS|I can't help you there.|suggest
+SYS|Are there any other cities you are considering leaving from?|suggest
+USR|I could try to leave from Birmingham?|inform
+SYS|I'm afraid we don't have flights connecting Birmingham and Melbourne either.|sorry
+USR|I will find another way to get there then, thank you anyways|null
+SYS|I'm sorry I couldn't be of more help to you.|sorry

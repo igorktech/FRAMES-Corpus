@@ -1,0 +1,26 @@
+USR|I want to leave from Santa Cruz and go to Rome|inform
+SYS|Okay, where would you like to go and where will you be leaving from?|request
+USR|From Santa Cruz to Rome|inform
+SYS|Do you have a budget for your honeymoon?|request
+USR|Oh yes, can't spend more than 3800 dollars!|inform
+SYS|Would you like to book your trip for two people?|suggest
+USR|Yes!|affirm
+SYS|Wonderful!|request
+SYS|Do you want to set dates for your trip?|request
+USR|I'd like to leave on August 28th and spend 9 days in Rome.|inform
+SYS|Are your dates flexible?|request
+USR|Not really|inform
+SYS|The closest result to your request is at a 4 star hotel from August 30th to September 6th.|offer
+SYS|Free breakfast and wifi are offered and this trip would cost 2885.88.|offer
+SYS|Does this interest you?|offer
+USR|It could work.|inform
+USR|I'd really like to leave on the 28th of August, what about if I went to Marseille instead?|inform
+SYS|Sorry, the only option that is close is the trip to Rome on August 30th.|sorry
+USR|What are the departure times?|request
+SYS|11:00am for the 30th and 6:00am for September 6th.|inform
+USR|Great!|inform
+USR|I'll book this one!|inform
+SYS|Wonderful!|inform
+SYS|Your trip is booked!|inform
+SYS|Thank you for using our services and have a great day!|inform
+USR|Thank you so much!|thankyou

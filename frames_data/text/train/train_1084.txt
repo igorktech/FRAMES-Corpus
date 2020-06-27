@@ -1,0 +1,31 @@
+USR|I wanna go to Sao Paulo from Osaka for 6800|inform
+SYS|Just you?|suggest
+USR|oui|affirm
+SYS|I can put you for 7 days in a 3 star hotel in the heart of Sao Paulo.|offer
+SYS|How does that sound?|offer
+USR|maybe.|inform
+USR|Do you have anything better?|inform
+SYS|That is the best currently in Sao Paulo.|inform
+USR|Anything in Queenstown?|inform
+SYS|Absolutely!|offer
+SYS|In Queenstown our best is a 5 star hotel with 8.86/10 ratings.|offer
+SYS|I can put you there for 6 days.|offer
+USR|The hotel is definitely better.|inform
+USR|If i increase my budget by $400 can I get a better hotel in Sao Paulo?|inform
+SYS|Unfortunately no.|sorry
+USR|Okay well then I’ll take the Queenstown trip.|moreinfo
+USR|Can you tell me more about the hotel tho?|moreinfo
+SYS|Yup!|inform
+SYS|The hotel is close to the museum and airport.|inform
+SYS|It also offers breakfast and wifi free of charge.|inform
+SYS|Your stay will be from September 22 to 26.|inform
+USR|Well sounds like a pretty legit voyage.|inform
+USR|Can you book it for me pls?|inform
+SYS|Yup!|offer
+SYS|It will be 3019.27 or 3886.19 for business class if you're interested?|offer
+USR|Yeah business class for sure!|inform
+USR|I’ll still have lots left over if I wanna buy some souvenirs so this trip is perfect!|inform
+SYS|Sounds good!|inform
+SYS|You are booked for this trip.|inform
+SYS|Anything else I can do for you?|inform
+USR|Thank you kindly!|thankyou

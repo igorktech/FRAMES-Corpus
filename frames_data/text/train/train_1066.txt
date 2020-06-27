@@ -1,0 +1,41 @@
+USR|Hi!|inform
+USR|My best friend and I want to go on vacation to Porto Alegre.|inform
+SYS|Ok!|request
+SYS|Where are you planning to leave from?|request
+USR|Fukuoka|inform
+SYS|Are you both adults?|confirm
+USR|Yep!|affirm
+SYS|When would you like to travel?|request
+USR|Soon, but I'm flexible about the dates.|inform
+SYS|Do you have a budget?|request
+USR|Yeah my friend and I are only planning to spend a grand total of 7100.|inform
+SYS|I have 13, 16, or 17 day packages available in Porto.|no_result
+SYS|None of which are in your budget.|no_result
+USR|That sucks.|inform
+USR|How about if we decide to go to Dublin?|inform
+SYS|I have 9, 10, and 15 day packages to dublin.|inform
+SYS|Which do you prefer?|inform
+USR|And they're all within budget?|request
+SYS|The 10 and 15 trips are within your budget, and one of the 9 day trips is just 200 dollars above your budget.|inform
+USR|Okay tell me about the 15 day trip then.|switch_frame
+SYS|You would be staying at the 2 star Mellow Dream Inn, located in the heart of the city near parks, university, and malls.|inform
+SYS|The hotel has 5.14 as a guest rating and supplies free breakfast, as well as free wifi and parkig.|inform
+USR|And how much does this cost?|request
+SYS|for economy class flights, 4695.57USD|inform
+USR|And can you tell me about the 10 day trip?|switch_frame
+SYS|The Supreme Galaxy Inn & Suites is 2.5 stars, near a park, university, and a mall.|inform
+SYS|It has a 6.77 guest rating and also provides free breakfast, wifi, and parking.|inform
+USR|How much is that?|request
+SYS|4762.69USD|inform
+USR|That's even more expensive than the 15 day one!|confirm
+USR|And that's the price for the both of us?|confirm
+SYS|Yes.|affirm
+SYS|For two adults.|affirm
+USR|Alrighty then, let's book the 15 day one|inform
+SYS|And you're booked!|inform
+USR|Are you gonna tell me what the departure and return dates are?|request
+SYS|Booked!|inform
+USR|Okay but when do my friend and I leave and come back?|request
+SYS|You will travel from September 14th until the 27th|inform
+USR|Okay cool.|thankyou
+USR|Thanks... friend.|thankyou

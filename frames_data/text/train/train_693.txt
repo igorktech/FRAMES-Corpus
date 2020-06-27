@@ -1,0 +1,27 @@
+USR|hiya|greeting
+SYS|Hello!|greeting
+SYS|How can I be of service?|greeting
+USR|my wife and i have wanted to take our boy somewhere new for a long time now|inform
+SYS|Ok!|request
+SYS|Where were you thinking|request
+USR|we've saved up 3700 and have a break between sept 8 to 22.|inform
+USR|thinking of going to kochi, from sao paulo|inform
+SYS|I’m sad to say that we don’t offer direct packages from Sao Paulo to Kochi.|sorry
+SYS|Could I try another location for you?|sorry
+USR|Sao Paulo to...Frankfurt?|inform
+SYS|I’m sorry but there is nothing within your budget.|sorry
+USR|What if I increased the budget by 1000?|inform
+SYS|The cheapest price I have is 5646.94USD|suggest
+USR|That is rough.|inform
+USR|How about...Sao Paulo to Athens?|inform
+SYS|I am sorry.. 5555.10USD is my best price|sorry
+USR|This is devastating news.|moreinfo
+USR|Ok just for the sake of information
+Can you tell me a little more about that trip?|moreinfo
+SYS|Sure!|inform
+SYS|The Athens hotel would be near a mall, a 3 star rating.|inform
+SYS|It has free parking and free wifi and the trip extends from September 8th until 15th|inform
+USR|Whats the name of this hotel?|request
+SYS|The hotel is called Lunar Jewel Lodge.|inform
+USR|Ok cool|thankyou
+SYS|Sure thing :slightly_smiling_face:|you_are_welcome

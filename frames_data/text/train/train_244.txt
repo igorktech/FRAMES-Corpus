@@ -1,0 +1,32 @@
+USR|Hi we want to go to San Juan|inform
+SYS|Where will you be leaving from?|request
+USR|Gotham city|inform
+SYS|How many people will you be bringing along?|request
+USR|7 kids and 14 adults with me|inform
+SYS|What is your budget?|request
+USR|$3,000|inform
+SYS|Do you have any dates in mind for travel?|request
+USR|Not really|inform
+SYS|The cheapest package we have for your request is over 8000.|inform
+USR|so scratch my budget|inform
+SYS|We have no trips flying out of Gotham City.|suggest
+SYS|Is there a different city nearby?|suggest
+USR|I can leave from St. Louis instead|inform
+SYS|We only have flights from Montreal.|suggest
+USR|We can work with that|switch_frame
+SYS|We have one 4 star hotel and the rest are 2.5 stars.|offer
+SYS|Which would you prefer?|offer
+USR|4 star, tell me about it|moreinfo
+SYS|There is a museum, shopping, and a market.|inform
+SYS|The hotel offers free wifi.|inform
+SYS|This package is from September 6th to 9th and costs 11095.78.|inform
+USR|and the 2.5 stars because i dont think i have that money|switch_frame
+SYS|Your cheapest option is 8308.86.|offer
+USR|tell me about it why dont you|moreinfo
+SYS|Its offers free breakfast and wifi, with a market close by.|suggest
+SYS|This has economy class seats and the trip is from September 4th to 7th.|suggest
+SYS|Would you like me to book this package for you?|suggest
+USR|Yes please go ahead that one actually seems better|affirm
+SYS|Great!|inform
+SYS|Your trip is booked!|inform
+USR|Thanks!|thankyou

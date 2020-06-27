@@ -1,0 +1,38 @@
+USR|hi.|inform
+USR|I need to do some travelling soon
+I want to go to Munich maybe|inform
+SYS|Hello!|request
+SYS|Where would you like to go?|request
+USR|and leave from Munich.|inform
+USR|between Sept 20 and September 28|inform
+SYS|Do you have a budget?|request
+USR|no|inform
+SYS|How many people will be traveling from Munich to Munich?|request
+USR|oh wait.|inform
+USR|I will leave from Queenstown... alone!|inform
+SYS|We have one result but I think you'll like it.|inform
+USR|ok tell me about it please|moreinfo
+SYS|This is a 6 day stay at the Jade Harbor, a 5 star hotel.|offer
+SYS|They offer a spa and free wifi also.|offer
+SYS|The dates are from September 20th to 25th.|offer
+SYS|For business class flights the package would cost 930.47 and for economy class flights the package would cost 698.00.|offer
+USR|WOW that sounds beautiful!|request
+USR|What is the hotel close to?|request
+SYS|My database did not give me this information.|canthelp
+USR|ahhh ok.|inform
+USR|I have a different trip in mind too
+what about Sao Paulo from Monterrey??|inform
+SYS|There's a 2 star hotel near a cathedral and theatre, and free parking, breakfast and wifi.|offer
+SYS|There is a 9 day stay and a 5 day stay.|offer
+USR|not as nice as Munich.|inform
+USR|can you book Munich package for 5 adults?&gt;|inform
+SYS|Unfortunately we can not book for 5.|sorry
+USR|ah dang.|inform
+USR|well I wanna book that place anyway
+I'll leave my coworkers to do their own thing
+book Munich for one please|inform
+SYS|Business or economy?|suggest
+USR|Business|switch_frame
+SYS|Great!|inform
+SYS|Your trip is booked!|inform
+SYS|Have fun and safe travels!|inform

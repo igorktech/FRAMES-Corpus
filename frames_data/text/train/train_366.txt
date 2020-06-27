@@ -1,0 +1,18 @@
+USR|Hi I need to go to BA|inform
+SYS|I can look into that for you.|request
+SYS|What is your city of origin?|request
+USR|I am presently in North Vancouver.|inform
+USR|Would like to leave around Sept 2 and come back around Sept 15|inform
+SYS|I have 10, 13 and 16 day trips available around those dates.|suggest
+SYS|Which length would you prefer?|suggest
+USR|10 sounds good as long as I am back by the 15th|switch_frame
+SYS|I can offer you a package from September 7th to the 15th.|suggest
+SYS|You would stay at the Olive Market Hotel, a 4 star hotel in the heart of Buenos Aires.|suggest
+SYS|The trip costs 2488.15USD and I could upgrade you to business class flights if your budget allows it.|suggest
+USR|This package sounds perfect.|request
+USR|Can you tell what it's located close to and whether it has free wifi?|request
+SYS|It is close to a park and not only does it have free wifi, it also includes free breakfast and parking.|suggest
+SYS|Would you like me to book it for you?|suggest
+USR|yes that was quick, thank you!|affirm
+SYS|Great!|null
+SYS|I'm glad we found what you needed.|null

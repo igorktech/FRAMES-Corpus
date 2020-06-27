@@ -1,0 +1,25 @@
+USR|I wanna go to Philadelphia|inform
+SYS|Where are you leaving from?|request
+SYS|And when do you want to go?|request
+USR|I can leave from Tokyo?|inform
+USR|And I wanna travel between August 30th and September 14th|inform
+SYS|I do have a 15 day package for you in Philadelphia!|offer
+SYS|It is a 2.0 star hotel near the park and museum.|offer
+SYS|It has a guest rating of 6.61/10 and offers free parking, wifi, and breakfast.|offer
+USR|Can you book it for 5?|switch_frame
+SYS|Yup!|offer
+SYS|For 5 it will be 17611.29 in economy class and 22931.80 in business class.|offer
+USR|Ok - do you also have an availability in San Francisco by any chance??|inform
+SYS|Yes, I have a 2.5 star hotel near a museum.|offer
+SYS|It has 6.91/10 guest rating and offers free parking, wifi, and breakfast.|offer
+SYS|We offer 9 or 8 day packages there.|offer
+USR|Better than Phili hmmm ok let’s book that for 5!|inform
+SYS|Would you want to go for 8 or 9 days?|offer
+SYS|On business or economy flights?|offer
+USR|I'll take 9 days Whats the price difference in flights|request_compare
+SYS|17834.48 for business class and 13805.86 for economy class.|inform
+USR|Ahhh ok economy class please|switch_frame
+SYS|Alrighty it is booked!|inform
+SYS|Anything else?|inform
+USR|Nope!|thankyou
+USR|Thanks!!|thankyou

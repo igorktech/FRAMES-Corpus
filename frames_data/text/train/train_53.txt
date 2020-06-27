@@ -1,0 +1,62 @@
+USR|Hello wozbot!|greeting
+SYS|Hey there!|greeting
+SYS|How can I help you?|greeting
+USR|My husband and I are recently married, we are looking for a honeymoon vacation.|inform
+SYS|Where were you thinking?|request
+USR|Perhaps Toronto.|inform
+USR|We are currently in Rome for business, we'd like to leave from here.|inform
+USR|We're looking at going from August 18 to August 29th.|inform
+SYS|Ok, great!|request
+SYS|Are you flexible on those dates by any chance?|request
+USR|Not very.|inform
+USR|The divorce is planned for August 30th.|inform
+SYS|I could book you August 24-August 29?|suggest
+USR|Yes please.|switch_frame
+SYS|Ok, great!|hearmore
+SYS|Would you like to know any more information before I book?|hearmore
+USR|Yes of course!|request
+USR|Is the hotel 5 stars?|request
+SYS|The hotel is 3 stars.|inform
+USR|This is a very special time for us.|inform
+USR|I'd like to see what you have that's 5 stars please.|inform
+SYS|How about 4 stars from August 17 to August 22?|suggest
+USR|That is good.|switch_frame
+USR|Is there a spa?|switch_frame
+SYS|There is no spa.|inform
+USR|How about breakfast and wifi?|request
+SYS|Yes - both are included for free!|inform
+USR|Great!|request
+USR|How much is this package with business class?|request
+SYS|The package costs 4446.60USD with business class flights.|offer
+USR|That sounds good.|inform
+USR|My husband loves Vancouver, can we take a look at some packages?|inform
+SYS|Ok!|confirm
+SYS|Would you like to leave from Rome or Toronto?|confirm
+USR|From Rome please, and I have a preference for a hotel with a spa.|inform
+USR|If possible.|inform
+SYS|Hmm.. I'm not seeing any Vancouver options with spas available :disappointed:|no_result
+USR|Any 5 star hotels?|inform
+SYS|I've only got 4 star hotels|inform
+USR|In that case, how about Columbus?|inform
+SYS|The only dates I have available in Columbus are August 15-25.|suggest
+USR|Ok, what about Calgary?|inform
+USR|My new boyfriend lives there.|inform
+SYS|I have a 4 star available from August 17-August 21 in Calgary for 2 people.|suggest
+USR|Great!|switch_frame
+USR|How much?|switch_frame
+SYS|3201.93USD.|inform
+USR|Is there a spa?|request
+SYS|Sadly there is no spa :disappointed:|sorry
+USR|Are there any available that do have a spa?|request_alts
+SYS|Not in Calgary, sorry about that.|no_result
+USR|That's ok.|switch_frame
+USR|My husband would probably prefer the Toronto package.|switch_frame
+USR|Can you please give me the flight details?|switch_frame
+SYS|Certainly!|suggest
+SYS|Would you like to fly economy or business class?|suggest
+USR|Business class!|inform
+SYS|You will leave Rome at 9:00 am on Wednesday, August 17th 2016 to arrive in Toronto at 4:07 pm on Wednesday, August 17th 2016.|offer
+SYS|Leaving Toronto, you flight departs at 1:00 am on Monday, August 22nd 2016 and arrives in Rome at 8:07 am - Monday, August 22nd 2016.|offer
+USR|Perfect, lets go right ahead and book this one|inform
+SYS|Consider it done!|inform
+USR|Thank you wozbot, it was a pleasure dealing with you.|thankyou

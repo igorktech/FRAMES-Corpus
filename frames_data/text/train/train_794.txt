@@ -1,0 +1,33 @@
+USR|I want to go to Dublin|inform
+SYS|Hi there, not so fast.|request
+SYS|Where are you leaving from and when would you like to go?|request
+USR|cancun and from september 11 to 28 or somewhere around there|inform
+SYS|Are you on your own or with a group?|request
+USR|ill let you know if i find a trip that looks enticing|null
+SYS|In Dublin we have a 2.5 star hotel and a 2.0 hotel.|offer
+SYS|Would you like to know more about these options?|offer
+USR|what is the highest rated hotel|inform
+SYS|The highest rated is the 2.5 star hotel, rated at 6.77 / 10.|inform
+USR|ew.|inform
+USR|Any trips to kochi?|inform
+SYS|In Kochi we have a 3.5 hotel rated at 7.15/10 by guests.|offer
+USR|what if i leave from Recife|inform
+SYS|The hotel is the same in Kochi if you leave from Recife.|offer
+USR|What about from Recife to Dublin|inform
+SYS|Still the same hotels in Dublin.|offer
+SYS|One 2.5 start and one 2 star.|offer
+USR|Is there anything to Buenos Aires|inform
+SYS|Actually yes, if you leave from Recife, we have a 3.5 star hotel and a 3.0 star hotel in Buenos Aires.|offer
+USR|ok is the 3.5 star hotel near anything interesting?|request
+SYS|Yup, it is in fact in the heart of the city, close to a park.|inform
+SYS|While there, you can also enjoy free wifi and breakfast.|inform
+USR|cool beanie weenies.|inform
+USR|Book it for me and 3 of my friends|inform
+SYS|Okay, this one has a 9 day business package (Sep 20-28) for 3428.5 and the economy version for 2861.76.|offer
+USR|i like it.|inform
+USR|can you book it for me please|inform
+SYS|The business package?|request
+USR|yes|affirm
+SYS|I'd be happy to book it for you!|inform
+SYS|Anything else you need?|inform
+USR|Thanks|thankyou

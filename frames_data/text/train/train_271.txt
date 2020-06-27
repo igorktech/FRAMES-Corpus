@@ -1,0 +1,14 @@
+USR|yo i need a flight to beijing, leaving from rio de janeiro on sunday august 21st|inform
+SYS|I will book you 8 days in Manaus leaving from Rio de Janeiro on August 24th for 469.25USD.|inform
+SYS|Enjoy your stay :slightly_smiling_face:|inform
+USR|no i want beijing, not manas.|request
+USR|how much would that cost???|request
+SYS|Sadly I have no trips available to Beijing that leave from Rio de Janeiro.|sorry
+SYS|I can find you another destination?|sorry
+USR|you gotta get me to beijing|inform
+SYS|No|no_result
+USR|check porto alegre to beijing|inform
+SYS|I can book you from Porto Alegre to Rio de Janeiro.|offer
+USR|check puebla to beijing|inform
+SYS|You cannot travel from Puebla to Beijing.|no_result
+USR|i give up|null

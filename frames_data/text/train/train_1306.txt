@@ -1,0 +1,28 @@
+USR|Hi there, I'd like to take my grandkids on vacation to Brasilia.|inform
+SYS|Hi there!|greeting
+SYS|Many destinations are calling for you :slightly_smiling_face:|greeting
+USR|We'd like to go to Brasilia please.|inform
+USR|4 kids, 1 adult|inform
+SYS|Sure!|request
+SYS|Where from?|request
+USR|We're from Punta Cana.|inform
+USR|I'd like to bring them while they're still out of school, sometime between Wednesday September 14 and Tuesday October 4th would be great.|inform
+SYS|Sorry, we currently do not offer any trips from Punta Cana to Brasilia.|sorry
+SYS|Is there another place you'd like to take them?|sorry
+USR|Oh I guess Alexandria would be good.. We've only got 4900 dollars though, keep in mind.|inform
+SYS|Sure!|offer
+SYS|With that I can place you and your grandchildren in a 3 star hotel near the university for 6 days.|offer
+SYS|This hotel has a fantastic guest rating of 8.86/10 and offers free parking, free breakfast, and free wifi during your stay.|offer
+USR|That sounds good, but do you have any longer packages?|inform
+USR|I want the kids to have as much fun as possible!|inform
+SYS|If you had another destination in mind, I can help you check for the trips available there!|suggest
+USR|Well, we could also consider Sao Paulo...|inform
+SYS|For Sao Paulo I've got a 9 day trip!|offer
+SYS|However, it is at a 2.0 star hotel.|offer
+SYS|Are you interested in hearing more about this option?|offer
+USR|No, I think the 3 star hotel in Alexandria sounds pretty good, thank you.|switch_frame
+USR|Could you please book it for us?|switch_frame
+SYS|Yup!|inform
+SYS|Consider it done :slightly_smiling_face: Hope you have a good trip!|inform
+USR|Thank you!|thankyou
+SYS|You're most welcome!|you_are_welcome

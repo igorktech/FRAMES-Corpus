@@ -1,0 +1,27 @@
+USR|I wanna go to Guadalajara from Fort Lauderdale with 1 of my pals|inform
+SYS|Do you have a preference for when you would like to travel?|request
+USR|preferably between september 6th and 18th|inform
+SYS|I have a couple of places.|suggest
+SYS|Are you searching for hotels with higher ratings or do you prefer to choose a place by location?|suggest
+USR|I'm looking for high ratings but i'd like to hear about location as well, just in case|request
+SYS|My highest rated hotel in Guadalajara is the Excursion Inn, a 3 star hotel with a 8.37 /10 guest rating, located near the airport and close to a park.|offer
+SYS|This hotel is available on a 5 day and 9 day package.|offer
+USR|Nice!|inform
+USR|Can you find a package to Frankfurt?|inform
+USR|I can leave from Fort Lauderdale.|inform
+SYS|I sure can.|offer
+SYS|I have the excellent 5 star rated hotel the Atlantis Peaks Resort available for a 10 day stay, which provides you with complimentary breakfast and wifi service and has en excellent guest rating of 9.32/10.|offer
+USR|Oh wow!|inform
+USR|that's awesome!|inform
+USR|Out of curiosity is there anything from Alexandria to Guadalajara?|inform
+SYS|Yes but it's the same hotel as previously discussed, the  Excursion Inn|offer
+USR|Okay well then I think i'd like to book the package from Fort Lauderdale to Frankfurt.|inform
+USR|Do they offer business flights?|inform
+SYS|Yes business class is available on this package at a cost of 5168.69USD.|suggest
+SYS|Should I get that all booked up for you|suggest
+USR|Yes i would.|switch_frame
+USR|Thank you.|switch_frame
+USR|Do you mind sending me confirmation?|switch_frame
+SYS|I will email you confirmation as soon as the reservation is finalized.|inform
+SYS|I wish you a fun and relaxing vacation,|inform
+USR|Thanks!|thankyou

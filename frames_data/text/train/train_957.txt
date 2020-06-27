@@ -1,0 +1,11 @@
+USR|get me to Manaus from Toronto|inform
+SYS|When?|request
+USR|whenever I decide to roll onto set|inform
+SYS|No budget?|request
+USR|don’t be silly, of course not|inform
+SYS|Our best package is a 3 star hotel, business class flight, park, museum and palace nearby, 8.49/10 guest rating, free parking, breakfast and wifi, from September 10th to 21st, for 2683.18.|offer
+USR|Surely you can find me a five star hotel in Marseille right?|inform
+SYS|We have a 4 star hotel near a palace, 8.69/10 guest rating, spa and free wifi, from September 17th to 23rd, business class flight, for 2952.88.|offer
+USR|Yeah get me on that trip|inform
+SYS|Done.|inform
+SYS|Have a great day!|inform

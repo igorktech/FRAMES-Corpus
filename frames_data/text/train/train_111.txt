@@ -1,0 +1,28 @@
+USR|I'm looking to book trip for spring break for 4 people.|inform
+USR|I have a tight budget of 4600|inform
+SYS|And where will you be leaving from?|request
+USR|Lima|inform
+SYS|Great.|request
+SYS|And do you have dates for this trip?|request
+USR|Yes, August 25 to September 6th.|inform
+SYS|I have an 8 day package in Mexico for 4180.10USD, a 6 day package in Montreal for 4283.52USD, or an 8 day stay in Miami, US for 4501.58USD|offer
+USR|I'd like to go to Sendai.|inform
+USR|Is there anything available for this place?|inform
+SYS|I have a 7 day package in Sendai for 4063.17 USD.|offer
+SYS|Are you interested in this package?|offer
+USR|What are the dates for this trip?|request
+SYS|From August 27th to September 1st.|inform
+USR|Does the hotel have free wifi or anything?|request
+SYS|Free wifi is the only listed amenity.|inform
+USR|If my budget increases to $5600, are there more options?|request
+SYS|I can offer you an 8 day trip to San Diego, US for 4609.62 USD.|offer
+USR|what are the dates for this trip?|request
+SYS|They are from Tuesday, September 6th to Tuesday, September 13th.|inform
+USR|I think I will take the 7 day package to Sendai.|switch_frame
+SYS|Great!|suggest
+SYS|Shall I go ahead and book your package at the Voyage?|suggest
+USR|Yes!|affirm
+SYS|Ok, it's complete.|thankyou
+SYS|Thanks for using me to book your vacation!|thankyou
+USR|Great!|thankyou
+USR|Thanks!|thankyou

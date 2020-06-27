@@ -1,0 +1,9 @@
+USR|I have 2500 to spend|inform
+SYS|Hello!|greeting
+USR|Hello, old friend.|greeting
+SYS|Where would you like to go?|request
+USR|I have 2500 to spend.|inform
+USR|Tel Aviv to Rio de Janeiro|inform
+SYS|We do not accommodate flights to or from Tel Aviv, sorry!|sorry
+USR|Welllll that is just fine I will try another agency|null
+SYS|Okay, sorry I could not have been more helpful!|sorry

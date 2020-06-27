@@ -1,0 +1,5 @@
+USR|Hey there!|inform
+USR|The 17 of us wants to get out of Tel Aviv for a sweet trip.|inform
+SYS|I’m sorry, we do not currently offer trips out of Tel Aviv.|sorry
+USR|I can pay as much as needed!|inform
+SYS|I’m sorry -We do not have operations involving Tel Aviv.|sorry

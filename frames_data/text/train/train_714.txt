@@ -1,0 +1,32 @@
+USR|Hi there, I'm on a tight budget to go somewhere.|inform
+USR|Can you help me find something that works?|inform
+SYS|Sure.|request
+SYS|What is your budget?|request
+USR|I only have 2000 bucks to spend.|inform
+SYS|Where are you leaving from?|request
+USR|I'm based on Sydney.|inform
+SYS|Where would you like to go?|request
+USR|Could you check Puebla first?|inform
+USR|I can be there any days between Aug 31 and Sep 14.|inform
+SYS|Going alone?|suggest
+USR|Yeah|affirm
+SYS|There are no results.|no_result
+USR|My second option is Mexico City.|inform
+SYS|We have a 3.5 star hotel near the beach, shopping, and mall, 8.37/10 guest rating, free parking and wifi, from September 2nd to 13th.|offer
+SYS|Business package costs 1987.67 and economy package costs 1586.51.|offer
+USR|Cool!|request_alts
+USR|Any other hotels in Mexico City you can offer me?|request_alts
+SYS|There a 3.5 star hotel near the beach, museum, shopping, and mall, 6.37/10 guest rating, economy class, from September 8th to 13th, and the price is 1349.51 and 1707.17 for business class.|offer
+USR|Okay, I actually have a third option.|inform
+USR|Can you check that for me?|inform
+USR|My third and last option is Sacramento.|inform
+SYS|There is a 2 star hotel near a park, museum, and university, 6.51/10 guest rating, free parking, breakfast and wifi, September 1st to 9th, business is 1598.41, economy is 1278.84.|offer
+USR|Any other options?|request_alts
+SYS|No.|no_result
+USR|Then let's go back tho the first one you gave me.|inform
+USR|Can I book that one?|inform
+SYS|Sure!|thankyou
+SYS|You will receive an email soon to confirm your trip.|thankyou
+SYS|Have a great day and thank you!|thankyou
+USR|Great.|thankyou
+USR|Thanks a million!|thankyou

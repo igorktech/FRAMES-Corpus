@@ -1,0 +1,38 @@
+USR|Greetings m8!|inform
+USR|Im coming out of st.|inform
+USR|petersburg, but i need some time for my lonesome or at least imagine some, can you tell me about some packages to Kingston|inform
+SYS|Where are you leaving from and between which dates would you like to travel?|request
+USR|OY M8!|inform
+USR|i said st.|inform
+USR|petersburg, didnt i!|inform
+USR|well thats where im leaving from but i want to imagine a trip to Kingston|inform
+SYS|For which dates would you like to take this trip?|request
+USR|honestly i have this deadline for this project im working on, for my less than adequate boss, which is on September 1st lets pretend my trip starts then!|inform
+USR|And don't put any kind of cap on my spending, either, I am very rich|inform
+SYS|I have a 4 star stay in Kingston departing on the Sept 8, or a 2.5 star stay in Kingston departing on September 2nd.|offer
+SYS|What do you think?|offer
+USR|If its gonna be imaginary, let’s live lavishly!|inform
+SYS|I can offer you a 4.5 star 6 day stay in Kobe at the Ivory Legacy Hotel.|offer
+SYS|What say you?|offer
+USR|What amenities do they have?|request
+SYS|Free wifi only.|inform
+SYS|However, they do boast a 8.69/10 guest rating.|inform
+USR|OHHHHH that sounds nice!|inform
+USR|what about queenstown anything there?|inform
+SYS|I have just the one.|offer
+SYS|7 days at Silver Palace, a 5 star resort with free breakfast and wifi.|offer
+USR|Thats what im talking ABOUT!!!!|request
+USR|what does it offer?|request
+SYS|It is near the museum and airport, boasts a 8.86/10 user rating and departs on September 8th.|inform
+USR|How much would that be for 2?|request
+SYS|The best I can offer is 4959.36 USD for two people with economy flights or 6362.72 USD for two people with business class flights.|offer
+SYS|Which do you prefer?|offer
+USR|Business all the way only the best for the imaginary bae|switch_frame
+SYS|Shall we book?|suggest
+USR|Yes we may even though this trip wont happen I appreciate the help in making this Fantasy!|affirm
+USR|I’ll never for get this!|affirm
+USR|THANK YOUU|affirm
+SYS|Your booking is complete.|inform
+SYS|Have an excellent imaginary trip with your imaginary girlfriend!|inform
+USR|Thank you! :|thankyou
+USR|slightly_smiling_face:|thankyou

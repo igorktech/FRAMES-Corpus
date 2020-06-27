@@ -1,0 +1,20 @@
+USR|Hey.|inform
+USR|I need to get from Goiania to Hamburg
+Budget isn't an issue, can you just give me the best options?|inform
+SYS|Would you be more interested in hotel ratings, length of trip, or amenities?|request
+USR|I just want the best|inform
+SYS|I would say our best package, though it is an economy flight, is at a 4.5 star hotel near the airport, has a 9.16/10 guest rating, free parking and wifi, from September 8th to 12th, and the cost is 2684.24.|offer
+USR|There's no option for business class flights?|switch_frame
+SYS|Not for this package,|no_result
+USR|Hmmm.|request_alts
+USR|What else?|request_alts
+SYS|It is a 4 star hotel in the heart of the city, 8.98/10 guest rating, free breakfast and wifi, from September 1st to 6th, business flights, and the price is 2793.73.|offer
+USR|I can also go to Rio de Janeiro.|inform
+USR|What are the best packages?|inform
+SYS|Our best package is a 3 star hotel near a park, museum, and university, 8.22/10 guest rating, free parking, breakfast, and wifi, from September 10th to 19th, business class flights, and the cost is 832.75.|offer
+USR|Okay, to be honest I'd still prefer the business flight to Hamburg.|inform
+SYS|Okay!|inform
+SYS|I'll go ahead and book this for you, keep an eye out for a confirmation email.|inform
+SYS|Have a great day and safe travels!|inform
+USR|That was easy!|thankyou
+USR|thanks|thankyou

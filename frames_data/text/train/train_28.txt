@@ -1,0 +1,45 @@
+USR|Hey!|inform
+USR|You can help me by finding a trip to Philadelphia from Maceio.|inform
+SYS|In Philadelphia you can stay at a 2.5 star hotel for 11 days.|suggest
+SYS|As for Fukuoka, 11 days at a 2.5 star hotel would cost 4719.74USD.|suggest
+SYS|I can offer 14 days in Essen for 3787.14USD; this would be at a 2.0 star hotel.|suggest
+SYS|4 days at a 2.0 star hotel in San Antonio would cost 2311.48USD.|suggest
+USR|Let's start with Philadelphia, how much is it I upgrade to business class?|inform
+SYS|For this hotel in Philadelphia, it would cost 3340.56USD to travel from Maceio by business class.|offer
+USR|And for a four star hotel?|inform
+SYS|Sorry, I only have 2.5 star hotels available in Philadelphia.|inform
+USR|Let's see about Fukuoka upgraded to business class and a four star hotel.|inform
+SYS|I have a 3.5 star hotel available in Fukuoka, The Oceanside Hotel.|suggest
+SYS|It has a guest rating of 8.22/10.|suggest
+SYS|I could book you a business class trip for 11 days at 6228.88USD.|suggest
+USR|Is this hotel in the downtown area of the city?|request
+SYS|I do not know the location of The Oceanside Hotel within the city of Fukuoka, sorry.|inform
+USR|Is there a spa in the hotel?|request
+SYS|There is no spa in the hotel, but there is free wifi.|inform
+USR|I will keep this option in mind.|inform
+USR|How about Essen, do you have anything less than 14 days?|inform
+SYS|Do you have a length of stay in mind?|request
+USR|Around 11 days.|inform
+SYS|Sorry, I am only coming up with 14 day trips to Essen.|suggest
+SYS|Perhaps another nearby departure city would work?|suggest
+USR|Good idea.|inform
+USR|What about Canoas?|inform
+SYS|It seems that Canoas is not in my database.|no_result
+USR|What about porto alegre|inform
+SYS|I have multiple 5 day options available from Porto to Essen.|offer
+USR|I would prefer 11 days|inform
+SYS|Do you have a departure date in mind?|request
+SYS|Or an approximate departure date?|request
+USR|Anytime in the month of September|inform
+SYS|Unfortunately I only have 5 days options leaving from Porto available at this time.|inform
+USR|In that case, let's go back to the Fukuoka 11 day package.|switch_frame
+SYS|Would you like me to explore your Fukuoka options leaving from Porto Alegre?|suggest
+USR|Yes please.|affirm
+SYS|I can offer 13 days in Fukuoka for 5777.48USD.|suggest
+USR|In that case, I will take the 11 day package.|request
+USR|One more thing, is there free breakfast?|request
+SYS|The 11 day trip to Fukuoka from Maceia is also during August.|inform
+SYS|However, the Oceanside Hotel does provide free breakfast!|inform
+USR|I'll book this one.|thankyou
+USR|Thank you, friend!|thankyou
+SYS|Great, thank you!|thankyou

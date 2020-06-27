@@ -1,0 +1,44 @@
+USR|I need to book a trip for my assistant and I.  I am only free to go between Sept 6 and Sept 18.|inform
+SYS|Sure, where would you like to go and where are you coming from?|request
+USR|I can leave from anywhere depending on the cost.|inform
+USR|First I want to check what you have in Milan.|inform
+SYS|How much are you thinking of spending?|request
+USR|4100|inform
+SYS|I have a 4.0 star hotel in the heart of Milan next to a museum and a cathedral.|offer
+SYS|With you budget you can stay up to 10 days.|offer
+USR|So if my assistant and I fly there via economy class, how much is it?|request
+SYS|1721.38 if you fly from Frankfurt, 1745.44 if you fly from Queenstown, 1986.13 if you fly from Mannheim, and 2122.52 if you fly from Valencia.|offer
+USR|Now let's look at Manaus.|inform
+USR|Do you have anything from anywhere to Manaus?|inform
+SYS|In Manaus I have a 3.0 star hotel next to the park, museum, and palace.|offer
+SYS|We also have some 10 day packages that can work for you here.|offer
+USR|How much for the cheapest 10 day package at this hotel?|switch_frame
+SYS|The cheapest is 3244.23 and the flight departs from Santa Cruz.|inform
+USR|Okay, let's have a look at Phoenix.|inform
+USR|What do you have there, preferably near a park?|inform
+SYS|I only have one hotel in Phoenix, but it's not near a park.|offer
+SYS|It is close to a museum and university though.|offer
+USR|Okay - one more question.|inform
+USR|For the hotel in Manaus, the one located near the park,  do you have any 4 day packages?|inform
+SYS|Not at that specific hotel.|offer
+SYS|We only have 4 day packages at another accommodation.|offer
+SYS|It is a 2.5 star hotel close to the park and shopping.|offer
+USR|How much is that one?|switch_frame
+SYS|2835.80 with parking, breakfast, and wifi included.|inform
+USR|OUF for 4 days I'm better off with the 10 day package at the 3 star.|request
+USR|What was the guest rating at that one?|request
+SYS|That hotel has a guest rating of 8.49/10.|inform
+USR|And it's near the park, correct?|request
+USR|Is our breakfast included in that package?|request
+USR|Can you give me the name of the hotel please?|request
+SYS|Yes!|inform
+SYS|The Tranquil Sanctuary Hotel is near the park.|inform
+SYS|Breakfast, wifi, and parking are included in the price.|inform
+USR|If the dates are right, I shall book!|inform
+SYS|It is from September 8-17.|inform
+USR|Perfect.|inform
+USR|Let's go with Manaus then.|inform
+USR|The other dogs will have to wait.|inform
+SYS|Alright!|inform
+SYS|I will book you the trip to Manaus from Santa Cruz.|inform
+USR|Thank you, friend.|thankyou

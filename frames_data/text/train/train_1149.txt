@@ -1,0 +1,42 @@
+USR|hi there.|inform
+USR|i really wanna pretend im somewhere else
+i dont have any time off and only 2900 dollars though|inform
+SYS|Why hello.|request
+SYS|Do you have a destination in mind?|request
+USR|yeah.|inform
+USR|im in punta cana..
+and thinking about burlington|inform
+SYS|I have an 18 day package and a 13 day package.|offer
+SYS|Which one would you prefer?|offer
+USR|hey either one - if i can afford both!|request_compare
+USR|are they at different hotels?|request_compare
+SYS|Yes they are two different hotels and they are both within your budget.|hearmore
+SYS|They are both 3 stars, but the 13 day package has a considerably higher guest rating.|hearmore
+SYS|Which one would you like to hear about?|hearmore
+USR|tell me about the 13 day please|moreinfo
+SYS|Breakfast and wifi are included with the package.|offer
+SYS|Economy class costs 1589.30 whereas Business class costs 1960.36.|offer
+SYS|Would you like to book this trip?|offer
+USR|is it downtown?|request
+SYS|Yes it is!|inform
+SYS|And near a park :slightly_smiling_face:|inform
+USR|oh wow….|inform
+USR|awesome.|inform
+USR|could u check packages to Sydney for me too?|inform
+SYS|I'm afraid we have nothing for Sydney.|sorry
+SYS|Shall I book the trip to Burlington?|sorry
+USR|aw, drat... no i cant book anything
+i would like to hear if u have anything in madrid though|inform
+SYS|We have a 20 day stay at a 5 star hotel in Madrid.|offer
+SYS|Are you interested?|offer
+USR|wow - of course i am!|moreinfo
+USR|tell me more|moreinfo
+SYS|The hotel has a guest rating of 9.16/10 and includes breakfast and wifi.|suggest
+SYS|For economy, the package would come to a total cost of 1809.49 and for business class it's 2292.77.|suggest
+SYS|Would you like to book this?|suggest
+USR|that’s so cheap!|affirm
+SYS|Yes indeed.|suggest
+SYS|A perfect vacation.|suggest
+SYS|Shall I go ahead and book this?|suggest
+USR|i told u i cant book.|negate
+USR|thanks for letting me know whats out there tho|negate

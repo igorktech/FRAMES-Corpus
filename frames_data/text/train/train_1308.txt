@@ -1,0 +1,28 @@
+USR|Hey I need to get to San Juan to bring a recipe back to my hometown of Paris.|inform
+USR|It'll be me and my 4 kids, can you help me?|inform
+SYS|Certainly!|offer
+SYS|How does a 14 day stay at The Brass Tower Inn sound?|offer
+SYS|It has a 7.06/10 guest rating, free breakfast and wifi, and is situated near a market.|offer
+USR|How much does it cost?|inform
+USR|I can only spend a total of 7600.|inform
+SYS|That would cost 7810.25USD.|inform
+USR|Is there a better package that suits my budget?|inform
+USR|Thanks.|inform
+SYS|I have one package available within your budget.|offer
+SYS|It would be an 11 day stay at Supreme Seaside Inn & Suites, a 2.5 star hotel near a park and mall.|offer
+SYS|It has free breakfast and free wifi.|offer
+SYS|The cost would be $6810.|offer
+USR|It doesn't sound bad.|inform
+USR|But if I add another 1500 to my budget, do you think you can find something better for me?|inform
+SYS|Yes - I can find you the package I mentioned earlier for 7810.25 USD.|inform
+USR|I guess if it's the best you can do...then I'll take it.|inform
+SYS|I also have a 13 day stay at Fairyland for 8438.46USD.|offer
+SYS|This is a 4 star hotel near shopping, a museum, and a market with a 8.98 guest rating.|offer
+SYS|Free wifi is included.|offer
+USR|Wow that's amazing.|inform
+USR|I think we'll take that one.|inform
+SYS|Ok!|inform
+SYS|I will confirm booking with a confirmation email|inform
+USR|Fantastic!|thankyou
+USR|Thank you.|thankyou
+SYS|My pleasure :slightly_smiling_face:|you_are_welcome

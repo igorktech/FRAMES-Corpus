@@ -1,0 +1,19 @@
+USR|They say life does not give you free lunch, but does life give you free tickets out of Phoenix?|inform
+SYS|Sorry, I do not have free vacations.|sorry
+USR|how about $400 vacations|inform
+SYS|Indeed!|offer
+SYS|How does 13 days in Calgary sound?|offer
+USR|Oh wow!|request
+USR|is the hotel any good?|request
+SYS|Amusement is 4 stars|inform
+USR|this has exceeded my expectations|null
+SYS|Great :smile: Shall I book?|suggest
+USR|any other potential destinations?|request_alts
+SYS|I also have a package to Punta Cana|offer
+USR|how much would that cost?|request
+SYS|356.45USD|inform
+USR|And for calgary?|request
+SYS|359.22USD|inform
+USR|close enough, book calgary then|inform
+SYS|Great, I will book that for you!|inform
+USR|thanks!|thankyou

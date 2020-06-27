@@ -1,0 +1,38 @@
+USR|Hi I'd like to take a trip.|inform
+SYS|Sure!|request
+SYS|Where do you want to go?|request
+USR|I'd like to go to both Guadalajara and Rio de Janeiro.|inform
+SYS|Would you like to fly from Guadalajara to Rio de Janeiro?|suggest
+USR|No, I'm leaving from Mexico City, but I want to go to both places if that's possible.|inform
+SYS|Would you like to go from Mexico City to Rio de Janeiro?|confirm
+USR|Sure.|inform
+USR|But can I go to Guadalajara from Rio de Janeiro after that?|inform
+SYS|I don’t understand.|reject
+USR|I mean, I want to go two cities.|inform
+SYS|I do not have flights to the destination “two cities”.|no_result
+USR|There are two cities that I just have to visit!|inform
+SYS|Where would you like to go&gt;|request
+USR|I'd like to go to both Rio de Janeiro and Guadalajara.|inform
+USR|But from Mexico City.|inform
+SYS|Mexico City to Rio de Janeiror?|confirm
+USR|yeah.|inform
+USR|But can you book me two trips in this one session?|inform
+SYS|I can book you from Mexico City to Rio de Janeiro for 13 days starting September 10th for 2335.73USD.|offer
+USR|I don't need to go there for that long.|inform
+USR|Can you give me a shorter package deal?|inform
+SYS|How about 7 days for 1607.99USD?|offer
+SYS|You would leave on September 8th.|offer
+USR|That sounds pretty good.|switch_frame
+SYS|Ok!|hearmore
+SYS|Would you like some more information?|hearmore
+USR|Yes please.|affirm
+SYS|La Perfección is a 3 star hotel near a park, museum, and university.|inform
+SYS|It has a 8.22/10 user rating and free parking, breakfast, as well as free wifi.|inform
+USR|Okay then, I'll definitely take it.|inform
+USR|It sounds good.|inform
+SYS|Ok!|inform
+SYS|Consider it booked.|inform
+USR|Thanks!|thankyou
+USR|You should consider creating packages involving more than one city in the future.|thankyou
+SYS|Not my problem.|goodbye
+SYS|Goodbye.|goodbye

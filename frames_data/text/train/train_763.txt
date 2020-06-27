@@ -1,0 +1,25 @@
+USR|you do flights out of naples?|inform
+SYS|Where would you like to go celebrate?|request
+USR|lets go to St. Louis|inform
+SYS|Will you be going alone or with friends?|request
+USR|taking my best 5 friends with me|inform
+SYS|I assume all of them are over 18?|confirm
+USR|yes they’re my age|affirm
+SYS|Do you guys have any time or budget constraints?|request
+SYS|Or do you just want to see the best package I've got?|request
+USR|show me the money (package)|null
+SYS|Absolutely!|offer
+SYS|Our most luxury package is a 14 day stay at the 3.0 star Glorious Cloak Inn, with a whoping guest rating of 7.15/10.|offer
+SYS|During your stay you will enjoy free wifi and free breakfast, as well as close access to a beach.|offer
+SYS|The business flight package will cost 29232.54.|offer
+USR|there are no five star hotels in SL?|inform
+SYS|Unfortunately no.|sorry
+SYS|We only have another 3 star hotel with 6.91/10 rating.|sorry
+USR|not impressed.|inform
+USR|how about Chicago|inform
+SYS|Chicago is not that much better... we've got a 2.5 star hotel with 8.22/10 ratings.|offer
+SYS|It is close to a museum and a park though.|offer
+USR|look up Campinas|inform
+SYS|Thank you for giving me another chance to find you the perfect birthday getaway :slightly_smiling_face: I can offer you a 3.5 star hotel in the heart of Campinas!|hearmore
+SYS|It is close to a mall and a cathedral, and has a guest rating of 8.49/10.|hearmore
+SYS|Does this sound better?|hearmore

@@ -1,0 +1,16 @@
+USR|hello|greeting
+SYS|Hi, how can I help you|greeting
+USR|to seoul for at most 6600
+if not, I will leave from Berlin|inform
+SYS|We have one 3 star hotel.|offer
+SYS|Package prices are 2107.88, 2703.71, 3434.27, and 4405.40.|offer
+USR|ok.|inform
+USR|for two adults|inform
+SYS|This narrows it down to a 4215.76 package from the 24th of August to the 30th for the economy class seats or 5407.42 for the business class seats.|offer
+SYS|Which do you prefer?|offer
+USR|the business class|switch_frame
+SYS|Great, would you like this trip booked now?|suggest
+USR|yes please|affirm
+SYS|I just booked your trip and you will receive a confirmation email and detailed information about your trip.|inform
+SYS|Have a nice day!|inform
+USR|GREAT THANKS|thankyou

@@ -1,0 +1,20 @@
+USR|my friends and i are going away on our first trip alone ever and i am in charge of finding us a deal!|inform
+SYS|Ok, I will help you with that!|request
+SYS|How many of you are there?|request
+SYS|And where would you like to go?|request
+USR|we are 4 we go to school in baltimore we want to go to tijuana|inform
+SYS|Great!|offer
+SYS|How about 7 days at Hotel Perfection?|offer
+SYS|Only 3585 for all four of you from August 25-31|offer
+USR|we don't have that much money|negate
+SYS|Sorry, what is your budget?|sorry
+USR|2700|inform
+SYS|Sorry, I can’t find anything in Tijuana for 4 people at that price point.|suggest
+SYS|Perhaps you would like to try another destination?|suggest
+USR|well some our buddies are going to BA|inform
+SYS|The cheapest package in Porto would be 13293.98USD|offer
+USR|Rio?|inform
+USR|but we want to go to Buenos Aires|inform
+SYS|I can do Buenos Aires for 1872.15USD !|offer
+USR|awesome i will tell all my friend at the university of baltimore how great and helpful you are  can you just confirm the dates so i can tell my freinds|inform
+SYS|You will travel from August 24-August 31|inform

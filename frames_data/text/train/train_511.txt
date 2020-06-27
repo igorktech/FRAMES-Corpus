@@ -1,0 +1,21 @@
+USR|i.... i am the biggest popstar.|inform
+USR|IN THE WORLD I wanna take a lowkey trip.|inform
+USR|somewhere beautifully hot
+porto?|inform
+USR|i want to leave from athens|inform
+SYS|I have 6-9 or 12 days trip|offer
+USR|the length of stay is less important to me than the rank of the hotel what is the rating|request_compare
+SYS|We have a 4 star hotel near the beach for  2058.63USD|offer
+USR|4 stars sounds pretty decent i suppose.|request
+USR|what are the dates of departure and return|request
+SYS|sept 6 to 11|inform
+USR|what do you have available in Cordoba|inform
+SYS|We have 5 stars hotel at 15 days and 13 days|offer
+USR|that's exactly what i need.|inform
+USR|what are the dates?|inform
+USR|i need to return september 14|inform
+SYS|yes, sept 1st to sept 14, 5 star hotels at 2606.32USD business class|inform
+USR|wonderful, book it for two adults|inform
+SYS|ok that will be 5212.64USD.|thankyou
+SYS|Thanks for your trust!|thankyou
+USR|:smile:|null

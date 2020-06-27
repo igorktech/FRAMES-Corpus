@@ -1,0 +1,38 @@
+USR|spring break gurl whats up yaassss|greeting
+SYS|Hello, how can I help you today|greeting
+USR|so we r off frommmmm aug 27 until 9/11 4 flights please from san francisco to baltimore|inform
+SYS|We have a trip from San Francisco to Baltimore prepared, from August 30 to September 9.|hearmore
+SYS|Would you be interested in learning more?|hearmore
+USR|Please, Tell me more about that thing|switch_frame
+SYS|I'm sorry, I do not understand the query.|sorry
+USR|i’m answering YES to ur question dude ok????|moreinfo
+USR|YES tell me MORE|moreinfo
+SYS|Excellent!|inform
+SYS|You would be staying at the Countryside Resort, 3 stars and with a 7.06/10 rating from its guests.|inform
+SYS|Amenities include free breakfast, free wifi,  and free parking.|inform
+SYS|Does this sound good to you?|inform
+USR|is it on the beach tho|request
+SYS|I apologize, for I cannot confirm or deny this.|sorry
+USR|San Francisco to Miami, please if ya like that|inform
+SYS|I can book you from August 30th to September 7th in Miami, where you will be staying at the Triple Aegis hotel.|request
+SYS|This hotel is 3 stars, and near the park and mall How many adults and children will be going on this trip?|request
+USR|soooo i know its not gonna b fun but how boutchu hit me with the prices.|inform
+USR|We'll be 4 grown ass women|inform
+SYS|The cost for 4 adults comes to a total of  2675.68USD.|offer
+SYS|Would you like to confirm this booking?|offer
+USR|ok whats the price for baltimore tho|request
+SYS|The cost for 4 adults for Baltimore is 2054.15USD.|offer
+SYS|Would you like to confirm this booking?|offer
+USR|whats the guests think of that triple aegis in miami|request
+SYS|The Triple Aegis enjoys a rating of 8.86/10 from its guests.|inform
+USR|what about free breaky in miami cause you know we gonna be savage hung and not bout to go out  for some mcgriddles if we can get it in pajamas know what im sayin|request
+SYS|I am sorry, I do not understand.|sorry
+USR|agghhh.|request
+USR|free breakfast in miami yes or no|request
+SYS|The Triple Aegis provides free breakfast.|suggest
+SYS|Would you like to confirm this booking?|suggest
+USR|beautiful omg yes lets do it :smile: :smile: :smile: :smile:|affirm
+SYS|Done!|inform
+SYS|A confirmation email will be sent to you shortly.|inform
+SYS|We hope you have a fabulous trip :smiley:|inform
+USR|boo i love it u an absolutely angel xo bless|thankyou

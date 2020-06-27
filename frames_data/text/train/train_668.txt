@@ -1,0 +1,23 @@
+USR|heyo|greeting
+SYS|Good morning, how may we help you today?|greeting
+USR|need to get to mexico city.|inform
+USR|currently stationed in dublin|inform
+SYS|When would you like to go?|request
+USR|ideally around sept 8 or shortly after|inform
+SYS|Any return date in mind?|request
+USR|i’ve got 5000, so as long as that can last us.|inform
+USR|oh yeah we’ll be two adults|inform
+SYS|How long are you looking to stay in Mexico City for?|inform
+USR|just tell me how far i can go on 5 grand ok?|inform
+SYS|That always depends on the type of hotel you choose and the destination, but at the moment I can definitely offer you a 13 day package in a 3 star hotel.|inform
+SYS|The Hotel Tropic offer a 13 day stay on the beach close to shopping and includes breakfast and wifi for 2182.81USD|inform
+USR|would i be able to opt for a higher end hotel if i didn't stay as long|inform
+SYS|We also have the Coast which is a 3.5 star hotel which includes parking and wifi located near the  museum, beach, shopping, mall for 2046.58USD.|offer
+USR|Nice, I’d prefer that…how long would that trip be?|request
+SYS|This one is a 12 day package departing on Sept 10 and returning on the 21st|inform
+USR|Done deal.|inform
+USR|Lets book it.|inform
+SYS|Glad I could be of assistance.|thankyou
+SYS|I will take care of that booking and forward your flight information.|thankyou
+SYS|Thank you and have a great week.|thankyou
+USR|Thank you!|thankyou

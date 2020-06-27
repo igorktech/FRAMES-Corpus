@@ -1,0 +1,33 @@
+USR|Hello.|inform
+USR|I've received an offer of temporary employment from a global ad agency.|inform
+USR|I am currently trying to determine which office to work in
+Which is entirely predicated on the selection of travel packages that you can offer me
+My point of departure is Barcelona "Look at flights to Manas please.|inform
+USR|It must be between Aug 31 and Sep 16
+It must also be less than 1900"|inform
+SYS|Sorry, I don't have anything to Manas|no_result
+USR|How disappointing.|inform
+USR|Proceed to look at flights to Paris|inform
+SYS|9 or 10 days trip at a 4.0 stars hotel?|offer
+USR|10 days|switch_frame
+SYS|894.93USD in Economy class or 1086.86USD in business class|offer
+USR|I'm not done looking yet.|inform
+USR|I also want to know about your offerings to San Jose|inform
+SYS|4 star hotel near the beach for 9 or 11 days|offer
+USR|Which 11 days?|request
+SYS|September 3rd to 12th|inform
+USR|I would like to know more about the amenities please.|request
+SYS|Near beach and museum|inform
+USR|I don't believe that either are amenities.|request
+SYS|Oh I am sorry, this hotel has free parking, free breakfast and free wifi|inform
+USR|What about the hotel in Paris?|switch_frame
+SYS|4 star hotel with free breakfast, free wifi.|inform
+USR|What are the dates for Paris?|inform
+SYS|What days would you like to travel?|request
+USR|I've already told you this, please refer to above|inform
+SYS|I have trips from August 31st 2016  to September 9th 2016|offer
+USR|Book me that one I guess|inform
+SYS|So 10 days trip at Autumn Treasure Hotel (4 stars) from August 31st to September 9th, with free breakfast & free wifi at  894.93USD.|suggest
+SYS|For one person only?|suggest
+USR|yes for one person|affirm
+SYS|Ok I will book that for you|inform

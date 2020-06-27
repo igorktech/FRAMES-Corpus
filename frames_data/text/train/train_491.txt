@@ -1,0 +1,6 @@
+USR|Can I take my wife and son from Madrid to Santos for 4800??|inform
+SYS|Let me check that for you!|no_result
+SYS|No flights from Madrid to Santos.|no_result
+USR|and Ulsan?|inform
+SYS|No flights from Madrid to Ulsan.|no_result
+USR|wow|null

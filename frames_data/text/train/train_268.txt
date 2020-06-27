@@ -1,0 +1,63 @@
+USR|Hi!|inform
+USR|I want to book a trip for me and four friends for spring break!|inform
+SYS|I can definitely assist you with that.|request
+SYS|What will your departure city be and do you have a destination in mind?|request
+USR|We are leaving from Salvador.|inform
+USR|Do you have any trips to Kingston?|inform
+SYS|I have plenty of packages from Salvador to Kingston.|request
+SYS|When is your Spring Break?|request
+USR|We have pretty flexible dates, we were hoping to fly out between September 2nd and 17th|inform
+SYS|Do you have a budget for this trip?|request
+USR|Yes, our total budget is of 14200|inform
+SYS|I have 6 day and 8 packages available.|suggest
+SYS|Any preference?|suggest
+USR|It depends, what kind of hotels and activities are included in the packages?|request_compare
+SYS|I have 2.5 star, 3 star 3.5 star hotels available.|inform
+SYS|All of them include free wifi.|inform
+SYS|A couple are located near the museum and a couple in the heart of the city near the park.|inform
+SYS|Which location are you more interested in?|inform
+USR|Being in the heart of the city sounds good!|inform
+USR|Or do you have any close to the beach?|inform
+SYS|Unfortunately, I have nothing available close to the beach in Kingston at the moment.|offer
+SYS|In the heart of the city, I have the Cosmos Inn available for 6 or 8 day packages.|offer
+SYS|This is a 2.5 star hotel which also includes free parking and a free breakfast.|offer
+SYS|You can fly to there either on economy or business class and still stay within your budget.|offer
+USR|ok!|request
+USR|Are any extras included in the price?|request
+SYS|No there are not.|suggest
+SYS|Would you like me to provide you with some pricing on the 8 day package via business class?|suggest
+USR|Yes that would be great.|request_compare
+USR|Could you give me the price of the 8-day package in economy and in business so that I can compare?|request_compare
+SYS|Cosmos Inn - 8 days in economy class is available from September 8th to Sept 14th.|inform
+SYS|The total cost on this package is 9141.53USD.|inform
+SYS|Cosmos Inn - 8 days in business class is available from is also available on the same dates for a total cost of 11812.93USD.|inform
+SYS|I can manage this for the 5 of you.|inform
+USR|Great thanks!|request
+USR|Last question about this package, does the hotel have a pool or other amenities?|request
+SYS|I am sorry, but I do not have access to this information in my database.|sorry
+USR|Alright, that's ok.|inform
+USR|The other destination we were considering is Lima|inform
+SYS|I have a 9 day package available at the Wolf Inn.|offer
+SYS|It is a 3.5 star resort located near the park.|offer
+SYS|It includes free wifi, free parking and a complimentary breakfast and I only have economy flight available at this time.|offer
+SYS|The total cost is 14057.6USD, so it comes in just under your budget.|offer
+USR|That sounds pretty good!|inform
+USR|Otherwise do you have anything close to the beach?|inform
+SYS|I apologize.|sorry
+SYS|All of our resorts  located close to the beach in either Kingston or Lima have already been booked up.|sorry
+SYS|Would you like to look at other possible destinations?|sorry
+USR|Those are the two destinations we were considering.|moreinfo
+USR|Can you give me any additional information about the Wolf Inn?|moreinfo
+SYS|The flight departs on September 8th at 11am and returns on September 15 at 2am .|inform
+SYS|Again, this is in economy class seating.|inform
+USR|Ok!|inform
+USR|If we increased our budget to 15200, would there be other packages you would recommend for Lima?|inform
+SYS|No unfortunately Wolf is the only resort in Lima available at the moment.|sorry
+USR|How about in Kingston, would other options become available with a slightly higher budget?|inform
+SYS|That's pretty all that is available in Kingston too.|no_result
+SYS|Would you like me to proceed with booking before there are no places left?|no_result
+USR|Yes!|switch_frame
+USR|Then we will go for the Lima package at Wolf Inn!|switch_frame
+SYS|Perfect, I will take all your information down and proceed with the booking.|inform
+SYS|Have a nice day!|inform
+USR|Thank you very much!|thankyou

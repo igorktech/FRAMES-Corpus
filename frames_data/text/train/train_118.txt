@@ -1,0 +1,11 @@
+USR|Hi!|inform
+USR|I'd really like to try and book a trip for me and 3 of my friends for spring break.|inform
+USR|I have a budget of $2100.|inform
+SYS|Fantastic!|request
+SYS|Where will you be leaving from?|request
+USR|Caprica|inform
+SYS|What dates would you like to travel between?|request
+USR|August 16th and August 19th|inform
+SYS|I'm sorry, we do not have Caprica within our database.|sorry
+SYS|Is there another nearby airport?|sorry
+USR|No that is the only one unfortuneately.|negate

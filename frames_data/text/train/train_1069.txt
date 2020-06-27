@@ -1,0 +1,23 @@
+USR|Rio de Janeiro to anywhere, stat.|inform
+SYS|I have a few possibilities.|request
+SYS|Are you looking for a certain departure date, something special in a hotel, do you have a set budget?|request
+USR|between september 8th and 19th for under 2300|inform
+SYS|Would Buenos Aires, Argentina be of interest?|suggest
+USR|depends, give me some info|switch_frame
+SYS|I have the Olive Market Hotel, located in the downtown area and close to a park available for 11 days.|inform
+SYS|This 4 star property offers free wifi, parking and breakfast for the budget price of 1032.6USD|inform
+USR|What else you got?|request_alts
+SYS|I have a 10 day package in Recife, Brazil, also at a 4 star hotel for  594.16USD on a business class flight, wifi and breakfast included.|offer
+USR|Can you give me a list of places available first and if something pops i can ask for more info|request_alts
+SYS|Mexico City, Athens, Belo Horizonte, Santo Domingo, Rio de Janeiro,Buenos Aires, Brasilia,Recife|offer
+USR|What is in Mexico City?|switch_frame
+SYS|12 days at the Hotel Tropic, a 3 star hotel with access to the beach and shopping.|inform
+SYS|Includes breakfast and wifi for a grant total of  2296.33USD|inform
+USR|Do any of these places have a 5 star hotel?|request
+SYS|None.|inform
+SYS|The ones I gave you were the ones with the highest ratings.|inform
+USR|okay, i guess the one to Buenos Aires is good then|switch_frame
+SYS|Do you want me to go ahead and book it for you then?|suggest
+USR|ya|affirm
+SYS|Done!|inform
+USR|cool bye|goodbye

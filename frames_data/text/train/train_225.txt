@@ -1,0 +1,30 @@
+USR|Hi im in Munich and want to go to Dallas|inform
+SYS|Great!|request
+SYS|Any dates in mind?|request
+USR|not atm|inform
+SYS|Ok!|offer
+SYS|I have one hotel available from August 26-30.|offer
+SYS|How does that sound?|offer
+USR|Can you tell me about it?|switch_frame
+SYS|Absolutely!|inform
+SYS|The hotel is located in the heart of Dallas near a museum and has free wifi and breakfast included.|inform
+SYS|It has a 2.5 star rating with a guest rating of 5.14|inform
+USR|hmm interesting are there any better rated hotels?|inform
+SYS|I’m sorry but that is the only one I have available.|sorry
+SYS|I can check out other destinations for you if you would like.|sorry
+USR|Sure what about kobe??|inform
+SYS|I have several hotels in Kobe for you!|request
+SYS|They go up to 4.5 stars.|request
+SYS|Have you got a budget in mind to help me narrow down the best one for you?|request
+USR|Lets see the best ones available|inform
+SYS|That would be the Ivory Legacy Hotel - a 4.5 star with free wifi.|offer
+USR|how much?|switch_frame
+SYS|I have a 6 day package available for 3052.85USD.|inform
+USR|When would i be departing|request
+SYS|You could leave August 30th|inform
+USR|That would work!|null
+SYS|Ok, great!|suggest
+SYS|Shall I go ahead and book?|suggest
+USR|Yes please!|affirm
+SYS|You’re all set :slightly_smiling_face: Enjoy!|inform
+USR|thanks|thankyou

@@ -1,0 +1,44 @@
+USR|Hi there, I'd like to book a trip to Punta Cana.|inform
+SYS|Great, where are you coming from?|request
+USR|I'll be departing from Detroit.|inform
+USR|I would be booking for two people|inform
+SYS|Would you have a more definite idea of which dates you want to leave and return by?|request
+USR|I'd like to leave sometime soon after September 7th for 14 days|inform
+SYS|The longest trips we have leaving after September 7th is a 9 day trip starting from September 10th.|offer
+SYS|Would this interest you?|offer
+USR|What about closer to the end of September?|request
+USR|Is the longest trip you have still only 9 days long?|request
+SYS|Yes, that is the longest trip we have to Punta Cana.|offer
+SYS|Close to the end of the September we have an 8 day trip.|offer
+USR|Okay, I'm curious about the 9 day trip starting from September 10th.|request
+USR|How much would that cost?|request
+SYS|Business would cost 2072.62 and economy would cost 1553.57.|offer
+USR|Those are the only two options you have?|confirm
+SYS|Yup!|affirm
+USR|I'm afraid that's out of my budget.|request_alts
+USR|Could I book a flight to another destination instead please?|request_alts
+SYS|Sure!|request
+SYS|Where would you like to go?|request
+SYS|If you can also give me a better idea of your budget, I can help you find a more suitable trip.|request
+USR|I'd like to go to Punta Cana with my husband for a maximum budget of 1300.|inform
+SYS|Sorry, we don't have any packages that works within your budget.|sorry
+SYS|However, we do have 8 day packages to Punta Cana that suits your budget.|sorry
+USR|Okay great, I'm interested in the 8 day package to Punta Cana that suits my budget then.|request
+USR|What is the date of departure?|request
+USR|And how much would it cost?|request
+SYS|Great!|offer
+SYS|It leaves on the 7th and costs 736.30 if you fly economy and 982.30 if you fly business.|offer
+USR|Oh I'm afraid I can't leave on the 7th.|inform
+USR|Is there an 8 day package that leaves after the 7th?|inform
+SYS|Sorry, nothing for Punta Cana.|sorry
+SYS|Do you have another city you would like to visit?|sorry
+USR|Is there a trip to Punta Cana after the 7th that is within my budget that is shorter than 8 days?|inform
+SYS|Unfortunately no.|sorry
+USR|Is there anything similar for Punta Cana?|inform
+SYS|Nope, nothing that works with you budget.|suggest
+SYS|Is your budget flexible?|suggest
+USR|No, it's not.|thankyou
+USR|I'm going to have a think about it and decide what I want later.|thankyou
+USR|But thanks for your help!|thankyou
+SYS|You're very welcome!|you_are_welcome
+SYS|Good luck with your search!|you_are_welcome

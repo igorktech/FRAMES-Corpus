@@ -1,0 +1,16 @@
+USR|I want to dream of a better life and pretend I have money and vacation days left.|inform
+USR|Can you check packages from Queenstown to LA?|inform
+SYS|What's your budget?|request
+USR|yeah try $4000, that's all I have in my bank account anyway.|inform
+SYS|Ok!|offer
+SYS|You could spend 11 days at Snooze Inn & Suites, located near the university with a 3.0 star rating and free wifi, parking, and breakfast.|offer
+SYS|Alternatively, the 3.0 star Secret Ribbon Inn would be available within your price parameters for a stay of up to 16 days.|offer
+SYS|The Retro Inn is located near a park and university and features free wifi and parking with a breakfast included in your package.|offer
+USR|Any flights to Atlanta?|inform
+SYS|I've got 19 days on the beach, located near a park, the Summer Covert Club would cost only 2986.76USD with business class flights!|offer
+USR|wow.....you're making me wish I hadn't spent my vacation days self-loathing and getting plastered.|inform
+USR|Are there any trips to Fukuoka?|inform
+SYS|Of course!|offer
+SYS|In Fukuoka you could have your pick of the Apex Hotel, Oceanside Hotel, Historic Mansion Hotel, or the Hotel Sugoi for under 4000 dollars.|offer
+SYS|All with free wifi.|offer
+USR|wow.... well if i could travel at this time I would take the Atlanta trip but maybe next year.... Thanks for enlightening me today|thankyou

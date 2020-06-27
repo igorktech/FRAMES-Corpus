@@ -1,0 +1,4 @@
+USR|Looking to go from San Francisco to MArseille.|inform
+USR|Book me for September 18 to 22.|inform
+USR|Let me know if its more than 2800 because thats all I can afford|inform
+SYS|All available packages are over 3000|inform

@@ -1,0 +1,37 @@
+USR|hey.|inform
+USR|id like to book a trip to philadelphia from vancouver.|inform
+USR|for 8|inform
+SYS|Will this be 8 adults, 8 kids, or both adults and children?|suggest
+USR|3 adults and 5 children|inform
+SYS|Do you have a budget in mind?|request
+USR|6500|inform
+SYS|When would you like to travel?|request
+USR|what are some packages available|inform
+SYS|We have 3 different packages at the same hotel.|offer
+SYS|Two are the same package except one is the economy flight and one is the business flight and these are from August 31st to September 10th.|offer
+SYS|The 3rd option is an economy flight from August 30th to September 4th.|offer
+USR|business flight.|switch_frame
+USR|august 31 - sept 10|switch_frame
+SYS|This package includes free wifi, parking, and breakfast at a 2 star hotel near a museum and park.|suggest
+SYS|This costs 5529.83.|suggest
+SYS|Would you like me to book this for you?|suggest
+USR|can i have a better rated hotel|inform
+SYS|This is the only hotel available for your request.|null
+USR|ok.|inform
+USR|then economy class.|inform
+USR|but higher rated hotel|inform
+SYS|All packages for your request are at the same hotel.|inform
+USR|what about at a later or earlier date|inform
+SYS|Unfortunately, the results I have given are the only options for a trip to Philadelphia from Vancouver.|sorry
+USR|ok.|inform
+USR|what if i increase my budget|inform
+SYS|I can check.|request
+SYS|How much would you like to increase your budget?|request
+USR|can increase by 1500|inform
+SYS|This gives you one more option for a business class flight to the same hotel for the August 30th to September 4th package.|offer
+USR|i really need better rated hotel.|inform
+USR|im travelling with 2 lawyers and 5 children|inform
+SYS|I'm very sorry but there are no other options aside from the ones I gave you.|sorry
+USR|ok.|thankyou
+USR|then
+let me ask my associates and come back to you.. thanks|thankyou

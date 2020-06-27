@@ -1,0 +1,21 @@
+USR|Hi Leaving from Cleveland!|inform
+USR|And i need to get to Mexico City, and it needs to be on Friday September 2nd|inform
+SYS|How many people will be travelling?|request
+USR|just myself i got a job as an intern, Itll be my first time travelling alone|inform
+SYS|What is your budget?|request
+USR|Its very tight, its a non paid internship, i only have $2100|inform
+SYS|For Mexico City, there is a 3.0 star hotel, beach, shopping, mall.|offer
+SYS|The price is 2002.66 and there is free wifi and free parking.|offer
+USR|oh thats cutting it close, is there anything cheaper to the other places?|inform
+SYS|I've got a 3.0 star hotel in Guadalajara near a park and an airport.|offer
+SYS|The total price of this package is 765.13 and this includes free breakfast, free wifi, and free parking.|offer
+SYS|This trip leaves on September 8th and returns on September 21st.|offer
+SYS|Does this interest you?|offer
+USR|Yes it does this seems way better!|switch_frame
+USR|and more affordable|switch_frame
+SYS|Would you like me to book this package for you?|suggest
+USR|Please go ahead and do it!|inform
+SYS|Great!|inform
+SYS|Your flights are booked!|inform
+SYS|Have a great day|inform
+USR|thank you|thankyou

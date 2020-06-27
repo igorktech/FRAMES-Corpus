@@ -1,0 +1,13 @@
+USR|Katniss here, im in Rio de Janeiro and need to get to Paris to shoot a film|inform
+SYS|Unfortunately we don't offer trips from Rio de Janeiro to Paris.|sorry
+SYS|Do you have somewhere else you'd like to go?|sorry
+USR|I guess i can go to hamburg instead and chill with Selena|inform
+SYS|That I can help with!|offer
+SYS|How does an 11 day stay at a 4.5 star hotel near the airport sound?|offer
+USR|Sounds good enough.|inform
+USR|Out of curiosity, is there a 5 star hotel?|inform
+SYS|Not that I can find... the 4.5 star one is the best in Hamburg.|inform
+USR|Okay, i’ll take it, thank you and peace out!|thankyou
+SYS|Great!|inform
+SYS|It is booked for you.|inform
+SYS|Have a great trip!|inform

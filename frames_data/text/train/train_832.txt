@@ -1,0 +1,57 @@
+USR|The MOST important meeting of my LIFE is taking place in Monterrey.|inform
+USR|Do you fly to Monterrey from Manas?|inform
+SYS|Sorry, we don’t offer those flights.|sorry
+USR|I can meet them is Sapporo yes I can please get me to Sapporo MY ENTIRE FUTURE DEPENDS ON THIS MEETING|inform
+SYS|I’m sorry, but is there another departure city you could get to?|sorry
+USR|Are there any flights from Manaus to ANYWHERE?|inform
+SYS|Certainly!|offer
+SYS|I have flights to Porto Alegre, Puebla, St. Louis, or San Antonio.|offer
+SYS|Any interest in these destination?|offer
+USR|No.|inform
+USR|I may be able to fly to Monterrey from somewhere else.|inform
+USR|Where would I have to leave from?|inform
+SYS|It seems we do not offer flights to Monterrey.|no_result
+USR|From anywhere to Sapporo?|inform
+SYS|Sure!|offer
+SYS|From Osaka, Sao Paulo, Dallas, Chicago, or Philadelphia.|offer
+USR|Okay get me to Sapporo with 5 other adults from anywhere for under $2800.|inform
+SYS|The only hotel available with these conditions is the Hotel Prism.|offer
+SYS|You can leave from Kyoto, Tokyo, Osaka, Seoul, or Busan.|offer
+USR|The earliest possible departure date|switch_frame
+SYS|All trips depart September 18th|inform
+USR|What's the highest rated hotel in Sapporo, I have to impress these guys.|inform
+SYS|I only have Hotel Prism available.|inform
+SYS|It is three stars.|inform
+USR|Out of which city does it cost the least then?|switch_frame
+SYS|That would be Fukuoka, where the cost would be 1397.60USD for 6 adults flying Economy class.|offer
+USR|Do they feed us breakfast at this hotel?|request
+SYS|Breakfast is included.|inform
+USR|3 stars...breakfast....1397 for 6 okay how about the guest rating?|inform
+SYS|It is unrated by guests.|inform
+USR|Not a good a sign...okay can you get me to Denver?|inform
+USR|From anywhere?|inform
+USR|2 people instead|inform
+SYS|2800 dollar budget as well?|confirm
+USR|No I'll splurge....let's say, 4000?|inform
+USR|Whatcha got?|inform
+SYS|I have 15 days at Brass Renaissance Resort from Sept 8-21 for 3309.55USD for two adults flying economy class form Naples.|offer
+USR|Business class?|inform
+SYS|3508.98USD|offer
+USR|What's the rating on the hotel?|request
+SYS|3 stars, 8.86/10 from guests.|inform
+USR|Got anything with a higher rating?|request_alts
+SYS|I have Marina Castle Hotel with a 4.0 star rating.|offer
+USR|Guest rating?|request
+SYS|8.69|inform
+USR|amenities?|request
+SYS|Free wifi.|inform
+USR|price?|request
+SYS|3808.63USD flying economy from Vitoria, Spain.|inform
+USR|Business?|inform
+SYS|Not within your budget.|no_result
+USR|dates?|request
+SYS|Sept 6-19|inform
+USR|Okay I'll take it.|inform
+USR|Send me all the details, Thanks I will let you know what happened at my meeting!|inform
+SYS|Ok.|inform
+SYS|I will book this for you.|inform

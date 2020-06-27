@@ -1,0 +1,8 @@
+USR|hello hello i am travelling with my 9 sisters and my child to our family reunion in Corsucant next month!|inform
+USR|we will spend 1800 max, what can you do?|inform
+SYS|Hi, I can't seem to find any vacation packages for Coruscant.|suggest
+SYS|Did you have another destination in mind?|suggest
+USR|well no.|thankyou
+USR|its a family reunion
+thats where my family is
+thanks anyway i guess...............|thankyou

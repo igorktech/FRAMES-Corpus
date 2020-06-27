@@ -1,0 +1,16 @@
+USR|Hi there!|inform
+USR|I'm getting married in Phili next week and we are having the most beautiful wedding ever!|inform
+USR|With all the planning for the wedding, we forgot to plan our honeymoon! :|inform
+USR|airplane_departure: We are pretty broke but would still like to take a trip to Curitiba! :|inform
+USR|blush:|inform
+SYS|Excellent, do you have any dates in mind?|request
+USR|We get married on September 1st, so we would like to leave on the 2nd :european_castle: A 15 day package would be ideal!|inform
+SYS|How many people are going on this trip?|request
+USR|Just my husband and I, we are definitely leaving my new mother-in-law at home :stuck_out_tongue_winking_eye:|inform
+SYS|I'm pleased to tell you that we have a travel package available to Curitiba, departing Philadelphia on September 2 and returning on September 14.|offer
+SYS|You would be staying at the renowned Crown Market Palace, a 3.5 star hotel with a guest rating of 8.22/10.|offer
+SYS|The hotel is situated next to the beach, and features free breakfast, free wifi, and free parking.|offer
+SYS|The total cost for this trip is $3460.88.|offer
+SYS|Would you like to book this trip?|offer
+USR|WOW that sounds amazing and it's under our budget of $3900!|thankyou
+USR|I love that it is on the beach :surfer: You found us the perfect honeymoon, thank you so much for your help.|thankyou

@@ -1,0 +1,15 @@
+USR|punta cana to mexico city|inform
+SYS|will that be 1 or 15 travelers?|suggest
+USR|2|inform
+SYS|Hello Punta Cana to Mexico City|greeting
+USR|did you process my requests.|inform
+USR|i would also like to book between sept 9 and 26|inform
+SYS|There are no flights from punta cana to mexico city|no_result
+USR|How about Cairo to Mexico City?|inform
+SYS|I wish I could help you with your request but unfortunately we do not have flights from Cairo to Mexico City.|sorry
+USR|Punta Cana to Porto Alegre?|inform
+SYS|Neither from Punta Cana to Porto Alegre|no_result
+USR|I am giving you one last time to you your job.|inform
+USR|you better tread carefully here, my friend,
+Cairo to Porto Alegre or I will raise hell|inform
+SYS|I regret that destinations is also not one we offer|no_result

@@ -1,0 +1,12 @@
+USR|I have clients to meet with in Rome, I need to travel there some time soon - anytime, any price.|inform
+SYS|Where will you need to leave from?|request
+USR|I can leave from Berlin|inform
+SYS|Is anyone else going to be travelling with you?|request
+USR|No, I alone|inform
+SYS|The best package I can offer is at The Double Pastures, a 4 star hotel near a cathedral, 8.98/10 guest rating, free breakfast and wifi, from September 11th to 23rd, business flights for 911.50, and economy flights for 810.76.|offer
+USR|Ideal.|inform
+USR|Book business flights please|inform
+SYS|Great!|inform
+SYS|It is booked!|inform
+SYS|Have a great day!|inform
+USR|You’re great|thankyou

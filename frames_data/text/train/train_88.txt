@@ -1,0 +1,26 @@
+USR|hello!|greeting
+USR|were leaving from Brasilia and looking to book our honeymoon|greeting
+SYS|Great!|request
+SYS|Where are you thinking of going?|request
+USR|maybe rome for 7 days|inform
+SYS|I have many 5 days trips to Rome.|hearmore
+SYS|Would that suit your needs?|hearmore
+USR|ya for sure i have a small budget due to the wedding but i think we can make it work|switch_frame
+SYS|Will you be travelling alone for your honeymoon?|suggest
+USR|no, ill be with the ball and chain|inform
+SYS|I'm not sure I understand.|reject
+SYS|Will you be travelling alone?|reject
+USR|the soon to be mrs.|inform
+USR|will be attending as well|inform
+SYS|Ok!|offer
+SYS|I can book 5 days in Rome for two people at 3550.55USD.|offer
+USR|How about phoenix?|inform
+SYS|I can book 7 days in Phoenix for 3775.54USD|offer
+USR|never mind then how about Rome|switch_frame
+SYS|I can book 5 days in Rome for two people at 3550.55USD|inform
+USR|what is the hotel like?|moreinfo
+SYS|0.0 star rating with free breakfast and free wifi.|inform
+USR|perfect!|inform
+USR|lets book it!|inform
+SYS|Ok great!|inform
+SYS|I will go ahead and book that for you :smile:|inform

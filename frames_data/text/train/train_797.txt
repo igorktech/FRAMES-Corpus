@@ -1,0 +1,35 @@
+USR|hello!|inform
+SYS|I am here to help|greeting
+USR|i have between september 6 to 21 to take my team somewhere nice.|inform
+USR|can you please book six adults from nagoya to buenos aires|inform
+SYS|will that be 6 adults?|confirm
+USR|yes|affirm
+SYS|I can definitely help you with your request.|request
+SYS|Are you on a certain budget for this trip?|request
+USR|no budget!|inform
+SYS|I have a few options for you in Nagoya.|offer
+SYS|Let's narrow it down.|offer
+SYS|Do you prefer a 13 day stay or a 10 day stay?|offer
+USR|Does the 13 day trip fit within the constraint I provided?|switch_frame
+SYS|The 13 day trip would begin on the 8th and return on the 19th of September.|hearmore
+SYS|I have the Olive Market Hotel available which carries a 4 star rating  and is located in the heart of the city.|hearmore
+SYS|How does this sound?|hearmore
+USR|What amenities are there?|request
+SYS|All 6 of you will have access to free wifi and parking and breakfast is available at no charge for your entire party.|inform
+USR|Can you also check if you can book 6 adults to Kyoto?|request
+USR|And tell me the costs.|request
+SYS|I have a 9 day package available in Kyoto at the Glorious Bazaar hotel plus,  This hotel carries a 3 star rating, is located near the museum and would work out to 2290.95USD.|offer
+SYS|Free wifi and breakfast are also included with this package.|offer
+USR|Whats the guest rating of this place?|request
+SYS|8.22/10 guest rating|inform
+USR|and for Buenos Aires?|switch_frame
+SYS|The Olive Market Hotel in Buenos Aires has a 8.69/10 guest rating|inform
+USR|Ok lets go ahead and book that.|inform
+USR|9 adults please|inform
+SYS|Are you interested in upgrading to business class?|suggest
+USR|What would be the total cost?|request
+SYS|With the additional 3 people and the upgrade to business class, your total bill would be  57520.1USD.|offer
+USR|lets book it|inform
+SYS|I will take care of that for you.|inform
+SYS|Enjoy your trip and please contact us again.|inform
+USR|Thanks!|thankyou

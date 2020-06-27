@@ -1,0 +1,65 @@
+USR|hello i am booking from buenos aires to tokyo|inform
+SYS|Hello :slightly_smiling_face: I can help with that!|request
+SYS|Did you have dates in mind?|request
+USR|yes - august 27 until september 9th|inform
+SYS|Unfortunately, we do not have a package matching the exact dates you provided.|sorry
+SYS|Are you flexible with your schedule?|sorry
+USR|i dont need the exact dates but within that date range, sorry I shouldve clarified|inform
+SYS|No need to be sorry, boss.|sorry
+SYS|Would you be interested in a trip from September 2 to 7?|sorry
+USR|yes sure, that’d work.|moreinfo
+USR|whats the hotel like|moreinfo
+SYS|Excellent!|inform
+SYS|The hotel is the Bonzai Hotel, a 3-star hotel near museums and shopping.|inform
+SYS|Guests have rated it 6.77/10, and amenities include free wifi and spa.|inform
+SYS|How many would you be booking for?|inform
+USR|i also wanna check out buenos aires to salvador|inform
+SYS|For sure, would this trip be in the same date range as the one you provided previously?|confirm
+USR|yes|affirm
+SYS|We have a trip from August 27 to September 1, taking you to the Water Motel, a 3.5 star adults only hotel near the museum, palace, and theatre.|offer
+SYS|Would this be of interest to you?|offer
+USR|ok not bad.|inform
+USR|what if i left from toluca|inform
+SYS|I would be able to book you from August 29 to September 6, also at the Water Motel.|offer
+SYS|Would you prefer this option?|offer
+USR|interesting.|switch_frame
+USR|i will consider it|switch_frame
+SYS|Wonderful, how many people would you like to book for?|request
+USR|but i will also consider toluca to tokyo|inform
+SYS|I have an available trip from Toluca to Tokyo from August 27 to September 5.|hearmore
+SYS|Would you like to learn more about this trip?|hearmore
+USR|ok tell me more|moreinfo
+SYS|You would be staying at the Lunar Island Resort, a 3 star hotel putting you near museum and shopping.|suggest
+SYS|The hotel comes with free wifi and a spa, and guests have lavished a 6.91/10 rating upon it.|suggest
+SYS|Would you be interested in booking this hotel?|suggest
+USR|is that the same hotel if i left from buenos aires?|request_compare
+SYS|It would be a different hotel.|inform
+SYS|Would this be okay with you?|inform
+USR|well i would like to compare the two|request_compare
+SYS|Certainly, what would you like to know?|request
+USR|can I have a side by side comparison.|request_compare
+USR|rating, amenities, location|request_compare
+SYS|I'm sorry, I do not understand.|sorry
+USR|tell me all the qualities of each hotel.|request_compare
+USR|compare them for me|request_compare
+SYS|Lunar Island Resort is a 3 star hotel putting you near museum and shopping.|suggest
+SYS|The hotel comes with free wifi and a spa, and comes with a 6.91/10 guest rating|suggest
+USR|nah.|request
+USR|whats available in salvador.|request
+USR|how many different hotels|request
+SYS|Would you be looking to depart from Buenos Aires?|confirm
+USR|sure|affirm
+SYS|I have located one hotel in Salvador: the Water Motel, a 3.5 star adults-only hotel near the museum, palace, and theatre.|offer
+SYS|Would you be interested in booking this hotel?|offer
+USR|what if i left from toluca|inform
+SYS|I have located one hotel in Salvador: the Water Motel, a 3.5 star adults-only hotel near the museum, palace, and theatre.|offer
+SYS|Would you be interested in booking this hotel?|offer
+USR|is that from toluca|confirm
+SYS|The aforementioned hotel is for trips departing from Toluca.|inform
+USR|ok.|inform
+USR|lets book the hotel in fukuoka|inform
+SYS|Wonderful, how many adults and children would you like to book for?|request
+USR|2 adults|inform
+SYS|The trip will cost 8020.11USD, thank you for your business!|thankyou
+SYS|We hope you have a wonderful trip.|thankyou
+USR|thanks|thankyou

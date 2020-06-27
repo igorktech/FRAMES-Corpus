@@ -1,0 +1,20 @@
+USR|Heyaaa|greeting
+SYS|Hi!|greeting
+SYS|How can I help you?|greeting
+USR|So  me and some coworkers need to take a little work trip from last Wednesday until last Saturday.|inform
+SYS|Where would you like to go?|request
+USR|Sadly it is not a uniform decision... 14 of us wanna go Valencia
+From Beijing|inform
+SYS|So 14 adults altogether?|confirm
+USR|Yes, please|affirm
+SYS|Do you have a budget?|request
+USR|Nope|inform
+SYS|There are no results.|suggest
+SYS|Is there somewhere else you'd like to go?|suggest
+USR|Could you send 6 adults to Vitoria?|inform
+SYS|Unfortunately not.|sorry
+USR|Can you send one person literally anywhere from Beijing?|inform
+SYS|7 people or 15 people?|suggest
+USR|one|inform
+SYS|Sorry, I thought you said one more.|sorry
+SYS|No I can't, there are no results within your requested dates.|sorry

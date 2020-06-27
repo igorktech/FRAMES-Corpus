@@ -1,0 +1,32 @@
+USR|Hello|greeting
+SYS|Hello, how may I help you?|greeting
+USR|Trying to see if I can take my kids with me to see my wife in Portland.|inform
+USR|And we would be leaving from Washington|inform
+SYS|What is the total amount of adults and children in your party?|request
+USR|4 children.|inform
+USR|just me as an adult|inform
+SYS|Do you have any specific dates in mind?|request
+USR|i'm not too picky on dates|inform
+SYS|I regret that we do not handle flights between Washington and Portland.|suggest
+SYS|Are you able to either depart from somewhere else or pick a different destination?|suggest
+USR|What about if we traveled together to Paris then|inform
+SYS|Just to be clear, do you want to depart from Paris or fly to Paris?|confirm
+USR|The latter please|inform
+SYS|I am pleased to tell you that we have flights from Washington to Paris.|request
+SYS|Do you have a certain budget for your vacation?|request
+USR|not really, i'd like to treat the kids to something nice if I can.|moreinfo
+USR|what kind of hotel?|moreinfo
+SYS|The Hotel Regal Universe in Paris is a 4 star property with a 9.16/10 user rating and is located near the museum and palace.|offer
+SYS|That one is available for a 13 day period.|offer
+SYS|I also have the Queen's Jungle Hotel, also a 4 star property with a 8.69/10 user rating located near the museum, shopping and cathedral available for 12 days.|offer
+SYS|A third option for you would be the Autumn Treasure Hotel, again a 4 star property with a 8.49/10 user rating but I do not have any details on its location, also available for 12 days.|offer
+USR|Does the Hotel Regal Universe have free breakfast??|request
+SYS|Hotel Regal Universe offers you a complimentary breakfast along with free wifi.|inform
+USR|and the dates?|request
+SYS|It is available from Sept 5th to Sept 17th on both economy and business class|offer
+USR|Could we afford business class for our entire group?|request
+SYS|The cost on business class for the entire package including your flights and hotel is 12006.40USD|inform
+USR|Ok lets go ahead and confirm this!|inform
+SYS|I will proceed with the booking then.|inform
+SYS|Thank you and enjoy your trip.|inform
+USR|Thank you!|thankyou

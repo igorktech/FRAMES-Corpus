@@ -1,0 +1,29 @@
+USR|Hello, I'd like to go to Birmingham for 7 days on my honeymoon, leaving from Denver on August 18.|greeting
+USR|What can you offer?|greeting
+SYS|I don't have any packages available in Birmingham, but I do have other options travelling out of Denver.|offer
+USR|Great.|affirm
+USR|Is Phoenix in the list of other options?|affirm
+SYS|Actually, I just found something available in Birmingham but it is only available on August 30th.|hearmore
+SYS|Do you want more details on it?|hearmore
+USR|Yes I would please!|affirm
+SYS|It is a 7 day package at the The Emerald, a 4 star hotel with free wifi.|inform
+SYS|The price on this package is $1242.7USD.|inform
+USR|This sounds like a great package, although I would like to compare it to a trip to Phoenix.|switch_frame
+USR|What is available?|switch_frame
+SYS|I have 2.5 star and 3 star packages available in Phoenix from August 27 to September 1st.|offer
+SYS|I have both economy and business class seats left.|offer
+USR|Is there anything closer to the 18th of August to Phoenix?|inform
+SYS|No there is not, those packages are sold out.|no_result
+USR|What is the price of the 3 star hotel in Phoenix from August 27 to September 1st?|request
+SYS|The Recreation Inn, a 3 star property, is $1832.8USD based on an economy class ticket.|inform
+SYS|If you want a business class ticket, the price is $1832.8USD.|inform
+USR|And what is the price of the 2.5 star hotel?|switch_frame
+SYS|Economy or business?|suggest
+USR|Economy.|inform
+USR|I am trying to stay within a budget of $1000.|inform
+SYS|It's a bit higher than your budget at $1849.57USD.|inform
+SYS|The trip to Birmingham was $1242.70USD so that was closer to your budget and that is in a 4 star property.|inform
+USR|Is there anything available in Birmingham cheaper than $1242.70?|inform
+SYS|No but I have deals out of Denver  available on August 24th to Toronto and August 27 to Calgary for under $1000.|suggest
+USR|These are not destinations that I would like to go to.|goodbye
+USR|Thank you very much for your time, but, goodbye.|goodbye

@@ -1,0 +1,22 @@
+USR|hi|greeting
+SYS|Hey!|greeting
+SYS|What can I do for you?|greeting
+USR|i want to bring my kids to vitoria to see their mother.|inform
+USR|so 4 kids and one adult ticket please|inform
+SYS|Where will you need to fly out from?|request
+USR|toronto|inform
+SYS|Do you have a budget?|request
+USR|no set amount, but i would like a reasonable price|inform
+SYS|When would you like to leave?|request
+USR|we are flexible|inform
+SYS|The only result we have is a 6 day package from September 24th to 28th at a 3 star hotel in the heart of the city.|offer
+USR|this is the only package at all from toronto to vitoria?|confirm
+SYS|Yes but it offers free breakfast, wifi, and parking, and they have business and economy flights available.|offer
+USR|how much will it be for economy?|request
+SYS|4485.14.|suggest
+SYS|Would you like to book it?|suggest
+USR|sure|affirm
+SYS|Your wish is my command.|inform
+SYS|You will get email confirmation shortly, have a great day and enjoy the trip!|inform
+USR|:+1: great
+thanks|thankyou

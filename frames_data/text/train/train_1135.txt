@@ -1,0 +1,14 @@
+USR|Hey there!!|inform
+USR|Hope I’m in the right place for family travel :wink: I have 7 kids
+And a wife and 3 mistresses|inform
+SYS|Okay, and you're all going on a trip together?|request
+SYS|Where would you like to go?|request
+USR|We all want to go to Santos|inform
+SYS|From?|request
+USR|Tofino|inform
+SYS|Is there a budget?|request
+USR|2100 dollars ok|inform
+SYS|There is nothing within your budget for this many people.|no_result
+USR|ummmmm.|inform
+USR|3100?|inform
+SYS|Still nothing.|no_result

@@ -1,0 +1,24 @@
+USR|yo|greeting
+SYS|Hi!|greeting
+SYS|What can I do for you?|greeting
+USR|i would like to send my parents away between sept 12 and oct 1 for 1900|inform
+SYS|From where shall they depart?|request
+USR|curitiba|inform
+SYS|I can book 19 days for 2 adults in New York for 6200 dollars.|offer
+SYS|How does that sound?|offer
+USR|i dont have that kind of money|negate
+SYS|How much are you looking to spend?|request
+USR|1900!|inform
+USR|I told you this|inform
+SYS|Zion Hotel is available for 13 days in Belem.|offer
+USR|for how much|request
+SYS|1511.11 USD|inform
+USR|that works.|inform
+USR|ill send them there.|inform
+USR|I just need them gone so i can go to my competition.|inform
+SYS|Ok, great!|hearmore
+SYS|Do you want to know more about the trip?|hearmore
+USR|yeah sure why not|moreinfo
+SYS|The 4.5 star hotel is on the beach, has free parking, breakfast, and wifi, and the travel dates extend from September 14 until the 26th|inform
+USR|cool, ya book it.|inform
+USR|Thanks|inform

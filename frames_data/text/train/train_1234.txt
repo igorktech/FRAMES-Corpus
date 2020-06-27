@@ -1,0 +1,13 @@
+USR|I need 2 get 2 Madrid from Beijing!|inform
+USR|Family emergency.|inform
+USR|Need to leave on the 6th|inform
+SYS|Madrid to Beijing?|request
+SYS|For how many?|request
+USR|just me.|inform
+USR|ive got 3300|inform
+SYS|Beijing to Madrid?|confirm
+USR|yea hurry|affirm
+SYS|I cannot help you get to Madrid from Beijing|no_result
+USR|i can leave from jerusalem too|inform
+SYS|I cannot help you get to Madrid from Jerusalem either|no_result
+USR|Well then i’m screwed|null

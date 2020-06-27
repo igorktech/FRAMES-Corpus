@@ -1,0 +1,6 @@
+USR|Please help!|inform
+USR|My lovely parents have been married fof 20 years and they've never taken a trip together.|inform
+USR|I'm thinking of getting them out of town Sept 6 to 9
+you got anything good for 2 adults leaving sao paulo, for under 2400?|inform
+SYS|Leaving Sao Paulo?|inform
+SYS|It seems like we have no flights out of Sao Paulo.|inform

@@ -1,0 +1,21 @@
+USR|I would like to go to somewhere, dont know where tho.|inform
+USR|I would need to leave from SL and i have 10 days vacation|inform
+SYS|I will help you find some options out of St. Louis.|request
+SYS|May I have your desired date of departure?|request
+USR|I dont have a date|inform
+SYS|How about a budget for this trip?|request
+USR|$0.00|inform
+SYS|I am unable to provide any packages for $0.00 dollars|no_result
+USR|ughhhhhhhhhhh i guess i can go up to $400.00 but that's as high as im willing to go.|inform
+SYS|I have nothing out of St. Louis that meets your budget.|no_result
+USR|well how about rome then|inform
+SYS|Leaving from Rome?|confirm
+USR|yeah|affirm
+SYS|You are in luck as we have a few options out of Rome within your budget.|offer
+SYS|If you wanted to travel to Munich, Germany, I have a 5 day package at a 5 star hotel for the low price of 381.49USD.|offer
+USR|I like that.|inform
+USR|ill take it|inform
+SYS|The hotel's name is Jade Harbor , departure on Sept 20th and return on Sept 24th.|inform
+SYS|I will proceed with booking .|inform
+SYS|Thank you and have an awesome day.|inform
+USR|thank ya|thankyou

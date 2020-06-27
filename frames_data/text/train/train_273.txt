@@ -1,0 +1,16 @@
+USR|Please check if there is a flight to Naples from Fort Lauderdale leaving August 31|inform
+SYS|Would August 30th be ok?|suggest
+SYS|It is the closest available date I have available right now.|suggest
+USR|No to August 30th but what about August 27?|inform
+SYS|Would August 24th be ok?|suggest
+SYS|It is the closest available data I have available right now.|suggest
+USR|No that won't work for me.|inform
+USR|Can you please check Fort Lauderdale to Punta Cana leaving on August 31|inform
+SYS|I can book you 5 days in Naples if you leave from Fort Lauderdale on August 31st.|offer
+USR|Oh good, how much would that cost|request
+SYS|2449.21USD at a 3.0 star hotel.|inform
+USR|Do you have a five star hotel available?|inform
+SYS|I have a 4 star available for 3158.9USD|offer
+USR|Done.|inform
+USR|Book it.|inform
+SYS|IT is booked!|inform

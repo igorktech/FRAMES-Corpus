@@ -1,0 +1,25 @@
+USR|I need a break BADLY.|inform
+USR|Can I please book a trip to Sao Paulo where hopefully no one will know me?|inform
+SYS|Sure.|request
+SYS|Where would you need to leave from?|request
+USR|Denver|inform
+SYS|Will you be travelling alone?|suggest
+USR|Nooooo....but who I'm going with is a secret.|negate
+SYS|Will there be 2 adults totally?|confirm
+USR|Yes two of us.|inform
+USR|Just so you know, I should be back by Sept 15|inform
+SYS|Okay.|request
+SYS|Do you have a budget or date you would like to leave on?|request
+USR|Money is no object...and the sooner the better|inform
+SYS|Unfortunately there are no results.|sorry
+USR|Can you get us to Punta Cana then?|inform
+SYS|No sorry.|sorry
+USR|Fine.|inform
+USR|We will leave from Pittsburgh then.|inform
+USR|Find us something.|inform
+USR|PLEASE!|inform
+SYS|There are still no results for this.|sorry
+SYS|I am sorry I am not more of a help!|sorry
+USR|You suck!|null
+SYS|Please accept my apologies!|sorry
+USR|GOODBYE|goodbye

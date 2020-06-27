@@ -1,0 +1,34 @@
+USR|Hellllo !|inform
+USR|I am taking a trip with my neighbour and her children|inform
+SYS|Hello!|greeting
+SYS|How can I help you?|greeting
+USR|We are going to see if we can find a cheap packages somewhere under 12400 dollars.|inform
+USR|There will be 3 adults and 7 children travelling and for now we just want to see what is available out of Montreal
+Between September 6 and 24|inform
+SYS|Our cheapest package is a trip to Punta Cana from September 7th to 20th.|offer
+SYS|This is a 2.5 star hotel near the beach.|offer
+SYS|The hotel has a 0/10 guest rating.|offer
+SYS|This economy flight costs 7090.70.|offer
+USR|Fabulous, that is all 10 of us?|confirm
+USR|Not too pricey at all!|confirm
+SYS|Yes that is everyone.|affirm
+USR|And are there any other places beneath our budget?|request_alts
+SYS|There are packages to Kingston, Sendai, Sao Paulo, Minneapolis, and Kobe.|offer
+USR|Wow, sweet!|moreinfo
+USR|What would the hotel be like in Minneapolis/|moreinfo
+SYS|This is a 2.5 star hotel, near a university, free parking, breakfast, wifi, and has a 7.15/10 guest rating.|inform
+SYS|The business flight is 12081.44 and is from September 8th to 23rd.|inform
+USR|That’s a nice 3.9 guest rating at least!|moreinfo
+USR|How about Sao Paulo?|moreinfo
+SYS|It's a 3 star hotel near a cathedral and theatre.|inform
+SYS|The hotel has a 5.14/10 guest rating and offers free breakfast, wifi, and parking.|inform
+SYS|This package is an economy package and is from September 7th to 20th.|inform
+SYS|The price is 12052.95.|inform
+USR|Not bad not bad.|switch_frame
+USR|And in Kobe?|switch_frame
+SYS|This is a 3 star hotel, close to a market and palace, 0/10 guest rating, free wifi, September 6th to 21st, economy class seating, cost is 11168.17.|inform
+USR|Ok, well, lets go ahead and book Kobe|inform
+SYS|Great!|goodbye
+SYS|Your flight to Kobe is booked!|goodbye
+SYS|Have a great day!|goodbye
+USR|Thank you|thankyou

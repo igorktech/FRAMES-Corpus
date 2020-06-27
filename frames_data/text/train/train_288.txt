@@ -1,0 +1,22 @@
+USR|Hello there, I'm looking for a break from the routine.|inform
+USR|I live in Recife and I'm thinking of going to Calgary|inform
+SYS|Do you have a budget?|request
+USR|3400.|inform
+USR|can you get me something for 9 days under that budget?|inform
+SYS|Are you looking for a particular rating for your hotel?|request
+USR|Find me the worst possible hotel.|inform
+USR|I'm not kidding - I am desperate for inspiration for my novel|inform
+SYS|We have a 2 star hotel.|offer
+SYS|The costs are 2606.41, 3071.45, and 3369.64.|offer
+SYS|The first is economy class, and is from September 1st to 9th.|offer
+SYS|The second is economy class, and from September 2nd to 11th.|offer
+SYS|The third is business, and from September 1st to 9th.|offer
+USR|Thank you.|switch_frame
+USR|Give me the first option, thank you|switch_frame
+SYS|This is 2606.41 and the hotel includes free parking, breakfast, and wifi.|suggest
+SYS|This hotel is also close to the airport and a park.|suggest
+SYS|Would you like to book this package?|suggest
+USR|Yes please|affirm
+SYS|Wonderful!|inform
+SYS|Your package is booked!|inform
+SYS|Have a great day and come again!|inform

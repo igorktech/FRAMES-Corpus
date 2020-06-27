@@ -1,0 +1,7 @@
+USR|I would like to go to Monterrey from Stuttgart|inform
+SYS|You cannot do this.|no_result
+USR|Well how about if i go to Dublin for 2300 with 11 adults|inform
+SYS|For 11 adults the cost would be 24294.45USD.|offer
+USR|too much.|inform
+USR|How about marseille for 2000 with 7 adults|inform
+SYS|I cannot accommodate this request.|no_result

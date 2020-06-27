@@ -1,0 +1,14 @@
+USR|I’m trying to get from Milan to a bunch of different possible internship spots.|inform
+USR|It needs to be both between Aug 31 and Sept 3|inform
+SYS|I can help you narrow down your choices.|request
+SYS|Do you have a strict budget?|request
+USR|Yes thanks for reminding me, its 2600|inform
+SYS|No problem.|suggest
+SYS|Budget isn't the biggest problem here.|suggest
+SYS|I just did a quick search and we have no more flights out of Milan in your selected dates.|suggest
+SYS|Are your departure city and travel dates flexible?|suggest
+USR|My departure city isn't.|inform
+USR|Do you have flights from Milan to other destinations?|inform
+SYS|I'm afraid not.|sorry
+SYS|Nothing departing from Milan within your dates.|sorry
+USR|Ok, thanks anyway!|thankyou

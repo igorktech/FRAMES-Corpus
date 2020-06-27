@@ -1,0 +1,12 @@
+USR|Hi|greeting
+SYS|What can I do for you?|greeting
+USR|I need to leave Beijing, I’d like to go to Munich with 10 adults and 3300 between us|inform
+SYS|We do not fly from Beijing to Munich|no_result
+USR|How bout Kabul to Munich?|inform
+SYS|We have no flights out of Kabul either|no_result
+USR|Any flights to New York for 2300 and 4 adults?|inform
+SYS|To New York out of what city?|request
+USR|Kabul|inform
+SYS|We do not fly anywhere out of Kabul|no_result
+USR|Ok then leave from Beijing|inform
+SYS|I regret to inform you that Beijing - New York is also unavailable|no_result

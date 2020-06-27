@@ -1,0 +1,31 @@
+USR|Hey man.|inform
+USR|Sick of having my picture taken.|inform
+USR|Need somewhere quiet and away from everyone.|inform
+USR|Tijuana is probably a town no one wants to go to.|inform
+USR|Can you get me a ticket there?|inform
+SYS|Sure!|request
+SYS|Leaving from where?|request
+USR|London, England.|inform
+USR|Way too much paparazzi here.|inform
+USR|It's like a wolf den.|inform
+SYS|I have 11 days at a 2.5 hotel near a park for 1290.36USD in Tijuana, Mexico.|offer
+SYS|This package departs from London, Canada.|offer
+USR|Is it a 5 star?|request
+USR|I'm travelling with my diva friend and she won't settle for anything but the absolute best.|request
+USR|Find us a spa or something.|request
+SYS|As I said, this hotel is 2.5 stars.|offer
+SYS|There is also the Resort Jade Covert available with a 3.0 star rating.|offer
+USR|5 stars only for my girlfriend and I.|inform
+SYS|There are no 5 star hotels in Tijuana that I can find for you.|no_result
+USR|Burlington then.|inform
+USR|5 stars only.|inform
+SYS|Once again I have only 2.5-3 star hotels.|suggest
+USR|That just won't do.|inform
+USR|What if I leave from Denver instead?|inform
+USR|Anything better in Tijuana?|inform
+SYS|Still just 2.5 or 3 star hotels, sadly.|sorry
+USR|In Burlington?|inform
+SYS|Below 3 stars.|inform
+USR|You know, I'm just gonna have my assistant take care of this, she'll get me a beautiful retreat with a spa and guards to keep the paparazzi away.|goodbye
+USR|Good riddance, whatever the hell your name is!|goodbye
+SYS|Goodbye!|goodbye

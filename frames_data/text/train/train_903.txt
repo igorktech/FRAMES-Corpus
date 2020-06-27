@@ -1,0 +1,36 @@
+USR|we have a big group to book for!|inform
+SYS|Okay!|request
+SYS|How big?|request
+USR|4 adults 7 kids.|inform
+USR|leaving from washington.|inform
+USR|can you just give me some options that cost less than 30300|inform
+SYS|When would you like to leave?|request
+USR|After September 12|inform
+SYS|We have a package to Indianapolis, St. Louis, Dublin, San Antonio, and Hamburg.|offer
+USR|Indianapolis?|request
+USR|anything on the beach there|request
+SYS|Yes!|inform
+SYS|The hotel is on the beach and close to shopping hot spots.|inform
+USR|Does it come with free parking?|request
+USR|Could look into renting a car|request
+SYS|Yes, free parking, breakfast, and wifi are all included.|inform
+USR|What is the rating for this hotel?|request
+SYS|2.5 stars and 6.37/10 guest rating.|inform
+USR|Could we afford anything better there?|inform
+SYS|You can afford a 3 star hotel near the beach, airport, park, and university.|offer
+SYS|This hotel also has a 7.15/10 guest rating and offers free parking, breakfast, and wifi.|offer
+USR|Whats the best thing you can get me in SL?|switch_frame
+SYS|The best package to St. Louis is a 3.5 star hotel, 9.16/10 guest rating, free parking, breakfast and wifi, near the airport and theatre, from September 16th to 29th, 15910.39 for business flights, 12853.36 for economy flights.|offer
+USR|Can you check whats in Dublin?|switch_frame
+SYS|We don't have any hotels above 2.5 stars.|negate
+USR|What about in San Antonio?|switch_frame
+SYS|There are only 2 star hotels in San Antonio.|offer
+USR|Hamburg then??|switch_frame
+SYS|Our best package here is a 4.5 star hotel near the airport, 9.16/10 guest rating, free parking and wifi, from September 13th to 30th, 24501.33 for business flights, 19293.70 for economy flights.|offer
+USR|Yes I’d like to confirm|inform
+SYS|Business or economy flight?|suggest
+USR|business would do|switch_frame
+SYS|Great!|inform
+SYS|You will get a confirmation email soon which will include details about the trip.|inform
+SYS|Have a great day!|inform
+USR|Thanks!|thankyou

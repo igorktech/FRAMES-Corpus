@@ -1,0 +1,12 @@
+USR|hi i want to go to toluca from burlington ok|inform
+SYS|Do you have a budget?|request
+USR|yes 2600|inform
+SYS|When would you like to leave for your endeavour?|request
+USR|September sixth.|inform
+USR|But dates are flexible|inform
+SYS|Sorry, my results tell me that there are no availabilities to Toluca.|sorry
+USR|what about for 2900|inform
+SYS|The budget is fine, it's just the destination that is unavailable.|suggest
+SYS|Is there another place you could go?|suggest
+USR|oh.|negate
+USR|No|negate

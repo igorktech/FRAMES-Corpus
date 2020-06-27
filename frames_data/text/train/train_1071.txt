@@ -1,0 +1,18 @@
+USR|yo im taking 6 kids and 4 adults on a trip yo|inform
+SYS|Sounds cool!|request
+SYS|Where are you going and where are you coming from?|request
+USR|gonna go to Leon from Boston|inform
+SYS|When would you like to go?|request
+SYS|And do you have a budget?|request
+USR|18100|inform
+SYS|We have a package that is perfect for you!|offer
+SYS|It is an 11 day stay at a fantastic 5.0 star hotel, rated 9.16/10 by guests, next to a market.|offer
+USR|sounds dope.|request_alts
+USR|Is there another hotel yo?|request_alts
+SYS|That is the only one that works with you budget.|no_result
+USR|ok, ill take it yo|inform
+SYS|Great!|inform
+SYS|It will be 17296.23.|inform
+SYS|I will confirm this reservation for you!|inform
+USR|Yo!|thankyou
+USR|thanks dude!|thankyou

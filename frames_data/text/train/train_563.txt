@@ -1,0 +1,17 @@
+USR|Hello!|inform
+USR|I've been put in charge of booking a little work retreat As a reward for our recent success!|inform
+SYS|Hello sir/madam.|greeting
+SYS|How may I help you?|greeting
+USR|I just wanna go from Tel Aviv to Jerusalem August 25 to 28 Whatcha got|request
+SYS|Nothing I'm afraid.|sorry
+SYS|However, I can check other destinations for you.|sorry
+USR|Ok check Mannheim|inform
+SYS|Tel Aviv to Mannheim?|request
+SYS|For how many?|request
+USR|For 13|inform
+SYS|I have nothing available.|goodbye
+SYS|have a nice day.|goodbye
+USR|You think you're done with me or something???|inform
+USR|I want to go on a trip
+And I want to leave from Tel Aviv|inform
+SYS|I apologize, I have nothing available from Tel Aviv to Mannheim|no_result

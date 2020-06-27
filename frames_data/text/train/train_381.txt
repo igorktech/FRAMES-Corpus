@@ -1,0 +1,19 @@
+USR|1 adult, 5 kids, Seattle to Athens for 16700, what are the options?|inform
+SYS|For your budget you can spend 16 days at the Lunar Jewel Lodge at a cost of 13293.8USD|suggest
+USR|Anything shorter?|request_alts
+SYS|You can go from August 25-September 5, a total of 13 days, for 16364.56USD.|suggest
+USR|anything around a week?|request_alts
+SYS|Sorry, I only have longer duration trips available.|sorry
+USR|ok, what is the shortest one then?|request
+SYS|13 days|inform
+USR|details for that one please|moreinfo
+SYS|You can stay at the 3 star Lunar Jewel Lodge, located near a mall, with free wifi and free parking from August 25-September 5 for a total of 16364.56USD|inform
+USR|no breakfast?|request
+SYS|No :disappointed:|inform
+USR|and those are your only options?|request_alts
+USR|13 or 16 days at same place?|request_alts
+SYS|Yes, sorry but I have only one hotel available.|sorry
+USR|alright, ill book for 13 days, not ideal but i dont have much time to research it|inform
+SYS|Ok!|inform
+SYS|Consider it booked|inform
+USR|thank you|thankyou

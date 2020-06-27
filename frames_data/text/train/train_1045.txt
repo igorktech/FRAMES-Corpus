@@ -1,0 +1,34 @@
+USR|I would like to find a hotel near a park, ideally.|inform
+USR|I only have 4500 between me and my assistant.|inform
+USR|We were thinking about looking for trips to Manaus first, we can leave from anywhere.|inform
+SYS|I can help you find something.|request
+SYS|When would you like to go?|request
+USR|somewhere between september 8th and 20th.|inform
+SYS|The hotel that works best for you would be a 3.0 star hotel near the park, museum, and palace.|offer
+SYS|It boasts a guest rating of 8.49/10 and offers free parking, free breakfast, and free wifi.|offer
+USR|When is this?|switch_frame
+SYS|The longest package leaves from Punta Cana from September 8 to 20.|inform
+USR|Thats perfect!|request
+USR|How much is this?|request
+SYS|It is 3034.61, and I can offer an upgrade to business class for a total of 3813.58.|suggest
+USR|Not bad.|inform
+USR|Do you have anything to San Juan?|inform
+SYS|We do, but our only hotel near a park is a 2.5 star hotel with 0/10 guest ratings.|hearmore
+SYS|Would you want more information on this hotel?|hearmore
+USR|No thats fine haha.|inform
+USR|Is there anything to Goiania?|inform
+SYS|We have a 3.5 star hotel with 7.15/10 guest ratings near a park and shopping.|offer
+USR|sounds really good.|request
+USR|How much is this one?|request
+SYS|For a 6 day stay with economy flights, it is a total of 3823.68.|inform
+USR|What are the dates?|request
+SYS|The trip will run from September 12-17.|inform
+USR|I think we will take the other package then and we will take the economy flights|inform
+SYS|Do you mean the package to Manaus?|confirm
+USR|Yes please|affirm
+SYS|Alright!|inform
+SYS|The two of you are booked for 3034.61.|inform
+SYS|Anything else I can do for you today?|inform
+USR|Nope!|thankyou
+USR|That's perfect!|thankyou
+USR|Thank you!|thankyou

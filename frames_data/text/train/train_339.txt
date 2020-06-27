@@ -1,0 +1,30 @@
+USR|sup|greeting
+SYS|Hello!|request
+SYS|Can I help you with any travel plans today?|request
+USR|paris|inform
+SYS|Fantastic choice!|request
+SYS|From what city will you be departing from?|request
+USR|leon|inform
+SYS|I am excited to announce that we have a travel package available for 12339 adults and 1 child, leaving Leon for Paris on August 31 and returning on September 10.|suggest
+SYS|You will all be staying at the esteemed Autumn Treasure Hotel, a 4 star hotel with close proximity to the park.|suggest
+SYS|The hotel boasts a 8.49/10 guest rating and features free wi-fi and free breakfast for all travelers.|suggest
+SYS|You would be flying economy class, and the total cost comes out to $12316262.30USD.|suggest
+SYS|Would you like to confirm this booking?|suggest
+USR|no!|negate
+USR|Stop!|negate
+SYS|I'm sorry to hear that.|sorry
+SYS|Would you like for me to search for an alternate hotel?|sorry
+USR|just search for me alone|inform
+SYS|Very well.|suggest
+SYS|I'm enthused to inform you that have a travel package leaving Leon for Paris on September 7 and returning on September 22.|suggest
+SYS|You will all be staying at the esteemed Autumn Treasure Hotel, a 4 star hotel with close proximity to the cathedral, museum, and shopping.|suggest
+SYS|The hotel boasts a 8.69/10 guest rating and features free wi-fi and free breakfast for all travelers.|suggest
+SYS|You would be flying economy class, and the total cost comes out to $853.40USD.|suggest
+SYS|Would you like to confirm this booking?|suggest
+USR|Very good.|inform
+USR|I will take this package.|inform
+USR|And by take, I obviously mean book.|inform
+USR|Can't wait to book this terrific trip.|inform
+SYS|Excellent!|inform
+SYS|The booking has been completed, and a confirmation email will be sent your way shortly.|inform
+SYS|Thank you for choosing us, we hope to see you again soon!|inform

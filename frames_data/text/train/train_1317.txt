@@ -1,0 +1,25 @@
+USR|I need to book a business trip for 4 potential large clients and I, Leaving from Philadelphia|inform
+SYS|Okay, Where would you like to go and when?|request
+USR|It doesn't matter where as long as it is big and impressive, the best of the best.|inform
+USR|After Sept 25.|inform
+SYS|The best is a 20 day stay at a 4 star hotel from September 26th to October 14th.|offer
+USR|What's the guest rating on that?|switch_frame
+SYS|8.8/10 and the hotel is in Rome.|inform
+USR|Is it close to any interesting landmarks?|request
+SYS|Shopping and a cathedral.|inform
+USR|If I make it a 5 day stay, can you find something nicer?|inform
+USR|I have unlimited budget|inform
+SYS|We have another 4 star hotel, 5 day package from the 29th of September to the 3rd of October.|offer
+SYS|The hotel has a 8.98/10 guest rating, is close to a museum, shopping, and a market, and offers free wifi.|offer
+USR|What city is this one in?|request
+SYS|San Juan.|inform
+USR|San Juan is cool.|request
+USR|Is this one available with business class flights and how much is it?|request
+SYS|Yes it is, it would be 9503.73.|offer
+USR|What about the 20 day package in Rome?|switch_frame
+SYS|18762.47 for business flights.|offer
+USR|I'll book the San Juan package in business class flights, 20 days is much too long with my clients|negate
+SYS|Great!|inform
+SYS|It is booked!|inform
+SYS|Have a great trip and good luck!|inform
+USR|Thank you|thankyou

@@ -1,0 +1,17 @@
+USR|Um get me to Kochi|inform
+SYS|Sure!|request
+SYS|From where would like to depart?|request
+USR|Berlin.|inform
+USR|And get me back by Sept 14|inform
+SYS|Ok!|suggest
+SYS|Are you travelling alone?|suggest
+USR|no im bringing my boo, so there'll be two of us|inform
+SYS|Ok!|request
+SYS|Are you travelling with a budget?|request
+USR|no, no budget|inform
+SYS|Great :slightly_smiling_face: I have a 10 day trip to Kochi at a 3.5 star hotel for 4050 dollars.|hearmore
+SYS|How does that sound?|hearmore
+USR|get us a better hotel|inform
+SYS|I’m sorry, but I have nothing higher than 3.5 stars in my search results.|sorry
+USR|ok fine how about atlanta|inform
+SYS|I have a lovely 3.5 star hotel on the beach in Atlanta with free wifi and parking!|offer

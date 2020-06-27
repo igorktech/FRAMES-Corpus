@@ -1,0 +1,46 @@
+USR|heyyyyy there I just got approved to take my 10 vacation days in the upcoming weeks :smile: im looking to leaving from indianapolis, but I just wanna explore my options for now.|greeting
+USR|so can you let me know what’s available under 1900?|greeting
+SYS|You have trips to Santodomingo, Curitiba, Cairo, San Jose, and Vancouver|offer
+USR|wow!|moreinfo
+USR|tell me more - what’s the hotel like in curitiba?|moreinfo
+SYS|3 star hotel|inform
+USR|With what amenities?|request
+USR|what is it close to?|request
+SYS|Close to park, heart, includes free wifi, free breakfast, free parking|inform
+USR|how much is the price?|request
+USR|how long is the trip duration?|request
+SYS|Heart of the city, 12451.67USD for 19 days in business class or 9624.57USD for 19 days in economy class|inform
+USR|jeeeez that’s not under 1900 dollars!|inform
+USR|my budget is 1900.00 USD|inform
+SYS|How many people are you?|request
+USR|just me|inform
+SYS|Sorry I dont have anything in that price range.|sorry
+USR|nothing at all from indianapolis.. to anywhere?|inform
+SYS|Oh yes, sorry I have trips to Santo Domingo, Cairo, San Jose, Vancouver, Cancun and St. Louis|sorry
+USR|oh ok!|switch_frame
+USR|hmm can I hear about the hotel in San Jose?|switch_frame
+SYS|2.5 star hotel near park and museum, 1627.71 for 17 days.|inform
+SYS|User review of 9.16 on 10|inform
+USR|neat!|request
+USR|whats the hotel called?|request
+SYS|Snowy Nugget Inn|inform
+USR|what would be the hotel in santo domingo?|moreinfo
+USR|what would it be like?|moreinfo
+SYS|The Rose Sierra Hotel, 3 star at 1849.63USD for 19 days|inform
+USR|cool!|request
+USR|what’s included in the package?|request
+USR|is it on the beach?|request
+SYS|Yes, its near the beach, includes free wifi, free breakfast, free parking|inform
+USR|ok, i like that.|request
+USR|what’s the user review?|request
+SYS|7.06|inform
+USR|ok.|switch_frame
+USR|and just one more thing - how does cairo’s hotel look?|switch_frame
+SYS|3 star hotel near university at 1313.41USD|inform
+USR|how long would it be?|request
+SYS|18 days|inform
+USR|ok.|thankyou
+USR|thanks well, lets go ahead and book santo domingo.|thankyou
+USR|i wanna stay on the beach|thankyou
+SYS|ok, you're booked|null
+USR|thank you :slightly_smiling_face:|thankyou

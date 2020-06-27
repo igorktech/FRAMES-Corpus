@@ -1,0 +1,17 @@
+USR|hello................|greeting
+SYS|Hi|greeting
+USR|dont care when i leave........... be back sept 9.............waht can i have...|request
+SYS|Where are you leaving from?|request
+USR|queenstown..|inform
+SYS|We have trips to Vitoria, Goiania and Minneapolis|offer
+USR|no.|inform
+USR|whats available in philadelphia|inform
+SYS|11 days and 5 days trips|offer
+USR|what dates?|request_compare
+SYS|August 30 to September 2nd , as well as September 12 to September 15|suggest
+USR|ok, well, clearly u didnt listen to the date i said i had to be back by....so... where can i stay in chicago|inform
+SYS|2 star and 2.5 stars hotel near airport or museum|offer
+USR|gross.|request
+USR|not interested how many stars would the hotel in philadelphia from august 30 to september 2 be.............|request
+SYS|2 stars hotels|inform
+USR|I am not interested|negate

@@ -1,0 +1,6 @@
+USR|1 ticket from San Francisco to Vitoria please!|inform
+SYS|Sure!|request
+SYS|Do you have dates?|request
+USR|as soon as you can!|inform
+SYS|Do you have an alternate departure point?|sorry
+SYS|Sadly we do not offer San Francisco flights directly to Vitoria|sorry

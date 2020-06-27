@@ -1,0 +1,13 @@
+USR|Hi, do you have flights out of Tel Aviv?|inform
+SYS|For one person?|request
+SYS|Any travel dates in mind?|request
+USR|Nope, I wish!|inform
+USR|I will be dragging 4 other adults with me.|inform
+USR|No set dates specifically..|inform
+SYS|It seems we have no flights out of Tel Aviv.|suggest
+SYS|Can I search other departure cities for you?|suggest
+USR|Darn it, okay I can also leave from Beijing|inform
+SYS|I'm not showing any results out of Beijing either,|no_result
+USR|That is very unfortunate.|thankyou
+USR|Thanks for your help though!|thankyou
+SYS|You are welcome|you_are_welcome

@@ -1,0 +1,16 @@
+USR|Hi, i want to go to Nagoya from Seoul with my wife and son|inform
+SYS|Oceanside Resort for 1630.5USD.|offer
+SYS|You will stay 9 days|offer
+USR|is that the only package?|request_alts
+SYS|You can stay for 7 days instead for  1630.5USD|offer
+USR|okay.|inform
+USR|Can i hear what you have for Guadalajara?|inform
+SYS|Excursion Inn for 15 days at a cost of 5100 dollars|offer
+USR|nope cant afford that one.|inform
+USR|actually do you have any packages to nagoya for 1300|inform
+SYS|No|no_result
+USR|any for Guadala|inform
+SYS|No|no_result
+USR|bye.|thankyou
+USR|thanks anyway|thankyou
+SYS|Goodbye|goodbye

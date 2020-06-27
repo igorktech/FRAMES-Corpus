@@ -1,0 +1,29 @@
+USR|I NEED TO GET TO ROME FROM LEON|inform
+SYS|Sure!|request
+SYS|When?|request
+USR|ON OR AFTER THE 6TH|inform
+SYS|I can offer a 12 day package at an unrated hotel, leaving on the sixth, for a cost of 554.62 USD|offer
+USR|OH.|request_alts
+USR|ARE THERE ANY OTHER AVAILABLE HOTELS?|request_alts
+SYS|Yes!|offer
+SYS|The Double Pastures is also available for 12 days; it has a 4 star rating and 8.98/10 guest rating.|offer
+USR|GOOD.|request_alts
+USR|ANY OTHERS?|request_alts
+SYS|11 days at Hotel Grand Residence would cost 847 dollars.|offer
+SYS|This hotel is 4 stars and has free breakfast and wifi.|offer
+USR|DOES THE DOUBLE PASTURES HAVE FREE BREAKFAST AND WIFI?|request
+SYS|Yes, it does!|affirm
+USR|GOOD GOOD.|request_alts
+USR|ARE THERE ANY OTHER HOTELS?|request_alts
+USR|I NEED TO KNOW WHERE MADONNA AND HER FRIEND ARE STAYING|request_alts
+SYS|Hotel Emerald Legacy is 4 stars with a 8.22/10 user rating.|offer
+USR|ARE THERE ANY 5 STAR HOTELS?|inform
+SYS|No.|no_result
+USR|DANG NABBIT!|request
+USR|FINE I GUESS I'LL GO WITH THE 4 STAR AT THE DOUBLE PASTURES.|request
+USR|HOW MUCH IS IT?|request
+SYS|12 days would cost 867.69USD for economy class flights.|inform
+USR|ILL BOOK IT|inform
+SYS|Sure thing!|inform
+SYS|A confirmation email will be sent to your shortly.|inform
+USR|THANK YOU!|thankyou

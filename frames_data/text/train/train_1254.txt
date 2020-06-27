@@ -1,0 +1,8 @@
+USR|I want a vacation from Sydney to Washington|inform
+SYS|You are now on with an agent|greeting
+USR|Yeah I have 2200|inform
+SYS|We do not have travel packages from Sydney to Washington|no_result
+USR|How about Sydney to Houston then?|inform
+SYS|I am sorry but neither'|sorry
+USR|I can increase my budget by 400|inform
+SYS|Even if you increase your budget, there are simply no flights available|no_result

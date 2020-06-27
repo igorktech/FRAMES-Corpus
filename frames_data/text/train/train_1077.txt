@@ -1,0 +1,8 @@
+USR|tofino from Santo domingo stat|inform
+SYS|Ho many?|request
+USR|oh ok, just me|inform
+SYS|I have nothing to tofino from Santo Domingo|no_result
+USR|How bout to London?|inform
+SYS|I have nothing to London from Santo domingo|no_result
+USR|How bout to Santa Cruz|inform
+SYS|Nothing from Santo Domingo to Santa Cruz|no_result

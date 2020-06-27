@@ -1,0 +1,19 @@
+USR|I need to get to Burlington from Ulsan for 5800|inform
+SYS|Is the 19th-28th of September ok?|suggest
+USR|Yes i can be there anytime between the 12 of sept and 2nd of oct.|inform
+SYS|Great!|offer
+SYS|For the dates I provided, I have an 11 day stay at the 5 star Escape Cave.|offer
+SYS|This luxurious hotel is near shopping districts and malls, as well as urban green spaces.|offer
+SYS|Free parking is included should you need it and all guests have unlimited access to the hotel’s wireless internet.|offer
+SYS|The guest rating is 8.8/10.|offer
+USR|I want that.|request
+USR|When is this trip and what is the price?|request
+SYS|The trips departs for Burlington on September 19th and returns to Ulsan on the 28th.|inform
+SYS|For an economy class ticket, the price is $2691.|inform
+USR|What is it for business class?|request
+SYS|3477.8USD|offer
+USR|I’ll take business|switch_frame
+SYS|Great!|inform
+SYS|I will send along a confirmation email straight away.|inform
+SYS|Enjoy your stay :slightly_smiling_face:|inform
+USR|Thanks|thankyou

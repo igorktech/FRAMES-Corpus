@@ -1,0 +1,22 @@
+USR|Hey i think i want to go to KYOTO|inform
+SYS|Where will you be leaving from?|request
+USR|St. Louis!|inform
+SYS|Do you have a budget in mind?|request
+USR|no budget at the moment|inform
+SYS|How many people will you be travelling with?|request
+USR|3 friends with me|inform
+SYS|What dates would you like to travel?|request
+USR|August 18th to the 26th preferably|inform
+SYS|I can get you to Kyoto from the 18th to 26th!|offer
+SYS|There is a 3 star hotel and a museum as well.|offer
+SYS|There is also free breakfast and wifi included.|offer
+SYS|The total cost of this trip is 7818.13.|offer
+SYS|Does this interest you?|offer
+USR|Any other hotels ?|request_alts
+SYS|Unfortunately no, there is just the one.|sorry
+USR|Is there anything available in San Jose?|inform
+SYS|There are no results that coincide with your preferred dates.|no_result
+USR|then i guess lets book the one to kyoto|inform
+SYS|Great!|inform
+SYS|Your flights are booked!|inform
+USR|Thank you!|thankyou

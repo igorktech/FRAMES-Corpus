@@ -1,0 +1,21 @@
+USR|I need to get to Porto and leave Santo Domingo|inform
+SYS|Do you have a budget?|request
+USR|:unamused: no|inform
+SYS|How many people are travelling?|request
+USR|2 adults|inform
+SYS|When would you like to leave and/or return?|request
+USR|I can leave whatever but return by september 19|inform
+SYS|We have a 4 star hotel on the beach, near a park, shopping, and a mall.|offer
+SYS|The hotel has a 10/10 guest rating and offers free breakfast and wifi.|offer
+SYS|This package is a business class flight and is from September 8th to 17th.|offer
+SYS|The cost of this package is 5933.81.|offer
+USR|do you haev a 5 star in santo domingo tho|inform
+SYS|No, the 4 star is the highest rating available.|inform
+USR|I mean in Punta Cana do you have 5 stars|inform
+SYS|No we only have 0 and 2.5 star hotels in Punta Cana.|suggest
+USR|Porto then|switch_frame
+SYS|Would you like me to book this package to Porto?|suggest
+USR|yes|affirm
+SYS|Lovely!|inform
+SYS|This package is booked for you!|inform
+SYS|You will receive a confirmation email soon!|inform

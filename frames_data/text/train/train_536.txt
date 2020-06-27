@@ -1,0 +1,12 @@
+USR|hello.|inform
+USR|im getting married september 2 in Kobe and need to book a honeymoon after that
+looking at going to Kingston for a week
+5000 dollars max please|inform
+SYS|I have a 5 days trip at 4 star hotel|offer
+USR|tell me more|moreinfo
+SYS|Ebony Manor Inn & Suites , 5 days @ 4301.0USD|inform
+USR|whats it like|request
+SYS|free parking, free breakfast, free wifi, near museum|inform
+USR|and is the price for business flights|request
+SYS|business flight|inform
+USR|wonderful thanks, I’ll get back to you|thankyou

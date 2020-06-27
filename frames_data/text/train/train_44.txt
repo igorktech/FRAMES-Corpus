@@ -1,0 +1,39 @@
+USR|I want to book a trip to Valencia!|inform
+SYS|From what city would you like to depart from?|request
+USR|I think i will be leaving from lima!|inform
+SYS|I have a couple of packages available.|inform
+SYS|They are both 9 day packages in a 4-star or a 5-star hotel?|inform
+SYS|Which would you prefer?|inform
+USR|I want to have the time of my life, the more expensive, the better|inform
+SYS|Since you want to have the time of your life, is it okay if we place you in business class?|confirm
+SYS|I have The Gold available, which is a 5-star property, from August 27th to September 3rd.|confirm
+SYS|Do those dates suit your schedule.|confirm
+USR|Business it will be!|request
+USR|those dates seem to fit in, I have to be back by september 11th!|request
+USR|how much would  trip like that come out to?|request
+SYS|The total price is $4851.24USD.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|not yet, i was wondering what other options would i have in Punto cana.|inform
+SYS|The packages we have available in Punta Cana are 4 days and in Mexico City we have 8 days packages available.|suggest
+SYS|Which would you prefer?|suggest
+USR|id rather the longer stay!|switch_frame
+SYS|would you prefer to depart on August 17th, August 24th or August 27th?|suggest
+SYS|I can then narrow down your choices for you.|suggest
+USR|id rather depart on the 27th of August!|switch_frame
+SYS|for the 27th of August, I have the Hotel Tropic available.|offer
+SYS|The price on economy class is 1637.67USD and on business class is 2044.90USD.|offer
+SYS|Which one would you like me to book?|offer
+USR|what rating does this have|request
+SYS|It has a 3-star rating and included free breakfast and free wifi.|inform
+USR|honestly this seems like  a semi memorable place, i think valencia would be my best bet|switch_frame
+SYS|So back to the The Gold, which was the 5-star property in Valencia.|suggest
+SYS|It was available from August 27th to September 3rd.|suggest
+SYS|The total cost for that package, flying business class was $4851.24USD.|suggest
+SYS|Should I go ahead and book that one then?|suggest
+USR|that seems to be just perfect!|thankyou
+USR|i can not wait!|thankyou
+USR|thank you so much im going to have the best time of my life!|thankyou
+SYS|It is a very nice package.|inform
+SYS|I am sure you will enjoy your stay in Valencia.|inform
+SYS|I will go ahead and book that for you.|inform
+USR|thank you|thankyou

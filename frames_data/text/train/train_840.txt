@@ -1,0 +1,25 @@
+USR|Do you do Burlington to Tokyo?|inform
+USR|I’m looking for September 2 to 13 specifically|inform
+SYS|I have something for you!|offer
+SYS|A 7 day stay from September 2-7 at a 3 star hotel.|offer
+SYS|Does this work for you?|offer
+USR|What is the guest rating for this hotel?|request
+SYS|Guests have rated it 6.77/10 on average.|inform
+USR|I’m not sure that I’m convinced What do you have in Vancouver?|inform
+SYS|We do have much better options in Vancouver.|offer
+SYS|How does a 4 star hotel with 10/10 guest rating sound?|offer
+USR|That sounds much better indeed.|request
+USR|What dates can I book this for?|request
+SYS|It's a 11 day package from September 3-13.|inform
+USR|Thats awesome!|inform
+USR|Lets book it economy class|inform
+SYS|Just for yourself?|suggest
+USR|just me!|affirm
+SYS|Perfect.|suggest
+SYS|It will be 881.87 for the 11 day economy package.|suggest
+SYS|I will book it for you?|suggest
+USR|Yess thats very reasonable!|switch_frame
+SYS|Great!|inform
+SYS|You are headed to Vancouver!|inform
+SYS|Pack your bags :slightly_smiling_face:|inform
+USR|Thanks!!|thankyou

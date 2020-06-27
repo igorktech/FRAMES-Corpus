@@ -1,0 +1,33 @@
+USR|Hello!|inform
+USR|I'm looking to take my family on vacation soon, and wanted to get a sense of prices|inform
+SYS|Absolutely!|request
+SYS|When would you like to go?|request
+SYS|And where are you located?|request
+USR|We live in Punta Cana, looking to travel between August 25 and September 5.|inform
+USR|Can you tell me how much it would cost to go to Pittsburgh?|inform
+SYS|Ok!|request
+SYS|Sure!|request
+SYS|How many of you would be travelling?|request
+USR|Two adults and two children|inform
+SYS|Would you be interested in travelling from August 27-September 2?|offer
+USR|Potentially, if that's all you have.|request
+USR|Can you let me know how much that costs?|request
+SYS|That would cost $3961.65 for your entire family.|inform
+USR|Yikes, that is over our budget of $2300.|inform
+USR|Can you see how much a trip to Indianapolis would cost?|inform
+SYS|I can book Aug 30-Sep 7 for  2031.51USD|offer
+USR|Could you find something that fits within August 25 to September 5?|inform
+SYS|Not in Indianapolis, I’m sorry :disappointed:|sorry
+USR|Alright.|request
+USR|In that case, can you check prices going to Toronto?|request
+SYS|I can book August 27 until September 2nd for 1807.58USD.|offer
+USR|Excellent.|request
+USR|What kind of hotel comes with that package?|request
+SYS|The hotel is 3 stars with a user rating of 8.86 stars.|inform
+SYS|The hotel has free wifi, parking, and breakfast.|inform
+USR|And are the flights economy or business class?|request
+SYS|Economy|inform
+USR|How much would it cost if we upgraded to business class?|inform
+SYS|Sorry but I don’t have any business class options available.|sorry
+USR|Okay thanks for your help.|thankyou
+USR|I will get some feedback from the Mrs. and come back to you with a decision soon!|thankyou

@@ -1,0 +1,32 @@
+USR|Hey, I need to take two of my clients for a few days on a business trip.|inform
+USR|We have to leave Aug 29|inform
+SYS|I can help with that, where are you leaving from and where do you plan on going?|request
+USR|We'll be leaving from St. Petersburg.|inform
+USR|Can you check for trips to Osaka first?|inform
+SYS|Certainly, this is for three adults?|confirm
+USR|yes|affirm
+SYS|We don't have flights leaving on August 29, but would September 2 be okay?|suggest
+USR|Can you check whether you have Aug 29 for Brasilia then?|inform
+SYS|That I do!|offer
+SYS|How does a 12 day trip to the Parallel Angel sound?|offer
+USR|Do you have a shorter option?|negate
+USR|It's only a business trip and I might not want to spend 12 days with my clients|negate
+SYS|How does 9 days sound instead?|offer
+USR|Can you also check check Athens for me?|inform
+SYS|We have an option for August 30 to September 11 in Athens.|offer
+USR|What kind of hotel is it?|request
+SYS|Its the Lunar Jewel Lodge, a 3 star hotel near the mall.|inform
+USR|and that's the only option?|request
+SYS|Yes, thats the only hotel we have in Athens|affirm
+USR|okay back to Brasilia.|inform
+USR|Do you have something closer to 5 days?|inform
+SYS|We have 7 day trips, but they all depart on September 8.|offer
+SYS|Would you prefer these instead?|offer
+USR|You know what, the 9 days leaving Aug 29 sounds better.|request
+USR|business?|request
+SYS|For 9382.7USD, I can book all of you on business class!|offer
+USR|Awesome!|inform
+USR|Please book it|inform
+SYS|Will do, and send an email confirmation your way.|inform
+SYS|Have a great trip!|inform
+USR|Thank you!|thankyou

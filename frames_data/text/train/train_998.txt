@@ -1,0 +1,4 @@
+USR|I want to leave Kabul on or after Sept 6 please|inform
+SYS|We have no flight out of Kabul|no_result
+USR|Well I will leave from Tel Aviv then|inform
+SYS|No Flights out of Tel Aviv either|no_result

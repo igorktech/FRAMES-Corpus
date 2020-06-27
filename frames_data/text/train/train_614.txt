@@ -1,0 +1,18 @@
+USR|I need to travel to Phili.|inform
+USR|on september 11, from recife|inform
+SYS|I have nothing for Sept 11 departure from Recife to Philadelphia.|suggest
+SYS|Can you travel on any other day or can I check other destinations for you?|suggest
+USR|after september 11 but before september 26 ok|inform
+SYS|How many days would you like to stay in Philadelphia?|inform
+USR|under 3400 dollars|inform
+SYS|We have a 14 day stay at the Mirror Inn for 3206.44USD.|offer
+SYS|How does that sound?|offer
+USR|what dates|request
+SYS|Departing on Sept 13th and returning on Sept 25th .|offer
+SYS|We also have an 8 day package from the 12th of September to the 18th.|offer
+USR|14 days sounds better|inform
+SYS|We can even send you on business class for a total of 3206.44USD|offer
+USR|great i like it!|inform
+USR|book it please|inform
+SYS|This trip had been reserved for you.|inform
+SYS|Please contact us should you have any further needs.|inform

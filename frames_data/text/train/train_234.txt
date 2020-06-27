@@ -1,0 +1,17 @@
+USR|Hi, I am the team manager for the Phoenix Sportsteam and I need to book the guys a short vacation, they need to relax for a few days.|inform
+USR|We are having a crappy season.|inform
+SYS|Where would you like to go and do you have a set of dates in mind?|request
+USR|No but as soon as possible.|inform
+USR|We are 25.|inform
+USR|We need to do this for under $2800.00.|inform
+SYS|I have a 7 day package to the Glorious Bazaar Resort in Kyoto for 2773.26USD.|offer
+SYS|Does this interest you?|offer
+USR|It sure does babe.|request
+USR|What's your name, anyway?|request
+SYS|Departure is Thursday August 25th at 10:37am.|inform
+SYS|You return on August 31st at 5:37 am.|inform
+USR|That sounds good, let's book that.|inform
+USR|Next time I want to speak to a real person, preferably female.|inform
+USR|Thank you.|inform
+SYS|Thank you for using our services!|thankyou
+SYS|Have a good day!|thankyou

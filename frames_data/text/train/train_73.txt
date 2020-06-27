@@ -1,0 +1,20 @@
+USR|Hi im travelling from Nagoya.|inform
+USR|i would like to go on vacation on August 26th|inform
+SYS|Hello!|request
+SYS|Do you have any destinations in mind?|request
+USR|Busan|inform
+SYS|Will you be accompanied by anyone on this trip?|request
+USR|just myself for now|inform
+SYS|One last question: Do you have a budget for this trip?|request
+USR|not at the moment|inform
+SYS|I can book you a stay at the Lethargy Hotel for 7 days, flying out on the 1st of September.|suggest
+SYS|The cost of this package would be 398.99USD.|suggest
+SYS|Do you want me to book this trip?|suggest
+USR|are there any other packages in Sacramento?|inform
+SYS|I can offer you a 12-day package in Sacramento with a departure date of September 4th.|suggest
+SYS|The total cost of this package is 3052.40USD.|suggest
+SYS|Do you want me to book this package?|suggest
+USR|sacramento is a little pricey i would like the trip to busan pflying on the 1st|switch_frame
+SYS|Done!|inform
+SYS|Your flight leaves Thursday, September 1st at 10:52 a.m. Enjoy your stay!|inform
+USR|thanks a lot!|thankyou

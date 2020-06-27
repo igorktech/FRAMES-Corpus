@@ -1,0 +1,10 @@
+USR|Guess what?|inform
+USR|I'm a recently married person looking for a honeymoon package from osaka to manaus!|inform
+SYS|Manaus sounds like an excellent choice!|inform
+SYS|Do you have a budget in mind?|inform
+USR|yeah we have 6300 dollars left over after the wedding|inform
+SYS|I'm afraid we do not have any packages to offer you at that price.|sorry
+SYS|Is there any chance you can stretch your budget?|sorry
+USR|its all we have... can it get us to burlington instead?|inform
+SYS|Not at that price, I'm afraid.|sorry
+SYS|Sorry.|sorry

@@ -1,0 +1,15 @@
+USR|Jerusalem to Belem 2 adults 4000 dollar budget.|inform
+USR|Leave on September third|inform
+SYS|There are no results.|no_result
+USR|Fine.|inform
+USR|Leaving from Sapporo|inform
+SYS|There is nothing within your budget.|no_result
+USR|Well I’ll up it to 5200.|inform
+USR|I’ll leave one person behind
+And I’ll go to Busan instead|inform
+SYS|There is a 4.5 star hotel near the beach, 8.8/10 guest rating, free breakfast, wifi, and parking.|offer
+SYS|This package is from September 8th to 14th and the cost is 4531.64.|offer
+USR|Ok, that’s fine
+Book it|inform
+SYS|Done!|goodbye
+SYS|Have a good day!|goodbye

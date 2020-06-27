@@ -1,0 +1,17 @@
+USR|GET ME A FLIGHT FROM DENVER TO MILAN.|inform
+USR|LEAVE THIS FRIDAY
+GET ME THE BEST HOTEL MONEY CAN BUY|inform
+SYS|we have four star hotels for 6 days and four star hotels for 11 days|suggest
+USR|HOW MUCH DOES IT COST FOR 11 DAYS|request
+SYS|between 2470 to 3144|suggest
+USR|AND THIS LEAVES ON FRI AUG 26 YES?|confirm
+SYS|yes|affirm
+USR|IS THERE ONLY ONE FOUR STAR HOTEL AVAILABLE OR SEVERALL|confirm
+SYS|several|affirm
+USR|WHICH ONE HAS THE HIGHEST RATING FROM CUSTOMERS|request
+SYS|9.16 rating, El Mundo Hotel.|offer
+SYS|2009.31USD for 6 days economy class ,2473.58USD for 11 days economy class, 3144.16USD for 11 days business class|offer
+USR|OK THIS ONE MUST BE IT DOES IT HAVE GOOD AMENITIES|request
+SYS|free wifi, free breakfast|inform
+USR|K BOOK ME FOR BIZ CLASS|inform
+SYS|ok|inform

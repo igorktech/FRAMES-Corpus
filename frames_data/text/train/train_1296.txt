@@ -1,0 +1,18 @@
+USR|Hey, I'd like to bring my family on a trip to Kobe.|inform
+SYS|Where are you coming from and how big is the family?|request
+USR|It would be 4 adults and 1 child.|inform
+USR|We'll be coming from Hiroshima.|inform
+SYS|Before I give you my recommendations, is there a budget you'd like me to stay under?|request
+USR|4400 is our goal budget.|inform
+USR|Can you find something good for us?|inform
+SYS|We have a fantastic 4.5 star hotel: the Ivory Legacy Hotel.|offer
+SYS|I can take your family there for 7 days in business class with your budget.|offer
+USR|Wow that sounds amazing.|request
+USR|How much would it cost us in the end?|request
+USR|For both business and economy?|request
+SYS|4130.75 for business and 3565.56 for economy.|offer
+USR|It sounds great.|switch_frame
+USR|I'll take it but I think I'd like economy please.|switch_frame
+SYS|Sure no problem!|inform
+SYS|Your trip is booked for you from Sept 23-29 :slightly_smiling_face:|inform
+USR|Perfect, thanks!|thankyou

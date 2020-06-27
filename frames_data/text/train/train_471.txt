@@ -1,0 +1,23 @@
+USR|can you get me a trip to pittsburgh, from barcelona?|inform
+USR|between sep 3 and 18|inform
+SYS|How many people are you travelling with?|request
+USR|i’m bringing my nephew, so 1 adult 1 child|inform
+SYS|we have 12 days, 8 days and 11 days stay|suggest
+USR|which one gets us the best hotel?|request_compare
+SYS|12 days at 3.5 stars hotel at 3631.49USD for ECONOMY class and 4616.12USD for BUSINESS class|offer
+USR|i want to ask about cancun too you got any trips there?|inform
+SYS|Yes for 11 or 12 days at 3 or 3.5 star hotels is what we have available|suggest
+USR|what about brasilia|inform
+SYS|3.5 stars for 7 or 10 days|suggest
+USR|how much does that trip cost if we go for 10 days?|request
+SYS|5764.32USD in business and 4525.6USD in economy class|offer
+USR|wow alright.|inform
+USR|also gotta ask about san jose
+last city i promise|inform
+SYS|I got a 4 star hotel for 11 or 9 days|offer
+USR|11|switch_frame
+SYS|6812.27USD in business class and 5306.48USD in economy class|offer
+USR|is this hotel near anything nice?|request
+SYS|near beach and museum|inform
+USR|ok fine lets do it, business class please|inform
+SYS|ok I will have it booked and send you confirmation email|inform

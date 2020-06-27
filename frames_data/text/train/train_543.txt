@@ -1,0 +1,11 @@
+USR|Burlington to Denver please|inform
+SYS|For how many?|request
+USR|1|inform
+SYS|Not available.|no_result
+USR|Burlington to Fortaleza|inform
+SYS|Not available|no_result
+USR|Burlington to Leon|inform
+SYS|Not available|no_result
+USR|Burlington to Vancouver|inform
+SYS|Not available|no_result
+USR|Ridiculous|null

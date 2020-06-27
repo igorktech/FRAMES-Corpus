@@ -1,0 +1,22 @@
+USR|hello hello|greeting
+SYS|Hello!|greeting
+SYS|How can I help you today?|greeting
+USR|my wife and i wanna bring our 10 kids to toluca.|inform
+USR|but we’re on a tight budget of 2300|inform
+SYS|Where will you be leaving from?|request
+USR|diagon alley|inform
+SYS|Do you have any specific dates you'd like for your trip?|request
+USR|not particularly|inform
+SYS|Is there a maximum number of days you'd like your trip to be?|request
+USR|no, as long as its 2300.|inform
+USR|we can go for however long we need|inform
+SYS|Unfortunately there are no results found in my database that match your requirements.|sorry
+SYS|Is there somewhere else you'd like to go?|sorry
+USR|toluca is where we all want to go...but we could leave from somewhere else i suppose|inform
+SYS|Sadly there is nothing within your budget.|sorry
+USR|anything for 3300?|inform
+SYS|Our cheapest package is 4331.20.|suggest
+USR|leaving from anywhere??|confirm
+SYS|Correct.|sorry
+SYS|There are no results less than 4300.|sorry
+SYS|Sorry for the inconvenience!|sorry

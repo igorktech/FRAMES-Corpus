@@ -1,0 +1,27 @@
+USR|I am just DYING to get to Madrid and check out this hot new food truck that serves llama meat tacos.|inform
+USR|I’m on a limited budget though.. so if you could get me there sometime in the next month or so for like 1100 bucks it would be AMAZING.|inform
+USR|Let’s try leaving from Las Vegas maybe?|inform
+SYS|Hello.|no_result
+SYS|We do not have flights from Las Vegas to Madrid.|no_result
+SYS|Can you depart from somewhere else?|no_result
+USR|Ahhh fine.. try leaving from Kyoto.|inform
+SYS|Neither|no_result
+USR|Ok well there’s a new boutique maple candy shop that just opened in Vancouver.. how much can I get there for from Las Vegas?|request
+SYS|How long do you want to go to Vancouver for?|inform
+USR|Doesn’t matter, I have an open schedule|inform
+SYS|3 or 4 star hotel?|offer
+USR|I can afford either?|request_compare
+SYS|yes|affirm
+USR|Tell me the details on each so I can make an informed decision.|moreinfo
+SYS|Okay these 2 hotels have 10 day packages.|inform
+SYS|The Western Ridge is a 4 star hotel near the park and the museum.|inform
+SYS|It has a perfect guest rating of 10/10 and would cost you  858.76USD and include your breakfast.|inform
+SYS|Parallel Carnaval Bed & Breakfast is a 3 star hotel near the park .|inform
+SYS|It has an excellent guest rating of 8.86/10 and would cost you 685.35USD and also include your breakfast.|inform
+USR|Do you know if either of them are in the heart of the city?|request_compare
+SYS|Neither|negate
+USR|Let’s book Western Ridge|switch_frame
+SYS|Just to confirm, you depart on September 2nd and come back on the 11th.|inform
+SYS|I will reserve for you immediately.|inform
+USR|Wonderful.|thankyou
+USR|thank you very much!|thankyou

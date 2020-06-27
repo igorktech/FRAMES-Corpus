@@ -1,0 +1,21 @@
+USR|Hey, I need to get back home to Milan!|inform
+SYS|Where are you currently?|request
+USR|Monterrey!|inform
+USR|I need leave on Monday September 26 or after.|inform
+SYS|I have quite a few options here for you.|request
+SYS|Do you have a budget in mind?|request
+USR|Yeah I've only got 2400 'cause I spent too much of it travelling for the last month already.|inform
+SYS|Unfortunately we don't have anything that works with your budget :disappointed: Do you want to try leaving from or going to somewhere else?|sorry
+USR|Oh really?|inform
+USR|How about if I leave from Berlin?|inform
+SYS|Berlin will work!|inform
+SYS|We have an 8 day trip leaving on the 26th and a 13 day trip leaving on Oct 1st.|inform
+SYS|Which one would you prefer?|inform
+USR|As soon as possible!|request
+USR|How much is it?|request
+SYS|The one leaving on the 26th is only $957.64.|inform
+USR|What!|inform
+USR|That's amazing.|inform
+USR|I'll take it.|inform
+SYS|This trip has been reserved for you!|inform
+SYS|Anything else you need today?|inform

@@ -1,0 +1,23 @@
+USR|I need to get away from Sendai between Sept 6-17.|inform
+USR|3 adults, 6 kids|inform
+SYS|Great, where would you like to go?|request
+USR|Anywhere|inform
+SYS|Do you have a budget in mind?|request
+USR|25300 $$|inform
+SYS|How about a 12 day trip to Montreal?|offer
+SYS|From September 6 to 17, you'll be staying at The Illustrious Haven Hotel, a 4 star hotel with a 8.86/10 guest rating.|offer
+USR|Sounds lovely.|request
+USR|What ammenities are included?|request
+USR|And how much does that cost.|request
+SYS|Free parking and wifi come free!|offer
+SYS|Business class flights cost 23813.37USD, while economy class flights are 18607.42USD.|offer
+USR|Have I got any other options available?|request_alts
+SYS|Definitely - you could go to Calgary from September 7 to 16, where you'd be staying at the Amusement, another 4 star hotel.|offer
+USR|Can you list the other possible detinations?|request_alts
+SYS|How about Punta Cana from September 6 to 15?|offer
+SYS|A 3 star hotel near the palace and theatre is available.|offer
+USR|Breakfast included?|request
+SYS|Not only breakfast, but also wifi and parking!|inform
+USR|Lets book Punta Cana|inform
+SYS|Happy to do so, have a great trip!|inform
+USR|Thanks!|thankyou

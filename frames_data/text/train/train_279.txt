@@ -1,0 +1,10 @@
+USR|hi there.|inform
+USR|need to book a trip to denver
+i live in houston
+sept 10 to 11|inform
+SYS|Ok!|request
+SYS|I can help you with that.|request
+SYS|Do you have a budget?|request
+USR|budget is $3300|inform
+SYS|Sadly I have nothing available for your date range.|sorry
+SYS|Are you flexible on when you travel?|sorry

@@ -1,0 +1,26 @@
+USR|Hello, I need your help...my wife is super strict and she's put me in charge of the family vacation.|inform
+USR|We have $4000 to spend.|inform
+USR|Find me something good!|inform
+SYS|How many people will be traveling?|request
+USR|2 adults and one child|inform
+SYS|Where would you like to go?|request
+USR|Let's look at Hiroshima first|inform
+SYS|Okay.|request
+SYS|where will you be leaving from?|request
+USR|Minneapolis|inform
+SYS|Do you have dates of travel in mind?|request
+USR|Sept 20 to Oct4|inform
+SYS|Unfortunately there are no results within your budget.|sorry
+USR|what of we add 1000?|inform
+SYS|That doesn't help, sorry.|sorry
+USR|Okay let's look at Belem for under 4000?|inform
+SYS|There are no results for this either.|no_result
+USR|:pray: St. Petersburg?!?|inform
+SYS|Nothing available.|no_result
+USR|Seriously?!|null
+SYS|Yes.|sorry
+SYS|I am sorry I am not more helpful.|sorry
+USR|I will go somewhere else, thanks anyway|goodbye
+SYS|Okay.|goodbye
+SYS|Sorry!|goodbye
+SYS|Good luck!|goodbye

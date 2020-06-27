@@ -1,0 +1,25 @@
+USR|pokemon hunter extraordinaire here.|inform
+USR|get me and my fellow trainer to Phili from Recife!!!|inform
+USR|we can leave next tuesday|inform
+SYS|Do you have a budget?|request
+USR|yeah.|inform
+USR|67 hundred dollars|inform
+SYS|How many people altogether?|request
+USR|two|inform
+SYS|We have two results at the same hotel.|offer
+SYS|We have a 14 day stay from September 13th to 25th, business and economy options are available.|offer
+SYS|Business flights are 6412.89, economy flights are 4982.32.|offer
+SYS|We also have an 8 day stay from September 25th to October 1st, this is only available for economy flights and the cost is 5878.84.|offer
+SYS|The hotel is 2 stars, is near a park and museum, has a 6.61/10 guest rating, and offers free parking, breakfast, and wifi.|offer
+USR|hmmm ok.|inform
+USR|what could i get in santo domingo cause that’s supposed to be like a mewtwo breeding ground!|inform
+SYS|We have one package from September 22nd to October 3rd.|offer
+SYS|This is a 3 star hotel near the beach and shopping.|offer
+SYS|The hotel has a 7.06/10 guest rating and offers free parking, breakfast, and wifi.|offer
+SYS|The business flight option is 4729.36 and the economy flight option is 3723.60.|offer
+USR|the package on the 13th to Philadelphia sounds better.|inform
+USR|its longer and I get to go hunting as soon as I can
+book economy class, got it?|inform
+SYS|Got it!|inform
+SYS|You can confirm your trip by opening the confirmation email sent to you.|inform
+SYS|Have a great day and enjoy the trip!|inform

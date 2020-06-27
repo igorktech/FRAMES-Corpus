@@ -1,0 +1,20 @@
+USR|Hi im looking to make a quick trip im from tampa and want to go to Dallas|inform
+SYS|Do you have any particular dates in mind?|request
+USR|not really|inform
+SYS|for how long would you like to go for?|request
+USR|not sure yet|inform
+SYS|I have a very reasonably priced 13 day package available at the Winter Arc hotel.|offer
+SYS|You can travel either economy or business class.|offer
+USR|that sounds nice what activities are at the hotel?|request
+USR|Let's see what the price for economy is|request
+SYS|The package includes free breakfast and free wifi.|request
+SYS|How many will you be?|request
+USR|there will be 1 child and 7 adults|inform
+SYS|I have availability for that many people from August 15 to August 27th.|offer
+SYS|The price in economy is $3822.00 and in business it is $4219.00.|offer
+SYS|Does that work for you?|offer
+USR|we would like the economy package please|switch_frame
+SYS|Perfect!|inform
+SYS|The flight departs at 4:00pm on August 15 and the return flight is at 11:00am on August 27th.|inform
+SYS|We will go ahead and get that booked for you.|inform
+USR|thank you very much sounds perfect!|thankyou

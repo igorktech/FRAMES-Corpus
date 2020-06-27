@@ -1,0 +1,6 @@
+USR|I want to go to Miami from Beijing  between september 6th and 9th for 3500 and 5 adults altogether.|inform
+USR|The only thing I am flexible with is the price, if i need to I can increase it by 200|inform
+SYS|I have nothing available from Miami to Beijing|no_result
+USR|Well IF I make my dates flexible are there any results?|inform
+SYS|From Beijing to Miami, even if I make the dates flexible, I get no results, which means we just don't have any packages to that destination from that destination|no_result
+USR|Okay, well thanks anyway.|thankyou

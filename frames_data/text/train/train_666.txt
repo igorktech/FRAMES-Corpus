@@ -1,0 +1,16 @@
+USR|Hey, looking to surprise my baby mama in Tofino by bringing my 2 kids for a visit.|inform
+SYS|Great!|request
+SYS|Where will you be traveling from?|request
+USR|Fukuoka.|inform
+SYS|Unfortunately, we have no results for this itinerary.|sorry
+USR|Hmm ok, well we can travel to San Diego and go from there.|inform
+SYS|Is this San Diego to Tofino you're looking for?|confirm
+USR|no, Fukuoka to San Diego|inform
+SYS|I can get you there from September 12 to 19, for a total of 11460.60USD.|offer
+USR|Where would we be staying?|request
+SYS|You would be staying at the Majestic Mountain Inn, which offers free breakfast, wifi, and parking!|inform
+USR|How many stars?|request
+SYS|2.5 stars, 6.91/10 guest rating|inform
+USR|Book it please|inform
+SYS|I have booked this trip for you!|inform
+USR|Thanks!|null

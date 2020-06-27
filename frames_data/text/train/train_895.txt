@@ -1,0 +1,16 @@
+USR|Hello bot!|inform
+USR|Could you do me a favour and check if you do flights from Barcelona to Manas?|inform
+SYS|I can, and have, but unfortunately have nothing to offer.|sorry
+USR|What about to Essen??|inform
+SYS|I can offer 13 days in Essen for 1050 dollars from September fourth until the sixteenth.|offer
+USR|Oh good!|moreinfo
+USR|What's the deal with this one?|moreinfo
+SYS|There's just the one hotel.|offer
+SYS|But if you chose to fly economy class the price would be reduced to 882.93 USD.|offer
+SYS|The hotel is the Relaxation Hotel and is near a palace with a 3 star rating - 6.61/10 from previous guests - and you will be provided with wireless internet access and breakfast at no further expense.|offer
+USR|Its already so much cheaper than what I had expected to pay that I’m ok with business class Lets confirm this order :slightly_smiling_face:|inform
+SYS|Ok, great!|suggest
+SYS|Would you like to proceed with booking?|suggest
+USR|Yes!!!!!|affirm
+SYS|Great!|inform
+SYS|Consider it done.|inform

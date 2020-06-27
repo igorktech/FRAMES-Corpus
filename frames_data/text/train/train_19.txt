@@ -1,0 +1,11 @@
+USR|Hi, my name is Harry Potter and I'd like to go to Hogsmeade leaving from Kakariko Village on Saturday, August 13th for 3 nights with 11 friends.|inform
+SYS|I can book 6 days at Obsidian Gem Inn in Vancouver, Canada for 10540.39USD.|suggest
+SYS|Would you like to leave from Dallas, USA?|suggest
+USR|What?|inform
+USR|No.|inform
+USR|I'm looking for a trip to Hogsmeade with 11 of my friends.|inform
+SYS|I can offer you a trip for 12 adults is 6 days at Obsidian Gem Inn in Vancouver, Canada for 10540.39USD.|suggest
+SYS|Shall I go ahead and book this?|suggest
+USR|I'll have to talk about it with my friends and get back to you.|thankyou
+USR|Thank you for your help.|thankyou
+SYS|Goodbye|goodbye

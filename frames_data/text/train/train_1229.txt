@@ -1,0 +1,29 @@
+USR|Yes!|inform
+USR|I choose Tampa!|inform
+USR|There lies my destiny.|inform
+SYS|May I ask where will you be coming from?|suggest
+SYS|And will it be just you?|suggest
+USR|I will have 5 fellow teammates are we're based in Columbus.|inform
+SYS|So 6 adults from Columbus?|request
+SYS|Is there a budget to keep in mind?|request
+USR|We were granted $15900.|inform
+SYS|We have a wonderful 13 day package to offer you with a stay at a 3 star hotel that has a guest rating of 8.8/10.|offer
+SYS|This also includes parking, breakfast, and wifi.|offer
+SYS|Are you interested in booking this package?|offer
+USR|Is it a nice location?|switch_frame
+SYS|Most definitely!|suggest
+SYS|And a very convenient one indeed.|suggest
+SYS|There's an airport, a beach, a park, and a museum nearby!|suggest
+SYS|Plenty of activities for you and your group to do during your stay.|suggest
+SYS|Shall I proceed with booking?|suggest
+USR|Before anything, can you also check Essen?|inform
+SYS|Not anything that fits your budget I'm afraid.|sorry
+SYS|Is it flexible?|sorry
+USR|I can pull together an additional $500 at most.|inform
+SYS|I'm afraid there is still nothing that fits your budget.|sorry
+SYS|Are there any other options that you'd like to explore?|sorry
+USR|No it's fine, let's just get the Tampa trip.|inform
+SYS|Okay, now booking the 13 day package to Tampa.|inform
+SYS|Expect an email shortly.|inform
+SYS|Enjoy your trip!|inform
+USR|Thanks so much!|thankyou

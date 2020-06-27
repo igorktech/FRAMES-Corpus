@@ -1,0 +1,16 @@
+USR|Hi there, I was wondering if you could do me a huge favour today|greeting
+SYS|Hello, how can I help you today? :|greeting
+SYS|smile:|greeting
+USR|Where can I go from Salvador for free|inform
+SYS|I am sorry, No results found.|sorry
+USR|What!!|request
+USR|Ok how about $400 Can I get anywhere on that budget|request
+SYS|Yes, to Rio de Janeiro or Manaus|offer
+USR|No way!|moreinfo
+USR|What kind of hotel should I expect in Rio de Janeiro?|moreinfo
+SYS|We have a 3 stars hotel for 384.32, 7 days|offer
+USR|Do you have anything for a shorter stay?|inform
+USR|I only have 5 days off|inform
+SYS|I am sorry, I dont have any 5 days stay, shortest is 6 days in Manas|offer
+USR|What if I left from Monterrey instead?|inform
+SYS|Sorry, nothing for that either..|no_result

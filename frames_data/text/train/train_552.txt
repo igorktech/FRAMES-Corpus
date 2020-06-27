@@ -1,0 +1,37 @@
+USR|Hello|greeting
+SYS|Hello, we hope to be of assistance today|greeting
+USR|I’m looking to check out san fran and I currently live in Rome I have a couple weeks from Sept 5-22 off to check out Sanf
+but only 2800 USD to spend|inform
+SYS|San Francisco is not one of the destinations we service from Rome.|no_result
+USR|I’m sorry, had a little brain blip .. I live in Vitoria|inform
+SYS|I have packages available from Vitoria to San Francisco :grinning: 8 and 14 days.|offer
+SYS|Which would you like information on?|offer
+USR|Awesome!!|request_compare
+USR|Are either of them under 2800?|request_compare
+SYS|Both and you can even fly business class if you desire.|offer
+USR|What are the hotel details?|moreinfo
+SYS|All the options are at the same hotel - Glorious Spring Hotel, a category 2 hotel close to the park and museum.|inform
+SYS|The 8 day package departs on Sept 8 and the 14 day package departs on Sept 9th.|inform
+USR|Is there anything from Vitoria to Cancun?|inform
+SYS|I only have an 8 day option there, the White Peak Hotel which is a category 3.5 at 2581.19USD.|offer
+USR|And is it located in the heart of the city with good amenities?|request
+SYS|It is by the cathedral and includes free wifi, parking and breakfast.|inform
+USR|My final option is Guadalajara|inform
+SYS|I have a hotel located with 10 and 14 day packages available|offer
+USR|ok, and what’re the amenities there like?|request
+SYS|Excursion is a category 3 including free wifi, parking and breakfast.|inform
+SYS|A 10 day package is 2446.82USD.|inform
+USR|Hmm ok.|request
+USR|And you said I could fly business class to San Francisco..
+How much would that be:|request
+SYS|It will be 2612.62USD.|inform
+USR|Ok, but thats a 2 star.|switch_frame
+USR|I think I will go to Cancun instead please|switch_frame
+SYS|In Cancun I have White Peak Hotel - 8 days, category 3.5 star for a total of 2581.19USD via economy class.|inform
+USR|how much for business?|request
+SYS|Only available on economy class.|null
+USR|Well that is ok.|inform
+USR|Book Cancun please!|inform
+SYS|I am confirming booking of the the White Peak Hotel, category 3.5 at 2581.19USD from Sept 8 to Sept 15.|thankyou
+SYS|Thank you and have a safe trip.|thankyou
+USR|Yes thank you :smile:|thankyou

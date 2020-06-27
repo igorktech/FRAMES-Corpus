@@ -1,0 +1,15 @@
+USR|I'm leading a tour group of four adults.|inform
+USR|We're trying to decide on a destination Can you tell me if I can get to Punta Cana for 3400.|inform
+USR|leaving from the Beijing|inform
+SYS|When would you like to leave?|request
+USR|Flexible with the date, just want to keep it within budget.|inform
+SYS|That is for 4 adults total, correct?|confirm
+USR|check out the big brains on you!|affirm
+USR|yes correctomundo|affirm
+SYS|I'm sorry but there are no flights from Beijing.|sorry
+SYS|Are you able to fly out from a different location?|sorry
+USR|Then I shall ditch my companions for my other friends.|inform
+USR|Got anything out of Kabul?|inform
+SYS|There isn't anything from Kabul either.|suggest
+SYS|Do you have another departure location?|suggest
+USR|WOE IS ME, FOR I HAVE NOT|negate

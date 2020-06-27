@@ -1,0 +1,19 @@
+USR|Hello, get me to Frankfurt.|inform
+USR|Leaving Punta Cana.|inform
+SYS|I have 2 possibilities for you in Frankfurt as far as accommodations go.|inform
+SYS|I have the Mellow Palms Resort for 13 days or the Atlantis Peaks Resort for 13 days.|inform
+SYS|Both offer free breakfast and free wifi as part of the package.|inform
+SYS|For the Mellow Palms hotel (5 stars)  departure date is Sept 8 and for the Atlantis Peaks Resort (4.5 stars) departure is Sept 6.|inform
+USR|Can you accommodate my lawyer and wife on this trip?|inform
+USR|As well as my child?|inform
+SYS|3 adults and one child?|inform
+SYS|Yes, Mellow Palms $9484.8USD and Atlantis Peaks  $10081.70USD|inform
+USR|What’s around each of the hotels?|request
+SYS|Shall I book|suggest
+USR|I need to know what is nearby|request
+SYS|I have no information on location for either one|canthelp
+USR|Book the nicer one|inform
+SYS|by nicer, do you mean the higher rated one or the higher priced one?|confirm
+USR|Higher rating.|switch_frame
+SYS|The Mellow Palms Resort had been booked for you and your party of 4.|inform
+USR|thanks!|thankyou

@@ -9,7 +9,7 @@ nlp.add_pipe(sentencizer)
 archive_dir = 'frames_archive'
 
 # Processed data directory
-data_dir = 'frames_data'
+data_dir = os.path.join('frames_data', 'json')
 
 # Split into training and test sets
 sets = ['train', 'test']

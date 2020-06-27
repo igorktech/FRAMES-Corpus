@@ -1,0 +1,16 @@
+USR|Hey!|inform
+USR|I have to book a trip for a group of people from Beijing to Toluca.|inform
+SYS|How many people?|request
+USR|14 of us|inform
+SYS|All adults?|confirm
+USR|Right|affirm
+SYS|Do you have a budget?|request
+USR|I was hoping to spend maybe 2700.|inform
+SYS|When would you like to leave?|request
+USR|We can go any day between Aug 29 and Sep 1|inform
+SYS|There are no results within your budget or for these dates.|no_result
+USR|If I increase my budget by 200, would that change anything?|inform
+SYS|No sorry.|sorry
+USR|What if I make my dates completely flexible?|inform
+SYS|Still nothing.|no_result
+USR|I don't think this trip is going to work then..|thankyou

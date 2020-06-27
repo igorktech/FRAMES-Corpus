@@ -1,0 +1,16 @@
+USR|Hi!|inform
+USR|I'm looking to go from Essen to San Juan between August 27 to September 17
+Traveling alone|inform
+SYS|How does Sept 1-7 sound?|suggest
+USR|Its for an internship, dates are non-negotiable.|inform
+USR|If thats not possible, can you check Santo Domingo for me?|inform
+SYS|Do you have a budget?|no_result
+SYS|Those dates don't work for Santo Domingo|no_result
+USR|Try Kyoto|inform
+SYS|August 30-Sept 4?|suggest
+USR|August 27 to September 17|inform
+SYS|August 27-September 1?|suggest
+USR|I feel like I've myself abundantly clear|null
+SYS|August 30-September 4?|suggest
+USR|August 27 to September 17|inform
+SYS|August 27-September 1?|suggest

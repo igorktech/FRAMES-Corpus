@@ -1,0 +1,14 @@
+USR|Hello there.|inform
+USR|I am the father of a group of 4 spoiled, privileged brats
+I've decided to book them a trip to see how those in less fortunate parts of the world live
+Give them some perspective, you know?|inform
+USR|See if you can get me, my wife, and the four kids to Guadalajara, from Calgary|inform
+SYS|Can you please confirm the number of adults and the number of children that will be travelling together?|request
+USR|2 and 4|inform
+SYS|Calgary to Guadalajara is not a destination that we service.|suggest
+SYS|Can you provide either a new departure city or a new destination city?|suggest
+USR|I suppose we _could_ take them to Rio de Janeiro also|inform
+SYS|Calgary to Rio de Janeiro does not come up either.|no_result
+USR|Do you think I could still get the message across if we went to San Juan?|inform
+SYS|You would have to fly out of somewhere else than Calgary for those specific destinations.|suggest
+USR|That is not an option|negate

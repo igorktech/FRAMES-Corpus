@@ -1,0 +1,33 @@
+USR|Good morning!|greeting
+USR|So I just won the lottery and decided to offer myself the trip of a lifetime!!!|greeting
+USR|There are so many places I've always wanted to visit but couldn't afford.|greeting
+USR|I live in San Francisco.|greeting
+USR|Anything good to Sacramento?|greeting
+USR|Oh and I want to fly in business class, I want the whole shebang|greeting
+SYS|Perfect.|request
+SYS|To confirm the above information, you would like to depart from San Francisco and go to Sacramento.|request
+SYS|On business class.|request
+SYS|Is this correct?|request
+SYS|Could you please also supply me with the dates of your trip?|request
+USR|That is correct!|inform
+USR|I'll be free to travel between August 25 and September 13th|inform
+SYS|For how many adults and how many children?|request
+USR|Just me, myself and I!|inform
+SYS|There are no flights available from San Francisco to Sacramento.|no_result
+USR|Well that settles that.|inform
+USR|How about to Cairo?|inform
+SYS|I do not have any flights from San Francisco to Sacramento.|request
+SYS|Would your dates be flexible?|request
+USR|No unfortuntely.|inform
+USR|I could go to Montreal instead|inform
+SYS|I do not have any flights from San Francisco to Cairo.|inform
+SYS|I will try Montreal.|inform
+USR|thanks!|thankyou
+SYS|May I verify other destinations for you?|suggest
+USR|Do you have anything to Montreal?|inform
+SYS|I do not have any flights from san francisco to montreal.|no_result
+SYS|I regret the inconvenience.|no_result
+USR|Paris?|inform
+SYS|I do not have any flights out of San Francisco at all. :|no_result
+SYS|cry:|no_result
+USR|That's too bad, i'll go looking for my perfect getaway somewhere else then thanks anyways|thankyou

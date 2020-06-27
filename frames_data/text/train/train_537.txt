@@ -1,0 +1,16 @@
+USR|let me get from Detoit to Kobe|inform
+SYS|For how many people?|request
+USR|Just me but I only got 900|inform
+SYS|When would you like to leave?|request
+USR|Saturday or shortly after.|inform
+USR|Otherwise dates are flexible|inform
+SYS|There are no results for your request.|suggest
+SYS|Is there another destination you might have in mind?|suggest
+USR|I need to get to Kobe, but can you try it for me leaving from Athens isntead?|inform
+SYS|There is nothing from Athens.|no_result
+USR|San Juan???|inform
+SYS|Unfortunately there is nothing for this either.|sorry
+USR|Am I out of luck?|request_alts
+SYS|I believe so.|no_result
+SYS|There are no results for packages to Kobe with your budget.|no_result
+USR|:disappointed:|null

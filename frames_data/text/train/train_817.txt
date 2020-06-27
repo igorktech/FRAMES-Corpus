@@ -1,0 +1,8 @@
+USR|I want to go on a vacationg from september 18th to september 22nd to Monterrey from Curritiba for under 3100|inform
+SYS|Sure!|suggest
+SYS|Are you travelling alone?|suggest
+USR|ya|affirm
+SYS|I have no trips available returning by the 22nd of September|no_result
+USR|none at all?|confirm
+USR|Why?|confirm
+SYS|None, sorry.|sorry

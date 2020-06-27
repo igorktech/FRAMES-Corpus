@@ -1,0 +1,32 @@
+USR|looking to go on a short jaunt out of town the town in question being sacramento
+let me know what my options are if i wanted to leave today, and have 4 days free|inform
+SYS|Certainly!|hearmore
+SYS|I can book you 4 days at a 3.5 star hotel in Columbus for $1538.|hearmore
+SYS|Interested?|hearmore
+USR|Interested.|request_alts
+USR|However.|request_alts
+USR|Do you have other destinations?|request_alts
+SYS|I have trips to Guadalajara as well!|suggest
+USR|whoa thats snazzy.|request
+USR|what kind of hotel?|request
+SYS|I have a 2.5 star or two different 3.0 star options.|offer
+USR|which is the better rated by guests?|request_compare
+SYS|The 2.5 star Resort Felicity boasts the highest guest rating with 8.49/10|inform
+USR|interesting.|request_alts
+USR|do you have any other options out of sacramento?|request_alts
+SYS|Those two destinations are the only ones showing up given your broad parameters.|no_result
+SYS|If you wanted to narrow down your specifications I may be able to find something else.|no_result
+USR|I'm not sure, how bout look for something that costs more than $2000|inform
+SYS|With a 4 day maximum, the only place I can find is the Crown Jungle Inn in Columbus.|offer
+SYS|It is beachside, near a palace, with a 8.49/10 rating.|offer
+USR|is that a better rating than the previous hotel you found in c-bus?|request_compare
+SYS|Sorry - that is the guest rating.|sorry
+SYS|This is a better guest rating than the last hotel in Columbus.|sorry
+USR|What are the dates and price?|request
+SYS|September 16-19, business class flights would be 2181.49 USD|inform
+USR|what are the amenities at the crown jungle inn?|request
+SYS|Free parking and free wifi.|inform
+USR|ok cool|inform
+SYS|Booking now :slightly_smiling_face:|inform
+USR|thanks!|thankyou
+SYS|My pleasure|you_are_welcome

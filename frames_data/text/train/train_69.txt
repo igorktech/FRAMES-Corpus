@@ -1,0 +1,25 @@
+USR|Hi i want to plan my honeymoon to rome|greeting
+SYS|Ok!|request
+SYS|How long would you like to go?|request
+USR|6 days|inform
+SYS|I've got great prices for 6 days packages leaving from Essen!|offer
+USR|any leaving from San Diego?|inform
+SYS|Hmm.. all my packages from San Diego are only 5 days.|offer
+SYS|Is that ok?|offer
+USR|ya that sounds fine!|switch_frame
+SYS|Great!|request
+SYS|How many stars would you like your hotel to be?|request
+USR|i have a maximum budget of $3900|inform
+SYS|I've got a couple of 4.0 stars available for your budget.|inform
+USR|what are they like?|moreinfo
+SYS|They have free breakfast and free wifi!|inform
+USR|that sounds amazing thats what i like!|request
+USR|how much will they be?|request
+SYS|Great!|inform
+SYS|Prices range from 4366.90USD to 5619.22USD for a four star hotel package.|inform
+USR|they seem to be a little over my budget anything a little less maybe economy class flight?|inform
+SYS|I have a 0.0 star hotel package available for 3663.85USD.|offer
+USR|honestly that would work better :slightly_smiling_face:|switch_frame
+SYS|Great!|suggest
+SYS|Shall I go ahead and book that for you?|suggest
+USR|yes please!|affirm

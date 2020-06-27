@@ -1,0 +1,21 @@
+USR|I have 8 days for vacation starting on september 6 from dallas.|inform
+USR|What can you offer me?|inform
+SYS|I have many options for you.|request
+SYS|Do you have a budget in mind?|request
+USR|No i'd just like to explore my options|inform
+SYS|Ok!|request
+SYS|Can you also please confirm with me by which day you need to be back?|request
+USR|i dont care what day i get back|inform
+SYS|How about visiting Recofe in Brazil for 7 days?|offer
+SYS|You would be staying at the 4 star The Glee which has free breakfast and wifi for its guests.|offer
+USR|When is the flight?|request
+SYS|You would leave September 8th and come back the 14th|inform
+USR|I would need to be back by the 13th.|inform
+SYS|Then I can offer you a package to Madrid, Spain that leaves September 8th and returns the 13th.|offer
+SYS|The 5 star hotel is close to a museum, cathedral and palace and the holiday would cost you 2070.89USD.|offer
+USR|this sounds ideal.|inform
+USR|yes i quite like this.... Go ahead and book it for me please :slightly_smiling_face:|inform
+SYS|Perfect, i'm on it!|inform
+SYS|You should receive confirmation within the hour.|inform
+SYS|Enjoy your holiday!|inform
+USR|Thank you i'll be back again to use your help!|thankyou

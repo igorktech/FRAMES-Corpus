@@ -1,0 +1,10 @@
+USR|Book me Jerusalem to Salvador, between August 24 and August 27.|inform
+USR|12 adults|inform
+SYS|Do you have a budget?|request
+USR|2800|inform
+SYS|We have an 8 days trip and a 6 days trip|suggest
+USR|Do you have anything shorter?|inform
+SYS|no i am sorry, not from Jerusalem to Salvador|sorry
+USR|Ok you know what, I'll take the 6 day trip then.|inform
+USR|Book it, bot|inform
+SYS|We actually dont have anything from Jerusalem to Salvador|no_result

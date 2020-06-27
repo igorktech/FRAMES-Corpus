@@ -1,0 +1,50 @@
+USR|Hey there.|inform
+USR|I've got 6 days of free time and I want to make the most of it.|inform
+SYS|Ok!|suggest
+SYS|Do you want to book a vacation?|suggest
+USR|Yes please.|inform
+USR|I'll be leaving from Ciudad Juarez.|inform
+SYS|And going where?|request
+USR|I was hoping you could help me with that.|inform
+SYS|Do you have a budget?|request
+USR|Yeah, 5400 is my budget.|inform
+SYS|What dates are you able to travel?|request
+USR|anytime in the near future is good|inform
+SYS|And you will be travelling alone?|suggest
+USR|Yeah.|affirm
+USR|I feel like being alone right now.|affirm
+SYS|How about 6 days in Kingston at a 4 star hotel?|offer
+USR|Kingston...Canada?|confirm
+SYS|yes|affirm
+USR|Oh.|request
+USR|How much would that cost?|request
+SYS|2146.59USD|inform
+USR|That's not bad.|request_alts
+USR|But do you have any other destinations?|request_alts
+SYS|Of course!|offer
+SYS|I have Denver and Punta Cana as well.|offer
+USR|What's the Denver package like?|switch_frame
+SYS|There are 3 packages available in Denver.|inform
+USR|Are they all 6 days?|confirm
+SYS|Yes|affirm
+USR|What's the best one?|inform
+SYS|What do you want from your hotel?|request
+USR|In the heart of the city?|inform
+SYS|I have no hotels in Denver in the heart of the city.|offer
+SYS|I have one hotel near a park and another near a museum and a university.|offer
+USR|museum and university sounds good.|request
+USR|how much would that cost?|request
+SYS|1085.38USD for economy class flights and a 6 day stay.|inform
+USR|how many stars does this hotel have?|request
+SYS|3|inform
+USR|Not bad.|inform
+USR|What can you offer for Punta Cana?|inform
+SYS|I have an unrated hotel in Punta Cana for just under 1250 dollars|offer
+USR|No stars or guest ratings whatsoever?|request
+SYS|The hotel is unrated|inform
+USR|That sounds sketchy.|negate
+SYS|It is near a palace.|inform
+USR|Please book that 6 day trip in Denver for me near the university.|switch_frame
+SYS|Ok, done.|inform
+SYS|Enjoy your stay.|inform
+USR|Thanks!|thankyou

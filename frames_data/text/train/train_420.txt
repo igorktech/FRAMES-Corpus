@@ -1,0 +1,12 @@
+USR|I want to book a trip from Paris to Ciudad Juarez for at most 4000 for one person|inform
+SYS|Can you leave August 31?|suggest
+USR|anytime|inform
+SYS|Ok, August 31 until September 12 there is an availability at the Hotel Holiday.|offer
+SYS|The hotel is 3.5 stars, next to a palace, has a guest rating of 8.8, free wifi, free parking, and includes complimentary breakfast.|offer
+USR|How much?|request
+SYS|$2,365|inform
+USR|anything at a higher end hotel?|inform
+SYS|No|no_result
+USR|Alright, 3.5 stars will do.|inform
+SYS|Shall I book Hotel Holiday?|suggest
+USR|yes!|affirm

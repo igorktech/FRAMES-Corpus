@@ -1,0 +1,30 @@
+USR|Hi there!|inform
+USR|I only have 5 days of vacation, and I want to do the best I can with it!|inform
+USR|Can you recommend packages starting August 30th?|inform
+SYS|Where would you like to fly out of?|request
+USR|Out of Belem.|inform
+SYS|would that be for just yourself?|suggest
+USR|Yes, I'll be alone this time.|inform
+SYS|How does Brazil sound?|suggest
+USR|Interesting... what else do you have?|null
+SYS|during those dates I only have Goiania or Porto available|suggest
+USR|What options do you have in Porto?|switch_frame
+SYS|In Porto I have Delux, Breakwater and the Golden Keep Hotel all available for 4 day packages.|offer
+USR|Can you show me some prices and ratings to compare?|request_compare
+SYS|The Golden Keep Hotel leaves on August 30th.|inform
+SYS|it is right near the beach and has a 4 star rating.|inform
+USR|What a catch!|request
+USR|How much is this package?|request
+SYS|I only have is available on an economy class seat at 909.80USD.|inform
+USR|I'll keep this one in mind.|inform
+USR|What can you offer to Goiania?|inform
+SYS|I've got Sept 2nd departure to the Scarlet Palms Resort.|offer
+SYS|3.5 star hotel, not on the beach but close shopping and a park.|offer
+SYS|Does that suit you?|offer
+USR|I leaning more towards the Golden Keep Hotel.|request
+USR|Does it include breakfast?|request
+SYS|It sure does, and of course, wifi.|inform
+USR|A needle in a haystack!|inform
+USR|I'll book this one before it runs away.|inform
+SYS|excellent I will book that for you|inform
+USR|Thank you so much!|thankyou

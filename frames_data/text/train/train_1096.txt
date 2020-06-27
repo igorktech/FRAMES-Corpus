@@ -1,0 +1,18 @@
+USR|Wanna get my parents out of Kingston.|inform
+USR|I've got 2000.|inform
+USR|need them gone between september 20th and october 10th|inform
+SYS|We've got an amazing 4 star hotel that will work for your parents!|offer
+SYS|It is close to the park, museum, and cathedral.|offer
+SYS|Do you think this will interest them?|offer
+USR|I think it would, they are homebodies usually so I think they would enjoy getting out and seeing the world.|request
+USR|Where is this trip to?|request
+SYS|It will be 13 days in Vancouver from September 28 to October 10.|inform
+USR|What does it cost?|request
+SYS|1430.86 for economy and 1684.93 for business.|offer
+USR|I’ll give them economy, might make it easier to sell the trip to them if they know its business flights.|inform
+USR|Book it!|inform
+SYS|Alright I have booked for the two of them!|inform
+SYS|Anything else for today?|inform
+USR|nope!|thankyou
+USR|Thanks!|thankyou
+USR|You’re a life saver!|thankyou

@@ -1,0 +1,24 @@
+USR|HI.|inform
+USR|vacation please
+5300 dollars for 8 days and I leave from Pittsburgh I go to anywhere|inform
+SYS|Do you have a preferred date of departure?|request
+USR|no i can take vacation time whenever|inform
+SYS|I can get you cities in Mexico and San Juan|suggest
+USR|mexico.|request
+USR|what cities?|request
+SYS|La Paz or Ciudad Juarez|offer
+USR|What is the La Paz package like|moreinfo
+SYS|In La Paz, I have the Echo, available for 8 days, it is a 4 star hotel with a 8.98 / 10 user rating.|inform
+SYS|which includes free wifi, parking and breakfast.|inform
+USR|this sounds very beautiful!|moreinfo
+USR|can i hear the Ciudad Juarez package to compare?|moreinfo
+SYS|In Ciudad Juarez, I have the Vertex, also available for 8 days, it is a 3 star hotel with a 8.86/10 user rating which includes free wifi, parking, breakfast.|inform
+SYS|This one has a Sept 8th departure, the one in La Paz a Sept 13th departure.|inform
+USR|is Juarez hotel on the beach?|request
+SYS|Neither is on the beach|inform
+USR|ah ok.|inform
+USR|well I would prefer La Paz.|inform
+USR|Let us book that.|inform
+SYS|I will proceed with the booking to La Paz.|inform
+SYS|Enjoy!|inform
+USR|thank u great|thankyou

@@ -1,0 +1,18 @@
+USR|sooooo.|inform
+USR|in a bit of a pickle here and i need outta Tel Aviv ASAP.|inform
+USR|can ya get me to valencia?|inform
+SYS|I have no flights out of Tel Aviv whatsoever|no_result
+USR|ahhh jeez ya killin me!|inform
+USR|what if I fly outta Boston?|inform
+USR|i got 2800 bucks to my name
+but i wanna save as much of that as i can for the craps tables|inform
+SYS|I have flights to South America from Boston|suggest
+USR|What the heck are you sayin... i dont wanna go to South America i wanna go to Valencia!|inform
+SYS|How about to Antartica?|suggest
+USR|why i oughta.... if you're not gonna fly me from boston to valencia you may as well consider yourself dead
+i'm not kiddin around here|inform
+SYS|The Gold has a 12 day stay for just $36.50 over your budget.|offer
+USR|from Boston????|inform
+USR|that's a push..
+what about Boston to Tokyo?|inform
+SYS|Nothing from Boston to Tokyo.|no_result

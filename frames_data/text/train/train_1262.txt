@@ -1,0 +1,28 @@
+USR|Hi!|inform
+USR|I have 9 days of vacation time.|inform
+USR|Can you find me travel packages on or after  September 20th from Ciudad Juarez?|inform
+SYS|Sure, I can help you with that!|request
+SYS|Do you have a set amount of money to spend on this trip?|request
+USR|Nope, I can spend however much I need to.|inform
+SYS|I have a 5 star hotel available in Sacramento for 9 days.|offer
+SYS|Is this something that would interest you?|offer
+USR|yes!|switch_frame
+USR|Can you tell me more about the hotel?|switch_frame
+SYS|Yes of course.|inform
+SYS|The Bronze Luxury Hotel in Sacramento is available from September 26 to October th.|inform
+SYS|This 5 star hotel is located near a museum and has a perfect 10/10 guest rating.|inform
+SYS|Your 9 day package includes free breakfast and free wifi.|inform
+SYS|You have the option of a business class package at a total cost of 1924.44USD.|inform
+USR|Okay!|request_alts
+USR|Are there any other packages available?|request_alts
+SYS|My next highest rating is a 3 star hotel in Boston with a 8.37/10 guest rating.,|offer
+SYS|also available for 9 days.|offer
+SYS|Does this package interest you?|offer
+USR|maybe.|request_alts
+USR|Where are all the other packages for?|request_alts
+SYS|I also have packages in Kingston Canada or Detroit USA|offer
+USR|I think Sacramento sounds the best then.|inform
+USR|I would like to book this package.|inform
+SYS|I will get that all booked up for you and send you confirmation.|inform
+SYS|Happy travels!|inform
+USR|Thanks!|thankyou

@@ -1,0 +1,41 @@
+USR|Hey there, so I've got a little bit of a dilemma on my hands..|greeting
+SYS|Good day, we are here to help you book your best trip possible.|greeting
+SYS|How can I help you today?|greeting
+USR|I've been rewarded with a company trip for me and some coworkers but the destination is a subject of conflict.|inform
+USR|Our parameters include the travel window being from August 30 until September 18|inform
+SYS|What destinations were you thinking of?|request
+USR|And we are looking at Osaka first of all.|inform
+USR|That would be for 6 adults, all leaving from Burlington|inform
+SYS|We have 2 choices in Osaka for 6 adults.|suggest
+SYS|The 4 star Aquamarine Majesty Hotel available for 13 days and the 3 star Hotel Opportunity available for 9 days.|suggest
+SYS|Any preference?|suggest
+USR|Those both sound very suitable.|request
+USR|What would be the dates of travel for the Majesty Hotel|request
+SYS|The Aquamarine Majesty Hotel is available from Sept 2nd to Sept 13.|inform
+SYS|It is located by the park and museum and offers free wifi and free parking.|inform
+USR|That sounds quite ideal.|inform
+USR|Just to appease some other difficult colleagues, what would be available in Mexico City for the same date range?|inform
+USR|Lets search that for ... 2 adults|inform
+SYS|I have hotels available in Mexico City for 6 days and for 12 days.|inform
+SYS|Do you prefer the 12 day stay?|inform
+USR|Yes, please.|request
+USR|The longer the better.|request
+USR|What is the hotel like?|request
+SYS|Your 12 day stay at the Exalted Willow Resort & Suites, a 3.5 star rated hotel, will include free parking and free wifi.|inform
+SYS|It is located near the beach and close to shopping.|inform
+SYS|The dates of departure and return are Sept 2 to Sept 13.|inform
+USR|Well, same dates for both.. ok.. I like both honestly.|request_compare
+USR|I guess lets see which package is cheaper.|request_compare
+USR|How much is the Majesty package in Osaka|request_compare
+SYS|The price for 6 adults at The Aquamarine Majesty Hotel is 19573.81USD.|inform
+SYS|The price for 2 adults at the Exalted Willow Resort & Suites in Mexico City is 2227.91USD.|inform
+USR|That's great, thank you.|request_compare
+USR|Ok, so there are a lot of folks on my team I think...
+Would both of these packages be available for 13 adults?|request_compare
+SYS|The Aquamarine Majesty has availability for 13 people at a cost of 42409.93USD.|offer
+SYS|The Exalted in Mexico City also has availability for 13 at  14481.44USD.|offer
+USR|I guess we should go with Mexico City as it is noticeably more affordable
+Can you book that for me?|inform
+SYS|I will proceed with booking the Exalted Willow Resort & Suites in Mexico City for 13 people from September 2nd to September 13th, 2016.|inform
+SYS|Confirmation will be sent to you shortly.|inform
+USR|Thank you so much :smile: Can't wait!|thankyou

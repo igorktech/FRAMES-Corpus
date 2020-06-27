@@ -1,0 +1,18 @@
+USR|Hi, I'd like to book a trip for my family please.|inform
+SYS|Ok - how many of you are there?|request
+USR|We're a pretty big family.|inform
+USR|We'll be 9 kids and 10 adults.|inform
+SYS|Ok!|request
+SYS|And where do you want to go?|request
+USR|We want to go from Kabul to Hiroshima.|inform
+SYS|I have a lovely package from Porto Alegre to Hiroshima for 69238.30USD.|suggest
+USR|Right, but we'll be coming from Kabul.|inform
+SYS|Would you be able to leave from Puebla?|suggest
+USR|No.|inform
+USR|we'll all be coming from Kabul.|inform
+SYS|I can not accommodate departures from Kabul unfortunately.|sorry
+USR|Oh the whole family was looking forward to a trip to Hiroshima, especially the children.|inform
+SYS|You can leave from Goiania?|suggest
+USR|Well, we're already all in Kabul so Kabul is the only place we can leave from.|inform
+SYS|No, I cannot find anything out of Kabul.|no_result
+SYS|I do not know how to make this any clearer.|no_result

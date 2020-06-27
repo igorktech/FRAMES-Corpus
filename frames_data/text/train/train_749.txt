@@ -1,0 +1,8 @@
+USR|I need to get to Kabul, can you help me out here?|inform
+SYS|Yes, indeed I can!|request
+SYS|Where would you be leaving from?|request
+USR|I live in Munich.|inform
+SYS|Unfortunately we do not fly directly from Munich to Kabul.|sorry
+SYS|Is there an alternate destination that I could arrange for you?|sorry
+USR|You've got nothing else?|request_alts
+SYS|I’m sorry  - nothing :disappointed:|sorry

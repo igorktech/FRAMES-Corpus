@@ -1,0 +1,24 @@
+USR|Hey I have an internship abroad I need to check some things out.|inform
+USR|I’m leaving Kochi September 8 at the earliest.. What’s available in Naples?|inform
+SYS|Will you be traveling alone?|suggest
+USR|Yes|affirm
+SYS|I have a flight leaving Kochi on September 8 and returning on September 11 - would this work for you?|offer
+USR|Um no, I’m not taking a 3 day internship.. What’s available in Ciudad Juarez|inform
+SYS|I have a flight leaving Kochi on September 8 and returning on September 14, how does that sound to you?|offer
+USR|Better...What are the prices for each of these?|request_compare
+SYS|The price for the Kochi to Ciudad Juarez flight is 2000.61USD.|inform
+SYS|You would be staying at the 3.5 star Hotel Holiday, located near the palace!|inform
+USR|What if I went to….|inform
+USR|Pittsburgh :unamused: ?|inform
+SYS|I have a flight leaving Kochi on September 8 and returning on September 18, would you like to learn more?|offer
+USR|Yes.|moreinfo
+USR|Details.|moreinfo
+SYS|You would be staying at the Olive Bazaar Inn & Suites, located near the airport, park, and museum.|inform
+SYS|Amenities include free breakfast, free wifi, and free parking, and guests have given this hotel a 8.22/10 rating.|inform
+SYS|The total cost of this package is 3244.66USD.|inform
+USR|Ok that’s what guests gave it but what’s its actual rating?|request
+SYS|The Olive Bazaar Inn & Suites boasts a 2.5 star rating|inform
+USR|Ok, I’ll stay at the palace in Ciudad Juarez.|inform
+SYS|Excellent!|inform
+SYS|I have completed your booking for you.|inform
+SYS|Have a wonderful trip!|inform

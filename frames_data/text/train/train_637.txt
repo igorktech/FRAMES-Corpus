@@ -1,0 +1,30 @@
+USR|Hey looking for a sweet deal on a family vacation|inform
+SYS|Where to?|request
+USR|Paris is one possibility|inform
+SYS|Where are you leaving from?|request
+USR|Valencia|inform
+SYS|Do you have a budget?|request
+USR|Yes 3400 dollars|inform
+SYS|How many people are travelling?|request
+USR|2 kids and 2 adults|inform
+SYS|When would you like to leave?|request
+USR|august 30 or after|inform
+SYS|We have a 4 star hotel, 8.49/10 guest rating, free breakfast and wifi, from August 31st to September 8th, the business class package is 3354.79, the economy class package is 2749.29.|offer
+USR|Is it in the shopping district - the hotel|request
+SYS|My database did not provide me this information.|inform
+USR|What would be available in Seattle - anything for our budget?|inform
+SYS|There is nothing in Las Seattle that meets your requirements.|no_result
+USR|Fine.|inform
+USR|Sao Paulo?|inform
+USR|Anything?|inform
+SYS|No sorry.|sorry
+USR|What if budget increases by 1000?|inform
+SYS|No sorry.|sorry
+USR|Nothing in Seattle either with budget increase?|inform
+SYS|No sorry.|sorry
+USR|Fine ok well lets just book Paris|inform
+SYS|Okay!|inform
+SYS|Your flight has been booked!|inform
+SYS|Thank you for using our services!|inform
+SYS|Have a great day!|inform
+USR|Thanks|thankyou

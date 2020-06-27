@@ -1,0 +1,22 @@
+USR|Hello, you can get my friend and me to Mexico City.|inform
+USR|From Puebla - this shouldn’t be difficult|inform
+SYS|How much are you willing to spend?|request
+USR|Get us there whenever but get us back before September 21.|inform
+USR|We are willing to spend whatever it takes to get the best flights and hotels
+Don’t bother if its not 4.5 stars or better|inform
+SYS|The very best in Mexico City is only a 3.5 star hotel.|suggest
+SYS|It has a 8.37/10 guest rating though.|suggest
+SYS|Will this suffice or do you want to try another city instead?|suggest
+USR|Try Santo Domingo|inform
+SYS|In Santo Domingo I can get you a business package at a 4 star hotel with 8.8/10 guest rating.|offer
+SYS|It offers free wifi, breakfast, and parking and is conveniently located near the beach and shopping.|offer
+USR|What dates?|request
+SYS|September 7 to 20.|inform
+USR|Sign us up|inform
+SYS|Confirmed.|inform
+SYS|You are going to Santo Domingo!|inform
+SYS|2477.25 total for everything.|inform
+SYS|The confirmation email is on its way.|inform
+SYS|Anything else I can do for you?|inform
+USR|did you book us business class?|request
+SYS|Of course, business it is!|affirm

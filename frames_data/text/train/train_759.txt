@@ -1,0 +1,19 @@
+USR|hey, i would like to find an affordable package to Hiroshima from Alexandria.|inform
+SYS|That sounds like fun!|request
+SYS|How many people will be traveling?|request
+USR|Just me, it's my first time travelling alone, im super nervous|inform
+SYS|Don't worry, I will do my best to find you the perfect trip!|request
+SYS|Do you have a budget or travel dates in mind?|request
+USR|I only have 1800.|inform
+USR|and i'd like to travel between August 31st and September 15th.|inform
+SYS|Unfortunately I do not have any trips within your budget :disappointed: Do you have an alternative destination?|sorry
+USR|Phoenix?|inform
+SYS|Yes I've got a few options for Phoenix!|offer
+SYS|You can get a 7 day stay at a 3 star hotel with a 6.91/10 guest rating for 775.58, or you can get a 9 day stay at a 2.5 star hotel with a 7.06/10 guest rating for 973.3.|offer
+USR|I think I'll take the first one!|switch_frame
+SYS|Would you like to upgrade the package to business class for a price of 918.37?|offer
+USR|no i'll take the economy package please.|inform
+SYS|No problem!|inform
+SYS|I will book for you the 7 day economy package for $775.58.|inform
+SYS|You will receive an email confirmation shortly!|inform
+USR|ok thanks|thankyou

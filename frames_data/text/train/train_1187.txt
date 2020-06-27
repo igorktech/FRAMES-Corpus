@@ -1,0 +1,17 @@
+USR|I want to go to Kingston from Queenstown with my bestie!|inform
+USR|Can you get me there?|inform
+USR|I want the best you have!|inform
+USR|Highest ratings!|inform
+SYS|Queenstown to Kingston for how many adults?|inform
+USR|Just me and my friend.|inform
+SYS|When would you like to go and for how long?|request
+USR|Anytime but soon cuz my bday is in a few days and is doesnt matter how long|inform
+SYS|I have a departure of Sept 12 for a 6 day package to the Ebony Manor Inn & Suites in Kingston, which is our highest rated hotel in Kingston with a 4 star rating.|offer
+SYS|If you wanted to go for a longer stay at the Ebony Manor Inn & Suites, the departure date would be Sept 18 and you could stay for 12 days.|offer
+USR|Do you have any 5 star hotels in Osaka???|inform
+USR|I dont want the paparazzi seeing me in anything below 5 stars, embarrassing!|inform
+SYS|The highest rated hotel we have in Osaka is the Aquamarine Majesty Hotel, also a 4 star hotel.|offer
+USR|Anything in Antonioo?|inform
+SYS|Unfortunately in San Antonio, we only have 2 star hotels available|sorry
+USR|That's unacceptable.|request_alts
+USR|Find me something better.|request_alts

@@ -1,0 +1,28 @@
+USR|Hello|greeting
+SYS|Hello!|greeting
+USR|I’ve been recently graced with a week’s vacation allowance and so I’m looking to see where exactly I should go.|inform
+USR|I’ll be departing from Rome and I can take my time off on or after September 7th|inform
+SYS|Lucky you!|request
+SYS|Do you have a budget in mind?|request
+USR|Not within reason.|inform
+USR|I haven’t taken a trip in a couple years so I’m not particularly penny-pinching|inform
+SYS|I see.|offer
+SYS|I can book you trips to Fortaleza, Rio de Janeiro, Campinas, Burlington, or Belem.|offer
+SYS|Any of these interest you?|offer
+USR|Ahh sure - can I hear some more about Fortaleza?|switch_frame
+SYS|Sure!|inform
+SYS|In Fortaleza we have a 3 star hotel rated 7.15/10 by guests.|inform
+SYS|It is close to a mall and offers free parking, free breakfast, and free wifi.|inform
+USR|Can you tell me what the Burlington hotel would be like?|switch_frame
+SYS|It would be a 2.5 star hotel in the heart of Burlington with 6.77/10 guest rating, free parking, and free wifi.|inform
+USR|How about Belem with a higher rating?|inform
+SYS|You are in luck!|inform
+SYS|In Belem we have a 4.5 star beachside hotel with 8.8/10 guest rating, free wifi, free breakfast, and free parking.|inform
+USR|What’s the price?|request
+SYS|3043.42 if you want to fly business.|offer
+SYS|2373.56 if you want to fly economy.|offer
+USR|Business please.|switch_frame
+SYS|Sounds good!|inform
+SYS|It is booked for you!|inform
+SYS|Anything else I can do for you today?|inform
+USR|That’s about it- thanks so much!|thankyou

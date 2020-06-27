@@ -1,0 +1,37 @@
+USR|I absolutely positively must get my parents out of Salvador as long as possible between September 17 and October 8!:persevere:|inform
+SYS|Okay, where would you like to go?|request
+USR|Not me, I'm not going anywhere!|inform
+USR|I need THEM out of town!|inform
+USR|Send them anywhere you can!|inform
+SYS|So would that just be two adults then?|request
+SYS|And is there a budget?|request
+USR|Yes my mom and dad.|inform
+USR|I have $5700 in savings.|inform
+USR|It has to be something romantic coz I'm giving it to them as an "anniversary" gift.|inform
+SYS|I found an excellent 18 day package at a 3 star hotel by the beach in Atlanta, US, costing a grand total of 4889.80.|suggest
+SYS|Would you be interested in booking this trip?|suggest
+USR|3 star?!?|inform
+USR|They'll never go for it....they like luxury.|inform
+USR|Got anything that's like a 5 star?!|inform
+SYS|The closest thing I have is a 15 day package to Rosario with a 4 star hotel.|suggest
+SYS|They can fly with business class, costing at a total of 2624.13.|suggest
+SYS|Would you be interested in booking this?|suggest
+USR|How about something on the beach?|inform
+USR|My mom likes to suntan.|inform
+SYS|I'm afraid of all the options I have, there is no hotel by the beach that is above 3 stars.|sorry
+SYS|Would you be interested in booking a 3 star hotel by the beach?|sorry
+USR|The 4 star hotel in Rosario, what's that one like?|moreinfo
+SYS|The hotel has a rating of 8.86 out of 10 and you can do some great shopping in the area.|inform
+SYS|Breakfast and wifi is included with the package, and it departs on Friday September 23rd, returning to Salvador on Friday October 7th.|inform
+USR|k the 23rd should be good...enough time to prepare for the competition.|negate
+USR|I don't want to spend all my savings though...they don't need to fly on business class that;s for rich people.|negate
+USR|Whats it cost on economy?|negate
+SYS|The package with economy class would cost a total of 2204.67 USD.|suggest
+SYS|Would you like me to book this package to Rosario for you?|suggest
+USR|YES!!!!|affirm
+USR|Lets get them outta town!|affirm
+SYS|Perfect.|inform
+SYS|The booking is complete.|inform
+USR|Thanks! :|thankyou
+USR|airplane::joy:|thankyou
+SYS|You're welcome!|you_are_welcome

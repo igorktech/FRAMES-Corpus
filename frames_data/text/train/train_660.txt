@@ -1,0 +1,21 @@
+USR|Hello.|inform
+USR|me and my grand child would like to go on a a trip.|inform
+SYS|Can you give me more information on what your requirements are?'|null
+USR|I won 3300 on the slots and would like to go to Kobe|inform
+SYS|Cool!|request
+SYS|Do you have any dates in mind?|request
+USR|I'm available from September 12 to the 26th|inform
+SYS|Where will you be flying from?|request
+USR|phoenix.|inform
+SYS|Nothing goes from Phoenix to Kobe on your budget.|no_result
+SYS|Any alternate destinations?|no_result
+USR|I can go to Burlington, I suppose.|inform
+SYS|I can get you to Burlington...how would you like to stay at the Celestial Inn & Suites?|offer
+USR|This hotel... Does it have amenities?|request
+SYS|They offer free breakfast and wifi!|inform
+USR|When does my airplane take off to take me to Burlington?|inform
+SYS|The flight departs at 10:00AM on September 12, and the return flight departs at 3:00AM on September 18.|inform
+USR|This is terrible.|negate
+USR|I cannot leave at 3 am!|negate
+SYS|All of our return flights from Burlington depart at 3:00AM.|inform
+USR|Goodbye, you can't offer me a good trip!|goodbye

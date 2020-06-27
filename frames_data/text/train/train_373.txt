@@ -1,0 +1,16 @@
+USR|I need to get to Beijing so I can get a picture of Madonna and her huge popstar friend, Greg.|inform
+SYS|OK!|suggest
+SYS|Would you like to travel to Atlanta instead?|suggest
+USR|No, they aren't going there.|inform
+USR|I need to get to Beijing from Mexico City and I need to leave yesterday.|inform
+USR|I have 2700.|inform
+USR|If I need to I can increase my budget by 1000|inform
+SYS|I’m sorry but I have no flight packages to Beijing.|sorry
+SYS|How about Punta Cana?|sorry
+USR|ew no.|inform
+USR|I need to go to Beijing|inform
+SYS|Would you like to go to Atlanta?|suggest
+USR|nope I want to go to Beijing|inform
+SYS|I’m sorry but I cannot book you a travel package to Beijing.|sorry
+SYS|How about Punta Cana?|sorry
+USR|nope, I guess I'll have to find another way to get to Beijing....... peace out|goodbye

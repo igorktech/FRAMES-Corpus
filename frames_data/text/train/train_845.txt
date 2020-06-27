@@ -1,0 +1,18 @@
+USR|I need a vacation.|inform
+USR|A real vacation.|inform
+USR|My boss finally allowed me to take time off between September 8 and September 14.|inform
+USR|The heat in Valencia has been awful this summer.|inform
+SYS|Ok!|request
+SYS|Where would you like to go?|request
+USR|San Juan.|inform
+USR|I heard it's cooler there.|inform
+SYS|I have availability at the Fairyland from Sept 8-13.|offer
+SYS|This hotel is 4 stars with a 8.98/10 guest rating.|offer
+SYS|Its close to a museum, shopping, and market.|offer
+SYS|The hotel also has free wifi for guests.|offer
+USR|Wow that sounds awesome!|request
+USR|How much?|request
+SYS|2499.35USD for this seven day package.|inform
+USR|Thank you please reserve that for me, I'm so excited!|inform
+SYS|Yes, you’ve got it.|inform
+SYS|Enjoy your stay.|inform

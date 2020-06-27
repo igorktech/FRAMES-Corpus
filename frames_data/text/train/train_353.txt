@@ -1,0 +1,38 @@
+USR|Hello online, I am the happiest man on earth!|inform
+USR|I have 4 beautiful children, a beautiful wife, a great life and on top of it all my beautiful wife has now let me look after what we hope will be a beautiful vacation.|inform
+USR|I have $8600, let's look at some possible fun trips for me, plus my beautiful wife, PLUS my beautiful family.|inform
+SYS|I would be happy to help you with that!|request
+SYS|Where will you be departing from and do you have any destinations in mind?|request
+USR|We live in beautiful Frankfurt!|inform
+USR|I don't know, I was asked to look into Munich.|inform
+SYS|I have a luxury package to offer you:  A  six day stay at the Regal Bluff, a 5 star hotel close to a university.|offer
+SYS|You could even fly there in business class for 1752.90USD and still be way under your budget.|offer
+SYS|The dates of this package are from September 6th to 11th.|offer
+SYS|Do those work for you?|offer
+USR|We were hoping for a longer vacation!|inform
+USR|That one sounds very nice and luxurious but let's check out beautiful Paris?|inform
+SYS|The longest package I have for Paris is a 9 day holiday at the 4 star Autumn Treasure Hotel.|hearmore
+SYS|Would you like more details about this option?|hearmore
+USR|yes absolutely|moreinfo
+SYS|Ok so complimentary breakfast and wifi are included in the price of 2698.30USD.|suggest
+SYS|The package would be 3171.76USD if you preferred to fly in business class.|suggest
+SYS|The dates of your stay would be from August 31st to September 8th.|suggest
+USR|That one sounds pretty good.|inform
+USR|I need to look at your packages in Belem, see if there is anything on the beach there.|inform
+SYS|I have several options for you.|offer
+SYS|The first is an 11 day holiday at the Zion Hotel.|offer
+SYS|It is a 4.5 star hotel by the beach.|offer
+SYS|The price includes free breakfast wifi and parking.|offer
+SYS|The dates this package are from August 24th to September 2nd and it would cost you 5530.24USD.|offer
+USR|That's a bit too soon for us|negate
+SYS|What dates would you prefer?|request
+USR|We can only travel during beautiful September from the 1st to the 14th|inform
+SYS|Then I can offer you a shorter stay at the same hotel from September 8th to the 14th.|offer
+SYS|This 8 day package would cost you 4930.52USD in economy.|offer
+USR|I kinda like this one myself!|goodbye
+USR|There's no way I can book without wifey's approval.|goodbye
+USR|I will let her know about all the fantastic packages you have available and we will call you back to confirm.|goodbye
+USR|Thank you for all your help, life is beautiful!|goodbye
+SYS|Glad to be of use!|goodbye
+SYS|I look forward to hearing from you soon.|goodbye
+USR|:+1:|null

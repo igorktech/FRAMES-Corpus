@@ -1,0 +1,27 @@
+USR|Hi there, I need to go from Minneapolis to my internship but I don’t have much money to spare.|inform
+USR|Could I do Detoit for less than 1400?|inform
+SYS|Do you need to be there for certain dates?|request
+USR|Yes I do.|affirm
+USR|It needs to be between August 27 and Sept 8|affirm
+SYS|No worries!|offer
+SYS|I have 2 packages to offer you at The Regal Resort.|offer
+SYS|The first is 7 days from August 28th to September 3rd and the second is 6 days from August 27th to September 1st.|offer
+SYS|This is a 3 star hotel with free wifi, breakfast and parking and it has guest reviews of 8.86/10.|offer
+USR|Thats all under my budget?|request_compare
+SYS|Yes!|offer
+SYS|You could even fly in business class and you would still be under budget.|offer
+USR|Thats incredible!|inform
+USR|The problem is, I want to find a longer stay if possible, even if it means changing city.|inform
+USR|Can you share the options for Fortaleza?|inform
+SYS|Unfortunately we do not have flights between those cities.|sorry
+SYS|Is there anywhere else you were considering goin?|sorry
+USR|Yes, please check for Puebla also|inform
+SYS|I have a slightly longer stay to offer you here: 9 days at Los Campeones.|offer
+SYS|This is a 4 star hotel with free breakfast, wifi and parking and once again even business class tickets would be an option for you.|offer
+USR|Wow!|inform
+USR|Ok that sounds like the best choice then.|inform
+USR|Please help book this one for me|inform
+SYS|No problem!|goodbye
+SYS|I'll go ahead and book it for you right now.|goodbye
+SYS|Enjoy your trip!|goodbye
+USR|Thanks!|thankyou

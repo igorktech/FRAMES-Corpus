@@ -1,0 +1,10 @@
+USR|Recife to Pittsburgh for 4 adults.|inform
+USR|Only 5 star hotels|inform
+SYS|I only have 2.5 star rated hotels in Pittsburgh|inform
+USR|Check Fukuoka then|inform
+SYS|In Fukuoka, my search only turns up 3.5 star rated hotels|inform
+USR|Vancouver?|inform
+SYS|I don't have any 5 star rated hotels there either but I do have the Western Ridge with a rating of 4 and a perfect guest rating of 10/10.|offer
+USR|yeah but the hotel isn't 5 stars.|inform
+USR|You should try harder to find me a 5 star hotel, it's my birthday!|inform
+SYS|Unfortunately, we do not have any 5 star rated hotels available in any of those cities at this time|sorry

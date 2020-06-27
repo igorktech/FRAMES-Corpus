@@ -1,0 +1,23 @@
+USR|so, hello there..|greeting
+SYS|Hello to you also|greeting
+USR|I need a getaway to do some writing looking to leave seattle
+what can you give me in burlington for 2 adults and one kid|inform
+SYS|Date of departure?|request
+USR|doesn’t matter, just looking to spend around 9 days|inform
+SYS|We have a few options for you.|request
+SYS|Do you have a certain amount of money to allocate to this trip?|request
+USR|that’s the thing… I only made about 1200 on my last book|inform
+SYS|$1200 will not cover any of our 9 day packages in Burlington, perhaps we can lower the amount of days?|suggest
+USR|ah, yeah sure.. first can you see if it would buy 9 days in Phoenix?|inform
+SYS|No there is nothing available in Phoenix for that rate at all.|no_result
+USR|oh dear.. ok well just see if there’s anything in Burlington for a lower date range|inform
+SYS|The lowest I have in Burlington is 2056.86USD, on a 9 day package.|suggest
+SYS|Are you able to raise your budget a bit?|suggest
+USR|you know what, frig it.. yeah lets do it|inform
+SYS|would you like some more details before we proceed with the booking?|hearmore
+USR|well is this the only package within this price range?|confirm
+SYS|yes|affirm
+USR|in that case, just book it,, I’m just happy to get away and clear my head|inform
+SYS|I will proceed with the booking and send you all the details.|inform
+USR|great.|thankyou
+USR|thank you!|thankyou

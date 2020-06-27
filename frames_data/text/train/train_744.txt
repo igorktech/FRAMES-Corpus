@@ -1,0 +1,19 @@
+USR|You can help get myself, my lawyer Bruce, and my girls Tanya and Robin to Rome|inform
+SYS|Ok!|confirm
+SYS|So that’s 2 adults, 2 children?|confirm
+USR|Rumours abound of a croissant so good, whoever eats it enters into an state of absolute grace.|inform
+USR|I must find this product and sell it at my St. Petersburg bakery.|inform
+USR|yeah, you know.|inform
+SYS|Are you leaving from St. Petersburg?|confirm
+USR|I am|affirm
+SYS|And are you travelling with a budget?|request
+USR|8800 USD|inform
+SYS|And would you prefer to stay at a 4 star hotel or an unrated facility?|suggest
+USR|4 stars please|inform
+SYS|Ok!|offer
+SYS|I have the Hotel Emerald Legacy for 6 days at a price point of $7986|offer
+USR|What are the amenities?|request
+USR|Bruce is a baby about these things|request
+SYS|Hotel Emerald Legacy has free breakfast and free wifi, as well as a guest rating of 8.22/10.|inform
+USR|Ok I will relay this information to him.|thankyou
+USR|How do I confirm?|thankyou

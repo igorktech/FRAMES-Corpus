@@ -1,0 +1,18 @@
+USR|book me from COLORADO to athens|inform
+SYS|Do you have a budget?|request
+USR|0.0042 million USD|inform
+SYS|How many people are travelling?|request
+USR|1 mega-stud.|inform
+USR|i.e. me|inform
+SYS|When would you like to leave?|request
+USR|anytime between now and the end of the universe|inform
+SYS|Theres a business flight for 4495.97.|offer
+SYS|This is at a 3 star hotel near a mall, with a 0/10 guest rating, free parking, and wifi.|offer
+SYS|This trip is from August 30th to September 6th.|offer
+USR|0 guest rating, you think i want to get murdered or something?|inform
+USR|get me to stuttgart instead|inform
+SYS|This is a 3 star hotel, 7.15/10 guest rating, business class, near a museum, free parking, breakfast, and wifi, departing September 2nd, returning September 14th, price 2993.87.|offer
+USR|Thats more acceptable, let's do it|inform
+SYS|Great!|goodbye
+SYS|It's booked!|goodbye
+SYS|Have fun!|goodbye

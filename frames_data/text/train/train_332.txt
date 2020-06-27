@@ -1,0 +1,34 @@
+USR|Hi I need to get a way as soon as possible before I totally lose it....|inform
+SYS|Hi there, can I help you book a trip today?|greeting
+USR|look, I have lots of money help me find a trip to Kyoto for me and my friend she needs to get away too|inform
+SYS|From which city would you be departing?|request
+USR|I'm in toronto right now my friend will be here by tonight|inform
+SYS|Excellent, just to make sure: you are looking to book for two adults?|confirm
+USR|yes!|inform
+USR|for my friend and I as soon as possible I'm going crazy!|inform
+USR|just make sure we are back by sept 6|inform
+SYS|Would a trip departing on August 22 and returning on August 30 work for you?|suggest
+USR|yes it would but it has to have a spa and gourmet food|inform
+SYS|Unfortunately, I do not have enough information on availability of a spa and gourmet food, but I am pleased to say that I have located a hotel which serves free breakfast.|sorry
+SYS|Would you like to hear more about this package?|sorry
+USR|is it a five star hotel we only want a five star and if theres no spa at least a beach|inform
+SYS|Unfortunately, I am unable to locate a five star hotel in Kyoto at this time.|sorry
+SYS|Would you like to hear more about packages involving a different type of hotel?|sorry
+USR|what do you have in SL?|inform
+USR|there must be something in SL!|inform
+SYS|I have located a five star hotel in SL, but the return date is on September 7.|offer
+SYS|Would you like to hear more about this package?|offer
+USR|yes!!!!!!!|switch_frame
+SYS|Great!|suggest
+SYS|You would be staying at the prestigious Lunar, a five-star hotel with a guest rating of 8.98/10.|suggest
+SYS|The hotel features free breakfast and free wi-fi, and your trip will be from August 27 to September 7.|suggest
+SYS|For two adults, the cost would come to  3420.46.|suggest
+SYS|Would you like for me to confirm this booking?|suggest
+USR|is it close to the beach|request
+SYS|Unfortunately, I cannot confirm whether it is in close proximity to the beach.|sorry
+USR|can you book us on business class we do not fly economy|inform
+SYS|I am pleased to inform you that in anticipation of your needs, the aforementioned trip is for a business class flight! :|inform
+SYS|slightly_smiling_face:|inform
+USR|perfect this is just what we need thank you please book us and keep it to yourself|inform
+SYS|I will do just that, and send you an email confirmation shortly.|inform
+SYS|Have a great trip!|inform

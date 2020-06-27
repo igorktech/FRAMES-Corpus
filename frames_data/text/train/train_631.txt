@@ -1,0 +1,31 @@
+USR|Hi, I want to take my kid to Maceio.|inform
+USR|Will you be able to help me with this trip?|inform
+SYS|Yes.|request
+SYS|Where will you be leaving from?|request
+USR|Sorry forgot to tell you!|inform
+USR|We're in Paris.|inform
+SYS|How many people altogether?|request
+USR|So myself and my child|inform
+SYS|What is your budget?|request
+USR|Nothing specific in mind.|inform
+USR|Can you show me a few options to help me decide?|inform
+SYS|Sure, when would you like to leave?|request
+USR|We don't have a preference.|inform
+USR|We just want to go for a few days... maybe a week|inform
+SYS|There are no results.|suggest
+SYS|Can you leave from a different location?|suggest
+USR|We could also leave from Sao Paulo|inform
+SYS|There are no results for this either.|no_result
+USR|Sorry my bad.|negate
+USR|I meant we can also go to Sao Paulo instead of Maceio.|negate
+SYS|We have a 3 star hotel in the heart of the city, near a cathedral, and theatre.|offer
+SYS|There is a 6.91/10 guest rating and they offer free breakfast and wifi.|offer
+SYS|This is a business class flight from September 12th to 18th and the price for this package is 5881.15.|offer
+USR|We could actually do with economy flights|inform
+SYS|Yes, the economy package is 4576.56.|offer
+USR|That works!|inform
+USR|Can you book it for me?|inform
+SYS|Sure!|inform
+SYS|It is booked and you will receive a confirmation email soon!|inform
+SYS|Have a great day!|inform
+USR|Awesome thanks!|thankyou

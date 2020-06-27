@@ -1,0 +1,40 @@
+USR|Hi!|inform
+USR|I want to go to Sendai!|inform
+USR|Can you help me get there?|inform
+SYS|Where are you leaving from?|request
+USR|I can leave from Queenstown.|inform
+SYS|Do you have a budget?|request
+USR|If you can find something under 4100, that'll be awesome!|inform
+SYS|Are you travelling by yourself?|suggest
+USR|You bet!|affirm
+SYS|When would you like to leave?|request
+USR|My dates are flexible|inform
+SYS|We have two 4 star hotels, one with 8.8/10 guest rating and the other with 8.49/10 guest rating.|offer
+USR|Cool!|request_compare
+USR|I have a hard time choosing between the two...
+Can you tell me a bit more about them?|request_compare
+SYS|The 8.8 guest rated hotel is near a park and museum and the 8.49 guest rated hotel is close to shopping and a museum.|inform
+SYS|Both offer free wifi.|inform
+USR|Okay I see...I was also thinking about Ciudad Juarez.|inform
+SYS|We have 3.5 and 3 star hotels.|offer
+USR|Can you tell me a bit more about the Ciudad Juarez options?|moreinfo
+SYS|One has a 8.8/10 guest rating and offers free parking, breakfast and wifi, and is also near a palace.|offer
+SYS|The other one has a 8.86/10 guest rating and offers free parking, breakfast and wifi, and is near a market.|offer
+USR|Okay I see, how much is the 8.86/10 one?|request
+SYS|There is a business package from September 14th to 20th that is 3281.00 and the economy package for this is 2537.44.|offer
+SYS|There is another package from September 8th to 13th, the business package is 4039.10 and the economy package is 3123.74.|offer
+USR|And can you also check for me how much is the 8.8/10 Sendai hotel?|switch_frame
+SYS|There is one package for economy which is 2161.93 and business for 2783.62 for September 7th to 22nd.|offer
+SYS|The other package is from September 2nd to 15th, economy cost is 2985.19 and business cost is 3843.61.|offer
+USR|Any shorter packages or are these the only two?|inform
+SYS|These are the only two.|inform
+USR|Okay then, of all options my favorite would me the Sep 7 trip to Sendai .|inform
+USR|What can I do to confirm this trip?|inform
+SYS|I will book it for you and you will get an email regarding confirmation of this trip.|suggest
+SYS|Would you like business class or economy?|suggest
+USR|I wouldn't kind flying business for this trip!|switch_frame
+SYS|Great!|goodbye
+SYS|Your package is 2783.62!|goodbye
+SYS|You will get the confirmation email soon.|goodbye
+SYS|Have a great day!|goodbye
+USR|Cool beans!|thankyou

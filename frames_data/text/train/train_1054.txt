@@ -1,0 +1,14 @@
+USR|I wanna lay low so i need to get out of tijuana.|inform
+USR|I think i’d like to go to rome|inform
+SYS|When would you like to leave?|request
+USR|september 16th|inform
+SYS|My earliest departure is on Sept 20th, does that work for you?|request
+SYS|How many people will be travelling to Rome together?|request
+USR|What about if i leave from Hamburg?|inform
+SYS|From Hamburg, I have departures on the 11th and on the 20th|offer
+USR|What about from Tijuana to Manaus?|inform
+SYS|From Tijuana to Manaus my earliest flights are on Sept 14th and Sept 21st|offer
+USR|From Hamburg to Manaus?|inform
+SYS|From Hamburg to Manaus I have flights on the 14th and the 20th.|offer
+USR|No i really needed to leave on the 16th.|inform
+USR|that’s okay, i’ll figure something out.|inform

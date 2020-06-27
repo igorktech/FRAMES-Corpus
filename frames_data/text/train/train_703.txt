@@ -1,0 +1,22 @@
+USR|Hello|greeting
+SYS|hello there|greeting
+USR|Could you book me a flight from Belem to Punta Cana?|inform
+SYS|One adult?|suggest
+USR|2 adults|inform
+SYS|Do you have a set date of departure?|request
+USR|No date of departure for this trip, but I would prefer earlier if possible|inform
+SYS|The earliest I have is Sept 2nd, how does that sound?|request
+SYS|That package would put you in Punta Cana for 16 days.|request
+SYS|Do you have a cap on how much you want to spend?|request
+USR|That should work.|inform
+USR|I actually don’t for this trip.|inform
+USR|But can you keep it to something reasonable, like under 6100?|inform
+SYS|This particular package on economy class flights is 4289.9USD.|hearmore
+SYS|Do you want more details on the hotel?|hearmore
+USR|is it near the airport?|request
+SYS|It is near the cathedral and the palace.|inform
+SYS|In Punta Cana, I have nothing near the airport available.|inform
+USR|Thats fine, lets just go with that|inform
+SYS|Okay your stay will be at the Sunrise Elephant Hotel and you will depart on Sept 2 and return on Sept 17.|inform
+SYS|We appreciate your booking|inform
+USR|Thanks!|thankyou

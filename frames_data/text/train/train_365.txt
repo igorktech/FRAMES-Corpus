@@ -1,0 +1,12 @@
+USR|i am leaving essen i have a budget of 3200|inform
+SYS|Sounds good.|request
+SYS|What destinations would you be interested in?|request
+USR|portland first ALSO my schedule permits me travel only between aug 23-26|inform
+SYS|Unfortunately, we do not have flights between Essen and Portland.|sorry
+SYS|Would you care to try another destination?|sorry
+USR|check bh|inform
+SYS|I'm sorry, we have no flights to the destination "bh".|sorry
+SYS|Would you like to try another destination?|sorry
+USR|you dont have any flights to birmingham yeah i find that pretty freakin hard to believe|inform
+SYS|I'm sorry, I am trying my best to provide you the best possible travel experience.|sorry
+SYS|Would you like to look up another destination?|sorry

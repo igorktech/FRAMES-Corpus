@@ -1,0 +1,6 @@
+USR|melbourne to fukuoka august 24 to august 27|inform
+SYS|Hello!|greeting
+SYS|How many people will be travelling?|greeting
+USR|5 grown ups|inform
+SYS|Are these dates flexible?|request
+USR|sure fine flexible actually no i dont wanna go any more|goodbye

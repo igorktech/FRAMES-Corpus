@@ -1,0 +1,20 @@
+USR|hi|greeting
+SYS|Hi there!|greeting
+USR|i’m feeling under the weather lately, really struggling actually i got time off between now and sept 19 so that i can regroup thinking i might do a little trip to clear my mind, asia sounds nice about now.|inform
+USR|do you do flights from alexandria to fukuoka?|inform
+SYS|Is there a certain amount you would like to spend on your package?|request
+USR|All I have left in this life is my burgeoning bank account :disappointed: So no budget, just get me something I’ll like|inform
+SYS|We can send you to Fukuoka on various packages.|suggest
+SYS|Would you like the longest possible?|suggest
+USR|Yes the longest possible|inform
+SYS|Our longest package in Fukuoka is a 10 day package at the Historic Mansion Hotel , a 3.5 star rated hotel with a free breakfast included.|offer
+SYS|Unlimited free wifi is also part of the package.|offer
+SYS|Flights for this package depart on the 10th and return on the 18th|offer
+USR|Ok keep that on hold but can you also check Busan|inform
+SYS|Alexandria to Busan?|confirm
+USR|Correct.|affirm
+SYS|The longest package to Busan is a 6 day package at the Lethargy Hotel, a 3 star rated hotel which includes your breakfast, wifi and free parking and has departures on  the 1st and on the 14th.|offer
+USR|ok no lets book for Fukuoka then, i want the longest possible trip under my dates|inform
+SYS|I am confirming your booking for one adult to the Historic Mansion Hotel , a 3.5 star rated hotel with a free breakfast and wifi included on the 10th of September at a price of 4076.95USD, with economy class seats.|inform
+SYS|Thank you and please contact us if you have any questions before departure.|inform
+USR|Great, was a blast booking with you.|thankyou

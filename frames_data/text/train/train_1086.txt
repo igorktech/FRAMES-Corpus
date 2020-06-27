@@ -1,0 +1,11 @@
+USR|Hi|greeting
+SYS|Hi there|greeting
+USR|Can you help me find a vacation package from Indianapolis to Essen for under 3500 and between September 6th and 22nd please?|inform
+SYS|I have no packages available within those parameters|no_result
+USR|Well how about to Montreal?|inform
+SYS|Neither unfortunately.|sorry
+USR|Nagoya?|inform
+SYS|Neither.|suggest
+SYS|Are you able to depart from another city?|suggest
+USR|No, I'll just go to another travel agency.|goodbye
+USR|Thanks anyway|goodbye

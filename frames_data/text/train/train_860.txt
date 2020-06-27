@@ -1,0 +1,29 @@
+USR|Hi there.|inform
+USR|Do you have flights out of Resife?|inform
+SYS|I am not sure if I understand.|confirm
+SYS|Do you mean Recife?|confirm
+USR|Yes, sorry|affirm
+SYS|It's okay, we do have many flights out of Recife.|inform
+SYS|Where is your destination?|inform
+USR|I’m not sure.|inform
+USR|But i have 13800 to spend
+5 adults 4 kids|inform
+SYS|When do you want to leave and return?|request
+USR|Sept 8 to 22 is what i’m looking for|inform
+SYS|Okay, I have quite a few options for you.|hearmore
+SYS|Would you like to know about the longest ones that fit within your budget?|hearmore
+USR|Yes please.|inform
+USR|Longest and priority for good hotels|inform
+SYS|These are the longest we have: 15 days at a 3.5 star hotel in Buenos Aires, 14 days at a 4 star hotel in Santo Domingo, 13 days at a 3 star hotel in Manaus, and 12 days at a 4 star hotel in Buenos Aires.|offer
+USR|Oh wow Santo Domingo sounds so good!|request
+USR|Is it on the beach?|request
+SYS|It is indeed!|inform
+SYS|Also close to shopping.|inform
+USR|How much is the exact cost?|request
+SYS|13100.0 for business flights or 10377.25 for economy flights.|offer
+USR|Its cool that I can actually afford business class.|inform
+USR|Lets try it|inform
+SYS|Great!|inform
+SYS|I will book the business package for your group!|inform
+SYS|Anything else you need me to do?|inform
+USR|Thats it, thank you!|thankyou

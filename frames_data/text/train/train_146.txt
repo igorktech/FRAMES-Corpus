@@ -1,0 +1,21 @@
+USR|I'm looking to go on a trip but i'm not sure where.|inform
+USR|Can I get information for a trip from Toluca to Paris From August 25th to September 9th?|inform
+SYS|Sure thing!|request
+SYS|Are you on a budget?|request
+USR|no|inform
+SYS|How about a 9 day stay at a 4 star hotel for only 516.90USD?|offer
+USR|How about a trip from Toluca to Curitiba?|inform
+SYS|How does an 8 day stay at a 3.5 star hotel for 1003.59USD sound?|offer
+USR|No thanks.|negate
+USR|Can you check trips from Toluca to Brasilia?|negate
+SYS|I can offer you a 3.5 star, 6 day stay for 1035.87 USD!|offer
+USR|hmmm.|inform
+USR|I don't know.|inform
+USR|Could you check one more, from Toluca to Hiroshima?|inform
+SYS|I've got a very nice one here.|offer
+SYS|How about a 4.5 star, 7 day stay for 1081.42 USD?|offer
+USR|No thanks but I think I will take the 9 day trip to Paris!|negate
+USR|What are the dates for this trip?|negate
+SYS|August 27th to September 4th.|inform
+USR|That sounds great!|inform
+USR|I'll take it!|inform

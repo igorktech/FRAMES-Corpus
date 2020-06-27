@@ -1,0 +1,25 @@
+USR|I should hope so.|inform
+USR|Vancouver to Berlin
+5 star hotel, business class, the works|inform
+SYS|How many are travelling?|request
+USR|AFter sept 3|inform
+SYS|Could you leave on the third?|suggest
+USR|That would not be my preference|negate
+SYS|Golden Crown Hotel and Sanctuary are both available from September 8th-17th.|offer
+SYS|Both are 5 stars and feature free breakfast and wifi.|offer
+USR|That is impressive.|request_compare
+USR|Which one do you think is more impressive?|request_compare
+SYS|Sanctuary holds a 8.8/10 user rating while Golden Crown Hotel has 8.49/10|inform
+USR|Tell me more about Sanctuary.|request
+USR|What is it near?|request
+SYS|Located near a museum, the Sanctuary package would cost $2870.53 with business class flights for a 10 day stay.|inform
+USR|amenities?|request
+SYS|Free breakfast and wifi, as previously stated.|inform
+USR|and the price is for 6 adults?|request
+SYS|No, the price is for one adult.|inform
+USR|ok multiply that by 6 and we'll have a deal|inform
+SYS|Your total will be 17223.19USD.|suggest
+SYS|Would you like to confirm booking?|suggest
+USR|Yes please|switch_frame
+SYS|Done!|inform
+SYS|Have a good trip.|inform

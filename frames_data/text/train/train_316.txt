@@ -1,0 +1,12 @@
+USR|Hi there, I'm planning a family vacation and was wondering if you could be of assistance.|inform
+USR|We are 8 adults leaving from Beijing to Kyoto|inform
+SYS|Ok!|request
+SYS|When are your dates?|request
+USR|Leaving from Sunday August 21.|inform
+USR|Flexible with return date.|inform
+USR|But we need to keep it under a budget of A budget of $2900|inform
+SYS|I have no flights departing from Beijing, I am sorry.|sorry
+USR|Do you have flights departing from Jerusalem instead?|inform
+SYS|I do not :’(|no_result
+USR|So let me get this straight You do not have any flights whatsoever leaving from Beijing, to any destination|null
+SYS|No, I do not deal with that Place I am so so sorry.|sorry

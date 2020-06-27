@@ -1,0 +1,24 @@
+USR|i want ot travel to melbourne.|inform
+USR|i will leave from kyoto|inform
+SYS|Unfortunately there are no flights heading from Kyoto to Melbourne.|sorry
+SYS|How about Sapporo?|sorry
+USR|i can leave from berlin|inform
+SYS|Unfortunately there are no flights heading from Berlin to Melbourne.|sorry
+SYS|How about Munich?|sorry
+USR|ok well i would go to Caprica as well|inform
+SYS|Unfortunately there are no flights from Berlin headed to Caprica.|sorry
+SYS|How About Hamburg?|sorry
+USR|no not hamburg, i have an outstanding warrant there.|inform
+USR|i would go to Naples instead|inform
+SYS|In that case, I would recommend flying in from Berlin, as I can offer you a six-night package at the Courtyard Resort for 640.85 USD if you leave on August 19.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|I want to try to travel between august 15 and august 18|inform
+SYS|Unfortunately the closest package I can offer you to those specifications is from the 15th of August until the 27th.|sorry
+SYS|Otherwise the earliest you could leave would be August 19th.|sorry
+USR|ok, i can be flexible on the dates... i will book the package leaving on the 19th for 15 people|inform
+SYS|Unfortunately with a party of 15 people you would need to leave by the 24th or stay until the 31st.|sorry
+SYS|Are either of these options OK?|sorry
+USR|lets book it|inform
+SYS|Your trip has been booked!|inform
+SYS|Enjoy your stay!|inform
+USR|sweet thank you|thankyou

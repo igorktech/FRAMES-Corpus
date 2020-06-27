@@ -1,0 +1,13 @@
+USR|EXCUSE ME|greeting
+SYS|Yes, hello would you like some assistance?|greeting
+USR|I WANT TO LEAVE FROM JERUSALEM.|inform
+USR|ROME I WANT TO GO WITH A DOZEN PEOPLE|inform
+SYS|I regret we do not provide package destinations from Jerusalem to Rome|no_result
+USR|WELL WHAT IF I LEAVE FORM JERUSALEM ON AUGUST TWENTY FIFTH|inform
+SYS|EVEN THEN|no_result
+USR|WELL I WILL GO TO BIRMINGHAM THEN.|inform
+USR|I WILL STILL LEAVE FROM JERUSALEM BUT I WILL ONLY BRING 2 OTHER ADULTS SO THATS 3 ADULST IN TOTAL GOT IT?|inform
+SYS|August 25th departure?|confirm
+USR|YES THAT IS  WEHN I AM GOING TO LEAVE|affirm
+SYS|I have nothing to Birmingham from Jerusalem either|no_result
+USR|YOU ARE BAD I HATE YOU|null

@@ -1,0 +1,33 @@
+USR|I'd like to go to Manaus from Miami between August 19th and September 2nd.|inform
+SYS|Sure!|request
+SYS|How many people are in your party?|request
+USR|Myself and two colleagues|inform
+SYS|Ok!|offer
+SYS|I can book you 7 days in Manas for 5775.3USD.|offer
+SYS|How does that sound?|offer
+USR|That's great!|request
+USR|What are the dates?|request
+SYS|You would leave Miami on Friday, August 19th and return on Wednesday, August 24th.|inform
+USR|Excellent!|confirm
+USR|For 3 people?|confirm
+SYS|That's right!|affirm
+USR|What amenities does the hotel have?|request
+SYS|The hotel offers free breakfast, wifi, and parking.|inform
+USR|Perfect.|inform
+USR|I'd like to also compare the prices for a trip to Kobe between the same dates.|inform
+SYS|Absolutely!|offer
+SYS|The three of you could spend 5 days in Kobe for 1735.50USD.|offer
+USR|What are the departure and arrival dates and times?|request
+SYS|You would leave for Kobe at 8:00 am on Saturday, August 27th and arrive at 9:21 am  on the same day.|inform
+SYS|Upon return, you would leave for Miami at 3:00 am on Wednesday, August 31st to arrive home that morning at 4:21 am.|inform
+USR|Looking good so far.|request
+USR|What amenities does this hotel have?|request
+SYS|This hotel has free breakfast and free wifi.|inform
+USR|And how many stars?|request
+SYS|The hotel rating is 3 stars.|inform
+USR|What about the hotel in Manas?|switch_frame
+SYS|The hotel in Manas is 2.5 stars.|inform
+USR|The Kobe package is considerably less expensive, I'll go with that one.|inform
+SYS|Great!|inform
+SYS|I will go ahead and book that for you.|inform
+USR|Thank you!|thankyou

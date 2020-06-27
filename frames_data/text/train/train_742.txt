@@ -1,0 +1,28 @@
+USR|Hello :slightly_smiling_face: Can you believe it?|inform
+USR|My psychotic boss finally gave me a few days off!|inform
+USR|I feel like a thousand pounds have been lifted off my shoulders, and I can't wait to book the perfect trip!|inform
+USR|I live in San Diego, but thinking of going to Busan|inform
+SYS|San Diego to Busan, for how many?|inform
+USR|my myself and i|inform
+SYS|For one?|confirm
+SYS|On what dates?|confirm
+USR|September 12 to 17|inform
+SYS|We have the Lethargy Hotel from Sept 12 to Sep 17.|offer
+SYS|This is a 5 day package with a value of 3566.45USD with an option to upgrade to business class.|offer
+SYS|This 3 star hotel includes free wifi, a parking space and breakfast.|offer
+USR|How do the guests rate this hotel?|request
+SYS|Guest Rating: 6.77 / 10|inform
+USR|K|null
+SYS|Should I book it for you?|suggest
+USR|I'll be honest, I'm not sold.|inform
+USR|Can you check to see if you have anything for me in Kingston?|inform
+SYS|3 or 4 star property?|offer
+USR|Only the best for this guy|switch_frame
+SYS|The Ebony Manor Inn & Suites is a 4 star property with a 8.22/10 guest rating.|inform
+SYS|This one also includes all the amenities that the Lethargy Hotel.|inform
+SYS|If you want only the best, the price is 1571.49USD via business class tickets.|inform
+USR|Ugh just book it then!|inform
+SYS|That I understand.|thankyou
+SYS|I will proceed with the booking.|thankyou
+SYS|Thank you and have a nice evening.|thankyou
+USR|You as well!|goodbye

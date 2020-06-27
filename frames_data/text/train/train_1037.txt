@@ -1,0 +1,16 @@
+USR|i want to get some work done.|inform
+USR|there are a few puppers that need my magic touch
+can you get me 4 days or more in Sendai for 5000|inform
+SYS|Leaving from where?|request
+USR|wherever|inform
+SYS|Are you travelling alone?|suggest
+USR|i have an assistant|inform
+SYS|We have 17 days from September 7th to 22nd at a 4 star hotel, 8.8/10 guest rating, near a park and museum, and free wifi.|offer
+USR|Can I leave from Alexandria and spend under 5000|inform
+SYS|Yes the trip from Alexandria is 4887.69.|offer
+USR|hmm what if I left from Milan?|inform
+SYS|4476.52.|offer
+USR|ok.|inform
+USR|book it out of Milan please|inform
+SYS|Done!|inform
+SYS|Have a great day and enjoy the trip!|inform

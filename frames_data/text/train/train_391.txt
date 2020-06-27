@@ -1,0 +1,19 @@
+USR|Good afternoon!|inform
+USR|I would like to inquire about travel options between several cities.|inform
+USR|The trip would need to be between September 8th and 17th.|inform
+USR|The first option would be between Stuttgart and Baltimore.|inform
+SYS|I have the 3 star Countryside Resort free from Sept 12-17.|suggest
+SYS|Would this interest you?|suggest
+USR|That would fit our needs quite well, does the hotel offer wifi to its guests?|request
+SYS|Certainly!|inform
+SYS|As well as free parking and breakfast.|inform
+USR|Excellent, that was quite fast!|request
+USR|Can you please book this trip for my 5 colleagues?|request
+USR|And please let me know of the price first|request
+SYS|Of course - for 5 adults the price would be 16788.89USD.|suggest
+SYS|Do you wish to continue booking&gt;|suggest
+USR|Yes, that is a reasonable price|switch_frame
+SYS|Great.|inform
+SYS|I will book it for you.|inform
+SYS|Please enjoy your stay.|inform
+USR|Thank you for you kind assistance|thankyou

@@ -1,0 +1,17 @@
+USR|I wanna go from Tijuana to Goiania for 4500|inform
+SYS|When do you want to go?|request
+USR|doesnt matter|inform
+SYS|Will it be just you?|suggest
+USR|yas|affirm
+SYS|Great!|hearmore
+SYS|We can offer you a 13 day vacation at a 3.5 star hotel with 8.69 guest ratings.|hearmore
+SYS|Would you like to know more about this option?|hearmore
+USR|yes please|switch_frame
+SYS|The hotel is conveniently located close to a museum, shopping, and airport.|inform
+SYS|While there from the 12th to the 24th, you can enjoy access to free parking, free breakfast, and free wifi.|inform
+USR|How much is it?|request
+SYS|2946.86 for economy class  and 3771.21 for business class.|offer
+USR|i’ll take business class|inform
+SYS|Alrighty!|inform
+SYS|I will process the booking for you and send you a confirmation email once done!|inform
+USR|thank ay|thankyou

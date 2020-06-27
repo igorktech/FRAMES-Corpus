@@ -1,0 +1,35 @@
+USR|I'm getting married and my wife is making me take care of the honeymoon, I better get it right or I will be in a lot of hot water :weary:|inform
+SYS|Ok!|request
+SYS|Well let me see what I can do for you today.|request
+SYS|Where are you planning on taking your honeymoon?|request
+SYS|And where will you be leaving from?|request
+USR|I am thinking of Naples.|inform
+USR|That should please her, she's difficult, you know.|inform
+USR|Wish me luck with this marriage.|inform
+SYS|Ok, I can find you a package to Naples for a great price leaving from Hamburg.|offer
+SYS|Would you like to travel from August 24-August 29?|offer
+USR|How about leaving from Portland?|inform
+USR|That is the closest other city to us.|inform
+SYS|Would you like to travel from August 24 to August 30 from Portland?|suggest
+USR|The wedding is on the 26th, so we have to leave no earlier than the 27th.|inform
+USR|What do you have in Naples for under $4100|inform
+SYS|Ok!|offer
+SYS|In that case, how about August 27-September 2 for $3211 ?|offer
+USR|Naples?|request
+USR|From Portland?|request
+USR|What kind of hotel?|request
+USR|It better be a good one or I will get in major trouble.|request
+USR|She scares me, you know.|request
+SYS|You will travel from Portland to Naples and stay in a 3.0 star hotel with a guest rating of 8.8.|inform
+SYS|You will stay in the heart of the city with museums nearby!|inform
+USR|You're lucky, dude.|request
+USR|Is breakfast included, like I said, food is important...|request
+SYS|Yes!|inform
+SYS|Free breakfast and free wifi!|inform
+USR|That sounds great dude, you are really helping me out here.|thankyou
+USR|You have no idea how much this means to me.|thankyou
+SYS|I am happy to help :slightly_smiling_face: Would you like me to book this package for you at the Courtyard Resort in Naples as I have earlier described it?|inform
+USR|Will we be flying business class?|request
+SYS|I can upgrade your flights to business class - 4119.96USD would be the total.|offer
+USR|For $19 over our budget, we might as well go business class.|inform
+USR|Yes book that now please so it's done and out of the way.|inform

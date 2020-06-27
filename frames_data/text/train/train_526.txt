@@ -1,0 +1,14 @@
+USR|Hi there, I'm a father of 2 little ones and I'd like to take my kids to visit Portland.|inform
+USR|We'll be departing from Kobe|inform
+SYS|Is that 1 adult and 2 children?|suggest
+USR|Thats correct|affirm
+SYS|Do you have a budget?|request
+USR|No budget|inform
+SYS|When would you like to leave?|request
+USR|ASAP!|inform
+SYS|Do you have a return date?|request
+USR|Try to get me back before Sept 11 if you can|inform
+SYS|There is nothing from Kobe to Portland, sorry.|sorry
+USR|We can also make Kobe to Fukuoka work if you got that?|inform
+SYS|There are no results for this request either.|no_result
+USR|Damn alright Thanks anyway|thankyou

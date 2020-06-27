@@ -1,0 +1,29 @@
+USR|Good morning!|greeting
+USR|I will be travelling with a colleague for business and we are thinking of tacking on a short vacation after.|greeting
+USR|Do you have any flights going from Punta Cana to Cairo sometime between 26 August and 9 September?|greeting
+SYS|Hi let me see if i can help you out!|greeting
+SYS|do you have a budget in mind?|greeting
+USR|It's not necessarily about money, more about what suits our schedule.|inform
+USR|If you cannot find anything from Punta Cana to Cairo, we can look at other options.|inform
+SYS|Are these dates flexible?|request
+USR|We can also leave from SF.|inform
+USR|slightly but not much|inform
+SYS|I found southern universe inn in Cairo a 2.5 star rating with free breakfast, wifi and parking leaving on August 30th until the 8th of september, all for $1710|offer
+USR|departing from what city?|request
+SYS|from Punta Cana|inform
+USR|That sound great but I want to look at another option.|request
+USR|What about from San Francisco to Manaus?|request
+USR|Anything available close to my dates?|request
+SYS|yes actually we have a few options for you, Hotel Mundo (2.5 stars), Hotel Aquamarine River (2.5 stars) and Tranquil Sanctuary Hotel (3.0 stars).|inform
+SYS|they are all 11 day stays with free breakfast, wifi, and parking|inform
+USR|same dates as Punta Cana to Cairo?|request_compare
+SYS|they are on the 27th until september 5th but the Tranquil Sanctuary Hotel is the 26th until the 4th|inform
+USR|Southern Universe in Cairo works for us.|negate
+USR|Do you have any seats available in Business class?|negate
+USR|We don't like to travel economy.|negate
+SYS|for the 26th?|confirm
+USR|for August 30 to September 8|inform
+SYS|for Business that will be $2059|offer
+USR|At the same hotel, Southern Universe?|request
+USR|if so, we'll take it!|request
+USR|Pease send me flight confirmations by email.|request

@@ -1,0 +1,26 @@
+USR|I have 0 budget, 16 days vacay, leaving from barcelona and am looking for possible destinations|inform
+SYS|I’m sorry, I am unable to work with a 0 dollar budget.|sorry
+USR|ughhhh fine, i guess i can up it to 400|inform
+SYS|I have an 11 day trip to Rome at Secret Bay for $384.|offer
+SYS|Interested?|offer
+USR|well give me more info and ill let you know|moreinfo
+SYS|The hotel is unrated but has free breakfast and free wifi.|inform
+USR|are there any other options|request_alts
+SYS|The only other option within your price range is in Santiago: the Una casa has a 7 day package for 200 dollars.|offer
+USR|what is it rated|switch_frame
+SYS|3.0 stars.|inform
+USR|does it offer anything|request
+SYS|Sorry, I don’t understand.|sorry
+USR|does it have free wifi or anything like that|request
+SYS|Oh, yes!|inform
+SYS|Free parking, free wifi, and complimentary breakfast!|inform
+USR|is it near a mall|request
+SYS|It is near a museum!|inform
+USR|I think i will book this one.|inform
+USR|is there a business flight for it?|inform
+SYS|Yes!|offer
+SYS|You can upgrade to business class for an extra 67 dollars.|offer
+USR|yeah ill do that|switch_frame
+SYS|Sure!|inform
+SYS|I’ll go ahead and book that for you then.|inform
+USR|thanks!|thankyou

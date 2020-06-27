@@ -1,0 +1,39 @@
+USR|I need to find something in Kyoto between the 17th and 30th|inform
+SYS|Sure!|request
+SYS|Leaving from where?|request
+USR|Anywhere.|inform
+USR|I have 6400 also, and my assistant will be joining me.|inform
+SYS|I have a lot of packages available at the Glorious Bazaar resort in Kyoto.|offer
+SYS|Its 3 stars and near a museum.|offer
+SYS|Breakfast and wifi are both complimentary.|offer
+USR|What is the price and the dates of travel?|request
+SYS|That depends on where you leave from.|request
+USR|What are my options?|request
+SYS|You can leave from Columbus, Cancun, Cairo, Los Angeles, St. Louis, Athens, Dublin, or Indianapolis.|offer
+USR|Where is the cheapest place to leave from?|request_compare
+SYS|Out of the above locations, St. Louis is the cheapest with a 13 day package for 4453.91USD.|inform
+USR|Okay.|request
+USR|Is the hotel near a park or a beach?|request
+SYS|No, just a museum.|inform
+USR|that wont work then.|inform
+USR|Do you have anything in Busan?|inform
+SYS|I sure do!|offer
+SYS|The Smile Hotel in Busan is rated 3 stars, 7.06/10 by guests, and is near both a park and a museum.|offer
+USR|That is good, what is the price?|request
+SYS|Leaving from Seattle, the cost for a 13 day stay from September 17-28 would be 5160.6USD with economy class flights.|inform
+USR|okay.|inform
+USR|Do you have anything to Santos near a park but with a lower price than the Busan package?|inform
+SYS|I can likely find you a lower price to Busan if you suggest a different departure city.|suggest
+USR|I don’t care where I depart from|inform
+SYS|Well if you leaving from Nagoya instead of Seattle you can have the same package as above for 973.74USD in Busan.|offer
+USR|Okay that would be great!|inform
+USR|Can you still check Santos for me though?|inform
+SYS|Sure.|offer
+SYS|I have numerous availabilities at Hotel Globetrotter, a 3 star hotel with 8.37/10 from users and free breakfast and wifi.|offer
+SYS|The hotel is located in close proximity to a shopping district.|offer
+USR|is it near a park or beach?|switch_frame
+SYS|It is near a shopping district.|inform
+USR|okay so not near a park or beach then?|confirm
+SYS|It is near a shopping district.|inform
+USR|you are being unhelpful just answer yes or no, is it near a park or beach?|request
+SYS|It is near a shopping district.|inform

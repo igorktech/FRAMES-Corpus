@@ -1,0 +1,7 @@
+USR|Hi.|inform
+USR|Need to get to Sapporo
+Leaving Baltimore
+Sept 9-13
+Between those dates.|inform
+USR|Not flexible.|inform
+SYS|I apologize for the inconvenience but we do not have flights available on those dates.|sorry

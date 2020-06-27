@@ -1,0 +1,19 @@
+USR|Ah Jeez.|inform
+USR|I need to travel from Puebla to Buenos Aires.|inform
+USR|I have a terrific reason to go, I assure you.|inform
+USR|My backstory here is impeccable|inform
+SYS|You're in luck!|offer
+SYS|I happen to have an opening at the Resort Pleasant Shield from the 19th to the 29th of August.|offer
+SYS|The total cost of this package is 2610.38USD.|offer
+USR|Wow, that's amazing, thank you.|thankyou
+USR|Thank you.|thankyou
+USR|But soft!|thankyou
+USR|My mind changes- get me from Puebla to Marseille.|thankyou
+SYS|If you're interested in Marseille, there's a 10-day vacancy at the Grand Hotel starting the 25th of August.|offer
+SYS|This package will cost you 2954.73USD.|offer
+USR|I don't have leave to travel until the 27th!|inform
+USR|Perhaps...but no... but yes!|inform
+USR|What is there in San Antonio!|inform
+SYS|If you would like to stay in San Antonio, you will have to extend your stay from the 1st until the 14th of September.|offer
+SYS|Would you like to hear more about one of these packages?|offer
+USR|Book everything.|switch_frame

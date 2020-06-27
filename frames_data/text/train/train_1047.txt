@@ -1,0 +1,24 @@
+USR|hi|greeting
+SYS|Morning!|greeting
+USR|i cant book anything so i’m just gonna waste your time so i can dream about a better life where i have vacation days left.|inform
+USR|can you check trips to cleveland from la paz|inform
+SYS|Would that be just for you?|suggest
+USR|yep|affirm
+SYS|We do not  handle travel packages from la paz to cleveland|no_result
+USR|anything to philadelphia then?|inform
+SYS|In Philadelphia, we have a partnership with the Mirror Inn, a 2 star hotel, where you can either stay for 4 days or 10 days.|offer
+SYS|It features free wifi, breakfast with 1 parking spot included.|offer
+USR|well i have 1600 in the bank so does it fall under that?|switch_frame
+SYS|A 10 day stay at the Mirror Inn, with business seats on the plane included, would run you 1044.34USD|inform
+USR|wow, yay for me.|request
+USR|can you tell me more about the hotel, is it near a beach or anything?|request
+SYS|It is near a park and museum and has a 6.61/10 guest rating|inform
+USR|cool.|inform
+USR|anything to san diego?|inform
+SYS|We have partnerships with a couple of hotels in San Diego - the 2 star Anomaly Inn & Suites and the 3 star Spare Time, both of which suit your budget.|hearmore
+SYS|Are you interested in hearing more about a particular one?|hearmore
+USR|the 3 star|switch_frame
+SYS|The 3 star Spare Time is available for a  7 day stay, is located near a park, features free wifi, breakfast and 1 parking spot, has an excellent guest rating of  8.86/10 and costs a total of 970.40USD via business class seats on the plane.|inform
+USR|ah.|thankyou
+USR|if i could book, i would book this one.|thankyou
+USR|well thanks for your time, i’ll come back next year and save my vacation days for a trip to San Diego.|thankyou

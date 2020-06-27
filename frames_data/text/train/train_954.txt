@@ -1,0 +1,9 @@
+USR|Las Vegas to Mexico City for 7 please|inform
+SYS|I have packages ranging from 8 days to 12 days, any preference?|offer
+USR|I prefer the one that lands us a stay at a five star hotel|inform
+SYS|Highest rated hotel I have available in Mexico City is a 3.5 star|offer
+USR|Lets try Rome then|inform
+SYS|Highest rated hotel I have in Rome is a 4 star.|hearmore
+SYS|Are you inetrested in these?|hearmore
+USR|You have a flagship hotel for us in Fortaleza?|inform
+SYS|3 star is our highest in Fortaleza|offer

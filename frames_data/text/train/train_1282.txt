@@ -1,0 +1,32 @@
+USR|Hi Wizard!|inform
+USR|I'm looking for a trip from Rosario.|inform
+SYS|Any special destinations in mind?|request
+USR|Can you help me check Vancouver?|inform
+SYS|I have packages between Sept 12 and September 30 and or September 20 to Oct 2.|suggest
+USR|Queenstown also sounds pretty nice!|inform
+SYS|I have a 14 day package available in Queenstown during your time period.|offer
+SYS|This is at a 4 star hotel with a 8.22/10 guest rating.|offer
+SYS|Would you like more details on it?|offer
+USR|Yes please!|switch_frame
+USR|This sounds interesting!|switch_frame
+SYS|The Emerald Mountain Hotel is a 4 star hotel located near the museum.|offer
+SYS|Their standard 14 day package includes flights and hotel stay for 14 days with access to free wifi, parking and breakfast.|offer
+SYS|This package departs on Sept 18 and returns on Sept 30th.|offer
+USR|That's not too shabby!|inform
+USR|Are there comparable deals in Manaus?|inform
+SYS|There is a 12 day package in Manaus at 3.5 star hotel with a 8.22/10 guest rating.|offer
+SYS|This package also includes access to free wifi, parking and breakfast.|offer
+USR|How about Toronto?|inform
+SYS|I have no packages from Rosario to Toronto within your parameters.|offer
+SYS|As in Vancouver, you would have to return on Oct 2nd.|offer
+USR|Can you tell me whether the Manaus hotel is close to any points of interest then?|request
+SYS|Close to the park and the market|inform
+USR|What's the price difference between the Queenstown and Manaus packages?|request_compare
+SYS|The 14 day package in Queenstown is  4454.78USD based on an economy class fare and the 12 package to Manaus is 1130.59USD based on an economy class fare.|inform
+USR|Wow Manaus is a nice deal... how much would business flights cost?|inform
+SYS|1377.36USD based on a business class flight|offer
+USR|You know what.. I think I will take this one.|inform
+USR|Can you book it for me?|inform
+SYS|Of course!|inform
+SYS|Thank you for your booking and safe travels.|inform
+USR|Thanks for your help!|thankyou

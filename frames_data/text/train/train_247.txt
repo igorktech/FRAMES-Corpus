@@ -1,0 +1,13 @@
+USR|Theed|inform
+SYS|Would you like to travel to Theed or are you travelling from Theed?|request
+USR|I wan to go to Theed|inform
+SYS|Great, where will you be leaving from?|request
+USR|Termina|inform
+SYS|When would you like to depart and do you have a budget for this trip?|request
+USR|August 13|inform
+SYS|Unfortunately I do not have any packages to Theed from Termina.|sorry
+USR|what if i give you more money|inform
+SYS|I am sorry, but we do not have any packages to Theed from Termina.|sorry
+USR|okay bye|goodbye
+SYS|Thank you for using our services.|thankyou
+SYS|Have a good day.|thankyou

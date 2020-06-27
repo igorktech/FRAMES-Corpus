@@ -1,0 +1,27 @@
+USR|Yes hi!|inform
+USR|I live in Santos and I want to book a holiday of up to 16 days.|inform
+USR|Do you have any trips I can take that fit within a budget of 0$?|inform
+SYS|I am sorry but we do not offer free trips|sorry
+USR|Really?|inform
+USR|Not even to Cordoba?|inform
+SYS|We do not offer free trips.|no_result
+USR|That's really a shame.|inform
+USR|Alright, what if I increase my budget to 400$, what can you do for me?|inform
+SYS|I can actually send you to Rio de Janeiro for 9 days for $152.86USD.|offer
+SYS|Does this interest you?|offer
+USR|That could be fun, can you give me more info about the package?|moreinfo
+SYS|You would have to be available from Aug 30 to September 7.|inform
+SYS|I can even send you in business class if you would like.|inform
+SYS|It would be at the  Hotel Fernando Ribero, which is rated 2.5 stars.|inform
+USR|Yes!!!|request_alts
+USR|Business class!!|request_alts
+USR|Can you give me other trip options?|request_alts
+SYS|For business class to the hotel Fernando Ribero, it would be 204.56USD.|inform
+SYS|All other options to Rio de Janeiro are above your $400 budget.|inform
+USR|How about to other destinations?|inform
+SYS|Hotel Fernando Ribero in Rio de Janeiro is the only one for under $400.|inform
+SYS|Would you like to book it?|inform
+USR|Yes, since 400 really is my budget, I'll book the Hotel Fernando Ribero package.|inform
+USR|It won't be the most exotic holiday, but it is a very good deal!|inform
+SYS|I will proceed with the booking.|inform
+USR|Great, thank you!|thankyou

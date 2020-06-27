@@ -1,0 +1,22 @@
+USR|Hi I would like to book a vacation from August 27th to August 30th|greeting
+SYS|Do you have a destination in mind?|request
+USR|Barcelona.|inform
+SYS|And where will you be leaving from?|request
+USR|London.|inform
+SYS|Shall I input a budget?|request
+USR|No budget.|inform
+SYS|We have the perfect 7 day 3 star package for you starting at 2551.88USD.|offer
+SYS|What do you think?|offer
+USR|Could you check a trip from London to Ulsan?|inform
+USR|I'd like to see all my options.|inform
+SYS|How about a 5 day trip to a 4 star hotel for 3284.58USD?|offer
+USR|My dates aren't flexible and i can only go from the 27th to the 30th.|inform
+USR|If there are no results, could you check a trip from London to Fukuoka?|inform
+SYS|It's your lucky day!|offer
+SYS|I have a 5 day 3 star package from August 27th to the 30th priced at 3410.60USD!|offer
+USR|Oh good!|inform
+USR|That's perfect!|inform
+USR|I'll take it!|inform
+SYS|Your reservation is complete.|inform
+SYS|I hope you have a fantastic stay and that you refer us to all your friends.|inform
+USR|Thanks!|thankyou

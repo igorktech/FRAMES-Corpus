@@ -1,0 +1,18 @@
+USR|Hi I need to go to Kabul on August 23rd|inform
+SYS|Where are you flying from?|request
+USR|oh I'm sorry I meant to say I want to leave from Kabul, not to Kabul!|negate
+SYS|And where are you going?|request
+USR|to Dublin .|inform
+SYS|We have no flight between Kabul and Dublin.|no_result
+USR|how about if I leave from Beijing?|inform
+SYS|We have no flights between Beijing and Dublin either.|no_result
+USR|okay how about from Beijing to pittsborgh for 8 of us?|inform
+SYS|8 adults?|confirm
+USR|yes|affirm
+SYS|We don't have packages to offer you for so many people between those cities.|no_result
+USR|for less people only?|inform
+SYS|Actually it appears that we do not have flights between Beijing and pittsborgh at all.|no_result
+USR|okay thanks|thankyou
+SYS|Anything else I can help you with?|null
+USR|no thank you|null
+SYS|Have a nice day!|null

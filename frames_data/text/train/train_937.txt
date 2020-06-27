@@ -1,0 +1,7 @@
+USR|hello!|inform
+USR|I'd like to book something for myself.|inform
+USR|i have quite a few vacation days coming up|inform
+SYS|What type of trip are you looking for?|request
+USR|i'm looking for a cross globe tour.|inform
+USR|from philadelphia to hiroshima|inform
+SYS|We do not have any travel packages available from Philadelphia to Hiroshima|no_result

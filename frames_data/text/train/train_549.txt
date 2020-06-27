@@ -1,0 +1,45 @@
+USR|My boss gave me 8 days off!|inform
+USR|Get me out of Kingston on Sept 6, or shortly after|inform
+SYS|Do you have a budget?|request
+USR|Not really!!|inform
+USR|I make good $$|inform
+SYS|Where would you like to go?|request
+USR|You tell me!!|inform
+USR|Open to suggestions!|inform
+SYS|The closest package to your requests is an 8 day stay from September 8th to 15th at The Glee.|offer
+SYS|This is a 4 star hotel near a park, they have 8.22/10 guest ratings, free breakfast and wifi.|offer
+SYS|This business class package costs 2946.55.|offer
+USR|Thats hard to turn down!!|inform
+USR|Would you happen to have an Asian destination for me?|inform
+USR|I've never been!|inform
+SYS|No, sorry.|sorry
+SYS|We only have flights to Germany, United States, Mexica, and Brazil.|sorry
+USR|Ooh lets hear about what you have in Germany|moreinfo
+SYS|We have one package for Munich, Germany.|offer
+SYS|This is a 5 star hotel near a university, it has a 0/10 guest rating, and free wifi.|offer
+SYS|This package is from September 10th to 17th.|offer
+SYS|The business class package is 2336.16 and the economy class is 1751.69.|offer
+USR|5 star with 0/10 guest rating?|inform
+USR|Forget that!|inform
+USR|Ok since you offer flights to the US, would you be able to get me to SL?|inform
+SYS|No, just Chicago and San Juan.|suggest
+USR|San Juan might be nice...Whats the hotel like there?|request
+SYS|Its a 2.5 star hotel, 8.49/10 guest rating, near a museum, free parking, breakfast, and wifi.|offer
+SYS|From September 18th to 25th.|offer
+SYS|Business class is 2705.80 and economy class is 2150.88.|offer
+USR|Worth considering.|inform
+USR|Could you get me to Porto??|inform
+SYS|The only flight there is to Recife.|offer
+USR|Recife is cool.|request
+USR|Could I get a hotel near some attractions?|request
+USR||request
+SYS|Recife is an 8 day stay from September 8th to 15th at The Glee.|offer
+SYS|This is a 4 star hotel near a park, they have 8.22/10 guest ratings, free breakfast and wifi.|offer
+SYS|This business class package costs 2946.55.|offer
+USR|Ok thats all I need to know, I want that one!|inform
+SYS|The trip to Recife?|confirm
+USR|Indeed|affirm
+SYS|Great!|goodbye
+SYS|This flight is booked for you!|goodbye
+SYS|Safe travels!|goodbye
+USR|Thank you|thankyou

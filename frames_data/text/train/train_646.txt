@@ -1,0 +1,54 @@
+USR|Hey hey hi!|inform
+USR|I've got a 10 day vacation break earned and can take it any time after the second of September So, I'd like to explore my options departing from Rio de Janeiro|inform
+SYS|Certainly!|request
+SYS|Do you have any companions on this trip?|request
+USR|Ah, this is a Solo trip|inform
+SYS|How about 10 days at the Bronze Luxury Hotel, a 5-star hotel with a pristine 10/10 guest rating?|offer
+SYS|I can book you from September 11 to 20.|offer
+USR|Ah wonderful, but where is it?|request
+SYS|Its in beautiful Sacramento.|inform
+USR|Where else are there packages available?|request_alts
+SYS|I can also send you to scenic Montreal, where you'd be staying at The Illustrious Haven Hotel, a 4 star establishment with a stellar 8.86/10 guest rating!|offer
+USR|What is the price?|request
+USR|Does the hotel have any included amenities?|request
+SYS|For economy class flights, the price will be 2797.81USD, and includes free parking and wifi.|inform
+SYS|it is located near a market and a mall!|inform
+USR|Well ok.. what else is there for me in terms of destinations?|request_alts
+SYS|A beachfront resort in Brasilia awaits you...namely 10 days at the Sublime Tower! :|offer
+SYS|beach_with_umbrella:|offer
+USR|awesome!!|switch_frame
+USR|What does the hotel have to offer?|switch_frame
+SYS|In addition to being near a beach, it is also in close proximity to shopping and theatres.|inform
+SYS|Amenities are stacked: free wifi, breakfast, and parking.|inform
+USR|And the rating?|request
+SYS|3.5 stars, 8.69/10 from its legions of satisfied guests!|inform
+USR|Not too shabby at all.|inform
+USR|So far that's got my eye above the others.|inform
+USR|Before I book it, are there any other trips available in my parameters that have a 4.5 or 5 star hotel?|inform
+SYS|Am I to understand that you have an unlimited budget?|request
+USR|Well I mean I'm not rolling in dough but I'm splurging here|inform
+SYS|How about the Hotel Oishi in Hiroshima?|offer
+SYS|4.5 stars, 8.86 guest rating, and near the museum.|offer
+USR|Amenities?|request
+USR|Dates?|request
+SYS|Free wifi, and the dates are September 8 to 15.|inform
+USR|What are the dates for the Brasilia trip?|request
+SYS|September 10 to 19.|inform
+USR|Can I get anything a little closer to September 2?|inform
+USR|I'm anxious to go now!|inform
+SYS|How about the Tranquil Seaside Inn in San Jose?|offer
+SYS|4 stars, and I can book you from September 2 to 10.|offer
+USR|Not bad!|request
+USR|Near the beach?|request
+SYS|It is near both the beach and the museum.|inform
+USR|I'm impressed!|request
+USR|Breakfast included?|request
+SYS|Not only breakfast, but also wifi and parking!|inform
+USR|Alright, you've sold me!|inform
+USR|What's the damage?|inform
+USR|I wanna book|inform
+SYS|For business class, I can send you on your way for 6125.75USD.|inform
+USR|Done.|thankyou
+USR|Thanks for your assistance !|thankyou
+SYS|Thanks for your business!|goodbye
+SYS|Have a great day!|goodbye

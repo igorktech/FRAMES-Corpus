@@ -1,0 +1,49 @@
+USR|I've never done this before but I hope it works.|inform
+USR|I heard there's cheaper deals on travel if I do it on the computer.|inform
+USR|I want to go to Cancun please.|inform
+SYS|Sure thing!|request
+SYS|Where are you leaving from?|request
+USR|We live in Boston, Massachusetts.|inform
+USR|It's just awful here, you know|inform
+SYS|How many of you will be travelling?|request
+USR|There is just me and my grandson, the light of my life.|inform
+USR|He's 5 and I want to have him all to myself until he starts school.|inform
+SYS|I can offer you both 12 days at La Plaza Del Mundo for just 1606.97USD - business class flights included!|offer
+USR|Oh my...that's way too much, way more than I won at the jackpot.|negate
+SYS|How much would you like to spend?|request
+USR|I only have $1100.|inform
+USR|We want to go to a very nice place so it's okay if it's only for a short time.|inform
+USR|Please make sure we are back before the first day of kindergarten or my daughter will kill me!|inform
+SYS|When would you need to be back ?|request
+SYS|Could you please tell me the date :slightly_smiling_face:|request
+USR|His first day of school is September 26 and we can only leave after Sept 12 when his day camp is finished.|inform
+SYS|I have a package that would be perfect for you but would add another 10 dollars and 78 cents onto your budget, if that is ok.|offer
+SYS|You would stay at a 3.5 star hotel in Cancun next to a Cathedral from September 14 until the 26th.|offer
+USR|Is breakfast included in that?|request
+USR|Breakfast is the most important meal of the day, you know.|request
+SYS|Indeed it is!|inform
+SYS|And free wifi, and free parking.|inform
+USR|I don't drive so I don't care about parking.|request
+USR|Is there a park nearby where my grandson can play?|request
+SYS|I’m sorry, I have no information about a park nearby.|sorry
+USR|I'm not sure....do you have anything in San Antonio?|inform
+USR|Something nicer and close to a park?|inform
+SYS|Indeed I do!|offer
+SYS|Winter Hill Inn is near a park, museum, and a mall.|offer
+SYS|It has a 2 star rating, free breakfast and wifi, and you could stay there for 10 days for 1128.48 USD|offer
+USR|2 stars?|request
+USR|That sounds a little shabby.|request
+USR|What is the guest rating on it?|request
+USR|I want something NICE for little Jimmy and I.|request
+SYS|The guest rating is 4.74/10.|inform
+USR|No thank you, that sounds like a no-tell motel.|request_alts
+USR|Anything with a higher rating?|request_alts
+SYS|Not within your budget.|sorry
+SYS|Sorry.|sorry
+USR|How about if we go to Atlanta?|inform
+SYS|I’m sorry, the cheapest package I have in Atlanta is 1354.13 dollars|sorry
+USR|So the highest rating in a hotel you can provide within my budget is a 3.5 star in Cancun?|confirm
+SYS|That’s correct.|affirm
+USR|Okay thank you I think I will call Disney, see if I can book anything with them for a few days.|goodbye
+USR|Only the best for my little Jimmy.|goodbye
+SYS|Good bye.|goodbye

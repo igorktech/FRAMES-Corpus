@@ -1,0 +1,21 @@
+USR|Cancun please|inform
+SYS|Where will you be departing from?|request
+USR|We’ll be leaving from vancouver|inform
+SYS|It looks like I have a 12-day package available for 1230.73USD.|offer
+SYS|Would you be available to travel from the 27th of August to the 7th of September?|offer
+USR|`is that for me and my friend]|inform
+SYS|I can book this trip for two, however that will bring your total cost to 2461.47USD.|offer
+SYS|Is this OK?|offer
+USR|ahh okay.|inform
+USR|and if i wanted to go to rome|inform
+SYS|I can book you in Rome at Secret Bay from the 27th of August to the first of September.|offer
+SYS|This package for two will cost 3827.32USD.|offer
+USR|whats the most expensive package do you have/|inform
+SYS|The most expensive package I can find you is 6009.18USD for 7 days in the Double Pastures, a 4-star hotel with a 8.98/10 guest rating.|offer
+USR|is that for business class?|switch_frame
+SYS|Yes, this is a business class flight.|affirm
+USR|LEt’s book it|inform
+SYS|Nice!|inform
+SYS|You're booked at the Double Pastures.|inform
+SYS|Have fun in Rome!|inform
+USR|thank you!|thankyou

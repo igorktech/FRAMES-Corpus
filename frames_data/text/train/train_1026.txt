@@ -1,0 +1,24 @@
+USR|Hey, I'm looking for a trip from Tokyo to Atlanta.|inform
+SYS|Which dates work best for you?|request
+USR|I need to get there ideally on Tuesday September 13, or after if I can't.|inform
+SYS|Would you need to return by a certain date?|request
+USR|Nah, I'll stay as long as my budget can afford to.|inform
+USR|But I'd like the best hotels you've got.|inform
+SYS|And it'll be just you?|suggest
+USR|yes!|affirm
+SYS|I can put you in a 3.5 star beachside hotel for 18 days.|offer
+SYS|This hotel is rated 8.8/10 on average by guests and will cost you 4153.39 with economy flights and 5385.5 with business flights.|offer
+USR|Is that the best hotel you've got?|confirm
+SYS|Yes it is.|affirm
+USR|What would the departure date be for that?|request
+SYS|You will leave on September 16 and return on October 3.|inform
+USR|Do you happen to have a longer package deal?|inform
+SYS|No, that is the longest package we offer.|inform
+USR|Okay sure, I'll take it!|inform
+SYS|Great!|suggest
+SYS|Business or economy?|suggest
+USR|I'll take business.|inform
+SYS|Great!|inform
+SYS|Your trip has been booked for you.|inform
+SYS|Hope you have a great trip :slightly_smiling_face:|inform
+USR|Thank you!|thankyou

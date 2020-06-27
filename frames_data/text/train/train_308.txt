@@ -1,0 +1,20 @@
+USR|Hello, anybody there?|inform
+SYS|Yes I am here, here for you :slightly_smiling_face:|greeting
+USR|Yes please.|inform
+USR|I live in Busan|inform
+SYS|Where would you like to go?|request
+USR|Do you have any flights to Denver|inform
+SYS|Sure!|request
+SYS|Do you have a budget?|request
+USR|I think i got $4900 saved up|inform
+SYS|Ok!|request
+SYS|Do you have dates in mind?|request
+USR|No dates yet, just wanted an idea of what's out there|inform
+SYS|Ok!|offer
+SYS|I have Sept 8-11 in Denver for $3200.|offer
+USR|How about Los Angeles|inform
+SYS|I have 10 days in Los Angeles for $3893.48.|offer
+USR|How much would it cost to go to Vancouver?|inform
+SYS|You can go to Vancouver from Aug 29-Sept 7 for $2742.44USD.|offer
+USR|Thank you so much!|goodbye
+USR|I can't book now but I'll let you know if my schedule clears up|goodbye

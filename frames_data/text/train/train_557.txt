@@ -1,0 +1,4 @@
+USR|Kabul to Kingston, 11 adults|inform
+SYS|Sorry, I dont have any results|no_result
+USR|Do you do flights out of KAbul?|inform
+SYS|no im sorry!|sorry

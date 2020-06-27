@@ -1,0 +1,9 @@
+USR|i want you to recommend me a package in rome that leaves from las vegas.|inform
+USR|i have a travel window between 20 and 26 september|inform
+SYS|Not a problem!|offer
+SYS|I have an excellent package for you from the 20th to the 26th of September at a 4 star hotel that includes free breakfast and free wifi.|offer
+SYS|Would you be interested?|offer
+USR|can you tell me the price and nearby attractions?|request
+SYS|It costs 2371.55 for economy and 3024.29 for business class.|suggest
+SYS|There is some great shopping in the area and a cathedral nearby.|suggest
+SYS|Are you still interested?|suggest

@@ -1,0 +1,15 @@
+USR|I need to get to philadelphia from denver|inform
+SYS|Should I assume you have no budget?|suggest
+USR|18600|inform
+SYS|Do you have any preferable dates to travel?|request
+USR|yes i want to go today, August 18|inform
+SYS|How many will be travelling with you|request
+USR|4 more trainers|inform
+SYS|I have found the Mirror inn, for a 4 day stay, it has 2 stars and leaves on the 18th|offer
+USR|can you book me a trip to osaka now?|inform
+SYS|For only $17127 you can stay at the Aquamarine Majesty Hotel for 6 days with Free Wifi and Parking.|offer
+SYS|It is 4 stars and near a museum and park.|offer
+SYS|The flight leaves on the 26th untill the 30th|offer
+USR|lets go to osaka!|switch_frame
+SYS|Let me book that for you, and you can be on your way|inform
+USR|awesome :smile:|thankyou

@@ -1,0 +1,27 @@
+USR|hey there|greeting
+SYS|Good morning!|greeting
+USR|I’m looking for a package to Leon|inform
+SYS|Perfect, where would you like to leave from?|request
+USR|Pittsburgh.|inform
+USR|I need a luxurious package.|inform
+SYS|How many people will you be and do you have some travel dates in mind?|request
+USR|1 adult i will leave sept first
+and stay as long as I can for 3200|inform
+SYS|We have a highly rated 5 star hotel available with a Sept 1st departure.|hearmore
+SYS|Are you interested in hearing more about this property?|hearmore
+USR|I’m intersted in hearing more.|moreinfo
+SYS|Serene Palms Resort is a 5 star resort with a 8.98/10 guest rating located on the beach and near the palace.|offer
+SYS|I meant to say  that it is within your budget of $3200 at 2342.94USD if you go on economy  or 2980.38USD if you go on business class for a nine day stay.|offer
+USR|What else would be available there?|request_alts
+USR|I just wanna make sure I’m booking the best place...|request_alts
+SYS|It is indeed.|inform
+SYS|One of our highest rated hotels in Leon.|inform
+SYS|I also have the highly rated Hotel Sunny Aurora, also a 5 star property, but this one is not available before Sept 8.|inform
+USR|Hmmmm I certainly hope its not booked up by the party who I’m tracking... I’ll just chance it and go with the Palms anyway.|inform
+USR|I’m sure 5 stars in Leon will find me some face of note|inform
+SYS|Does the Sept 1st departure with a return date of Sept 9th work for you?|suggest
+SYS|Would you prefer to be booked into economy or business class?|suggest
+USR|Lets do business - maybe I’ll luck out sitting next to Madonna on the plane|switch_frame
+SYS|I will now proceed with the booking.|inform
+SYS|Thank you and have a wonderful day.|inform
+USR|Thanks :slightly_smiling_face:|thankyou

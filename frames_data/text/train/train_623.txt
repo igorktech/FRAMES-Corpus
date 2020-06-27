@@ -1,0 +1,15 @@
+USR|send my parents somewhere for 1800 from Burlington|inform
+SYS|When?|request
+USR|Sept 2-19|inform
+SYS|I can get them to Calgary from September 7th to 19th.|offer
+SYS|This is a 4 star hotel 0/10 guest rating, free parking and wifi, near a university, business flights, and the total cost is 674.27.|offer
+USR|that's awesome!|request
+USR|is that the longest trip you have available?|request
+SYS|Our longest trip is from September 3rd to 17th at a 2 star hotel near a park, museum, and university, free parking, breakfast, and wifi, 6.51/10 guest rating, economy flight, total price of 1735.78.|inform
+USR|It'll be way easier to sell them on the 4 star.|inform
+USR|Can I book that first package for them|inform
+SYS|Yes!|inform
+SYS|This package is booked!|inform
+SYS|You will receive a confirmation email soon!|inform
+SYS|Have a great day!|inform
+USR|Thanks!|thankyou

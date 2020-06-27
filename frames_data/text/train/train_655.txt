@@ -1,0 +1,14 @@
+USR|5 adults to Cordoba from Goiania, no budget, just luxury|inform
+SYS|The best hotel I can find in Goiania is the Sunset Baron, a 3.5 star hotel.|suggest
+SYS|Would you like to book this?|suggest
+USR|Try Cleveland|inform
+SYS|The best hotel I can find in Cleveland is 3 stars, but with a 8.98/10 guest rating.|offer
+SYS|How does that sound?|offer
+USR|No.|inform
+USR|Naples|inform
+SYS|The best I've got in Naples is 4-star, sound good?|offer
+USR|Tell me more about it..|moreinfo
+SYS|You would be staying at the Tower Hotel, whose guests have rated it 8.86 / 10, and it offers free breakfast and wi-fi.|inform
+USR|Located in the heart of the city?|request
+SYS|I do not have enough information on that, sorry.|sorry
+USR|I'll look elsewhere|null

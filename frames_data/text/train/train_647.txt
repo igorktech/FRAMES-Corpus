@@ -1,0 +1,33 @@
+USR|Hi, I'm looking for a vacation package to Chicago from Brasilia.|inform
+SYS|will you be travelling alone or in a group?|request
+USR|It'll be just myself.|inform
+SYS|Do you have any preference as to when you will travel?|request
+USR|Yes, I hope to travel between August 29 and September 9.|inform
+SYS|Would you prefer your stay to be 5, 6 or 11 days?|offer
+USR|Of those 3 options, I would prefer 11 days|switch_frame
+SYS|We have an 11 day package at the Sierra Inn & Suites, 2 star for 1783.36USD.|offer
+SYS|It has a guest rating of 7.06/10.|offer
+USR|Any other hotel options|request_alts
+SYS|Only one for an 11 day stay.|inform
+USR|Can you check if there are other hotel options for September 1 - 20?|request_alts
+SYS|There sure are.|offer
+SYS|My longest one is at the 2.5 star Quiet Sanctuary for an 8 day stay.|offer
+SYS|It has a guest rating of 8.69 / 10.|offer
+USR|What are the departure and return dates for this one?|request
+SYS|Sept 13th through the 19th|inform
+USR|The dates seem to work.. How much is this one?|request
+SYS|if you choose to fly by economy, the cost is 2242.60USD and by business it is  2856.24USD.|inform
+SYS|This package also includes a complimentary breakfast and free wifi along with your parking.|inform
+USR|And the he Sierra Inn & Suites?|request_compare
+USR|Does it have the same amenities?|request_compare
+SYS|Yes all three are included in that package too.|affirm
+USR|In this case I'll actually go back to the 11 day package.|inform
+USR|Can I still book that one?|inform
+SYS|Of course you can!|offer
+SYS|Do you want  to fly there on economy or business class?|offer
+SYS|If you go by business class, the price is  $2281.83USD.|offer
+USR|Economy is fine!|inform
+SYS|Your trip has been booked.|inform
+SYS|Have a super day! :|inform
+SYS|+1:|inform
+USR|Amazing!|null

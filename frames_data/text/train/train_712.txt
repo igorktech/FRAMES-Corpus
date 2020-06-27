@@ -1,0 +1,18 @@
+USR|Hey, I really need to get out of Tofino for a while.|inform
+USR|Any chance to leave on Aug 29?|inform
+SYS|Where would you like to go?|request
+USR|Stuttgart would be a cool place to go.|inform
+SYS|Do you have a budget?|request
+USR|I've only got 3100 actually.|inform
+SYS|Are you travelling by yourself?|suggest
+USR|Right on.|affirm
+SYS|There are no results showing for your request.|no_result
+USR|Any chance if I leave from Busan instead?|inform
+SYS|Nothing within your budget.|no_result
+USR|Uh.. okay.|inform
+USR|I guess I can settle for Dallas.|inform
+USR|Still leaving from Tofino though.|inform
+SYS|No, sorry.|sorry
+USR|Alright I'm gonna give it a last shot.|inform
+USR|What about Dallas from Busan?|inform
+SYS|No, sorry!|sorry

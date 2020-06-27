@@ -1,0 +1,55 @@
+USR|I want to go to Curitiba.|inform
+SYS|Hi there, where would you like to go from?|request
+USR|Phili|inform
+SYS|for how many people?|request
+USR|5 adults altogether|inform
+SYS|Do you have a budget?|request
+USR|Nah, I'm too cool to worry about money.|inform
+USR|Money is meant to be spent anyway, right?|inform
+SYS|Which days would you like to travel?|request
+USR|August 28th and September 18th.|inform
+USR|My dates are flexible too btw|inform
+SYS|We have a few options available, 
+there's Pinnacle for 13 days and 7 days.|offer
+SYS|it's in Curitiba, Brazil.|offer
+SYS|the hotel's a 3.0 star hotel, with a museum and market nearby.|offer
+SYS|Total price: 8465.4USD
+Then, we have Crown Market Palace for 13 days, also in Curitiba, Brazil.|offer
+SYS|this one's a 3.5 star hotel with a 8.22 / 10 from guests.|offer
+SYS|with a beach, breakfast, wifi, and free parking, the price comes to 8652.21USD|offer
+USR|What are my options if I want to go to La Paz from Phili?|inform
+SYS|Which days would you like to travel?|request
+USR|The same dates as before silly|inform
+SYS|You could possibly stay at the Echo.|offer
+SYS|It's in La Paz, Bolivia, it has 4.0 stars and a 8.98 / 10 from guests.|offer
+SYS|You'd be getting breakfast, wifi and free parking here.|offer
+SYS|If you want to stay for 5 days, it would cost 5589.20USD.|offer
+SYS|It would also cost 5589.20USD to stay 4 days.|offer
+SYS|Additionally, if you'd like to spend 6697.89USD, you'd be able to stay for 5 days!|offer
+USR|Okay cool.|inform
+USR|What about if I left from Santiago?|inform
+SYS|Sorry, I don't have any results for trips departing from Santiago at the dates and price range give|sorry
+USR|ugh that's so lame.|inform
+USR|Well what if I left from Santiago and go to Curitiba?|inform
+USR|Is there anything there?|inform
+SYS|Sorry, I don't have any results for this request either...|sorry
+USR|hmm okay let me think for a sec.... i just wanna compare my options first.|null
+SYS|Sure, no problem|null
+USR|I think I like the first option for the trip to La Paz.|request
+USR|Is this flight economy or business?|request
+SYS|Departing from Philadelphia?|confirm
+USR|Yeah!|affirm
+SYS|economy class|inform
+USR|Is the third option to La Paz business class?|request
+SYS|yes, it is business|affirm
+USR|what days are the flights?|request
+SYS|August 18 - September 18|inform
+USR|Whoa!|confirm
+USR|A whole Month?!|confirm
+SYS|Yes|affirm
+USR|hmmm I think I'll take it!|inform
+USR|yeah!|inform
+USR|book this one for me please!|inform
+SYS|I will book this trip then|inform
+USR|Thank you so much!|thankyou
+USR|this is gonna be the best vacation ever!!!!1|thankyou

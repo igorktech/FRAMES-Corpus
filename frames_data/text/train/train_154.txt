@@ -1,0 +1,35 @@
+USR|Biebs here.|inform
+USR|I wanna book a vacation asap.|inform
+SYS|Hi how may I help you!|greeting
+USR|Mah closest friend, Madonna and I want to go to St. Louis.|inform
+USR|What can you offer.|inform
+USR|I only want the best, if not I'm going elsewhere.|inform
+SYS|Okay let me try and find the best package for you, where are you leaving from and when would you like to?|request
+USR|Well, I'm THE Biebs, so you should know where I'm leaving from.|inform
+USR|But I'll tell you anyways.|inform
+USR|We leave from Santiago.|inform
+SYS|When are you planning on travelling?|request
+USR|Good man.|inform
+USR|Doesn't matter when we leave, but I gotta be back by August 28th.|inform
+USR|I've got a gig on the 29th.|inform
+SYS|I found it for you!|offer
+SYS|The lunar, It’s a five star hotel, leaving on the 18th and returning on the 28th|offer
+USR|Probably have, you know, with all this fame people need me everywhere to do concerts, signings, just being around... Does it have breakfast included?|request
+SYS|Breakfast and wifi|inform
+USR|Nothing but the best.|inform
+USR|Let's take a look at Santo Domingo first (Madonna likes the heat).|inform
+SYS|Looks like all the hotels in Santo Domingo are 4 stars would any of those work?|suggest
+USR|I'm willing to give it a try.|request
+USR|Breakfast?|request
+SYS|Yes it would come with Breakfast wifi and parking!|inform
+SYS|but it only leaves on the 24th|inform
+USR|When does it return?|request
+SYS|on the 2nd|inform
+USR|What if I left from Tampa?|inform
+SYS|only 3 star hotels|inform
+USR|I'll book the St. Louis one!|inform
+SYS|perfect!|inform
+SYS|let me go ahead and do that for you!|inform
+USR|Greeeeeat!|thankyou
+USR|Thanks man!|thankyou
+USR|Imma send you free tics|thankyou

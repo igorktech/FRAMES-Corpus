@@ -1,0 +1,29 @@
+USR|Hi!|inform
+USR|My wife told me to look up some possible vacations|inform
+SYS|Where would you like to go and where are you leaving from?|request
+USR|We live in Dublin.|inform
+USR|Going to Sacramento|inform
+SYS|How many adults and children will be travelling?|request
+USR|2 adults, 1 child|inform
+SYS|Do you have a budget?|request
+USR|2100|inform
+SYS|Do you know when you'd like to leave?|request
+USR|Yes, we'd like to have our vacation be sometime in the first two weeks of September|inform
+SYS|We have a business flight from September 1st to 12th.|offer
+SYS|This is at a 2 star hotel near a park, museum, and university.|offer
+SYS|The hotel has a 6.51/10 guest rating and offers free breakfast, wifi, and parking.|offer
+SYS|This package will cost 1866.90.|offer
+USR|Ok that sounds appealing aside from the 2 star hotel.|inform
+USR|Don't think Martha will be okay with a 2 star hotel|inform
+SYS|It is the only options for this destination.|suggest
+SYS|Want me to check another destination?|suggest
+USR|Our next city of interest is Hamburg|inform
+SYS|There are no results for Hamburg.|suggest
+SYS|Would you like me to check another destination?|suggest
+USR|Oh dear.|inform
+USR|Please check Punta Cana|inform
+SYS|There are no results for this either.|no_result
+USR|Would different results appear if I increased our budget by $1000?|inform
+SYS|There are no results even with the increased budget.|no_result
+USR|My wife is going to make me sleep on the couch for this.|null
+SYS|Apologies.|sorry

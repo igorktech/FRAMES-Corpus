@@ -1,0 +1,20 @@
+USR|I only have 1800 in the bank though... can't do anything with that I bet|inform
+SYS|Depends!|request
+SYS|Where are you located ?|request
+USR|Hold on let me check... I tend to forget since I never leave my cubicle.|inform
+USR|OH RIGHT I live in Cordoba|inform
+SYS|Oh, ok!|request
+SYS|I will see what we have - but did you have anywhere in mind?|request
+USR|I don't suppose I can go to Queenstown?|inform
+SYS|You absolutely could!|offer
+SYS|You could stay 10 days at a 5 star hotel with free breakfast and wifi and spend less than 1000 dollars.|offer
+USR|Can you tell me if it's by the beach??|request
+USR|Or a park??|request
+USR|Where I can go out and enjoy the sun?|request
+SYS|I’m sorry but I haven’t got any information on the nearby attractions.|sorry
+USR|Now I don't think my money can take me to Houston can it?|inform
+SYS|Not with your budget, sorry.|sorry
+USR|Then my dream city Seattle won't work for me either right?|inform
+SYS|Sorry, no.|sorry
+USR|Thanks!|thankyou
+USR|Back to work!|thankyou

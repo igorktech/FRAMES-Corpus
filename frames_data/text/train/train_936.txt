@@ -1,0 +1,25 @@
+USR|I want to book a flight for myself and 6 grandchildren|inform
+SYS|Where to?|request
+USR|Essen please|inform
+SYS|From where?|request
+USR|Pittsburgh would be our point of departure.|inform
+SYS|Do you have a budget?|request
+USR|3900|inform
+SYS|When would you like to leave and return?|request
+USR|Leaving September 6.|inform
+USR|Returning September 22|inform
+SYS|We can't fly you out of Pittsburgh, is there somewhere else you could fly from?|suggest
+USR|But do you have other flights leaving Pittsburgh?|inform
+SYS|We have a package to Calgary, Guadalajara, Denver, Burlington, Toronto, and Houston.|offer
+USR|What about Sacramento?|inform
+SYS|We have a 5 star hotel, 10/10 guest rating, free breakfast and wifi, from September 11th to 20th, economy flights, 3629.62.|offer
+USR|Is that price for me and the six kids?|confirm
+SYS|Would you like to book it?|suggest
+USR|yes please!|thankyou
+USR|and thank you! :|thankyou
+USR|slightly_smiling_face:|thankyou
+SYS|Great!|inform
+SYS|Your package is booked for you and your 6 grandchildren!|inform
+SYS|Have fun!|inform
+USR|Thank you! :|thankyou
+USR|slightly_smiling_face:|thankyou

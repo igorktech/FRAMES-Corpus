@@ -1,0 +1,16 @@
+USR|HI THERE.|inform
+USR|I NEED TO FIND MADONNA TO TAKE PICTURES OF HER AND HER FRIEND.|inform
+USR|I WORK FOR INTOUCH MAGAZINE.|inform
+USR|CAN YOU GET ME TO SAO PAULO FROM PORTO?|inform
+SYS|Do you have a budget?|request
+USR|YES, THE COMPANY WILL ONLY PAY 1400 DOLLARS FOR MY TRIP.|inform
+SYS|How many people in your party?|request
+USR|JUST ME.|inform
+USR|TRYING TO KEEP A LOW PROFILE.|inform
+SYS|Alright!|request
+SYS|Do you have dates in mind?|request
+USR|I WANT TO LEAVE ON THE 25TH OF AUGUST.|inform
+USR|CAN YOU DO THAT FOR ME?|inform
+SYS|Unfortunately there are only flights from Curitiba to Sao Paulo.|sorry
+USR|OH NO...WHAT IF I INCREASE MY BUDGET BY 1000 DOLLARS?|inform
+SYS|The same results apply even with the increase in your budget.|no_result

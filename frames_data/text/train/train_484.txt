@@ -1,0 +1,18 @@
+USR|Salvador to Recife, Sept 1 for 1, $1000 budget.|inform
+USR|I want the best hotel in Recife|inform
+SYS|The most upscale hotel I can offer you is The Glee.|offer
+SYS|Have you heard of it?|offer
+USR|How many stars does it have|request
+SYS|It has 4 stars, user reviews of 8.22/10, its close to a park and it offers free wifi and free breakfast to its guests.|inform
+USR|Ok yes that sounds promising.|request
+USR|What are the dates you can get me|request
+SYS|I have an 8 day stay for you from September 8th to the 15th.|offer
+SYS|If you prefer to leave on the 1st I have a 3.5 star hotel I could offer you instead.|offer
+USR|No I want the better hotel.|request
+USR|Actually on that topic.|request
+USR|Could I get an even better hotel if I doubled my budget to 2000?|request
+SYS|The Glee is the most luxurious hotel we have in that city.|inform
+USR|I’m convinced, Book it|inform
+SYS|Glad to have been able to help you!|inform
+SYS|I'll proceed with the booking.|inform
+SYS|Enjoy the rest of the day!|inform

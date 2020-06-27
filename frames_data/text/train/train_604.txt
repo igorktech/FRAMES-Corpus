@@ -1,0 +1,39 @@
+USR|Hi, I need be at Athens for a few days between Aug 27 and Sep 12.|request
+USR|Do you know how much it will be?|request
+SYS|Where are you leaving from?|request
+USR|Sendai|inform
+SYS|Do you have a budget?|request
+USR|The maximum I can spend is 4900|inform
+SYS|Travelling alone?|suggest
+USR|Yup|affirm
+SYS|We have one package.|offer
+SYS|It is a 3 star hotel near the mall and free parking and wifi.|offer
+SYS|The flight departs August 30th and returns September 8th.|offer
+SYS|The business package cost is 4386.50 and the economy package cost is 3288.82.|offer
+USR|Is this the only option you have?|confirm
+SYS|Yes.|affirm
+USR|Can you also check options for Chicago then?|inform
+USR|Same criteria|inform
+SYS|We have one results at a 2 star hotel near the airport and a park.|offer
+SYS|The hotel has a 7.06/10 guest rating and offers free parking, breakfast, and wifi.|offer
+SYS|This trip is from August 30th to September 11th and costs 3840.25.|offer
+USR|Is that flying business?|request
+SYS|Economy.|inform
+USR|Lastly, can you help me check for Vancouver?|inform
+SYS|We have a 4 star hotel, 10/10 guest rating, near a park and museum, and offers free parking, breakfast, and wifi.|offer
+SYS|This package is from September 2nd to 6th and is a business flight.|offer
+SYS|The total cost is 4390.96.|offer
+USR|And that's the only option for Vancouver?|confirm
+SYS|No, there are others.|inform
+SYS|What are you looking for specifically?|inform
+USR|I would prefer cheaper options|inform
+SYS|Our cheapest package is a 4 star hotel near a park, museum, and cathedral, 8.8/10 guest rating, free breakfast, wifi, and parking.|inform
+SYS|This is from August 27th to 31st, economy flight, and the cost is 2866.11.|inform
+USR|Nice!|request
+USR|Did you also have a cheaper option for Chicago other than the one you already sent me?|request
+SYS|No, sorry, that was the only result.|sorry
+USR|No worries, I will take the Vancouver one that's $2866.11!|inform
+SYS|Great!|inform
+SYS|Your package is booked!|inform
+SYS|Have a great day and safe travels!|inform
+USR|Thanks!|thankyou

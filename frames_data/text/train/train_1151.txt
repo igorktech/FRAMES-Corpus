@@ -1,0 +1,25 @@
+USR|HI I WANT TO GET OUT OF CIUDAD JUAREZ FROM YESTERDAY TO TWO WEEKS FROM SUNDAY COMING OK|inform
+SYS|Where would you like to go?|request
+USR|I DUNNO UP TO YOU LOL|inform
+SYS|We have a 19 day package at a 3 star hotel that suits your exact dates going to Punta Cana.|suggest
+SYS|I can book this straight away for you.|suggest
+USR|HOW MUCH MONEY.|request_alts
+USR|WHAT ELSE IS THERE THOUGH|request_alts
+SYS|Do you have a budget?|offer
+SYS|For economy this costs 1558.90 and for business class it's 1967.7.|offer
+USR|NO BUDGET JUST VACATION.|request_alts
+USR|WHERE ELSE CAN I GO TO|request_alts
+SYS|There is a 4 star hotel for 18 days in Porto Alegre with a guest rating of 10 out of 10!!!!|offer
+SYS|There is a beach, a park, and a shopping mall nearby so that you can make the most of your vacation!|offer
+SYS|And this will only cost you 3385.48 for economy class.|offer
+SYS|Great deal, isn't it?|offer
+USR|OH WOW IT IS PERFECT!!!!|inform
+USR|YEAH I CAN NOT KEEP GOING
+I MUST HAVE THIS
+PLEASE|inform
+SYS|Perfect!|inform
+SYS|It's now booked!|inform
+SYS|You will get an email confirming this in just a matter of minutes!|inform
+SYS|Have a fantastic holiday :slightly_smiling_face:|inform
+USR|U DA BEST GREAT THANKS|thankyou
+SYS|You're more than welcome!|you_are_welcome

@@ -1,0 +1,8 @@
+USR|hi i need to get to mexico please find me a flight from punta cana|inform
+SYS|I can offer you a deal on a 10-day stay in Puebla, 1032.24USD if you book now.|offer
+SYS|This package is for the 25th of August to the 3rd of September.|offer
+SYS|Would you be interested?|offer
+USR|that actually fits my needs so perfectly - yes book it|inform
+SYS|Done!|goodbye
+SYS|Enjoy your stay!|goodbye
+USR|gracias|thankyou

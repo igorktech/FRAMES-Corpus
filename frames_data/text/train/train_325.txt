@@ -1,0 +1,17 @@
+USR|Now hear this!|inform
+USR|I don't know where I want to go, but I want to leave from Cancun!|inform
+SYS|Sure, I can help you with that!|request
+SYS|Do you have any dates in mind?|request
+USR|Ah yes!|inform
+USR|I need to leave on August 29 and return Sept 18th!|inform
+SYS|Are you travelling alone?|suggest
+USR|Oh yes!|affirm
+SYS|I can offer you a 14 day package at the Resort Jade Covert in Tijuana, Mexico.|suggest
+SYS|It's a 3 star hotel and the total price would be 595.18USD.|suggest
+USR|Will they give breakfasts to me for free?|request
+SYS|They do have free breakfast!|inform
+SYS|And they also offer free wifi and free parking.|inform
+USR|I am prepared to book this trip|inform
+SYS|I will now book your trip|inform
+USR|I no longer want to travel.|goodbye
+USR|I'm out of here|goodbye

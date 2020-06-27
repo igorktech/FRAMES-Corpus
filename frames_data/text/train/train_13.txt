@@ -1,0 +1,22 @@
+USR|Hi, I'm looking for a trip  from Thursday, August 18, 2016 to Thursday, September 8, 2016 to Mexico City|inform
+SYS|I can look into your options for you.|request
+SYS|Where would you like to depart from?|request
+USR|Kingston|inform
+SYS|I can book 5 days in Mexico City leaving from Kingston, Canada for 1226.20USD.|offer
+SYS|Or, if you're interested 12 days in Columbus for 1865.3USD.|offer
+USR|How many stars do the hotels have and what's included with the hotel?|request_compare
+SYS|The Mexico City hotel is 3.0 stars with free breakfast and free wifi, while the Columbus hotel is 2.5 stars with free parking and free wifi.|inform
+USR|I prefer 3 stars and above.|request_alts
+USR|I'm flexible with my budget, is there anything else in Columbo?|request_alts
+SYS|I can get you 12 days at a 3.5 start hotel in Columbus for 1942.52USD.|offer
+USR|That's looking good.|inform
+USR|I want to see a few more options before I choose one.|inform
+USR|There's nothing available in Porto?|inform
+SYS|You can spend 13 days in Porto at a 3.0 star hotel for 2112.86USD.|offer
+USR|Porto would be great.|moreinfo
+USR|Can you tell me more about the hotel.|moreinfo
+SYS|The hotel is Deluxe Hotel  and has free breakfast and wifi.|suggest
+SYS|You can also stay at Amistad for 13 days, this hotel has a 3.5 rating as well with free breakfast and wifi.|suggest
+USR|Excellent.|inform
+USR|I'll stay at the Amistad for 13 days.|inform
+USR|Thanks for your help.|inform

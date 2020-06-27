@@ -1,0 +1,24 @@
+USR|We have 6 adults looking to book a trip|inform
+SYS|Where to?|request
+USR|Can you look into flights from Nagoya to Busan?|inform
+SYS|Do you have a budget?|request
+USR|Between all of us, we have 17600|inform
+SYS|When would you like to leave?|request
+USR|We want to fit the trip in between sept 8 to 18|inform
+SYS|We have one availability at a 3 star hotel near a park, museum, and university.|offer
+SYS|The hotel has a 6.77/10 guest rating and offers free parking, breakfast, and wifi.|offer
+SYS|This package is from September 12th to 18th and is 3900.42 for economy flights and 4405.86 for business flights.|offer
+USR|is there a nicer hotel in that city?|inform
+SYS|No, this is the only hotel|inform
+USR|ok in that case, can you take a peek at the options in hiroshima?|inform
+SYS|Our best package here is a 4.5 star hotel, museum, 8.86/10 guest rating, free wifi, September 8th to 16th, 4010.16 for business flights, 3642.99 for economy flights.|offer
+USR|Would there be a better hotel in Hiroshima if we increased the budget?|inform
+SYS|How much can you increase your budget?|request
+SYS|I will check.|request
+USR|add 1000|inform
+SYS|No, unfortunately the increased budget does not yield more results.|sorry
+USR|Ok then book us for business class then!|inform
+SYS|Great choice!|thankyou
+SYS|Enjoy your stay and safe travels!|thankyou
+SYS|Thank you for using my services|thankyou
+USR|Thanks!|thankyou

@@ -1,0 +1,29 @@
+USR|Hey, my buddy and I want to have the best time of our lives!|inform
+SYS|Ok!|request
+SYS|Where are you looking to go?|request
+USR|We're thinking of going to Rome, we hear it's the hottest place to be.|inform
+SYS|And where are you leaving from?|request
+USR|Santa Cruz.|inform
+USR|We've only got 13000 though, that should be enough for an awesome trip!|inform
+SYS|I have 9 day packages for you available at the unrated Secret Bay or the 4 star Hotel Grand Residence!|offer
+SYS|Are you interested in hearing more about these?|offer
+USR|The 4 star sounds great, tell me more!|switch_frame
+SYS|It has a 8.8/10 guest rating, free breakfast and free wifi, and is close to shopping and a cathedral.|inform
+USR|That sounds so good, how much is that?|request
+SYS|7460.60USD to fly business class or 5744.51USD for economy.|offer
+USR|That's definitely within our budget!|inform
+USR|I'm curious about one other city though.|inform
+USR|Could you just check Phili for us please?|inform
+SYS|In Philadelphia I have the Mirror Inn available for either 9 or 15 days.|offer
+SYS|It is a 2 star hotel near a park and a museum, has free parking, breakfast, and wifi, and has 6.61/10 as a user rating.|offer
+USR|Oh the Rome deal sounds much better.|switch_frame
+SYS|Ok!|suggest
+SYS|The Hotel Grand Residence then?|suggest
+SYS|Would you like to fly business or economy class?|suggest
+USR|Yes, that one please.|switch_frame
+USR|Business class all the way!|switch_frame
+USR|Woo!|switch_frame
+SYS|Alright - please watch for a confirmation email.|inform
+SYS|Enjoy your stay :slightly_smiling_face:|inform
+USR|Awesome, thanks!|thankyou
+SYS|My pleasure!|you_are_welcome

@@ -1,0 +1,18 @@
+USR|I would like to go to Hiroshima from Seoul for 3500|inform
+SYS|Hello.|request
+SYS|How many people do you want this trip for?|request
+USR|just me myself and i|inform
+SYS|Unfortunately, it does not appear that we have flights from Seoul to Hiroshima.|sorry
+USR|What about from Seoul to San Diego?|inform
+SYS|It does not appear that we have flights from Seoul to San Diego either.|no_result
+USR|What about from Cordoba to San Diego?|inform
+SYS|I have possibilities of 2 different hotels in San Diego for you.|request
+SYS|Do you have certain travel dates and a length of stay in mind?|request
+USR|nope just whenever|inform
+SYS|I can suggest the Spare Time for an eleven day stay for you.|offer
+SYS|It has a 3 star rating with a 8.86/10 guest rating, and offers all the amenities such as wifi, parking and breakfast as part of your package.|offer
+USR|nice!|inform
+USR|I’ll take it|inform
+SYS|Your total comes out to 2009.43USD and you fly out Sept 14 and return on September 23.|inform
+SYS|Thank you for your business and have a very nice trip.|inform
+USR|Thnx|thankyou

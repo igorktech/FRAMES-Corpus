@@ -1,0 +1,21 @@
+USR|Hello, I am planning to book a trip to pittsborgh|greeting
+SYS|Hello.|greeting
+SYS|Would that be Pittsborgh, Pennsylvania?|greeting
+USR|i think so!|affirm
+SYS|And what city will you be departing from?|request
+USR|We will be leaving from Fukuoka|inform
+SYS|how many people will be travelling together?|request
+USR|there will be myself, 1 adult, and my four kids|inform
+SYS|Do you have specific dates in mind?|request
+USR|none at the moment|inform
+SYS|and for how long would you like to go for?|request
+USR|also not sure yet|inform
+SYS|I have no flights available to Pittsburgh, but I have package available to Vancouver|suggest
+USR|I would like to see the availabilities in Vancouver please|request
+SYS|I have several available.|inform
+SYS|Do you have a budget in mind?|inform
+USR|I have $12600 to spend on this vacation|inform
+SYS|It would be helpful if you could provide me with some dates|request
+USR|we are very flexible with dates anything would work|inform
+SYS|I am very sorry  but I have nothing available at the moment|no_result
+USR|that’s very unfortunate, thank you anyways|thankyou

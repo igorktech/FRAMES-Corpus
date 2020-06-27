@@ -1,0 +1,31 @@
+USR|I need to get to Osaka from Dallas so I can find Mewtwo, he's the last one I need to find and I heard he was spotted in Osaka.|inform
+SYS|I have an 11 day package at the 4 star Aquamarine Majesty Hotel from September 22-October 1.|offer
+USR|Those dates are great for my schedule.|moreinfo
+USR|Can you tell me more about the hotel tho?|moreinfo
+SYS|Great!|inform
+SYS|This hotel is near a park and a museum, it has free parking and free wifi, and it has received a 8.69/10 guest rating.|inform
+USR|good good.|inform
+USR|I also heard Mewtwo was spotted somewhere in Phoenix.|inform
+USR|Can you check there for me too?|inform
+SYS|In Phoenix I have two different 2.5 star hotels.|offer
+USR|Okay what are they close to?|request
+SYS|The Prism is near a museum and airport.|offer
+USR|What is the other one close to?|request_alts
+SYS|I do not have information on nearby points of interest for Lunar Valley hotel.|inform
+USR|What are the hotels guest ratings?|request_compare
+SYS|7.06 and 8.69, respectively.|inform
+USR|Okay well I think I like the hotel that is close to the museum and airport anyway.|switch_frame
+USR|Can you tell me more about it?|switch_frame
+SYS|It has free breakfast, parking, and wifi.|inform
+USR|Great.|inform
+USR|I like the first package you told me about in Osaka.|inform
+USR|I would like to book it please.|inform
+SYS|Ok, sure thing!|suggest
+SYS|For one adult?|suggest
+SYS|Economy class or business?|suggest
+USR|2 adults and how much is business?|inform
+SYS|Two adults in business class would cost 10254.20USD.|offer
+USR|Okay book it!|inform
+SYS|Great - I will proceed with booking.|inform
+SYS|Enjoy your stay!|inform
+USR|Thanks!|thankyou

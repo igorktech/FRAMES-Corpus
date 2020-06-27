@@ -1,0 +1,13 @@
+USR|need to get out of town asap.|inform
+USR|like this saturday|inform
+SYS|where would you like to go?|request
+USR|get me to sacramento|inform
+SYS|From where?|request
+USR|vitoria|inform
+SYS|Do you have a budget?|request
+USR|I got 2700 to spend|inform
+SYS|I dont have anything departing this saturday unfortunately|sorry
+USR|Ok well do you have anything departing near that date?|inform
+SYS|Oh wait I do have a 6 days trip departing on Saturday August 27, staying at a 5 stars hotel for 2233.69USD|offer
+USR|Lock it down|inform
+SYS|You're booked|inform

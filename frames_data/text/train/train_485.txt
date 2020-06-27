@@ -1,0 +1,20 @@
+USR|I need you to get me to Sendai from Washington, on the 30th of August|inform
+SYS|I have several options for you.|request
+SYS|What is your budget and what kind of hotel are you looking for?|request
+USR|The best hotel.|inform
+USR|I've got $3300|inform
+SYS|The best one I can offer you is Hotel Kirei which has 4 stars and excellent reviews from past guests.|offer
+USR|Is that the best one in Sendai at any price point?|confirm
+SYS|With a higher budget I would have several hotels for you to choose from but they also have 4 stars.|offer
+USR|Do any of them have higher user reviews than the Kirei?|request_compare
+SYS|No, the Oishi has slightly higher customer satisfaction.|inform
+USR|Ok that sounds like the best choice then.|request
+USR|What dates can you get me?|request
+SYS|It's a day trip from September 7th to 15th.|inform
+USR|I’d really like to get there earlier if possible.|inform
+SYS|For 3493.44USD I can get you an 8 day stay at the same hotel from September 2nd to the 8th.|offer
+SYS|It's over the initial budget you gave me but would you prefer that?|offer
+USR|Yes I think I can make that work.|inform
+USR|LEts do it|inform
+SYS|Excellent, I'll make sure to book it for you.|inform
+USR|:+1:|null

@@ -1,0 +1,18 @@
+USR|Hello.|inform
+USR|I haven’t left Kingston Ontario in years, and I have 4900 left.|inform
+USR|I don’t think I could even take a trip to Kobe for that price.. but would you let me know?|inform
+USR|I wish I could just go to Kobe but I have no vacation days left because I had to take them all to care for my sick dog|inform
+SYS|you could take an 8 day vacation to Kobe, stay in a 3 star hotel, fly in business class.|offer
+USR|What would the hotel be like|switch_frame
+SYS|Its called Royal Island Inn.|inform
+SYS|It is close to the market and a palace and comes with free wifi.|inform
+USR|What if I went to North Vancouver?|inform
+USR|I’ve never seen the west coast of this country..|inform
+SYS|Right now we only have an 8 day package available.|offer
+SYS|You would stay at a 2.5 star hotel close to the beach and you would get free breakfast, wifi and parking.|offer
+SYS|With economy flights it would cost 1568.86USD and 1965.92USD with business class tickets.|offer
+USR|Ok - one last destination I’ve been dreaming of.|inform
+USR|Rio de Janeiro.|inform
+SYS|For now we have 8 and 14 day long vacations at the Hotel Fernando Ribero.|offer
+SYS|It is close to a park, a mall and shopping.|offer
+SYS|The most expensive of these options which is the 14 day package flying business class only comes out to 2596.31USD.|offer

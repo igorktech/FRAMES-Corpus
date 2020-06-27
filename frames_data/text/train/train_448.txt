@@ -1,0 +1,10 @@
+USR|SO!|inform
+USR|I am travelling with my family for a reunion
+We are all leaving from Beijing and need to get to Toluca.|inform
+USR|There will be six of us adults travelling and we need to leave between August 24 to August 27.|inform
+USR|What can you find me?|inform
+SYS|Hello, I have 16 days and 15 days trips|suggest
+USR|Ahh, well maybe that could work… what’s the price for  6 adults?|inform
+SYS|8778.23 for 15 days, 7314.25 for 15 days, 9114.67 for 15 days trips and 19735.33 for 16 days, 15279.74 for 16 days trips|offer
+USR|Oh dear, that’s quite above our 3 thousand dollar budget.|inform
+SYS|I am sorry|sorry

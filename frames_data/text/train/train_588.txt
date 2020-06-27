@@ -1,0 +1,18 @@
+USR|.hi.........i need a trip..
+2 go.|inform
+SYS|I require information concerning your destination city and where you would like to leave from|request
+USR|.....i live in detroit by the creek...|inform
+SYS|Detroit?|confirm
+USR|detroit is where i live.|inform
+USR|and my 4 grandkids will come with me............|inform
+SYS|1 adult, 4 children?|confirm
+USR|yes.....ok...can we go 2 chicago 3500 dollars....|inform
+SYS|When would you like to go?|request
+USR|.....se.....september first is wen|inform
+SYS|I did a search for Chicago.|suggest
+SYS|It is not available, but I can help you look for more destinations.|suggest
+USR|o no.ok... I want to go to ulsan|inform
+SYS|I regret that Ulsan is not available either.|no_result
+USR|...this is no fun...........vancouver, please|inform
+SYS|No Vancouver availability either, I apologize.|sorry
+USR|thank u...........good bye.......|goodbye

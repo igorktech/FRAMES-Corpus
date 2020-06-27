@@ -1,0 +1,54 @@
+USR|Can you check Guadalajara first?|inform
+USR|I'll be leaving from Curitiba|inform
+SYS|No worries.|request
+SYS|Do you have a fixed budget?|request
+USR|I only got 7300.|inform
+SYS|We have a 9 day trip at a 3 star hotel costing 4237.73 for business or 3294.57 for economy.|offer
+SYS|What do you think?|offer
+USR|When is this trip?|request
+SYS|From Saturday September 17th to Sunday September 25th.|inform
+SYS|Does this interest you?|inform
+USR|That could work.. is this the longest trip you have?|request
+SYS|Yes indeed.|suggest
+SYS|Shall I proceed with booking?|suggest
+USR|Not so fast.. what amenities does this hotel provide?|request
+SYS|Free parking, breakfast, and wifi!|inform
+SYS|Sounds amazing, doesn't it?|inform
+USR|Does sound pretty good.. I'm curious about Sao Paulo though.|inform
+USR|Can you help me check?|inform
+SYS|We have a 9 day trip that offers free breakfast and wifi, costing 556.73 for economy and 658.91 for business.|offer
+SYS|Does this pique your interest?|offer
+USR|That's a good deal!|switch_frame
+USR|What kind of hotel is ut?|switch_frame
+SYS|It's a 3 star hotel, which is the most highly rated that we have, with a guest rating of 6.91/10.|suggest
+SYS|There are also plenty of activities for you nearby as the hotel is situated in the heart of the city within walking distance of a cathedral and a theatre.|suggest
+SYS|Doesn't this sound amazing?|suggest
+SYS|Ready to book?|suggest
+USR|This does sound pretty good... before I book though, can you just help me look into Hiroshima?|inform
+SYS|Of course!|offer
+SYS|I can offer you a 14 day package for 4853.37 for economy class at a hotel that includes free breakfast and wifi.|offer
+SYS|Not a bad deal, right?|offer
+USR|How's the rating and star level of the hotel?|request_compare
+USR|Is it as good as the Sao Paulo one?|request_compare
+SYS|Yes it is!|inform
+SYS|It's also 3 stars but the guest rating is 7.15/10.|inform
+SYS|What do you think?|inform
+USR|And I assume that's also the highest rated you've got?|request
+USR|Are there also nice activities nearby?|request
+SYS|Actually, we also have a 12 day package at the Hotel Oishi which is 4.5 stars and has a guest rating of 8.86/10.|offer
+SYS|Business class costs 7184.43 whereas economy is priced at 5506.62.|offer
+SYS|And there is also a famous museum nearby.|offer
+SYS|Does this interest you at all?|offer
+USR|Hm that's a tough choice... What are the dates for this?|request_compare
+USR|And also for the Sao Paulo one?|request_compare
+SYS|The dates for this are Monday September 12 to Friday September 23.|inform
+SYS|For the Sao Paulo one, it's Tuesday September 13th to Wednesday September 21st.|inform
+SYS|Which do you prefer?|inform
+USR|The dates for the Sao Paulo package works better for me actually!|switch_frame
+USR|And I also think I shouldn't splurge on this trip since I'm not being paid... I'll take the Sao Paulo trip then!|switch_frame
+USR|Business class though... :slightly_smiling_face:|switch_frame
+SYS|Consider it booked!|inform
+SYS|You will be receiving an email within the next 24 hours.|inform
+SYS|Have a good trip!|inform
+USR|Great!|thankyou
+USR|Thanks :slightly_smiling_face:|thankyou

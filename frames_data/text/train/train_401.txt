@@ -1,0 +1,26 @@
+USR|Hi!|inform
+USR|I'm travelling solo to Belem from Atlanta and I want to go between august 24 and september 11|inform
+SYS|Great!|no_result
+SYS|Ok, so I have nothing in your date range leaving Atlanta.|no_result
+USR|I really need to be leaving from Atlanta.|request
+USR|What about if I came back later?|request
+SYS|Sorry - my mistake!|sorry
+SYS|I actually have several options available leaving from Atlanta.|sorry
+SYS|The dates available are Aug 24-30, Sept 3-7, Sept 6-9, Sept 8-11, or Aug 27-30.|sorry
+USR|Are they all at the same hotel?|request_compare
+SYS|No|negate
+USR|Can you tell me about the one with the longest stay?|request_compare
+SYS|So there are two 7 day packages.|offer
+SYS|At the Hotel Triumph you would be staying on the beach at a hotel with a 4.0 star rating.|offer
+SYS|There is free parking and wifi and breakfast is included in your price of 2819.|offer
+SYS|You would travel on August 28 and return September 3rd.|offer
+SYS|Alternatively, Zion Hotel offers a 7 day stay on the beach at a 4.5 star rated facility for 2094 dollars with business class flights.|offer
+SYS|This package at Zion goes from August 24 until August 30.|offer
+USR|They both sound fantastic!|request
+USR|Does Zion include free things as well?|request
+SYS|Yes, Zion has all the same free amenities that Triumph has.|inform
+USR|That's great!|inform
+USR|Then i'll go with Zion, it's fancier and somehow a lot cheaper, can't wait :smile:|inform
+SYS|Great :slightly_smiling_face: Sounds good!|inform
+SYS|Enjoy|inform
+USR|Thank you :slightly_smiling_face:|thankyou

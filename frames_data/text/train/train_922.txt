@@ -1,0 +1,20 @@
+USR|Hi there|greeting
+SYS|Hi!|greeting
+SYS|How can I help you?|greeting
+USR|I have September 13 to 25 off|inform
+SYS|Okay, where will you leave from?|request
+USR|Dallas.|inform
+USR|Can you look at flights to Belem?|inform
+SYS|Do you have a budget?|request
+USR|Lets consider this independently of any budget for now|inform
+SYS|We have a great 4.5 star hotel package available from September 14th to 22nd.|offer
+SYS|The hotel is located near the beach and has a 8.8/10 guest rating and also offers free parking, breakfast, and wifi.|offer
+SYS|The economy flights package is 1583.37 and the business flights package is 2011.78.|offer
+USR|can you also tell me what you can find me in Denver?|inform
+SYS|We have a 3 star hotel near a park, 8.86/10 guest rating, free breakfast and wifi, from September 13th to 18th, 1134.60 for economy flights, and 1364.73 for business flights.|offer
+USR|Lets go with Belem now|switch_frame
+SYS|Business or economy?|suggest
+USR|Lets do Business class|switch_frame
+SYS|Awesome!|inform
+SYS|Done!|inform
+SYS|Have a great vacation!|inform

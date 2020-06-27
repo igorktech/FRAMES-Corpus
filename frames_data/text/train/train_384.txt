@@ -1,0 +1,55 @@
+USR|Finally get to take a vacation!|inform
+USR|I'm looking for trips leaving from Nagoya
+What do you have going to Rome?|inform
+SYS|Let’s see what I can offer you!|request
+SYS|When are you planning on taking your trip?|request
+USR|Anytime between August 30th and the 13th of September|inform
+SYS|In that case I can offer you the Secret Bay from Sept 2-8 for $2628.|offer
+USR|Sounds like a cool hotel!|request
+USR|Is it fancy?|request
+SYS|The hotel is not yet rated.|inform
+USR|ok, how about if I went to Porto Alegre?|inform
+SYS|Wait, I also have a 4 star hotel in Rome.|offer
+SYS|The Hotel Emerald Legacy offers free wifi and breakfast, is located near a cathedral, and would cost just about 3000 dollars for an 8 days package.|offer
+USR|oh cool!|request
+USR|what was included in the other one?|request
+SYS|Secret Bay also features free wifi and breakfast|inform
+USR|so where could I stay in Porto?|switch_frame
+SYS|12 days at the Breakwater Hotel in Porto would run you 4674.68USD.|offer
+SYS|The hotel is 3.5 stars and features free wifi and free breakfast!|offer
+USR|would Seattle be cheaper?|inform
+SYS|13 days at the Fairyland in Seattle would cost you 2759.69USD.|offer
+USR|not bad!|request
+USR|I forgot to ask, is the one in Porto close to anything interesting?|request
+SYS|Not that I can tell.|canthelp
+USR|how about the seattle one?|switch_frame
+SYS|It's right in the heart of the city|inform
+USR|I've also been dreaming of Kyoto|inform
+SYS|Leaving Nagoya, 7 days in Kyoto could cost you as low as 153.17USD|suggest
+USR|including breakfast?|switch_frame
+SYS|Of course!|inform
+USR|Which hotels have good user reviews?|request
+SYS|Quiet Garden Resort in Kochi has 8.22/10 user review.|suggest
+SYS|That would cost 527 USD for a 7 days stay.|suggest
+SYS|Also available would be the Southern Palace Hotel with a user rating of 6.61.|suggest
+SYS|11 days at this hotel would cost you $539.|suggest
+USR|I meant among all the hotels you offered|request_compare
+SYS|The Fairyland has 0/10, Breakwater has 8.8/10, Secret Bay has 0/10, and Emerald Legacy has 8.22/10.|inform
+USR|I think it's between Fairyland 8 and Breakwater|request_compare
+SYS|Ok.|null
+SYS|Pick one.|null
+USR|How many stars does Fairyland have?|request
+SYS|3.5|inform
+USR|with breakfast? :|request
+USR|smile:|request
+SYS|No breakfast :disappointed:|inform
+USR|I'll go to Porto then!|switch_frame
+USR|The price difference is definitely worth the price difference!|switch_frame
+SYS|Awesome :slightly_smiling_face: Consider it booked.|inform
+SYS|Enjoy your stay!|inform
+USR|Can you just confirm the dates with me?|request
+SYS|September 3-13 would be your dates at the Breakwater Hotel.|inform
+USR|Awesome!|inform
+USR|ya please book it for me!|inform
+SYS|Ok :slightly_smiling_face: Enjoy!|inform
+USR|Thanks :smile:|thankyou

@@ -1,0 +1,5 @@
+USR|Direct flight from san antonio to cancun, does that even exist?|inform
+SYS|It does.|request
+SYS|Any date limitations?|request
+USR|Sept 18 to 22 please|inform
+SYS|I do not have any results within those dates|no_result

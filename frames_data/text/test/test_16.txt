@@ -1,0 +1,30 @@
+USR|hello|greeting
+SYS|Hi!|greeting
+SYS|How can I help you?|greeting
+USR|i would like tto go from beijing to san juan.|inform
+USR|on friday september 2
+for at most 2100$ with 1 adult|inform
+SYS|Unfortunately we only have flights from North Vancouver, Montreal, and Cleveland.|sorry
+USR|ok.|inform
+USR|leaving from campinas and arriving at Baltimore|inform
+SYS|I have 3 packages from Campinas to Baltimore but they are not within your budget.|offer
+USR|oh ok, that's fine.|request
+USR|How much is it?|request
+SYS|The cheapest option is 3048.00.|offer
+USR|ok.|inform
+USR|what about from campinas to san juan|inform
+SYS|Campinas to San Juan has no results within your budget,|no_result
+USR|ok.|switch_frame
+USR|im ok with 3048.|switch_frame
+USR|ill book the one from campinas to beltimore|switch_frame
+SYS|Okay.|hearmore
+SYS|Would you like information on this package before you book it?|hearmore
+USR|yes|affirm
+SYS|It is a 3 star hotel stay from September 12th to September 20th.|suggest
+SYS|Amenities include free breakfast, wifi, and parking.|suggest
+SYS|This package is 3048.00, would you like to book this package now?|suggest
+USR|ok|affirm
+SYS|Great!|thankyou
+SYS|Your trip has been booked!|thankyou
+SYS|Thank you and have a great day!|thankyou
+USR|thank you|thankyou

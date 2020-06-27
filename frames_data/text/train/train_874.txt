@@ -1,0 +1,19 @@
+USR|I have a massively important meeting in St. Petersburg.|inform
+USR|I am in Rome at the moment.|inform
+SYS|Ok!|request
+SYS|When do you need to travel?|request
+USR|asap|inform
+SYS|Is there anywhere else you can travel?|suggest
+USR|I can got to Punta Cana instead to meet them.|inform
+SYS|I can get you on a flight to Punta Cana tomorrow for 3658.75USD.|offer
+USR|From Rome?|confirm
+SYS|Yes.|affirm
+USR|Let's do it.|request
+USR|Thanks for getting me there!|request
+USR|Make sure to send me the hotel name.|request
+SYS|I can downgrade your flights to economy if you’d like to save some more money!|suggest
+USR|I'll be able to prepare for my meeting on business, worth the extra $.|inform
+USR|Thanks anyway.|inform
+SYS|No problem!|inform
+SYS|Enjoy your stay at La Estrella del Mar :slightly_smiling_face:|inform
+USR|Gracias!|thankyou

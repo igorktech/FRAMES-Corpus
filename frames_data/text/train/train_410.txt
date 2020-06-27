@@ -1,0 +1,17 @@
+USR|Ok so I've been DYING to visit Goiania and I can finally take some time off.|inform
+USR|What do you have leaving from Berlin, preferably between August 25th and september 3rd?|inform
+SYS|Hey!|suggest
+SYS|How about August 27 until August 31?|suggest
+USR|That's a bit short, anything longer?|inform
+USR|There is so much I want to see there :smile:|inform
+SYS|I don’t have any longer trips within your date range.|no_result
+USR|Ok well tell me more about this one then :slightly_smiling_face:|moreinfo
+SYS|Sure :slightly_smiling_face: The hotel is 3.5 stars, called the Scarlet Palms Resort.|inform
+SYS|Guests have given the hotel a 7.15/10 rating and the Scarlet Palms is located near shopping and a park.|inform
+SYS|Your package includes free wifi, free breakfast, and free hotel parking.|inform
+SYS|The total for this vacation package would be $2521.|inform
+USR|Wow!|inform
+USR|Sounds so nice!|inform
+USR|It just feels like a lot of money for such a short trip.|inform
+USR|What if I traveled from september 8-16 instead?|inform
+SYS|I don’t have anything between those dates, however I could book you 10 days at the Scarlet Palms hotel from August 28 until September 6 for a cost of 3103.57USD|offer

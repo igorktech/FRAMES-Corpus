@@ -1,0 +1,14 @@
+USR|Hey there!|inform
+USR|I need to take some pics of Madonna and her friend in London, I work with InTouch magazine.|inform
+USR|Can you get me there from Los Angeles?|inform
+SYS|Do you have a budget?|request
+USR|Yes, the company gave me 3500 to spend.|inform
+SYS|Are you travelling alone?|suggest
+USR|yep|affirm
+SYS|Do you have specific dates you'd like to travel on?|request
+USR|I'd like to leave on August 17th, and stay for however long the money will keep me there for.|inform
+SYS|There are no flights going to London.|suggest
+SYS|Is there somewhere else you could leave from?|suggest
+USR|No, I really must leave from LA.|inform
+USR|What if I increased my budget by 1000 dollars?|inform
+SYS|The only flights are to Calgary, Minneapolis, and Alexandria.|offer

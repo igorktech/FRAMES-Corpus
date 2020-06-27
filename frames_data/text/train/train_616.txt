@@ -1,0 +1,39 @@
+USR|HI|greeting
+SYS|Hi what can I do for you?|greeting
+USR|I NEED TO CHECK MONTREAL FOR MEWTWO!!|inform
+SYS|I understand.|request
+SYS|You would like to travel to Montreal.|request
+SYS|Where will you leave from?|request
+USR|I AM IN MEXICO CITY|inform
+SYS|Would that be Mexico City?|confirm
+USR|I AM IN MEXICO CITY|affirm
+SYS|How many people in your party?|request
+USR|3 ADULTS|inform
+SYS|Dates please|request
+USR|I CAN LEAVE AFTER MONDAY SEPTEMBER 12|inform
+SYS|An do you have a maximum number of days that you would like to remain in Montreal?|inform
+USR|NO|inform
+SYS|I have a 19 day stay for you for 5812.63USD.|offer
+SYS|Is that an appropriate length of time for you?|offer
+USR|YEAH!!!!!!!!'|switch_frame
+SYS|It is a 4 star rated hotel called The Illustrious Haven Hotel, located near the market and the mall.|inform
+SYS|You'll also get free parking and free wifi with your package.|inform
+SYS|We have space between Sept 12 and 30.|inform
+USR|I NEED TO CHECK OUT PARIS AS WELL THOUGH OK??|inform
+SYS|Mexico City to Paris for 3 adults, same dates?|confirm
+USR|YEA!!!!|affirm
+SYS|Do you have a cap on what you would like to spend?|request
+USR|I WILL SPEND 10 THOUSAND THREE HUNDRED DOLLARS|inform
+SYS|I have 2 very comparable 4 star hotels, both free wifi and breakfast included, one at 8501.57USD, and the other at 10199.69USD.|offer
+SYS|The main difference is that the second is located near the palace and museum.|offer
+USR|HOW LONG ARE THOSE STAYS|request_compare
+SYS|Both 10 days.|hearmore
+SYS|Would you like more information on either one of these choices?|hearmore
+USR|MORE INFO ON THE PALACE|switch_frame
+SYS|That would be the Hotel Regal Universe with a 10 day stay from Sept 18 to Sept 26.|suggest
+SYS|4 star, free wifi and breakfast, and as discussed previously near the museum and the palace all for 10199.69USD for your group of 3.|suggest
+SYS|Should I book this one?|suggest
+USR|YEAH!!|inform
+USR|SOUNDS PERFECT!!|inform
+USR|ALRIGHT!!!!!!!!!|inform
+SYS|I will look after that, have an awesome trip|inform

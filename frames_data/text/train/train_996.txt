@@ -1,0 +1,26 @@
+USR|HI.|inform
+USR|I have to book my honeymoon … but I’m getting married in Fukuoka a week from today!!|inform
+USR|Can you book something for two adults?|inform
+USR|We aren’t going far, just Hiroshami|inform
+SYS|Will this be for 2 adults?|suggest
+USR|Yes, rgiht|affirm
+SYS|I can take care of booking your honeymoon for you.|request
+SYS|How much would you like to allocate to your trip?|request
+USR|We are on a tight budget.|inform
+USR|The wedding was costly..
+We have 1100 dollars left over|inform
+SYS|You are in luck, we have a package in Hiroshima within your budget at the Iceberg Resort  for 9 days with a departure of Sept 13 and a return date of Sept 21|offer
+USR|Oh god, I am blessed!|request
+USR|Can you tel lme what the hotel is like?|request
+USR|Is it highly rated?|request
+SYS|Well, it's a 3 star hotel with a 7.15/10 guest rating and included wifi and breakfast.|inform
+SYS|It is also located close to the museum.|inform
+USR|That is not bad at all.|inform
+USR|How much for the two of us?|inform
+SYS|901.60USD via economy class flights|inform
+USR|Hey, sweet!|inform
+USR|200 bucks leftover!|inform
+USR|Ok pal, its no 5 star palace, but its affordable!|inform
+USR|Book that for two please|inform
+SYS|Reservations have been taken care of, enjoy your honeymoon!|inform
+USR|Thanks !|thankyou

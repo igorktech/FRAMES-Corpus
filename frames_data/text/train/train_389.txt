@@ -1,0 +1,10 @@
+USR|I'd like to find a vacation from Kabul to Santiago for 1800.|inform
+USR|I dont care when i go and it's just me traveling|inform
+SYS|Hello|greeting
+USR|Hey|greeting
+SYS|I apologize, we do not fly out of Kabul|sorry
+USR|Is there anything from Kabul to Philadelphia?|inform
+USR|I can increase my budget by $400.|inform
+SYS|I apologize, we do not fly out of Kabul, do you have any other departure city?|sorry
+USR|no i dont...thats okay tho, I'll come back another time.|thankyou
+USR|Thanks|thankyou

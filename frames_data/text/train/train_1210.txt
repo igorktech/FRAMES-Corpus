@@ -1,0 +1,11 @@
+USR|I would like to take my wife and 4 kids on a trip from Toronto to Porto|inform
+SYS|2 adults, 4 children?|confirm
+USR|yeah|affirm
+SYS|I have no packages available from Toronto to Porto Alegre.|no_result
+USR|How bout to  La Paz?|inform
+SYS|Neither I apologize|sorry
+USR|What about Cleveland?|inform
+SYS|No packages available Toronto - Cleveland|no_result
+USR|Nothing at all?!?!?!?!|null
+USR|That’s shocking.|null
+USR|Guess i’ll have to discuss some different options with the wife, I might be back.|null

@@ -1,0 +1,35 @@
+USR|Hi there, I'm looking for a place to get away with my best friend.|inform
+USR|Do you think you can give an amazing package?|inform
+SYS|Sure!|request
+SYS|Where are you looking to go?|request
+SYS|And can you tell me where you’d be departing from?|request
+USR|We're leaving from Tofino and we're thinking of going to Santos.|inform
+SYS|Sorry, no can do.|sorry
+SYS|I don’t offer any trips to or from Tofino.|sorry
+USR|Oh really?|null
+USR|Don't you know who I am?|null
+SYS|I cannot book trips out of Tofino.|no_result
+USR|Fine, if you're going to be like that... I guess we can leave from Frankfurt.|inform
+SYS|I have a variety of 3 and 3.5 star hotel in Santos for you.|inform
+SYS|When would you like to travel?|inform
+USR|Is 3.5 stars the best you can do?|negate
+USR|Are you serious?|negate
+USR|How about if we go to St. Louis then|negate
+SYS|In St. Louis I also have 3 and 3.5 star hotels.|inform
+USR|What's the most highly guest-rated hotel you have?|inform
+SYS|Palacio Tranquila in St. Louis has 9.16/10 from users.|offer
+USR|What more can you tell me about this package|switch_frame
+SYS|The hotel is near an airport and a theatre, it provides free parking and wifi, and complimentary breakfast is included.|inform
+USR|How much is it?|request
+USR|And does it come before September 12th?|request
+USR|Because that's when I need to get back in order to perform.|request
+SYS|3662.78USD with economy class flights.|inform
+SYS|You would depart Frankfurt on Sept 16th and return on the 25th.|inform
+USR|okay, I'm talking business class here.|negate
+USR|Do I look like an economy class type of person to you?|negate
+USR|What do you take me for?|negate
+SYS|A business class package would cost 4709.76USD.|offer
+USR|Cut the attitude and stop treating me like a second-class citizen.|inform
+USR|I'll take this package but that's the last time I'm ever going to use your services|inform
+SYS|I will send along booking confirmation.|inform
+SYS|Thank you for using!|inform

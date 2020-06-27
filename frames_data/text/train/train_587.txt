@@ -1,0 +1,18 @@
+USR|i have got some time off work for the first time in freakin YEARS and i need a vacation.|inform
+USR|screw the budget i wanna go to nagoya from september 8 until the 29|inform
+SYS|Where are you leaving from?|request
+USR|phoenix|inform
+SYS|There are no flights to Nagoya.|no_result
+USR|what about to vancouver?|inform
+SYS|There's a 4 star hotel near a park, museum, and cathedral with a 8.8/10 guest rating, free parking, breakfast, and wifi.|offer
+SYS|This package is from September 11th to 18th and business class seats cost 1304.23.|offer
+USR|cool not bad.|inform
+USR|ahh before i book that little getaway whats in tampa|inform
+SYS|There's a 3 star hotel near a park, beach, museum, and airport.|offer
+SYS|It has a 8.8/10 guest rating, free parking, breakfast, and wifi.|offer
+SYS|This is from September 11th to 14th and business class costs 767.14.|offer
+USR|i need to get away from a little longer than that one.|thankyou
+USR|so lets book vancouver please and thanks|thankyou
+SYS|Great!|goodbye
+SYS|It is done.|goodbye
+SYS|Have a great day!|goodbye

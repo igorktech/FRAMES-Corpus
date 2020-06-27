@@ -1,0 +1,18 @@
+USR|kingston to salvador u got this?|inform
+SYS|Do you have a budget?|request
+USR|jennifer lawrence does not do budgets, u dig?|inform
+SYS|Okay.|request
+SYS|When would you like to leave?|request
+USR|whenever bud|inform
+SYS|Traveling solo?|suggest
+USR|ya|affirm
+SYS|I have no results.|no_result
+USR|send me to chicago|inform
+SYS|We only have 2.5 star hotels.|inform
+USR|ok whatever book that hotel i guess|inform
+SYS|Booked!|inform
+USR|tell me the dates so i can notify my friends in Chicago|inform
+SYS|13th to 19th of September|inform
+USR|is it booked?|confirm
+SYS|Yes.|affirm
+USR|k good thanks bye|thankyou

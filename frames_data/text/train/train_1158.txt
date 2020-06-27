@@ -1,0 +1,17 @@
+USR|I need to bring 6 clients out to impress them for a few days.|inform
+USR|7 adults in total, and we're looking to leave Queenstown any time after September 20th.|inform
+USR|What've you got in Rome that sounds swanky.|inform
+SYS|Our very best in Rome is a 4 star hotel located near the cathedral and shopping.|offer
+SYS|We can offer you stays up to 9 days.|offer
+USR|Amenities?|request
+SYS|Free wifi and breakfast is included.|inform
+USR|Moving on - can you  tell me your best hotel in Detroit?|inform
+SYS|In Detroit our only availability is a 2.5 star hotel.|offer
+USR|Ah, that won't do at all.|inform
+USR|Anything nicer in Kingston?|inform
+SYS|In Kingston the best right now is a 3 star hotel with 8.49/10 ratings.|offer
+USR|Meh.|inform
+USR|Ok, Rome it is.|inform
+USR|Book business class please.|inform
+SYS|Alright business packages are booked for all of you!|inform
+SYS|You will be there from September 26th to October 4th.|inform

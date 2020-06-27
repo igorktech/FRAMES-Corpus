@@ -1,0 +1,21 @@
+USR|Hi i need a 5 day get away!|inform
+SYS|SUre thing!|request
+SYS|Where are you leaving from?|request
+USR|Im leaving from Queenstown|inform
+SYS|Ok!|offer
+SYS|How about 5 days in Milan?|offer
+USR|I really want to go to Sao Paulo is there anything there?|inform
+SYS|could you give me an estimated date of departure?|request
+USR|August 17, 2016 to Wednesday, August 31, 2016 are the dates i could be gone|inform
+SYS|Great!|offer
+SYS|I've got August 17-August 20 in Sao Paulo ?|offer
+USR|that looks great.|moreinfo
+USR|what are the hotels like?|moreinfo
+SYS|Great!|suggest
+SYS|I've got 2 or 3 star hotels available.|suggest
+USR|how much for the 3 star|request
+SYS|5 days at the 3 star hotel would cost 2289.59USD.|offer
+USR|can we go ahed and book that?|confirm
+SYS|We sure can!|affirm
+USR|thanks!|thankyou
+SYS|My pleasure :smile:|you_are_welcome

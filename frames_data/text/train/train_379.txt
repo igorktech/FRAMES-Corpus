@@ -1,0 +1,38 @@
+USR|Hi there :slightly_smiling_face: I just managed to get my boss to agree to a HUGE vacation time slot!!|inform
+USR|I am so excited to do some traveling.|inform
+USR|I'm traveling from Hamburg and I have a few cities I'm thinking of seeing...
+Do you have packages to Tijuana?|inform
+SYS|Which days are you travelling and what would be your budget?|request
+USR|I'm free to travel from August 30 to September 20.|inform
+USR|Budget is to be determined|inform
+SYS|We have 9 days trip at 2694.73$, or 13 days at 3051.45USD.|suggest
+SYS|The best rated hotels are 3.0 stars|suggest
+USR|I just want to know more about the hotels in Tijuana first.|request_compare
+USR|Which package has the the hotel rated 3 stars?|request_compare
+SYS|We have Resort Jade Covert - 13 days, at 3051.45USD (ECONOMY).|inform
+SYS|or 9 days at 3422.61USD (ECONOMY CLASS).|inform
+SYS|The same hotel for 13 days in a BUSINESS class fight is 3947.27USD|inform
+USR|Great, let me just ask you about Kingston also.|inform
+USR|Do you have flights to Kingston|inform
+SYS|from where?|request
+USR|also from Hamburg|inform
+SYS|yes, we have stays hotels at 2086.77 (3.5 stars, 8 days),2048.14 (4 stars, 8 days), and 1951.44, 3.5 star, 10 days, or 1653.85 (4.3 stars, 8 days)|offer
+USR|awesome, thanks for the detailed response.|inform
+USR|Can you check trips to Salvador?|inform
+SYS|We have 3.5 star hotels, for 10 days at 3070.39 (economy class) or 10 days at 3971.30 (Business Class)|offer
+USR|Is the hotel near any attraction?|request
+SYS|It's near the museum, palace and theatre|inform
+USR|Now I'd also like to check out trips to Miami|inform
+SYS|We have 3.5 star hotels at 3196.25USD economy class or 4098.82 business class, both for 10 days|offer
+USR|Can you tell me about the amenities here|request
+SYS|Majestic Island Inn & Suites - 10 days ,  free wifi, free breakfast, free parking|inform
+USR|ok i just want to compare really quickly with the Resort Jade Covert in Tijuana.|request_compare
+USR|do you know if its near anything interesting?|request_compare
+SYS|it's near a shopping center|inform
+USR|Can you tell me the price for Miami if its for two adults and four kids?|request
+SYS|it ranges from 7146.39 to 13263.81 USD.|suggest
+USR|what do i get for 7146.39?|request
+SYS|3 star hotel, guest rating is 8.86, free wifi, breakfast and parking.|inform
+SYS|Triple Aegis - 11 days|inform
+USR|Deal.|inform
+USR|Book it|inform

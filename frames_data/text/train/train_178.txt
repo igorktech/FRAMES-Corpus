@@ -1,0 +1,34 @@
+USR|hay queen whats gooood.|inform
+USR|We are interested in getting out of The Veg and going to fukuoka.|inform
+SYS|Where will you be travelling and from where ?|request
+USR|Las Vegas - Fukuoka|inform
+SYS|any preferable dates?|request
+USR|august 19 to sept 3 plz|inform
+SYS|How many people will be travelling?|request
+USR|7 of us|inform
+SYS|How many Adults and children?|request
+USR|lmao, we're 7 adults!|inform
+SYS|Ok, perfect!|request
+SYS|and do you girls have a budget?|request
+USR|35200|inform
+SYS|Oceanside Hotel, 3.5 stars, Free wifi.|offer
+SYS|It departs on August 27th and returns on September2nd|offer
+USR|ok.|request_alts
+USR|and any other hotels??|request_alts
+SYS|Apex hotel, with 3 stars|offer
+USR|free breakfast?|confirm
+USR|same dates?|confirm
+SYS|Only free Wifi|inform
+USR|whats available in san jose?|inform
+SYS|from las vegas?|confirm
+USR|yass|affirm
+SYS|I found the Nugget Inn, 2.5 stars, for a 10 day stay, leaving on the 25th and returning on the 2nd for $14235|offer
+USR|omg i like it.|request
+USR|whats the hotel like|request
+SYS|It’s near a park and a museum, it has breakfast and wifi and parking|inform
+USR|how much if we fly business class|request
+SYS|it would be $17903 for the upgrade, should i book that for you?|offer
+USR|shit yassss we goin in.|inform
+USR|Book it for us, please.|inform
+SYS|its booked!|inform
+SYS|enjoy your time!|inform

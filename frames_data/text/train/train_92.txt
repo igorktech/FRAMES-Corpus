@@ -1,0 +1,25 @@
+USR|hey i wanna go to hiroshima w my fam|greeting
+SYS|Can you tell me where you are departing from?|request
+SYS|do you have a budget?|request
+USR|yeah im from Philly trying to spending 23500 max|inform
+SYS|When are you planning on departing?|request
+USR|idk|inform
+SYS|Will you be travelling alone?|suggest
+USR|nah im bring 2 wives and 4 kids|inform
+SYS|We have a few options for hotels, they will all be a 6 day stay, would that work?|offer
+SYS|If so, for your budget you can get the Iceberg Resort for $20000 (3.0 star hotel), the Hotel Oishi for $20297 (4.5 star Hotel) or Hotel Royal for $21031 (3.9 star Hotel)|offer
+USR|hm ok i would like to know where there is free parking|inform
+SYS|none of the above have free parking, all are  equipped with Wifi and the Iceberg Resort offers Breakfast|inform
+USR|when does my flight depart if i stay at Hotel Royal|request
+SYS|This flight is departing from Philadelphia|inform
+USR|yes i live in Philadelphia........................ when do i depart i want to know WHEN|request
+SYS|you will depart from Philadelphia, USA on August 30th and you will Leave Hiroshima, Japan on September 3rd|inform
+USR|ok is this the same for all hotels?|request_compare
+SYS|Iceberg Resort would be from August 26th to August 30th and for Hotel Oishi it will be August 26th until August 30th|inform
+USR|ok i want to stay at Hotel Royal because i do not want my children to have free breakfast|inform
+SYS|okay, well lets book that for you!|confirm
+SYS|so you will be leaving on Tuesday, August 30th and returning on September 3rd, with a total of $21031, does that sound good?|confirm
+USR|yes, good.|inform
+USR|please book|inform
+SYS|All done!|inform
+SYS|enjoy your vacation!|inform

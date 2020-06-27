@@ -1,0 +1,18 @@
+USR|Hi I've got investors to meet with in Nagoya sometime in the near future.|inform
+USR|I can leave from anywhere|inform
+SYS|When would you like to leave?|request
+USR|Whenever|inform
+SYS|Do you have a budget?|request
+USR|no|inform
+SYS|We only have 3 star hotels but do you prefer business class flights or economy?|suggest
+USR|Business.|request
+USR|Where are the hotels located?|request
+USR|I'd like to be in the heart of the city.|request
+SYS|Unfortunately there is only one hotel available and it is near a university.|sorry
+USR|That could work I guess, what is the price?|request
+SYS|4077.62 is our cheapest business package.|inform
+USR|Cool, book it please|inform
+SYS|Great!|inform
+SYS|It's booked!|inform
+SYS|Have a great day!|inform
+USR|:smile:|null

@@ -1,0 +1,39 @@
+USR|hi i have been given access to multiple intership positions
+all abroad
+so I want to plan a trip to which ever one has the best deal to scope it out|inform
+SYS|I can help you out with that!|request
+SYS|Where are you coming from?|request
+USR|i am in Barcelona.|inform
+USR|and I can travel from sept 6-21|inform
+SYS|What is one of the cities you can go to?|request
+USR|kobe also i have 4700 dollars tops for this trip, keep that in mind|inform
+SYS|Okay, our best deal for you is an 11-day long trip with a stay at a 3.5 star hotel for 3895.67.|offer
+USR|is it downtown?|request
+SYS|I do not have any information regarding whether it is in the heart of the city.|canthelp
+USR|what about amenities?|request
+SYS|All guests have access to free wifi.|inform
+USR|ok well
+check Los Angeles ok|inform
+SYS|In Los Angeles we can also offer you an 11 day stay.|offer
+SYS|This time it will be a 3.0 star hotel next to the airport and mall.|offer
+SYS|All for 2475.71.|offer
+USR|free wifi as well?|request
+SYS|Not just free wifi, also free parking and free breakfast!|inform
+USR|ah, great.|request
+USR|what are the dates|request
+SYS|It's from September 8-18.|inform
+USR|before i book anything can you check San Diego|inform
+SYS|Sure.|offer
+SYS|In San Diego our best is a 9-day trip at a 3.0 star hotel near the park for 1388.27.|offer
+USR|which has a higher user rating - Los Angeles or San Diego?|request_compare
+SYS|They are the same: 8.86/10.|inform
+SYS|They also offer the same amenities.|inform
+USR|oh, wow.. both are good reviews... well Los Angeles is near a mall.. I think that's where the mall of america is
+I want that one|inform
+SYS|Alrighty then!|offer
+SYS|Would you like to go for a business upgrade for 3153.44 or the economy for 2475.71?|offer
+USR|yes - business|inform
+SYS|Sounds good!|inform
+SYS|This is booked for you.|inform
+SYS|You depart today so better get going!|inform
+USR|yes, you're right.. thank you|thankyou

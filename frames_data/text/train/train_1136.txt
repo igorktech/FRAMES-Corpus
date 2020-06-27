@@ -1,0 +1,33 @@
+USR|yes.|inform
+USR|i am going 2 bring my grand daughter with me......|inform
+SYS|So 1 adult and 2 kids then?|suggest
+USR|she want 2 go 2 tijuana.|inform
+USR|she is one kid|inform
+SYS|so 1 adult, 1 kid then!|inform
+SYS|To Tijuana from where?|inform
+USR|from  san juan|inform
+SYS|Are you guys on a budget?|request
+USR|basically not ha ha.|inform
+USR|i am a jackpot winner
+i have 4500 dollars|inform
+SYS|Do you have preferences for dates or the amount of time you want to spend in Tijuana?|inform
+USR|yes we can only go after sept12....back by october 3...|inform
+SYS|We have a 12 day package deal for you costing at 2465.42 for economy flights and 3096.16 for business.|offer
+SYS|Would you like to book this?|offer
+USR|what is the hotel like....|request
+SYS|All I can tell you is that it's near a park, which I'm sure you would enjoy.|inform
+SYS|The hotel also has free parking, free breakfast, and free wifi.|inform
+SYS|It's 2.5 stars and the guest rating is 6.77/10.|inform
+SYS|Are you interested?|inform
+USR|i want 2 stay nicer place.|inform
+USR|what is there nice in Chicago|inform
+SYS|All the hotels in Chicago that we have are only 2.5 stars.|offer
+SYS|There is a 3 star hotel in Tijuana if you're interested, but that is the most stars we have for a hotel in Tijuana.|offer
+USR|ok Tijuana 3 star has free breakfast?|request
+SYS|Yes, it includes breakfast, parking, and wifi.|offer
+SYS|We have a package at the Resort Jade Covert for 10 days, costing at 2514.69 total for economy, and 3145.43 for business class.|offer
+SYS|Would you be interested in purchasing this package?|offer
+USR|that is great..... yes i will book please... business class because i have the money LOL|inform
+SYS|Excellent.|inform
+SYS|Enjoy your trip in Tijuana!|inform
+USR|ok bye|goodbye

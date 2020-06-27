@@ -1,0 +1,36 @@
+USR|Hi im fro termina and i want to go on vacation on August 13th|greeting
+SYS|Where would you like to go?|request
+USR|Im looking to go to Kakariko Village|inform
+SYS|Sorry, I can't find those locations in my database.|suggest
+SYS|Is there another place you could depart from?|suggest
+USR|I could leave from Birmingham|inform
+SYS|Ok!|request
+SYS|Any other destination in mind?|request
+USR|not at the moment let's see what is available|inform
+SYS|I've got trips available to Calgary, Denver, Burlington, Sacramento, and Phoenix - all for under 500USD.|inform
+SYS|Any interest in exploring these options?|inform
+USR|potentially which of these places have the best hotel for 5 people|inform
+SYS|5 adults?|confirm
+USR|yessir!|affirm
+SYS|Okie doke!|offer
+SYS|I have 4 star hotels in Calgary, 3 stars in Denver, 2.5 in Burlington 2.5 in Phoenix, and 2 stars in Sacramento.|offer
+USR|to stay in Calgary how much would it be?|switch_frame
+SYS|5 people could spend 8 days in Calgary for 795.80USD.|offer
+USR|queenstown maybe|inform
+SYS|I have a 5 star hotel in Queenstown for 5 people for 13047.90USD.|offer
+USR|that would work what is it called/|switch_frame
+SYS|That hotel is called the Illustrious Pool Hotel.|inform
+USR|that seems perfect!|request
+USR|what dates would that be/\?|request
+SYS|August 26-September 1.|inform
+USR|anything closer to august 13th|inform
+SYS|I have the same hotel for 15395.73USD if you leave on August 15|offer
+USR|and when would it return?|switch_frame
+SYS|You would return on August 21.|inform
+USR|if i wanted to be back by the 16th when could i return?|request
+SYS|You would like to travel from August 13-16?|confirm
+USR|yes please!|affirm
+SYS|Sorry, I don't have anything available in Queenstown for those dates.|no_result
+USR|what is available for those dates?|inform
+SYS|I can't find anything in my database for those dates.|no_result
+USR|okay well i guess ill try another time then|goodbye

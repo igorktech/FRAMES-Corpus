@@ -1,0 +1,29 @@
+USR|Hi there, we're looking to go on a family vacation and we'll be leaving from Cancun.|inform
+USR|We don't have a destination in mind though and so I was helping you'd help us with that.|inform
+SYS|Sure!|request
+SYS|Can you let me know how many will you be?|request
+SYS|It'll also be helpful to know if you have fixed dates or budgets in mind.|request
+USR|We'll be 3 adults and 4 kids, and we're looking for something between Saturday September 10 and Wednesday September 28.|inform
+USR|A package that isn't over 25500 would be good.|inform
+SYS|Alright that's plenty to start with!|suggest
+SYS|I can take you guys to Rio de Janeiro, Buenos Aires, Boston, Seattle, or Frankfurt.|suggest
+SYS|These are our longer trips at most 19 days long.|suggest
+SYS|If you are interested in shorter trips, I can search for that too.|suggest
+USR|Long trips with highly rated hotels?|inform
+USR|How about that?|inform
+SYS|Well of the options above, Rio de Janeiro and Buenos Aires have 3 star hotels, Frankfurt has a 4.5 star hotel, and Seattle has a 5 star hotel.|inform
+USR|Ooh let's try Frankfurt then.|moreinfo
+USR|Tell me more.|moreinfo
+SYS|In Frankfurt it will be a 17 day stay from the 12th to the 27th, during which you will enjoy free breakfast and free wifi.|inform
+SYS|Guests in the past have praised the hotel with an average 8.86/10 rating.|inform
+USR|No museum or shopping mall nearby for the kids to check out?|request
+SYS|It does not specific any points of interest nearby the hotel in my database.|inform
+SYS|However, the kids do get to enjoy free wifi.|inform
+USR|Oh that's alright then, hopefully we'll find something!|request
+USR|How much would that cost?|request
+SYS|We offer the regular economy package for 17460.9 and the business upgrade for 22510.83.|offer
+USR|Okay great, we'll take the economy package for that please.|inform
+SYS|Sure thing!|inform
+SYS|I will book it for you.|inform
+SYS|Hope you have a great vacation :slightly_smiling_face:|inform
+USR|Thanks!|thankyou

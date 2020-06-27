@@ -1,0 +1,17 @@
+USR|good i have 3 days off and wanna leave San Antonio.|inform
+USR|i only have 400 bucks so ill prob have to take a bus but if u can find me a flight that'd be sweet as hell.|inform
+USR|i'll go wherever, whenever|inform
+SYS|Are you going all by yourself?|suggest
+USR|yupp|affirm
+SYS|Ironically, for your budget, we only have 10 day trips available.|offer
+SYS|We've got ones for Denver and Calgary.|offer
+SYS|Will these work for you?|offer
+USR|calgary is like, in another country so i would be down for that.. whats the hotel like|moreinfo
+SYS|It's a 4 star hotel next to a university.|offer
+SYS|Guests enjoy free parking and free wifi.|offer
+SYS|You can even afford business flights to there.|offer
+USR|how does denver hold up to that?|switch_frame
+SYS|Denver's got a 3 star hotel with free wifi near a museum and a university.|inform
+USR|book calgary please|inform
+SYS|Awesome, would you like to take economy flights for 197.25 or business flights for 263.94?|offer
+USR|dude business thats ballin|switch_frame

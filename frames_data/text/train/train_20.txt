@@ -1,0 +1,25 @@
+USR|Hi looking to go on vacation on the 13th of august|greeting
+SYS|Our best deal right now is to Vancouver, Canada.|suggest
+USR|How about Naples|inform
+SYS|and which city will you be departing from?|request
+USR|Vancouver|inform
+SYS|Perfect, any idea how long you would like to spend in Naples and when you would like to depart?|inform
+USR|im planning on a three day get away from the 13th to the 16th of August|inform
+SYS|I have an availability on August 19th and it is for a 6 day stay.|suggest
+SYS|Are you okay with that?|suggest
+USR|ya that sounds interesting can you tell me more about this package?|moreinfo
+SYS|You would be staying at the Courtyard Resort which is a 3-star hotel, breakfast and wifi included.|inform
+SYS|The flight is a direct flight from Vancouver to Naples on economy class.|inform
+SYS|The total cost is $2349.83USD.|inform
+USR|are there any other Hotels?|request_alts
+SYS|There is also the Tower Hotel which is a 4-star hotel, but that one is only available from August 24th to August 28th.|suggest
+USR|How much would that be?|request
+SYS|$2016.37USD|inform
+USR|and is that flight in Business class?|request
+SYS|No it would be in economy class|inform
+USR|can we upgrade it?|confirm
+SYS|Absolutely.|suggest
+SYS|The new price  would work out to $2568.35USD.|suggest
+SYS|Would you like me to book that for you?|suggest
+USR|yes please that sounds perfect!|thankyou
+USR|Thank You!|thankyou

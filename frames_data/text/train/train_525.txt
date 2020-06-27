@@ -1,0 +1,3 @@
+USR|Hi there, do you have any flights out of Tofino?|inform
+SYS|Unfortunately we do not have any flights out of Tofino.|sorry
+USR|Thats a bummer|goodbye

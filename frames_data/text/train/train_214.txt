@@ -1,0 +1,38 @@
+USR|Hi, I want to take my kids on a wonderful vacation, can you help me find something that my wife and I will approve on.|inform
+SYS|Sure!|request
+SYS|Where will you be leaving from?|request
+USR|Were leaving from Naples|inform
+SYS|Do you have a budget?|request
+USR|$9500 is what my wife is letting me spend, but i still have to ask for her permission|inform
+SYS|How many people will be travelling?|request
+USR|My three angelic kids, who i love so dearly!|inform
+USR|And of course my beautiful lovely Wife|inform
+SYS|Do you know when you and your family would like to travel?|request
+USR|She was thinking between August 27th and September 5th but the kids will have school, but she says itll be okay so i dont care what i think, those dates preferably :slightly_smiling_face:|inform
+SYS|We only have one destination in our database leaving from Naples and that is Hamburg.|inform
+USR|honestly that sounds fine what packages are available|request
+SYS|What flight would you prefer?|suggest
+SYS|Economy or business class?|suggest
+USR|We try to stay financially smart let's say economy|inform
+SYS|This package is from the 25th to the 30th of August.|offer
+SYS|The hotel is 3 stars and offers free breakfast, wifi and parking.|offer
+SYS|The cost of this package is 6166.86.|offer
+USR|I want to treat my loveys to the best do you have any better rated hotels?|inform
+SYS|Sorry, we only have the one hotel option for this trip.|sorry
+USR|What if i left from birmingham?|inform
+SYS|The only result for this is a trip to Calgary.|inform
+USR|well that doesnt seem ideal, what if i left from Dallas|inform
+SYS|You could go to Punta Cana if you leave from Dallas.|suggest
+USR|what star hotels do they have there?|request
+SYS|2.5 and 0 star hotels.|offer
+USR|Okay let's see if i leave from Marseille where could i go!|inform
+USR|i need to make this perfect!|inform
+SYS|You could go to Munich, Germany.|suggest
+USR|Do you have anything to porto it doesnt matter where we depart from|inform
+SYS|We have flights to Belo Horizonte, Brasilia, Rio de Janeiro, Calgary, and Munich.|suggest
+SYS|Do any of these interest you?|suggest
+USR|Brazil seems safe for the family!|switch_frame
+USR|what offers are there in Belo Horizonte|switch_frame
+SYS|The only result for Belo Horizonte is a 2.5 star hotel from the 27th to 31st of August.|offer
+SYS|They offer free breakfst, wifi, and parking.|offer
+SYS|The cost for this package is 2961.50.|offer

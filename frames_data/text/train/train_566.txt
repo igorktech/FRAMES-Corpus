@@ -1,0 +1,23 @@
+USR|I have investment meetings in Sao Paulo, the dates are flexible, but I need to get there asap|inform
+SYS|where will you be coming from?|request
+USR|I dunno|inform
+SYS|How many will you be and when would you like to depart and return?|request
+USR|no dates just me i think|inform
+SYS|I have departures from several cities.|offer
+SYS|Can you go from Tokyo?|offer
+USR|I don't see why not.|moreinfo
+USR|What's the package like?|moreinfo
+SYS|From Fukuoka, I have the Azure Spire Hotel available for a 15 day stay from Sept 2 to Sept 15|offer
+USR|Oh, from Fukuoka?|confirm
+USR|or Tokyo?|confirm
+SYS|From Fukuoka.|offer
+SYS|You can also leave from Tokyo if you'd like.|offer
+USR|Sure, I thought I was leaving from Tokyo, Fukuoka would probably be ok too though|moreinfo
+SYS|Same package from Fukuoka or Tokyo, however, it is cheaper to go from Tokyo.|inform
+USR|Ok.|inform
+USR|Well let's book it from Tokyo in that case|inform
+SYS|Would you like some more details on it before I confirm your booking?|hearmore
+USR|Nonoppe!|inform
+USR|Just book|inform
+SYS|Not even the price?|hearmore
+USR|Nope!|negate

@@ -1,0 +1,41 @@
+USR|I’m dreamin, of a getaway to the the Veg.|inform
+USR|I live in Busan|inform
+SYS|I can tell you about an exciting vacation package from Busan to Hiroshima if you would be so inclined|offer
+USR|Las Vegas from Busan|inform
+SYS|Excellent, we have some flights for you from Busan to Las Vegas.|offer
+SYS|Would a trip from September 1 to 8 work for you?|offer
+USR|I mean, sure..What’s it look like?|moreinfo
+SYS|You would be staying at the fabled Retro Inn, a 2.5 star hotel near the airport, park, and mall.|inform
+SYS|Does this sound good to you?|inform
+USR|Sounds beautiful.|inform
+USR|But what about if I went to Tampa?|inform
+SYS|I've got what you're looking for!|offer
+SYS|How does a trip to Tampa from August 27 to September 8 sound to you?|offer
+USR|What’s the hotel like?|moreinfo
+USR|Equally mythical?|moreinfo
+SYS|Fortunately, I am pleased to inform you that the hotel in question is the 3 star Dual Loch Hotel, located the airport, museum, park, and beach.|inform
+SYS|Does this sound good to you?|inform
+USR|Neat!|inform
+USR|What about if I go to Hamburg?|inform
+SYS|I could book a trip to Hamburg from August 31 to September 7.|hearmore
+SYS|Would you be interested in learning more?|hearmore
+USR|I would indeed|affirm
+SYS|You would be staying at the Hotel Peter, a 3 star hotel located near the heart of the city and its museums.|suggest
+SYS|The stay comes with free breakfast, wifi, and parking.|suggest
+SYS|Would you like to confirm this booking?|suggest
+USR|Sounds lovely.|inform
+USR|No thanks, I don’t want to book right now.|inform
+USR|How much would the Hotel Peter package cost|inform
+SYS|Well, that depends.|request
+SYS|How many adults and children will be traveling on this trip?|request
+USR|Just one.|inform
+USR|Adult.|inform
+SYS|In that case, the package will cost 1461.11USD.|offer
+USR|Wow!|request
+USR|How much would the trip to Tampa cost?|request
+SYS|For one adult, the trip to Tampa would cost 4030.84USD.|offer
+USR|Hmm, also within my reach.|request
+USR|And for Las Vegas?|request
+SYS|The trip to Las Vegas would cost you 2983.7USD.|offer
+USR|Great.|thankyou
+USR|I thank you for your time.|thankyou

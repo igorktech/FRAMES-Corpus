@@ -1,0 +1,15 @@
+USR|Hello, kind stranger.|greeting
+SYS|Would you like to go from Calgary to Vancouver?|offer
+USR|I would like to go from Athens to Ulsan|inform
+SYS|Ok!|request
+SYS|How many will be travelling?|request
+USR|I, my wife, and our infant son.|inform
+SYS|Let me see what I can find :slightly_smiling_face: Do you have a budget?|request
+USR|Our budget is 6700.|inform
+USR|Not a penny more.|inform
+SYS|I’m sorry, it seems I cannot accommodate a child on that budget.|sorry
+SYS|I can find you something if just two adults are travelling?|sorry
+USR|Burlington.|inform
+SYS|I’m sorry, but I cannot get you from Athens to Burlington on 6700 dollars.|sorry
+USR|Then I will not be making use of your services.|goodbye
+SYS|Sorry :disappointed:|sorry

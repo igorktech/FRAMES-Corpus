@@ -1,0 +1,17 @@
+USR|I want to book a trip for my honeymoon!|inform
+SYS|Where do you want to go?|request
+USR|My soon to be husband and I really want to go to Ulsan for 5 days, can you make it happen?|inform
+SYS|Hopefully!|request
+SYS|Where do you want to leave from?|request
+USR|Valencia!|inform
+SYS|When?|request
+USR|After September 11!|inform
+SYS|Ok - what is your budget?|request
+USR|Ooh we spent a lot on the wedding so we have to be careful.|inform
+USR|4200 at most!|inform
+SYS|I’m sorry, I cannot accommodate two adults on your budget.|sorry
+SYS|Perhaps another destination would be more suitable?|sorry
+USR|Are you kidding?|inform
+USR|What about a trip to Busan?|inform
+USR|You better have that at least.|inform
+SYS|I do not have trips to Busan from Valencia for 2 people that cost less than 4200 dollars.|no_result

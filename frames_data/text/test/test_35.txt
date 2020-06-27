@@ -1,0 +1,22 @@
+USR|Hello,|greeting
+SYS|Hi|greeting
+USR|Can I please have a vacation from Busan to Pittsburgh for $1500|inform
+SYS|are you travelling alone?|suggest
+USR|yes|affirm
+SYS|When would you like to leave?|request
+USR|I dont mind|inform
+SYS|Sorry but there are no flights from Busan to Pittsburgh.|sorry
+SYS|Is there another destination you might like to try out?|sorry
+USR|can i go to sendai|inform
+SYS|Yes you can!|offer
+SYS|We have two 4 star hotels.|offer
+USR|ok how much is it?|request
+SYS|490.35, 554.37, 603.65, 682.46, 692.41, and 785.39.|offer
+USR|ok I will book that one|inform
+SYS|Which price interests you?|null
+USR|786.39|switch_frame
+SYS|Great I will book this for you!|inform
+SYS|Your trip is from the 30th of August to the 11th of September.|inform
+SYS|Have a great trip!|inform
+USR|ok thank you|thankyou
+SYS|You're welcome!|you_are_welcome

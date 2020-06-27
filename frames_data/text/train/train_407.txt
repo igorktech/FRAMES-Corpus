@@ -1,0 +1,32 @@
+USR|So there are 4 friends I promised I would visit this year and I want to check which one would be the best to visit in the coming weeks based on the deals you can offer me.|inform
+SYS|Where would you be leaving from?|request
+USR|From Tijuana and I would be going between August 31st and September 11th|inform
+SYS|Where would you like to go?|request
+USR|Let's check Burlington first|inform
+SYS|A 2.5 star hotel in the heart of the city would cost 958.49USD for a 6 day stay and you would have free wifi and free parking.|offer
+SYS|For 6 days at a 3.0 star hotel near a park with free wifi you would be paying 1221.70USD.|offer
+USR|Those are pretty good deals, are they with economy flights?|request_compare
+SYS|Yes, they are.|affirm
+USR|ok great, that's something I'm happy to save on|null
+SYS|Any other destinations to check out?|suggest
+USR|Leon, since I could go to Burlington for about 1000, is there anything in Leon around the same price?|inform
+USR|And 6 days sounds like a good length|inform
+SYS|The cheapest package to Leon would be 2199.7USD.|suggest
+USR|Wow that would be quite a lot more, why the price difference?|request_compare
+USR|Is it a fancier hotel?|request_compare
+SYS|However, the hotel in Leon is 5 star and located on the beach near a palace.|inform
+USR|How long is that stay?|request
+SYS|8 days|inform
+USR|Ok thanks.|request
+USR|My friend lives in Punta Cana, how much would it cost to get there?|request
+SYS|515 dollars for a 5 day stay.|suggest
+USR|What's the hotel like?|request
+SYS|2.5 star|inform
+USR|and...|moreinfo
+SYS|On the beach.|inform
+USR|that good!|moreinfo
+USR|what else?|moreinfo
+SYS|I don’t understand.|reject
+SYS|What do you mean?|reject
+USR|What else can you tell me about this hotel?|moreinfo
+SYS|It is called El Mar.|inform

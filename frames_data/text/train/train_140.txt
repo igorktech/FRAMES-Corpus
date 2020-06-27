@@ -1,0 +1,20 @@
+USR|Hi I live in Seattle and I really have to get out of this seedy town for a while|greeting
+SYS|lets see how i can help you today!|suggest
+SYS|do you have a budget and will you be travelling alone|suggest
+USR|Yes I will be travelling alone!|inform
+USR|Anywhere you have available sometime between August 17 and August 29 for no more than 2200.00.|inform
+SYS|Are these dates flexible by any chance?|request
+USR|I only start work on Monday Sept 5th so I would have to be back by Sunday at the very latest!|inform
+SYS|Any destination in mind|request
+USR|Anywhere within my budget that gets me out of here!|request
+USR|Do you have anything in Canada?|request
+USR|I like Canada, they are real nice up there.|request
+SYS|i have som eavailabilities for you, such as Punta Cana, San Juan, Columbus, Baltimore, and Calgary|suggest
+USR|What sort of packages do you have in Calgary?|moreinfo
+USR|I want something classy if possible.|moreinfo
+SYS|I have the Amusement available for 9 days, it is a 4 star hotel, it leaves on the 17th and returns on the 25th and is a total of $683, would you like me to upgrade that to business class?|offer
+USR|That sounds SO perfect!|request
+USR|The dates are great and so is the price!|request
+USR|How much would it be for business class?|request
+SYS|business class would come out to $917|inform
+USR|That's $300 less than I budgeted, sound like a great getaway, do I need to book that now?|inform

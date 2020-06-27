@@ -1,0 +1,3 @@
+USR|I want to fly from Kabul to denver.|inform
+USR|10 adults|inform
+SYS|We have no flights out of Kabul, to anywhere.|no_result

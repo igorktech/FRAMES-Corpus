@@ -1,0 +1,5 @@
+USR|Hello.|inform
+USR|I need Paris to Barcelonna Sept 18 to 22|inform
+SYS|Do you have a budget?|request
+USR|2900|inform
+SYS|No sorry!|sorry

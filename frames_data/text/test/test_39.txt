@@ -1,0 +1,25 @@
+USR|I dream of a better life and I want to go to Sendai|inform
+SYS|Where are you leaving from?|request
+USR|belo horizonte|inform
+SYS|Do you have a budget?|request
+USR|$1,200|inform
+SYS|Are you going to be travelling alone?|request
+USR|ya unfortunately...|null
+SYS|When would you like to leave for your travels/|request
+USR|as soon as possible.|inform
+SYS|There are no results within your budget.|no_result
+USR|belem?|inform
+SYS|Our best packages for Belem are at a 4 star hotel on the beach near the airport.|offer
+SYS|The economy seats cost 791.57 and the business seats cost 871.30.|offer
+USR|ok what about calgary|inform
+SYS|There is nothing within your budget for flights to Calgary.|no_result
+USR|ok i will take the belem flights|switch_frame
+SYS|Would you like the business class seats or the economy seats?|request
+USR|business class|inform
+SYS|Great!|inform
+SYS|It is done!|inform
+SYS|This trip is from August 27th to September 2nd!|inform
+SYS|Have a good vacation|inform
+USR|awwwwsome can i also inquire for goiania|inform
+SYS|Goiania has a 3.5 star hotel from August 27th to September 8th.|offer
+SYS|The price for economy class is 914.20 and the price for the business class is 1091.50.|offer

@@ -1,0 +1,20 @@
+USR|hello
+i need to book a couple things for work that are coming up
+lets see.... im gonna be in leon on the 27th of august and i believe ill need to go to Ulsan from there whats available|inform
+SYS|What city will you be departing from?|request
+USR|leon|inform
+SYS|I can offer you a seven-day package leaving on the 27th  for 2881.80USD.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|and returning when?|request
+SYS|You would be returning on the 1st of September.|inform
+USR|that is fine.can i book it for my 6 colleagues as well|inform
+SYS|That will bring your price to 20167.57 USD.|offer
+SYS|Is this ok?|offer
+USR|would it be any cheaper if we left from Belo Horizonte instead|inform
+SYS|Unfortunately that would bring your price to 26733.34USD.|sorry
+SYS|Would you like me to book you a package from Leon?|sorry
+USR|ok in that case yes, lets book leon|switch_frame
+SYS|Wonderful!|inform
+SYS|Your trip has been booked.|inform
+SYS|Enjoy your stay!|inform
+USR|thank you very much|thankyou

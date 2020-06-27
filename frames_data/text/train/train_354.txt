@@ -1,0 +1,36 @@
+USR|august 25-september 3|inform
+SYS|Hi, how can I help you today?|greeting
+USR|san diego to santo domingo|inform
+SYS|Certainly, how many adults and children will be on this trip?|request
+USR|just me|inform
+SYS|Unfortunately, we do not have a trip fitting your exact description.|sorry
+SYS|However, we do have a trip from San Diego to Santo Domingo, from August 25 to September 2.|sorry
+SYS|Would this still be of interest to you?|sorry
+USR|maybe.|inform
+USR|go to la paz instead|inform
+SYS|Unfortunately, we do not have a trip fitting your exact description.|sorry
+SYS|However, we do have a trip from San Diego to La Paz, from August 25 to August 29.|sorry
+SYS|Would this still be of interest to you?|sorry
+USR|maybe, but give me what you got for fukuoka to la paz|inform
+SYS|Unfortunately, we do not have a trip fitting your exact description.|sorry
+SYS|However, we do have a trip from Fukuoka to La Paz, from August 25 to August 28.|sorry
+SYS|Would this still be of interest to you?|sorry
+USR|fukuoka to santo domingo|inform
+SYS|Unfortunately, we do not have a trip fitting your exact description.|sorry
+SYS|However, we do have a trip from Fukuoka to Santo Domingo, from August 25 to September 1.|sorry
+SYS|Would you like to learn more about this opportunity?|sorry
+USR|maybe.|request
+USR|ok dates flexible.|request
+USR|san diego to santo domingo- what hotel|request
+SYS|Excellent - the aforementioned San Diego to Santo Domingo trip will have you staying at the majestic The Rose Sierra Hotel, a 3 star hotel near the beach and shopping.|inform
+SYS|Would you like to book this trip?|inform
+USR|same hotel if i leave from fukuoka?|request_compare
+SYS|That is correct.|affirm
+USR|ok book it for 5.|inform
+USR|we’ll leave from san diego|inform
+SYS|Excellent, would this be for five adults only?|confirm
+USR|yes|affirm
+SYS|I have booked you for 9 days at the Rose Sierra Hotel in Santo Domingo.|inform
+SYS|We are sending over an invoice for the total cost of the package, which comes to 5143.4USD.|inform
+SYS|We hope you have an awesome trip!|inform
+USR|great thanks|thankyou

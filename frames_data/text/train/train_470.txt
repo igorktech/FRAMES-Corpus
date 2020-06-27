@@ -1,0 +1,30 @@
+USR|yo.|request
+USR|im from burlington.|request
+USR|want to travel somewhere cool with my bro.|request
+USR|between sept 8 and sept 18.|request
+USR|you got flights to kingston?|request
+SYS|how much money would you like to spend?|request
+USR|doesn't matter, got a trust fund|inform
+SYS|The most expensive package I offer to Kingston is $3377.17USD via business class for 8 days.|suggest
+SYS|Would you like to book it?|suggest
+USR|what kind of hotel|moreinfo
+SYS|3.5 star Golden Excalibur Hotel 8 day package.|offer
+SYS|We also offer the 4 star Ebony Manor Inn & Suites for 6 days via business class at $3141.90USD|offer
+USR|hm.|inform
+USR|check out vitoria for me will ya?|inform
+SYS|Burlington to Vitoria - Hotel Oro  5 days, 3 star rating, on business class at $5144.1USD.|request
+SYS|ONLY available between Sept 24 to sept 27.|request
+SYS|Are your dates changeable?|request
+USR|i'd rather not.|request
+USR|ok lets not do vitoria then.|request
+USR|i want to go somewhere with good amenities.|request
+USR|hows the ebony manor inn in that regard?|request
+SYS|It includes free wifi, parking, breakfast and is located near the museum.|suggest
+SYS|Guest rating is an above average 8.22 / 10.|suggest
+USR|wow thats really not bad|null
+SYS|I can proceed with the reservation if you would agree?|suggest
+USR|yes proceed|affirm
+SYS|Very well then, it has been done.|thankyou
+SYS|You are booked to go from Burlington to Kingston via business class to the Ebony Manor Inn for 2 adults.|thankyou
+SYS|Thank you for your booking and have a pleasant and safe trip.|thankyou
+USR|Thank you so much!|thankyou

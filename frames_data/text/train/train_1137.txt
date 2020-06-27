@@ -1,0 +1,19 @@
+USR|Hi!!!|inform
+USR|Can u help me find a vacation???|inform
+SYS|Yes!|request
+SYS|Where would you like to go?|request
+USR|San Juan|inform
+SYS|Where do you need to leave from?|request
+USR|Cairo, Illinois|inform
+SYS|How many people are going to be travelling?|request
+USR|Just one - just me|inform
+SYS|Okay, do you have a budget?|request
+USR|Nahhh|inform
+SYS|When can you leave?|request
+USR|on or after the 12th of September|inform
+SYS|Do you need to be back by a certain date?|request
+USR|Yeah, before the 24th of September please|inform
+SYS|Unfortunately there are no results showing.|sorry
+USR|Well what if I leave the 8th|inform
+SYS|Still nothing.|no_result
+SYS|There are no flights from Cairo to San Juan.|no_result

@@ -1,0 +1,28 @@
+USR|I wanna get to sendai with my posse from santo domingo|inform
+SYS|When can you go?|request
+USR|whenever but my bday is coming up so the sooner the better|inform
+SYS|Alright, how many are you total?|request
+USR|4|inform
+SYS|I can put you all in a fantastic 4 star hotel near a museum and a park.|offer
+SYS|Does that work for you?|offer
+USR|Maybe but I’d really like to find a 5 star.|inform
+USR|Is there a one in Ulsan?|inform
+SYS|You are in luck!|offer
+SYS|We've got a 5 star hotel in Ulsan close to the park, market, and theatre.|offer
+SYS|I can put you guys there for 9 days.|offer
+USR|oo la la!|inform
+USR|intriguing!|inform
+USR|before i book it can you check for a 5 star in Sacramento?|inform
+SYS|There actually is!|offer
+SYS|This 5 star hotel is near the museum and boasts a guest rating of 10/10.|offer
+USR|what is the guest rating for the other hotel in Ulsan?|request
+SYS|It is 8.98/10.|inform
+USR|Yeah we will defs be going to Sacramento!|inform
+SYS|Perfect!|inform
+SYS|I can book this for you.|inform
+SYS|All you need to do is pack your bags :slightly_smiling_face:|inform
+USR|You are AMAZEBALLS!!!|thankyou
+USR|Thank you so much!!|thankyou
+USR|MY BIRTHDAY IS DOING TO BE OFF THE HOOK!!|thankyou
+SYS|You're very welcome!|you_are_welcome
+SYS|Have an amazing time :slightly_smiling_face:|you_are_welcome

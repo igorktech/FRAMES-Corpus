@@ -1,0 +1,7 @@
+USR|Hi there.|inform
+USR|I need exact dates for this one, no flexibility
+Frankfurt to Punta Cana
+Sept 11-15
+You got that?|inform
+SYS|I'm afraid we do not have any flights connection those cities.|sorry
+SYS|Is there anything else I can help you with?|sorry

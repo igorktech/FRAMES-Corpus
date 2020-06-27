@@ -1,0 +1,23 @@
+USR|I want to go to queenstown for 6 days|inform
+SYS|Hello.|greeting
+SYS|I can assist you with that.|greeting
+SYS|From which city will you be departing?|greeting
+USR|san diego|inform
+SYS|What is your preference in travel dates?|request
+USR|I have the 12th to 19th off|inform
+SYS|We have the perfect 6 day package for you at the 4 star Emerald Mountain Hotel from Sept 12th to the 16th.|offer
+SYS|Before I tell you more about it, I just want to make sure your budget is appropriate for this package.|offer
+USR|Yeah I dont have a budget, im treating myself for once.|inform
+SYS|Perfect.|suggest
+SYS|This 4 star hotel with a 8.22/10 guest rating is located near a museum .|suggest
+SYS|During your stay, you will be provided with a complimentary breakfast and unlimited wifi use at no charge.|suggest
+SYS|Parking is also included should you wish to rent a car.|suggest
+SYS|The total cost on this package is  4204.62USD if you desire a business class flight.|suggest
+SYS|Are you interested in booking this Queenstown package?|suggest
+USR|I am very interested but before I book it can you check Kyoto?|inform
+SYS|In Kyoto, I have a choice between 2 different hotels, both with a 3 star rating and both for 5 day stays.|offer
+USR|No need to inform me on this one, I would like to book the trip to Queenstown please|switch_frame
+SYS|Did you want the business class package?|suggest
+USR|yeah for sure, i wanna be spoiled|switch_frame
+SYS|I will proceed with the booking then and send confirmation.|inform
+USR|Thanks!|thankyou

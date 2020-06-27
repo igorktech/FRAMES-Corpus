@@ -1,0 +1,14 @@
+USR|I am one person voyaging to Tampa.|inform
+USR|I can depart from Indianapolis.|inform
+USR|Must be between 20th and 31 August.|inform
+SYS|Do you have a budget for this travel package?|request
+USR|No, and I have expensive taste|inform
+SYS|Between the 20th and 31st of August, I have only travel packages to Vancouver, Canada.|suggest
+SYS|You would leave on August 27th and return on August 30th.|suggest
+SYS|I have one travel package at $3515.84, which would be five days at the Obsidian Gem Inn.|suggest
+USR|On second thought, I would like to go to Busan.|inform
+SYS|I just checked and it is not possible to travel to Busan from Indianapolis.|suggest
+SYS|Would you like to depart from Calgary, Canada or Queenstown, New Zealand?|suggest
+USR|Would I be allowed to got with me and four colleagues?|inform
+SYS|Are they all adults?|confirm
+USR|Nevermind, I would like to depart from Queenstown|switch_frame

@@ -1,0 +1,40 @@
+USR|Toronto to San Diego|inform
+SYS|How many of you will be going and for how long?|request
+USR|1 and depends on how long your stays are|inform
+SYS|Do you have a budget in mind?|request
+USR|$3,700|inform
+SYS|Do you have a preference for a hotel?|offer
+SYS|Our best one is 3 stars as part of a 9 day package.|offer
+SYS|How does that sound?|offer
+USR|Anything better?|inform
+USR|In Atlanta?|inform
+SYS|The best we have is a 3.5 star hotel for 10 days with a 8.8/10 guest rating.|offer
+SYS|Are you interested?|offer
+USR|What would would the price on this one be for 3 adults?|request
+SYS|I'm afraid I don't have this hotel for 10 days for 3 adults, but I do have it for 4 days.|sorry
+SYS|Would you be interested in that?|sorry
+SYS|I also have a 10 day package for 3 adults at a 3.5 star hotel but with no guest rating.|sorry
+SYS|What do you think?|sorry
+USR|How much for 4 days business class?|request
+USR|For 3 adults|request
+SYS|3396.53.|offer
+SYS|Would you like to book this?|offer
+USR|Can you check what you have in Stuttgart for 1 person under $3700?|inform
+SYS|I certainly can!|offer
+SYS|There's a 3 star hotel for 7 days, costing at 2085.43 for economy and 2652.29 for business.|offer
+SYS|Does this interest you?|offer
+USR|I think I will take the one in San Diego but would like more info before I finalize things.|switch_frame
+SYS|Great choice!|offer
+SYS|The San Diego package offers free breakfast, free parking and free wifi at a 3 star hotel with a guest rating of 8.86/10 and a park nearby, all of it coming to a grand total of 2135.65 for economy class and 2541.90 for business, and this is for all of 3 of you .|offer
+SYS|Does this please you?|offer
+USR|San Diego would just be for me actually.|inform
+USR|I will meet the investors there.|inform
+SYS|Ready to proceed with booking?|suggest
+USR|How much for just me then?|inform
+SYS|711.88 for economy and 847.30 for business class.|offer
+USR|Okay let's go with business then.|switch_frame
+SYS|For just one person|confirm
+USR|yes|affirm
+SYS|It's been booked!|inform
+SYS|Enjoy your trip to San Diego.|inform
+USR|Thank you|thankyou

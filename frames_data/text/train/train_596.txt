@@ -1,0 +1,28 @@
+USR|Hey!|inform
+USR|I'm looking to book a trip to Naples|inform
+SYS|Great!|request
+SYS|Where are you departing from?|request
+USR|San Francisco|inform
+SYS|Do you have a budget?|request
+USR|Maximum $5200 for 18 days|inform
+SYS|When would you like to leave?|request
+USR|It doesn't really matter|inform
+SYS|Do you have a day you would like to return by?|request
+USR|I would just to like to stay there for 18 days.|inform
+SYS|Are you travelling by yourself?|suggest
+USR|With my wife and son|inform
+SYS|There are no results for your request but is there a different destination you might want to go to?|suggest
+USR|Can you try Santo Domingo?|inform
+SYS|There are no results for this either.|suggest
+SYS|Maybe you could leave from somewhere else.|suggest
+SYS|Is that possible?|suggest
+USR|Is Columbus the second closest city?|inform
+SYS|I do not have this information in my database.|canthelp
+USR|It's okay that's fine.|thankyou
+USR|I will try something else!|thankyou
+USR|Thanks!|thankyou
+SYS|Okay!|sorry
+SYS|Sorry I couldn't have been more help!|sorry
+SYS|Have a nice day!|sorry
+USR|No worries!|goodbye
+USR|Bye!|goodbye

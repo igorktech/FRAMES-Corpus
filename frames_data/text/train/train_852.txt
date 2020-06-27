@@ -1,0 +1,24 @@
+USR|I'm in Ciudad Juarez and I have to transport a little "package" with me across the border.|inform
+USR|It has to be done between September 8 and the 28th.|inform
+USR|We are going to make this a family trip, like in that movie We are the Millers.|inform
+USR|LOL.|inform
+SYS|Where are you travelling?|request
+USR|Anywhere which gets us across the border.|inform
+USR|LOL.|inform
+SYS|I don’t understand.|request
+SYS|How many of you are travelling?|request
+USR|We are 3 adults and 3 kids.|inform
+SYS|I can get the six of you to Rosario, Argentina for $18194.|offer
+USR|I need to find something for under $14800|inform
+SYS|I have a 2 star hotel in Rosario for 13646.60USD.|offer
+SYS|The stay would last 18 days,|offer
+USR|From when to when?|request
+SYS|September 10-27.|inform
+USR|Those dates seem to work and the price is more suitable.|inform
+USR|I'll take that one.|inform
+SYS|Sure!|hearmore
+SYS|Do you want any more details before I proceed with the booking?|hearmore
+USR|No, just need to get across the border.|negate
+SYS|Ok, I’ll just book it for you now then.|inform
+USR|Thank you|thankyou
+SYS|My pleasure :slightly_smiling_face:|you_are_welcome

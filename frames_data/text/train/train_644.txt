@@ -1,0 +1,30 @@
+USR|Hi!|inform
+USR|I need a vacation.|inform
+USR|Not sure where I wanna go… but I’ve got 8 days off starting August 30th|inform
+SYS|Where are you leaving from?|request
+USR|Goiania|inform
+SYS|Do you have a budget?|request
+USR|Nah|inform
+SYS|We have packages to Los Angeles, Cancun, Puebla, and New York.|offer
+USR|Lets hear about the Puebla package|switch_frame
+SYS|We have a 4 star hotel near a park, there is a 8.49/10 guest rating, they offer free breakfast, parking, and wifi,  and the trip is from August 30th to September 6th.|offer
+SYS|The business class package is 2297.46.|offer
+SYS|The economy class package is 1793.96.|offer
+USR|What about Nework?|moreinfo
+USR|What are the package details?|moreinfo
+SYS|This is a 2.5 star hotel near the airport and museum, 8.22/10 guest rating, free parking, breakfast, and wifi, departing September 12th and returning the 19th.|offer
+SYS|The business class package is 3339.33 and the economy class package is 2598.20.|offer
+USR|What can you offer in Cancun?|switch_frame
+SYS|This is a 3 star hotel, 7.15/10 guest rating, free breakfast, wifi, and parking, departing September 1st and returning on the 8th.|offer
+SYS|The business package costs 3299.86 and the economy package costs 2565.53.|offer
+USR|Ok, not bad.|switch_frame
+USR|Before I proceed with a booking can you also check out Los Angeles for me?|switch_frame
+SYS|This is a 3 star hotel near a university, 8.86/10 guest rating, free breakfast, wifi, and parking, departing September 2nd and returning on the 9th.|offer
+SYS|Business class package costs 4329.24, the economy package costs 3370.51.|offer
+USR|Could you remind me of the Puebla price?|request
+SYS|Business package is 2297.46 and economy package is 1793.96.|inform
+USR|I would like to book the business class trip to Puebla!|inform
+SYS|It is done!|inform
+SYS|You will get an email confirmation soon!|inform
+SYS|Have a great trip!|inform
+USR|Thanks :smile:|thankyou

@@ -1,0 +1,21 @@
+USR|Working long hours in Mexico City.|inform
+USR|Can you look for trips to Kobe|inform
+SYS|I have a 4.5 star hotel at 5035.97USD for 7 days.|offer
+SYS|Leaving next Tuesday !|offer
+USR|Would I theoretically be able to go to Vancouver?|inform
+SYS|Yes, 13 days, 10 days or 7 days in Vancouver?|offer
+USR|For the sake of discussion, lets say 13|switch_frame
+SYS|ok.1486.49USD at 4 star hotel in economy class|inform
+USR|Terrific|null
+SYS|or 1819.43USD in business class.|offer
+USR|Amenities?|request
+SYS|free parking, free breakfast, free wifi|inform
+USR|Draw up a Ciudad Juarez trip while you're at it|inform
+SYS|Ok from Mexico City?|confirm
+USR|Yes|affirm
+SYS|6, 10 or 12 days?|offer
+USR|12|switch_frame
+SYS|12 days is at 2.5 star hotel, 10 at 3.5 star and 6 at 3.0 star hotel.|inform
+USR|ok tell me about the 3.5 star hotel|switch_frame
+SYS|1126.89USD for 10 days in economy class or 1392.0USD in business class, near palace|offer
+USR|Ok cool Like I told you I can't book|goodbye

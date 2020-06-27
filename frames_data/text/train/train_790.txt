@@ -1,0 +1,5 @@
+USR|do you have flights out of tel aviv??|inform
+SYS|We do not fly out of Tel Aviv|no_result
+USR|what about Beijing|inform
+SYS|Neither from Beijing.|no_result
+SYS|Are you able to leave from somewhere else?|no_result

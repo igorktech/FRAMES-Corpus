@@ -1,0 +1,36 @@
+USR|What packages do you have available between september 7th and 13th from Columbus to Punta Cana?|inform
+SYS|We have 8 day trips at two 3 star hotels.|offer
+SYS|Are you interested in knowing more?|offer
+USR|What is the main difference between the two hotels?|request_compare
+SYS|One has guest ratings of 6.77/10, is close to a cathedral, and offers free breakfast and wifi.|offer
+SYS|The other has guest ratings of 8.69/10, is close to a palace and a theatre, and offers everything that the former offers and also free parking.|offer
+USR|Okay the second one sounds a lot better.|moreinfo
+USR|Can you tell me more about that package?|moreinfo
+SYS|Sure, it's 8 days from the 6th to the 13th and it costs 1427.4 or 1808.67 with a business upgrade.|offer
+USR|I can’t leave before the 7th|negate
+SYS|Our only flight from Columbus to Punta Cana is on the 6th.|suggest
+SYS|Is there another destination you would like to go to?|suggest
+USR|I guess we could look at Guadalajara|inform
+SYS|In Guadalajara we have a 2.5 star hotel with a guest rating of 8.49/10.|offer
+SYS|It offers free parking, free breakfast, and free wifi.|offer
+SYS|We offer an 8 day trip there starting from the 8th.|offer
+USR|When would I get back?|request
+SYS|The shortest trip would take you back on the 15th.|inform
+USR|I need to be back by the 13th.|inform
+SYS|Sorry, we don't have any trips between these two cities that fit your dates.|sorry
+USR|I’ll try LA instead then.|inform
+SYS|Great!|offer
+SYS|In Los Angeles we have a 6 day trip from the 8th to the 13th at a 3 star hotel.|offer
+USR|That sounds wonderful!|moreinfo
+USR|tell me more.|moreinfo
+SYS|The hotel is wonderfully located near the airport and the mall.|inform
+SYS|While there, you can enjoy free parking, free breakfast, and free wifi.|inform
+SYS|Previous guests have given it ratings of 8.86/10 on average.|inform
+USR|I’ll take that!|request
+USR|How much?|request
+SYS|1217.88 flying economy and 1483.6 flying business.|offer
+USR|Perfect!|inform
+USR|Book it for me!|inform
+SYS|Consider it done!|inform
+SYS|Happy traveling!|inform
+USR|Thanks you!|thankyou

@@ -1,0 +1,27 @@
+USR|I need to find something between september 8th and 27th for under 4300 from frankfurt|inform
+SYS|Hello!|request
+SYS|I can help you with your request.|request
+SYS|Did you have any special destination in mind?|request
+USR|no i just want to know what my options are|inform
+SYS|I have several options from Frankfurt.|inform
+SYS|Are you looking for a certain category hotel or a certain length of stay?|inform
+USR|Not yet, can you give me a list of place i can go?|request
+SYS|Minneapolis, Rosario, Porto or Punta Cana.|offer
+USR|Can you give me some more info on Rosario please|switch_frame
+SYS|In Rosario, we have a 2 star hotel available for 18 days with a take off date of September 10th and a return date of September 26.|inform
+SYS|This package includes a free breakfast and wifi.|inform
+USR|Anything better in Porto?|switch_frame
+SYS|In Porto I have a choice between a 3.5 star hotel or a 4 star hotel.|offer
+SYS|The 3.5 star hotel is available for a 16 day stay and the 4 star hotel is available for a 17 day stay.|offer
+SYS|Would you like more details on either one of these?|offer
+USR|can i hear more about the 4 star?|switch_frame
+SYS|The Golden Keep Hotel in Porto Alegre, is a 4 star hotel with a perfect 10/10 guest rating.|suggest
+SYS|Located on the beach and close to parks, shopping and a mall, your stay would be for 17 days.|suggest
+SYS|This package comes with breakfast and wifi included in the price of 4227.72USD should you choose to fly business class.|suggest
+SYS|I just wan to verify that this would be for 1 person?|suggest
+USR|Yes just me.|inform
+USR|I would like to book this please.|inform
+SYS|Perfect.|inform
+SYS|I will just confirm your departure at 4:00 pm - Thursday, September 8th 2016 and your return at 2:00 am - Saturday, September 24th 2016.|inform
+SYS|Thank you and have a nice day!|inform
+USR|thanks you too|null

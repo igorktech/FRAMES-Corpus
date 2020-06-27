@@ -1,0 +1,32 @@
+USR|HI im from Punta Cana can you help me find a vacation|inform
+SYS|Of course!|request
+SYS|How many people will you be traveling with?|request
+USR|just by myself|inform
+SYS|Do you have a budget in mind for this trip?|request
+USR|not at the moment but im looking for the best deal|inform
+SYS|I can offer you deals on any of the following destinations: Mexico City, Alexandria, Chicago, Atlanta or Dallas.|suggest
+USR|is there anything to mannheim?|inform
+SYS|Yes there is!|offer
+SYS|For Mannheim, I have a package for the 17th-21st of August.|offer
+SYS|You would be flying economy and staying at the Regal resort, a 5-star hotel with a a 8.98/10 guest rating.|offer
+SYS|This resort even features a spa for guests to use.|offer
+SYS|The total for this trip would be 2366.49USD.|offer
+USR|amazing glad to know and opposed to Mexico City what does the price look like|request_compare
+SYS|The best deal I can offer you for Mexico City is 507.18USD for 5 days.|offer
+SYS|You would be departing the 17th of August and returning the 21st, flying economy both ways.|offer
+SYS|You would be staying at Hotel Tropic, a 3.0-star hotel with a guest rating of 6.77/10.|offer
+USR|is there anything leaving on the 19th?|inform
+SYS|I can send you to Vancouver on the 19th, with a package that includes a highly-rated 4-star hotel, for 1072.44 USD.|sorry
+SYS|I unfortunately don't have any packages leaving for Mexico City on the 19th, however if the 17th is too early for you I can book you a trip from the 24st to the 28th of August and put you up at the Hotel Tropic, for a total of 507.18USD.|sorry
+SYS|For Mannheim, the nearest date I could book you for your flight would be the 27th of August, with a return trip on the 31st.|sorry
+SYS|You would be staying at the Regal Resort, a highly-rated 5-star hotel, for a total of 2366.49USD.|sorry
+USR|regal resort seems great!|inform
+USR|ca we upgrade that flight?|inform
+SYS|Yes I can!|suggest
+SYS|That brings your total to 3033.22USD.|suggest
+SYS|Do you want me to book this trip?|suggest
+USR|yes please do!|switch_frame
+SYS|Done!|thankyou
+SYS|Your flight leaves at 8:00 a.m. on Saturday, August 27.|thankyou
+SYS|Thank you for using our service!|thankyou
+USR|Thanks you!|thankyou

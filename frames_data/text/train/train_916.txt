@@ -1,0 +1,25 @@
+USR|Do you do flights out of Punta Cana?|inform
+SYS|Sure do!|request
+SYS|Where to?|request
+USR|I had Kochi in mind, but I’m not sure if there are actually flights there?|inform
+SYS|There actually are some flights between Punta Cana and Kochi!|request
+SYS|Can you tell me more about your travel dates and budget?|request
+USR|I have September 11 to 17 off, budget isn't a problem.|inform
+USR|I want the longest trip|inform
+SYS|Sounds good.|offer
+SYS|I have something for your exact dates!|offer
+SYS|It will be an 8 day stay at a 3.5 star hotel in the heart of Kochi!|offer
+USR|Is anything included with the room?|switch_frame
+SYS|It has free wifi and you can easily access a nearby park.|inform
+USR|Can you also check Sydney for me?|inform
+SYS|Nothing to Sydney unfortunately.|sorry
+USR|is there a better hotel in kochi by chance?|inform
+SYS|No there is not.|no_result
+USR|ok lets book the one you found me then!|inform
+SYS|Alrighty, just for yourself right?|suggest
+USR|yes it will be just me.|request
+USR|whats the cost?|request
+SYS|You can get an economy seat for 4353.35 or a business seat for 5653.9.|offer
+USR|ok i’ll just do economy this time|switch_frame
+SYS|Sure, your trip is booked for you!|inform
+SYS|Look out for a confirmation email coming your way.|inform

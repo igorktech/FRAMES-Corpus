@@ -1,0 +1,9 @@
+USR|hey, I want to get myself to Porto Alegre from Toronto for less than $3900|inform
+SYS|I can book you 5 days in Porto leaving from Toronto for 2689.45USD.|offer
+USR|what about valencia|inform
+SYS|8 days in Valencia would cost you 2012.95USD.|offer
+USR|ok and calgary?|inform
+USR|2 adults and 3 children.|inform
+SYS|Ok!|offer
+SYS|In that case I can book you 8 days in Calgary for 1103.38USD|offer
+USR|i have a 3900 budge|inform

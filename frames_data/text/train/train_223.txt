@@ -1,0 +1,22 @@
+USR|Hi im a failing author and i need some headspace looking to get away with my family!|inform
+USR|can you help e out?|inform
+SYS|Most definitely!|request
+SYS|Where are you from and where would you like to go?|request
+USR|Were from Punta Cana!|inform
+USR|maybe Fortaleza if there is something affordable, my last book sold 2 copies|inform
+SYS|How many people will there be in total?|request
+SYS|And what dates are you aiming for?|request
+USR|just my wife and son.|inform
+USR|not sure when i just want to go for two days tho|inform
+SYS|I do not have any packages available to Fortaleza for under 12 days.|hearmore
+SYS|The shortest say I can offer is 5 days in the Cuba.|hearmore
+SYS|Would you like to know more about this package?|hearmore
+USR|Anything to Paris for 2 days?|inform
+SYS|Sorry, but I can only offer a 5 day trip to Paris.|sorry
+USR|If we can find something for less than 3000$ lets try and book something|inform
+SYS|I have a 5 day stay at the Rose Sierra Hotel in Santo Domingo, a 3 star resort near the beach and shopping, under 1145.11 USD.|offer
+USR|whats in Fortaleza again?|moreinfo
+SYS|I have a 12 day trip to a 3 star hotel in Fortaleza, Brazil for 2632.17 USD.|offer
+USR|Let’s book that straight away and hope my luck doesnt run out|inform
+SYS|Great!|inform
+SYS|Booking is complete.|inform

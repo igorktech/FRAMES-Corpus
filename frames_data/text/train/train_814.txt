@@ -1,0 +1,10 @@
+USR|Beijing to Stuttgart.|inform
+SYS|I can book you 17 days if you leave from Kobe|offer
+USR|I cant leave from kobe, only bejing|inform
+SYS|I cannot accomodate this request.|no_result
+USR|Well how about instead of stuttgart we look at Goiania|inform
+SYS|No can do.|no_result
+USR|well then look into flights for 13 people anywhere|inform
+SYS|Leaving from Beijing?|confirm
+USR|yes|affirm
+SYS|I do not have any flights leaving from Beijing.|no_result

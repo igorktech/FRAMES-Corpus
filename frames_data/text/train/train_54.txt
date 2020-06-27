@@ -1,0 +1,26 @@
+USR|Hi im going on SPRIINGGG BREAK!|inform
+USR|can you help me and my friends book a package?|inform
+SYS|For sure!|request
+SYS|How many of you will be travelling together?|request
+USR|me and my 3 best friends!|inform
+SYS|And where will you be departing from?|request
+USR|we want to leave on the 16th were looking to go to San Juan|inform
+SYS|Okay, but where from?|request
+SYS|From what city?|request
+USR|We’re leaving from Godric's Hollow|inform
+SYS|I have no flights leaving out of Godric's Hollow.|inform
+SYS|If you are able to leave from Cleveland or Montreal, then I can send you to San Juan.|inform
+USR|we could leave from birmingham do you have anything from there?|inform
+SYS|to San Juan?|confirm
+USR|if possible|affirm
+SYS|I have no flights to San Juan from Birmingham   Are there any other places that you would like to travel to?|suggest
+SYS|I have packages to Japan from Birmingham.|suggest
+USR|what are the ones to japan like do they fit my budget?|request
+SYS|I do not know what your budget is.|request
+SYS|Can you please tell me?|request
+USR|$2,200|inform
+SYS|I am sorry, I made a mistake, I do not have direct flights from Birmingham to Japan either.|sorry
+USR|honestly it seems like nothing will work here!|thankyou
+USR|thanks!|thankyou
+SYS|Sorry I wish I could have been of more help to you.|goodbye
+SYS|Next time!|goodbye

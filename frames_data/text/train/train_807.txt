@@ -1,0 +1,24 @@
+USR|Can you get me from Cordoba to Fukuoka?|inform
+SYS|I sure can!|request
+SYS|when would you like to go?|request
+USR|Right after September 6 please|inform
+SYS|I have a September 6 and a September 10 departure, which do you prefer?|offer
+USR|lets go with the 10th to be safe.|inform
+USR|no budget here, but i'd like the nicest hotels and flights|inform
+SYS|A September 10 departure will get you a 13 day stay at the Historic Mansion Hotel, a 3.5 star hotel at a price of  3530.8USD based on a business class fare.|inform
+USR|I'm guessing you haven't got a better hotel there?|inform
+SYS|Nothing available in Fukuoka at the moment.|no_result
+USR|Then take a look at Madrid!|inform
+SYS|I have the 5 star El Hotel De La Reina available on a Sept 8th departure for a 10 day package or a Sept 9 departure for a 16 day package.|offer
+USR|5 star sounds good.|request
+USR|but can we learn a little more about the amenities?|request
+SYS|Free wifi is included and there is a free breakfast daily|inform
+USR|How much would this cost?|request
+SYS|For 1 guest it will be 937.60USD|inform
+USR|I'd need to book for two please.|inform
+USR|And this is for business class, correct?|inform
+SYS|In  that case, the price is 1875.21USD.|offer
+USR|Put me down for that please!|inform
+SYS|I will book and confirm.|inform
+SYS|Have a nice day.|inform
+USR|Thanks, you too!|thankyou

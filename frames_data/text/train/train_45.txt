@@ -1,0 +1,30 @@
+USR|Hi.|inform
+USR|I am in dire need of a vacation.|inform
+SYS|Ok!|suggest
+SYS|Where would you like to leave from?|suggest
+SYS|I can look up the cheapest vacation options for you.|suggest
+USR|I'd like to go to Mannheim for 8 days leaving from Paris.|request
+USR|I have September 1 to September 19th off.|request
+USR|What is available?|request
+USR|This time, money isn't a problem, I'm treating myself.|request
+USR|I'm looking for luxury this vacation.|request
+SYS|You can spend a luxurious 8 days in Mannheim at the Regal Resort for only 761.4USD!|offer
+SYS|That includes round trip business class flights.|offer
+USR|That's exactly what I'm looking for!|request
+USR|I'd also like to compare for trips to Porto Alegre.|request
+USR|What can you offer?|request
+SYS|I can book 5 days at a 4.0 star hotel in Porto for 4898.49USD.|offer
+USR|Anything with 5 stars?|inform
+SYS|I cannot find anything with 5 stars for Porto at that time.|no_result
+USR|Ok, can we take another look at the Mannheim package then?|switch_frame
+SYS|The Mannheim package includes free wifi and a spa in your hotel.|inform
+USR|Oh my!|request
+USR|And how many stars?|request
+SYS|The Regal Resort is 5.0 stars.|inform
+USR|Absolutely perfect!|request
+USR|What are the arrival and departure times?|request
+SYS|You will depart Paris at 11 am on Tuesday, September 6th and arrive in Mannheim 12:18 the same day.|inform
+SYS|For the return flight you will leave Mannheim at 5:00 am and arrive at 6:18 am on Tuesday September 13th.|inform
+USR|Great, I'd like to book this one please.|inform
+SYS|Sure thing, consider it done!|inform
+USR|Thank you!|thankyou

@@ -1,0 +1,20 @@
+USR|Hi, I need to get to Sendai for a business meeting.|inform
+SYS|Where from?|request
+USR|I can leave from SL.|inform
+SYS|Do you have a budget?|request
+USR|I'm hoping that 1700 will do.|inform
+SYS|How many people will be travelling?|request
+USR|I'll be going alone.|inform
+SYS|When would you like to leave?|request
+USR|Anytime!|inform
+SYS|There are no trips within your budget?|no_result
+USR|What if I go to Puebla?|inform
+SYS|There's a 4 star hotel near a park, 8.49/10 guest rating, free parking, breakfast, and wifi, from August 30th to September 3rd, business package is 1511.47, economy package is 1236.90.|offer
+USR|That's not bad!|confirm
+USR|Is that the only option for Puebla?|confirm
+SYS|There is one more for a 3 star hotel, 8.8/10 guest rating, free parking, breakfast, and wifi, from September 1st to 10th, business package is 1531.20, economy package is 1255.81.|offer
+USR|I see.. I think I still prefer the first one for Puebla.|switch_frame
+SYS|Would you like to book it?|suggest
+USR|That'd be nice.|inform
+SYS|Great, your package is booked, have a great day!|goodbye
+USR|Thanks!|thankyou

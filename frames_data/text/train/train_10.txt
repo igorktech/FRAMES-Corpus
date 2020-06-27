@@ -1,0 +1,13 @@
+USR|Hi, I have a big family and we can't afford a big vacation, we want to go to Atlantis from Mos Eisley for $3600 at most.|inform
+SYS|Do you have a preferred set of dates for this trip?|request
+USR|Nope|inform
+SYS|And how many adults and how many children are you bringing with you to Atlantis?|inform
+USR|12 adults and one child.|inform
+SYS|I'm sorry, but we do not currently have any travel packages available for this destination.|suggest
+SYS|Do you have any other destinations that you might like to travel to?|suggest
+USR|No, we are visiting family in Atlantis.|inform
+USR|Can you check once more please?|inform
+SYS|I'm sorry, but I do not currently have any travel packages available for this location.|suggest
+SYS|Are you quite sure that I cannot interest you in another travel destination?|suggest
+USR|Yes, I'm quite sure.|thankyou
+USR|Thank you for your help.|thankyou

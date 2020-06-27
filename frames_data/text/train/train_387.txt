@@ -1,0 +1,15 @@
+USR|I have never travelled alone before so I'm going to be very meticulous.|inform
+USR|I would like to go to Belem from Kobe.|inform
+USR|I'm a student so i have a tight budget of 5700|inform
+SYS|We do not provide flights from Belem to Kobe.|suggest
+SYS|Would you like me to verify other destinations?|suggest
+USR|Sure, can you check Denver?|inform
+SYS|Unfortunately, direct flights from Belem to Denver are not available either.|sorry
+USR|oh sorry, I should have been more clear, I was looking for a flight FROM Kobe to Belem.|switch_frame
+SYS|after a double verification of Kobe to Belem and Kobe to Denver flights, please note that we do not have those flights available either.|suggest
+SYS|Would you like me to verify any other flights?|suggest
+USR|Just one more from Kobe to Santos please|inform
+SYS|After further verification, I can confirm that we do not fly out of Kobe.|suggest
+SYS|Are you able to depart from another city?|suggest
+USR|Unfortunately not.|thankyou
+USR|I'll look somewhere else but thank you for checking :slightly_smiling_face:|thankyou

@@ -1,0 +1,3 @@
+USR|Hi there.|inform
+USR|First off, do you do any flights departing JErusalem?|inform
+SYS|No|no_result

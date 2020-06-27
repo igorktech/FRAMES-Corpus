@@ -1,0 +1,12 @@
+USR|I'd like to take a vacation between august 30th and September 2nd for 5 adults and 1 kid for 2700.|inform
+SYS|What city would you like to depart from?|request
+USR|San Jose.|inform
+USR|My budget is 20900 too and we have no specific date for return|inform
+SYS|I also need to confirm return date as in your original statement you said it was Sept 2nd|confirm
+USR|yeah thats correct, I'm getting my plans all mixed up today.|inform
+USR|We would like to return on the 2nd|inform
+SYS|do you have specific destinations you would like me to verify?|request
+USR|no anywhere is fine|inform
+SYS|regrettably, I do not seem to have any departures out of San Jose|no_result
+USR|that's redonkulous.|goodbye
+USR|I'll go somewhere else then.|goodbye

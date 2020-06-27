@@ -1,0 +1,25 @@
+USR|Hi there.. I need to get out of town.|inform
+USR|I've got writer's block being stuck in the house..|inform
+SYS|I can help with that!|request
+SYS|Where would you like to go?|request
+USR|Brasilia perhaps.|inform
+USR|My spouse and child will travel with me.. so three of us in total.|inform
+SYS|Great.|request
+SYS|Where would you be flying out of?|request
+USR|Also, my budget is tight.. I haven't had a good year and can spend about 4000 but would like to stay for 9 days.|inform
+USR|Leaving from Mexico City|inform
+SYS|You're in luck: I have exactly what you might be looking for!|offer
+SYS|9 days at the prestigious Sublime Tower, from September 10 to 17.|offer
+SYS|How does that sound?|offer
+USR|That sounds quite ideal.. what would the cost be?|request
+SYS|For one adult, 3558.40USD for business class, and 2794.59USD for economy class.|inform
+USR|Two adults, one child.|inform
+USR|I thought I made it clear before that there would be three of us.|inform
+SYS|Unfortunately, I do not have trips to Mexico City for this parameter which fits under this budget.|sorry
+SYS|Would you like to consider leaving some guests behind, or searching for an alternate destination?|sorry
+USR|I absolutely would not leave my family behind... a little ridiculous for you to suggest that.. However, I would consider going to Paris|inform
+SYS|Unfortunately, we do not have a trip to Paris for the given parameters.|sorry
+USR|Not if we travel for 8 days either?|inform
+SYS|The cheapest trip we have to Paris is 6725.50USD, albeit at a very nice 4 star hotel!|offer
+USR|Ah jeez, still out of my price range though.|goodbye
+USR|Well thanks but no good.|goodbye

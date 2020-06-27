@@ -1,0 +1,12 @@
+USR|I need your help to book my family a trip from Kabul to Seoul.|inform
+USR|What's the cheapest you've got?|inform
+SYS|Unfortunately, I haven't got any flights fitting those parameters.|sorry
+SYS|Do you have any other destinations in mind?|sorry
+USR|Any options for airports nearby?|null
+SYS|We don't have any flights out of Kabul.|suggest
+SYS|Is there any chance you could change your city of departure?|suggest
+USR|No I don't think we can leave from anywhere else|negate
+SYS|Sorry to hear!|sorry
+SYS|Is there anything else I can help you with today?|sorry
+USR|No it's alright!|thankyou
+USR|thanks though!|thankyou

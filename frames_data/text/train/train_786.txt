@@ -1,0 +1,9 @@
+USR|Hi there|greeting
+SYS|Hi how can I help you today?|greeting
+USR|Looking to go from Melbourne to Paris.|inform
+USR|Have 2600 to spend on tickets for 9 adults|inform
+SYS|We do not have flight/hotel deals from Melbourne to Paris|no_result
+USR|Do you do Paris to Melbourne?|inform
+SYS|Nor the other way around|no_result
+USR|what about paris to tel aviv, same conditions|inform
+SYS|No flights from Paris to Tel Aviv either|no_result

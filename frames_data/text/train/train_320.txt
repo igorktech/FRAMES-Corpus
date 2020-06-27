@@ -1,0 +1,2 @@
+USR|Do you do flights leaving from Tel Aviv?|inform
+SYS|No|no_result

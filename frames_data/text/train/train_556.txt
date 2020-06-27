@@ -1,0 +1,16 @@
+USR|i need a trip under the radar from mannheim to fukuoka
+i need to be back here for august 30th|inform
+SYS|Do you have a budget?|request
+USR|no|inform
+SYS|Is this for 1 person?|suggest
+USR|no.|inform
+USR|two adults|inform
+SYS|We have one result for a 3 star hotel in the heart of the city.|offer
+SYS|This hotel has a 6.61/10 guest rating and offers free wifi.|offer
+SYS|The departure flight is on August 27th and the returning flight is on the 30th.|offer
+SYS|Total price for business class is 7561.52.|offer
+USR|what do you have available in Buenos Aires.. anything of a higher rating?|request
+SYS|There are no results for Buenos Aires.|no_result
+USR|What if I leave from Osaka instead of Mannheim?|negate
+SYS|Nothing for this either.|no_result
+USR|fine, the Kobe package then|inform

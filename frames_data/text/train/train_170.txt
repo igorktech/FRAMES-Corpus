@@ -1,0 +1,28 @@
+USR|Good afternoon.|inform
+USR|My husband and I would like to travel with our 6 kids.|inform
+USR|We have time off between August 15th and 19th.|inform
+USR|What can you offer for us?|inform
+SYS|May I ask what your budget is?|request
+USR|8300 dollars.|inform
+SYS|Is there any place in particular you would like to go?|request
+USR|Nothing in mind yet, I'm looking for some ideas.|inform
+SYS|Great!|request
+SYS|Where will you like to leave from?|request
+USR|Stuttgart|inform
+SYS|We have a flight to Valencia at a 5 star hotel, the cost of this package is 5695.69, and they offer free wifi.|offer
+SYS|Does this interest you?|offer
+USR|Yes it does, can you give me a few more offers that I can compare?|request_alts
+SYS|There's a flight to Queenstown, New Zealand for 6347.76 at a 5 star hotel, they offer free breakfast and wifi, and the dates are also from the 15th to 18th of August.|offer
+USR|This one is my favorite as of yet.|request_alts
+USR|Can you show me one more?|request_alts
+SYS|Unfortunately these are the only options.|sorry
+USR|In that case, let's take another look at the Queenstown package.|request
+USR|What are the flight times?|request
+USR|It is difficult to take a flight in the middle of the night with young children.|request
+SYS|There is a flight that leaves at 7:00 am and one that leaves at 9:39 am.|offer
+SYS|The flights back leave at 1:00am and 3:39 am.|offer
+USR|I'll take the one that leaves at 7:00 am are for the return at 1:00 am.|switch_frame
+SYS|Great!|inform
+SYS|Your trip has been booked!|inform
+SYS|Have a nice day and enjoy the vacation!|inform
+USR|Thank you!|thankyou

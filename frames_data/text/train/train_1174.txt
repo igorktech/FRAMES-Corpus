@@ -1,0 +1,17 @@
+USR|I need to book 4 kids and one adult to Rio de Janeiro, departing from Queenstown.|inform
+SYS|Do you have a budget?|request
+USR|Nah|inform
+SYS|Dates in mind for the trip?|request
+USR|Whenever|inform
+SYS|We have a 2.5 star hotel and a 3 star hotel.|hearmore
+SYS|Would you prefer to hear about both options or just one?|hearmore
+USR|3 star - let me know|moreinfo
+SYS|Do you prefer business or economy flights?|suggest
+USR|Economy|inform
+SYS|Okay, La Perfección has a 14 day stay from September 10th to 22nd, the hotel is near a park, museum, and university, the guest rating of the hotel is 8.22/10, and they offer the works, free parking, breakfast, and wifi.|offer
+SYS|The total cost of this package is 11505.79.|offer
+USR|Let’s just book that|inform
+SYS|Awesome!|inform
+SYS|All booked and ready for you.|inform
+SYS|Have a great day and safe travels!|inform
+USR|Thank you|thankyou

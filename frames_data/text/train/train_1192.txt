@@ -1,0 +1,4 @@
+USR|Miami from Goiania.|inform
+USR|3400 max|inform
+SYS|I’m sorry but we do not offer direct packages between those cities.|sorry
+SYS|Can I find you a package from an alternate departure point?|sorry

@@ -1,0 +1,14 @@
+USR|Hi.|inform
+USR|i need to get to cairo on the low
+keep it flashy in terms of luxe
+but no spreading the word about it..
+we’re leaving from leon|inform
+SYS|How many people?|request
+USR|2|inform
+SYS|Do you have a budget?|request
+USR|ha.|inform
+USR|no..|inform
+SYS|When would you like to leave?|request
+USR|don’t care.|inform
+USR|i should be back by 18th … but if not then the 22nd|inform
+SYS|Our only package is a 2.5 star hotel.|offer

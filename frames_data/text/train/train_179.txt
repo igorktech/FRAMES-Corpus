@@ -1,0 +1,15 @@
+USR|hey|greeting
+SYS|Hi there!|greeting
+SYS|Looking for a nice getaway?|greeting
+USR|i am currently in philadelphia trying to get a photograph celebrities but i need to hit up mexico city next week|inform
+SYS|Would you be available to fly out on the 24th of August?|offer
+SYS|I could offer you a four-day package for only 655.32USD.|offer
+USR|ahhhh how many hotels are available?|request
+SYS|If location is important to you, the Sublime Echo has the best location of all three resorts, being located in close quarters to the beach, the mall and a local shopping center.|offer
+USR|are there any other hotels available tho|request_alts
+SYS|That's right, this package is 655.32USD.|inform
+USR|wow cool
+ok thats gonna be the one lets book it it should pay for itself|inform
+SYS|Wonderful!|inform
+SYS|You're booked!|inform
+SYS|Have fun!|inform

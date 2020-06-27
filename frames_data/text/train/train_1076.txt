@@ -1,0 +1,23 @@
+USR|Yeah, I'm looking for an 8 day trip for the family.|inform
+SYS|How many are in your party?|request
+USR|Two and a kid.|inform
+SYS|Where would you like to go and where would you like to leave from?|request
+USR|I've got two places in mind.|inform
+USR|I'll be coming from Buenos Aires and I'm thinking about going to Santo Domingo.|inform
+SYS|You are travelling alone?|suggest
+USR|No, sorry.|inform
+USR|I meant all of us.|inform
+SYS|How much money do you have to spend?|request
+USR|I'm on a tight budget here, so not more than 4300|inform
+SYS|And when would you like to leave?|request
+USR|Anytime soon is good.|inform
+SYS|Then I have nothing to offer you.|no_result
+USR|Let's try somewhere else then.|request_alts
+SYS|I only have availability in Santo Domingo for 2 adults at your price point.|offer
+USR|Fine, what about a trip to Burlington then?|inform
+USR|One that involves my son of course.|inform
+SYS|I’m sorry - I have nothing within your budget.|sorry
+SYS|Would you like to explore other destinations?|sorry
+SYS|Perhaps something within your country would be within your budget.|sorry
+USR|Bye.|goodbye
+SYS|Good bye .|goodbye

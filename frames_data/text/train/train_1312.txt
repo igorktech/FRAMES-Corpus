@@ -1,0 +1,19 @@
+USR|Hi we live in Miami and are trying to plan our next vacay, can you help?|inform
+SYS|Yes!|inform
+SYS|Where would you like to go from Miami?|inform
+USR|Brasilia|inform
+SYS|Do you have a budget?|request
+USR|2100 buckaroonies|inform
+SYS|How many people are travelling?|request
+USR|my wife me and our baby|inform
+SYS|Do you have dates for travel?|request
+USR|S 20 to O 6|inform
+SYS|We have no flights available.|no_result
+USR|okaaaay how about to Tijuana then?|inform
+SYS|Nothing for this either.|no_result
+USR|Hamburg?|inform
+SYS|No results showing.|no_result
+USR|Do you know who else I can contact that actually offers these destinations?|null
+SYS|Can't help you there.|canthelp
+USR|UGH|null
+SYS|Sorry.|sorry

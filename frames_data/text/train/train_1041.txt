@@ -1,0 +1,9 @@
+USR|Hi there, I'd like to book a vacation to Queenstown please.|inform
+SYS|Absolutely!|request
+SYS|I can help you with that.|request
+SYS|Where would you like to leave from?|request
+USR|Beijing|inform
+SYS|I’m sorry but we do not currently operate out of Beijing.|sorry
+SYS|Is this another destination you could depart from?|sorry
+USR|No, there isn't.|negate
+SYS|I’m sorry, it seems I won’t be able to help you then.|sorry

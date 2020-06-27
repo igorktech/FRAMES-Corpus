@@ -1,0 +1,8 @@
+USR|if you knew who you were talking to you would be shamed of addressing me with such a generic title…...but im trying to book a trip on the low so i won’t ruin your day with that information.|inform
+USR|I want to go to Salvador and leave form Buenos Aires.|inform
+USR|Find me the best thing money can buy|inform
+SYS|We have a 3.5 star hotel near a palace, museum, and theatre, 7.15/10 guest rating, free parking, breakfast, wifi, departing August 29th and returning September 4th, business class, price is 1342.38.|offer
+USR|i need a higher ranking|inform
+SYS|This is the only rating.|inform
+USR|find me something in Chicago then|inform
+SYS|This only has 2.5 and 2 star hotels.|suggest

@@ -1,0 +1,3 @@
+USR|I need to go from Kabul to Toronto, would you happen to have any flights for me?|inform
+SYS|We do not fly out of Kabul|no_result
+USR|Okay, I will check expedia then.|goodbye

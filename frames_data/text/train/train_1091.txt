@@ -1,0 +1,21 @@
+USR|I have $400 and 14 days vacation.|inform
+USR|Need to leave from Brasilia.|inform
+USR|Can you tell me where I can fly to.|inform
+SYS|You can go to Belo Horizonte for 9 or 5 days.|suggest
+USR|I’ll take the longest package possible.|moreinfo
+USR|What’s the 9 day package like?|moreinfo
+SYS|It is at a 2.5 star beachside hotel close to shopping.|inform
+SYS|While there from the 9th to the 17th, you can enjoy free parking, free breakfast, and free wifi.|inform
+USR|Well i do love the beach and shopping.|inform
+USR|Are there other places I could go to or just Belo Horizonte?|inform
+SYS|I'm afraid that is your only option.|sorry
+USR|Okay well it’s better than nothing at all.|inform
+USR|You can book this for me|inform
+SYS|Sure.|suggest
+SYS|I can book the 9 day trip for you.|suggest
+SYS|You can actually afford business class flights for 265.27.|suggest
+SYS|Would you like me to book that?|suggest
+USR|For sure!|switch_frame
+SYS|It is booked!|inform
+SYS|Hope you have a good trip :slightly_smiling_face:|inform
+USR|Thanks!|thankyou

@@ -1,0 +1,27 @@
+USR|I work in Sendai and I need to get out of here.|inform
+USR|I'm willing to blow all my savings|inform
+SYS|Great idea :slightly_smiling_face: Where would you like to gO?|request
+USR|The only thing is that my dates are not flexible, I can only by from work (aka hell-hole) from August 30th to September 11th.|inform
+USR|And i was hoping to leave for 11 days
+Do you have anything to Santos in that time frame?|inform
+SYS|I sure do!|hearmore
+SYS|However, the longest duration I have for you is 7 days.|hearmore
+SYS|Would you like to hear more about this option?|hearmore
+USR|Sure, give me all the details and I'll see what my options are|switch_frame
+SYS|Ok, so the Starlight would cost 5531 dollars for a 7 day stay from September 3-7.|inform
+SYS|It is a 3.5 star hotel near a museum and a palace, has a 8.8/10 guest rating, and has free wifi and free breakfast.|inform
+USR|My other destination is Hiroshima|inform
+SYS|I have two different hotels available in Hiroshima within your date range, but both packages are only 4 days in length.|offer
+USR|4 days!!|inform
+USR|That's way to short for me.|inform
+USR|How about Toronto, anything long and sweet for me there?|inform
+SYS|I have a 6 day stay at Hotel Eric Perrier near Toronto airport and a cathedral available from Sept 2-6.|offer
+SYS|Eric Perrier boasts a 4 star rating with free wifi and breakfast included.|offer
+SYS|The cost for this package would be $3348.|offer
+USR|And that's the longest one you have?|request
+SYS|I’m sorry to tell you that it is the only option we have in Toronto leaving from Sendai for you.|sorry
+USR|Ok give me the Santos one then!|switch_frame
+USR|One extra day of bliss with that one haha|switch_frame
+SYS|Sure thing :slightly_smiling_face: Anything else I can help you with today?|inform
+USR|That's all!|goodbye
+USR|Now there is a light at the end of my tunnel :stuck_out_tongue:|goodbye

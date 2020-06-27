@@ -1,0 +1,14 @@
+USR|Soooo I’m wondering can I bring my wife and 3 kids to Kingston for 2800 dollars?|inform
+SYS|It will all depend on where you are leaving from.|confirm
+SYS|To confirm, that will be 2 adults and 3 kids?|confirm
+USR|Correct yes, and we will leave from Recife.|inform
+SYS|From Recife to Kingston there is nothing available.|suggest
+SYS|Could I search other packages for you?|suggest
+USR|Ahhh ok, maybe try Phoenix.|inform
+USR|If perhaps the problem is my budget, lets just up it by another thousand dollars.|inform
+SYS|Did you have some dates in mind?|request
+USR|Yes, we have a wide stretch of possible vacation days from September 13th until October 3rd|inform
+SYS|Travel packages are not available to Phoenix from Kingston for 2 adults and 3 children during those dates and for that budget.|suggest
+SYS|I regret I cannot make possible suggestions, but i can check other destinations for you.|suggest
+USR|Well what about in Goiania.?|inform
+SYS|Nothing, I apologize.|sorry

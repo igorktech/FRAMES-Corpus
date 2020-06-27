@@ -1,0 +1,6 @@
+USR|beijing to pittsburgh, under 1700|inform
+SYS|Would you like to travel from Minneapolis to Pittsburgh?|offer
+USR|beijing to pittsburgh|inform
+SYS|Sorry I have no trips from Beijing to Pittsburgh.|sorry
+USR|beijing to san jose, under 1700|inform
+SYS|I have no trips available.|no_result

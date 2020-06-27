@@ -1,0 +1,9 @@
+USR|Hello you may know me as the best Pokemon Hunter in the world|inform
+SYS|Hello.|greeting
+USR|i need to get to Rio de Janeiro|inform
+SYS|You can leave Recife Saturday August 27th|offer
+USR|but I can only leave from Santos|inform
+SYS|For less money on the same day you can leave and spend 261.99|offer
+USR|I will offer you $20000 to get me there|inform
+SYS|You only need to spend 261.99 good bye|inform
+USR|ok very good|switch_frame

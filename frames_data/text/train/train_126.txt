@@ -1,0 +1,26 @@
+USR|Good afternoon my name is Carolina and I want to book a trip.|greeting
+USR|Can you please tell me what specials you have at the moment leaving on August 25  and going to Guadalajara, I want to go visit my family.|greeting
+SYS|For sure!|request
+SYS|May you let me know where you are departing from?|request
+USR|I am so sorry my English is not very good I meant I live in Guadalajara my family will join me at my destination if you have good packages|inform
+SYS|Any destination in mind?|request
+USR|no you tell me good packages and I tell my family to meet me there.|request
+USR|I have 6 days vacation.|request
+USR|You give me suggestion.|request
+SYS|okay, how many will be travelling with you?|request
+USR|just me from Guadalajara, I meet my family there, they go from other place.|inform
+USR|As long as I leave August 25.|inform
+SYS|you have options to Seattle, Cairo USA, lima, San Francisco, Cancun, and indianapolis USA|suggest
+USR|I only have 6 days, any 6 days suggestion|inform
+SYS|these are all 6 days or less|inform
+USR|oh that sounds very good what about Cancun, I like Cancun|switch_frame
+SYS|Cancun has a 6 day stay at the White Peak Hotel.|offer
+SYS|It has a 3.5 star rating with free parking, breakfast and wifi.|offer
+SYS|It leaves on August 26th and is $712 or there is the same package but leaving on September 6th|offer
+USR|I must leave on August 25 is there a package anywhere else that leaves on that day, I do not want to lose vacation day|switch_frame
+SYS|I apologize that is the earliest one all others are on the 27th|sorry
+USR|for 712.00 it sounds like a very nice deal I will book flight on August 26 for 6 days.|thankyou
+USR|Thank you for your help.|thankyou
+SYS|my pleasure !|inform
+SYS|glad i could help!|inform
+SYS|ill go ahead and book it!|inform

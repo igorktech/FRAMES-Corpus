@@ -1,0 +1,15 @@
+USR|You got a San Juan to Rome flight on Sept 2?|inform
+SYS|We have 4 star hotels for this request.|suggest
+USR|We'll be 3 adults.|inform
+USR|Flexible with return date but want to keep the budget to 7600.|inform
+USR|Is this possible?|inform
+SYS|We have a package at a 0 star hotel from September 2nd to September 6th for 7231.94.|offer
+SYS|Amenities include free wifi and free breakfast.|offer
+SYS|Economy class seats.|offer
+USR|Ok if we leave at a different date, any chance you could land us a better hotel?|inform
+SYS|There is a package at a 4 star hotel from September 11th to 21st, economy class seats, free breakfast, free wifi, for 7282.75.|offer
+USR|Yeah lets do that.|inform
+USR|Not in a rush|inform
+SYS|Your flights are booked!|inform
+SYS|Have a lovely trip and thank you for using our service.|inform
+USR|Thank you!|thankyou

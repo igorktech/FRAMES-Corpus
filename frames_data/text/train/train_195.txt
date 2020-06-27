@@ -1,0 +1,34 @@
+USR|can I go to Sacramento?|inform
+SYS|I'll see what I can do.|request
+SYS|Where will you be leaving from?|request
+USR|phoenix|inform
+SYS|Do you have a budget?|request
+USR|yeahhhh I cant spend more than 1900... :disappointed:|inform
+SYS|How many people are travelling?|request
+USR|just me|inform
+SYS|Do you know when you want to take your trip?|request
+USR|Between September 1 and 15th.|inform
+SYS|Would you like economy or business class for your flights?|request
+USR|I don't know if I can afford business class, can I?|inform
+SYS|You can!|suggest
+SYS|The business class is 1129.47 at a 5 star hotel from the 4th to 12th.|suggest
+SYS|The hotel offers free breakfast and wifi.|suggest
+SYS|Would you be interested in this package?|suggest
+USR|oooo yes but lets look at a few more first.|inform
+USR|what about a package to Hamburg?|inform
+SYS|The only package for Hamburg is at a 4.5 star hotel and the price is 1845.59.|offer
+USR|That could be nice, what about Baltimore?|inform
+SYS|There is a 3 star hotel for 1572.27.|offer
+USR|What amenities does it include?|request
+SYS|This package includes free breakfast, wifi, and parking.|inform
+USR|What are the flight details for Hamburg?|request
+SYS|Phoenix to Hamburg:
+12:00 pm - Tuesday, September 6th 2016 to 8:37 pm - Tuesday, September 6th 2016
+Hamburg to Phoenix
+3:00 am - Wednesday, September 14th 2016 to 11:37 am - Wednesday, September 14th 2016|inform
+USR|Well that looks pretty good!|inform
+USR|I'll book this one.|inform
+SYS|Great!|inform
+SYS|Your trip is booked!|inform
+SYS|Have a nice trip and thank you for using wozbot!|inform
+USR|Thank you!|thankyou

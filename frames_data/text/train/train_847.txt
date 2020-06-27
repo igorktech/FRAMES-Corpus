@@ -1,0 +1,39 @@
+USR|Do you have packages leaving Friday September 16 from Denver??|inform
+USR|I got 11 days|inform
+SYS|We do!|request
+SYS|Do you have a budget in mind?|request
+USR|No budget!|inform
+USR|Find me something snazzy|inform
+SYS|Well, we have a trip to Leon, Tijuana, Rosario, Maceio, and Punta Cana!|offer
+USR|What kind of hotel in Leon!|request
+SYS|It is a 5 star hotel near a market|inform
+USR|what are the amenities?|request
+SYS|A spa!|inform
+USR|What are the dates for this package?|request
+SYS|September 24th to October 4th.|inform
+USR|Would you be able to offer free breakfast to enjoy by the spa?|request
+SYS|Unfortunately the hotel does not accommodate for free breakfast|sorry
+USR|how much would i be paying then, if breakfast isn't even included|request
+SYS|2153.39 for economy class flights or 2729.19 for business class flights|offer
+USR|I see.|inform
+USR|Can you check if there's a good hotel in Tijuana as well?|inform
+USR|Priority goes to the ones that offer free breakfast!|inform
+SYS|This has a 2.5 star hotel near a park, 6.77/10 guest rating, free parking, breakfast, and wifi, from September 18th to 28th.|offer
+SYS|The business class package is 1542.79 and the economy class package is 1229.30.|offer
+USR|Free breakfast is a big plus, but I'm a little iffy on the stars.|inform
+USR|Whats on offer in Rosario?|inform
+SYS|I think you will like this one.|offer
+SYS|It is a 4 star hotel close to shopping hot spots, 8.86/10 guest rating, free breakfast and wifi, from September 18th to 28th also, business class package comes to 3104.39, and the economy package comes to 2418.78.|offer
+USR|You're right!|inform
+USR|Its quite ideal.|inform
+USR|I've already been to Punta Cana so that's not a destination I'd consider, but can you just quickly check Maceio for similarly attractive hotels?|inform
+SYS|This is a 3.5 star hotel close to a park, market, and theatre, 8.8/10 guest rating, free breakfast and wifi, from September 17th to 27th, business package costing 3680.67, and economy package costing 2868.83.|offer
+USR|In that case I think the one you gave me in Rosario is best!|switch_frame
+SYS|Would you like to book for business class or economy?|suggest
+USR|In fact, I think I'm ready to book|inform
+SYS|Business or economy?|suggest
+USR|Economy please|switch_frame
+SYS|Great!|inform
+SYS|Your flights are booked and you will get an email confirming your bookings!|inform
+SYS|Have a great day and thank you for booking!|inform
+USR|thanks!|thankyou

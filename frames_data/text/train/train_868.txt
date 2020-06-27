@@ -1,0 +1,21 @@
+USR|I need to go to Buenos Aires.|inform
+SYS|Leaving from where?|request
+USR|Los Angeles if possible|inform
+SYS|Have you got a budgetary contraint?|request
+USR|2200 for Buenos Aires|inform
+SYS|Can you travel from Sept 8-21?|suggest
+USR|yes|switch_frame
+SYS|Well the best deal I have in Buenos Aires from Los Angeles would cost 2149.61USD.|inform
+USR|Okay that works but what if I wanted to go to Rome with my mother instead?|inform
+SYS|2000 dollar budget?|request
+SYS|Dates are flexible?|request
+USR|If I decided to go to Rome with my mother, I could spend 4700 and go anytime after Sept 6|inform
+SYS|I could book you two a 15 day package with business class flights for 4616.86USD.|offer
+SYS|The hotel is 4 stars, has breakfast and wifi at no cost, and is near shopping and a cathedral.|offer
+USR|And if I went to Buenos Aires from Los Angeles, what's that hotel like?|moreinfo
+SYS|4 stars, 8.69/10 user rating, in the heart of the city near a park.|inform
+SYS|Also free parking, wifi, and breakfast included.|inform
+USR|I think I'll got to Buenos Aires, and next year I can got to Rome.|inform
+SYS|Ok, so I’ll go ahead and book Buenos Aires for you!|inform
+USR|Thank you bot!|thankyou
+SYS|I am happy to serve you.|you_are_welcome

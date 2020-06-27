@@ -1,0 +1,14 @@
+USR|hello i need to get from north vancouver to fortaleza.|request
+USR|3600 budget.|request
+USR|whats available|request
+SYS|Hi!|greeting
+USR|can you tell me dates available in fortaleza
+one adult|inform
+SYS|August 28th to September 12th are the only dates available.|offer
+USR|thats fine whats the hotel like|moreinfo
+SYS|It's a 3 star hotel near a park and shopping, with free breakfast, wifi, and parking.|inform
+USR|what if i increase my budget ?|request
+USR|what can you find me then?|request
+SYS|How much would you like to increase your budget?|request
+USR|another thousand|inform
+SYS|There are no other options available.|no_result

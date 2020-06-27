@@ -1,0 +1,9 @@
+USR|Hi there.|inform
+USR|I’d like to book a trip for 10 adults from August 29 to Sept 1, from Tofino to Vancouver|inform
+SYS|I am sorry, I cannot offer you anything from Tofino to Vancouver within those dates.|sorry
+SYS|Are your dates flexible?|sorry
+SYS|May I check other destinations for you?|sorry
+USR|Dates are not flexible, but check for flights to Nagoya|inform
+SYS|No flights from Tofino to Nagoya either|no_result
+USR|do you have flights from tofino to anywhere?|inform
+SYS|Seems that Tofino is not serviced by any of our airlines|no_result

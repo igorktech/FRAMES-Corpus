@@ -1,0 +1,46 @@
+USR|Hey there I'm looking for a trip from St. Louis to Kabul.|inform
+SYS|Sure thing!|request
+SYS|When would you like to go?|request
+USR|After September 6|inform
+SYS|Ok, travelling alone?|suggest
+USR|Yeah, it's for a job.|affirm
+SYS|Sadly we do not offer flights to Kabul from St. Louis.|sorry
+SYS|Where else can I look for you?|sorry
+USR|But I've done it before.|null
+SYS|This trip is not currently available.|no_result
+USR|It's been done before, so don't pretend that you don't have flights from Kabul to St. Louis.|inform
+USR|It's really important for me to get there.|inform
+SYS|There are no flights from St. Louis to Kabul.|suggest
+SYS|Can I look into another destination for you?|suggest
+USR|Yeah, I figured.|inform
+USR|I can't believe you guys got rid of it.|inform
+USR|Is this a question of money?|inform
+USR|If I offered you more money, then would a trip from St. Louis to Kabul suddenly present itself?|inform
+SYS|Sadly we do not offer flights to Kabul from St. Louis.|sorry
+SYS|Where else can I look for you?|sorry
+USR|So if I raised my budget by a few hundred dollars, then would you have a package to Kabul for me?|inform
+SYS|Sadly we do not offer flights to Kabul from St. Louis.|sorry
+SYS|Where else can I look for you?|sorry
+USR|Okay, so what if I offer an extra $1000.|inform
+USR|Then would you have a trip to Kabul from me?|inform
+SYS|Sadly we do not offer flights to Kabul from St. Louis.|sorry
+SYS|Where else can I look for you?|sorry
+USR|No where else damn it!|inform
+USR|I need to get to Kabul!|inform
+SYS|Sadly we do not offer flights to Kabul from St. Louis.|sorry
+SYS|Where else can I look for you?|sorry
+USR|Nowhere else!|negate
+SYS|Sadly we do not offer flights to Kabul from St. Louis.|sorry
+SYS|Where else can I look for you?|sorry
+USR|You can't look anywhere else because Kabul is the only place I need to be.|inform
+SYS|Sadly we do not offer flights to Kabul from St. Louis.|sorry
+SYS|Where else can I look for you?|sorry
+USR|I'll go somewhere that will take my money and get me to Kabul.|inform
+SYS|You will go somewhere else?|suggest
+SYS|I can help you with that.|suggest
+SYS|Where would you like to go?|suggest
+USR|I mean I'm going to another service.|goodbye
+SYS|Goodbye.|goodbye
+USR|Bye.|goodbye
+USR|And thanks for nothing.|goodbye
+SYS|You are welcome :slightly_smiling_face:|you_are_welcome

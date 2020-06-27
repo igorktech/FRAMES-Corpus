@@ -1,0 +1,5 @@
+USR|Get the 17 of us out of Tofino for a few days!|inform
+USR|The majority of us want to go to Lima so let's see deals for those!|inform
+SYS|I'm afraid we have no flights operating out of Tofino.|sorry
+SYS|Would you like to leave from somewhere else?|sorry
+USR|Ah no :disappointed: We're based in Tofino|inform

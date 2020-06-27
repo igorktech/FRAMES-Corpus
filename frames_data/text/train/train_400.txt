@@ -1,0 +1,5 @@
+USR|I need a trip to Marseille on these exact dates: September 9 to September 13
+Flying from Manaus|inform
+SYS|Are the dates flexible?|request
+USR|They are not.|inform
+SYS|Sorry, I only have flights from September 16 - 21, from September 17 - 22,|sorry

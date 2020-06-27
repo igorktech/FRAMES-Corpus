@@ -1,0 +1,10 @@
+USR|I need to find a vacation between today and September 14th from Punta Cana to San Francisco|inform
+SYS|you have to be back by Sept 14th?|confirm
+USR|I'd like to be back by the 14th|inform
+SYS|will you be travelling alone or accompanied?|request
+USR|alone|inform
+SYS|Unfortunately I do not have any packages available from Punta Cana into San Francisco.|sorry
+SYS|Any other destinations you would like to look at?|sorry
+USR|no but could you check dates from august 30th to september 16th?|inform
+SYS|even with the change of dates, I still do not have any flights available from Punta Cana to San Francisco|no_result
+USR|okay well I will come back another time.|goodbye

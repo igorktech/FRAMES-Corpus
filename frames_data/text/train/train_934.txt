@@ -1,0 +1,26 @@
+USR|My next destination is Mexico City!|inform
+USR|But can I get there from Tijuana is the million dollar question|inform
+SYS|Sure can!|request
+SYS|When would like to be there and how much are you thinking of spending?|request
+USR|Sometime after today would be great.|inform
+USR|I have 2300 to spend|inform
+SYS|Sounds good.|offer
+SYS|The best hotel I have in Mexico City is a 3.5 star hotel near the museum, beach, shopping, and mall.|offer
+SYS|It has 6.37/10 guest rating and offers free wifi and parking.|offer
+USR|I'll take it|inform
+SYS|Okay, I can get you there on Sep 8 but only with a 5 day stay.|offer
+SYS|Or you can leave on Sep 10 but stay for 8 days.|offer
+USR|could you get me there earlier if at a lower rated hotel though?|inform
+SYS|Actually yes.|offer
+SYS|I can get you there on the 7th if you stay at a 3 star hotel.|offer
+SYS|Are you more interested in this option?|offer
+USR|whats the cost for that option?|request
+USR|and the length of stay|request
+SYS|Economy seats would only cost you 701.81.|inform
+SYS|And you will be staying 5 days from Sept 7-11.|inform
+USR|lets do it.|inform
+USR|time is of the essence here|inform
+SYS|Alright!|inform
+SYS|I have booked this trip for you!|inform
+SYS|Confirmation has been sent to you via email.|inform
+USR|thank you :pray:|thankyou

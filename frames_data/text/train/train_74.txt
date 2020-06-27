@@ -1,0 +1,27 @@
+USR|Hi!|inform
+USR|I have a $3300 budget and am looking for a vacation|inform
+SYS|I can help you with that!|request
+SYS|From where would you depart?|request
+USR|Im leaving from miami on August 25th|inform
+SYS|How about 8 days in Seattle for 481.66USD?|suggest
+USR|that sound amazing!|request
+USR|what type of hotel is that?|request
+SYS|The hotel is 3.5 stars and only 8 minutes away from Seattle|inform
+USR|thats amazing!|request_alts
+USR|are there any other destinations available?|request_alts
+SYS|I have lots!|request
+SYS|Do you have a preference?|request
+USR|maybe somewhere warm and somewhere that i could be back by August 29th|inform
+SYS|I have trips to Long Beach for August 25-August 30?|suggest
+USR|how about naples?|inform
+SYS|I haven't got any trips to Naples within your budget.|suggest
+SYS|I have something available for 3421.98USD though if you would be interested?|suggest
+USR|i cant.|switch_frame
+USR|I think the vacation to seattle seems most appropriate|switch_frame
+SYS|Sure!|confirm
+SYS|So, 8 days for 481.66?|confirm
+SYS|Is that the option you would like to go with?|confirm
+USR|you got it!|affirm
+SYS|Perfect!|inform
+SYS|I will go ahead and book that for you.|inform
+USR|thanks!|thankyou

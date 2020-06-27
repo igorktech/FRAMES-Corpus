@@ -1,0 +1,14 @@
+USR|hey buddy.|inform
+USR|i wanna maybe go to ciudad juarez
+get a little crazy out of the cold lol
+leaving from toronto ok????|inform
+SYS|Do you have a budget?|request
+USR|ummmm nah|inform
+SYS|Are you travelling by yourself?|suggest
+USR|mmmm ill tell u later lol ok|inform
+SYS|We have a 3.5 star hotel, near a palace, 8.8/10 guest rating, free breakfast, wifi, parking, business class seats, from August 31st to September 11th, cost is 1685.16.|offer
+USR|hey, that’s a sweet deal!|inform
+USR|can you book it for 2 adults?|inform
+SYS|Yes, the price for 2 is 3370.32.|offer
+USR|Done, booked!|thankyou
+USR|Thanks!|thankyou

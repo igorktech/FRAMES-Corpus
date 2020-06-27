@@ -1,0 +1,37 @@
+USR|Hi|greeting
+SYS|Hello!|greeting
+SYS|How can I help you today?|greeting
+USR|I just need to dream a bit... I have 4500 dollars but no vacation days.|inform
+USR|I'm wondering what a hypothetical trip to Manaus would be like|inform
+SYS|I can help with that, where are you departing from?|request
+USR|I'm in Tijuana, not departing any time soon unfortunately though|inform
+SYS|Not a problem - how many would you be traveling with?|request
+USR|Just me|inform
+SYS|I'm sorry, but we unfortunately do not have any results for these flights?|sorry
+SYS|Would you like to try a different destination?|sorry
+USR|That's fine, what about Curitiba/|inform
+SYS|That I do have!|offer
+SYS|Would you be satisfied with a 3.5 star hotel?|offer
+USR|As of now I'm be satisfied with a tent and a backpack.|switch_frame
+USR|What are the hotel details?|switch_frame
+SYS|The hotel is situated near a park, and comes with free parking, wifi, and breakfast!|inform
+SYS|Does this sound good to you?|inform
+USR|Sounds quite nice, what about the guest rating?|request
+SYS|The guest rating is impressive: 8.86/10.|inform
+USR|Impressive indeed
+Sounds like a great package.|request
+USR|What about in Kyoto?|request
+USR|I would like to hear about the options there as well|request
+SYS|Definitely!|offer
+SYS|In Kyoto, I can get you a 9 day stay in a hotel near the heart of the city, and a museum.|offer
+SYS|How does that sound?|offer
+USR|That sounds like a stimulating trip.|request
+USR|Could you remind me how long the stay in Curitiba would be?|request
+SYS|It would be entirely up to you!|offer
+SYS|Choices are 8, 13, and 14 days.|offer
+USR|What is the rating of the Kyoto hotel?|request
+SYS|That would be 3 stars,|inform
+USR|And the guest rating?|request
+SYS|A respectable 6.61/10|inform
+USR|Neato!|switch_frame
+USR|Well if I had the time off available I would definitely book Curitiba|switch_frame

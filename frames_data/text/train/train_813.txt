@@ -1,0 +1,17 @@
+USR|Hi there.|inform
+USR|I'd like to go to somewhere new.|inform
+USR|departing from Rome.|inform
+USR|after September 8|inform
+SYS|Can I have the length of time that you would like to be away for?|request
+USR|9 days please!|inform
+SYS|I have few choices for you on 9 day stays.|request
+SYS|Do you have a maximum amount that you would like to spend on this trip?|request
+USR|I have no maximum|inform
+SYS|I believe I have the perfect place for you.|offer
+SYS|The Southern Universe Inn & Suites in Cairo includes all the amenities and has the added value of being located near the park, market, cathedral and palace.|offer
+USR|Can you give us a price estimate?|request
+SYS|$3378.47USD based on economy|inform
+USR|Lets book it!|inform
+SYS|I will take care of that for you.|inform
+SYS|Much obliged.|inform
+USR|Thanks!|thankyou

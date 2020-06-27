@@ -1,0 +1,22 @@
+USR|I need to get out of Beijing ASAP!!!!!!!!!!!!!|inform
+SYS|Okay.|request
+SYS|Where would you like to go?|request
+USR|Alexandria.|inform
+USR|Pronto.|inform
+USR|Alexandria is where's it's at.|inform
+SYS|I'm afraid we do not offer any packages that leave from Beijing.|sorry
+SYS|Would you like to leave from another city?|sorry
+USR|Yeah try Tel Aviv.|inform
+USR|Tel Aviv to Alexandria|inform
+SYS|I'm afraid we do not offer any packages that leave from Tel Aviv either.|sorry
+SYS|Would you like to leave from another city?|sorry
+USR|CRAP!!!!!|inform
+USR|Try Beijing to Cancun then.|inform
+SYS|I'm afraid we do not offer any packages that leave from Beijing and Tel Aviv.|sorry
+SYS|Would you like to leave from another city?|sorry
+USR|I'M GONNA GIVE YOU ONE MORE CHANCE TEL AVIV TO CANCUN THIS IS A MATTER OF LIFE AND DEATH DO YOU UNDERSTAND?!???|inform
+SYS|I'm afraid we do not offer any packages that leave from Tel Aviv.|sorry
+SYS|Would you like to leave from another city?|sorry
+USR|GOODBYE|goodbye
+SYS|Goodbye.|goodbye
+SYS|Thank you for using our services.|goodbye

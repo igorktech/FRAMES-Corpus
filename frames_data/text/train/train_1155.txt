@@ -1,0 +1,18 @@
+USR|Need to book a luxury getaway for myself and 7 clients.|inform
+USR|Leaving from Vancouver after September 14th
+What've you got availble in Naples?|inform
+SYS|Our best in Naples is a 8 days vacation package at a 4.0 star hotel with 8.86/10 guest ratings.|offer
+USR|Noted.|inform
+USR|What about in Guadalajara?|inform
+SYS|Unfortunately we've got nothing to Guadalajara from Vancouver.|sorry
+USR|Ah, ok.. Nagoya then|inform
+SYS|Nothing for Nagoya either.|no_result
+USR|I guesss we're going to Naples.. Can you tell me more about that hotel first?|moreinfo
+SYS|Sure, the hotel offers free breakfast and free wifi.|inform
+SYS|You will stay there from Sept 16-22.|inform
+USR|Good stuff - should be fine.|inform
+USR|Book 8 for business class please.|inform
+SYS|Okay I will confirm the trip for you!|inform
+SYS|The total comes to 24044.47.|inform
+SYS|Anything else I can do for you today?|inform
+USR|Nope - thanks|thankyou

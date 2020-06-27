@@ -1,0 +1,16 @@
+USR|I have a movie shoot to go to in Salvador.|inform
+USR|Get me there from Belem|inform
+SYS|My apologies, we do not have any available trips.|sorry
+SYS|Is there another destination you would like to go to?|sorry
+USR|Get me to Brasilia then|inform
+SYS|That I can do!|offer
+SYS|I have a 3.5 star hotel near the beach, shopping and theatre.|offer
+SYS|I have availabilities for 7 days or 10 days.|offer
+USR|what amenities does that 3.5 star have|request
+SYS|It's got everything.|inform
+SYS|Free parking, free breakfast, and free wifi!|inform
+USR|7 days, business class then|inform
+SYS|Sounds good.|inform
+SYS|Business class is booked for you for 575.48!|inform
+USR|Can you remind me of the dates?|request
+SYS|Yup, You'll be there from Sep 8-14.|inform

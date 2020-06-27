@@ -1,0 +1,21 @@
+USR|Hi.|inform
+USR|I am leaving from Recife
+Trying to see if there are any 5 star hotels in Sendai|inform
+SYS|Would a 4 star suffice?|suggest
+USR|Barely, but tell me more|moreinfo
+SYS|Well there’s the Hotel Kirei, near a park and a museum with a 8.8/10 guest rating.|offer
+SYS|I also have vacancies at the Voyage which features a 8.49/10 guest rating and is near both museums and shopping.|offer
+USR|Is there free breakfast at the Kirei?|request
+SYS|No, sorry.|sorry
+SYS|Only free wifi at both of these hotels.|sorry
+USR|Ok I’ll roll the dice.|inform
+USR|But yes let me know the dates I can get at Kirei
+Keep in mind I need to back before the 8th of September, preferably|inform
+SYS|I can book you from Sept 2-7|suggest
+USR|Done, done, done.|inform
+SYS|Business class?|suggest
+USR|Yes|affirm
+SYS|That will be 7185.50USD.|inform
+USR|Yes I will wire the money over shortly.|inform
+USR|Is this booked?|inform
+SYS|It sure is!|inform

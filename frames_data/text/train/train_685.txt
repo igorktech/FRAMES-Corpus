@@ -1,0 +1,21 @@
+USR|Hi, I need some help comparing a few different trips.|inform
+USR|Can you help me with that?|inform
+SYS|Sure!|request
+SYS|Where are you leaving from?|request
+USR|I'm based in Calgary.|inform
+USR|I will also be traveling with my assistant.|inform
+SYS|Do you have a budget?|request
+USR|We have a strict budget of 2400.|inform
+USR|Could you help me find some options within my budget for Punta Cana?|inform
+SYS|There are no results within your budget.|no_result
+USR|Alright fine.|inform
+USR|How about Rosario?|inform
+SYS|Still nothing within your budget.|no_result
+USR|Wow that sucks!|inform
+USR|Okay... Frankfurt is my last hope then.|inform
+SYS|There are no availabilities for 2 people.|no_result
+USR|Just remembered.. we could also leave from Toronto if that helps.|inform
+SYS|There is nothing available.|no_result
+USR|Okay.. I don't have any more options... I'll have to rethink my travel plans.|thankyou
+SYS|Okay, thanks for using our services, sorry I couldn't have been more help to you.|sorry
+SYS|Have a nice day!|sorry

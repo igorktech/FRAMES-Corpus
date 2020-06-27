@@ -1,0 +1,39 @@
+USR|I’m good, you?|greeting
+SYS|Never bad!|greeting
+SYS|How can I help you?|greeting
+USR|I’d like to leave Busan|inform
+SYS|Why yes, where would you like to go?|request
+USR|Do you do flights to Long Beach?|inform
+SYS|Sure thing!|request
+SYS|What are your preferred travel dates?|request
+USR|Between Sept 8 and 26 please|inform
+SYS|Is there a cap to how much you'd like to spend?|request
+USR|There’s no cap, I’m a lucky duck|inform
+SYS|You sure are... we have a 3 star hotel close to a park with 8.49/10 guest rating, and a 2.5 star hotel close to the airport with 6.91/10 guest rating.|offer
+SYS|Both have free parking, free breakfast, free wifi.|offer
+USR|Whats the cost though?|request_compare
+SYS|For the 3 star hotel I have a 6 day economy package for 3331.87, business package for 4304.65.|inform
+SYS|For the 2.5 star hotel, I have 6 day economy package for 3121.59, business package for 4046.30.|inform
+USR|How about trips to San Juan?|inform
+USR|Would you be able to find me better than a 3 star rated hotel?|inform
+SYS|You are in luck!|offer
+SYS|There is a 4 star hotel in San Juan with a 8.98/10 rating.|offer
+SYS|It boasts easy access to museums, shopping, and markets.|offer
+USR|Yes please check flights to Kingston please|inform
+SYS|In Kingston you can get a 4 star hotel with 8.22/10 rating or a 3.5 star hotel with 8.69/10 rating.|offer
+SYS|Are you interested in knowing more or would you like me to check some other destinations?|offer
+USR|Just tell me a little more about the 4 star hotel please.|request
+USR|Nearby attractions, amenities, etc.|request
+SYS|It's close to a museum and it's got free parking, breakfast, and wifi.|inform
+USR|Do you do Busan to Fort Lauderdale?|inform
+SYS|We do, but we only have a 2 star hotel.|offer
+SYS|Don't think you'd want that...|offer
+USR|What’s the longest stay you can get me at that 4 star hotel you mentioned?|request
+SYS|For Kingston, I only have a 5 day package from Sept 12-15.|inform
+SYS|For San Juan, the longest I have is a 9 day package from Sept 14-21.|inform
+USR|How much would the San Juan trip cost, for economy class?|request
+SYS|This offer is available for 1624.19!|inform
+USR|Please book that one!|inform
+SYS|Your trip has been reserved for you!|inform
+SYS|A confirmation email with all the details is coming your way shortly.|inform
+USR|Thank you!|thankyou

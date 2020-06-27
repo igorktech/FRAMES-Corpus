@@ -1,0 +1,45 @@
+USR|ayoooo.|inform
+USR|spring break buddy.|inform
+USR|I wanna go somewhere nice and cold for spring break :smile: Toronto maybe?|inform
+SYS|Hey there!|request
+SYS|Where will you be flying out from?|request
+USR|We are leaving from Hogsmeade.|inform
+USR|It is a terrible place and we wanna get awayyyyy|inform
+SYS|How many people will you be traveling with for this trip?|request
+USR|Me, Ron, Harry, and Hagrid.|inform
+USR|4 of us|inform
+SYS|I can't seem to find any flights leaving Hogsmeade.|offer
+SYS|Do you have another city you could depart from?|offer
+SYS|I could book you a cheap stay in Kyoto if you fly out from Nagoya.|offer
+USR|I don't wanna go to Kyoto... how about Nagoya to Toronto???|inform
+SYS|I can book you a stay in the Hotel Richard from August 24th to September 2nd.|offer
+SYS|The total cost of this package is 10986.39USD.|offer
+SYS|How does that sound?|offer
+USR|that's like 11 grand oh my god!!|inform
+USR|I need to spend like... 1900 or 2900 MAX.|inform
+USR|Is there anything cheaper to Paris?|inform
+SYS|How about a stay at Paris' Autumn Treasure Hotel from the 27th of August until the 6th of September?|offer
+SYS|At 2789.83USD this falls well within your budget.|offer
+USR|I just need a package to Toronto for less than 2900|inform
+SYS|I can offer you a package to Toronto which is only 2275.60USD, however your stay would be from the 17th of August to the 27th.|offer
+USR|....is there anything to Paris within my dates???|switch_frame
+SYS|Unfortunately I cannot offer you any packages for Paris.|sorry
+SYS|Would you like to try another destination?|sorry
+USR|let's try Toronto again.|request
+USR|where would we leave from&gt;|request
+SYS|If you are flexible with your city of departure I can offer you a cheaper Toronto package which leaves from Calgary.|sorry
+SYS|Unfortunately this trip is from the 17th to the 24th of August.|sorry
+USR|Ok.... well maybe we'll just miss a few days of class that week.|request
+USR|How much is that package?|request
+SYS|The total cost of this package is 1568.64 USD.|suggest
+SYS|It includes a stay in the Hotel Eric Perrier, a 4-star hotel with free breakfast and free wifi.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|Wow sweet!|confirm
+USR|That's for the 4 of us?|confirm
+SYS|This is a package for four.|affirm
+USR|Great.|inform
+USR|ok let's book it|inform
+SYS|Done!|inform
+SYS|Your trip has been booked.|inform
+SYS|Enjoy your stay!|inform
+USR|great tahnk you|thankyou

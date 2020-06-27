@@ -1,0 +1,23 @@
+USR|Need to get to Essen|inform
+SYS|And from where will you be departing?|request
+USR|Berlin|inform
+SYS|I have 15 days at the Relaxation Hotel for  576.46USD.|offer
+USR|How many people is this for?|request
+SYS|are you travelling alone?|suggest
+USR|no|negate
+SYS|How many are in your party?|request
+USR|My wife, my lawyer, me and my 5 kids|inform
+SYS|In that case, the cost of the Relaxation Hotel package increases to 3510.67USD|offer
+USR|What can we do at the Relaxation Hotel, this is an information gathering mission but I would like to spend some quality time with the kids|request
+SYS|It is near a palace, has free wifi, and breakfast costs are included.|inform
+USR|what if we fly business class, how $$$$|request
+SYS|3857.61USD|offer
+USR|Is this all you have in Essen?|confirm
+SYS|Yes.|affirm
+USR|what's the rating on the hotel?|switch_frame
+SYS|3.0 stars.|inform
+SYS|6.61/10 user rating.|inform
+USR|If I increase my budget to a total of $6100, do you have something nicer in Essen?|inform
+SYS|No, that is the only option in Essen.|inform
+USR|Well I guess we have no choice then LOL let's reserve it On business class|inform
+SYS|Ok, you’ve got it!|inform

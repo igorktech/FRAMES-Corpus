@@ -1,0 +1,35 @@
+USR|Hey, I can use your help researching for a short vacation.|inform
+SYS|Okay!|request
+SYS|Where would you like to go?|request
+USR|No idea!|inform
+USR|I've only got 4 days.. gotta make the most out of it!|inform
+USR|Was hoping that you can help me out with choosing a place to go.|inform
+SYS|Sure!|request
+SYS|Where are you leaving from?|request
+USR|Santo Domingo|inform
+SYS|Do you have a budget?|request
+USR|No budget in mind yet.|inform
+SYS|When would you like to leave?|request
+USR|I can leave on or after September 1|inform
+SYS|We have packages to Rosario, Maceio, and New York.|suggest
+USR|Cool, these sound interesting!|moreinfo
+USR|Could you provide more information on these 3 destinations?|moreinfo
+SYS|There are hotels in Rosario, one is 2 stars, the other is 4 stars.|offer
+SYS|We have two, 3.5 star hotels in Maceio.|offer
+SYS|Lastly we have a 2.5 star hotel in New York.|offer
+USR|How are the guest ratings and amenities of these hotels?|request_compare
+SYS|The 2 star hotel in Rosario has a 0/10 guest rating and free breakfast and wifi, the 4 star has a 8.86/10 guest rating and free breakfast and wifi.|inform
+SYS|The first hotel in Maceio has a 8.37/10 guest rating and free breakfast and wifi, the other has 8.8/10 guest rating and free breakfast and wifi.|inform
+SYS|The hotel in New York has a 7.15/10 guest rating and free parking, breakfast, and wifi.|inform
+USR|Okay I'm interested in knowing more about the higher rated hotels in Rosario and Maceio.|request_compare
+USR|Can you tell me more about the activities around these two options?|request_compare
+SYS|The hotel in Rosario has shopping, and the hotel in Maceio has a park, market, and theatre.|inform
+USR|Alright, Maceio is the winner here!|switch_frame
+SYS|Would you like the business class package or economy?|suggest
+USR|What would be the price difference here?|request
+SYS|The economy package is 2146.39 and the business package is 2718.62.|offer
+USR|I wouldn't mind paying a bit more for business.|switch_frame
+SYS|Alright!|inform
+SYS|I will book this for you!|inform
+SYS|The departing flight is on September 17th and the returning flight is the 20th.|inform
+USR|Thank you!|thankyou

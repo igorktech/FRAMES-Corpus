@@ -1,0 +1,29 @@
+USR|So I hear there are just AMAZING pork belly sliders at this little food boutique in Ulsan.|inform
+USR|I reallllly wanna check out the foodie scene there!|inform
+SYS|Sounds fun!|request
+SYS|Where will you be leaving from?|request
+USR|I'll be in Calgary for the rest of this week and I'm wondering if I can get there for 4000 dollars|inform
+SYS|When is the earliest you can leave?|request
+USR|I'm free to go whenever|inform
+SYS|We have a 5 star option from September 20th to 24th and another 5 star option from September 18th to 22nd.|offer
+USR|Can you tell me about them?|moreinfo
+SYS|The 20th to 24th is at The Sapphire Time.|inform
+SYS|The hotel is near a park, market, and theatre.|inform
+SYS|They have a 8.98/10 guest rating and offer free parking and wifi.|inform
+SYS|The price of this package is 3524.83.|inform
+SYS|The 18th to 22nd is at the Escape Cave.|inform
+SYS|The hotel is near a park, mall, and shopping.|inform
+SYS|They have a 8.8/10 guest rating and offer free parking and wifi also.|inform
+SYS|The price of this package is 3505.18, so a little bit cheaper.|inform
+USR|Very detailed - I appreciated that.|inform
+USR|However, as much as I do love the BBQ, I also have to look at Recife, as I also thoroughly enjoy the variety of food available there
+For that one though could you look for flights out of New York?|inform
+USR|I think I'd be stopping back there before heading out|inform
+SYS|For Recife we have a 4 star hotel near a park, 8.22/10 guest rating, free breakfast and wifi, from September 13th to 24th, business flights are 3603.71, and economy flights are 2800.81.|offer
+SYS|This is The Glee.|offer
+USR|That isn't bad.. but out of the two I'm gonna pick Sapphire Time.|inform
+USR|book that one for me, would ya?|inform
+SYS|Sure!|inform
+SYS|This package will automatically be booked once you confirm payment in the confirmation email just sent to you.|inform
+SYS|Have a nice day and enjoy the trip!|inform
+USR|Great, thanks a bunch :smile:|thankyou

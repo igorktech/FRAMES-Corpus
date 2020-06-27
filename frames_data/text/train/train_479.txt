@@ -1,0 +1,21 @@
+USR|Belem to Busan.|inform
+USR|Aug 28 or later.|inform
+USR|$6200 budget.|inform
+USR|Nicest hotel you got capisci?|inform
+SYS|You would like to book a trip to Busan, from Belem deparing on Aug 28th (or later) under $6200 dollars.|request
+SYS|I can help you with your request but you must tell me number of people in your group.|request
+USR|1 person adult|inform
+SYS|The best hotel I have available in Busan during that time period is a 3 star hotel.|offer
+USR|Is that the best hotel in Busan, period?|confirm
+SYS|During those travel dates, it is all that is presently open.|inform
+USR|What about during any travel date|inform
+SYS|I only show 3 star hotel in our roster of hotels in Busan|offer
+USR|then get me the one with the best user rating|inform
+SYS|If you depart on the 27th of August, I can offer you the Smile Hotel for 7 days for 5931.24USD.|offer
+SYS|It has a user rating of 7.06/10.|offer
+USR|I already told you I can't leave that early.|switch_frame
+USR|28th or later|switch_frame
+SYS|You are in luck, I also have it on a 12-day package departing on August 28 and the price is only $5288.4USD, special deal.|offer
+USR|Done done and done|inform
+SYS|I have reserved that for you with an August 28 departure.|thankyou
+SYS|Thank you and have a pleasant trip.|thankyou

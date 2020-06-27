@@ -1,0 +1,6 @@
+USR|I want to go to Fukuoka and I want to leave from Kabul.|inform
+SYS|Alright, do you have a budget?|request
+USR|3100 dollars|inform
+SYS|When would you like to leave?|request
+USR|September 6th|inform
+SYS|There are no results from Kabul to your destination, is there a different city you can depart from?|suggest

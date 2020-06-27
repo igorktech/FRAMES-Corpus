@@ -1,0 +1,2 @@
+USR|Do you have hotels in Jerusalem?|inform
+SYS|Sorry, no.|sorry

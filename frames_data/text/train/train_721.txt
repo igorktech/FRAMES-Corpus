@@ -1,0 +1,11 @@
+USR|sept 12 to 22.|inform
+USR|toluca to naples|inform
+SYS|Size of your party please|request
+USR|i'll be alone|inform
+SYS|Are your dates flexible?|request
+USR|slightly.|inform
+USR|but there's nothing for the dates I gave?|inform
+SYS|no there is not|no_result
+USR|then try sep 8 to 23|inform
+SYS|I cannot accommodate those dates either.|suggest
+SYS|It is most liekly we do not fly from Toluca to Naples, can we try different cities?|suggest

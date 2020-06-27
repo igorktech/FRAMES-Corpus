@@ -1,0 +1,37 @@
+USR|Hey, I live in beautiful Toronto but I kinda need a break from my friends, can you find me a getaway?|inform
+SYS|Sure!|request
+SYS|Do you have a budget?|request
+USR|None, I'm rich!|inform
+SYS|When would you like to go?|request
+USR|I got my boss to give me between Sept 12 and October 3rd off, can you do it?|inform
+SYS|Sure!|suggest
+SYS|We have trips to Columbus, New York, Indianapolis, and St. Louis.|suggest
+USR|Been to SL - HATE it.|inform
+USR|New York - MEH.|inform
+USR|Whatcha got in Columbus.|inform
+USR|Remember - I''m RICH!|inform
+USR|Actually I'm messing with you.|inform
+USR|I have $5600 but that's rich for ME.|inform
+SYS|You can definitely afford our best in Columbo!|inform
+SYS|We have a 19 day package from September 14th to October 2nd at a 3.5 star hotel.|inform
+SYS|The hotel is near shopping, mall, museum, and is in the heart of the city.|inform
+SYS|They offer free breakfast and wifi with a guest rating of 8.22/10.|inform
+SYS|The business package is 1692.68.|inform
+USR|Do you have a shorter stay at a higher rated hotel?|inform
+USR|Can you check what is available between Sept 12 and Sept 25th instead?|inform
+SYS|No but we have a 14 day stay from the 12th to 25th at the same hotel.|offer
+USR|I want a higher rated hotel|inform
+SYS|There are no higher rated hotels|no_result
+USR|Let's check Indianapolis then|inform
+SYS|The highest here is 3 stars|inform
+USR|SL?|inform
+SYS|The best one is 3.5|inform
+USR|New York?|inform
+SYS|2.5|inform
+USR|WOW I got $5600 to spend and you have nowhere for me to go all out and spend it|inform
+SYS|We do, just nothing above 3.5 star hotels.|no_result
+USR|Well, I guess I'll book the Columbus package and spend the rest of my money partying!|inform
+USR|Better be a nice 3.5 star.|inform
+SYS|I'm sure it is!|inform
+SYS|Your package is booked.|inform
+SYS|Have a nice day!|inform

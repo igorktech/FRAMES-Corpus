@@ -1,0 +1,22 @@
+USR|I want to go to Denver from Rosario|inform
+SYS|Not a problem.|request
+SYS|How many of you will there be and how long would you like to go for?|request
+USR|2 adults and 2 kids and im not picky on how long we stay|inform
+SYS|Sounds great.|request
+SYS|Do you have a budget in mind?|request
+USR|12400|inform
+SYS|I have an excellent 18 day package for you at a 4 star hotel.|offer
+SYS|It comes to a total of 10737.13 for economy class.|offer
+SYS|Would you be interested?|offer
+USR|What other packages are there?|request_alts
+SYS|Everything else comes with a 3 star hotel and you can choose among 12, 13, and 14 day packages.|offer
+USR|Can you give me some info on the hotel?|switch_frame
+SYS|For the 4 star hotel 18 day package, it has a guest rating of 8.69/10 and includes free wifi.|offer
+SYS|For the other packages, the best one which I would recommend is the 3 star Brass Renaissance Resort that has a 8.86/10 rating  and includes free breakfast and wifi, and lasts for 14 days.|offer
+SYS|Which one would you be interested in?|offer
+USR|I think the 3 star sounds better.|request
+USR|How much are business flights?|request
+SYS|It comes to a total of 12367.12 for business.|offer
+SYS|Would you like to book this trip?|offer
+USR|yeah please|switch_frame
+SYS|It's been booked!|inform

@@ -1,0 +1,21 @@
+USR|BRASILIA TO KYOTO, SEPT 4.|inform
+USR|$4000 Budget GOOOO|inform
+SYS|Is this for one traveller?|suggest
+USR|YA|affirm
+SYS|I have a package from September 7th to 12th at the Quiet Garden Resort.|offer
+SYS|Do those dates work for you?|offer
+USR|DATES ARE FINE BUT HOW IS HOTEL.|inform
+USR|ACTUALLY NO CAN U GET ME TO LEAVE EARLIER|inform
+SYS|I do have a trip leaving September 4th, but it is not within your budget.|offer
+SYS|Would you be willing to pay 5714.3USD?|offer
+USR|MAN HOW ABOUT 5000.|inform
+USR|LETS MEET IN THE MIDDLE HERE|inform
+SYS|The trip leaving September 7th is 3604.73USD|inform
+USR|OK FINE BUT HOW IS THE HOTEL?|moreinfo
+SYS|It's a 3 star hotel with guest reviews of 8.22/10.|inform
+SYS|It is close to a museum and breakfast and wifi are included in the price.|inform
+USR|GET ME A BETTER ONE|inform
+SYS|We do not have hotels with more than 3 stars in Kyoto.|no_result
+USR|Oh WHAT?|inform
+USR|K BOOK THE SEPT 7 TRIP THEN|inform
+SYS|I will do that!|inform

@@ -1,0 +1,10 @@
+USR|I am SO done with my job right now.|inform
+USR|I wanna take a nice two week vacation and getting out of Rome
+what could you get me in Curitiba?|inform
+SYS|Rome to Curitiba, let me see... nothing.|no_result
+USR|ok ..... well I'd settle on Essen|inform
+SYS|Rome to Essen, nothing available either.|no_result
+USR|you are a disgrace.|inform
+USR|what about in St. Petersburg?|inform
+SYS|I apologize for the inconvenience.|sorry
+SYS|I also do not have anything from Rome to St. Petersburg.|sorry

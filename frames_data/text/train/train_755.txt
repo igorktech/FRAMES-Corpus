@@ -1,0 +1,30 @@
+USR|Hey, I need to get to Mannheim asap|inform
+SYS|Hi there, I can certainly help you with that.|greeting
+USR|I live in Brasilia so i need to fly out from here.|inform
+USR|I only have 2200.|inform
+SYS|Unfortunately we do not have any availabilities.|sorry
+SYS|Would you have an alternative destination or departure city?|sorry
+USR|Do you have anything to Sao Paulo?|inform
+SYS|Yes I do have a few options for Sao Paulo!|offer
+SYS|We've got one 2 star hotel with a 6.91/10 guest rating.|offer
+SYS|We also have two 3 star hotels, with guest ratings of 6.91/10 and 5.14/10.|offer
+SYS|Is there anything you are looking for specifically in your choice of hotels?|offer
+USR|hmmm.... i think the 3 star hotel with 6.91/10 guest rating sounds good.|request
+USR|What is that hotel close to?|request
+SYS|That is an excellent choice!|inform
+SYS|That hotel is located at the heart of the city, close to a cathedral and a theater.|inform
+USR|Does the hotel have free wifi?|request
+SYS|You bet!|inform
+SYS|It also offers free breakfast.|inform
+USR|Yum!|request
+USR|This hotel is sounding pretty dope.|request
+USR|How much is the package?|request
+SYS|We have a 4 day economy package for $911.52 leaving September 12, and a 6 day economy package with a slight increase of price at $958.90 leaving September 13.|offer
+SYS|If you are interested, we also have a 6 day business package with the same dates for $1157.39.|offer
+USR|What are the dates for the 6 day business package?|request
+SYS|It is from September 13 to 18.|inform
+USR|That sounds great!|inform
+USR|I'm down, book me this package please :slightly_smiling_face:|inform
+SYS|Okay, you are all set!|inform
+SYS|Hope you have a great time at Sao Paulo :slightly_smiling_face:|inform
+USR|Thank you!|thankyou

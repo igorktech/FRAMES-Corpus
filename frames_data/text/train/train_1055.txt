@@ -1,0 +1,9 @@
+USR|I wanna leave Tel Aviv & go 2 Vitoria with 11 adults and we will spend 2000 at most|inform
+SYS|I'm sorry, we currently do not serve flights out of Tel Aviv but hope to do so in the future.|sorry
+SYS|Would you be able to leave from somewhere else for now?|sorry
+USR|:eye: guess :eye: could leave from Tofino|inform
+SYS|Sadly we don't have any available trips out of Tofino either.|sorry
+SYS|Would you have another alternative?|sorry
+USR|no.|negate
+USR|ugh.|negate
+USR|i guess i'll look somewhere else.|negate

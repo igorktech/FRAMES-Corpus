@@ -1,0 +1,26 @@
+USR|Hey there|greeting
+SYS|Hi!|greeting
+SYS|How can I help you?|greeting
+USR|I’m looking to schmooze a couple clients from Lima, got the company card so no budget involved.|inform
+USR|However I can’t leave until September 12 at the earliest.|inform
+USR|So there’ll be 3 adults total travelling.|inform
+USR|Looking at Rosario perhaps|inform
+SYS|There is a 4 star hotel near stores for shopping,  This hotel has a 8.86/10 guest rating and offers free breakfast and wifi.|offer
+SYS|This package is from September 18th to October 1st.|offer
+SYS|The business package costs 14863.71 and the economy package costs 11540.51.|offer
+USR|Ahh ok.|inform
+USR|I wouldn’t mind leaving a little earlier|inform
+SYS|This is the only availability we have.|no_result
+USR|What have you got in Cleveland?|inform
+SYS|We do not have anything in cleveland.|no_result
+USR|In Philadelphia?|inform
+SYS|We have a 2 star hotel from the 13th to 25th of September and it is near a park and museum.|offer
+SYS|The hotel has a 6.61/10 guest rating and offers free parking, breakfast, and wifi.|offer
+SYS|The business package costs 5016.50.|offer
+USR|2 stars won’t do.|inform
+USR|The Rosario package seems the only reasonable option.|inform
+USR|Lets book it- business class|inform
+SYS|Wonderful!|inform
+SYS|It is booked!|inform
+SYS|Have a great trip!|inform
+USR|Thanks|thankyou

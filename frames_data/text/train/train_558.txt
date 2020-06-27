@@ -1,0 +1,9 @@
+USR|Hello!|inform
+USR|I am going to Kabul!|inform
+SYS|Where from, pal?|request
+USR|Bringing many children - fourteen in total!|inform
+USR|We leave Tofino
+5 Adults we are and the children|inform
+SYS|How many adults and children?|request
+USR|I have already told you 5 adults and 14 kids|inform
+SYS|There are no results for this search.|no_result

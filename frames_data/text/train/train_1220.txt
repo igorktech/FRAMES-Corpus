@@ -1,0 +1,47 @@
+USR|I have 9 days vacation|inform
+SYS|Ok!|request
+SYS|Where do you live?|request
+USR|Baltimore|inform
+SYS|Do you know where you want togo?|request
+USR|no|inform
+SYS|Any monetary or date restrictions?|request
+USR|I want to leave on or after the 20th|inform
+SYS|Ok.|offer
+SYS|How about 17 days at Opportunity Suites in Rosario?|offer
+USR|Whats the hotel like?|moreinfo
+SYS|4 stars, near shopping, and has free breakfast and wifi|inform
+USR|whats the guest rate|request
+SYS|8.86/10|inform
+USR|ok.|request_alts
+USR|Do you have any other options?|request_alts
+SYS|Of course!|offer
+SYS|I have another 17 day package in Santo Domingo at a 3 star hotel with 7.06/10 from guests.|offer
+SYS|This facility is beachside, near a shopping district, and has free breakfast, wifi, and parking!|offer
+USR|Anything else?|request_alts
+SYS|I have 17 days at Twin Canyon Inn and Suites in San Francisco.|offer
+SYS|This hotel is 2 stars, in the heart of the city near a museum, has 5.23/10 from past users, and provides free breakfast, wifi access, and parking.|offer
+USR|I think I will just stick to the one in Rosario.|request
+USR|How much is it for business class|request
+SYS|4990.54USD, from September 23rd to October 9th|offer
+USR|I only have 9 days vacation tho|inform
+SYS|Ok!|inform
+SYS|I will narrow the trips down to 9 day ones.|inform
+USR|ok please do|null
+SYS|I have 9 day trips at Scarlet Palms Resort in Goiania, Viewpoint in St. Petersburg, Hotel Richard in Toronto.|offer
+USR|Goiania sounds good, whats the hotel like?|moreinfo
+SYS|The hotel is 3.5 stars, near a park and shopping, has 7.15/10 from guest reviews, and includes parking, wifi, and breakfast all for the price of 4166.55USD (business class price).|inform
+USR|cool.|inform
+USR|Whats the highest rated hotel available?|inform
+SYS|In Goiania?|confirm
+USR|Anywhere|inform
+SYS|The Hotel Eric Perrier in Toronto has 4 stars and a 8.8/10 user review.|offer
+USR|Tell me more|moreinfo
+SYS|The hotel is near a cathedral and the airport and includes free breakfast and wifi.|inform
+USR|more|moreinfo
+SYS|You would leave September 20th, return the 28th, and pay 1166.0USD for economy class flights.|inform
+USR|ok i'll take it, is there business class?|request
+SYS|Yes; upgrading to business would bring your total to 1455.30USD.|offer
+SYS|Is this ok?|offer
+USR|yea book er|inform
+SYS|Ok, consider it done :slightly_smiling_face:|inform
+USR|thank u|thankyou

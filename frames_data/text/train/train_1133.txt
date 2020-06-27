@@ -1,0 +1,24 @@
+USR|Hello.|inform
+USR|I am travelling with a pretty big group soon - September 24th we'll leave|inform
+SYS|How many people?|request
+USR|There are 7 adults and 7 kids|inform
+SYS|Where would you like to go?|request
+USR|We don't really know actually!|inform
+USR|But we're leaving from Sendai.|inform
+SYS|Is there a budget?|request
+USR|Yes.|inform
+USR|$3500.|inform
+SYS|We have a 17 day package to Ulsan at a 2.5 star hotel and a 13 day package to Kyoto at a 3 star hotel.|offer
+USR|You're welcome.|moreinfo
+USR|That's great.. tell me more about the Kyoto place.|moreinfo
+SYS|Yes both are within the budget.|offer
+SYS|The hotel is near a museum and they offer free breakfast and wifi.|offer
+SYS|This package is from September 25th to October 7th.|offer
+SYS|The business flights put the price to 3046.53 and the economy flights are 2274.16.|offer
+USR|Ok.|inform
+USR|Sounds good - I think we'll book.|inform
+SYS|Awesome!|suggest
+SYS|Would you like business or economy flights?|suggest
+USR|Business, since we can afford it!|switch_frame
+SYS|Great, I'll book it and you will get a confirmation email soon.|inform
+SYS|Have a nice day!|inform

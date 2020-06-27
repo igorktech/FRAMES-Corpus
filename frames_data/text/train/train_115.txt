@@ -1,0 +1,24 @@
+USR|Hi, I'm trying to book a trip from Madrid.|inform
+SYS|Great!|request
+SYS|For how many people and between which dates?|request
+USR|7 people and between August 26th and September 9th.|inform
+SYS|And do you have a budget for this trip?|request
+USR|No.|inform
+SYS|How about a 9 day, 3 star hotel in Essen from Madrid or a 4 day, 4 star stay in Porto Alegre from Madrid?|offer
+USR|What are the dates for both trips?|request_compare
+SYS|The Essen trip departs August 27th and returns September 4th.|request
+SYS|The Porto Alegre trip departs August 30th and departs September 2nd.|request
+SYS|What length of stay are you looking for?|request
+USR|I am leaning towards the Essen trip for 9 days.|moreinfo
+USR|What is does the hotel offer?|moreinfo
+SYS|A 6.61/10 user rating as well as free breakfast and wifi!|inform
+USR|Does the hotel have a pool or anything?|null
+SYS|I do not have this kind of information|canthelp
+USR|How much is this package for all 7 people?|inform
+SYS|It is a steal at 7328.92 USD!|inform
+USR|That sounds great!|inform
+USR|I'll book it!|inform
+SYS|Perfect!|inform
+SYS|Your reservation is complete.|inform
+SYS|Have a nice day!|inform
+USR|Thanks|thankyou

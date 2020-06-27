@@ -1,0 +1,33 @@
+USR|Hi going on vacation with my Family can you help me book a vacation?|inform
+SYS|Where would you like to go?|request
+USR|We want to go to Atlanta|inform
+SYS|How many people will you be?|request
+USR|in total the party will be 7 kids and 5 adults|inform
+SYS|Can you please tell me where you will be departing from?|request
+USR|We’re in Santa cruz!|inform
+SYS|I am sorry but I have nothing available to Atlanta at the moment.|suggest
+SYS|However, I have packages available to Rosario and Buenos Aires.|suggest
+USR|Rosario seems like a nice place?|switch_frame
+USR|what packages do we have there?|switch_frame
+SYS|Well, can you please tell me your dates and the number of days you would like to spend there?|request
+USR|we have around $34300, depending on how good the deal is were willing to change it.|inform
+USR|At the moment we can go whenever|inform
+SYS|I have the Opportunity Suites available from August 27th to Aug 30th.|offer
+SYS|You would all fly business class.|offer
+SYS|The deal also includes Free wifi and free breakfast.|offer
+USR|what options are there for Buenos Aires?|request
+SYS|I have a few possible choices.|suggest
+SYS|Are you looking for a 3-star, 3.5-star or 4-star hotel package?|suggest
+USR|I am looking for a 4 and up star hotel|switch_frame
+SYS|I have the Olive Market Hotel available in a 4-star rating.|offer
+SYS|It includes free wifi, free breakfast and free parking.|offer
+SYS|This is a 10 day package.|offer
+SYS|Would you like to fly in economy or business class?|offer
+USR|How much would that be for Business?|request
+SYS|The price is $9647.3USD.|inform
+SYS|You would depart on August 24th  and return on September 2nd.|inform
+SYS|Are those dates suitable for you and your party of 13?|inform
+USR|yes that would work perfectly! :|inform
+USR|slightly_smiling_face: please book it|inform
+SYS|I will go ahead and book that for you now.|inform
+USR|Thank you|thankyou

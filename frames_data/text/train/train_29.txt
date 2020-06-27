@@ -1,0 +1,40 @@
+USR|Good afternoon.|inform
+USR|I'd like to book a business trip to New York from Mannheim.|inform
+USR|What can you offer?|inform
+SYS|Certainly.|inform
+SYS|What date do you have business in Mannheim so that I can accommodate your schedule?|inform
+USR|Dates are flexible, but I have a company budget of 3100 USD.|inform
+USR|I'd like to go either in August or September.|inform
+SYS|Great.|offer
+SYS|I have a 5 star hotel available for 2097.76USD.|offer
+USR|how much will it cost?|request
+SYS|The above price leaves August 17th and returns August 27th.|suggest
+SYS|To leave August 27th and return on September 6th, the price would be 2582.47USD.|suggest
+USR|What about leaving around September 13th?|inform
+SYS|You could leave September 16th and return September 26th for 2753.45USD.|suggest
+USR|I prefer the one leaving on August 17th.|request
+USR|Is there free wifi?|request
+SYS|The Regal Resort has free wifi as well as a spa to relax at after your business meetings!|inform
+USR|That sounds very nice.|request
+USR|Does the package include a business class flight?|request
+SYS|2097.76USD is the cost for Economy flights.|suggest
+SYS|To upgrade to Business class would cost 2674.43USD.|suggest
+SYS|Would you like to book this trip with Business class flights?|suggest
+USR|Yes I would!|switch_frame
+SYS|Perfect.|inform
+SYS|You will depart from New York at 2:00 pm - Wednesday, August 17th 2016.|inform
+USR|What is the time of arrival?|request
+SYS|You will arrive in Mannheim at 10:16 pm - Wednesday, August 17th 2016.|inform
+USR|Great!|request
+USR|And the time at which I will be departing from Mannheim to return to nyc?|request
+SYS|You will leave Mannheim at 8:00 am - Saturday, August 27th 2016 and arrive in New York at 4:16 pm - Saturday, August 27th 2016|inform
+USR|Excellent.|request
+USR|There is a possibility that I may need to bring a co-worker with me.|request
+USR|How much would the trip cost for 2 people?|request
+SYS|To include a second person on this trip, with both of you flying business class, the cost would be 5348.87USD|suggest
+USR|I see.|switch_frame
+USR|In that case I will book this trip only for myself today.|switch_frame
+SYS|Ok.|thankyou
+SYS|Have a good day|thankyou
+USR|It was a pleasure!|thankyou
+USR|Thank you.|thankyou

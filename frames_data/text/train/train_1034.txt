@@ -1,0 +1,6 @@
+USR|I would like to book a trip to Belo Horizonte|inform
+SYS|Where are you coming from?|request
+USR|ok.|inform
+USR|I live in Curitiba
+and I have a few days to travel there, from 24th until 27th of September|inform
+SYS|I have no flights from Curitiba to Belo Horizonte|no_result

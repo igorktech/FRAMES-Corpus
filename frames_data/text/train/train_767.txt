@@ -1,0 +1,10 @@
+USR|I'd like to find a vacation between tomorrow and September 14th from Santos to Leon|inform
+SYS|I have the Serene Palms Resort - a 5 star beachside resort near a palace with free wifi available from September 1-9.|offer
+SYS|The package for one adult with economy flights would cost $2881|offer
+USR|How much for business?|request
+SYS|3699.41USD|offer
+USR|great, this package sounds good to me.|inform
+USR|lets book it|inform
+SYS|You bet!|inform
+SYS|Enjoy your stay.|inform
+USR|Thank you... friend|thankyou

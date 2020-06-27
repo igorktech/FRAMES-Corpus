@@ -1,0 +1,34 @@
+USR|looking at tijuana and i would likely be leaving from ciudad juarez asap|inform
+SYS|Hello!|request
+SYS|Which city would you like to go to?|request
+USR|check out tijuana|inform
+SYS|Wonderful, do you have any dates in mind?|request
+USR|have me back in ciudad juarez for sept sixth|inform
+SYS|Would you like to leave as soon as possible?|confirm
+USR|is that not what asap means….|affirm
+SYS|Certainly.|request
+SYS|How many adults and children are you traveling with?|request
+USR|no children, christ.|inform
+USR|2 adults|inform
+SYS|I have a trip leaving August 23 and returning September 3, would you be interested in hearing more?|hearmore
+USR|potentially.. yes, whatre the details|moreinfo
+SYS|You will be staying at the Hotel Perfection, rated an impressive 6.77/10 by its guests.|suggest
+SYS|The hotel is near the park, and is stacked with amenities such as free wifi, breakfast, and parking.|suggest
+SYS|The cost of the trip comes to 2224.91USD - would you like to confirm booking?|suggest
+USR|6.77 rating is far from ideal, honey.|inform
+USR|look in baltimore if you need to|inform
+SYS|No problem!|suggest
+SYS|In Baltimore, we have a trip package from August 27 to September 3 at the Countryside Inn, which has garnered an exceptional 8.69/10 rating from its guests.|suggest
+SYS|The trip costs 1761.65USD, and provides free breakfast, wifi, and parking.|suggest
+SYS|Would you be interested in booking this trip?|suggest
+USR|8.69 is somewhat more acceptable but I really need the best.|inform
+USR|if I left from Santiago could you find me a 10 star|inform
+SYS|8.69 is the highest rated hotel in Baltimore.|inform
+SYS|Would you like me to try an alternate destination?|inform
+USR|tijuana|inform
+SYS|The highest rated hotel in Tijuana is 7.15.|offer
+SYS|Would you like to hear more about this option?|offer
+USR|absolutely not.|inform
+USR|book me the trip to baltimore|inform
+SYS|Certainly!|thankyou
+SYS|Thank you for your business, we hope you have a wonderful trip :slightly_smiling_face:|thankyou

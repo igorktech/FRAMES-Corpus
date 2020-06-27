@@ -1,0 +1,16 @@
+USR|Hi, I'm a very interesting person from Stuttgart and I need to get myself to Sapporo.|inform
+USR|I am traveling with a friend.|inform
+SYS|And where would you be leaving from?|request
+USR|I am leaving from Stuttgart|inform
+SYS|What is your budget?|request
+SYS|do you have any dates in mind?|request
+USR|I own 2100 dollars and we can leave august 26|inform
+SYS|I'm not getting any results for you.|suggest
+SYS|Would you like to try different dates?|suggest
+USR|I am a man of many dates, and so my dates are flexible|inform
+SYS|I can offer you the Hotel Prism, It is, however, a little above your budget|offer
+USR|I could add 500 dollars to my budget|inform
+SYS|This hotel has 3 stars and costs $5315.|suggest
+SYS|If you're interested, we can look for hotels somewhere else|suggest
+USR|Well, I reckon I'll just book this one.|inform
+SYS|I will book this|inform

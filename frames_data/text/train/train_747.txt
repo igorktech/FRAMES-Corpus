@@ -1,0 +1,12 @@
+USR|I never been much good at maths.|inform
+USR|We way overcalculated what we would be spending my wedding on September 7, and only have 1600 left over :disappointed: Wifey is so mad at me
+But is that enough to get us from Leon to Rome, for lets say 8 days?|inform
+SYS|It sure is!|request
+SYS|When would you like to travel?|request
+USR|Anytime after our wedding|inform
+SYS|I can offer 12 days, with business class flights and a 4 star hotel, for 1007 USD|offer
+USR|You are a lifesaver.|inform
+USR|Book it|inform
+SYS|Ok!|inform
+SYS|The hotel features free breakfast, free wifi, and is near a cathedral to bask in your holy matrimony.|inform
+USR|You really think of everything, don’t you?|thankyou

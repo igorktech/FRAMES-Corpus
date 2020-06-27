@@ -1,0 +1,31 @@
+USR|so I have 6 days vacation and I must leave from Punta Cana|inform
+SYS|Can I interest you with a  6 day trip to Brazil?|offer
+SYS|Hotel Mundo in Manas from September 11 to 16.|offer
+USR|Yes perhaps, can I hear the details?|moreinfo
+SYS|For only 1919.72USD, you'd be staying near a park and shopping.|inform
+USR|how many stars?|request
+SYS|2.5 stars|inform
+USR|hm ok, well can I hear my other options|request_alts
+SYS|I can also offer you a trip to the Double Gorge Inn & Suites, in San Juan from September 12 to 17, for 1996.46USD.|offer
+USR|and what amenities are included|request
+SYS|This hotel offers free parking, free breakfast, AND free wifi!|inform
+USR|wow, great!|request_alts
+USR|ok what else?|request_alts
+SYS|I can also send you to Busan from September 1 to 5, where you'd be staying at a 3 star hotel near the park, museum, and university.|offer
+SYS|Would you be interested in this package?|offer
+USR|is breakfast included?|request
+SYS|Indeed it is, along with wifi and parking!|inform
+USR|what is the price for that one?|request
+SYS|The total comes to 3814.63USD.|suggest
+SYS|Would you like me to look up more destinations?|suggest
+USR|ok|affirm
+SYS|How does that sound?|suggest
+SYS|Would you like me to look up more destinations?|suggest
+USR|I think I want to go with San Juan|switch_frame
+SYS|Sure, would you prefer business class or economy class seats?|suggest
+USR|Business|inform
+SYS|That would cost 2507.91USD.|suggest
+SYS|Should I go ahead and confirm this booking?|suggest
+USR|yes please|switch_frame
+SYS|Great, you're booked, we hope you have a wonderful trip!|inform
+USR|thank u|thankyou

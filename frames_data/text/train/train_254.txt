@@ -1,0 +1,43 @@
+USR|Hey looking to go to Osaka|inform
+SYS|Where are you looking to leave from?|request
+USR|London possibly|inform
+SYS|Do you have a budget?|request
+USR|nopeee|inform
+SYS|Traveling with anyone else?|request
+USR|nah just me|inform
+SYS|Do you know when you would like to leave?|request
+USR|August 15th|inform
+SYS|We only have trips to Denver and Calgary.|offer
+SYS|Do either of these interest you?|offer
+USR|what if I leave from montreal|inform
+SYS|You can go to San Juan, Cleveland, or Seattle.|offer
+USR|what is there is Seattle|moreinfo
+SYS|Seattle has a 3.5 star hotel, park, museum, university, free wifi and parking.|inform
+SYS|The cost is 569.14.|inform
+USR|any other hotels/|request_alts
+SYS|Not for Seattle.|no_result
+USR|okay what about chicago?|inform
+SYS|All hotels are 2.5 star hotels.|request
+SYS|Would you like economy or business class?|request
+USR|Business please|inform
+SYS|Would you like the cheaper business package?|offer
+USR|PLease elaborate and explain the different possibilities|request
+SYS|There is a 2337.27 hotel with and airport and mall nearby.|inform
+SYS|They offer free breakfast and wifi.|inform
+SYS|This trip is from August 21st to September 2nd.|inform
+USR|and what other options|request_alts
+SYS|There is a 2369.40 hotel with a park and museum.|offer
+SYS|They offer free breakfast wifi and parking.|offer
+SYS|This is from August 15th to 27th.|offer
+SYS|The last option is a 2403.44 hotel, museum, and university.|offer
+SYS|They offer free breakfast, wifi, and parking.|offer
+SYS|This trip is from August 21st to September 2nd.|offer
+USR|the second offer seems best can you tell me more about it|moreinfo
+SYS|This is a stay at the Galaxy Temple, with a 8.22/10 guest rating.|offer
+SYS|The flight leaves from Montreal at 4pm or 9pm.|offer
+SYS|The returning flight leaves Chicago at 11am or 4pm.|offer
+USR|This one seems good can we book it?|inform
+SYS|Of course!|inform
+SYS|Your trip is booked!|inform
+SYS|Have a great trip and thank you!|inform
+USR|Thank|thankyou

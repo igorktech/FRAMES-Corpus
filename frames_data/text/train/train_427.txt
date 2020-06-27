@@ -1,0 +1,6 @@
+USR|I want to book a vacation between the 27th of august and the 16th of september for under 1400|inform
+SYS|from where may I ask?|request
+USR|miami|inform
+SYS|We have trips to Seattle, Alexandria, and Los Angeles|suggest
+USR|can i see some info on Seattle?|moreinfo
+SYS|Thanks|thankyou

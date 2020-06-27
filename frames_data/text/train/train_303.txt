@@ -1,0 +1,6 @@
+USR|One ticket from Atlanta to Tofino please|inform
+SYS|Sorry, I have nothing available for that destination.|sorry
+SYS|Is there somewhere else I could look into for you?|sorry
+USR|please try Atlanta to Santo Domingo please|inform
+SYS|I can book you from Punta Cana to Santo Domingo?|suggest
+USR|no can do|negate

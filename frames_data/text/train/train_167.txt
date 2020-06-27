@@ -1,0 +1,20 @@
+USR|hiiiii there.|inform
+USR|I have an interview in Burlington!!!!|inform
+USR|Can you get me there?|inform
+SYS|Where will you be leaving from?|request
+USR|From Salvador and I'd like to be there between August 19 and September 5th.|inform
+SYS|Will you be travelling alone?|suggest
+USR|Yes!|affirm
+USR|For the very first time!|affirm
+USR|I have a few interviews for a fall internship!|affirm
+SYS|We only have flights to Brazil for those dates.|inform
+USR|Oh my.|inform
+USR|What about Rome?|inform
+SYS|You would like to leave from Rome or fly to Rome?|confirm
+USR|I'd like to fly to Rome from Salvador|inform
+SYS|We have a flight from the 30th of August to the 2nd of September.|suggest
+SYS|This is at a 4 star hotel that offers free breakfast and wifi.|suggest
+SYS|The cost is 3073.70.|suggest
+SYS|Would you be interested in this package?|suggest
+USR|The dates are fine, but the price is WAY over my budget of 1400 dollars!|inform
+SYS|There is nothing in my database that is under 2000|inform

@@ -1,0 +1,19 @@
+USR|yes im looking for mewtwo in Marseille ook?|inform
+USR|leaving from Fortaleza
+with 2200 sept 11th|inform
+SYS|Will you be going alone?|suggest
+USR|yupp uh huh|affirm
+SYS|There are no results.|no_result
+USR|go to atlanta then|inform
+SYS|Do you prefer 3 stars or 3.5 stars?|offer
+USR|throw that extra .5 in|switch_frame
+SYS|This is a 13 day stay from September 11th to 23rd.|inform
+SYS|The hotel is located near a beach, has a guest rating of 8.8/10 and offers free parking and wifi.|inform
+SYS|The cost is 1936.37.|inform
+USR|what is nearby the 3 star hotel?|request
+SYS|Nothing from what my database gives me.|canthelp
+USR|3.5 it is then.|inform
+USR|lets book it|inform
+SYS|Great!|inform
+SYS|It's booked.|inform
+SYS|Is there anything else I can do for you?|inform

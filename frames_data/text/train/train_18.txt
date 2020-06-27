@@ -1,0 +1,22 @@
+USR|Hi.|inform
+USR|I'm looking for an adventure from Thursday, August 18 to Saturday, September 3.|inform
+USR|I'm thinking of going to Fortaleza.|inform
+USR|Yes, with free breakfast of course.|inform
+USR|I'm leaving from Essen.|inform
+SYS|I can book 8 days in Fortaleza for 2026.51USD, 9 days in Ciudad Juarez for 3393.97USD, 9 days in Burlington for 2119.26USD, or 9 days in Buenos Aires for 2085.15USD.|inform
+SYS|All of these options have free breakfast.|inform
+USR|Can you tell me more about the Fortaleza package?|switch_frame
+SYS|I can book 8 days in Fortaleza for 2026.51USD.|inform
+USR|How many stars is the hotel?|request
+SYS|The hotel in Fortaleza is 3.0 stars with a user rating of 7.15 stars.|inform
+USR|Is there free wifi?|request
+SYS|There is free wifi and free parking in addition to free breakfast.|inform
+USR|I like the Fortaleza package.|request_compare
+USR|How about the Ciudad Juarez and Burlington packages, is there free wifi and parking in addition to breakfast?|request_compare
+SYS|The hotel in Ciudad Juarez has free parking and wifi, but the hotel in Burlington does not offer free parking.|inform
+SYS|It does, however, have free wifi.|inform
+USR|I'll book the Fortaleza package please.|inform
+SYS|You will leave Essen at 10:00 am - Wednesday, August 17th 2016.|thankyou
+SYS|Thank you for using this service.|thankyou
+USR|Perfect.|thankyou
+USR|Thank you for your help|thankyou

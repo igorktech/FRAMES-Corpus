@@ -1,0 +1,14 @@
+USR|I want to go to brasilia from birmingham|inform
+SYS|Let me know how I can help you|greeting
+USR|i have 1600|inform
+SYS|Ok!|request
+SYS|When do you want to travel?|request
+USR|doesnt matter, i cant book anything, im a lowlife and can only dream|inform
+SYS|You would spend 8 days at a 3.5 star hotel near the beach, shopping, and a theatre.|offer
+SYS|Free parking, free breakfast, free wifi are all included.|offer
+SYS|And the user reviews are 8.69/10.|offer
+USR|i like.|inform
+USR|How about trips to Belo Horizonte|inform
+SYS|For just 1392.64 USD you could spend 8 days at Tranquil Season Hotel, a 2.5 star hotel near the beach and shopping district with free parking, free breakfast, and wifi included!|offer
+USR|any trips to houst?|inform
+SYS|Sorry, I don’t have anything available in Houst.|sorry

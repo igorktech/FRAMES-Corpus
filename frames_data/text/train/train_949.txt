@@ -1,0 +1,13 @@
+USR|Looking to take my squad out to Punta Cana!|inform
+USR|I’ll pay whatever it takes to fly out of Tel Aviv|inform
+SYS|How many people?|request
+USR|there are 9|inform
+SYS|All adults?|confirm
+USR|all adults|affirm
+SYS|When would you like to leave?|request
+USR|It has to be between August 31 and September 3|inform
+SYS|There are no results for your date range.|no_result
+USR|How about results for flights to Tofino?|inform
+SYS|There are no results.|no_result
+USR|Do you have any other options leaving Tel Aviv?|request_alts
+SYS|No.|no_result

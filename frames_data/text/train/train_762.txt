@@ -1,0 +1,18 @@
+USR|hahah silly me... im from santo domingo.|inform
+USR|i wanna go anywhere on God's green earth.|inform
+USR|I have 9 days vacation|inform
+SYS|Ok!|request
+SYS|Budget?|request
+USR|400|inform
+SYS|The only thing I can find under 400 dollars is a 9 day package in Punta Cana|offer
+USR|Cool, can you tell me more?|moreinfo
+SYS|From Sept 7-15 you could stay at the El Mar, a 2.5 beachside hotel.|inform
+USR|oooooo a beach.|request
+USR|does the hotel offer any amenities?|request
+SYS|None that I am aware of.|canthelp
+USR|Okay, well how much does it cost?|request
+SYS|$381|inform
+USR|what a steal!|inform
+USR|book er up for me m8|inform
+SYS|Ok, you’ve got it :slightly_smiling_face:|inform
+USR|thanks :v:|thankyou

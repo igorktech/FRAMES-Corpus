@@ -1,0 +1,25 @@
+USR|hi id like to go to baltimore from brasilia.|inform
+USR|i would like to get 1 children ticket and 1 adult ticket|inform
+SYS|Hello!|request
+SYS|Do you have a budget?|request
+USR|7500.|thankyou
+USR|thanks|thankyou
+SYS|When would you like to leave?|request
+USR|i dont mind|inform
+SYS|We have two hotels available.|offer
+SYS|Both hotels have a 3 star rating.|offer
+USR|ok.|request
+USR|what is the price|request
+SYS|The first option is from September 2nd to 7th, free breakfast, wifi, and parking at a price of 4265.98 for economy seats.|suggest
+SYS|The second option is from August 30th to September 5th, free breakfast, wifi, and parking at a price of 5173.70 for economy seats.|suggest
+SYS|Would you like more options?|suggest
+USR|ill get the cheapest option
+thanks|switch_frame
+SYS|There is a third option from September 2nd to 7th, free breakfast, wifi and parking at a price of 5512.62 for business class seats.|offer
+SYS|Do any of these options interest you?|offer
+USR|the one at 4268 looks good|inform
+SYS|Would you like me to book it for you?|suggest
+USR|ya|affirm
+SYS|Your trip has been booked!|inform
+SYS|Have fun and thank you for using our services!|inform
+USR|thanks|thankyou

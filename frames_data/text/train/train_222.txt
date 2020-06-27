@@ -1,0 +1,25 @@
+USR|I dream of one day going to San Diego and doing the pub tour.|inform
+USR|My friends have all done it and they say it's awesome.|inform
+USR|What can you offer me in San Diego?|inform
+SYS|If you depart from Philadelphia, I can offer you a 4-day package in San Diego for 497.50USD.|suggest
+SYS|Would you like to hear more about this package?|suggest
+USR|I have to leave from Recife!|negate
+USR|Philadelphia is too far away, and I want beer.|negate
+USR|Lots of beer.|negate
+USR|How about Curitiba?|negate
+SYS|Are you looking to depart from or travel to Curitiba?|confirm
+USR|I have to leave from Resife.|inform
+USR|It's where I live my boring life.|inform
+USR|Curitiba sounds like it has a great nightlife.|inform
+SYS|Would you be interested in 11 days at the Hotel Leisure?|offer
+SYS|If you fly out on the 30th of August the package is only 1088.27USD.|offer
+USR|What abut something in Frankfurt?|inform
+USR|They also have lots of beer there!|inform
+SYS|If you leave on the 27th I can offer you a 9-day package in Frankfurt for 3907.92USD.|suggest
+SYS|Would you like to know more about this package?|suggest
+USR|Sure, what kinds of things are close by.|request
+USR|I dream of going to museums, going to the beautiful parks...|request
+SYS|I don't have any information on the Mellow Palms Resort location, however I can tell you it is a 4.5-star hotel with a 8.86/10 guest rating, free breakfast and free wifi.|inform
+SYS|Would you like to book this package?|inform
+USR|How much?|request
+SYS|The total cost of this package is 3907.92USD.|inform

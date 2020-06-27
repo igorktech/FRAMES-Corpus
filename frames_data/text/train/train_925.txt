@@ -1,0 +1,19 @@
+USR|I need to impress some clients with an extravagant trip|inform
+SYS|Of course!|request
+SYS|Where would you like to go?|request
+USR|I was thinking I'd wine and dine them in Kochi.|inform
+USR|Do you have flights there from Montreal?|inform
+SYS|Do you have a budget?|request
+USR|nope, the more I spend the better actually|inform
+SYS|Great!|request
+SYS|How many people in total will be travelling?|request
+USR|2 adults|inform
+SYS|When would you like to leave?|request
+USR|I'd like to leave after today|inform
+SYS|We don't have any flights from Montreal to Kochi, is there another destination you have in mind?|suggest
+USR|Phoenix then?|inform
+SYS|No results for this either.|no_result
+USR|Philadelphia??|inform
+SYS|Nothing available|no_result
+USR|do you even do flights out of Montreal??|confirm
+SYS|Yes we do but none that fly from there to your destinations.|no_result

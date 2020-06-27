@@ -1,0 +1,17 @@
+USR|Hey, I'm looking to book my honeymoon from Houston to Santo Domingo for a week on August 26th.|inform
+USR|My budget is 1500.|inform
+SYS|I cannot offer you anything less expensive than 1932.27 USD.|request
+SYS|Is your budget flexible?|request
+USR|No.|inform
+USR|Is there anything in my budget from Houston to Cancun?|inform
+SYS|And your budget is not flexible?|request
+USR|No I already spent too much on the wedding so my budget is fixed.|inform
+SYS|I can offer you 5 days in Cancun at a 4 star hotel for 1474.18 USD.|offer
+USR|I think that will work!|request
+USR|What all does the hotel offer?|request
+SYS|Everything that one needs: free breakfast, wifi and parking!|inform
+USR|Great!|inform
+USR|Let's book it!|inform
+SYS|A confirmation email will be sent to you shortly.|inform
+SYS|Have a nice day!|inform
+USR|Thanks!|thankyou

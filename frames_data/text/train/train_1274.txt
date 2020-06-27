@@ -1,0 +1,29 @@
+USR|Hey bot.|inform
+USR|I got all the money there is in the world
+Find me the best okay?|inform
+SYS|Where would you like to go?|request
+SYS|And where are you leaving from?|request
+USR|Lima should have some good stuff.|inform
+USR|My bestie and I are in St. Petersburg right now
+Oh yeah we also need to be back by the 25th keep that in mind|inform
+SYS|Ok!|offer
+SYS|I have a lovely 4 star hotel with a 8.98/10 user rating.|offer
+SYS|The package departs Sept 15th and returns the 25th.|offer
+USR|4 star?|confirm
+USR|That's the best you have?|confirm
+SYS|Yes, that is the best hotel I can see in Lima.|inform
+USR|Find me a 5 star in Punta Cana|inform
+SYS|I have a lovely 3.5 star hotel near a palace and cathedral in Punta Cana!|offer
+USR|I can also leave from Curitiba, Can you find any better hotels in Lima in this case?|inform
+SYS|I have a 3.5 star in Lima with a higher guest rating: 9.16/10.|offer
+SYS|Does this interest you?|offer
+USR|No.|request
+USR|I'd rather have the 4 star.|request
+USR|Is the 4 star close to the beach at least?|request
+SYS|Ok.|suggest
+SYS|Do you want me to book the original 4 star package from St. Petersburg to Lima?|suggest
+USR|Yeah let's do that with business seats|inform
+SYS|Ok!|inform
+SYS|The total cost for 2 adults will be 3576.87USD.|inform
+SYS|I will book this package and email confirmation shortly.|inform
+USR|Okay thanks!|thankyou

@@ -1,0 +1,12 @@
+USR|HOUSTON TO PUNTA CANA|inform
+SYS|Budget?|request
+USR|NO|inform
+SYS|Travelling alone?|suggest
+USR|YES|affirm
+SYS|When do you want to leave?|request
+USR|August 28|inform
+SYS|There are no results in my database.|no_result
+USR|GO TO PUEBLA INSTEAD|inform
+SYS|There is nothing for this either.|no_result
+USR|GO TO ULSAN|inform
+SYS|There are no results for this request.|no_result

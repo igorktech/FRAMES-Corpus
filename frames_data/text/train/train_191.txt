@@ -1,0 +1,18 @@
+USR|Good day sire.|inform
+USR|I would like to book a recreational stay between August 17 and September 3.|inform
+USR|What has thou to offer?|inform
+SYS|Where would you be leaving from?|request
+USR|Frometh my small town Baltimore.|inform
+SYS|Will anyone be accompanying you?|request
+USR|My lover, Juliette, rides out with me|inform
+SYS|Great!|request
+SYS|Do you have a budget?|request
+USR|Not a penny more than 3500|inform
+SYS|There are flights to San Juan, Alexandria, Cleveland, and St. Louis.|suggest
+USR|What has thou to offer in St. Louis?|switch_frame
+SYS|There is a trip from the 18th of August to the 29th of August at a 5 star hotel that offers free breakfast and wifi at a price of 1364.56.|offer
+SYS|There is also a trip for the same dates at a 3 star hotel that offers free breakfast and wifi that costs 1234.45.|offer
+USR|I shall take the 5 star package!|switch_frame
+SYS|Great!|thankyou
+SYS|Your flight is booked!|thankyou
+SYS|Thank you for using us!|thankyou

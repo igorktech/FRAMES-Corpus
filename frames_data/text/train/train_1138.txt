@@ -1,0 +1,30 @@
+USR|hey I need to get home asap!!!|inform
+USR|PLEASE get me to Sapporo|inform
+SYS|I can help you with that!|request
+SYS|Where will you be coming from?|request
+USR|I'm in Indianapolis, was backpacking around Indiana.|inform
+USR|Can I leave like, two days ago?|inform
+USR|Its super important that I get home!!!|inform
+SYS|I'm afraid the only package we have available from Indianapolis to Sapporo is a 10 day package that leaves Sunday September 18.|sorry
+SYS|Shall I book that for you?|sorry
+USR|could you get me there any sooner from Fukuoka??|inform
+USR|I found a flight going to Fukuoka from here in an hour|inform
+SYS|I'm sorry.|sorry
+SYS|We still have nothing that leaves sooner than September 18.|sorry
+SYS|What would you like me to do for you?|sorry
+USR|damn it.. Birmingham?|inform
+USR|from Indianapolis?|inform
+USR|i have family in Birmingham I can stay with|inform
+SYS|We have one package only, a flight that goes from Indianapolis to Birmingham on Tuesday September 13th.|inform
+SYS|Will that do for you?|inform
+USR|that's fine if its the soonest I can get|confirm
+SYS|I'm afraid it is.|sorry
+SYS|Shall I book it for you?|sorry
+USR|unless you can get me to Birmingham from Fukuoka even sooner?|inform
+SYS|There is a flight from Fukuoka to Birmingham that leaves also on the 13th, but 5 hours earlier.|suggest
+SYS|Shall I book the one from Fukuoka then?|suggest
+USR|ah no, may as well stay in the country Indianapolis to Birmingham please.|thankyou
+USR|thank you|thankyou
+SYS|Ok then!|you_are_welcome
+SYS|It's been booked!|you_are_welcome
+SYS|And you are welcome!|you_are_welcome

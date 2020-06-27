@@ -1,0 +1,9 @@
+USR|Hi!|inform
+USR|We're thinking of going to Washington.|inform
+USR|Will try to get all 19 of us to go if that's possible!|inform
+SYS|Departing from where?|request
+USR|Beautiful Jerusalem|inform
+SYS|Unfortunately, we do not service Jerusalem at this time.|sorry
+SYS|Perhaps another point of departure is available to you?|sorry
+USR|I guess I'll have to look elsewhere|goodbye
+SYS|Sorry!|sorry

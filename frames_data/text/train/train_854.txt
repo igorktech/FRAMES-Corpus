@@ -1,0 +1,26 @@
+USR|We want to go to Las Vegas from Portland.|inform
+USR|2 adults|inform
+SYS|How about Retro Inn from Sept 1-13?|offer
+USR|The dates fit but I would have preferred something until the 22nd|inform
+SYS|I can do Sept 11-22?|offer
+USR|I have a $1500 budget, work within that My vacation is from the 1st to the 22 so anything in between|inform
+SYS|The original Retro Inn package would cost 1295.36USD.|inform
+USR|Wifi is very important, is it included?|request
+SYS|Yes, it is.|inform
+SYS|So is breakfast and parking.|inform
+USR|How is the hotel rated?|request
+SYS|2.5 stars.|inform
+SYS|6.91/10 user review.|inform
+USR|Can you find me something better for $1800?|inform
+SYS|I can book a 3 star hotel from Sept 11-22 for 1703.90USD.|offer
+SYS|The user review is 8.98/10.|offer
+USR|Well that sounds better.|request
+USR|Is it close to anything?|request
+SYS|Countryside is next to a market.|inform
+USR|Okay I will google it.|request
+USR|What amenities are included?|request
+SYS|Free breakfast, free wifi, and free parking are all included.|inform
+USR|I like this one much better.|inform
+USR|I will reserve it.|inform
+SYS|Great!|inform
+SYS|Consider it done :slightly_smiling_face: Anything else I can do for you?|inform

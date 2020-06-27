@@ -1,0 +1,25 @@
+USR|I'd love to go to Minneapolis sometime|inform
+SYS|Oh!|request
+SYS|From where?|request
+USR|Goiania.|inform
+USR|I only have 3300 at the most though|inform
+SYS|There are two different hotels in Minneapolis available for that budget!|offer
+SYS|Both are 2.5 stars - one near a park, museum, and mall with 8.22/10 from guests, and the other near a university with a guest rating of 7.15/10.|offer
+USR|whoa that all sounds nice
+but I want to learn more about other trips.|inform
+USR|what kind of package can I get if I decide to go to Cancun|inform
+SYS|In Cancun I have a 10 day package at a 4 star hotel, a 9 day trip to a 3.5 star hotel, or 7 day trips to the same 4 star hotel or a 3 star hotel.|inform
+SYS|All within your budget.|inform
+USR|Wow the Cancun 10 day package sounds amazing.|switch_frame
+USR|I want to take that package so badly.|switch_frame
+SYS|Ok!|suggest
+SYS|I will book it for you.|suggest
+USR|No no I'm not ready to book it!|inform
+USR|I want to check out Toronto first please|inform
+SYS|In Toronto there is a 10 day trip at a 3 star hotel, two 7 day packages to different 3 star hotels, or 5 day trips to either 3 or 4 star hotels.|offer
+USR|That sounds good, but not as good.|goodbye
+USR|I'm just going to think about it and get back to you.|goodbye
+USR|I don't really have any days off at the moment.|goodbye
+USR|Thanks for all your help.|goodbye
+USR|Bye!|goodbye
+SYS|Goodbye|goodbye

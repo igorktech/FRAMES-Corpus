@@ -1,0 +1,9 @@
+USR|Naples to Santa Cruz.|inform
+USR|Leaving Sunday Aug 21
+Budget $2000
+Got anything for me bot?|inform
+USR|Oh and this is for one person|inform
+SYS|Unfortunately there are only flights to Milan, Santiago, and Hamburg.|sorry
+USR|Are there flights from Naples to Santa Cruz on another date?|inform
+SYS|Sorry, no, there are no flights from Naples to Santa Cruz.|sorry
+USR|bye|goodbye

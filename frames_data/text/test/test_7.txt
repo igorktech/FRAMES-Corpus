@@ -1,0 +1,19 @@
+USR|Hi, send me on a 10 day-trip away from Cairo.|inform
+USR|I'd like to leave August 15.|inform
+USR|Send me to Sendai.|inform
+USR|Money is not object|inform
+SYS|How many adults and how many children will be travelling?|request
+USR|Just me, one adult|inform
+SYS|I have a trip to Sendai from August 15th at 11:00 a.m. to August 22nd at 7:00 a.m.  The guest rating is 8.49/10.|offer
+SYS|You'll be flying economy|offer
+USR|Would you be able to tell me which airline I would be flying with?|null
+SYS|No, but I can confirm that you will be flying Economy.|inform
+USR|Would it be possible to upgrade to first class?|inform
+SYS|I can offer you another package.|suggest
+SYS|If you leave on August 17th, I can offer you a hotel with a guest rating of 8.8/10 and you could fly Business Class.|suggest
+SYS|The flight would leave from Cairo on Wednesday August 17th at 11:00 a.m. and return Wednesday, August 24th at 7:00 a.m.  In addition, the hotel has free wifi.|suggest
+SYS|Would you like to book this travel package?|suggest
+USR|Could you tell me if either of these hotels allows pets?|null
+SYS|No, I do not have access to this information.|suggest
+SYS|Would you like to book this travel package anyway?|suggest
+USR|Yes, I would like to book this package.|switch_frame

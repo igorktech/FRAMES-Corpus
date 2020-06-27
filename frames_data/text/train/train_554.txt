@@ -1,0 +1,12 @@
+USR|I wanted to take my children - there are seven - and my beautiful wife on a vacation somewhere
+We would be traveling from Fukuoka, and have 13700 to spend
+Do you have flights to Santo Domingo?|inform
+SYS|Sorry, I wasn't able to find anything|sorry
+USR|Shucks.|inform
+USR|How about Belem?|inform
+SYS|Nor for this one|no_result
+USR|What!|inform
+USR|Ok how about Los Angeles...surely you have that|inform
+SYS|I am sorry but I am not able to find any results with that either.|goodbye
+SYS|Come back to us later!|goodbye
+USR|FAT CHANCE|goodbye

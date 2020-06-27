@@ -1,0 +1,27 @@
+USR|Hi!|inform
+USR|I'm looking to book a business trip between August 26 and September 12.|inform
+USR|There's a few places I have in mind.|inform
+USR|Lets start with Rio de Janeiro.|inform
+SYS|Great!|request
+SYS|Where will you be leaving from?|request
+USR|I'll be travelling during that time, so I'm thinking I'd like to leave from Fortaleza.|inform
+SYS|Do you have a budget?|request
+USR|No, but I am bringing 5 colleagues with me.|inform
+SYS|We have a 3 star hotel that offers free breakfast, wifi, and parking.|offer
+SYS|It is a 7 day stay from August 26th to September 1st.|offer
+USR|Interesting.|request
+USR|Does it include breakfast?|request
+SYS|Yes, it includes  free breakfast, wifi, and parking.|inform
+USR|Do you have options for an 4 star hotels?|inform
+SYS|3 stars is the highest ratings for trips from Fortaleza to Rio de Janeiro.|inform
+USR|Ok lets look at trips to Munich.|inform
+SYS|We have a 7 day stay at a 5 star hotel that includes free wifi and a spa for 15754.14.|offer
+USR|Wow!|confirm
+USR|That sounds fantastic!|confirm
+USR|No breakfast I assume then?|confirm
+SYS|No, sorry.|sorry
+USR|well, I think I'll stick with that package.|inform
+USR|Can you go ahead and book it for me please?|inform
+SYS|It is all booked for you!!|inform
+SYS|Have a great trip and thank you for using our services!|inform
+USR|Thank you!|thankyou

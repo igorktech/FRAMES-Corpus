@@ -1,0 +1,13 @@
+USR|I am one adult travelling to Maceio.|inform
+USR|Do you have any flights out of Osaka?|inform
+SYS|I will check what our availabilities are.|request
+SYS|First, Do you have a budget?|request
+USR|This is a business trip.|inform
+USR|I have a budget of 6900|inform
+SYS|When would you like to leave and/or return?|request
+USR|12 to 30|inform
+SYS|Travelling alone?|suggest
+USR|yes like I said "I am one adult" I am definitely getting my secretary to do this next time now find me something cause time = $|affirm
+SYS|Are you looking for a certain rating for hotels or location of hotel?|request
+USR|who are you, the Grand Inquisitor?!?|inform
+USR|GET ME THE BEST FOR MY MONEY THIS IS A BUSINESS EXPENSE|inform

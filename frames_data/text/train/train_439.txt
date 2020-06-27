@@ -1,0 +1,23 @@
+USR|hello i am the happy father of 3 beautiful little angels and i would like to bring them all on the vacation of a lifetime|inform
+SYS|Where would you like to go?|request
+USR|and i have to bring my wife too .. so theres taht.|inform
+USR|calgary!|inform
+USR|perhaps|inform
+SYS|from where?|request
+USR|Atlanta!|inform
+SYS|I have a 14 days flight at 3128.19USD.|offer
+SYS|Staying at a 2 star hotel at 8.86 guest rating.|offer
+SYS|Does that look good to you?|offer
+USR|hmm, intriguing !|request
+USR|and quite under budget.|request
+USR|Where in the city is it located- near downtown?|request
+SYS|It is near the airport, the hotel name is called Retro Inn|inform
+USR|oh dear that sounds dreadful.|inform
+USR|what’ve you got available in porto?|inform
+SYS|I dont have anything departing from Atlanta|no_result
+USR|oh dear… nothing at all in porto alegre between august 30 and september 16?|inform
+SYS|There are only departures from San Juan|suggest
+USR|hmm well that’s no good.. ok one other destination I’d like to explore.. anything available in leon?|inform
+SYS|Sorry, nothing departing from Atalanta|sorry
+USR|well, this is rather disappointing we cannot spend our family vacation near the airport.|goodbye
+USR|i wont be booking anything today in this case, goodbye|goodbye

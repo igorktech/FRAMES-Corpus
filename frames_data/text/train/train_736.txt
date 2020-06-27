@@ -1,0 +1,22 @@
+USR|Is it normal that I feel this nervous that I'm about to get married today?|inform
+USR|I never liked the in-laws, and I can't wait to get away from them on my honeymoon
+Oh right, thats what I need you for
+Can you book me a honeymoon to Ulsan?|inform
+USR|2 adults (duh), departing after today, and for 15 days
+I'm in Essen|inform
+SYS|Soonest departure is tomorrow August 31st.|request
+SYS|We have a 5 star hotel available: The Sapphire Time as well; as well as a 5 star hotel Escape Cave.|request
+SYS|Same departure and return.|request
+SYS|Can you please give me an indication of how much you have to spend?|request
+USR|We have 3700|inform
+SYS|Those are way out of your range.|offer
+SYS|The best I can do is offer you a 7 day package in Ulsan at the Grandiose Willow Resort for just $188 over your budget at a total of 3888.76USD.|offer
+SYS|This is a 2.5 star hotel near the park and the university offering free parking and free wifi.|offer
+USR|What if we toned down the ambition and tried Munich instead?|inform
+SYS|Munich has a spectacular deal at the 5 STAR Regal Bluff for 10 days at 775.0USD, wifi included.|offer
+USR|Nothing for longer??|inform
+SYS|No, 10 days is the longest|inform
+USR|Lets do it then|inform
+SYS|I will take care of that for you right away.|inform
+SYS|Happy Honeymooning.|inform
+USR|Thank you!|thankyou

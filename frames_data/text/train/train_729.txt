@@ -1,0 +1,25 @@
+USR|ok the dreamer is back at it.|inform
+USR|this time i'd like to hear about trips leaving denver
+such as mexico city?|inform
+SYS|Denver to Mexico City... for one?|suggest
+USR|yup|affirm
+SYS|For as long as possible?|suggest
+USR|for whatever 5400 can buy me|inform
+SYS|Does 11 days on a beach at the Exalted Willow Resort & Suites sound like something you are dreaming of?|hearmore
+USR|Its as if you can read my mind!|request
+USR|How many stars they have?|request
+SYS|It has 3.5 stars and is also close to shopping.|inform
+USR|And the amenities?|request
+SYS|free parking should you require a car and free wifi|inform
+USR|cool.|inform
+USR|what are my options to rio de janeiro|inform
+SYS|My best hotel in Rio de Janeiro is the La Perfección for an 8 day stay, 3 star, breakfast is included and you have a parking spot and wifi at no charge.|offer
+USR|Could I find anything like it in Ulsan?|inform
+SYS|I have 5 star hotels in Ulsan, but none of them include all of the amenities.|no_result
+USR|Thats fine|moreinfo
+SYS|Then I can offer you the 5 STAR The Sapphire Time close to the park, market and theatre, this seems to be the most expensive hotel in Ulsan and is available for 10 days at  4277.25USD.|offer
+SYS|For this one you would have to fly economy though.|offer
+SYS|If you wanted to stay five days only but fly business, we could do that too for just a bit more money.|offer
+USR|Ahh there it is.|thankyou
+USR|Thats all I needed today, thanks|thankyou
+SYS|Come again!|goodbye

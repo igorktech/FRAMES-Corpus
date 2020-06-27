@@ -1,0 +1,30 @@
+USR|FAMILY VACATION ALERT.|inform
+USR|ha-ha, dad of the year here!|inform
+USR|bringing my 6 little offspring to see their mother in London
+we would like to leave from our hometown of Brasilia
+dates are flexible, as is budget (7 people is gonna get pricey I would assume) how can ya help me out?|inform
+SYS|I might be able to.|request
+SYS|When would you like to leave and/or return?|request
+USR|dates are flexible, as I've said|inform
+SYS|There are no results from Brasilia to London.|suggest
+SYS|Are you able to go to a different destination?|suggest
+USR|We can go to Mexico City and make our way to London from there
+but I can handle that, you just check Brasilia to Mexico City for us please|inform
+SYS|How long would you like to be in Mexico City?|inform
+SYS|The shortest trips available are 6 days from the 20th to 24th, 8th to 12th all inclusive trip, 7th to 11th, or 24th to 28th.|inform
+USR|oh it doesn't matter really, but the shorter trips would probably be more suitable so we can head to London sooner.|moreinfo
+USR|what are the hotel details from the 8th to the 12th?|moreinfo
+SYS|The all inclusive 6 day package from the 8th to 12 is a 3.5 star hotel near a beach, mall, shopping, and a museum.|inform
+SYS|The cost of this package is 13056.42.|inform
+SYS|Our cheapest package is 8829.81 for the 7th to 11th and 24th to 28th packages.|inform
+SYS|This is a 3 star hotel near the beach, mall, and shopping.|inform
+USR|what a beauty!|inform
+USR|I'm smitten please proceed with booking|inform
+SYS|Which package would you  like to book?|confirm
+USR|the cheap one from the 7th to the 11th|switch_frame
+SYS|Awesome!|inform
+SYS|I will book this package for you and your kids!|inform
+SYS|You will receive a confirmation email soon regarding payment as well as more details about your trip!|inform
+SYS|Safe travels!|inform
+USR|Thank you,|thankyou
+SYS|Anytime!|you_are_welcome

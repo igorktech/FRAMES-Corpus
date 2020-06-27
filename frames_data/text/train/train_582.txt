@@ -1,0 +1,31 @@
+USR|Hi there hello|greeting
+SYS|Look and book, how may I help you?|greeting
+USR|I need to schmooze a few fellas who are high stake investors with my company.|inform
+USR|So we're gonna take em a little business trip to Vancouver
+Leaving from Sydney
+They're big spenders so the budget is of no consequence|inform
+SYS|Sydney to Vancouver.|request
+SYS|Dates of travel please?|request
+USR|I can't leave until September 6th.|inform
+USR|but the return date is flexible|inform
+SYS|How many people?|request
+USR|5 adults in total|inform
+SYS|I have two possible choices for you,  Parallel Carnaval Bed & Breakfast or Obsidian Gem Inn, offering 14 or 8 day packages.|suggest
+USR|And what are the ratings on those hotel?|request_compare
+SYS|3 and 4 stars respectively.|inform
+USR|Tell me  a little more about the Obsidian Gem Inn please|moreinfo
+SYS|The Obsidian Gem Inn is a 4 star hotel located near the park, museum and cathedral with a guest rating of 8.8/10 stars.|inform
+SYS|Amenities include wifi, parking and breakfast, all at no charge.|inform
+USR|Could you tell me whats free in Pittsburgh?|inform
+SYS|I have a few choices in Pittsburgh, but none that are more than a 2.5 star.|offer
+USR|Ah - well that won't do.|inform
+USR|So before be go ahead and book Vancouver at the Obsidian Gem I would first like to take a look at La Paz|inform
+SYS|In La Paz we have the Echo , also a 4 star hotel also includes wifi services, as well as free parking and a complimentary breakfast.|offer
+SYS|Price on this package is 6941.92USD for a 6 day stay provided you all fly in economy .|offer
+USR|Ah that sounds lovely, and might be a nicer change of scenery than staying domestic.|request
+USR|Is the hotel located near anything of note?|request
+SYS|I have no information on the location of this hotel.|canthelp
+USR|What might be the price if we flew Business class?|request
+SYS|8616.55USD|offer
+USR|Alright, charge it to the company card Thanks a bunch!|thankyou
+SYS|I hope the Echo meets your expectations|goodbye

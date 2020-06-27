@@ -1,0 +1,37 @@
+USR|I want to go to san antonio from tijuana for 7 days|inform
+SYS|One person?|suggest
+USR|yeppers!|affirm
+SYS|I have several choices.|inform
+SYS|How long were you hoping to stay in San Antonio?|inform
+USR|from the 13th to the 1st|inform
+SYS|My shortest package in San Antonio is a 9 day package.|offer
+SYS|I have a choice of 2 different hotels, both with a 2 star rating.|offer
+USR|What are the dates for it?|switch_frame
+SYS|Both are from Sept 12th to Sept 20th|inform
+USR|well i think my 7 days of vacation only apply to work days so that should work since part of the trip is on the weekend.|moreinfo
+USR|Can you fill me in on more hotel details?|moreinfo
+SYS|You have a choice between the Vertex Inn, a 2 star hotel near the park, museum and the mall at 1277.9USD OR the Winter Hill Inn, also a 2 star hotel near the park, mall ans theatre.|offer
+SYS|Both included wifi, parking and breakfast.|offer
+SYS|However, the Vertex Inn has a guest rating of 7.15/10 whereas the Winter Hill Inn had a guest rating of 4.74/10.|offer
+USR|I think i'll go for the vertex hotel cuz the guest rating is better lawls.|inform
+USR|but wait, i cant leave on the 12th !|inform
+USR|ah shoot!|inform
+USR|sorry about that
+Can you check Busan for me?|inform
+SYS|Is a departure date of the 14th okay?|suggest
+USR|Yeah for sure!|switch_frame
+SYS|I can send you to San Antonio on a 15 day package from September 14 to September 28 or I can send you to Busan  on a 6 day package from September 14 to September 18th.|offer
+USR|I think the 6 day package fits my dates the best.|switch_frame
+USR|Can you tell me more about it?|switch_frame
+SYS|First let's get your budget|request
+USR|I dont have a budget|inform
+SYS|Perfect.|inform
+SYS|The Busan hotel is available for a 6 day stay at  3107.21USD.|inform
+SYS|Included is your parking, use of wifi and your breakfast.|inform
+SYS|The hotel is situated near the park, museum and not far from the university.|inform
+USR|sounds pretty good to me, is this the business or economy price?|request
+SYS|That price is based on economy class pricing.|offer
+SYS|I also have that package available at 4047.3USD on business class.|offer
+USR|I'll splurge and take the business class flights, nothing wrong with spoiling yourself once in a while|inform
+SYS|I will proceed with the business reservations|inform
+USR|Thank you|thankyou

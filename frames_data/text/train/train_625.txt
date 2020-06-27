@@ -1,0 +1,18 @@
+USR|So my friend and I want to go to Hamburg|inform
+SYS|From where?|request
+USR|Brasilia.|inform
+USR|We can leave anytime but we hope to get back by Sep 6|inform
+SYS|Do you have a budget?|request
+USR|Nope|inform
+SYS|We have one result at a 3 star hotel in the heart of the city and near a museum, free breakfast, wifi, and parking, from August 30th to September 6th, business flights, total cost is 5092.43.|offer
+USR|Are there better options if we go to Los Angeles?|inform
+SYS|There are no results for Los Angeles.|no_result
+USR|What if we leave from Puebla?|inform
+SYS|There is a 3 star hotel from September 2nd to 6th, 8.86/10 guest rating, near a university, free parking, breakfast, and wifi, business flights, total price is 3197.26.|offer
+USR|Any other options?|request_alts
+SYS|No this is the only package available.|no_result
+USR|I guess I'll go with Brasilia|inform
+SYS|Great!|inform
+SYS|This package is booked!|inform
+SYS|Have a great day!|inform
+USR|thanks!|thankyou

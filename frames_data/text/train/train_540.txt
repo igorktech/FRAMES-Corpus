@@ -1,0 +1,10 @@
+USR|By chance, can I take my family from Recife to Rome?|inform
+USR|Thats me, my wife, and my son
+We have $4700 to spend and ideally want to go for 12 days|inform
+SYS|When would you like to leave?|request
+USR|Anytime that fits within the budget|inform
+SYS|Are you able to increase your budget at all?|suggest
+USR|I'm afraid not|negate
+SYS|Do you have another destination you'd be willing to visit?|suggest
+USR|If there's nothing fitting our budget, then try Los Angeles?|inform
+SYS|There is nothing from Recife to Los Angeles.|no_result

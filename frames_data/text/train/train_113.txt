@@ -1,0 +1,33 @@
+USR|Hey there!|inform
+USR|My girlfriends and I are looking to go on a girlie trip for Spring Break.|inform
+USR|but we want to go somewhere wild like San Juan!|inform
+SYS|No problem, I've got you covered!|request
+SYS|How many will you be traveling with?|request
+USR|We'll be 4, these girls are like my best friends ever!|inform
+USR|We go to college in Indianapolis|inform
+SYS|It looks like I have packages for 10 days in San Juan.|suggest
+SYS|I've also got a package for 5 days in San Francisco.|suggest
+USR|We can travel from August 24th to September 10th.|inform
+USR|we only have $6400 altogether!|inform
+USR|Plus we really have to have wifi, you need to make sure of that.|inform
+USR|Free breakfast would also be a necessity|inform
+SYS|Both destinations fit within your budget, and both hotels offer both free wifi and free breakfast.|inform
+SYS|The San Francisco package runs from the  27th to the 31st of August while the San Juan package runs from the 17th to the 26th.|inform
+SYS|If you would like to compare prices, it is 2164.26USD for the San Juan package and 1955.23USD for the San Francisco package.|inform
+USR|How many stars for the hotel in San Francisco?|request
+SYS|You will be staying at Twin Canyon Inn, a 2-star hotel with a favorable 5.23/10 guest rating.|inform
+USR|Do you have anything in San Juan leaving Indianapolis on August 24th?|negate
+USR|The 17th we still have an exam.|negate
+SYS|Unfortunately the closest departure date I can give you would be the 26th of August.|offer
+SYS|You will be staying at the Fairyland and returning on the 4th of September.|offer
+SYS|This package costs 5678.60USD.|offer
+SYS|However, I would recommend leaving on the 27th instead as this package is only 5236.20USD.|offer
+SYS|Does either of these trips interest you?|offer
+USR|You know, I think we'll stick to the SF one, it's just soooooo much cheaper and it will still be a party!|inform
+USR|Can you book us on that one??|inform
+USR|The one at the Twin Canyon Inn, cant wait!|inform
+SYS|Your trip has successfully been booked!|inform
+SYS|Enjoy your vacation!|inform
+USR|Thank youuuuuuuuuuu!|thankyou
+SYS|You're very welcome!|you_are_welcome
+SYS|We hope to be of service again in the future!|you_are_welcome

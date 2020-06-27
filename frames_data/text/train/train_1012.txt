@@ -1,0 +1,36 @@
+USR|Hi, I'm looking to book a flight to Berlin please.|inform
+SYS|Where will you be coming from?|request
+USR|Birmingham|inform
+SYS|When would you like to go?|request
+USR|Ideally sometime between Tuesday September 13 and Wednesday September 28.|inform
+SYS|Okay last question, will you be going alone or with others?|suggest
+USR|Nah just me.|inform
+SYS|Great, we have two fantastic 5 star hotels in Berlin waiting for you!|hearmore
+SYS|We offer 14 day or 15 packages.|hearmore
+SYS|Would these interest you?|hearmore
+USR|Yes please!|request_compare
+USR|Are they fairly affordable?|request_compare
+SYS|They are!|inform
+SYS|For the 15 day package, we have the business package available for 1608.47 and the economy package for 1264.47.|inform
+SYS|The 14 day package is slightly more expensive.|inform
+USR|The 14 day package is more expensive than the 15 day package one?|request_compare
+SYS|Yes.|offer
+SYS|The 14 day trip is 2752.48 for business and 2167.74 for economy.|offer
+USR|Oh wow that's odd.|request
+USR|What are the departure and return dates for the 15 day package then?|request
+SYS|The 15 day trip is from Sept 14-28.|inform
+USR|Wow that sounds great.|moreinfo
+USR|What else can you tell me?|moreinfo
+SYS|Sure!|inform
+SYS|The hotel has an average guest rating of 8.49/10 and is conveniently located near a museum and a cathedral.|inform
+SYS|During your stay, you can get breakfast and wifi free of charge.|inform
+USR|Wow, that's amazing!|confirm
+USR|You said this was a 5 star hotel right?|confirm
+SYS|Yup|affirm
+USR|That's perfect.|inform
+USR|I'll take it!|inform
+SYS|Awesome!|inform
+SYS|I will process the booking for you.|inform
+SYS|Once confirmed, you will receive a confirmation via email.|inform
+USR|That's excellent, thank you very much!|thankyou
+SYS|You're very welcome!|you_are_welcome

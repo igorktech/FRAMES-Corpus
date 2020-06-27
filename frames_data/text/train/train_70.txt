@@ -1,0 +1,21 @@
+USR|Hi im from Houston and i want to go to San Antonio, but i have strict dates can you help?|greeting
+SYS|Sure thing!|request
+SYS|What days are you hoping to travel?|request
+USR|August 25th until September 11th are the days im available|inform
+SYS|And will you be traveling with anyone?|request
+USR|ill be alone|inform
+SYS|Well, let me tell you about the best deal I've found: The Vertex Inn is a 2-star hotel with a 7.15/10 guest rating, free wifi, free parking and free breakfast.|suggest
+SYS|They have a vacancy from the 7th to the 10th of September.|suggest
+SYS|You would be flying business class, bringing your total to 516.9 USD.|suggest
+SYS|Do you want me to book this trip?|suggest
+USR|that sounds very tempting!|inform
+USR|are there any packaged available to mexico?|inform
+SYS|I can send you to Mexico City from the 27th of August to the 6th of September.|suggest
+SYS|You would be staying at the Hotel Tropic, a 3.0-star hotel with a 6.77/10 guest rating.|suggest
+SYS|The total cost of this package is 1148.31USD.|suggest
+SYS|Do you want me to book this trip|suggest
+USR|yes please it looks like Mexico is the better choice|affirm
+SYS|Done!|inform
+SYS|Your flight leaves on Saturday, August 27th at 5:05 p.m. Enjoy your vacation!|inform
+USR|perfect!|thankyou
+USR|thank you|thankyou

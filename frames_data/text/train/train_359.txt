@@ -1,0 +1,24 @@
+USR|Hi you can help me by exploring my options to travel from Paris to San Jose.|inform
+SYS|Absolutely!|request
+SYS|What date were you planning to leave and return?|request
+USR|I’m looking to ~book~ for 2 adults and one child.|inform
+USR|Doesn’t matter, but I’d like to spend around 2 weeks there.|inform
+SYS|Great, we have a trip from August 25 to September 9, from Paris to San Jose!|suggest
+SYS|You will be staying at the Snowy Nugget Inn, a charismatic 2.5 star hotel with a 9.16/10 guest rating.|suggest
+SYS|The trip will cost 5664.72USD in all, would you like for me to go ahead and book for you?|suggest
+USR|Tijuana is another possible destination.|inform
+USR|What’ve you got there?|inform
+SYS|I've got a package to Tijuana from September 2 to 13 at the Resort Jade Covert, a 3 star hotel with a 7.15/10 guest rating.|suggest
+SYS|The trip will cost 6085.91USD - would you like to confirm this booking?|suggest
+USR|Where is the hotel located within the city?|request
+USR|Close to any amenities?|request
+SYS|The Resort Jade Covert is located near shopping, and provides a bevy of amenities including free breakfast, free wifi, and free parking.|inform
+SYS|Does this trip sound good to you?|inform
+USR|What about snowy Nugget Inn?|request
+SYS|Snowy Nugget Inn is situated near a park and a museum, and offers free breakfast, free wifi, free parking.|suggest
+SYS|Would you like to book here instead?|suggest
+USR|Ok, that sounds more appropriate.|inform
+USR|Yes, please book the hotel in San Jose.|inform
+SYS|Its booked!|inform
+SYS|We hope you have a truly magnificent trip!|inform
+USR|Thanks|thankyou

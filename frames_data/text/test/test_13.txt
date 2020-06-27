@@ -1,0 +1,32 @@
+USR|I need to get away from work, how about Paris?|inform
+SYS|Where is it that you will be leaving from?|request
+USR|I'm in naples|inform
+SYS|Great!|request
+SYS|Will you be travelling alone?|request
+USR|Just me this time|inform
+SYS|Do you have a budget?|request
+USR|I'll spend whatever I need to|inform
+SYS|Are there specific dates you have in mind?|request
+USR|It's gotta be between August 27 and September 9|inform
+SYS|Are your dates flexible?|request
+USR|No, my boss wouldn't have it|inform
+SYS|We have a 6 day stay at the Autumn Treasure Hotel starting on August 27th.|offer
+SYS|This is a 4 star hotel and offers free breakfast and wifi.|offer
+SYS|The cost is 1071.36.|offer
+SYS|Does this interest you?|offer
+USR|Hmm, what can you offer me in Cleveland?|inform
+SYS|We have a 6 day stay at a 3 star hotel.|offer
+SYS|They offer free breakfast, wifi and parking.|offer
+SYS|This flight leaves at 8:00 am, August 30th.|offer
+USR|How much would this cost me?|request
+SYS|This would cost 3174.47.|inform
+USR|Guess I'll take the Autumn Treasure Hotel stay then.|request
+USR|Could you upgrade my flight to business class?|request
+USR|How much would that cost?|request
+SYS|This cost is 1291.31 and the flight leaves at 9:00 am.|suggest
+SYS|Would you like me to book this for you?|suggest
+USR|Sounds good|affirm
+SYS|Great!|inform
+SYS|You're flight is booked!|inform
+SYS|Have a great day and enjoy your vacation!|inform
+USR|Thanks!|thankyou

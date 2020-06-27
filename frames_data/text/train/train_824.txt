@@ -1,0 +1,29 @@
+USR|i certainly am!|inform
+USR|can you call vitoria to los angeles an adventure?|inform
+USR|if so thats what i’d like to book|inform
+SYS|How many people are you booking for?|request
+USR|booking for four adults total|inform
+SYS|When would the four of you like to go on this adventure?|inform
+USR|between sept 2 and 23 please|inform
+SYS|How much are you planning on spending?|request
+USR|we’re willing to spend whatever it takes for a great time!|inform
+SYS|Great!|offer
+SYS|I have two fantastic hotels for you.|offer
+SYS|Both are 3 star with 8.86/10 guest rating and offer free parking, breakfast, and wifi.|offer
+SYS|One is close to the airport and mall while the other is close to the university.|offer
+USR|i think we’d prefer to be close to the university can you give us a sense of the dates?|request
+SYS|We have a 9 day package from September 2 to September 10 for that hotel.|hearmore
+SYS|Is this something that interests you?|hearmore
+USR|i’d like to weigh my options a little, so can you tell me the costs for economy seats|request
+SYS|Sure, the economy package is 10898.70 while the business package is 13867.15.|suggest
+USR|okay good to know.|inform
+USR|can you also see if you can find a trip for us minneapolis|inform
+SYS|Absolutely!|offer
+SYS|In Minneapolis we have a  2.5 star hotel rated 7.15 / 10, and we offer 13 day and 17 day vacations there.|offer
+USR|oof thats a long trip|negate
+SYS|Those are our shortest trips to Minneapolis from Vitoria.|suggest
+SYS|Would you have any alternatives that you would like me to check for you?|suggest
+USR|no i think i’ve put you through enough today just book us the economy package to los angeles please|inform
+SYS|Sure thing, it is booked for you!|inform
+SYS|Time to start packing!|inform
+USR|that much is true|thankyou

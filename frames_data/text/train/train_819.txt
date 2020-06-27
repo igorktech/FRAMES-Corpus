@@ -1,0 +1,23 @@
+USR|I want to dream of the best vacations to Santo Domingo from Calgary.|inform
+SYS|That does sound very nice!|request
+SYS|Can you tell me a bit more about your travel dates or budget?|request
+USR|3100 budget and anytime|inform
+SYS|Are you traveling solo?|suggest
+USR|ya|affirm
+SYS|I would recommend to you our very best in Santo Domingo: a 4 star hotel with 8.8/10 guest rating.|hearmore
+SYS|It is close to the beach and shopping, and offers free parking, wifi, and breakfast.|hearmore
+SYS|We offer 12 or 10 day packages, in economy or business.|hearmore
+SYS|Does this sound appealing to you?|hearmore
+USR|cool are there any packages to Guadalajara?|inform
+SYS|Yup!|offer
+SYS|Our best package in Guadalajara is a 3.0 star hotel with 8.37/10 rating.|offer
+SYS|This one also offers free parking, breakfast, and wifi and is close to the park and airport.|offer
+SYS|We have 13 day packages in economy and business.|offer
+USR|anything to Hamburg?|inform
+SYS|Sure do, we have a 4.5 star hotel with 9.16/10 rating.|offer
+SYS|It offers free parking and wifi and is close to the airport.|offer
+SYS|We have 9 day packages in business or economy.|offer
+USR|Is there anything to San Diego?|inform
+SYS|Yes there is, the best we have for San Diego is a 3.0 star hotel with 8.86/10 rating.|offer
+SYS|It is near a park and has free parking, free breakfast, and free wifi.|offer
+SYS|We have 6 and 8 day packages in business.|offer

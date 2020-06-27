@@ -1,0 +1,25 @@
+USR|Good day, I'm located in Kobe and I have been offered a possible internship in Baltimore at the heart of the action!|inform
+USR|I need you to book a flight and hotel package for me sometime between August 26 and September 10.|inform
+SYS|How about a 7 day stay at the 3 star Countryside Resort for 2374.96USD?|offer
+USR|That works within my budget but I need to be cautious in booking this.|inform
+USR|It's my first time travelling alone and |I don't want to mess it up.|inform
+SYS|This hotel has a 7.06/10 guest rating and includes free breakfast, wifi and parking.|inform
+USR|Do you have anything in Denver?|inform
+SYS|I have a few options for you in Denver.|inform
+SYS|Do you have a budget?|inform
+USR|Yes I have $3900 but honestly I want to spend the least money possible|inform
+SYS|I can offer you a 5 day stay at the 3 star Oriental Resort for 2964.84 USD.|offer
+USR|Baltimore was cheaper.|inform
+USR|I can also go to Rio de Janeiro for this internship.|inform
+USR|I will book the cheapest as long as it is on the right dates.|inform
+SYS|The Rio de Janeiro packages start at 4991.2 USD.|hearmore
+SYS|Would you like to know more about these packages?|hearmore
+USR|NO!|negate
+SYS|Can I help you with anything else?|suggest
+USR|I will book Baltimore, since it is the cheapest.|switch_frame
+USR|Works for me.|switch_frame
+SYS|Great!|inform
+SYS|I'll book this for you right away!|inform
+USR|Thank you for your patience, have a nice weekend.|thankyou
+SYS|Your trip is booked!|thankyou
+SYS|Have a nice day!|thankyou

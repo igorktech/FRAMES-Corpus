@@ -1,0 +1,32 @@
+USR|I WANT VACATION PLZ|inform
+SYS|You've come to the right place :slightly_smiling_face:|greeting
+USR|I LIVE IN MONTERREY|inform
+SYS|Many destinations await you.|request
+SYS|But first, can you tell me a bit more about your budget and travel dates?|request
+USR|I HAVE 5 THOUSAND DOLLARS AND ONE MORE ONE HUNDRED DOLLARS.|inform
+USR|I LEAVE AUGUST 31ST COME HOME SEPTEMBER 13TH|inform
+SYS|Are you flying solo?|suggest
+USR|I GO BY MYSELF|inform
+SYS|In that case, you have plenty of options!|suggest
+SYS|I will throw a few possibilities at you and you tell me if something catches your eye okay?|suggest
+SYS|Curitiba, St. Louis, Rio de Janeiro, Barcelona, Baltimore, Pittsburgh, Lima, Toluca.|suggest
+USR|WHAT IS THE HOTEL IS BARCELONA|switch_frame
+SYS|It's a 3 star hotel in the heart of the city near a park and a university.|offer
+SYS|The guest ratings are very high at 9.16/10.|offer
+SYS|And they offer free parking and wifi during your stay.|offer
+USR|OK NOT BAD I WOULD NOT MIND THE BEACH THOUGH WAHT ABOUT LIMA|switch_frame
+SYS|In Lima we have a 4 star hotel near a park.|offer
+SYS|It has 8.98/10 ratings and offers free wifi.|offer
+USR|I LIKE THAT RATING ITS GOOD.|switch_frame
+USR|OK LAST ONE
+WHAT IS THE RIO DE JANEIRO PACKAGE|switch_frame
+SYS|In Rio de Janeiro we only have a 2.5 star hotel :disappointed:|offer
+USR|EHAT IS THE PRICE IN LIMA|request
+SYS|For 10 days it will be 814.84 on business flights and 698.86 on economy flights.|offer
+USR|WHAT IS THE PRICE FOR BARCELONA|request
+SYS|2633.76 for business and 3386.19 for economy.|offer
+USR|MUCH MORE EXPENSIVE MAKES SENSE I WILL BOOK LIMA BUSINESS CLASS GREAT DEAL|switch_frame
+SYS|I agree!|inform
+SYS|It is booked.|inform
+SYS|You are headed to Lima :slightly_smiling_face:|inform
+USR|THANK U|thankyou

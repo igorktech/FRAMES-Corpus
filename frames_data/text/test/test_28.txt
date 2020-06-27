@@ -1,0 +1,14 @@
+USR|I would like to go to San Juan|inform
+SYS|Ok!|request
+SYS|Where would you be leaving from?|request
+USR|between August 31 to September 19.|inform
+USR|leaving from Rio de Janeiro
+I have a 2800 $ budget|inform
+SYS|Ok!|offer
+SYS|I can book you Sept 1-7 for 2417.95USD or Sept 12-14 for  2423.96USD or Sept 6-13 for 2660.43USD.|offer
+USR|ill book that|inform
+SYS|Which one?|inform
+SYS|There are three trips listed.|inform
+USR|the 1st one|switch_frame
+SYS|Ok, I can book that for you!|inform
+USR|ok, thanks.|thankyou

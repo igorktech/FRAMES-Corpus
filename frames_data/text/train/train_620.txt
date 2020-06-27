@@ -1,0 +1,37 @@
+USR|Hey!|inform
+USR|Yes!|inform
+USR|The 5 of us are looking to go somewhere from Sep 13 to Sep 22|inform
+SYS|Fun!|request
+SYS|Where are you departing from?|request
+USR|We're in Miami.|inform
+USR|And we want to maybe go to Philly|inform
+SYS|I can do that!|offer
+SYS|How does 10 days at the Mirror Inn, from September 13 to 22 sound?|offer
+USR|How much will the total cost?|request
+SYS|The total cost is 4479.15USD.|inform
+USR|That could work... I've got a little bit left on my budget, are there better hotel options?|request_alts
+SYS|I can get you on a business class flight, but it appears that the Mirror Inn is our only hotel in Philadelphia.|inform
+USR|how much would business flights cost?|request
+SYS|5486.96USD|inform
+USR|Could you check the same dates for Long Beach?|inform
+SYS|I can get you a trip to Long Beach from September 14 to 22 at the Ornate Inn, which would cost only 2132.0USD.|offer
+SYS|Interested?|offer
+USR|Is that the only option for Long Baech?|request_alts
+SYS|I can get you on business class flights for 2502.0USD, but yes that is the only hotel we have in Long Beach,|offer
+USR|In this case I think Philadelphia is better|switch_frame
+SYS|Certainly.|inform
+SYS|Its a 2 star hotel but enjoys a 6.61/10 guest rating, and is conveniently located next to a park and museum.|inform
+SYS|Amenities include free parking, free breakfast, and free wifi.|inform
+USR|What about the Long Baech hotel?|switch_frame
+SYS|The Ornate in Long Beach is 2.5 star, with a 6.91/10 guest rating.|inform
+SYS|It also has free parking, free breakfast, and free wifi, and is right next to the airport.|inform
+USR|What would the flight time be?|request
+SYS|It would depart at 9AM and arrive at 10:32AM.|inform
+SYS|Return flight departs at 2AM and arrives at 3:32AM.|inform
+USR|And the flight to Philadelphia?|request
+SYS|It would depart at 7AM and arrive at 9:46AM.|inform
+SYS|Return flight departs at 2AM and arrives at 4:46AM.|inform
+USR|can you book the business flights please?|inform
+SYS|Booked!|inform
+SYS|Have a great trip!|inform
+USR|Thanks!|thankyou

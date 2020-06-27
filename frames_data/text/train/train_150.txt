@@ -1,0 +1,34 @@
+USR|Hey look, I got to get to Lima.|inform
+USR|I need to trap a pokemon|inform
+SYS|Sure thing!|request
+SYS|And where will you be leaving from?|request
+USR|I’m leaving from Chicago!|inform
+SYS|Do you have a preference for dates?|request
+SYS|Or a budget?|request
+USR|We need to leave on Saturday August 27!|inform
+USR|Unfortunately, all I've got is 3000 dollars.|inform
+USR|I also shouldmention that we're two adults|inform
+SYS|And for how many days do you expect to be vacationing?|request
+USR|As long as I need to!|inform
+USR|I can return whenever I feel like|inform
+SYS|How about 7 days at the Wolf Inn, a 3.5 star resort for only 2095.50 USD?|offer
+USR|Guess what, I want to go to Pun Cana now.|request
+USR|What would that cost me?|request
+SYS|I can offer you 11 days in Punta Cana starting at 1863.80 USD|offer
+USR|What is the hotel like?|moreinfo
+SYS|It's 2.5 stars with a 7.15/10 user rating.|inform
+SYS|Breakfast and wifi are included|inform
+USR|When do we leave?!|request
+SYS|August 30th and you return September 9th.|suggest
+SYS|I can also offer you a 3.5 star hotel for only 100 dollars more but breakfast is not included, however flights are on the same days.|suggest
+USR|I was also thinking, what about leaving August 17?|inform
+SYS|I have one here leaving on August 27th at a 3 star for 11 days at a price of 1899.78 USD.|confirm
+SYS|Shall I also look into August 17th?|confirm
+USR|OH!|request
+USR|I like that one on August 27th.|request
+USR|What is the hotel called?|request
+SYS|Scarlet Peaks Hotel.|inform
+USR|Ok… LET’S BOOK IT!|inform
+SYS|Excellent!|inform
+SYS|I shall execute the booking.|inform
+USR|Thanks!|thankyou

@@ -1,0 +1,32 @@
+USR|I would like to take my fam jam on a vacation to Boston from Tijuana.|inform
+SYS|Ok!|request
+SYS|How many of you are travelling?|request
+USR|2 adults and 5 children|inform
+SYS|Great!|request
+SYS|I have two different hotels available in that case.|request
+SYS|One is 2.5 stars and near a park, while the other is 3 star and near a shopping district.|request
+SYS|Do you have a desired date range for travel?|request
+USR|the 3 star hotel sounds better, my girls love to shop.|inform
+USR|between the 11th and 29th|inform
+SYS|Of course, that’s the Resort Jade Covert.|hearmore
+SYS|The longest package I could offer you there would be 10 days from September 18th-27th.|hearmore
+SYS|The hotel also has a 7.15/10 guest rating and includes free parking, free wifi, and complimentary breakfast.|hearmore
+SYS|Would you like to know the price for this package?|hearmore
+USR|Yes please it sounds like a great package!|request
+SYS|Sure!|inform
+SYS|The total with economy class flights would be $4388.41.|inform
+USR|Cool!|inform
+USR|Can you check out Ciudad Juarez for me next?|inform
+SYS|Sure!|offer
+SYS|The longest package I have in Ciudad Juarez is 11 days at the 3.5 star Hotel Holiday.|offer
+SYS|Its guest rating is 8.8/10 and it is situated a palace.|offer
+SYS|It also includes all the same amenities Resort Jade Covert.|offer
+USR|Yeah I think we will just go straight for Ciudad Juarez!|request
+USR|What is the price for that package?|request
+SYS|4695.82USD if you choose to fly economy.|offer
+SYS|5664.38USD for business class.|offer
+USR|Well since we only have 4700 we will take economy.|inform
+SYS|Great!|inform
+SYS|I’ll confirm booking via email.|inform
+SYS|Enjoy your trip :slightly_smiling_face:|inform
+USR|Thank you!|thankyou

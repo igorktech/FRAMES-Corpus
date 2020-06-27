@@ -1,0 +1,5 @@
+USR|Jerusalem to Tel Aviv, got flights?|inform
+SYS|I’m sorry, I don’t have any flights available for you.|sorry
+USR|What would happen if i tried jerusalem to portland instead?|inform
+SYS|I’m sorry, I have nothing available out of Jerusalem.|sorry
+USR|cool, THANKS FOR NOTHING!!!!|thankyou

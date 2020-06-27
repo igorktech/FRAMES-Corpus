@@ -1,0 +1,28 @@
+USR|So I need to go far far away from my home of Paris Can you see about flights to Phoenix?|inform
+SYS|I have 3 hotels.|request
+SYS|How long would you like to go?|request
+USR|Sometime between aug 30 and sep 12|inform
+SYS|Within those dates I have The Prism for 10 days, a 2.5 star hotel near the airport and a museum with a 7.06 user rating.|offer
+USR|Thats fine and all but I fear that instagram posts from a 2.5 star hotel won’t impress anyone.|inform
+USR|What can you get me in Kobe?|inform
+SYS|I have the Ivory Legacy Hotel - 4.5 stars with free wifi and a 8.69 user rating!|offer
+USR|That is badass.|inform
+USR|I must also ask about new york|inform
+SYS|Sorry but I have nothing available for you within your date range.|sorry
+USR|Manas?|inform
+SYS|Sorry, also nothing.|sorry
+USR|how long can you book me at the ivory for|request
+SYS|10 days - August 30 - Sept 7th|inform
+USR|and cost?|request
+SYS|1965.4USD Economy class|inform
+USR|what amenities do i get|request
+SYS|Free wifi|inform
+USR|thats it?|request
+USR|is the hotel at least near anything|request
+SYS|It is Ivory Legacy Hotel.|suggest
+SYS|I can book this package for you.|suggest
+USR|only if you tell me if its near any attractions|request
+SYS|I do not have any attractions on file.|canthelp
+USR|ok.|inform
+USR|book anyway|inform
+SYS|Booking it|inform

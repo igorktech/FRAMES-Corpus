@@ -1,0 +1,20 @@
+USR|The police are after me, and I need to leave Kobe between August 27 and September 2.|inform
+SYS|Hi!|inform
+SYS|I can help you with booking a trip from Kobe for your requested dates.|inform
+SYS|Now, where would you like to go today?|inform
+USR|Take me anywhere, but I only have $4600 cash.|inform
+SYS|I can book you four days in Sapporo for 200.92USD!|offer
+USR|Four days may not be long enough... what else do you have?|request_alts
+SYS|How about 6 days in San Jose for 2045.99USD?|offer
+USR|That should be alright.|switch_frame
+USR|Does the room have a safe?|switch_frame
+SYS|This four star hotel has free wifi, free parking, and free breakfast!|inform
+USR|Perfect!|request
+USR|So if I steal a car I can park it there!|request
+USR|I'll have to call the hotel about the safe, what is the name of the hotel?|request
+SYS|It's the Tranquil Seaside Inn.|inform
+USR|And free parking?|request
+SYS|Yes!|affirm
+SYS|Tranquil Seaside Inn is the hotel I quoted for you before.|affirm
+USR|Oh yes ok.|inform
+USR|This one sounds good to me!|inform

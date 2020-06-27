@@ -1,0 +1,21 @@
+USR|I'm getting married and my husband really want to go to Kobe on our honeymoon|inform
+SYS|Hi there!|request
+SYS|What city will you be departing from?|request
+USR|We are getting married in Phoenix, having a good old southern wedding.|inform
+USR|It's costing my parents a fortune.|inform
+USR|Make sure the honeymoon is cheap please cause my husband has no money either.|inform
+SYS|The best deal I could offer you on a trip to Kobe would be a 2886.64USD package.|offer
+SYS|I could set you up in the White Square.|offer
+SYS|You would be flying out on the 27th of August.|offer
+SYS|Would you like to hear more about this package?|offer
+USR|You have nothing around the 18th?|inform
+SYS|If it fits into your schedule, I could book you in the Ivory Legacy Hotel from the 17th to the 21st of August.|suggest
+SYS|The total cost of this package is 2934.51USD.|suggest
+SYS|Would you like to hear more about this package?|suggest
+USR|No it does not suit our schedule, the wedding is on the 17th.|inform
+USR|Do you have anything to Rome instead?|inform
+SYS|Unfortunately the nearest date I could offer you for a flight to Rome would be the 27th of August.|sorry
+SYS|Would you like to try another destination?|sorry
+USR|No forget it.|goodbye
+USR|We need to leave on the 18th.|goodbye
+SYS|Understood, thank you for using our service!|thankyou

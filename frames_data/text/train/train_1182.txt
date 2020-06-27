@@ -1,0 +1,19 @@
+USR|hi hey hello i need to get to Atlanta|inform
+SYS|How are you doing today?|greeting
+USR|and i need to leave form birmingham|inform
+SYS|Do you have a budget?|request
+USR|yeaaa 1700 bucks|inform
+SYS|Travelling alone?|suggest
+USR|yupp yupp|affirm
+SYS|When do you need to leave by?|request
+USR|september 14 at the earliest|inform
+SYS|Our best package is a 10 day stay at Paradise Suites from September 16th to 25th.|offer
+SYS|This is a 3.5 star hotel near the beach.|offer
+USR|no no no not 3.5 stars
+i need to be in the lap of luxury
+god knows my photography subjects will be
+what else have you got
+i can increase my budget if that will help|inform
+SYS|How much can you increase your budget because this is the best package we have?|request
+USR|i can add another thousand|inform
+SYS|That didn't make a difference.|no_result

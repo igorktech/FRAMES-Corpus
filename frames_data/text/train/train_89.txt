@@ -1,0 +1,11 @@
+USR|Hi im in the middle of travelling  and i want to go to Porto!|greeting
+SYS|Sure thing!|request
+SYS|What city will you be departing from?|request
+USR|i can leave from Minneapolis|inform
+SYS|I you leave from Minneapolis on the 17th of August I can book you 11 days in the four-star Golden Keep.|suggest
+SYS|The total cost of this package is 2362.21USD.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|Let’s book it!|switch_frame
+SYS|Done!|inform
+SYS|Enjoy!|inform
+USR|thank you!|thankyou

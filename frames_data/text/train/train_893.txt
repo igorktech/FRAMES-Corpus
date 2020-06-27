@@ -1,0 +1,25 @@
+USR|My team and I need to get to San Diego.|inform
+USR|Need to leave by Sept 6.|inform
+USR|It is a matter of life and death!|inform
+SYS|I will do my best.|request
+SYS|Where are you and how many are you?|request
+USR|We are 4 adults.|inform
+USR|We need to leave from belo horizonte.|inform
+SYS|My best offer for leaving on Sep 6 is at a 2.5 star hotel for 6 days until Sep 10.|hearmore
+SYS|Would you like to know more about this hotel?|hearmore
+USR|I'm sorry, did I say the 6th?|inform
+USR|I meant the 8th.|inform
+USR|We need to leave on or after the 8th!|inform
+SYS|No problem, for departure on the 8th, I have a 6 day package at a 3 star hotel, rated 8.86/10, with free wifi, breakfast, and parking.|offer
+USR|How much for this one on economy?|inform
+USR|Can you check Kobe too please?|inform
+USR|I'll have to pick one, hope it's the right one!|inform
+SYS|The economy package at the San Diego hotel is 9364.56.|offer
+SYS|For Kobe, I have a 5 day package leaving Sep 8 with a 3 star hotel for 19923.91 economy.|offer
+USR|Anything cheaper in Kobe?|inform
+SYS|No, that is actually the cheapest option.|inform
+USR|I guess that decides it, San Diego it is cause we only have 12600 to spend!|inform
+USR|Hope the rumours are right!|inform
+SYS|Sure!|inform
+SYS|I'll book the San Diego trip for your group!|inform
+SYS|Anything else I can do for you today?|inform

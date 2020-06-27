@@ -1,0 +1,31 @@
+USR|Hello, there!|greeting
+SYS|Hi there!|greeting
+SYS|What can I do for you?|greeting
+USR|We want to take our five kids out of Cairo|inform
+SYS|I'd be happy to help!|request
+SYS|Where are you thinking of?|request
+USR|First on the list is St. Louis.|inform
+USR|Trip would need to be between now and September 18|inform
+SYS|Do you have a budget you must follow?|request
+USR|Have 9400 budgeted, hope thats enough! :|inform
+USR|slightly_smiling_face:|inform
+SYS|Sure is!|offer
+SYS|That can take you to SL for 9 days at a 3.0 star hotel near the beach :slightly_smiling_face:|offer
+USR|Would this hotel offer free wifi?|request
+USR|I’d like to still be able to work if anything came up.|request
+SYS|Not just free wifi, it also offers free breakfast!|inform
+USR|Not to waffle too long on this decision, but can I also see what you have available in Guadalajara?|inform
+SYS|Nothing available for Guadalajara unfortunately.|sorry
+USR|I’ve heard Santo Domingo also has some nice beaches, got anything there?|inform
+SYS|Nothing either :disappointed:|no_result
+USR|Ok that SL choice really wasn’t bad, lets just book that|inform
+SYS|I agree!|offer
+SYS|You can get the entire family into business class for 7290.39.|offer
+SYS|Otherwise, economy seats are 6014.26.|offer
+USR|I want to treat my family, lets do business|switch_frame
+SYS|Perfect!|inform
+SYS|I have confirmed the booking.|inform
+SYS|You will depart in 2 days on the 4th.|inform
+SYS|Better start packing :slightly_smiling_face:|inform
+USR|Will do!|thankyou
+USR|Thanks!|thankyou

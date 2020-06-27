@@ -1,0 +1,19 @@
+USR|Hey there :slightly_smiling_face: I’m bringing my wife (2 adults) and 4 kids (6 people in total) on vacation for 8900 dollars|inform
+SYS|Anywhere special you would like to go?|request
+USR|Maybe Athens?|inform
+SYS|An where are you going to fly from?|request
+USR|Santos|inform
+SYS|We do not provide packages from Santos to Athens.|suggest
+SYS|Can I check other destinations for you?|suggest
+USR|Ahhh ok check Alexandria|inform
+SYS|Santos to Alexandria offers the Bronze Inn & Suites  for an 8 day stay.|offer
+SYS|This is a 3 star hotel, close to the university and including free wifi, parking and breakfast for the whole family.|offer
+SYS|All this for 8783.14USD.|offer
+USR|One last thing I wanted to check on was Houston packages.|inform
+USR|What’ve you got there?|inform
+SYS|There are no trip packages provided from Santos to Houston.|no_result
+USR|Ok, well I guess we’ll have to go with Alexandria|switch_frame
+SYS|Should I book the Bronze Inn & Suites for you then?|suggest
+USR|Sure, let’s do it|affirm
+SYS|I will arrange that for you right away.|inform
+USR|Great, thank you|thankyou

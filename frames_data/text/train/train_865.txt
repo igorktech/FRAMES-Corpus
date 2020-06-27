@@ -1,0 +1,25 @@
+USR|Denver to Porto Alegre please for multiple passengers|inform
+SYS|How many travellers?|request
+USR|4 kids and 5 adults|inform
+SYS|When would you like to travel?|request
+USR|I believe I said Porto Alegre|inform
+SYS|I believe I asked when.|request
+USR|anytime dammit|inform
+SYS|From September 1st-19th I have a 3 star hotel.|offer
+SYS|The cost for your party of 9 would be 19295.43USD.|offer
+USR|well that sounds pretty good.|request
+USR|what's included?|request
+SYS|Free breakfast and free wifi.|inform
+USR|beach side?|request
+USR|we love the beach.|request
+USR|Hope it's clean.|request
+SYS|It is near a university.|inform
+USR|well that sucks.|inform
+USR|got anything on the beach?|inform
+SYS|I have a 13 day package at a 4 star beachside hotel - also located close to shopping, a park, and a mall - with a 10/10 user rating.|offer
+SYS|The cost would be 20806.86USD.|offer
+USR|why didn't you suggest this in the first place?|inform
+USR|well I prefer this one, beach it is and love the user rating.|inform
+USR|Book it please.|inform
+SYS|Your wish is my command.|inform
+USR|Thank you!|thankyou

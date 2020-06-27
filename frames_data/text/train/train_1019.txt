@@ -1,0 +1,24 @@
+USR|hello.|inform
+USR|lima please|inform
+SYS|From where?|request
+USR|osaka|inform
+SYS|Do you have a budget?|request
+USR|5300 dollars|inform
+SYS|For 1 adult?|suggest
+USR|yes for one adult|inform
+SYS|When would you like to leave?|request
+USR|september 14th i start my holidays.|inform
+USR|and i must be back to work october 4th|inform
+SYS|Do you prefer a 3.5 star hotel or a 4 star hotel?|offer
+USR|I want to stay on the beaches and near markets, and I want free wifi|inform
+SYS|Every hotel is near a park.|inform
+USR|that is pretty good...book the 4 star please|inform
+SYS|Okay.|offer
+SYS|Would you prefer 11 days from September 15th to 24th or 9 days from September 26th to October 3rd?|offer
+USR|11 days how much would that cost?|request
+SYS|For business flights, 4054.90 and for economy flights, 3152.83.|offer
+USR|economy please|switch_frame
+SYS|Great!|inform
+SYS|It is booked!|inform
+SYS|Have a great day and enjoy the trip!|inform
+USR|i appreciate your assistance|thankyou

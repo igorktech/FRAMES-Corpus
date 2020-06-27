@@ -1,0 +1,30 @@
+USR|ay whats up?|greeting
+SYS|How can i help your Vacation needs?|greeting
+USR|me and the squad are trying to get to Baltimore for some fun in and out of the sun|inform
+SYS|Ok, let me narrow down this search for you!|request
+SYS|how many people will be attending this party?|request
+USR|jeez i dunno hopefully like 1 billion HAHA but im only paying for me and my 3 top gals cause i just turned 18 and can access daddy's trust fund :heart_eyes:|inform
+SYS|Perfect!|request
+SYS|let’s find the best package for you!|request
+SYS|When are you planning on leaving?|request
+USR|this year spring break starts august 17|inform
+SYS|Where will you be departing from?|request
+USR|salvador|inform
+SYS|I am assuming there is no budget?|suggest
+USR|ummm actually ive only got 10 grand for this trip and 5500 is for alcohol and shopping so.... 3500 TOPS please|inform
+SYS|There is only one option for Hotels in Baltimore, being the Countryside Resort.|offer
+SYS|We have 8 day stars with departures on August 18th and 25th|offer
+USR|oh... well that hotel should be PERFECT.|request
+USR|how many stars?|request
+SYS|it is a 3.0 star hotel|inform
+USR|omg i just realized i can't math at all lol i could actually spend 4500 on the trip....|inform
+SYS|actually with that in mind, no trips are available to baltimore at the moment|no_result
+USR|what?!|null
+USR|no trips for MORE money?|null
+SYS|yes, it seems that all the trips run around $10000|inform
+USR|omg that is INSANE.|goodbye
+USR|good bye.. i'll be back|goodbye
+SYS|would you be interested in going to another location?|suggest
+USR|no it HAS to be baltimore and it HAS to be perfect.|thankyou
+USR|thanks anyways|thankyou
+SYS|I am sorry for inconvenience|sorry

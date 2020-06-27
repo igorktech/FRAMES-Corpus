@@ -1,0 +1,21 @@
+USR|I want to go somewhere from toronto.|inform
+USR|ideally between spt 9 and spt 24.|inform
+USR|we will be 1 adult and 4 children.|inform
+USR|we have 13700.|inform
+SYS|How do you feel about a trip to Los Angeles?|offer
+SYS|We have a 3 star hotel with a guest rating of 8.86/10 and it includes free parking, breakfast, and wifi.|offer
+SYS|Are you interested?|offer
+USR|Sounds pretty good but can you tell me what other trips are available.|request_alts
+SYS|Of course.|offer
+SYS|We also have a 16 day trip to Rio de Janeiro, Brazil as well as a 15 day trip to Madrid, Spain, at a 5 star hotel.|offer
+SYS|Does any of this interest you?|offer
+USR|Can I hear about the Spain package?|switch_frame
+SYS|Sure thing!|offer
+SYS|It includes free breakfast and wifi and the hotel has a guest rating of 9.16 out of 10.|offer
+SYS|There is also a museum, a cathedral, and a palace nearby so there are plenty of activities for you and the children to do!|offer
+SYS|Economy class costs a total of 7377.47 while business would be 9264.90.|offer
+SYS|Are you interested in this package?|offer
+USR|sure put us down for economy flights please.|switch_frame
+SYS|An excellent choice!|inform
+SYS|You will receive a confirmation email shortly.|inform
+USR|thanks|thankyou

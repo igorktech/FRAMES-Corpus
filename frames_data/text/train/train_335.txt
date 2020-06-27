@@ -1,0 +1,35 @@
+USR|hello we are 6 very quiet foreign exchange students from Santiago and we think that we need to start socializing more so we are thinking of going to Rome for spring break|inform
+SYS|I can certainly help you with that!|request
+SYS|What are the departure and return dates you have in mind?|request
+USR|our spring break is between Sept 2 and Sept 22 but we don't have to be away for the whole time|inform
+SYS|Great!|request
+SYS|What kind of budget did you have in mind?|request
+USR|we have 11900 to spend we have been saving all year|inform
+SYS|I am excited to present you with our travel package featuring the 4-star hotel The Double Pastures!|offer
+SYS|The hotel is near the cathedral; free breakfast and wi-fi is included.|offer
+SYS|You will be departing on September 11 and returning on September 21.|offer
+SYS|The cost of the trip will be 5649.61.|offer
+SYS|Should I go ahead and book this trip for you?|offer
+USR|we want to see what there is in Hamburg|inform
+SYS|Certainly!|offer
+SYS|We have a trip to Hamburg departing on September 12 and returning on September 20.|offer
+SYS|You will be staying at the acclaimed Traveller Inn, a 4-star establishment located in the heart of the city.|offer
+SYS|The hotel features free breakfast and wi-fi.|offer
+SYS|The cost of the trip will be 6887.42.|offer
+SYS|Would you like me to book this trip instead?|offer
+USR|so they are both 8 day packages?|request_compare
+SYS|Sorry, I do not understand|sorry
+USR|how many days is each package|?|request_compare
+SYS|The package to Rome is 11 days|inform
+USR|and the package to Hamburg?|switch_frame
+SYS|The package to Hamburg is 9 days|inform
+USR|looks to me like they are pretty equivalent but just to be sure, Hamburg is downtown?|inform
+SYS|I can confirm that the Traveller Inn is conveniently located near the heart of the city.|inform
+USR|I have discussed is with my fellow students and we have decided we will go to Hamburg are you able to help us book that|inform
+SYS|Absolutely!|suggest
+SYS|Would you like for me to book the travel package to Hamburg?|suggest
+USR|yes please! :|affirm
+USR|relieved:|affirm
+SYS|Excellent, I have just completed your booking and will send an email confirmation to you shortly.|inform
+SYS|We hope you have a wonderful trip! :|inform
+SYS|slightly_smiling_face:|inform

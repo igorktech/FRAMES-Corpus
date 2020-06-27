@@ -1,0 +1,33 @@
+USR|Hey there, I need to book a trip to get away!|inform
+SYS|Ok!|request
+SYS|Where?|request
+USR|I'm thinking about taking my family to Denver.|inform
+SYS|How many of you would be travelling?|request
+USR|I'll just be me, my wife, and our son.|inform
+SYS|Ok.|request
+SYS|Where are you leaving from?|request
+USR|Fukuoka.|inform
+SYS|And have you got a travel budget?|request
+USR|I don't want to spend any more than 4900.|inform
+SYS|Unfortunately I cannot get you all to Denver for that price.|sorry
+SYS|Any other destinations to explore?|sorry
+USR|Oh that's too bad.|request_alts
+USR|My son was looking forward to it.|request_alts
+USR|But yeah we can try somewhere else.|request_alts
+SYS|Where?|request
+USR|How about Nagoya?|inform
+SYS|I can do that.|offer
+SYS|I have the 3 star Oceanside Resort available for 9 days from September 12th to 20th.|offer
+SYS|You would be staying near a university and have access to free parking, complimentary breakfast, and unlimited wifi usage.|offer
+SYS|The total for your family of 3 would be 1554.40 USD.|offer
+USR|Do you happen to have any six day packages?|inform
+SYS|Sorry, this is the only package I have for Nagoya.|sorry
+USR|You know what, I'll take it.|inform
+USR|It's within my budget after all.|inform
+SYS|Great!|offer
+SYS|I can upgrade you to business class flights at a total cost of 1723.51USD if you would like.|offer
+USR|Thanks for the offer, but I don't really need it.|inform
+USR|I'm good with economy class!|inform
+SYS|Ok, I will proceed with the economy class booking.|inform
+USR|Excellent, thank you.|thankyou
+SYS|You are oh so very welcome|you_are_welcome

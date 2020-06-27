@@ -1,0 +1,15 @@
+USR|Hi im looking to go on a trip to baltimore|inform
+SYS|What city will you be departing from?|request
+USR|Im from Las Vegas!|inform
+SYS|Let me know how this sounds: 10 days at Baltimore 's Countryside Resort starting August 18.|offer
+USR|im looking to leave on August 25th, do you have anything around there?|inform
+SYS|I could book you 10 days in Baltimore leaving on the 25th.|offer
+USR|10 days in baltimore seem perfect!|moreinfo
+USR|can you tell me about the hotels?|moreinfo
+SYS|The only available hotel is the Countryside Resort.|inform
+SYS|It is a 3-star hotel with a 7.06/10 guest rating, free wifi, free parking and free breakfast.|inform
+SYS|Do you want me to book this trip?|inform
+USR|ya for sure!|switch_frame
+SYS|Booked!|inform
+SYS|Your flight leaves Thursday, August 18th at 5:13 p.m. Enjoy your stay!|inform
+USR|thank you so much|thankyou

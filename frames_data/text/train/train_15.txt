@@ -1,0 +1,19 @@
+USR|Hey man, imma leave from Godric's Hollow on August 27, 2016 and go to Goiania.|greeting
+USR|Can't pay more than 4300USD.|greeting
+USR|Watcha got?|greeting
+SYS|Hello, how many people will be travelling to Goiania?|greeting
+USR|Just me|inform
+SYS|I cannot find any trips to Goiania leaving from Godric's Hollow.|suggest
+SYS|Is there another nearby city you could depart from?|suggest
+USR|yeah how about Montreal?|inform
+SYS|I can book you 11 days in Goiania for 3374.42USD.|offer
+SYS|Are you interested?|offer
+USR|that's leaving on August 27th?|confirm
+SYS|You will leave Montreal on Tuesday, August 16th 2016.|inform
+USR|nothing closer to the 27th?|request_alts
+SYS|I can book 11 days at the same hotel for 3549.83USD leaving on August 25.|suggest
+USR|ya that's awesome.|switch_frame
+USR|I'll book it.|switch_frame
+USR|thanks man.|switch_frame
+SYS|Ok, I will book that trip.|inform
+SYS|Enjoy.|inform

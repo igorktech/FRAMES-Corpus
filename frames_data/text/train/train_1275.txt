@@ -1,0 +1,14 @@
+USR|I NEED TO GET OUT OF NORTH VANCOUVER ON SEPTEMBER 8TH.|inform
+USR|CAN I GET A FLIGHT TO DUBLIN?|inform
+SYS|Why yes of course!|offer
+SYS|We have a 13 day package costing 1181.12 for economy class leaving North Vancouver on September 14th.|offer
+SYS|How does that sound?|offer
+USR|NO I NEED TO LEAVE ON THE 8TH.|inform
+SYS|The earliest flight we have is September 11th.|offer
+USR|NO I NEED TO LEAVE ON THE 8TH.|inform
+USR|DO YOU HAVE ANYTHING LEAVING FROM CLEVELAND|inform
+SYS|Again, our earliest flight is still September 11th.|suggest
+SYS|Would you like to leave from another city?|suggest
+USR|NO BUT I CAN GO TO SACRAMENTO|inform
+SYS|I'm sorry, our earliest flight is still September 11th.|sorry
+SYS|How else can I help you?|sorry

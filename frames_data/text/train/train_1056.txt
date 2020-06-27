@@ -1,0 +1,6 @@
+USR|Hi there, my friends and I would like to go to Belo Horizonte from Tofino for a couple days please.|inform
+SYS|I can’t offer anything out of Tofino unfortunately.|sorry
+SYS|Is there an alternate departure city I could try for you?|sorry
+USR|But all 9 of us will be coming from there!|inform
+SYS|Can I look into something else for you?|suggest
+USR|No thank you.|negate

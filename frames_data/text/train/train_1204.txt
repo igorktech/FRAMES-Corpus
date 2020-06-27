@@ -1,0 +1,36 @@
+USR|Can I go to La Paz from Santos between september 12th and 27th?|inform
+SYS|Sure!|offer
+SYS|I have Echo available from September 13th-20th.|offer
+SYS|How does that sound?|offer
+USR|Sounds good, could you tell me more about the hotel and the price?|moreinfo
+USR|I don't have a budget.|moreinfo
+SYS|The hotel is 4 stars with 8.98/10 in user reviews.|inform
+SYS|The price for economy class flights in your package would be 2203 dollars.|inform
+USR|That is really good actually.|request
+USR|What is the price for business class|request
+SYS|2809.92USD for business class.|offer
+USR|nice.|inform
+USR|Do you have anything to Marseille?|inform
+SYS|I sure do!|offer
+SYS|I have two different 4 star hotels available.|offer
+SYS|One with a 8.98/10 guest rating and another with 8.69/10.|offer
+USR|Give me info on the 8.98/10|switch_frame
+SYS|Hotel Duchesse is near a museum, has free wifi, and has packages available from Sept 12-17 or 16-22.|offer
+USR|coolio.|inform
+USR|Do you have anything to San Antonio?|inform
+SYS|I do, but the hotels are all 2.0 stars.|inform
+SYS|Do you want to hear about them?|inform
+USR|no thanks.|inform
+USR|Can you tell me what you have in Pittsburgh?|inform
+SYS|In Pittsburgh I have two different 2.5 star hotels within your date range.|inform
+USR|I think I like the La Paz package but what do they have amenities?|request
+SYS|La Paz has free parking, free breakfast, and free wifi at the hotel I mentioned for you earlier.|inform
+USR|okay thats fine.|switch_frame
+USR|Can you book me for the Marseille trip from the 16th to 22nd?|switch_frame
+SYS|I sure can!|suggest
+SYS|Economy or business class?|suggest
+USR|How much is the business one?|request
+SYS|4020.63USD|offer
+USR|works for me, book it|inform
+SYS|Great - consider it booked!|inform
+USR|Thanks!|thankyou

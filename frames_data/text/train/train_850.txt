@@ -1,0 +1,29 @@
+USR|Hi there!|inform
+USR|I have 3800 to spend
+I live in Milan
+Would i be able to get to Philadelphia?|inform
+SYS|Sure can!|offer
+SYS|You can go for as long as 11 days.|offer
+USR|Would it be at an upscale hotel?|request
+SYS|I wouldn't say so.|inform
+SYS|It's a 2 star hotel, although it has 6.61/10 average client rating.|inform
+USR|Alright.|inform
+USR|Lets try another place: Kocchi|inform
+SYS|That's not a bad choice!|offer
+SYS|With your money you can stay 8 days at a 3.5 star hotel and 12 days at a 2.5 star hotel.|offer
+USR|Is the 3.5 star hotel near anything of note?|request
+SYS|Are you kidding?|inform
+SYS|It's in the heart of the city and next to a park!|inform
+USR|Why would I be kidding?|inform
+USR|I did not expect to come here and get insulted by a bot.|inform
+USR|ok you know what
+indianapolis also seems like it’d be cool|inform
+SYS|It is very cool!|offer
+SYS|With you budget you can go there for 10 days in a 2.5 star hotel.|offer
+USR|2.5 stars?|request
+USR|how are the guest ratings then?|request
+SYS|Not bad.|inform
+SYS|It's rated 6.37/10 on average.|inform
+USR|Thats it for today, thank you|thankyou
+SYS|You're welcome!|you_are_welcome
+SYS|Have a nice trip back to real life!|you_are_welcome

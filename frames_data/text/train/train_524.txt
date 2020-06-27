@@ -1,0 +1,30 @@
+USR|Hellooooo.|inform
+USR|I’m looking to get out of Valencia and check out Hiroshima
+Please let me know what is available between August 27 and September 14|inform
+SYS|Are the dates flexible?|request
+USR|No|inform
+SYS|I have 7 days from September 8th to 13th at 4.5 star hotel for 2964.61$|offer
+USR|Whats close to the hotel?|request
+SYS|a museum|inform
+USR|OkWhat do you have available in Ciudad Juarez?|inform
+USR|Same date range|inform
+SYS|I have 3 star and 3.5 stars hotels, for 7- 11 and 13 days|offer
+USR|Anything on the beach?|request
+SYS|Hotels are near museum, palace or market ... nothing on the beach unfortunately|sorry
+USR|Anything on the beach or somewhat luxuiours in Fortaleza, leaving from Valencia?|inform
+SYS|We have 10 days, 8 days or 6 days trip|offer
+USR|What are the hotels like?|request_compare
+SYS|all 3 stars hotel|inform
+USR|And on the beach?|request_compare
+SYS|Near shopping mall, park and museum|inform
+USR|Well what do you have available in Fort Lauderdale??|inform
+SYS|2 stars hotel near the market for 2605.86USD economy class and 3364.5USD business class|offer
+USR|Ah, not interested in a 2 star.|switch_frame
+USR|Can you tell me more about the 4.5 star in Hiroshima|switch_frame
+SYS|2964.61USD for 7 days in economy class or 3828.45USD in business class.|offer
+USR|What is the hotel like?|request
+SYS|free wifi near museum|inform
+USR|Ah, ok.|inform
+USR|Well lets go ahead and book Hiroshima|inform
+SYS|ok, I will do that and send you a confirmation as soon as it is done.|inform
+USR|Thanks|thankyou

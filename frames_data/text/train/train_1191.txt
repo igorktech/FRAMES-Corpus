@@ -1,0 +1,23 @@
+USR|I have 7 kids and we would like to go to Dublin.|inform
+USR|They want to see their mom, she works there.|inform
+USR|We live in Santa Cruz.|inform
+SYS|So 7 children and 1 adult?|request
+SYS|Do you have a budget?|request
+USR|yup and no budget.|inform
+SYS|How many days would you like to go for?|request
+SYS|And do you have any dates in mind?|request
+USR|nothing in mind, we can go wheneveer|inform
+SYS|I have a 14 day package and a 15 day package, is there one that interests you more?|offer
+USR|15|switch_frame
+SYS|Our 15 day package includes a hotel that offers free parking, breakfast, and wifi, and comes to a grand total of 12492.91 for economy and 16223.62 for business.|offer
+SYS|Would you like to book this trip?|offer
+USR|What is the hotel rated and what is the guest rating|request
+SYS|It's a 2.5 star hotel with a guest rating of 6.77/10.|suggest
+SYS|2.5 star hotels are the most highly rated that we have in our packages from Santa Cruz to Dublin.|suggest
+SYS|Would you like me to proceed with booking for this trip?|suggest
+USR|Thats pretty pricey for a 2.5 star hotel…..Can you check the shortest trip available to Nagoya?|inform
+SYS|We only have one package for Nagoya, and it's 15 days long.|offer
+SYS|Are you interested?|offer
+USR|ugh thats long.|thankyou
+USR|I think we will just go somewhere else to book.|thankyou
+USR|Thanks anyway tho.|thankyou

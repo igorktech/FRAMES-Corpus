@@ -1,0 +1,7 @@
+USR|hi.|inform
+USR|paris to curitiba on september 24 please
+i can spend 2300 dollars and must be home by 27th|inform
+SYS|Traveling alone?|suggest
+USR|yes|affirm
+SYS|Sorry, there are no results showing for Paris and your return date.|sorry
+SYS|Are you able to change one of these?|sorry

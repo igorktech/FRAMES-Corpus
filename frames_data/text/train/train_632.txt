@@ -1,0 +1,14 @@
+USR|i am in santiago and need a trip under 4200 dollars|inform
+SYS|You can go to Puebla, for one, where you will be staying 17 days at the Grand Brewery Mexico from September 2 to 17.|offer
+SYS|Thoughts?|offer
+USR|oh i need to travel from sept 8 until 13|inform
+SYS|How about the Echo in La Paz, from September 8 to 13?|offer
+USR|could be good - what are the details of the hotel|moreinfo
+SYS|4 stars with a sterling 8.98/10 guest rating, perhaps because it offers a full suite of amenities: free parking, free breakfast, and free wifi.|inform
+USR|what is the price?|request
+SYS|For one adult, the price is 2615.94USD.|inform
+USR|its perfect!|inform
+USR|i would like to book it|inform
+SYS|Done!|inform
+SYS|It was a pleasure working with you today :slightly_smiling_face:|inform
+USR|ok thank u|thankyou

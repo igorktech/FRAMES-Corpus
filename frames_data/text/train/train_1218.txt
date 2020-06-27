@@ -1,0 +1,24 @@
+USR|I wanna find a vacation between yesterday and the 24th for under 3200 and leaving from Tijuana|inform
+SYS|Ok!|request
+SYS|Do you have a destination in mind?|request
+USR|no|inform
+SYS|Ok, well I’ll let you know the top options I’ve got.|offer
+SYS|I have a 16 day package to Porto, 14 days in Los Angeles, Rio de Janeiro, or Tampa, 13 days in Vancouver, or Goiania.|offer
+USR|Tell me about Porto|switch_frame
+SYS|The hotel Amistad is 3.5 stars with 9.16/10 from past guests.|inform
+SYS|It is near a mall, shopping district, and univeristy.|inform
+SYS|The total with economy flights would be 3064.92 dollars, including breakfast and wifi.|inform
+USR|Tell me about the Goiania package|switch_frame
+SYS|With economy class flights, you could stay at Scarlet Palms Resort for 2903.54 USD.|inform
+SYS|This 3.5 star hotel is near a park and shopping district.|inform
+USR|whats the guest rating|request
+SYS|7.15/10|inform
+USR|I like the one to Porto can you book it?|inform
+SYS|Sure!|inform
+SYS|Will that be everything for you today?|inform
+USR|ya but are there business class flights for porto?|inform
+SYS|Not within your budget, sorry.|sorry
+USR|ok thats fine, economy it is.|switch_frame
+SYS|Great - I’ll book economy class.|inform
+SYS|Enjoy your trip!|inform
+USR|thanks|thankyou

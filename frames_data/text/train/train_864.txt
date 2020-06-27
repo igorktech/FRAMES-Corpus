@@ -1,0 +1,33 @@
+USR|Hi there.|inform
+USR|I’d like for you to take me anywhere really
+Do you do flights out of Milan?|inform
+SYS|Of course, give me your desired travel dates, # people, and budget and I will help you find your destination :slightly_smiling_face:|request
+USR|Cool.|inform
+USR|Dates are Sept 6 to 15|inform
+SYS|Do you have a budget in mind?|request
+SYS|And are you traveling alone or in a group?|request
+USR|No budget, and I’m traveling alone!|inform
+SYS|I have quite a few options for you!|offer
+SYS|Do you only want to hear about hotels at least 4 stars?|offer
+USR|You know exactly what I want!|inform
+USR|Also please book a trip for 5 days minimum|inform
+SYS|:wink: Will do!|offer
+SYS|Our best packages are these: 9 days at a 4 star hotel in Santo Domingo, 8 days at a 4 star hotel in Paris, 8 days at a 5 star hotel in Berlin, and 8 days at a 8.86 star hotel in Hamburg.|offer
+USR|Ok great.|request
+USR|Is the Santo Domingo hotel near the beach?|request
+SYS|You bet!|inform
+SYS|It's next to the beach and shopping!|inform
+USR|How about Paris.|request
+USR|But is it near a museum?|request
+SYS|Yup!|inform
+SYS|Not just a museum!|inform
+SYS|Also a cathedral and shopping!|inform
+USR|Does that cost more or less than the Santo Domingo trip?|request_compare
+SYS|It's about half of the Santo Domingo trip's price.|inform
+USR|Whats the exact cost?|request
+SYS|For Paris it's 938.44 for economy, 1132.43 for business.|offer
+SYS|For Santo Domingo it's 1930.48 for economy, 2474.61 for business.|offer
+USR|Ok book me for Paris, economy!|switch_frame
+SYS|You are all set!|inform
+USR|Thanks!|thankyou
+SYS|It's my absolute pleasure!|you_are_welcome

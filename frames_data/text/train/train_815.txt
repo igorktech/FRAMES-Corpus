@@ -1,0 +1,31 @@
+USR|San Diego to Pittsburgh for 7 adults total|inform
+SYS|Hi there, how much are you willing to pay?|request
+USR|anything|inform
+SYS|How long would you like to stay and when do you want to leave?|request
+USR|whenever|inform
+SYS|The best package I have in Pittsburgh is at a 3.5 star hotel, rated 8.86/10.|hearmore
+SYS|I also have a few 2.5 star hotels.|hearmore
+SYS|What would you like to hear more about?|hearmore
+USR|i only want to hear about the very best, so business class and high rated hotels|inform
+SYS|Okay, this 3.5 star hotel is our very best in Pittsburgh.|offer
+SYS|It is rated 8.86/10 by guests.|offer
+SYS|It offers free parking, free breakfast, free wifi, and is located near a park.|offer
+SYS|I have a 11 day package with business flights for 6878.36.|offer
+USR|okay.|inform
+USR|do you have anything to Calgary|inform
+SYS|Sure do!|offer
+SYS|The best package we have in Calgary puts you in a 4.0 star hotel, with guest rating 0/10.|offer
+SYS|It is close to a university and offers free wifi and parking.|offer
+SYS|For business packages, we have 12 or 6 day ones.|offer
+USR|Ok what do yu have for burlington?|inform
+SYS|In Burlington our best is a 3.0 star hotel with guest ratings of 8.69/10 and easy access to a park.|offer
+SYS|While there, you can enjoy free breakfast and free wifi.|offer
+SYS|We have a 6 day business package available.|offer
+USR|i think ill take the 4 star business package to Calgary|inform
+SYS|Sounds good!|confirm
+SYS|Would you prefer to stay for 6 or 12 days?|confirm
+USR|12|switch_frame
+SYS|Perfect!|inform
+SYS|The 12 day business package is booked for you for 3743.45.|inform
+SYS|Email confirmation is coming your way!|inform
+USR|thanks|thankyou

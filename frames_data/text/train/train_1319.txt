@@ -1,0 +1,16 @@
+USR|Hi there, I'm looking to go to Brasilia between September 30 and October 4, could you help me?|inform
+SYS|Yes!|request
+SYS|Where are you leaving from?|request
+USR|Portland|inform
+SYS|Ok, and will you be travelling alone?|suggest
+USR|yes!|affirm
+SYS|And have you got a budget?|request
+USR|Yes, I'm looking for something not more than 2000.|inform
+SYS|I can’t offer anything in Brasilia direct from Portland, is there another destination I could check?|suggest
+USR|Nothing?|null
+USR|Nothing at all?|null
+SYS|Nothing.|no_result
+USR|Okay then.|goodbye
+USR|I'm off.|goodbye
+USR|Bye.|goodbye
+SYS|Bye!|goodbye

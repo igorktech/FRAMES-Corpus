@@ -1,0 +1,13 @@
+USR|drop what you’re doing and book me a flgith!|inform
+SYS|That's what I'm here for.|request
+SYS|Where would you like to go?|request
+USR|campinas to portland!|inform
+USR|Now!|inform
+SYS|Sure, do you have a budget?|request
+USR|nope!|inform
+SYS|When would you like to leave and return?|request
+USR|no dates in mind to be honest|inform
+SYS|There are no results.|no_result
+USR|are there results for manaus at least?|inform
+SYS|Yes.|offer
+SYS|3 star hotel, park, museum, palace, 8.49/10 guest rating, free parking, breakfast and wifi, from September 10th to 21st, 476.72 for economy, and 523.20 for business.|offer

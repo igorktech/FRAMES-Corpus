@@ -1,0 +1,13 @@
+USR|Hi!|inform
+USR|I need to book an emergency trip for 10 adults and 14 children!|inform
+SYS|Where are you leaving from and where would you like to go?|request
+USR|I'm leaving from Kyoto and I want to go to Diagon Alley!|inform
+SYS|Do you have a budget and/or dates that you want to travel?|request
+USR|I have a budget of 3500 and I have no time frame for the trip, I can leave any time.|inform
+SYS|I'm sorry to inform you that there are no flights to Diagon Alley.|sorry
+SYS|Is there somewhere else you'd like to visit?|sorry
+USR|No... I really need to go there to steal a legendary recipe from pastry chef that I have long battled with for the best croissants!|negate
+SYS|Well I am very sorry but there are no results for Diagon Alley in my database.|sorry
+USR|I am sorry too.|goodbye
+USR|Now I will lose the title of best croissant maker.|goodbye
+USR|Goodbye!|goodbye

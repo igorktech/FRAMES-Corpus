@@ -1,0 +1,35 @@
+USR|I live in Toronto, can we se what packages are available in Cairo from August 17 to September 7?|inform
+SYS|I have no flights on those dates going from Toronto to Cairo.|suggest
+SYS|Are you able to fly out of Fort Lauderdale, Alexandria or Boston instead?|suggest
+SYS|Or can we look at other destinations?|suggest
+USR|Lets take a look at Pittsburgh as a destination!|inform
+SYS|You would have to fly out of St. Petersburg or Burlington.|suggest
+SYS|Any other destination we could consider?|suggest
+SYS|Do you have a budget?|suggest
+USR|How about Leon?|inform
+SYS|We have no flights out of Toronto at all.|suggest
+SYS|Are you able to leave from another city?|suggest
+USR|Can you tell me where the nearest city with available flights is?|request_alts
+SYS|I am sorry, I have no packages available in Leon.|no_result
+USR|What about flights to La Paz from Toronto?|inform
+SYS|Did you have a budget in mind?|request
+USR|Not for this trip, my future child deserves the very best!|inform
+SYS|Regrettably, the only packages available for La Paz are out of Tijuana or Puebla.|suggest
+USR|I have business in Calgary around those dates, what say I leave from Calgary, could I get a trip somewhere?|inform
+SYS|As a matter of fact, I have the Echo, which is a nice 4 star property available in La Paz from August 19th to August 24th, with a direct flight from Calgary.|offer
+SYS|Is this something that could work for you?|offer
+USR|That is excellent!|moreinfo
+USR|Can you tell me more about this hotel?|moreinfo
+USR|Does it include breakfast and free wifi?|moreinfo
+USR|Or a spa perhaps?|moreinfo
+SYS|The Echo includes free wifi, free breakfast and free parking should you want to rent a car during your stay.|hearmore
+SYS|I have both economy class or business class available.|hearmore
+SYS|Would you like me to provide you with some pricing?|hearmore
+USR|Yes, thank you.|affirm
+USR|I prefer business class for this trip.|affirm
+SYS|The total cost of your package based on a business class flight will be $1415.48USD.|suggest
+SYS|Would you like me to go ahead and book that for you?|suggest
+USR|What a deal!|switch_frame
+USR|Yes please do.|switch_frame
+SYS|Thank you and have a very pleasant day.|thankyou
+USR|Thank you, I was great dealing with you!|thankyou

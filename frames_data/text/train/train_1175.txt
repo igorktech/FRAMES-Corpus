@@ -1,0 +1,7 @@
+USR|I want to fly from Jerusalem to Rio de Janeiro|inform
+SYS|I'm afraid we don't have any flights from Jerusalem available.|sorry
+SYS|Would you like to leave from another city?|sorry
+USR|No|negate
+SYS|I'm sorry I cannot be of more service to you.|sorry
+USR|Goodbye|goodbye
+SYS|Thanks for stopping by!|thankyou

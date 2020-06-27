@@ -1,0 +1,32 @@
+USR|Hey hey.|inform
+USR|Got 6 days off starting Sept 8.|inform
+USR|Flying out from Cleveland.|inform
+USR|Got any recommendations?|inform
+SYS|budget?|request
+USR|Willing to splurge if its an attractive option!|inform
+SYS|Can you leave the 8th?|offer
+SYS|We have a holiday to Naples that starts that day.|offer
+USR|Yes that would be ideal actually|switch_frame
+SYS|The package includes a stay at Courtyard Resort which boasts 3 stars and 8.8/10 for user reviews.|inform
+SYS|It's in the heart of Naples and close to a museum.|inform
+SYS|What do you think?|inform
+USR|That sounds really good to me but I would like to weigh my options a little first.|request_alts
+USR|Do you have any other destinations to show me?|request_alts
+SYS|I can also suggest trips to Philadelphia and Chicago, but those only leave September 12th.|offer
+SYS|Is that too late for you?|offer
+USR|Lets hear about the trip to Philadelphia|switch_frame
+SYS|Sure, this is a trip to Philadelphia, US.|inform
+SYS|With this package you would stay at a 2 star Mirror Inn close to a museum and a park.|inform
+USR|Thats alright but I’m a little disappointed with the hotel.|request_compare
+USR|Would Chicago offer a better one?|request_compare
+SYS|The hotel in Chicago has 2.5 stars.|request
+SYS|How fancy of a hotel are you hoping to stay at?|request
+SYS|And by that I mean how many stars?|request
+USR|I was hoping for something similar to the one in Naples.|request
+USR|Ok thats fine though.|request
+USR|How much would the Naples package cost?|request
+SYS|2998.72USD with economy and  3862.24USD with business class plane tickets.|offer
+USR|Ok book me for economy and lets call it a day|inform
+SYS|Sounds good!|inform
+SYS|I will proceed with booking.|inform
+USR|thank you kindly|thankyou

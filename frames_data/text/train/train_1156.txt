@@ -1,0 +1,29 @@
+USR|I am young and rich and oh so cool and I want to give myself the best birthday bash ever just like the Kardashians, but better even.|inform
+USR|I need YOU to find me the BEST PLACE EVEEEER to go party with my crew of super cool girls.|inform
+SYS|Okay.|request
+SYS|Where do you want to go and where will you be leaving from?|request
+USR|We are from Monterrey.|inform
+USR|St. Petersburg is back in style now and the paparazzi is sure to follow us there.|inform
+USR|We want to be SEEN.|inform
+SYS|I'm going to assume you don't have a budget.|request
+SYS|How many people will be traveling?|request
+USR|7+ moi|inform
+SYS|So 8 altogether?|confirm
+USR|Yes 8 super cool girls make sure we are in business class okaaaay|inform
+SYS|Do you have a preference on hotel ratings?|request
+USR|Of course I just told you I'm rich and cool and the paparazzi will be there and I want to be better than the Kardashians and THE BEST PLACE EVER so yes the best so a 5 with a spa and a pool and room service|inform
+SYS|There is nothing in St. Petersburg with 5 stars.|no_result
+USR|Okay San Diego, we'll go to San Diego that's hot right now too|inform
+SYS|There aren't any 5 star hotels here either.|no_result
+USR|Find me something in Cordoba or I'll get my daddy involved :thinking_face:|inform
+SYS|We have 5 star hotels here but none with a spa.|offer
+USR|Welll that's a bit better we will find our own spa i'm sure there are plenty in Cordoba tell me about the hotel.|request
+USR|Is it near a palace at least?|request
+SYS|It has a 8.98/10 guest rating, is near a museum, and offers free breakfast and wifi.|inform
+USR|What's the longest we can stay there we need to stay as long as possible to be SEEN|request
+SYS|11 days from the 17 to 26th of September.|inform
+USR|We need to go all the way business class how much is this going to cost my daddy?|request
+SYS|38736.52.|inform
+USR|Drop in the bucket!|inform
+USR|Make sure they have the best birthday cake ever for me okay?|inform
+USR|Send the bill to my daddy bye.|inform

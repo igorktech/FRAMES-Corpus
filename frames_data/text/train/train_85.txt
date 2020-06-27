@@ -1,0 +1,19 @@
+USR|Hi i am looking to go to Punta Cana with my three friends|greeting
+SYS|Hi there!|greeting
+SYS|What city will you be departing from?|greeting
+USR|hi I will be departing from Gotham city|inform
+SYS|I can't seem to find any flights to Punta Cana out of Gotham City.|suggest
+SYS|There is a package for an 8-day stay in Punta Cana starting on the 24th of August.|suggest
+SYS|Your city of departure would be Melbourne, USA.|suggest
+USR|I could leave from Melbourne USA.|inform
+USR|any packages in La Paz?|inform
+SYS|I can't seem to find any flights to La Paz.|no_result
+USR|i guess punta cana will do!|switch_frame
+SYS|Excellent!|suggest
+SYS|I can book a stay for you and your friends at the El Mar from the 24th to the 31st of August.|suggest
+SYS|The cost of this package is 656.60USD.|suggest
+SYS|Do you want me to book it.|suggest
+USR|that would be amazing let’s do it|inform
+SYS|Your trip has been booked!|inform
+SYS|Enjoy your stay!|inform
+USR|thank you!|thankyou

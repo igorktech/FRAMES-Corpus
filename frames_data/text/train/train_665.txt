@@ -1,0 +1,16 @@
+USR|Hi , looking for a business class package to Philadelphia, leaving Ciudad Juarez, after August 31st|inform
+SYS|Hello!|greeting
+USR|6 adults in total travelling|inform
+SYS|Do you have a budget?|request
+USR|Nope, but can't leave until after August 31st|inform
+SYS|We have a 2 star hotel near a park and museum, 6.61/10 guest rating, free parking, breakfast, and wifi, departing August 31st, returning September 10th, business class, total is 8106.32.|offer
+USR|Is anything nicer available in Philadelphia?|inform
+SYS|No.|no_result
+USR|Can you find something nicer in Baltimore?|inform
+SYS|We have a 3 star hotel near a park, 8.69/10 guest rating, free parking, breakfast, and wifi, business class flight, from September 2nd to 14th, and the price is 3955.65.|offer
+USR|How about  in San Francisco?|inform
+SYS|We only have 2.5 star hotels.|inform
+USR|So the best you can offer is the 3 star in Baltimore?|confirm
+SYS|Yes.|affirm
+USR|Ok, that'll do.|inform
+USR|Book that one please|inform

@@ -1,0 +1,22 @@
+USR|Melbourne please|inform
+SYS|From where?\|request
+USR|In Long Beach right now|inform
+SYS|I'm sorry, we do not currently offer any packages with that route at this moment.|sorry
+SYS|Please try another destination.|sorry
+USR|Okay fine... I could go to Kingston to see my bestie too|inform
+SYS|How long would you like to go for?|request
+USR|Doesn't matter as long as it's a nice hotel|inform
+SYS|We have one 4 star hotel that offers 6 and 12 day packages.|offer
+SYS|Which do you prefer?|offer
+USR|4 star is the best you got?|switch_frame
+SYS|Correct.|affirm
+USR|6 days only please.|inform
+USR|Business flights are available right?|inform
+SYS|Yes indeed.|offer
+SYS|Business costs 2533.69 at our 4 star hotel that includes free parking, breakfast and wifi.|offer
+SYS|Would you like to book?|offer
+USR|Alright sure let's get this over with|switch_frame
+SYS|Perfect.|inform
+SYS|Your package has now been reserved.|inform
+SYS|Bon voyage!|inform
+USR|Thanks!|thankyou

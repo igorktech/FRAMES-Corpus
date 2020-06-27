@@ -1,0 +1,20 @@
+USR|Hello!!!!!|inform
+USR|We are planning a family trip with my brother and his kids and we are thinking Gotham City would be super cool for the kids.|inform
+USR|Do you have any packages for less than $3200?|inform
+SYS|Gotham city does not have any packages with us.|request
+SYS|Are you willing to travel somewhere else?|request
+SYS|If so, where are you departing from and how many people will be in this party?|request
+USR|We all live in Termina.|inform
+USR|Anywhere else fun we could take the kids?|inform
+USR|Do you have anything to Disneyland?|inform
+USR|We are 5 adults and 11 kids.|inform
+SYS|I dont think we have anything to disneyland… may you tell me what dates you are willing to travel|request
+USR|We don't really have any set dates, sometime this summer would be great.|negate
+USR|If Disneyland is not available either, do you have any suggestions for us?|negate
+USR|Whatever you have that we can get to from Termina.|negate
+SYS|there seems to be nothing coming out of termina, would you be able to depart from anywhere else?|suggest
+USR|Not really.|inform
+USR|What if I increase my budget to $4200.00, can you offer us anything from Termina then?|inform
+SYS|I apologize it seems there are no flights leaving from termina|sorry
+USR|I will call around then and see if I can get a deal out of Termina somewhere else.|thankyou
+USR|Thank you for your help anyway,|thankyou

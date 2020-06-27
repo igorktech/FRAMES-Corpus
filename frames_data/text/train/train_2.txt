@@ -1,0 +1,29 @@
+USR|Hello there i am looking to go on a vacation with my family to Gotham City, can you help me?|greeting
+SYS|when  would you like to travel and how many people will you be?|request
+USR|Not sure when we want to leave, but we are 12 kids and 5 adults|inform
+SYS|do you have a budget?|request
+USR|yes i do, it is around $2200|inform
+SYS|where will you be travelling from?|request
+USR|We are from Neverland|inform
+SYS|We have nothing available leaving from Neverland, are you able to depart from another city?|suggest
+USR|we can depart from Toronto|inform
+SYS|Gotham City is not a destination we travel to.|suggest
+SYS|Are you interested in any other destinations?|suggest
+USR|hmm what options would i have out of Toronto?|inform
+SYS|Would you be interested in Calgary?|suggest
+USR|that would be nice|switch_frame
+SYS|I have a departure from Toronto to Calgary  on August 17 returning on August 24.|offer
+SYS|Does that work for you?|offer
+USR|No sorry i was planning on getting a tan this vacation.|request_alts
+USR|Thanks, is there anywhere else?|request_alts
+USR|Thank you
+is there anywhere else?|request_alts
+SYS|How about a trip to Dominican Republic?|suggest
+SYS|it is quite cheap at this time of year.|suggest
+USR|What options do you have available for me?|request
+SYS|I have the el Mar hotel available in Punta Cana this week.|offer
+USR|That sounds interesting.|switch_frame
+USR|how many stars does the hotel have?|switch_frame
+SYS|2.5 stars.|inform
+SYS|You would have to fly out of Melbourne though|inform
+USR|Ahh...maybe another time|goodbye

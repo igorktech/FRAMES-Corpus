@@ -1,0 +1,6 @@
+USR|so im following a special someone around the globe... I need to get form Busan to Mexico City|inform
+SYS|Do you have a budget?|request
+USR|yes 5 thousand|inform
+SYS|we have 3.5 star and 3.0 star hotels ranging from 5 days to 11 days|offer
+USR|well how about for 6000|inform
+SYS|I am sorry, thats all I have|no_result

@@ -1,0 +1,29 @@
+USR|I HAVE TO LEAVE FOR DENVER ON OR BEFORE AUGUST 23.|inform
+SYS|Great, from which city would you be departing?|request
+USR|MARSEILLE|inform
+SYS|How many adults and children will be on this trip?|request
+USR|JUST ME|inform
+SYS|Do you have a budget in mind?|request
+USR|2900 AND I NEED TO STAY IN YOUR BEST HOTEL IN Denver|inform
+SYS|Just to confirm, would you be traveling from Marseille to Denver?|confirm
+USR|FROM MARSEILLE TO DENVER ON OR BEFORE AUG 23 AND I HAVE TO STAY AT YOUR BEST HOTEL FOR UNDER 2900.|inform
+USR|COMPRENDE?|inform
+SYS|I am pleased to announce that we have a travel package available, leaving Marseille for Denver on August 23 and returning on August 27.|offer
+SYS|You will be staying at the acclaimed Oriental Resort, a 3 star hotel with close proximity to museums and universities.|offer
+SYS|The hotel boasts a 0/10 guest rating and features free wi-fi.|offer
+SYS|You would be flying economy class, and the total cost comes out to 1665.15.|offer
+SYS|Would you like to confirm this booking?|offer
+USR|WHAT DO YOU HAVE IN 5 STAR RATED HOTELS.|inform
+USR|I NEED TO STAY AT THE BEST OF THE BEST.|inform
+SYS|Unfortunately, I do not have a 5 star hotel available.|sorry
+SYS|Are you flexible with your dates?|sorry
+USR|AS LONG AS I LEAVE THE 23RD AT THE LATEST|inform
+SYS|Unfortunately, I do not have a 5 star hotel available for the listed conditions.|sorry
+SYS|Would you like to confirm the previous booking?|sorry
+USR|NO ABSULUTELY NOT, IT'S NOT WHAT I WANT|negate
+SYS|I am excited to announce that we have a travel package available, leaving Marseille for Denver on August 23 and returning on August 28.|offer
+SYS|You will be staying at the esteemed Brass Renaissance Resort, a 3 star hotel with close proximity to the park.|offer
+SYS|The hotel boasts a 8.86/10 guest rating and features free wi-fi and free breakfast.|offer
+SYS|You would be flying business class, and the total cost comes out to 2662.97.|offer
+SYS|Would you like to confirm this booking?|offer
+USR|ANOTHER 3 STAR RATED HOTEL...GOOD BYE!|negate

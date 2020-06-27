@@ -1,0 +1,15 @@
+USR|Hi.|inform
+USR|I'd like to find a trip to San Diego.|inform
+USR|I can leave from Belo Horizonte.|inform
+USR|I'd like to travel between August 27th and August 31st if possible.|inform
+USR|My dates are flexible.|inform
+SYS|Sure thing, do you have a budget for this trip?|request
+USR|no but the trip will be for 7 adults|inform
+SYS|Let me tell you about some of the deals I can offer you.|suggest
+SYS|I can put you up in the Anomaly Inn & Suites, a 2.0-star hotel with a 6.51/10 guest rating for a total of 13384.6USD.|suggest
+SYS|If you would like to go to La Poz I can book you a stay at the Echo, a 4.0-star hotel with a 8.98/10 guest rating for 15243.80USD.|suggest
+SYS|Both trips run from the 27th to the 31st of August.|suggest
+USR|I will book the trip to San Diego for 7 adults|inform
+SYS|You're booked!|inform
+SYS|Enjoy your stay!|inform
+USR|thanks|thankyou

@@ -1,0 +1,25 @@
+USR|Hi there!|greeting
+SYS|Good afternoon!|greeting
+USR|I would like to take my wife and 3 kids on a vacation.|inform
+USR|can you help?|inform
+SYS|Of course I can.|request
+SYS|Where do you live?|request
+USR|Sapporo|inform
+SYS|And where would you like to vacation?|request
+USR|We were thinking of a few different options, first being La Paz|inform
+SYS|Are you on a budget for this trip?|request
+USR|Yeah, we have 2500|inform
+SYS|I have packages from Sapporo to La Paz, but unfortunately none that meet your budget.|sorry
+USR|We can up our budget by another thousand, would that help?|inform
+SYS|No still too high for you.|no_result
+SYS|Can I check other destinations for you?|no_result
+USR|Kochi?|inform
+SYS|We could send you and your family on a 7 day holiday to Kochi at the Hotel Grandiose Rose, a 6.61 star hotel located in the heart of the city and close to a park.|offer
+SYS|The total price would be 2986.25USD and include wifi.|offer
+USR|Hm, maybe.|inform
+USR|Do you have anything to Vancouver?|inform
+SYS|No I don't|no_result
+USR|Bummer.|request
+USR|I guess Kochi is our only option then..... hm.|request
+USR|When is this package?|request
+SYS|It is available from September 11 to September 17th,|inform

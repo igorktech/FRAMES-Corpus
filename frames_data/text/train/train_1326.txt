@@ -1,0 +1,23 @@
+USR|I need to get to Fortaleza on September 8th or soon after!|inform
+SYS|Where are you coming from?|request
+USR|Guadalajara.|inform
+USR|I only have 2300 but I need the best hotel!|inform
+SYS|Will it be just you?|suggest
+USR|yes just me, it's for work, need to take pictures of some very important people|affirm
+SYS|Well, we only have two 3 star hotels in Fortaleza.|inform
+SYS|One has guest ratings 8.69/10.|inform
+SYS|The other 7.15/10.|inform
+SYS|Are you interested?|inform
+USR|The 8.69 then!|request
+USR|how long is the package?|request
+SYS|It's 18 days leaving on the 12th.|inform
+USR|Great, how much is it?|request
+SYS|1763.55 with economy flight seats or 2242.69 with business flight seats.|offer
+USR|What happens if I increase to 3300...could I get a 4 star hotel with that?|inform
+SYS|Unfortunately no.|sorry
+SYS|We only have the two 3 star hotels in Fortaleza.|sorry
+USR|Ok, I'll stick with the 18 day package.|switch_frame
+USR|Economy please!|switch_frame
+SYS|It is booked for you!|inform
+SYS|Hope you have a pleasant trip!|inform
+USR|Thanks|thankyou

@@ -1,0 +1,19 @@
+USR|I’m finally taking a break this year, and I’d like to go to Punta Cana!|inform
+SYS|Where would you like your departure to be?|request
+USR|I would be flying out from Curitiba|inform
+SYS|Any dates in particular?|request
+USR|Between September 6 and 9 please|inform
+SYS|One adult?|suggest
+USR|yes 1|affirm
+SYS|I have perfect 4 day packages for exactly your dates.|request
+SYS|All the hotels are either 2.5 stars or 3 stars.|request
+SYS|Anything in particular you would like me to look for in a hotel?|request
+SYS|Do you have a limited budget?|request
+USR|My budget is 2300, would that be enough?|inform
+SYS|Yes all these packages are under $2300.|offer
+SYS|The 3 star Plaza Serene suites has the highest guest rating at  8.49 / 10 and costs 1627.8USD.|offer
+SYS|That also provides you with free wifi, parking and a breakfast.|offer
+USR|Great, book it|switch_frame
+SYS|Your trip has been booked.|inform
+SYS|Sage travels.|inform
+USR|thanks!|thankyou

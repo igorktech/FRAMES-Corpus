@@ -1,0 +1,16 @@
+USR|Heya|greeting
+SYS|hello, how can I help you today?|greeting
+USR|I want to leave from San Antonio and keep the price under three thousand two hundred|inform
+SYS|where to?|request
+USR|Sao Paulo… as earlier stated|inform
+SYS|I am sorry, I don' thave any results for the cities requested.|no_result
+USR|Can I leave from Curitiba instead|inform
+SYS|Definitely|null
+USR|OK, whats the hotel like|request
+SYS|3 stars hotel near cathedral and theatre for 7, 8 or 11 days.|offer
+USR|And the price?|request
+USR|I want to travel for less than 3200 dollars|request
+SYS|712.62USD (7 days, economy) or 853.71USD (Business) for 7 days,419.23USD (8 days, economy) or 502.23USD (Business) for 8 days, and 808.55USD (11 days, economy) or 956.97USD (business) for 11 days (2 star hotel with 6.91 rating).|offer
+USR|Wow that’s just too cheap to pass up on.|inform
+USR|Book the 11 days please, business|inform
+SYS|you're booked|inform

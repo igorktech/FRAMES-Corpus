@@ -1,0 +1,11 @@
+USR|I want to go to denver from frankfurt for under 2900 from september 8th to 13th|inform
+SYS|Our best package for you is at a 3.0 star hotel that boasts a 8.86/10 average guest rating.|offer
+SYS|It is conveniently located near a park and offers free wifi and breakfast.|offer
+SYS|I can get you there for 6 days for only 2177.82.|offer
+USR|When is it?|request
+SYS|You will be there from Sep. 8-12.|inform
+USR|Works for me.|inform
+USR|Book it|inform
+SYS|Done!|inform
+SYS|Time to pack your bags :slightly_smiling_face:|inform
+USR|Ok, thanks!|thankyou

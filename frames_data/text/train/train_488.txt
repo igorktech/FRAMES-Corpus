@@ -1,0 +1,43 @@
+USR|im just here at the white house
+everyones out of town
+touring, campaigning
+blah blah blah
+secret service work was supposed to be thrilling!!|inform
+USR|i wasnt expecting to just stand around guarding the bathrooms.. making sure the help dont use the first lady's toilet
+i wouldnt mind running away from it all to be honest maybe start small.. what could i get to denver for?|inform
+SYS|from washington to denver?|confirm
+USR|yeah, tahts right.|inform
+USR|ive got just under 6 grand in savings|inform
+SYS|Which dates^|request
+USR|no dates|inform
+SYS|I see.|offer
+SYS|We have 9 days trips in 4 star hotel at 502.62USD, and 572.79USD in business tirp|offer
+USR|wow, cheap!|inform
+USR|and i could get away from this for a week and a half how would trips look from here to Montreal?|inform
+SYS|Where would you like to go?|request
+USR|Montreal ?|inform
+SYS|I have 7 days at 4 star hotel at 1256.84USD, or 1561.99USD in business clas|offer
+USR|wow, not as expensive as i thought to fly across the country whats the hotel located near?|request_compare
+USR|whats the package include?|request_compare
+SYS|Free parking and free wifi|inform
+USR|hm.|request_compare
+USR|and the location?|request_compare
+USR|whats it look like&gt;|request_compare
+SYS|Near market and mall.|inform
+USR|ok.|confirm
+USR|interesting i suppose is that the only hotel available|confirm
+SYS|We also have a 2.5 star hotel with 8.86 guest rating that is near the beach.|offer
+SYS|includes free parking, breakfast and wifi, @ 1561.71USD|offer
+USR|ok.. so still very affordable.|inform
+USR|you know, another place ive dreamed of going since i was a small lad is japan.|inform
+USR|can you look at whats available in Osaka?|inform
+SYS|we have 10 days and 12 days trip at hotels ranging from 3.5 stars to 4 stars|offer
+USR|can you tell me more about the 4 star hotle.|request
+USR|how long would that trip be?|request
+SYS|10 days at 5564.37USD, near park and museum|inform
+USR|lovely.|switch_frame
+USR|and what about the 12 day trip?|switch_frame
+SYS|3 stars hotels at 3564.28USD or  4637.20USD in business class with free breakfast and free wifi|offer
+USR|and is that hotel near anything of note?|request
+SYS|near a museum|inform
+USR|thanks!|thankyou

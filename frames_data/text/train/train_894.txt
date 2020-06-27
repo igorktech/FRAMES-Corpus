@@ -1,0 +1,17 @@
+USR|Hi there.|inform
+USR|I have 2000 to spend on my lovely parents
+I want to get them out of Puebla sometime this month
+September 3 to 16
+Whats the longest trip you can book me?|inform
+SYS|11 days at a 2.5 star hotel near a park, 5.23/10 guest rating, free parking, breakfast, and wifi, from September 6th to 16th, business is 1790.30, economy is 1490.86.|offer
+USR|Where would this lovely trip be to?|request
+SYS|Boston|inform
+USR|Is there anything else thats of comparable length?|inform
+SYS|San Diego has an economy package for 1861.91 from September 6th to 15th.|offer
+USR|How's the hotel in San Diego?|request
+SYS|2.5 stars, 6.91/10 guest rating, free parking, breakfast, and wifi.|inform
+USR|Its got a better guest rating than the other one so lets go with this.|inform
+USR|Definitely flying economy class
+When my hip hop career takes off, I'll buy them business class|inform
+SYS|It's the only option for this package anyway so you're in luck.|inform
+SYS|I'll book it now and you'll get a confirmation email right away!|inform

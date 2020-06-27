@@ -1,0 +1,18 @@
+USR|hi|greeting
+SYS|Hi :slightly_smiling_face:|greeting
+USR|im looking for a vacation between september 5 and 19 for 7 adults and 7 kids from Tampa.|inform
+USR|Budget is 22400|inform
+SYS|I can book you 21 days at Hotel Perfection in Tijuana, Mexico for just 47,489 dollars.|offer
+USR|that isnt within my budget|negate
+SYS|Would you like to leave from Sendai, Japan?|suggest
+USR|no but i guess i can increase my budget by 200|inform
+SYS|How about 15 days in Montreal?|offer
+SYS|This would cost only 19 564 dollars|offer
+USR|that sounds better.|switch_frame
+USR|What is the hotel like|switch_frame
+SYS|2.5 stars, 8.86/10 user rating, near the beach, and free parking/wifi and breakfast are all included!|inform
+USR|near the beach!|inform
+USR|You got me sold.|inform
+USR|Book er|inform
+SYS|Ok :slightly_smiling_face: Enjoy your trip|inform
+USR|thanks|thankyou

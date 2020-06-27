@@ -1,0 +1,18 @@
+USR|Minneapolis to Punta Cana|inform
+SYS|1855.8USD for 15 days.|offer
+USR|whats the hotel like|switch_frame
+SYS|3 stars, near a cathedral, free breakfast and wifi.|inform
+USR|kk How bout a trip to Guadalajara?|inform
+SYS|At a 2.5 hotel 1106.92USD for economy flights including free parking, free breakfast and free wifi.|offer
+SYS|This is an 11 day package.|offer
+USR|What about to Belem?|inform
+SYS|Lots of options in Belem, longest are 9 day packages.|inform
+SYS|I have a 4.5 star hotel on the beach or a 3 star near a cathedral.|inform
+USR|Whats the price for the 4.5 star?|request
+SYS|1910.19USD with business class flights.|inform
+USR|wow.|goodbye
+USR|i could afford all these.|goodbye
+USR|shocking.|goodbye
+USR|well i cant book anything.|goodbye
+USR|sorry for wasting your time.|goodbye
+SYS|Have a good day.|goodbye

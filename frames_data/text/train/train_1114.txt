@@ -1,0 +1,6 @@
+USR|Beijing to Tijuana Sept 6-Sept 9|inform
+SYS|Do you have a budget?|request
+USR|1900|inform
+SYS|Travelling alone?|suggest
+USR|no there are 7 of us|inform
+SYS|There aren't any results showing for Beijing to Tijuana|no_result

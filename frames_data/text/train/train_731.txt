@@ -1,0 +1,26 @@
+USR|Hey!|inform
+USR|I'm in the search for a trip for 2.|inform
+SYS|Where will you be leaving from?|request
+USR|Santo Domingo|inform
+SYS|Where do you want to go?|request
+USR|Punta Cana is one of the option.|inform
+SYS|Do you have a budget?|request
+USR|It'd be sweet to spend less than 3100|inform
+SYS|When would you like to leave?|request
+USR|We can leave on or after Sep 2|inform
+SYS|There's a 2.5 star hotel near the beach, the cost is 1661.32 and is from September 10th to 19th with business class flights.|offer
+USR|Do you know the guest rating of this hotel?|request
+SYS|0/10|inform
+USR|That's not ideal.|request_alts
+USR|Do you have any other options for Punta Cana?|request_alts
+SYS|This is our very best option.|no_result
+USR|I see.|inform
+USR|Can you check for trips to Phoenix then?|inform
+SYS|We have a 3 star hotel near a museum and university, 6.91 guest rating, free parking, breakfast, and wifi, from September 9th to 19th, business class flights, price is 2967.70.|offer
+USR|And that is also the best option you have?|confirm
+SYS|Yes.|affirm
+USR|Okay that's simple.|inform
+USR|I'll book the Phoenix trip!|inform
+SYS|Alright!|goodbye
+SYS|Have a great day!|goodbye
+USR|Thanks for your assistance!|thankyou

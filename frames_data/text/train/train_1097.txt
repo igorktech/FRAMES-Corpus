@@ -1,0 +1,28 @@
+USR|Hey there I'm looking to go San Juan soon!|inform
+SYS|Sure, from where?|request
+USR|Belem.|inform
+USR|I need to go sometime between Saturday September 10 and Sunday September 25.|inform
+SYS|I have 13 days at the Brass Tower Inn for 3284.31USD.|offer
+USR|What are the dates for that?|request
+USR|And where is the Brass Tower Inn located?|request
+SYS|The Brass Tower Inn is located in San Juan, near a market.|inform
+SYS|The trip stretches from the 16th to the 27th of September|inform
+USR|No, no.|inform
+USR|That won't do.|inform
+USR|I need to get back by the 25th of September at the latest.|inform
+SYS|I have 12 days at the Fairyland for just over $2870.|offer
+USR|That sounds pretty decent.|request
+USR|What are the dates for that and what's nearby?|request
+SYS|September 14th-24th.|inform
+SYS|It is near a museum, shopping, and a market.|inform
+USR|How many stars does the hotel have and what else is included in the package?|request
+SYS|Flights and hotel are included in the package.|inform
+SYS|The hotel is 4 stars and has free wifi.|inform
+USR|Is there free breakfast?|request
+SYS|No.|inform
+USR|That's okay.|inform
+USR|It sounds good, I'll take it!|inform
+SYS|Ok, great.|inform
+SYS|I’ll go ahead and book for you.|inform
+USR|Thank you.|thankyou
+SYS|Yes, no problem.|you_are_welcome

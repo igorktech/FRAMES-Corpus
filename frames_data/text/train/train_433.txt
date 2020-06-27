@@ -1,0 +1,17 @@
+USR|I must go to La Paz from Fort Lauderdale.|inform
+SYS|I can help you book that!|request
+SYS|When do you want to travel?|request
+USR|anytime but i want to be there for 13 days.|inform
+USR|i need THE BEST package you can find for 1300 or less|inform
+SYS|You can stay at the Echo from either August 25-September 2 or from August 30-September 8.|offer
+USR|is this a 5 star hotel?|switch_frame
+SYS|The hotel is 4.0 star with a 8.98 guest rating.|inform
+USR|is there a 5 star hotel?|inform
+SYS|Not in La Paz.|inform
+SYS|Only the Echo.|inform
+USR|any 5 star hotels in hamburg?|inform
+SYS|Vortex HOTEL in Hamburg has a 4.0 star rating with a 8.98 star guest rating.|offer
+USR|that sounds peasanty.|inform
+USR|I am a grade A++ writer and i need the very best so its a 5 star hotel or nothing|inform
+SYS|I do not have 5 star hotels available.|no_result
+USR|wel then buh bye|goodbye

@@ -1,0 +1,15 @@
+USR|Can anything help resurrect my career at this point???|inform
+USR|Is there any sadder rung in society than that of the failed writer
+Ok you know what, maybe you can help
+Get me to Campinas to San Juan please
+Me, my wife, and my son|inform
+SYS|Sorry, to Campinas or to San Juan?|sorry
+USR|to San Juan|inform
+SYS|Sure!|offer
+SYS|I can offer 13 days for 10747 dollars!|offer
+USR|I almost had a panic attack when I saw that price tag.|inform
+USR|No, I need a trip for 5800 or less|inform
+SYS|I’m sorry, I have nothing from Campinas to San Juan for 3 people at that price.|sorry
+USR|Wht about to Kobe|inform
+SYS|Still nothing|no_result
+USR|This is deeply depressing news|thankyou

@@ -1,0 +1,21 @@
+USR|I AM IN BALTIMORE WANT TO GO TO LIMA|inform
+SYS|When?|request
+USR|SEPTEMER 12 UNTIL SEPTEMBER 27|inform
+SYS|Do you have a budget?|request
+USR|NO|inform
+SYS|How many people will be traveling?|request
+USR|ME|inform
+SYS|We have a 3.5 star hotel and a 4 star hotel.|suggest
+SYS|Do you have a preference?|suggest
+USR|4 STAR DUH|inform
+SYS|Great!|offer
+SYS|This is a 4 star hotel near a park, they have a 8.98/10 guest rating, and they offer free wifi.|offer
+SYS|This package is from September 15th to 26th.|offer
+SYS|The price of this package if you would like business class seats is 829.74 and if you would rather have economy class seats the price would be 729.45.|offer
+USR|wow very impressive.|thankyou
+USR|WORKS FOR ME LETS BOOK BUSINESS
+PLEASE
+THANKS|thankyou
+SYS|No problem!|inform
+SYS|Your package is booked!|inform
+SYS|Have a great day and keep an eye out for a confirmation email regarding your travel package!|inform

@@ -1,0 +1,12 @@
+USR|Hello!|inform
+USR|I recently won the internship lottery to Kobe where I will work for free!|inform
+USR|I'll be leaving from Alexandria.|inform
+USR|What can you offer?|inform
+SYS|I do not have any flights from Alexandria to Kobe.|no_result
+USR|Do you have any flights from Alexandria to Berlin??|inform
+SYS|I do not.|no_result
+USR|What about Alexandria to Salvador?|inform
+SYS|Unfortunately those are not available either.|sorry
+SYS|I wish I could be of further assistance.|sorry
+USR|That is really too bad.|thankyou
+USR|Thank you for your help.|thankyou

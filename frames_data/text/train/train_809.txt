@@ -1,0 +1,15 @@
+USR|I need to get back home asap, its an emergency|inform
+SYS|Will do my best to help!|request
+SYS|Where is home and were are you currently?|request
+USR|from tofino to melbourne|inform
+SYS|I regret to inform you we don't offer flights between those two cities.|suggest
+SYS|Can you leave from somewhere else?|suggest
+SYS|Or land somewhere else?|suggest
+USR|i can leave from jerusalem|inform
+SYS|No luck with Jerusalem either...|no_result
+USR|can you check flights to sydney then|inform
+SYS|Sorry, nothing available here either.|sorry
+USR|not even from tofino|inform
+SYS|Sadly no.|sorry
+USR|crap.|thankyou
+USR|I'll have to look somewhere else then, thanks anyway|thankyou

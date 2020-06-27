@@ -1,0 +1,24 @@
+USR|Gotta go to Hamburg.|inform
+USR|In Puebla now|inform
+SYS|Sure!|request
+SYS|From where?|request
+USR|Dates and budget don't matter just find me something|inform
+SYS|Ok.|suggest
+SYS|Travelling alone?|suggest
+USR|Yup|affirm
+SYS|The longest package I have would be a 20 day package that leaves tomorrow.|offer
+SYS|The hotel is Glacier which features a 4.5 star rating and 9.16/10 guest rating.|offer
+USR|Is that also the highest star-rated hotel you've got?|confirm
+SYS|From what I can see, that is the highest rated hotel in Hamburg.|inform
+USR|Where is this hotel located?|request
+SYS|Near the airport.|inform
+USR|Got any amenities?|request
+SYS|Free parking and free wifi.|inform
+USR|Can you get me into business class?|inform
+SYS|Would you like me to book|suggest
+USR|Only if you ca get me into biz|inform
+SYS|Of course!|offer
+SYS|The total price would be 4216.92USD.|offer
+USR|Sounds good to me|switch_frame
+SYS|Consider it booked :slightly_smiling_face:|inform
+USR|Thx!|thankyou

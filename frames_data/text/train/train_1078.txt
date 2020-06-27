@@ -1,0 +1,25 @@
+USR|Hi, I need to get to Melbourne from Fukuoka.|inform
+USR|unlimited budget and dates arent a concern and its just me travelling.|inform
+SYS|Hi!|sorry
+SYS|Sounds like great trip but I'm sorry to inform you we don't offer any trips between Fukuoka and Melbourne.|sorry
+SYS|Any other places you'd like to go to?|sorry
+USR|I guess I’ll just go to Kochi and meet up with my homegirl Selena Gomez so we can chit chat about the…..weather.|inform
+SYS|That sounds nice!|offer
+SYS|I can bring you to Kochi for 6 days at a hotel in the heart of the city.|offer
+USR|is it the best package you have?|inform
+USR|I want the best hotel.|inform
+SYS|This is the only one available in Kochi.|inform
+USR|ok i’ll take it.|request
+USR|Whats the hotel like?|request
+SYS|It's a 3.5 star hotel with 7.15/10 guest rating.|inform
+SYS|In addition to being in the heart of the city, it is also close to a park and it offers free wifi.|inform
+USR|sounds good.|request
+USR|Flight details?|request
+SYS|It's a 1h 35m flight departing on the 11th and returning on the 16th.|suggest
+SYS|I have both business and economy seats available.|suggest
+USR|business obviously.|inform
+USR|how much?|inform
+SYS|Sure thing, it'll be 1041.42.|offer
+USR|cool beans.|switch_frame
+USR|book it|switch_frame
+SYS|All done!|inform

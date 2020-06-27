@@ -1,0 +1,19 @@
+USR|I'm good, thanks.|inform
+USR|I have an important business meeting in San Juan.|inform
+SYS|When do you need to get there?|request
+SYS|And where are you from?|request
+USR|Anytime soon would be good.|inform
+USR|I'll be flying from Buenos Aires.|inform
+SYS|How does an 11 day stay at a 4 star hotel sound?|offer
+SYS|This trip runs from Sept 14 - 24|offer
+USR|That sounds really good, but how much does it cost?|switch_frame
+SYS|With economy flights it would be 2774.28, and with business flights it would be 3583.43.|offer
+USR|That's even better than I expected.|inform
+USR|Sounds like a fantastic deal.|inform
+USR|I will take it, and at business class please.|inform
+SYS|Done!|inform
+SYS|Your trip is booked for you!|inform
+SYS|Watch out for the confirmation email coming your way!|inform
+USR|Thank you very much.|thankyou
+SYS|Not a problem!|you_are_welcome
+SYS|Have a good trip!|you_are_welcome

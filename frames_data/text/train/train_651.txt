@@ -1,0 +1,25 @@
+USR|Hey!|inform
+USR|I need to book a flight asap.|inform
+USR|I can leave tomorrow or any day after|inform
+SYS|where do you need to go?|request
+USR|Kingston.|inform
+USR|Leaving from Dublin|inform
+SYS|For one adult?|suggest
+USR|Exactly|affirm
+SYS|Our soonest available flight departing Dublin to Kingston departs on the 6th of September and includes a 9 day stay.|offer
+SYS|Would that be appropriate for you?|offer
+USR|Will there be earlier flights if I leave from Mexico City?|inform
+SYS|The earliest flight I have leaving Mexico City destination Kingston is also on September 6 and that package includes a 5 day stay.|offer
+USR|Okay, what about from  Dublin to San Diego, are there earlier flights?|inform
+SYS|I have none from Dublin to San Diego|no_result
+USR|Anything for Mexico City to San Diego by any chance?|inform
+SYS|Sept 6th departure is the earliest departure Mexico City destination San Diego and includes a 5 day stay.|offer
+USR|Well then, I will go directly from Dublin to Kingston then!|request
+USR|How much will it cost?|request
+SYS|I have 2 choices departing on the 6th - the 3 star Exalted Raven B&B for 666.28USD based on a 9 day package and is ONLY availabe with a business class upgrade or the 3.5 star Golden Excalibur Hotel for $577.72USD based on an economy class flight, also available on business for $673.74USD|inform
+USR|My preference would be the Golden Excalibur Hotel for $577.72USD.|switch_frame
+SYS|Should I proceed with the booking then?|suggest
+USR|Absolutely!|thankyou
+USR|Thank you!|thankyou
+SYS|Booked!|goodbye
+SYS|Have a nice day!|goodbye

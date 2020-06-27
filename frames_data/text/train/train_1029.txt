@@ -1,0 +1,3 @@
+USR|yeah, hey.|inform
+USR|i need to know if you operate out of Tel Aviv|inform
+SYS|No we don't|no_result

@@ -1,0 +1,17 @@
+USR|I would like to find a vacation between september 20th and October 4th from Sao Paulo to Leon|inform
+SYS|Hello!|request
+SYS|How many will you be traveling with?|request
+SYS|And do you have a fixed budget?|request
+USR|No budget and just me|inform
+SYS|Alrighty!|offer
+SYS|We've got a fantastic 5 star hotel by the market.|offer
+SYS|It has been previously rated 9.16/10 by guests, and I can take you there for 8 days from September 24 to October 1.|offer
+USR|Sold!|request
+USR|How much?|request
+SYS|2882.43 total, but I can upgrade you to business seats for just 3661.1.|offer
+USR|Yeah i want business class.|inform
+USR|Hook me up|inform
+SYS|Done!|inform
+SYS|You are all booked :slightly_smiling_face: Anything else for today?|inform
+USR|Nope that was it!|thankyou
+USR|Thanks!|thankyou

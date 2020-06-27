@@ -1,0 +1,8 @@
+USR|hi I’m in urgent need of a flight home!|inform
+SYS|I will verify what we have for you.|request
+SYS|Can you please tell me the city you are presently located in and where you would like to go?|request
+USR|i’ve been informed of a family emergency and I’m stuck overseas in Tel Aviv.|inform
+USR|I need to get home to Boston ASAP|inform
+SYS|I regret that I do not have flights available out of Tel Aviv at the moment.|no_result
+USR|Oh no.. well I can get to Calgary for cheap.. what if I leave from there?|inform
+SYS|I'm sorry but I don't have any results.|sorry

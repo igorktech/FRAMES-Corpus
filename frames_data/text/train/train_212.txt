@@ -1,0 +1,29 @@
+USR|Hi i'm from Buenos Aires, and I want to book a trip|inform
+SYS|Where would you like to go?|request
+USR|I was thinking maybe Rome|inform
+SYS|Do you have a budget?|request
+USR|Not at the moment, but i'm looking for something affordable|inform
+SYS|Okay, will you be travelling alone?|suggest
+USR|Yup!|affirm
+SYS|Any specific dates you'd like to travel?|request
+USR|Ideally August 17th until the 31st|inform
+SYS|There is a 4 star hotel that includes free breakfast and wifi.|offer
+SYS|The trip is from August 27th to the 31st and costs 2953.37.|offer
+USR|Where would that be?|request
+SYS|This package is for Buenos Aires to Rome.|suggest
+SYS|Would you like me to check packages for Alexandria?|suggest
+USR|Yes please|switch_frame
+SYS|There is a package from August 17th to the 22nd at a 2.5 star hotel which includes free breakfast, wifi, and parking.|offer
+SYS|The economy class costs 1866.13 and the business class costs 2487.49.|offer
+USR|What rating does this hotel have?|request_alts
+USR|Are there any better?|request_alts
+SYS|No, unfortunately the only rating is a 2.5 for this destination.|sorry
+USR|Anything else with better amenities?|request_alts
+SYS|For Alexandria?|confirm
+USR|yaaaa|affirm
+SYS|No, sorry, this was the only result for this destination.|sorry
+USR|Okay nevermind then let's book the one to Rome?|switch_frame
+SYS|Great!|inform
+SYS|Your trip is booked!|inform
+SYS|Have a great day!|inform
+USR|Thnk you!|thankyou

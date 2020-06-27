@@ -1,0 +1,17 @@
+USR|Looking for a trip out of SL for 3 adults 7 kids|inform
+SYS|Do you have a budget?|request
+USR|24,600|inform
+SYS|When would you like to leave?|request
+USR|After the 8th of September|inform
+SYS|We have a 5 star hotel near a museum, cathedral, and palace in Madrid.|offer
+SYS|The hotel has a 9.16/10 guest rating and offers free breakfast and wifi.|offer
+SYS|The trip is from September 9th to 26th and is an economy flight.|offer
+SYS|The price is 23961.26.|offer
+USR|Sounds lovely.|request
+USR|What is the hotel name?|request
+SYS|El Hotel De La Reina|inform
+USR|OK I guess we'll book this one.|inform
+USR|Thanks|inform
+SYS|Ok, this is booked for you!|inform
+SYS|Have a great day!|inform
+USR|Thanks|thankyou

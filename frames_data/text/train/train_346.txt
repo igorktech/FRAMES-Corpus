@@ -1,0 +1,7 @@
+USR|Look, I've got to get myself out of Santiago My friend and I would like to try and see Denver We want a 5 start hotel, too.|inform
+USR|Can you get us a trip that ends August 31st?|inform
+SYS|I am sorry, I don't have anything that is close to a Five star hotel.|no_result
+USR|what if I go to Fukuoka instead?|inform
+SYS|We have 3.5 hotels|suggest
+USR|no that wont do.|goodbye
+USR|I will give up on traveling, goodbye.|goodbye

@@ -1,0 +1,19 @@
+USR|i need to get away from my life i need your help in finding a place to go to in Belem, preferably with very few people around something simple but at the same time very luxurious  with a private villa and a spa where my best friend and I can just relax in our private beach oh and we need a chef to cook us vegan meals|inform
+SYS|Will it just be you two on this trip?|confirm
+SYS|when are your ideal departure dates?|confirm
+USR|Just the 2 of us, we are kinda famous so you have to promise me full confidentiality no one must know about this.|inform
+USR|We need to be back by September the 3 cause we kinda have a commitment  on the 4th|inform
+SYS|Where will you be departing from?|request
+USR|we will leave from  Hiroshima i think, i never know what city i'm in, yes Hiroshima|inform
+SYS|I have found the perfect destination for you!|offer
+SYS|The Zion Hotel!!!!|offer
+SYS|Its a 9 day stay for this 4.5/5 star hotel, It has a beach and other wonderful amenities.|offer
+SYS|In total for the two of you with business seating it will be 12873|offer
+USR|trust me, money is not an issue can you give me the dates and times for the flights please my manager usually takes care of this sort of thing so i have to make sure neither my friend and I have commitments|request
+SYS|11:00 am - Friday, August 26th 2016  to 10:21 pm - Friday, September 2nd 2016|inform
+USR|OMG!|confirm
+USR|that is so awesome just want to make sure we are leaving from Hiroshima|confirm
+SYS|Yes you will be.|suggest
+SYS|Should i go ahead and book that for you?|suggest
+USR|yes please go ahead and make sure to keep it confidential we do not want to be bothered|inform
+SYS|It's booked, enjoy!|inform

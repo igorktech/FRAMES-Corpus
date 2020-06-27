@@ -1,0 +1,38 @@
+USR|Hi i wanna look into packages to san antonio|greeting
+SYS|Hi and where will you be travelling from?|greeting
+USR|belem.|inform
+USR|hoping to leaving august 17 and go for two weeks|inform
+SYS|do you have a budget in mind?|request
+SYS|are those dates flexible as well?|request
+USR|no budget.|inform
+USR|dates are preferably the ones i have sent you but could be flexible if we find a great package i suppose|inform
+SYS|And one last thing, how many will be travelling?|request
+USR|just me|inform
+SYS|There is the Winter Hill Inn a 2 star hotel in San Antonio from August 18th to August 28, it has free breakfast, wifi and parking.|offer
+SYS|it goes for $3167, how does that sound|offer
+USR|ok.. i'll consider that.|inform
+USR|anything available in san francisco?|inform
+SYS|Unfortunately there is nothing in san francisco|sorry
+USR|ok.|inform
+USR|what about in Kyoto?|inform
+SYS|the Glorious Bazaar Resort is available it has a 3 star rating, with free breakfast and wifi|offer
+USR|Is that from the 17-31?|inform
+SYS|I have 17th to the 22nd or the 25th until the 30th|offer
+USR|ok.|request
+USR|one more destination I am wondering about is Cordoba.|request
+USR|What can you offer me there?|request
+SYS|while there are possibilities to cordoba for a 10 day trip but only leaving on August 24th|offer
+USR|hmm ok.. well, how much would the Cordoba trip cost?|request
+SYS|it would be at a 5 star hotel for only $2018|inform
+USR|wow!|request
+USR|I like that option.|request
+USR|free breakfast?|request
+SYS|and free wifi!|inform
+USR|sweet!|request
+USR|ok, i think I want to book that.|request
+USR|what is the return date?|request
+SYS|it leaves on August 24th and returns on September 2nd|inform
+USR|lets book it!|inform
+SYS|perfect!|inform
+SYS|its all done|inform
+USR|thanks :slightly_smiling_face:|thankyou

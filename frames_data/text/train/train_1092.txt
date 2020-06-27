@@ -1,0 +1,37 @@
+USR|I would like to take my darling little munchkins and my beautiful wife with me on a lovely family vacation.|inform
+USR|We were thinking about going to Atlanta.|inform
+SYS|Hi!|request
+SYS|How many children total and where from?|request
+USR|7!|inform
+USR|Big family, I know HAHA.|inform
+USR|We will be leaving from Porto and I should probably mention we can only afford trips under 17200.|inform
+USR|Do you have anything between September 7th and 25th?|inform
+SYS|Yeah of course!|offer
+SYS|You can have a 10 day stay at a beachside hotel!|offer
+USR|SAY WHATTTTT!?!?|request
+USR|That’s amazing!|request
+USR|What is the hotel like?|request
+SYS|It's a 3.5 star hotel that boasts a 8.8/10 guest rating.|inform
+SYS|You also get free parking and wifi!|inform
+USR|That’s good.|request
+USR|What’s the price|request
+SYS|15134.37 for the whole family.|inform
+USR|not bad.|inform
+USR|My wife wants me to explore my options so do you have anything to Birmingham?|inform
+SYS|Sure do!|offer
+SYS|We've got a 4 star hotel with a 8.86/10 guest rating that has a 5 day package!|offer
+USR|I like it!|request
+USR|What else can you tell me about the hotel?|request
+SYS|It is conveniently located near a museum and offers free wifi.|inform
+USR|Okay, okay.|inform
+USR|Well do you have anything to San Juan?|inform
+SYS|Nothing for San Juan.|no_result
+USR|Well bugger.|request_compare
+USR|Can you just tell me the dates for the two packages?|request_compare
+SYS|The Atlanta trip is from September 8-21.|inform
+SYS|The Birmingham trip is from September 13-16.|inform
+USR|Hmm.|thankyou
+USR|Okay well i’m just gonna take the information you gave me and discuss it with my wife before booking something she might not enjoy.|thankyou
+USR|Thanks for the help!|thankyou
+SYS|Alright!|you_are_welcome
+SYS|It's not a problem!|you_are_welcome

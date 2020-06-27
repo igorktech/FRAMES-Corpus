@@ -1,0 +1,23 @@
+USR|I need to find MEWTWO!!!!!|inform
+USR|I need to get to Paris from Kingston on or after the 6th.|inform
+USR|I have a friend tagging along to help me and we have 6000|inform
+SYS|Ok!|offer
+SYS|I can get you there on the 7th, you can stay at a 4 star hotel near a museum, shopping, and cathedral.|offer
+SYS|The hotel gives free wifi and free breakfast.|offer
+SYS|The guest rating is 8.69/10, and its under half your budget: $2706.43.|offer
+USR|Not bad, a Cathedral might be a good Pokéstop.|inform
+USR|Do you have anything to Phoenix?|inform
+SYS|I have two hotels in Phoenix - one 2.5 star near a museum and the airport, the other a 3 star near a museum and a university.|inform
+SYS|The guest ratings at 7.06 and 6.91, respectively.|inform
+SYS|Both also include complimentary breakfast, free wireless internet, and free parking.|inform
+USR|I think I'll have better luck if I take the trip to Paris.|switch_frame
+SYS|Ok!|offer
+SYS|Is the 14 day stay at Queen's Jungle Hotel okay with you?|offer
+SYS|I also have shorter packages available.|offer
+USR|Yeah 14 days is fine|inform
+SYS|Ok!|offer
+SYS|I can upgrade you to business class and stay within your budget if you’d like.|offer
+SYS|The total cost would be $3415.|offer
+USR|Sure!|switch_frame
+SYS|Great :slightly_smiling_face: Enjoy your trip|inform
+USR|Thanks!|thankyou

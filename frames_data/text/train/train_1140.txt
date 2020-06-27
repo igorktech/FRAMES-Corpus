@@ -1,0 +1,16 @@
+USR|Beijing to Hiroshima please|inform
+SYS|Do you have a budget?|request
+USR|2300|inform
+SYS|When do you need to go?|request
+USR|It does not matter|inform
+SYS|Do you need to be back by a certain date?|request
+USR|nope|inform
+SYS|Are you travelling alone?|suggest
+USR|I am not|negate
+SYS|How many people altogether?|request
+USR|20.|inform
+USR|14 adults
+6 kids
+1 dog|inform
+SYS|There is nothing from Beijing to Hiroshima within your budget and for this many people.|no_result
+USR|Okay thanks I will try somewhere else|thankyou

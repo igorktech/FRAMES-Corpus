@@ -1,0 +1,14 @@
+USR|Ever been to Queenstown?|inform
+USR|Can you tell me what it is like?|inform
+SYS|I have 5 star 5 day packages available in Queenstown for only 665.58USD if you travel from Milan.|offer
+USR|I'm in Birmingham.|inform
+USR|Ever been to Kobe?|inform
+SYS|Would you like to stay at Royal Island Inn for 2420.99USD and leave Birmingham on September second?|offer
+USR|I'm really torn, I have so many places on my bucket list.|inform
+USR|Long Beach?|inform
+SYS|8 days in Long Beach will cost you 1271.88USD if you leave from Birmingham.|offer
+SYS|You would stay at a 3.0 star hotel near a park.|offer
+USR|I have like $4700 in the bank but no time off it will have to wait thanks.|inform
+USR|One more question what do you think of New York|inform
+SYS|There are two different 2.5 star hotels available in New York.|offer
+USR|Thanks i will call you back when I have some time off|thankyou

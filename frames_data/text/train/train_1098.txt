@@ -1,0 +1,22 @@
+USR|I need to get to Rome!|inform
+USR|It’s a family emergency!|inform
+USR|I’m in Tel Aviv!|inform
+SYS|Hi there!|greeting
+USR|Can you get me to Rome?!?!|inform
+SYS|Sorry, we do not operate flights out of Tel Aviv as of right now.|sorry
+SYS|Anywhere else you can leave from?|sorry
+USR|I can leave from San Juan.|inform
+SYS|Okay we have some options for that.|request
+SYS|Do you have a budget?|request
+USR|3000!|inform
+SYS|The earliest trip leaves in one day and includes a 11 day stay at a 4 star hotel in Rome.|offer
+SYS|Will this work for you?|offer
+USR|Yes!|request
+USR|that is perfect!|request
+USR|How much is it?|request
+SYS|2968.70 total.|inform
+USR|okay that’s fine, the airline said I would get a good discount due to the situation.|inform
+USR|Can you book it for me?|inform
+SYS|Sure can!|inform
+SYS|An email confirmation is coming your way!|inform
+USR|Thanks!!|thankyou

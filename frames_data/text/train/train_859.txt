@@ -1,0 +1,29 @@
+USR|This is probably a waste of time but what the hell.|inform
+USR|Just wanted to see if I can get to Chicago from Ulsan|inform
+SYS|Do you have a budget?|request
+USR|2500$$$|inform
+SYS|When would you like to travel?|request
+USR|Whenever|inform
+SYS|There are no results for trips from Ulsan to Chicago.|no_result
+USR|In a perfect world, there would be...I wanted flights from Chicago to Ulsan|inform
+SYS|There are no availabilities from Chicago to Ulsan.|no_result
+USR|How about Chicago to Kingston|inform
+SYS|There's a 4 star hotel near a museum for 1530.26.|offer
+SYS|Free parking, breakfast, and wifi included.|offer
+SYS|8.22/10 guest rating.|offer
+SYS|From September 12th to 15th and a business class flight.|offer
+USR|Now we're talking.|inform
+USR|How about Vancouver?|inform
+SYS|There's a business class flight for a 4 star hotel, 10/10 guest rating, park and museum nearby, free parking, breakfast, and wifi.|offer
+SYS|From September 3rd to 11th, costing 1606.20.|offer
+USR|Ok I'd like to book that!|inform
+USR|But do you do business class?|inform
+SYS|Yes this is the information and price for the business class option.|inform
+USR|Ok book it!|inform
+SYS|Are you sure?|confirm
+SYS|You said earlier you wouldn't be able to travel.|confirm
+USR|You are absolutely right - just wanted to experience the rush of saying those magical words|affirm
+SYS|Okay, well have a good day!|goodbye
+USR|Thanks!|thankyou
+USR|I really enjoyed this|thankyou
+SYS|Anytime!|you_are_welcome

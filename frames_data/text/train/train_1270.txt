@@ -1,0 +1,30 @@
+USR|We must go to Atlanta!|inform
+SYS|Ok, sure thing!|request
+SYS|Where from?|request
+USR|San Juan.|inform
+SYS|And how many of you will be travelling?|request
+USR|7 full size and 3 mini size|inform
+SYS|Ok!|offer
+SYS|I have a few different hotels available.|offer
+SYS|September 12-25, 13-26, 14-October 3rd or September 17- October 3.|offer
+USR|Can you show me the best packages you've got?|inform
+USR|Although keep it under 21100 please.|inform
+SYS|The highest rated hotel would be from September 14th-October 3rd at a 3.5 star hotel near a park and beach.|offer
+SYS|This hotel has both free wifi and free breakfast.|offer
+USR|And how did previous guests like it?|request
+SYS|It is unrated by guests.|inform
+USR|How's the other hotel?|switch_frame
+SYS|There are two other hotels - both are 3 stars, one with a 7.15/10 from users and the other with 8.37/10.|offer
+USR|Can you tell me more about the 8.37/10 one?|switch_frame
+SYS|Absolutely - that’s the Crown Plaza Hotel.|inform
+SYS|It has free parking and free wifi.|inform
+USR|Will any other packages show up if I increase my budget by 1500?|request
+SYS|Everything is already far below your budget.|inform
+USR|You know what, I will take the 3.5 star then.|confirm
+USR|Are business flights available?|confirm
+SYS|They are!|offer
+SYS|The total price would be 11457.68USD.|offer
+USR|Okay let's book it!|inform
+SYS|Wonderful - I will email booking confirmation to you shortly.|inform
+SYS|Enjoy your stay!|inform
+USR|Thanks!|thankyou

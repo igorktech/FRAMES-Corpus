@@ -1,0 +1,32 @@
+USR|Yo!|inform
+USR|I've rounded the crew up and we want to do something huge|inform
+SYS|OK :slightly_smiling_face: How many are in your group?|request
+USR|We have 7 adults.|inform
+USR|Leaving from Phoenix
+We all got September 6 to 26 blocked off|inform
+SYS|Any destination in mind?|request
+USR|What would a trip to Kingston look like?|inform
+SYS|I’ve got a couple options in Kingston for you.|inform
+SYS|To help me narrow them down, could you provide me with a budget for your trip?|inform
+SYS|Or perhaps a desired length of stay?|inform
+USR|We have 27100 between the 7 of us.|inform
+USR|Whats the longest trip you can find?|inform
+SYS|The longest trip would be 9 days.|offer
+SYS|You would be staying at the Cosmos Inn, a 2.5.|offer
+SYS|star hotel with a 6.37 guest rating; it is near a park in the heart of the city.|offer
+USR|I'm sure we can do better!|inform
+USR|Can we go to Hamburg then?|inform
+SYS|Would you like a higher hotel rating?|suggest
+USR|Sure, or that|affirm
+SYS|In Hamburg I can offer you 10 days at either a 3 or 4 star hotel in the heart of Hamburg.|offer
+USR|tell us more about the 4 star|moreinfo
+SYS|The Traveller Inn has free breakfast and free wifi.|inform
+SYS|It has been well received by guests with its 8.69 user review rating.|inform
+USR|Thats not bad.|inform
+USR|Wait could you find a better hotel in Kingston tho?|inform
+SYS|I can offer a 3.5 star hotel near a museum for 8 days in Kingston?|offer
+USR|Would that cost more or less than the 10 days at the Traveller?|request_compare
+SYS|That would cost 10269.29USD, while the Hamburg package would cost 20741.24USD.|inform
+USR|Wow lets go with that then, the difference in pricing is astronomical|inform
+SYS|Certainly!|inform
+SYS|I will book the Kingston package for you all.|inform

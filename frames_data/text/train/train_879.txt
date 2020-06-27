@@ -1,0 +1,9 @@
+USR|I'm so excited, I get to take my entire team anywhere I want!|inform
+USR|Money is no object.|inform
+USR|Just gotta make it fit into out busy schedule.|inform
+USR|We can only go between August 31 and September 3rd.|inform
+SYS|Where are you leaving from?|request
+USR|Tofino will be our point of departure|inform
+SYS|Sorry, we do not offer flights from Tofino.|sorry
+USR|I'll try someone else, sayonara|goodbye
+SYS|Goodbye|goodbye

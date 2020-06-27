@@ -1,0 +1,25 @@
+USR|I wanna go to Santiago from santos|inform
+SYS|What are your travel dates?|request
+USR|14 to 27 but flexible|inform
+SYS|During that time period, I have the Una casa for 13 days with free parking, wifi and a buffet breakfast included at a price of  2006.28USD|offer
+USR|okay.|inform
+USR|lets check out Toronto too.|inform
+SYS|There is nothing available in Toronto|no_result
+USR|what if i leave from Long Beach|inform
+SYS|Leaving from Long Beach, I have a few choices.|offer
+SYS|The highest rated one is Hotel Eric Perrier , at 4 stars.|offer
+SYS|Price is  1306.60USD for 8 days.|offer
+USR|ok.|inform
+USR|anything from long beach to santiago?|inform
+SYS|The only availability is at Una casa for 12 days, 3 stars.|offer
+SYS|Price is 2157.34USD.|offer
+USR|Okay I'll do the Torono from Long Beach then|inform
+SYS|I just want to confirm that a departure of Sept 20 and return of Sept 27 is fine with you and also would you like to travel in economy or business class?|suggest
+USR|dates are fine but i need to book it for me and 3 buddies, can i afford economy still?|request
+SYS|No that price was based on just one adult|inform
+USR|ugh.|request_alts
+USR|dang nabbit.|request_alts
+USR|what can I afford for 4 adults?|request_alts
+SYS|For that budget for 4 adults, I can only send you to Ciudad Juarez|offer
+USR|LAME, pass.|negate
+USR|I'll look elsewhere|negate

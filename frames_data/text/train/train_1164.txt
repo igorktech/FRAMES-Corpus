@@ -1,0 +1,17 @@
+USR|I need to get to Madrid please - quickly.|inform
+SYS|From?|request
+USR|And I need to stay in the heart of the city, near restaurants.|inform
+USR|Salvador.|inform
+SYS|I've got a 5 star hotel.|offer
+SYS|It's not in the heart of the city exactly but it's close to the museum, cathedral, and palace, so I'd say it's pretty nicely located.|offer
+USR|Ah, ok - yes, there are rarely notable Cathedrals in the suburbs.|inform
+USR|Should be sufficient... And are you able to book 8 adults and one child there for 2900 dollars?|inform
+SYS|Sorry no, you'd have to raise your budget.|sorry
+USR|In that case my lawyers will have to book on there own - one child and one adult.|inform
+SYS|Can't do that for under 2900 either...|no_result
+USR|How much would it be then?|request
+SYS|3651.61 for one adult + one child.|offer
+USR|Ok, that's fine.|inform
+USR|I will go ahead with booking|inform
+SYS|Alright!|inform
+SYS|It will be a 14 day trip from the 9th to the 21st.|inform

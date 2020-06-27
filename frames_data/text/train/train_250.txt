@@ -1,0 +1,23 @@
+USR|Hi im looking to go to monterrey|inform
+SYS|Where will you be leaving from?|request
+USR|i leave from cancun|inform
+SYS|Do you have a budget?|request
+USR|$2,500|inform
+SYS|How many people are going with you?|request
+USR|just myself|inform
+SYS|When would you like to leave?|request
+USR|Need to be there on the 4th|inform
+SYS|Would you like economy class or business class seats?|suggest
+USR|depends what fits my budget|request
+SYS|Both fit your budget.|inform
+USR|Business then|switch_frame
+SYS|This package includes a 4 star hotel, museum, beach, theatre, free breakfast, wifi, and parking.|offer
+SYS|The trip is from the 12th to 21st and the cost is 703.21.|offer
+USR|Thats a little early do you have anything in Long Baech?|inform
+SYS|Unfortunately there are no results for Long Beach in my database.|sorry
+USR|anything to tampa?|inform
+SYS|No, sorry.|sorry
+USR|monterrey it is|switch_frame
+SYS|Great!|inform
+SYS|I will book this package for you right away!|inform
+USR|thank you!|thankyou

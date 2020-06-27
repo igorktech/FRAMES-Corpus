@@ -1,0 +1,20 @@
+USR|Hi my work colleagues and I want to go to the car rally in Santo Domingo.|inform
+USR|We can leave from Belem.|inform
+USR|The rally starts August 24.|inform
+SYS|How many people will you be traveling with?|request
+USR|We are 4 people in total.|inform
+USR|Car aficionados.|inform
+USR|There's a rally in Minneapolis too if you have anything there that is better.|inform
+SYS|Unfortunately I can't find any flights to Minneapolis that would get you to your destination on time.|sorry
+SYS|If you are flying out to Santo Domingo on the 24th of August I can book you for 11 days in the Summer Rose for 6159.78USD.|sorry
+USR|Do you have anything to Minneapolis from Dublin ?|inform
+SYS|I can't find any packages from Dublin to Minneapolis for the 24th of August.|no_result
+USR|Can you tell me more about the Summer Rose in Santo Domingo then?|moreinfo
+SYS|It is a 4-star hotel with a 8.8/10 guest rating, free breakfast, free wifi and free parking.|suggest
+SYS|This hotel is located conveniently located close to  the beach and a major shopping center.|suggest
+SYS|You would be flying out on Wednesday, August 24th at 2:00 p.m. and returning Saturday, September 3rd at 4:00 a.m. Would you like me to book this package?|suggest
+USR|Near the beach, well that sounds great as the rally is on the beach.|inform
+USR|I'm gonna have to call you back though cause I'm not sure if my work colleagues are good with Santo Domingo.|inform
+USR|This leaves from Belem, correct?|inform
+SYS|yes|affirm
+USR|Okay okay whew yes just book it sounds great sounds fantastic|inform

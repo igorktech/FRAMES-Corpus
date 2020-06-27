@@ -1,0 +1,22 @@
+USR|can u book a couple adults out of alexandria?|inform
+USR|send em anywhere i dont care.|inform
+USR|sept 16 until the 29th|inform
+SYS|I have several choices for your destination, it will all depend on the amount you would like to spend.|request
+USR|2700 i got saved up, make it count|inform
+SYS|We have the 5 star The Bronze Luxury Hotel in Sacramento available between Sept 16 and Sept 29th.|offer
+SYS|How does that sound?|offer
+USR|5 stars, my parents are gonna go for that.|request
+USR|what amenities are included.|request
+USR|and how much is it gonna cost me|request
+SYS|They will get free breakfast everyday and their wifi use is included.|inform
+SYS|Not only is this hotel a 5 star rated hotel, it also has a perfect 10/10 guest rating.|inform
+SYS|This is one of the best properties available to us.|inform
+SYS|The total cost for this 14 day package is 2624.99USD, everything included.|inform
+USR|yea go for it, book it|inform
+SYS|The price I quoted you is based on business class seats.|suggest
+SYS|I can save you money if we book economy at a total cost of 2203.43USD.|suggest
+SYS|Would you prefer that?|suggest
+USR|oh heck yeah!!|switch_frame
+USR|economy - I need the money|switch_frame
+SYS|I will book the package on economy class then.|inform
+SYS|Thank you for shopping.|inform

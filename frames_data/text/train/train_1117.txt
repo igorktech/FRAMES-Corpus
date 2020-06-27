@@ -1,0 +1,43 @@
+USR|Hello.|inform
+USR|I have been offered a prestigious, exclusive, international internship
+They are very uncommon
+Very rare and very impressive
+Anyway
+I'm looking to go to Milan from Belem|inform
+SYS|When is your trip and how much do you have to spend?|request
+USR|Thank you, thank you.|inform
+USR|From September 17 until the second of October
+I have 2700 left over from working this summer
+and the internship is unpaid so I'd like to stay under that if possible..|inform
+SYS|I have good news for you!|offer
+SYS|We have a 4 star hotel in the heart of Milan close to the cathedral and museum.|offer
+SYS|With your budget you can stay there for 8 days.|offer
+USR|ah - very nice.|request
+USR|Um, so what are the amenities?|request
+SYS|The hotel offers free wifi and breakfast during your stay.|inform
+USR|not bad, not bad.|inform
+USR|Can you also look at Sacramento packages for me?|inform
+SYS|Of course!|offer
+SYS|In Sacramento we can offer you a 10 day stay at a 3.0 star hotel close to the museum.|offer
+USR|very nice!|request
+USR|Breakfast and Wifi as well?|request
+SYS|Yup!|inform
+SYS|Plus free parking.|inform
+USR|Very nice indeed.|request
+USR|What do previous guests think of the place?|request
+SYS|They seem to like it!|inform
+SYS|On average, guests have rated it 6.91/10.|inform
+USR|So I suppose I would like that as well..But can I check Santiago packages real quick before I do anything|inform
+SYS|I'm sorry to inform you that there's nothing that matches your selections in Santiago.|sorry
+SYS|Would you like to go with one of your first two choices?|sorry
+USR|that's fine.. at least the other two options are nicer.|request
+USR|Could you tell me the guest rating for the Milan hotel?|request
+SYS|It has gathered an amazing 8.37/10 average rating from previous guests.|inform
+USR|I think I would prefer that one.|request
+USR|Italy sounds far more exotic than California anyway
+What is the price and dates of travel for that one?|request
+SYS|It would be 1907.5 for 8 days from September 22 to 28.|inform
+USR|you know, I think I wanna go ahead and book that one.|inform
+SYS|It is done for you!|inform
+SYS|Simple as that :slightly_smiling_face:|inform
+USR|Wow great, you've been super helpful!|thankyou

@@ -1,0 +1,42 @@
+USR|Howdy!|greeting
+USR|So how does this work?|greeting
+USR|I'm not too good with technology, I'm more of a pen and paper kind of guy|greeting
+SYS|That is ok :slightly_smiling_face: I will guide you through it.|request
+SYS|I’m here to help you find the best vacation packages to fit your needs.|request
+SYS|Maybe we can start by you telling me where you are located and where you would like to explore travel options to.|request
+USR|Ok thank you!|inform
+USR|I live in San Juan and I have two destinations in mind.|inform
+USR|The first one is Chicago.|inform
+SYS|Great, do you have a window of travel dates that you are limited to?|request
+USR|No, but I am really hoping to be gone for 10 days.|inform
+SYS|Would 11 days be ok?|suggest
+SYS|I have a trip from Aug 31-Sept 10 in Chicago leaving from San Juan for 1324.90USD|suggest
+USR|An extra day should be ok.|request
+USR|For how many people is that price?|request
+SYS|That’s just one adult.|request
+SYS|How many of you will travel?|request
+USR|Me, my wife Penny and Johnny my son.|inform
+SYS|Fantastic.|request
+SYS|And could you tell me what your budget is?|request
+USR|1700, I wish I could spend more but I'm a writer and my last book was a total flop you know.|inform
+USR|I'm travelling to work on my book so if you could find places that were calm that would be really nice.|inform
+USR|I need this one to be a masterpiece!|inform
+SYS|Ok!|sorry
+SYS|Well sadly I cannot find you a package in Chicago for that budget, so perhaps you could tell me your other destination possibility and we can explore your options there.|sorry
+USR|Ok, the other place I was thinking of is Baltimore|inform
+SYS|For just a little more than your budget I can book you 13 days at the Countryside Inn.|offer
+SYS|This would cost 1747.67USD for the three of you and you would be in Baltimore from Sept 2-14.|offer
+USR|Is that the only option for Baltimore?|request_alts
+SYS|You could spend 8 days at the Countryside Resort in Baltimore for 1805.69USD.|suggest
+USR|Ok well I really need this getaway so I suppose an extra 50$ and 3 days won't hurt.|moreinfo
+USR|Can you tell me more about the place?|moreinfo
+SYS|Sure!|inform
+SYS|It’s 3 stars, near a park for little Jonny, and has a guest rating of 8.69.|inform
+SYS|The hotel has free wifi, free breakfast, and free parking as well :slightly_smiling_face:|inform
+USR|Is it booked then?|inform
+SYS|I can go ahead and book it if you are ready!|suggest
+USR|Yes please!|affirm
+SYS|Consider it done then :slightly_smiling_face:|inform
+USR|Amazing, thank you!|thankyou
+USR|Now all that's left to do is for me to write a bestseller!|thankyou
+USR|And pack of course|thankyou

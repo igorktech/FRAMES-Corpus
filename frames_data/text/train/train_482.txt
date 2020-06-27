@@ -1,0 +1,40 @@
+USR|hi there, wayward daydreamer on the line...so i live and work in madrid, but if i were to go to, say, naples…..could you tell me about it??|inform
+SYS|Do you have a budget?|request
+USR|well i do, but in theory i would like to know whats out there first|inform
+SYS|I will tell you our 3 best packages!|inform
+USR|great!|null
+USR|hit me with it|null
+SYS|Our first best package is a 4 star hotel, departing August 31st and returning September 6th.|offer
+SYS|The hotel offers free wifi and breakfast.|offer
+SYS|This business class package comes to a grand total of 861.91.|offer
+USR|nice, nice.|request_alts
+USR|number two?|request_alts
+SYS|Our second best is at a 3 star hotel, departing August 31st and returning September 7th.|offer
+SYS|The hotel offers free breakfast and wifi.|offer
+SYS|This business class package comes to a steal at 694.12!|offer
+USR|and the third?|request_alts
+SYS|Our last package is at the 4 star hotel, departing August 27th and returning the 31st.|offer
+SYS|The hotel offers free breakfast and wifi.|offer
+SYS|This economy class package comes to 852.86.|offer
+USR|Oh!|request_compare
+USR|so thats the same hotel, just dfferent dates?|request_compare
+SYS|Two different hotels.|inform
+SYS|The 4 star hotel is called Tower Hotel and the 3 star hotel is called Courtyard Resort.|inform
+USR|ok, but i meant that both 4 star packages are the same hotel… correct?|request_compare
+SYS|The hotels are the same|inform
+USR|ok!|null
+SYS|Would you like to book?|suggest
+USR|so, i was also wondering about trips to lima whats it look like the options are there?|request
+SYS|There is a 3.5 star hotel near a park that offers free breakfast, wifi, and parking, Wolf Inn, and a 4 star hotel near a park that offers free wifi, Olive Summit Hotel.|offer
+SYS|The best package for Wolf Inn departs September 2nd and returns on the 14th and costs 3043.41 for business class.|offer
+SYS|The best package for Olive Summit departs August 31st and returns September 11th and costs 3192.94 for business class.|offer
+USR|and how about in Mexico City?|inform
+SYS|Our best packages here are at the Exalted Willow Resort & Suites.|offer
+SYS|This hotel has a 3.5 star rating, close to the beach, and shopping mall, they also offer free wifi and parking.|offer
+SYS|The first option departs September 2nd and returns on the 14th.|offer
+SYS|This business class package costs 2594.97.|offer
+SYS|The second best is departing September 1st and returning on the 7th, business class cost is 2313.56.|offer
+USR|sounds beautiful.. I would LOVE to stay on the beach and have free parking :heart_eyes: well, i didnt come here to book anything today but i appreciate you telling me about whats out there|goodbye
+SYS|Okay, glad I could help you explore some options.|goodbye
+SYS|Have a nice day!|goodbye
+USR|Thanks, you too|thankyou

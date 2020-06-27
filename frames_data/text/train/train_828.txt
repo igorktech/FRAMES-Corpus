@@ -1,0 +1,9 @@
+USR|I am a world-renowned pastry chef and I need to travel to St. Petersburg - stat!|inform
+SYS|Sure thing!|request
+SYS|Where will you be leaving from?|request
+USR|I live in Goiania.|inform
+USR|I will be travelling with my 2 lawyers, 2 wives and my 14 children.|inform
+SYS|I’m sorry, I can’t find anything available to St. Petersburg for this many people.|sorry
+USR|I am willing to pay up to $5200 if need be, but you have to get me there!|inform
+SYS|I’m sorry.. that doesn’t change the fact that I cannot yield any results with this many people.|sorry
+USR|Fine I will try your competition then GOODBYE|goodbye

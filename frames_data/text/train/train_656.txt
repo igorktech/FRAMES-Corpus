@@ -1,0 +1,31 @@
+USR|ok so i am free to travel from september 13 until the 23.|inform
+USR|can you tell me my options for Sao Paulo leaving from Sapporo please|inform
+SYS|Are you traveling alone?|suggest
+USR|yes|affirm
+SYS|Do you have a budget?|request
+USR|no|inform
+SYS|Our best package is a 3 star hotel in the heart of the city near a cathedral and theatre.|offer
+SYS|The hotel has a 6.91/10 guest rating and offers free breakfast and wifi.|offer
+SYS|This package is from September 13th to 18th and is a business class flight that costs 6402.19.|offer
+USR|ok
+i’ll keep it in mind
+what do you have available in manaus|inform
+SYS|We have a 2.5 star hotel near shopping, 6.77/10 guest rating, free parking, breakfast, and wifi, September 14th to 22nd, business flights are 5393.55, economy flights are 4113.56.|offer
+USR|no higher rated hotel?|request_alts
+SYS|No sorry.|sorry
+USR|what do you have in Fort Lauderdale|inform
+SYS|Nothing.|no_result
+USR|what in Kyoto?|inform
+SYS|We have 3 star hotels in Kyoto.|inform
+USR|how many?|request
+SYS|4|inform
+USR|what are the differences between them|request_compare
+SYS|Glorious Bazaar Resort, near a museum, 0/10 guest rating, free breakfast and wifi.|offer
+SYS|Sakura Inn, near a museum, 8.69/10 guest rating, free wifi.|offer
+SYS|Southern Palace, in the heart of the city, near a museum, 6.61/10 guest rating, free breakfast and wifi.|offer
+SYS|quiet garden Resort, near a museum, 8.22/10 guest rating, free breakfast and wifi.|offer
+USR|I would like to stay in the heart of the city, can I book that one|inform
+SYS|Sure!|inform
+SYS|You will receive confirmation within 20 minutes by email.|inform
+SYS|Have a great day!|inform
+USR|thank Uu!!|thankyou

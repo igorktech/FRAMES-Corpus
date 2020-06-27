@@ -1,0 +1,10 @@
+USR|I'm a polygamist and I'd like to travel with my 6 partners and 1 child to San Juan from Pittsburgh on a budget of 6600 USD|inform
+SYS|I can book 8 days in Pittsburgh for 7 adults and 1 child for 6067.58USD.|hearmore
+SYS|Would you like to hear more options?|hearmore
+USR|Can you tell me how much the hotel is per night, in case we make a last minute decision to stay one more night?|inform
+SYS|The hotel in Pittsburgh would cost 6067.58USD to stay from August 17 to August 24.|suggest
+USR|How much would it cost from August 17th to August 25th?|inform
+SYS|I'm sorry, I cannot find any options available in Pittsburgh for August 17 to August 25 that depart from San Juan.|no_result
+USR|Ok I'll book the package with 8 days in Pittsburgh from August 17th to the 24th.|thankyou
+USR|Thank you.|thankyou
+SYS|Booking that package for you now - have a good day|inform

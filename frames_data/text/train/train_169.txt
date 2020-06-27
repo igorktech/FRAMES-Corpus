@@ -1,0 +1,32 @@
+USR|I'm looking for some Pokemon.|inform
+USR|I heard one was spotted in San Antonio.|inform
+USR|We'd like to leave here on August 26th!|inform
+SYS|How many are you?|request
+USR|A total of 6 adults.|inform
+USR|We're all trying to find Pokemon.|inform
+SYS|Where are you located?|request
+USR|Barcelona.|inform
+USR|I should also mention that we have a budget of 17400 dollars.|inform
+SYS|I am sure that budget will be perfectly suitable.|offer
+SYS|I have a 10 day package in San Antonio available departing on September 1 for 12758.22.|offer
+SYS|How does that sound?|offer
+USR|That sounds pretty good!|request
+USR|Does the hotel have free wifi?|request
+USR|We'll probably try to catch some Pokemon around the hotel.|request
+SYS|Not only does it have free wifi, but also includes a complimentary breakfast and free parking.|inform
+USR|Yes we definitely will need a rental car.|inform
+USR|Do you have any trips to Essen?|inform
+SYS|From Barcelona?|confirm
+SYS|Do you also require a trip to Essen?|confirm
+USR|Yes, I would like to compare both trips.|inform
+USR|If I can't find a Pokemon, I may as well find a Mewtwo.|inform
+USR|Mewtwo was spotted in Essen|inform
+SYS|For an August 26 departure, I have a package at the Motel Ivory Safari for an 8 day stay which also includes wifi and parking but no breakfast.|offer
+USR|No breakfast?|request
+USR|Hmmm we're an awfully hungry bunch so I think we'll stick to finding the Pokemon in San Antonio.|request
+USR|What is the departure time?|request
+SYS|1 pm on Thursday Sept 1st returning on Saturday Sept 10th at 3 am.|suggest
+SYS|Would you like me to proceed with booking the San Antonio package for you and your party of 6?|suggest
+USR|Yes this packages suits our hunting needs just fine.|inform
+SYS|Perfect I will proceed then|inform
+USR|Thank you for your help!|thankyou

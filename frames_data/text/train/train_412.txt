@@ -1,0 +1,22 @@
+USR|hi there, i'm having my dream wedding this Saturday and I want to have a dream honeymoon right after :slightly_smiling_face: :slightly_smiling_face:|inform
+SYS|Where would you like to go?|request
+USR|i'm marrying the love of my life in Salvador, and we want to go to Miami!!!|inform
+SYS|do you have a budget?|request
+USR|4200.|inform
+USR|Will this last us 10 days?|inform
+SYS|We only have a trip at 4353.93USD for 8 days|suggest
+USR|How about if we went to San Diego instead?|inform
+SYS|we dont have anything within your budget either..|no_result
+USR|Alright what if I shortened the Miami honeymoon.|request
+USR|Can you fit something inside our budget?|request
+SYS|I am sorry, the cheapest option is 4353.93USD|sorry
+USR|What if we only went for 5 days?|inform
+SYS|Yes.|suggest
+SYS|We have trips at 1384.53USD, 1611.13USD, 1725.15USD, 1738.96USD, 1808.68USD|suggest
+USR|What do I get for 1808.68 USD?|moreinfo
+SYS|Hi, I am sorry, I actually don'T have anything departing from Salvador, these options are are suggestions departing from London, Canada|sorry
+USR|WHY would you feel the need to tell me flights departing from London?|request
+USR|Salvador to Miami, whats your cheapest package?|request
+SYS|I am sorry, I dont have anything within your budget.|sorry
+SYS|The cheapest is at 4353.93USD|sorry
+USR|I am heartbroken|null

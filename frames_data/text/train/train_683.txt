@@ -1,0 +1,13 @@
+USR|Do you do any flights out of Kabul?|inform
+USR|I work for an exciting startup based there...|inform
+SYS|Kabul to where?|inform
+USR|to Cordoba?|inform
+SYS|will that be for yourself only?|suggest
+USR|No this would be for 11 adults|inform
+SYS|Not a thing.|suggest
+SYS|Others I can check?|suggest
+USR|Kabul to…Cleveland??|inform
+SYS|No.|no_result
+SYS|Nothing from Kabul to Cleveland for 11 people.|no_result
+USR|Kabul to…anywhere?????|inform
+SYS|It does not seem that we have any flights out of Kabul at all.|no_result

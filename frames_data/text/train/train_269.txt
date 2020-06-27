@@ -1,0 +1,24 @@
+USR|Book me a flight for 7 adults and 1 child from Portland to North Vancouver|inform
+SYS|That will cost you 11663.75USD.|offer
+SYS|Okay?|offer
+USR|Hold on I need to know what date this will be departing on.|request
+USR|I want to go as soon as possible|request
+SYS|You can go from August 30 to September 10th|inform
+USR|Nothing sooner than that?|inform
+SYS|Unfortunately those are the only dates available.|sorry
+SYS|Would you like to explore your options at another destination?|sorry
+USR|Yeah let me know if there's anything sooner departing from London|inform
+SYS|I have cheaper packages for the same departure date from London|suggest
+USR|How cheap|request
+SYS|9550.23USD|inform
+USR|I really want to leave ASAP, no time to waste|inform
+SYS|Unfortunately I can only find specific departure cities in my data base.|sorry
+USR|Ok go check Marseille to North Vancouver for me|inform
+SYS|To leave from Marseille would cost you 20100.18USD on August 30th.|offer
+USR|How much would it cost to fly from Portland to London|request
+SYS|I do not have any options available at this time.|no_result
+USR|Can you give me a lower price if I booked the Portland to North Vancouver flight but returned on a different date?|inform
+SYS|Unfortunately I only have the dates I gave you available.|sorry
+USR|I only have 11400 to spend.|inform
+USR|Can you think of anything for me|inform
+SYS|I can book you 8 days in Atlantah from August 24 -August 31 for 1764.88USD|offer

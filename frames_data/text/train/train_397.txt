@@ -1,0 +1,2 @@
+USR|GET ME A FLIGHT FROM BARCELONA TO CALGARY LEAVE SEPTEMBER 2|inform
+SYS|Sorry, I don't have any flights leaving from barcelona|sorry

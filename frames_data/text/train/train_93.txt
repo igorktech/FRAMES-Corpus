@@ -1,0 +1,16 @@
+USR|Hi!|greeting
+USR|I'm looking to book a trip somewhere between August 19th and September 3rd.|greeting
+USR|My budget is 1700.|greeting
+SYS|Hi there!|greeting
+SYS|How would you like a trip to Kyoto from the 25th to the 31st of August?|greeting
+SYS|The total cost of this package is only 110.93USD.|greeting
+SYS|I can book you a flight from Nagoya.|greeting
+USR|I need to leave from Cairo.|inform
+SYS|If you're leaving from Cairo, I can book you a 10-day stay in Punta Cana for 475.20USD.|offer
+SYS|You would be leaving the 24th of August.|offer
+USR|Sure!|affirm
+USR|Let's do that!|affirm
+SYS|Done!|inform
+SYS|I have successfully booked your trip.|inform
+SYS|Your flight leaves Wednesday, August 24th at 3:23 p.m. Enjoy your vacation!|inform
+USR|Thanks|thankyou

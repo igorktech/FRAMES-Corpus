@@ -1,0 +1,15 @@
+USR|I heard Madonna and her friend were going to Santa Cruz.|inform
+USR|I need to go there and try to get a dope picture for People Magazine so I can get rich quick.|inform
+SYS|ok, what is your budget?|request
+USR|2000|inform
+SYS|Which days would you like to go?|request
+USR|i want to leave today|inform
+SYS|Which days would you like to return?|request
+USR|it doesnt matter|inform
+SYS|How many will you be?|request
+USR|just me|inform
+SYS|Where are you leaving from?|request
+USR|Lima|inform
+SYS|Sorry, I don't have any results for that|sorry
+USR|If i increase my budget by 1000 are there any results?|inform
+SYS|Sorry, I don't have anything|sorry

@@ -1,0 +1,2 @@
+USR|Hi, i need to get out of Jerusalem before i get whacked.|inform
+SYS|Sorry, we do not service Jerusalem.|sorry

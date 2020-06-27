@@ -1,0 +1,27 @@
+USR|WOHOO ITS SPRING BREAK!!!|inform
+USR|im in tjiuana and i need to get out of here|inform
+SYS|Do you have anywhere in particular in mind, or a set of dates?|request
+USR|August 30th to September 15th would be perfect|inform
+SYS|I have some sweet deals for Mexico and Dominican Republic for under 1000 USD.|request
+SYS|Do you have a budget?|request
+USR|We got $6200 :wink:|inform
+SYS|How many will you be?|request
+USR|5 in total|inform
+SYS|Are you interested in going to Mexico, St. Louis, Miami or Lima?|offer
+USR|Mexico sounds fun and exciting|switch_frame
+SYS|The Vertex in Ciudad Juarez, Mexico sure does!|offer
+SYS|A 3 star stay including free breakfast, wifi and parking with a 8.86/10 guest rating.|offer
+USR|Is it near a beach?|request_alts
+USR|Any better rated hotels?|request_alts
+SYS|I do not have information on vicinity to a beach.|offer
+SYS|I can however offer you a great deal at the 3.5 star White Peak Hotel in Cancun, Mexico for 10 days.|offer
+USR|How much would that be?|request
+SYS|Only 3032.45 USD!|inform
+USR|OMG let’s book it|inform
+SYS|This also includes business class flights leaving on September 6th!|inform
+USR|This is business?|confirm
+USR|woah im excited perfect!|confirm
+SYS|Great!|inform
+SYS|Your trip is booked!|inform
+SYS|Have a wild march break!|inform
+USR|thank youuuu|thankyou

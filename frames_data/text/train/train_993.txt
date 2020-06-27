@@ -1,0 +1,24 @@
+USR|HI there, I need to book a trip to La Paz.|inform
+USR|And I'll be departing from Belem.|inform
+SYS|How many will you be?|request
+USR|We'll be 4 adults and 6 children.|inform
+SYS|Is there a strict budget you must follow?|request
+USR|I'm willing to pay a total of 15100|inform
+SYS|With your budget I can get you spots in an economy package at a 4 star hotel with free parking, free breakfast, and free wifi.|offer
+SYS|If you are willing to increase your budget though, I can see if I can get any other options for you.|offer
+USR|How much does it cost with the economy package?|request
+USR|And how many days would it be?|request
+SYS|For economy it would be 14111.28 for 8 days from Sept 8-14.|offer
+USR|If I am willing to increase my budget by about $1500, what else can you find for me?|request_alts
+SYS|Nothing better unfortunately.|sorry
+USR|Okay, I want to take the package you already mentioned, but what if I increase my budget by $1500?|inform
+SYS|There is nothing more I can offer you with an increase of $1500 of your budget.|no_result
+SYS|Would you be able to increase it more?|no_result
+USR|No, I think the 8 day package at a 4 star hotel should be good enough!|switch_frame
+SYS|Wonderful!|suggest
+SYS|Would you like me to book it for your group of 10?|suggest
+USR|Yes please!|affirm
+SYS|It's taken care of for you!|inform
+SYS|Time to pack your bags :slightly_smiling_face:|inform
+USR|Thank you very much!|thankyou
+SYS|The pleasure is all mine.|you_are_welcome

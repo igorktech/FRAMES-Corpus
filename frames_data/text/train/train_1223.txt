@@ -1,0 +1,26 @@
+USR|I want to look at trips from San Jose to Dublin for 3500 and under.|inform
+SYS|What are your interests in terms of destination?|request
+USR|I thought I already said, from San Jose to Dublin|inform
+SYS|I do not have travel available to Dublin|no_result
+USR|How bout to Atlanta|inform
+SYS|San Jose to Atlanta is also unavailable|no_result
+USR|How bout alexandria|inform
+SYS|For how many?|request
+USR|just me|inform
+SYS|I have one hotel/flight package in Alexandria for an 8 day stay at the 3 star Bronze Inn & Suites over by the university.|offer
+USR|Do you have anything in San Antonio?|inform
+SYS|Got a couple of alternatives in San Antonio, both 2 star rated hotels with longer stays available.|offer
+USR|ok tell me about them|switch_frame
+SYS|I have the 2 star Winter Hill Inn close to the park, mall and theatre offering free parking, breakfast and wifi available for 11 and 17 days and I have the 2 star Vertex Inn  close to the park, museum and mall offering free parking, breakfast and wifi available for 11 and 14 days.|inform
+SYS|How long were you hoping to stay in San Antonio?|inform
+USR|idk as long as possible|inform
+SYS|The Winter Hill Inn is available for 17 days at 1461.3USD from Sept 14 to Sept 30|offer
+USR|nice…..ahhh.|switch_frame
+USR|sounds great.|switch_frame
+USR|17 days off work...|switch_frame
+SYS|Would you like me to book this for you?|suggest
+USR|No, I don’t have any vacation days left so I can’t book anything.|negate
+USR|Thanks for looking anyway.|negate
+USR|I appreciate it.|negate
+SYS|Not a problem.|thankyou
+SYS|Please do not hesitate to contact us again should you have any travel requirements.|thankyou

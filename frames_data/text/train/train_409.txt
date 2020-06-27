@@ -1,0 +1,25 @@
+USR|I'd like to try and book a vacation between september 2nd and september 15th|inform
+SYS|I am here to help you do that.|request
+SYS|What is your city of departure?|request
+USR|Washington|inform
+SYS|Any destinations in mind?|request
+USR|Kingston|inform
+SYS|what category hotel are you looking for and with which sorts of amenities included?|request
+USR|nothing in particular, just something under 1700|inform
+SYS|I have several options that suit your price range but the earliest we can get you on a flight is Sept 6th|suggest
+USR|thats fine as long as im back by the 15th|inform
+SYS|All of the options will get you back before the 15th.|suggest
+SYS|Would you prefer to be located in the downtown core or near the museum?|suggest
+USR|downtown preferably|switch_frame
+SYS|I have the Cosmos Inn available for 9 days from Sept 7 to the 15.|offer
+SYS|It is located in the heart of the city and close to the park.|offer
+SYS|Your package there would include free wifi, parking and breakfast, all for a pretty low price.|offer
+USR|are there any other packages?|request_alts
+SYS|The price on the above package is  619.40USD.|offer
+SYS|I also have the Exalted Raven B&B at 679.82USD located near the museum.|offer
+USR|I think I like the first price better so i'll have more money to shop teehee|switch_frame
+SYS|yes the first price is lower, should I proceed with the booking?|suggest
+USR|yes please do|affirm
+SYS|I have put your request through.|inform
+SYS|Thank you for booking|inform
+USR|Thank you|thankyou

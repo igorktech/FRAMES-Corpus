@@ -1,0 +1,7 @@
+USR|I want to go to Fortaleza to visit my aunt Betty.|inform
+SYS|Ok great.|request
+SYS|How many cousins will join you?|request
+USR|5 - my cousin Tommy, my cousin Henry, my cousin Johnny, my cousin Ian, and my cousin Derrick|inform
+SYS|What beautiful names :slightly_smiling_face: Where are you leaving from?|request
+USR|Valencia we live in valencia|inform
+SYS|Ok I have booked you 6 days at Secret Prairie Resort you must pay 12692.12USD Enjoy your stay goodbye :slightly_smiling_face:|inform

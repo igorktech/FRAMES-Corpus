@@ -1,0 +1,8 @@
+USR|helllllo newlywed young lover here looking to skeedaddle off to Sao Paulo for 9 days or so after our reception on august 27 in Athens.|inform
+USR|two of us have about 2700 dollars left after the wedding so keep that in mind|inform
+SYS|All we have is a 3 star hotel near a cathedral and theatre, free parking, breakfast, and wifi.|offer
+SYS|This hotel also has a 5.14/10 guest rating.|offer
+SYS|This package is from September 6th to 13th, economy class and costs 2381.20.|offer
+USR|im interested but can you check availabities for Porto before we book|inform
+SYS|There is nothing within your budget.|no_result
+USR|ok, book Sao Paulo thanks!|thankyou

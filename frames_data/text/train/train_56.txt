@@ -1,0 +1,26 @@
+USR|Hi im looking to book my Honeymoon|greeting
+SYS|I can help you with that.|request
+SYS|Where are you looking to go?|request
+USR|We were thinking of Fortaleza|inform
+SYS|Ok, sure thing.|request
+SYS|What would be your departure city of choice?|request
+USR|We will be leaving from Santos|inform
+SYS|Perfect!|offer
+SYS|I've got a couple of hotels available from August 17-23.|offer
+USR|leaving on the 17th is perfect!|request
+USR|what options do i have there?|request
+SYS|Ok, leaving on the 17th I have two hotel options - both are 3.0 stars with free parking, wifi, and breakfast.|offer
+USR|what are the price differences?|switch_frame
+SYS|Would you like to compare the packages with economy or business class flights?|suggest
+USR|yes please, is there a different price between hotels?|request
+SYS|The first hotel would be 877.94USD with economy class flights and 1082.29USD with business class.|offer
+SYS|The second hotel package costs 938.26USD with economy class flights and 1142.61USD for business class.|offer
+USR|what options do you have in philadelphia, with the same dates?|inform
+SYS|Unfortunately I have nothing available in Philadelphia, USA for those dates.|sorry
+USR|I think Fortaleza seems like a better destination can we book the cheapest option?|switch_frame
+SYS|Sure!|suggest
+SYS|So you'd like to book the Fortaleza package for 877.94?|suggest
+USR|yes please!|affirm
+USR|that would be wonderful|affirm
+SYS|Consider it done :slightly_smiling_face: Have a nice day.|inform
+USR|thank you very much!|thankyou

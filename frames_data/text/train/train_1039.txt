@@ -1,0 +1,36 @@
+USR|I gotta get outta Phoenix|inform
+SYS|Okay, where would you like to go?|request
+USR|I heard Brasilia has some nice casinos|inform
+SYS|How many people will be travelling from Brasilia to Phoenix?|request
+USR|No!|inform
+USR|You misunderstood me!|inform
+USR|from Phoenix TO Brasilia.|inform
+SYS|I apologize.|sorry
+SYS|From Phoenix to Brasilia.|sorry
+SYS|Number of people?|sorry
+USR|just me, gotta keep under the radar for a bit till the loan sharks get off my back|inform
+SYS|Do you have a budget for this trip?|request
+USR|3100|inform
+SYS|The Sublime Tower in Brasilia has 7 and 10 day packages available.|request
+SYS|When would you like to leave?|request
+USR|September 14th|inform
+SYS|I have no Sept 14 departures available to Brasilia.|offer
+SYS|For the Sublime Tower I have Sept 8 and Sept 10th departures and I have 7 day packages available at the Atlantic Gem  with a Sept 26 departure.|offer
+USR|What if I leave from Campinas instead?|inform
+SYS|From Campinas, the earliest departure after the 14th is also on Sept 26th|offer
+USR|Is there anything to Curitiba?|inform
+SYS|From Phoenix or Campinas?|confirm
+USR|Phoenix|inform
+SYS|I have a departure from Phoenix to Curitiba exactly on the 14th of September for a 14 day package at the 3 star Dual Basin Residence located on the beach near the shopping, market and mall.|offer
+SYS|This package included free parking, wifi and breakfast.|offer
+USR|Sign me up!|request
+USR|How much?|request
+SYS|Would you prefer to fly via economy or business class?|suggest
+USR|business if i can afford it.|request
+USR|How much would it be for business?|request
+SYS|A business class flight is still well below  your budget of 3100USD at  2011.70USD|offer
+USR|Wow!|inform
+USR|Yeah, put me down for 1|inform
+SYS|Perfect, I will proceed with the booking at the Dual Basin Residence from September 14th to September 27th via business class for 1 week.|inform
+SYS|Thank you for your booking and safe travel.|inform
+USR|Thanks, you basically saved my life.|thankyou

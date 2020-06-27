@@ -1,0 +1,24 @@
+USR|Do you do flights out of San Antonio?|inform
+SYS|Yes.|request
+SYS|Where to?|request
+USR|We don’t know.|inform
+USR|But there are 4 adults and 12 kids to book for|inform
+SYS|What is your budget?|request
+USR|3600|inform
+SYS|We have packages for Denver and Calgary|offer
+USR|Is it between Sept 18 and 22|inform
+SYS|Oh sorry no.|sorry
+SYS|In that case we don't have any availabilities.|sorry
+USR|What if we changed it to Sept 18 to 29 now|inform
+SYS|Yes that would work, we have one package to Calgary at a 4 star hotel near a university, 0/10 guest rating, free parking and wifi, from September 20th to 29th, 2251.89 for economy flights and 3013.14 for business flights.|offer
+USR|What about Denver?|inform
+USR|IF need be, we can up our budget to 3800|inform
+SYS|There are no trips to Denver for these dates.|no_result
+USR|But thats the only hotel in Calgary we can get?|confirm
+SYS|Yes.|affirm
+USR|Okay then we’ll go with that please|inform
+SYS|Business or economy?|suggest
+USR|Economy will be just fine|switch_frame
+SYS|Great!|inform
+SYS|You're booked!|inform
+SYS|Have fun!|inform

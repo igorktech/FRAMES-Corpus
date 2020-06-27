@@ -1,0 +1,29 @@
+USR|hi there.|inform
+USR|berlin to atlanta please
+sometime between september 8 and 25|inform
+SYS|How big is your group?|request
+USR|we are 7 in all|inform
+SYS|Splendid.|request
+SYS|We have a few 3.0 star hotels and 3.5 star hotels.|request
+SYS|Do you have a specific allowance for this trip?|request
+USR|we’d like to keep the spending to a minimum how long can we stay at the 3 star hotel?|switch_frame
+SYS|We have 8 day and 5 day packages.|offer
+USR|how much for 8.|inform
+USR|economy flights|inform
+SYS|That would be 22218.95 total.|offer
+USR|Yikes.|inform
+USR|How much to go to Pittsburgh?|inform
+SYS|We have two 2.5 star hotels in Pittsburgh, and we have 10, 13, and 14 day packages.|offer
+SYS|If you have a more precise idea of how much you are hoping to spend, I can help you narrow down your options.|offer
+USR|we are just looking for the best value for length of stay.|request
+USR|so how much is 14 days|request
+SYS|That sounds fair.|inform
+SYS|The 14 day economy package is 18789.55.|inform
+SYS|Business is 24096.66.|inform
+USR|sounds like an improvement.|inform
+USR|ok lets just go ahead with that one then|inform
+SYS|The economy package?|confirm
+USR|yes please|switch_frame
+SYS|Booked!|inform
+SYS|Anything else I can do for you today?|inform
+USR|you’ve done all we could ever ask of you, thanks!|thankyou

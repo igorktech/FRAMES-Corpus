@@ -1,0 +1,4 @@
+USR|Take me from Beijing to Salvador from the 24th to 27th for 2500 or under|inform
+SYS|I’m sorry, I can’t do that.|sorry
+SYS|Our services do not operate out of Beijing.|sorry
+SYS|Can I help you with something else by any chance?|sorry

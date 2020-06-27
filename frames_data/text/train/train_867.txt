@@ -1,0 +1,27 @@
+USR|Hi there|greeting
+SYS|Hi!|greeting
+USR|Can you send me out of Sapporo|inform
+SYS|Yes!|request
+SYS|Where would you like to go?|request
+USR|Can you fly me to Fort Lauderdale?|inform
+USR|I can pay whatever it takes|inform
+SYS|We have one package from Sapporo to Fort Lauderdale at a 2 star hotel near a market.|offer
+SYS|This hotel has a 8.22/10 guest rating and they also offer free parking, breakfast, and wifi.|offer
+SYS|This package is from September 8th to 16th.|offer
+SYS|The costs are 4243.26 for business class flights and 3276.50 for economy flights.|offer
+USR|Can you look at Rome as well?|inform
+SYS|Our best package for Rome is at a 4 star hotel, 8.98/10 guest rating, near a cathedral, free breakfast and wifi, from September 11th to 20th, economy flights for 3233.48, business flights for 4159.77.|offer
+USR|What would I need to pay to find a similar caliber lodging situation in Punta Cana?|request
+SYS|Well we don't have any 4 star hotels here but we do have a 3.5 star hotel near a cathedral and palace, with a 8.69/10 guest rating, free parking and wifi, from September 2nd to 15th, economy for 3952.50, business for 5135.59.|offer
+USR|Oh ok thats a little bit out of our price range, even if we don't have a strict budget!|inform
+USR|At this point I like Rome
+Would I be able to book it today?|inform
+SYS|Okay great!|suggest
+SYS|Yes!|suggest
+SYS|Are you travelling alone?|suggest
+USR|I'm traveling alone, yes.|inform
+USR|Please book it!|inform
+SYS|Great!|thankyou
+SYS|Booked!|thankyou
+SYS|Have a great day and thank you!|thankyou
+USR|Thanks!|thankyou

@@ -1,0 +1,21 @@
+USR|Seoul to Long Beach.|inform
+USR|4 kids 6 adults.|inform
+USR|35400 budget|inform
+SYS|When would you like to travel?|request
+USR|Times don’t matter|inform
+SYS|We have a 2.5 star hotel near the airport.|offer
+SYS|It has 6.91/10 guest rating, free parking, free breakfast, and free wifi.|offer
+SYS|We offer 6 day or 8 day packages with business or economy flights well under your budget.|offer
+USR|Anything better?|inform
+USR|If it matters I can also up the budget by another 1000|inform
+SYS|Unfortunately this is the only available hotel in Long Beach.|sorry
+USR|Damn Long Beach, thats downright embarrassing
+But lets go with it You can fit all 10 of my party on the same flight right?|confirm
+SYS|Sure can, I can even fit all of you into business class if you'd like.|inform
+SYS|Would you like to go for 6 days or 8 days?|inform
+USR|Whats the price for 8 days, with business class?|request
+SYS|That would be 24951.60.|inform
+USR|Sign the team up, pal|inform
+SYS|Consider it done.|inform
+SYS|Have a great trip!|inform
+USR|I thank thee|thankyou

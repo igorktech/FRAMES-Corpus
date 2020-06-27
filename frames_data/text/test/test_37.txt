@@ -1,0 +1,15 @@
+USR|hi.|inform
+USR|I want to go to Tofino from Burlington.|inform
+USR|please recommend me packages from Sunday 21 to August 24 for 2200 for 7 adults.|inform
+SYS|The only result I have is one trip from Burlington to Calgary.|offer
+USR|ok what if I increase my budget by 300$|inform
+SYS|No sorry but you can afford a trip to Denver from Burlington.|sorry
+USR|ok I will go to Calgary|switch_frame
+SYS|This is a 4 star hotel for 2179.40.|suggest
+SYS|This trip is from September 2nd to 8th.|suggest
+SYS|Would you like me to book it for you?|suggest
+USR|ok for seven adults|confirm
+SYS|Yes.|affirm
+SYS|Your trip is now booked!|affirm
+SYS|I'm glad I could help you today and thank you for using our services|affirm
+USR|ok Thank you!|thankyou

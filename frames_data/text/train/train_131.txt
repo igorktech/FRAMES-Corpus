@@ -1,0 +1,25 @@
+USR|I'm looking to book a trip to Chicago from Brasilia.|inform
+USR|I booked work off from August 27th to September 10th and im looking for a 7 day trip|inform
+SYS|Do you have a budget for this trip?|request
+USR|No I do not|inform
+SYS|Are you interested in a 5 day stay at a 2.5 star hotel for only 1916.38USD?|offer
+USR|I would really like a 7 day stay if possible.|inform
+SYS|I'm sorry, but I can only offer 5 day stays to Chicago.|sorry
+SYS|Are there any other places you would like to visit?|sorry
+USR|Ulsan.|inform
+SYS|Unfortunately I can only offer 5 day trips from Brasilia to Ulsan.|sorry
+SYS|Is there another city that you would like to fly from?|sorry
+USR|No.|inform
+USR|Are there any 7 day trips from Brasilia to La Paz?|inform
+SYS|I have 6 day trips available starting at 2183.39USD.|offer
+SYS|Does this interest you?|offer
+USR|Yes!|affirm
+SYS|Great!|inform
+SYS|This package is a 4 star retreat including breakfast, wifi and parking.|inform
+SYS|Your economy flight leaves on August 27th and returns on August 31st.|inform
+USR|Perfect!|inform
+USR|Let's book that one|inform
+SYS|Sure thing!|goodbye
+SYS|A confirmation will be sent to your email.|goodbye
+SYS|Enjoy your trip!|goodbye
+USR|Thank you|thankyou

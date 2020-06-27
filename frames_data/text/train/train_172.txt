@@ -1,0 +1,42 @@
+USR|hey dude.|inform
+USR|ive benn in ulsan for 2 years now with no break from work
+i wanna go back to calgary and visit the fam.|inform
+SYS|Would you be available to travel between the 27th and the 31st of August?|suggest
+USR|yes.|inform
+USR|im off until sept 10
+holidays start aug 27|inform
+SYS|In that case, I can book you a stay in the Amusement.|offer
+SYS|It is a 4-star hotel with a 0/10 guest rating, free wifi and free parking.|offer
+SYS|The total cost of this package is 2495.75USD.|offer
+USR|what if i went to burlington?|inform
+SYS|I can book you at the Noble Bazaar Resort for the same time slot, however this package is 2751.46USD.|offer
+USR|what if i went later in september and returned by the 10th?|inform
+SYS|If you would like to extend your visit further into September I can offer you a stay in Calgary from the 2nd to the 6th of September.|offer
+SYS|This package costs 3238.76USD.|offer
+USR|what would the hotel be like?|request
+SYS|You would be staying at the Retro Inn, a 2-star hotel with a 6.51/10 guest rating in proximity to both the airport and a public park.|inform
+SYS|This resort offers free breakfast, free wifi and free parking.|inform
+USR|so have you given me all the options available from ulsan to burlington between august 27-sept 10|request_alts
+SYS|Unfortunately I cannot change your dates as all available packages are for the 27th to the 31st of August.|sorry
+SYS|I can offer to upgrade your flight to business class, or book you at the Excursion Motel instead of the Noble Bazaar Resort, however these packages will all cost you more than the one I have already described.|sorry
+USR|ok.|request
+USR|whats the excursion motel like|request
+SYS|It is a 2.5-star hotel with a 6.77/10 guest rating located in the heart of the city.|inform
+SYS|It offers free wifi and free parking to guests.|inform
+USR|how much would the price be|request
+SYS|The price of this package is 2767.38USD.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|how many other hotels are available in burlington|inform
+SYS|These are the only two hotels in Burlington with vacancies at the moment.|inform
+USR|and both are the same dates?|inform
+USR|what would be the price if i upgraded to business class - can you give me a side by side comparison?|inform
+SYS|There is a vacancy at the Noble Bazaar Resort from the 27th to the 31st of August.|offer
+SYS|This package will cost you 2751.46USD, or 3577.98USD if you upgrade to business class.|offer
+SYS|If you would like to stay at the Excursion, there is a vacancy from the 27th to the 31st of August as well.|offer
+SYS|This package will cost you 2767.38USD, or 3593.90USD if you upgrade to business class.|offer
+USR|ok i want to stay at the noble bazaar
+and i would like to fly business class|switch_frame
+SYS|Done!|thankyou
+SYS|Your vacation has been booked.|thankyou
+SYS|Thank you for your business!|thankyou
+USR|thank you very much for your patience you are an absolute gem|thankyou

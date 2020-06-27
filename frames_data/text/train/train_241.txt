@@ -1,0 +1,21 @@
+USR|Hi!|inform
+USR|I have 2 possible big golf tournaments coming up and I want to see which one has the best package.|inform
+USR|Let's take a look at Chicago first.|inform
+SYS|Ok, sure thing :slightly_smiling_face: Where are you departing from?|request
+USR|I'm in Seattle.|inform
+USR|Ever been to Seattle?|inform
+SYS|What dates would you like to travel?|request
+USR|Anytime between August 27 to September 10.|inform
+SYS|I have one hotel available in Chicago for that date range.|offer
+SYS|It is 2.5 stars and located in North Chicago near a park and a museum.|offer
+SYS|It has free wifi, breakfast, and free parking.|offer
+USR|Okay how about Rome?|inform
+SYS|I have 3 four star hotels available in Rome for your date range and one 0 star hotel in Rome.|suggest
+USR|Are any of the Rome hotels near the beach?|inform
+SYS|Sadly, there are no beaches.|sorry
+SYS|There are some available near a Cathedral and/or shopping districts.|sorry
+USR|Well, I do like cathedrals|null
+SYS|There’s the Hotel Grand Residence which has free breakfast, free wifi, and a guest rating of 8.8/10.|offer
+SYS|The Hotel Emerald Legacy has a guest rating of 8.22 and free breakfast and wifi as well.|offer
+SYS|FInally, The Double Pastures has a guest rating of 8.98 in addition to free breakfast and free wifi like the other two.|offer
+USR|Let's book the Double Pastures|inform

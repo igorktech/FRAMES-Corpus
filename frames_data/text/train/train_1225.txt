@@ -1,0 +1,28 @@
+USR|I wouldn't define it amazing but YES I need do go back to Minneapolis!|inform
+SYS|Okay!|request
+SYS|Where will you be coming from?|request
+SYS|And how many of you will there be?|request
+USR|I'm in Guadalajara right now.|inform
+USR|Just me|inform
+SYS|We only offer 10 and 13 day packages, do you have a preference?|offer
+USR|Forgot to tell you!|inform
+USR|I only have 1300 in the bank.|inform
+USR|Will it work?|inform
+SYS|I'm happy to inform you that both are packages are within your budget.|inform
+SYS|Do you have a preference?|inform
+USR|I just want to go as soon as possible.|inform
+USR|When does the earliest trip leave?|inform
+SYS|Friday September 16th for 10 days.|offer
+SYS|Would you like to hear more about this package?|offer
+USR|If I leave from Vancouver are there flights that leave earlier?|inform
+SYS|Yes, but only by 5 hours.|offer
+SYS|Would you prefer that?|offer
+USR|Not really worth it.|request
+USR|Okay I'll take the earliest that leaves from Guadalajara!|request
+USR|Economy flight's good
+How much is it total?|request
+SYS|It would cost 1284.10.|suggest
+SYS|Shall I book it for you?|suggest
+USR|Yes please!|inform
+SYS|Consider it booked!|inform
+SYS|You'll be on a flight to Minneapolis soon enough!|inform

@@ -1,0 +1,32 @@
+USR|Heyo!|greeting
+SYS|Hi!|greeting
+SYS|What can I do for you today?|greeting
+USR|I'd like to go to Seattle from Belem between August 27th and September 5th.|inform
+USR|What is available?|inform
+SYS|I've got a 3.5 star hotel available for 3171.58USD travelling on those dates!|offer
+USR|That sounds good.|inform
+USR|What are my options if I leave from Belo Horizonte?|inform
+SYS|I can book you the same hotel but returning on September 3rd if you leave from Belo Horizonte.|offer
+USR|For how much?|switch_frame
+SYS|That would cost 3332.23USD.|inform
+USR|Ok let me see, what about a trip to Paris leaving from Belem between the same dates?|inform
+SYS|I don't have anything available in Paris between those dates unfortunately.|sorry
+USR|What about Sao Paulo?|inform
+SYS|Would you like to travel to or from Sao Paulo?|confirm
+USR|Travel to Sao Paulo.|inform
+SYS|I can book you 6 days in Sao Paulo for 907.3USD if you leave from Belem.|offer
+USR|Fantastic!|inform
+USR|And if I leave from Belo Horizonte?|inform
+SYS|I can get you 4 days for 853.71USD if you leave from Belo Horizonte.|offer
+USR|Ok.|request
+USR|I choose the trip to Seattle from Belem.|request
+USR|What are the arrival and departure dates and times?|request
+SYS|Great, the 3.5 star hotel for 3171.58USD?|confirm
+USR|Yes!|affirm
+SYS|You will depart from Belem at 1:00 pm and arrive in Seattle at 11:59 pm on Saturday, August 27th.|inform
+SYS|When leaving Seattle, you will depart at 4:00 am on Monday, September 5th and arrive back in Belem at 2:59 pm on that same day.|inform
+USR|Excellent!|inform
+USR|Let's book this one.|inform
+SYS|Great!|inform
+SYS|Consider it done.|inform
+USR|Thanks, friend!|thankyou

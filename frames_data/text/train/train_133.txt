@@ -1,0 +1,24 @@
+USR|Hi I wanna take a 12 day trip from Hiroshima to Phoenix, leaving on August 27th.|greeting
+SYS|Will anyone be joining you?|suggest
+USR|No, I don't like other people.|inform
+SYS|Not a problem, and do you have a budget?|request
+USR|No, I'm rich.|inform
+SYS|Would an 8 day stay at a 3 star hotel for 4202.50USD, with economy flight leaving on August 27th interest you?|offer
+USR|Possibly.|inform
+USR|Is there anything from Hiroshima to Baltimore?|inform
+SYS|Are your dates flexible?|inform
+SYS|I cannot offer dates earlier than September 1st for a flight from Hiroshima to Baltimore.|inform
+USR|No.|request
+USR|That's okay.|request
+USR|Is there anything for Boston instead of Baltimore?|request
+SYS|there's a 2.5 star hotel starting at 4162.73USD for 8 days with a departure flight leaving on August 27th, or a 3 star hotel starting at 4586.75USD for 8 days with a departure flight leaving on August 30th.|offer
+SYS|Do either of these interest you?|offer
+USR|no.|request
+USR|I think ill take the trip to Phoenix.|request
+USR|Does the hotel offer wifi?|request
+SYS|Yes, the hotel offers breakfast, wifi and parking!|inform
+USR|Great!|inform
+USR|I'll take it|inform
+SYS|Sure thing!|inform
+SYS|Your reservation has been completed.|inform
+USR|thank you|thankyou

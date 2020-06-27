@@ -1,0 +1,4 @@
+USR|I would like to find a great package from Birmingham to Porto for 6 days.|inform
+SYS|We have no travel packages available from Birmingham to Porto Alegre|no_result
+USR|How about to Naples instead?|inform
+SYS|Neither|no_result

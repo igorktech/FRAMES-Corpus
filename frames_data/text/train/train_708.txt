@@ -1,0 +1,12 @@
+USR|I've got 2000 to get 6 adults and 9 children from Portland to Hamburg|inform
+SYS|I’m sorry, I cannot find anything within your budget.|sorry
+USR|Preposterous.|inform
+USR|3500 then|inform
+SYS|I can book you for 20181.23USD|suggest
+USR|Ok do it.|negate
+USR|Wait, no.|negate
+SYS|Should I book?|suggest
+USR|That is six times more than we can pay|negate
+SYS|That is the best price I can give you for such a large party.|inform
+USR|I run a restaurant, not a ponzi scheme.|negate
+USR|I cannot afford your tickets, good bye|negate

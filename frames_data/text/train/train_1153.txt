@@ -1,0 +1,26 @@
+USR|Need to go to Vancouver|inform
+SYS|From where?|request
+USR|La Paz|inform
+SYS|Budget?|request
+USR|wtv|inform
+SYS|I do not comprehend.|reject
+USR|DON'T MATTER|inform
+SYS|Ok.|request
+SYS|When would you like to leave?|request
+USR|09/20 to 09/30|inform
+SYS|Travelling alone?|suggest
+USR|yes|affirm
+SYS|We have a 4 star hotel available for 10 days or 4 days.|offer
+SYS|Which do you prefer?|offer
+USR|As long as it fits my dates 10 is good|switch_frame
+SYS|It is from the 21st to 30th.|offer
+SYS|The hotel is near a park and museum, they have a 10/10 guest rating, and they offer free parking, breakfast, and wifi.|offer
+SYS|Do you prefer to know the business or economy flights price?|offer
+USR|That suits.|switch_frame
+USR|Business.|switch_frame
+SYS|The business price is 1497.00|inform
+USR|Perfect.|inform
+USR|Book.|inform
+USR|Thanks.|inform
+SYS|Done.|inform
+SYS|Have a great day!|inform

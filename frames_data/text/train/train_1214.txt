@@ -1,0 +1,4 @@
+USR|I would like to take my family on a trip from Kabul to Phoenix|inform
+SYS|Sorry but we do not offer flights out of Kabul.|sorry
+SYS|Is there another nearby city you could leave from?|sorry
+USR|no|negate

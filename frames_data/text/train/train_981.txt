@@ -1,0 +1,52 @@
+USR|Yes please, I'd like to book a trip to Kobe.|inform
+SYS|What a great place to go!|request
+SYS|Where is your party coming from?|request
+USR|It's just going to be me.|inform
+USR|I'll be coming from Monterrey.|inform
+SYS|We have a great range of offerings for you.|request
+SYS|Could you tell me a bit more about your desired travel dates and budget so I can narrow down the choices?|request
+USR|I'd like to travel sometime between Wednesday September 7 and Saturday September 17.|inform
+USR|My budget is flexible but something affordable would be great.|inform
+SYS|Sounds good!|hearmore
+SYS|We offer 10 day trips at a 3.5 star hotel and 5 or 6 day trips at a 3.0 star hotel.|hearmore
+SYS|Would you like to know more about these options?|hearmore
+USR|Yes please!|affirm
+SYS|The 3.5 star hotel has a guest rating of 8.69/10 and offers free wifi.|inform
+SYS|The 3.0 star hotel has a guest rating of 6.91/10, is located close to a park, and offers free breakfast and free wifi.|inform
+USR|How much does each package cost?|request_compare
+SYS|For the 10 day trip at the 3.5 star hotel, we offer the economy package at 3753.26 and the business package at 4846.37.|offer
+SYS|For the 3.0 star hotel, we actually offer the trips for the same price: economy for 3287.18 and business for 4261.75.|offer
+USR|Oh they sound pretty good!|request_alts
+USR|But I'm also curious about other destinations and I'd like to keep my options open.|request_alts
+SYS|Sure thing!|request
+SYS|What did you have in mind?|request
+USR|I was also wondering about a trip to Kochi.|inform
+USR|Same dates and same city of departure.|inform
+SYS|Okay, for Kochi we have a 3.5 star hotel at the heart of the city and close to a park, where we offer 8 day packages.|offer
+SYS|We also have a 2.5 star hotel also at the heart of the city and close to a market and a park where we offer 12 day packages.|offer
+USR|How much would the 8 day package cost?|request
+SYS|It would be 3739.35 on economy seats, 4834.43 on business seats.|offer
+USR|That sounds good, but may I ask about another destination please?|inform
+USR|I'm also thinking about going to Cancun.|inform
+SYS|In Cancun we have a 3.5 star hotel close to a cathedral.|offer
+SYS|It would be 751.38 for the economy package and 871.19 for the business package.|offer
+USR|How many days would that be?|request
+SYS|It would be a 10 day trip from September 8-17.|inform
+USR|I'm also thinking about a trip to BA.|inform
+SYS|We have 10 or 7 day trips at a 4.0 star hotel and 7 day trips at a 3.0 star hotel.|offer
+SYS|Which ones would you like to know more about?|offer
+USR|I'll consider the 4 star hotel trips|switch_frame
+SYS|Perfect!|offer
+SYS|This hotel is guest rated 8.69 / 10 and perfectly situated in the heart of the city close to a park.|offer
+SYS|While there, you can enjoy free parking, free breakfast, and free wifi.|offer
+SYS|For 10 day trips, we offer the economy package for 2699.60 and the business package for 3464.53.|offer
+SYS|For 7 day trips, we offer the economy package for 2192.91 and the business package for 2814.27.|offer
+USR|Oh that also sounds very good.|inform
+USR|I'd like to choose the trip to Cancun for 10 days.|inform
+SYS|Great!|inform
+SYS|Would you like to go for the economy package for 751.38 or the business package for 871.19?|inform
+USR|The business package please!|switch_frame
+SYS|Consider it done!|inform
+SYS|Anything else I can do for you today?|inform
+USR|No, that's perfect.|thankyou
+SYS|You're very welcome :slightly_smiling_face:|you_are_welcome

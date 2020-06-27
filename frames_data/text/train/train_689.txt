@@ -1,0 +1,31 @@
+USR|Hey!|inform
+USR|So me and my girlfriends are in the search for a perfect spring break trip!|inform
+SYS|Okay!|request
+SYS|How many people altogether?|request
+USR|There'll be the 4 of us!|inform
+SYS|Where are you leaving from?|request
+USR|We're all studying in Frankfurt.|inform
+SYS|Where would you like to go?|request
+USR|Campinas is one of our top choices.|inform
+USR|It'll be AWESOME to go there!|inform
+SYS|Do you have a budget?|request
+USR|We're willing to spend 8300 for our dream spring break :slightly_smiling_face:|inform
+SYS|When would you like to travel?|request
+USR|Our spring break is from Aug 30 to Sep 14.|inform
+SYS|There are no results within your budget.|no_result
+USR|Darn it.|inform
+USR|I guess we can also go to Essen if that works better.|inform
+SYS|There is a 3 star hotel near a palace, 6.61/10 guest rating, free breakfast and wifi, from August 30th to September 5th, business cost is 2333.61, economy cost is 2075.23.|offer
+SYS|There is also a 2 star hotel, 4.93/10 guest rating, free parking and wifi, from August 31st to September 7th, business cost is 1260.72, economy cost is 1108.72.|offer
+USR|Are those the only two options?|request
+SYS|Yes.|affirm
+USR|Okay.. can you tell me a little bit more about these two options?|request_compare
+USR|How are their locations?|request_compare
+SYS|I don't have any more information on these hotels aside from what I already gave.|canthelp
+USR|Alrighty then, the 3 star hotel sounds good to us!|inform
+USR|We'll take the business package since it's within our budget
+Can you process the booking?|inform
+SYS|Great!|goodbye
+SYS|This package is booked for your spring break getaway!|goodbye
+SYS|Have a great day!|goodbye
+USR|Yay!|thankyou

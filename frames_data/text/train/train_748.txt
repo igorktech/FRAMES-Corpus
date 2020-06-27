@@ -1,0 +1,23 @@
+USR|Hey!|inform
+USR|I'm in the hunt for a trip to Sapporo.|inform
+SYS|Where will you be leaving from?|request
+USR|Departing from Marseille|inform
+SYS|How many people are you?|request
+USR|I'm traveling solo|inform
+SYS|When do you want to leave?|request
+USR|I don't really care.|inform
+USR|My budget is 4400 though.|inform
+USR|Surprise me.|inform
+SYS|There are no results, surprise!|no_result
+USR|Okay maybe I don't like surprises that much after all... How about Cairo?|inform
+SYS|There's a 2.5 star hotel.|offer
+USR|Anything else?|request_alts
+SYS|No.|no_result
+USR|Fine Tell me about this 2.5 hotel|moreinfo
+SYS|They have a 8.22/10 guest rating, park, market, cathedral, palace, free parking, breakfast, and wifi.|inform
+USR|Now that doesn't sound so bad after all!|null
+SYS|Want to book it?|suggest
+USR|Why not|inform
+SYS|Great!|inform
+SYS|Have a nice day!|inform
+USR|Thanks!|thankyou

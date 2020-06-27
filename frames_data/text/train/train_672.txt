@@ -1,0 +1,18 @@
+USR|i have a modest and polite request for you to send me from sapporo to punta cana|inform
+SYS|Sorry, where will you be departing?|sorry
+USR|I would like to depart from Sapporo and arrive at Punta Cana.|inform
+USR|Between August 29 and Sept 1
+This is a short trip for 13 adults|inform
+SYS|Great!|suggest
+SYS|Just one adult traveller?|suggest
+USR|And we have 3200 to spare between us|inform
+SYS|Oh!|sorry
+SYS|ok, sorry.|sorry
+SYS|I’ll get right on that.|sorry
+SYS|Are your dates flexible at all?|sorry
+USR|I am unfortunately not.|inform
+SYS|And you would like to pay 3200 dollars for all 13 adults?|confirm
+USR|Did I stutter???|affirm
+SYS|I’m sorry, I cannot offer you any packages within these parameters.|sorry
+USR|What if I upped it to 3500 instead?|inform
+SYS|Still nothing, I am sorry.|sorry

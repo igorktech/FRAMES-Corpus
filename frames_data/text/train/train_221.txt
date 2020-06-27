@@ -1,0 +1,19 @@
+USR|Hey I live in Mos Eisley and I need to book a flight!|inform
+SYS|I can't seem to find any flights out of Mos Eisley.|suggest
+SYS|Would you like to try another departure destination?|suggest
+USR|I could drive to Columbus and try to leave out of there instead|inform
+SYS|In that case, I can offer you a four-day package to Seattle for 311.64USD.|hearmore
+SYS|Would you like to hear more about this package?|hearmore
+USR|Where would I have to fly out of to go to Ulsan then?|request
+SYS|I can book you a flight to Ulsan from Columbus.|hearmore
+SYS|You would be stayong at the Grandiose Willow Resort for 12 days, bringing your total cost to 2645.30USD.|hearmore
+SYS|However, if you are flexible on your city of departure, I can book you a package that leaves from Hiroshma, Japan that is only 228.28USD.|hearmore
+SYS|Would you like to hear more about either of these packages?|hearmore
+USR|My travel dates are from August 15 to August 24.|inform
+USR|Does the package out of Columbus (to Ulsan)  meet my requirements?|inform
+SYS|Unfortunately all available packages from Columbus to Ulsan depart on the 27th of August.|sorry
+USR|And if I leave from Hiroshma?|switch_frame
+SYS|Unfortunately the 27th of August is the closest date of departure I can give you if you are leaving from Hiroshma.|sorry
+USR|okay thank you good bye|thankyou
+SYS|Thank you for using our service!|thankyou
+SYS|Have a nice day!|thankyou

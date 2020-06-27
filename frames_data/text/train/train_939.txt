@@ -1,0 +1,14 @@
+USR|ulsan to vitoria, 1 business class ticket|inform
+SYS|We have no direct flight from Ulsan to Vitoria, can I help you find alternate destinations out of Ulsan?|inform
+USR|Can you get me to Columbus then|inform
+SYS|Sure can, for 11 days.|offer
+SYS|How does that sound?|offer
+USR|I couldn't tell you unless you tell me what kind of hotel you put me in|moreinfo
+SYS|Is an 11 day stay withing your timeline?|confirm
+USR|yes it could be|affirm
+SYS|The hotel is named  the Light View Hotel and has a 3.5 star rating .|inform
+SYS|It is centrally located in the heart of the city and has a museum and a mall nearby.|inform
+SYS|A business class flight for this hotel will run you 3726.56USD.|inform
+USR|There's no 5 star?|inform
+SYS|No this is all I have available|no_result
+USR|I'll have to look elsewhere, 3.5 is lower than I'm willing to accept|negate

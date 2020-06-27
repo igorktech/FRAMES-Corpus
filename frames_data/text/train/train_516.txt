@@ -1,0 +1,11 @@
+USR|hello|greeting
+SYS|Hi :smile: how can I help you :slightly_smiling_face:|greeting
+USR|i am leaving from osaka|inform
+SYS|Going where?|request
+USR|and would like to go to fortaleza.|inform
+USR|i dont care about the price|inform
+SYS|We have 3 star hotels and 6 8 10 day trips|offer
+USR|not intersted.|inform
+USR|whats available in tijuana|inform
+SYS|2.5 and 3 stars hotels, 6 - 10 - 12 days|offer
+USR|not interested|negate

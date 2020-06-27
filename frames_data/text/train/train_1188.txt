@@ -1,0 +1,28 @@
+USR|Hi!|inform
+USR|I have 4 children and I would like to take them to Santa Cruz to visit their mom.|inform
+USR|We are in Monterrey.|inform
+SYS|So will it just be 1 adult and 4 children then?|suggest
+SYS|Do you have a budget in mind?|suggest
+USR|Correct.|inform
+USR|And no budget, I’m willing to spend whatever for my kids to see their mum|inform
+SYS|Do you have any dates in mind?|request
+SYS|And how long do you plan on travelling for?|request
+USR|Nope!|inform
+USR|Whatever is available.|inform
+USR|We arent picky|inform
+SYS|I'm afraid we don't have any packages available from Monterrey to Santa Cruz.|suggest
+SYS|Would you like to leave from another city?|suggest
+USR|I cant leave from anywhere else but we can go to San Juan instead.|inform
+SYS|I have a wonderful 9 day package in San Juan that includes a 4 star hotel with a guest rating of 8.98/10.|offer
+SYS|Economy class would cost 3249.23 and business would be 3971.57 for all of you.|offer
+SYS|Are you interested?|offer
+USR|Is there anything shorter?|inform
+SYS|Yes, we have a 6 day economy package  that comes to a total of 4987, does that interest you?|offer
+USR|Is that the shortest package?|request
+SYS|Yes indeed.|suggest
+SYS|Would you like to book it?|suggest
+USR|Sure!|thankyou
+USR|Thank you|thankyou
+SYS|Perfect.|inform
+SYS|Consider it booked.|inform
+SYS|You will receive an email shortly.|inform

@@ -1,0 +1,45 @@
+USR|GET ME TO KYOTO!!!|inform
+SYS|Okay.|request
+SYS|Can you give me your departure city please?|request
+USR|I AM LEAVING FROM VITORIA!!!|inform
+SYS|For how many people?|request
+USR|WELL ME AND TWO OTHER TRAINERS BUT I NEED TO BOOK A SEAT FOR MY PIKACHU AS WELL!!|inform
+SYS|So 4 adults?|confirm
+USR|NO BOOK 5 SEATS PLEASE|inform
+SYS|5 adults?|confirm
+USR|YES!!!!!!!!|affirm
+SYS|Would you like the soonest departure to Kyoto?|inform
+USR|I CAN GO ON SEPTEMBER 12TH OK|inform
+SYS|Do you need to be back before a certain date?|request
+USR|NO I DONT CARE JUST GET ME TO THAT MEWTWO!!!!!!!!!|inform
+SYS|We can get you out to Kyoto on Sept 4th and Sept 7th, but I have no more flights after that.|offer
+USR|WHATS THE COST.|request
+USR|WHAT IS THE HOTEL NEXT TO|request
+SYS|I just found you a flight out on the 12th!|offer
+SYS|The Glorious Bazaar hotel offers a 14 day stay for 17230.15USD for the 5 of you.|offer
+SYS|It is located next to the museum.|offer
+USR|GREAT!|request
+USR|WHATS THE PRICE FOR THE FIVE OF US?|request
+SYS|17230.15USD|inform
+USR|WE CAN SPEND 13700 WHAT IS CHEAPER FROM THOSE OTHER TWO PACKAGES ON DIFFERENT DATES?|inform
+SYS|If you are willing to depart on Sept 16, I have the Southern Palace Hotel available for 14 days at 13194.75USD.|offer
+SYS|That one is located in the heart of the city and also close to the museum.|offer
+USR|I COULD BE LOOKING TO GO TO SAN ANTONIO...|inform
+SYS|Also from Vitoria?|confirm
+USR|SAME DATES AND BUDGET AND STILL 5 OF US.|inform
+USR|YES, FROM VITORIA|inform
+SYS|I have several options for your stay in San Antonio.|confirm
+SYS|Do you want to be near the museum there too?|confirm
+USR|YEAH SURE!!!!|affirm
+SYS|I have the Vertex Inn available for 10 days at a cost of  8418.2USD for your entire party of 5.|offer
+SYS|It is located near the museum, the park, and the mall.|offer
+USR|WHAT IS THE RATING?|request
+SYS|It is a 2 star hotel but the user rating is a respectable 7.15/10 and your package includes unlimited free wifi, parking and a buffet breakfast is served daily until 10:30am at no charge.|inform
+USR|OK ….|inform
+USR|WHAT ABOUT A HIGHER RATING|inform
+SYS|All the hotels in San Antonio that are available during this time period have a 2 star rating.|inform
+USR|LETS BOOK THAT PACKAGE|inform
+SYS|San Antonio it is.|inform
+SYS|I have reserved the package for you.|inform
+SYS|Safe travels.|inform
+USR|THAN KU|thankyou

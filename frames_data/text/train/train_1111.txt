@@ -1,0 +1,41 @@
+USR|HEY.|inform
+USR|I NEED TO GET TO SAN JUAN
+FAMILY REUNION!|inform
+USR|WE ARE LEAVING FROM LEON|inform
+SYS|Where will you depart from?|request
+USR|MY WIFE WORKS HERE IN SPAIN|inform
+SYS|Okay!|request
+SYS|Do you have a budget?|request
+USR|GOT A TRANSFER OVERSEAS FOR AN ARCHAEOLOGICAL PROJECT.|inform
+USR|ITS BEEN FUN HERE
+
+YEAH WE HAVE 14700 !|inform
+USR|WE ARE GOING TO BRING OUR CHILDREN TO SEE SAN JUAN AND MEET THE FAMILY
+THERE ARE 5 ADULTS AND 1 YOUNGIN|inform
+SYS|When would you like to go to San Juan?|inform
+USR|WELL JEEZ.|inform
+USR|I DONT EVEN KNOW WHEN THE REUNION IS !|inform
+USR|HA~
+WE CAN JUST GO WHENEVER I GUESS
+AS LONG AS WE’RE IN THE CITY
+IN THE NEAR FUTURE… SHOULD BE FINE|inform
+SYS|We have 3 results available.|offer
+SYS|We have a 12 day and 9 day package at a 4 star hotel, and a 10 day package at a 2.5 star hotel.|offer
+USR|OK DEFINITELY MORE INTERSTED IN THE 4 STAR!!!|request_compare
+USR|ARE THE 12 AND 9 DAY TRIPS BOTH AT THE SAME HOTEL?|request_compare
+SYS|They have the same name|inform
+USR|WHAT IS THAT HOTEL LIKE?|request
+SYS|Fairyland has a 8.98/10 guest rating, it is located near a museum, shopping, and a market, and they offer free wifi.|inform
+USR|THAT SOUNDS IDEAL.|request
+USR|GREAT LOCATION
+WHAT IS THE PRICE FOR THE 12 DAY?|request
+SYS|13776.57 and it is from September 14th to 24th.|inform
+USR|Perfect!|inform
+USR|And a thousand under budget!|inform
+USR|SOUNDS LIKE OUR WINNER|inform
+SYS|Would you like me to book it for you?|suggest
+USR|YEAH DO THAT PLEASE|affirm
+SYS|Great!|inform
+SYS|All done!|inform
+SYS|Have a great trip!|inform
+USR|OK THANK U|thankyou

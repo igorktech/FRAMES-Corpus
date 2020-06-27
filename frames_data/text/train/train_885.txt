@@ -1,0 +1,45 @@
+USR|Hi!|inform
+USR|I need to check out several destinations with you!|inform
+USR|Are you able to help me?|inform
+SYS|Of course :slightly_smiling_face: What is your point of departure and first potential destination?|request
+USR|Denver is where I live.|inform
+USR|Buenos Aires is one of the destinations on my wishlist.|inform
+SYS|I can book you in Buenos Aires from September 8th until the 19th for a total of 2754.1USD.|offer
+USR|The 8th to 19th would work, although I am off work until the 28th.|request
+USR|Can you tell me the name of the hotel & all the pertinent information so I can make a list?|request
+SYS|Hotel Universe is a 3.5 star hotel, with an esteemed 8.69/10 from previous guests.|inform
+SYS|Featured with your package are a daily breakfast buffet and access to wireless internet.|inform
+SYS|This hotel is in the heart of the city located near lush green spaces to help you get the most of your getaway.|inform
+USR|Hmmmm sounds like a good one but I want to see what else you have.|request
+USR|How many days total is this package?|request
+SYS|13|inform
+USR|Next destination: Punta Cana|inform
+SYS|I have September 2-12th for 1129.3USD, business class flights included.|offer
+USR|Was Buenos Aires on business class too?|request
+USR|I need to keep them all on the same type of flight so that I am comparing apples to apples.|request
+SYS|This package in Punta Cana would cost 846.85USD.|inform
+USR|Okay let's keep them all in economy for now.|switch_frame
+USR|Can you tell me the name of the hotel & all the pertinent information please?|switch_frame
+SYS|La Estrella del Mar is an unrated hotel, near a palace, and the stay would be 11 days in duration.|offer
+SYS|I also have shorter duration trips of 5 days at El Mar, a 2.5 star beachside hotel.|offer
+USR|Okay let's keep all the comparisons on packages 13 days in length, if possible.|request
+USR|What services are provided with this hotel?|request
+SYS|I have no information on additional services.|canthelp
+USR|amenities?|request
+SYS|Sorry, no info.|sorry
+USR|Let's look at Belem now with the same consistent parameters.|inform
+SYS|I have an 11 day package in Belem at Las Flores, a 3 star hotel near a cathedral for $1919.58.|offer
+SYS|This hotel includes free breakfast, free wifi, and free parking and is well-loved by previous guests with a 8.49/10 user rating.|offer
+USR|Fantastic!|inform
+USR|I have one more final destination on my wishlist - Columbus!|inform
+SYS|In Columbus I can offer you a 14 day stay at Crown Jungle Inn, a hotel located by the beach and a palace with 2.5 stars and a 8.49/10 user review.|offer
+SYS|The hotel has free parking and complimentary wifi as well.|offer
+SYS|The cost for this package would be 1661.5USD for economy class.|offer
+USR|Buenos Aires is pretty expensive, Punta Cana too cheap, so I am between Belem and Columbus.|request_compare
+SYS|I also have a 9 day Belem package at a 4 star beachside hotel, Gentle Tower Resort.|offer
+USR|How much is that one?|request
+SYS|2933.19USD|inform
+USR|I think I'll stick to the 11 day package in Belem at Las Flores, seems like the best deal and it had a good user rating.|inform
+USR|Let's book that one.|inform
+SYS|Ok!|inform
+SYS|You’ve got it :slightly_smiling_face: I’ll send a confirmation email once I straighten everything up.|inform

@@ -1,0 +1,23 @@
+USR|Hi I need to check out trips available to Houston from Athens.|inform
+USR|5 adults and business class flights please, leaving after September 6th|inform
+SYS|Great, I can book you all on business class flights to the Elton, departing September 13 and returning September 16, for 30151.13USD.|suggest
+SYS|Would you like to go ahead and confirm this booking?|suggest
+USR|Whats the hotel like?|moreinfo
+SYS|Its rated 2.5 stars but 6.37/10 from its guests.|inform
+SYS|Its located near the mall, and offers a bevy of amenities: free breakfast, wifi, and parking.|inform
+USR|If nothing else in Houston, check out Dallas.|inform
+SYS|The only available hotel in Dallas is also rated 2.5 stars.|offer
+SYS|Which destination would you prefer?|offer
+USR|La Paz, last chance|inform
+SYS|We have a four star hotel in La Paz, does that sound good to you?|offer
+USR|Sounds better!|moreinfo
+USR|What are the details?|moreinfo
+SYS|At the Echo, you would be treated to free parking, free breakfast, and free wifi.|inform
+SYS|This 4 star hotel is rated 8.98/10 by its guests!|inform
+USR|How much for the business class flight package?|request
+USR|And how long would our stay be?|request
+SYS|For a 10 day stay, you pay 29810.43USD.|inform
+USR|Great.|inform
+USR|Let’s book that.|inform
+SYS|You're booked|inform
+USR|Thanks!|thankyou

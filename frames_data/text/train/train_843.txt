@@ -1,0 +1,27 @@
+USR|Hello.|inform
+USR|Here is what my perfect trip would be: A trip for one adult (me) and two children from St. Petersburg to Melbourne.|inform
+SYS|Unfortunately nothing is currently available.|sorry
+SYS|Can I help you find another perfect trip?|sorry
+USR|Hmm.|inform
+USR|How about Ulsan|inform
+SYS|Now this we do have!|request
+SYS|Which dates would you like to travel?|request
+USR|Anytime!|inform
+SYS|Would you like me to stay under a certain budget?|request
+USR|no budget!|inform
+SYS|Sounds good.|offer
+SYS|The best package we have for you is a 11 day vacation at a 5 star hotel with 8.98/10 guest rating.|offer
+USR|Lets do it!|switch_frame
+SYS|I have the business package for 11450.32 and the economy package for 8871.58.|offer
+SYS|Which one would you like to go with?|offer
+USR|Can I just get a double check on the dates please?|request
+SYS|Yup, it's from September 3-12.|inform
+USR|Lets do it!|inform
+SYS|Do you want to go with the business package or the economy package?|suggest
+USR|Economy please!|switch_frame
+SYS|Perfect!|inform
+SYS|I have booked it for you.|inform
+SYS|Reservation details will be emailed to you.|inform
+SYS|Have a nice trip!|inform
+USR|Thanks!!|thankyou
+SYS|You are most welcome!|you_are_welcome

@@ -1,0 +1,22 @@
+USR|I am looking for a honeymoon package to Manaus.|inform
+USR|I heard it is the perfect honeymooners paradise.|inform
+USR|The wedding cost us an arm and a leg so I really need something reasonable.|inform
+SYS|hmm okay let us figure something out!|request
+SYS|what is your budget?|request
+SYS|will it just be you and your significant other?|request
+USR|Yes and our set of twins.|inform
+USR|Won't be a very romantic honeymoon, but what can you do.|inform
+USR|We live in Queenstown.|inform
+USR|I hope $3000 is enough!|inform
+SYS|do you have any dates in mind?|request
+USR|We would like to leave on the 18th of August!|inform
+USR|We need to book this quick cause my boss is in the other room and if he catches me on the phone he'll have a fit.|inform
+SYS|It seems that we do not have anything to Manaus with that budget can you increase it?|offer
+SYS|and we have dates of departure on August 19th and 25th|offer
+USR|No there's no way this wedding has already cost me a fortune I don't even know why we got married, we already had the damn kids.|inform
+USR|How about Leon on the 18th?|inform
+SYS|it is a 7 day stay at the Sunny Aurora Hotel, it is a 5 star hotel with free wifi, the flight leaves on the 18th and is a total of $2625|offer
+USR|thanks!|inform
+USR|book it!|inform
+SYS|perfect!|goodbye
+SYS|enjoy your stay!|goodbye

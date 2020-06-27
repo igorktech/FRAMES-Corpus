@@ -1,0 +1,26 @@
+USR|I want to go to Vitoria.|inform
+USR|from Tijuana|inform
+SYS|My apologies, we do not offer any trips between these two points.|sorry
+SYS|Is there somewhere else you would like to depart from or arrive at?|sorry
+USR|i could go to Cancun|inform
+SYS|Which dates would you like to go?|request
+USR|doesnt matter|inform
+SYS|Is it just yourself?|suggest
+USR|yeah|affirm
+SYS|How much are you planning on spending?|request
+USR|2600|inform
+SYS|Great!|offer
+SYS|I can put you for 10 or 12 days at a 3.5 star hotel by the cathedral.|offer
+USR|12 days would be cool.|switch_frame
+USR|What other information do you have on the hotel?|switch_frame
+SYS|The hotel offers free parking, free breakfast, free wifi, and boasts an average guest rating of 8.22/10.|inform
+USR|not bad.|inform
+USR|yeah i’m down.|inform
+USR|wanna book it for me|inform
+SYS|I would be happy to!|offer
+SYS|Would you like to go with the economy package for 515.93 or the business package for 581.30?|offer
+USR|business|switch_frame
+SYS|Sure thing.|inform
+SYS|It is booked for you from September 14-25!|inform
+SYS|Hope you have a pleasant trip!|inform
+USR|thank ya|thankyou

@@ -1,0 +1,27 @@
+USR|Hey how are you?|greeting
+SYS|I am well, how may I help you today?|greeting
+USR|I want to go visit some relatives in Tampa, but they don't have room to host me so I am looking for a flight and hotel combo package.|inform
+USR|I would be free to travel between September 6th to 24th|inform
+SYS|What is your city of departure?|request
+USR|I'm sorry I wrote that too fast, I meant to say that I am leaving FROM Tampa and visiting family in Munich|inform
+SYS|I have hotel stays in 5 day and 7 day lengths, which one do you prefer?|suggest
+USR|How much are they?|inform
+USR|My budget is 3600|inform
+SYS|Both are available for under that amount.|suggest
+SYS|Anything special you would like for your hotel in Munich?|suggest
+USR|Not really, I won't be spending much time there so it doesn't have to be anything fancy.|moreinfo
+USR|Can you tell me more about the 7 day stay?|moreinfo
+SYS|The Regal Bluff is a five star hotel located near the university.|inform
+SYS|It offers free wifi and costs $2269.58USD.|inform
+SYS|It is open at the moment from Sept 10th to the 15th.|inform
+USR|Would you have an even cheaper package to offer me if my dates were flexible?|inform
+SYS|In Munich all the hotels that are open at the moment are 5 star rated hotels.|suggest
+SYS|This hotel is also available for 2157.43USD for 5 days from Sept 6 to Sept 9.|suggest
+USR|get me the 7 day one|switch_frame
+SYS|Very well, we shall proceed with the reservation|inform
+USR|Can you just confirm which one you are booking for me?|null
+USR|You seem confused|null
+SYS|I shall reserve the Regal Bluff - 7 days at a cost of 2269.58USD departing on Sept 10 and returning on Sept 15.|inform
+SYS|Does this satisfy your needs?|inform
+USR|Yes thank you!|thankyou
+SYS|Your reservation has been rpocessed|inform

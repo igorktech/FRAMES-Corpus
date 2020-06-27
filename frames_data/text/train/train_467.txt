@@ -1,0 +1,33 @@
+USR|Hi.|inform
+USR|Well I’m trying to treat myself with a vacatoin.|inform
+USR|I’m thinking of going to Chicago.|inform
+USR|Leaving form Seattle|inform
+SYS|How many people will be travelling with you?|request
+USR|So, could you find me something between September first until the eighth.|inform
+USR|Just me|inform
+SYS|What is your budget?|request
+USR|I’m not travelling on a budget|inform
+SYS|We have a 2.5 star hotel from September 1st to 7th.|offer
+SYS|This hotel includes free breakfast, wifi, parking, and is also near a park and museum.|offer
+SYS|With business class seats, this package costs 1201.91.|offer
+USR|Not bad I guess but really not what I’m envisioning for my refreshing getaway.|inform
+USR|What is there for me in Miami?|inform
+SYS|This is a 3.5 star hotel near the airport and includes free breakfast, wifi, and parking.|offer
+SYS|This trip is from September 2nd to 10th and if you want business class seats the cost of this package is 1096.28.|offer
+USR|Are there any other hotels in Chicago?|request_alts
+SYS|No, sorry, this is our only one.|inform
+USR|No others in Miami either?|request_alts
+SYS|No, unfortunately.|sorry
+SYS|Would you like to book any of the packages already given?|sorry
+USR|Not yet.|inform
+USR|I just wanna see what is available in Ulsan first|inform
+SYS|This is a 5 star hotel near a park, market, and theatre.|offer
+SYS|They offer free wifi and parking.|offer
+SYS|The trip is from September 2nd to 8th.|offer
+SYS|This package comes to 3984.70 with business class seats.|offer
+USR|Alright, now that sounds perfect.|inform
+USR|Lets book it!|inform
+SYS|Great!|inform
+SYS|Your package is booked!|inform
+SYS|Have a great day!|inform
+USR|Thanks :slightly_smiling_face:|thankyou

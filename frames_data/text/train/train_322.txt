@@ -1,0 +1,20 @@
+USR|suh|greeting
+SYS|Hello!|greeting
+SYS|How may I help you today?|greeting
+USR|whats good in santo domingo rn tryina bring my wife and her sister and our 4 kids on a trip rn lmao|inform
+SYS|I can take a look at that for you.|request
+SYS|Can you please provide me with your departure city?|request
+USR|ayyy tight.|inform
+USR|san antonio.|inform
+USR|but like we got a budget fyi.|inform
+USR|6700 cool cool|inform
+SYS|I have two packages at the Rose Sierra Hotel rated 3 stars.|request
+SYS|One is 13 days and the other is 19 days and they both fit in your budget!|request
+SYS|How long of a vacation are you looking to book?|request
+USR|whats the deets?|moreinfo
+USR|hotel is the same, but whats the cost/dates?|moreinfo
+SYS|The 13 day vacation is 5789.40USD and is from August 25th to September 6th and the 19 day vacation is 6493.58USD and is from August 26th to September 13th.|inform
+USR|ok well my 4 kids dont need to start school on time lets book the longer one'|switch_frame
+SYS|Great!|inform
+SYS|I will book the 19 day package for you and send you a confirmation email.|inform
+USR|u da best thanks bot|goodbye

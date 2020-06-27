@@ -1,0 +1,12 @@
+USR|I need to book a company vacation from August 29th until September first|inform
+SYS|For how many people and to where?|request
+USR|Ahhhh lets see, in total there are 22 of us.|inform
+USR|Leaving Tel Aviv and going to Buenos Aires|inform
+SYS|Are your dates set or can they be changed?|request
+USR|Set, we have to be back at work|inform
+SYS|I cannot find any hotel bundles in Buenos Aires out of Tel Aviv for that many people.|suggest
+SYS|Can I try other cities for you?|suggest
+USR|Check out Washington|inform
+SYS|Washington is also unavailable|no_result
+USR|Is anywhere available…?|request_alts
+SYS|For a group of 22 out of Tel Aviv, we have nothing available|no_result

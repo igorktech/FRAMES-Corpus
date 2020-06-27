@@ -1,0 +1,18 @@
+USR|Can you get 4 strapping men out of Sacramento between the dates of August 31 to September 20|inform
+SYS|I can help you with that.|request
+SYS|Can you please tell me where you would like to go?|request
+USR|Curitiba sounds like its popping this year|inform
+SYS|I have two choices in Curitiba, one is on the beach, the other near the museum and the market you have a budget for this trip?|request
+USR|We have 16400 saved up!|inform
+SYS|For that budget, I can send you to the Crown Market Palace for 17 days and you can be right on the beach.|offer
+USR|How many stars this joint got?|switch_frame
+SYS|3.5 stars with a guest rating of 8.22/10.|inform
+SYS|Your breakfast is also included in your 17 day stay  as is you wifi and parking.|inform
+USR|But can you check Cancun out for a better hotel potentially?|inform
+SYS|All my hotels in Cancun are either 3 stars or 3.5 stars|offer
+USR|is the 3.5 star hotel on the beach?|request
+SYS|No, near a cathedral|inform
+USR|Ok get us that Market Palace then|switch_frame
+SYS|Departure Sept 2nd and return on the 18.|inform
+SYS|It has been booked, enjoy!|inform
+USR|Thanks bro!|thankyou

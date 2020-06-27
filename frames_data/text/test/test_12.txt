@@ -1,0 +1,21 @@
+USR|Hey, what deals can you offer me on trips to curitiba?|inform
+SYS|Where will you be leaving from?|request
+USR|I will be leaving from columbus|inform
+SYS|Are you the only member?|suggest
+USR|Yup, just me this time|affirm
+SYS|Do you have a budget?|request
+USR|Nope, just get me outta here|inform
+SYS|Do have any specific dates for your trip?|request
+USR|It has to be between August 18 and September 8|inform
+SYS|So you want Curitiba, yes?|confirm
+USR|If that doesn't work I guess I could go to Las Vegas|inform
+SYS|Unfortunately, there are no results for any flights from Columbus to any of your preferred destinations.|sorry
+SYS|Is there anywhere else you might be willing to go?|sorry
+USR|Hmmm, those are the only days I can get off work.|inform
+USR|See where else you can send me in that time frame|inform
+SYS|There are no flights out of Columbus.|suggest
+SYS|Is there another place you could leave from?|suggest
+USR|No, unfortunately I can't.|thankyou
+USR|Guess I'll just take a staycation this time :disappointed: Thanks anyway|thankyou
+SYS|Sorry for the inconvenience.|goodbye
+SYS|good bye|goodbye

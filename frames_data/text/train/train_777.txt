@@ -1,0 +1,31 @@
+USR|Can you do flights for Kyoto for under 5000?|inform
+USR|This is for two people|inform
+SYS|Depends on where you are coming from.|request
+USR|Just tell me what’s possible|inform
+SYS|We've got flights from Ulsan, Kobe, Seoul, Busan, and Fukuoka.|offer
+SYS|If you can tell me more about the dates you want to travel or what kind of hotels you are looking for, I can help you narrow down the choices.|offer
+USR|But tell me if you can get a hotel near a park in Kyoto?|inform
+SYS|We only have one hotel in Kyoto and it is in the heart of the city, close to a museum, but not necessarily close to a park.|inform
+USR|Got any parks near your Ulsan hotels?|inform
+SYS|Sure!|request
+SYS|We actually do have a few hotels in Ulsan close to a park!|request
+SYS|Is there a date you need to go there or leave by?|request
+USR|Yes, we need a minimum of 4 days stay.|inform
+USR|between aug 31 and sep 7|inform
+SYS|Sure, I have a great 5.0 star hotel close to a park, a market, and a theater!|offer
+SYS|It has a guest rating of 8.98/10.|offer
+SYS|I can offer 4, 5, 6, 7, or 8 day packages there within your budget.|offer
+USR|where would i be flying from, and what class would I be in?|request
+SYS|Yes you can choose between economy vs. business.|offer
+SYS|I have flights from Essen, Baltimore, Kochi, and Hiroshima.|offer
+USR|How much would it cost if you flew us in from Baltimore?|request
+USR|Business|request
+SYS|Business would cost 6178.12.|inform
+SYS|This would be a 7 day package.|inform
+USR|Economy it is then|inform
+SYS|Sure, I can book a 7 day economy package for you for 4808.37.|suggest
+SYS|Would you like me to process this reservation?|suggest
+USR|Yes please|affirm
+SYS|Okay, confirmation has been emailed to you!|inform
+SYS|Hope you have a pleasant flight!|inform
+USR|Thanks!|thankyou

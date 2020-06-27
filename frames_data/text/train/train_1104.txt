@@ -1,0 +1,28 @@
+USR|I'd like to send my parents somewhere, from Kyoto|inform
+SYS|Anywhere?|confirm
+USR|Yeah|affirm
+SYS|How much would you like to spend?|request
+USR|4400|inform
+SYS|When would you like this to happen?|request
+USR|Between the 7th and 26th|inform
+SYS|We have a 4 star hotel in Sendai available for 15 days|offer
+USR|What else does the hotel have?|request
+SYS|It has free wifi and it is close to the park and the museum.|inform
+SYS|It is only 684.32USD and available from Sept 7 to the 21|inform
+USR|That'll work.|request
+USR|What is the guest rating?|request
+SYS|8.8/10|inform
+USR|Perfect!|request
+USR|What time do the flights leave?|request
+SYS|Sendai to Kyoto  1:00 am - Wednesday, September 21st 2016 to 1:42 am - Wednesday, September 21st 2016|inform
+USR|What about the flight home?|request
+SYS|Kyoto To Sendai  5:00 am - Wednesday, September 7th 2016 to 5:42 am - Wednesday, September 7th 2016|inform
+USR|Okay and the price you gave me was for economy or business?|request
+SYS|The price that I gave you was economy.|offer
+SYS|Business is  752.32USD.|offer
+USR|I would much rather give them business, it would be harder for them to refuse muahahah!|inform
+USR|Okay, book it for me, you|inform
+SYS|I will proceed with a business class booking.|inform
+SYS|Thank you for booking with me.|inform
+USR|Oh great!|thankyou
+USR|Thank you!|thankyou

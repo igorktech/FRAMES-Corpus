@@ -1,0 +1,30 @@
+USR|I need to impress some clients.|inform
+USR|I'd like to take them on a business trip to Hiroshima from Ulsan after September 20th.|inform
+SYS|How many people total?|request
+USR|8 of us|inform
+SYS|Do you have a budget for this trip?|request
+USR|Nope!|inform
+USR|The sky is the limit!|inform
+SYS|I have the Hotel Oishi, available for 7 days on Oct 3rd.|offer
+SYS|It is rated 4.5 stars and is located near the museum.|offer
+SYS|We can fly everyone on business class.|offer
+USR|That's not too bad.|inform
+USR|I'd really like to pull out the big guns tho, this is a big deal, do you have any 5 star options available?|inform
+SYS|4.5 is the highest that I have available in Hiroshima.|inform
+SYS|It also has an excellent 8.86/10 guest rating.|inform
+USR|Do you have any 5 star hotels in Curitiba?|inform
+SYS|3.5 stars is our highest in Curitiba|offer
+USR|ew.|inform
+USR|What about San Francisco?|inform
+SYS|I only have 2 stars available in San Francisco.|offer
+USR|okay that pretty much settles it then.|moreinfo
+USR|Can you tell me more about the first package you offered?|moreinfo
+SYS|It is a 4.5 star rated hotel with a 8.86/10 guest rating.|inform
+SYS|It is located near the museum and is available from Oct 3rd to Oct 9th  for the excellent price of  7335.92USD if you all fly by business class.|inform
+USR|Is there anything for this package that leaves earlier?|inform
+SYS|I have another one that leaves earlier but it would be at a 3 star hotel|offer
+USR|ehhhh, nah i'll stick with the other one then.|inform
+USR|Can you book us for the 4.5 star business flights?|inform
+SYS|Absolutely.|inform
+SYS|I have taken care of it and you will receive your confirmation shortly.|inform
+USR|Thanks!|thankyou

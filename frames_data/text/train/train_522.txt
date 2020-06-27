@@ -1,0 +1,53 @@
+USR|Hey there!|greeting
+SYS|You are now on chat, how can we help you today?|greeting
+USR|I am looking to go to Belem between August 27 and September 14.|request
+USR|Lets see whats available from Ulsan|request
+SYS|Do you have a spending limit for this trip?|request
+USR|Nah not really|inform
+SYS|Will you be travelling alone or accompanied by anyone?|request
+USR|Just looking for me right now|inform
+SYS|From Ulsan to Belem, we have 7, 8 or 10 day packages available within your dates.|offer
+SYS|Which one is your preference?|offer
+USR|What are the hotels like?|request_compare
+SYS|For the 8 and 10 day packages I have a selection of 4 star hotels.|inform
+SYS|For the 7 day package, I also have a 4.5 star hotel.|inform
+USR|Lovely!|request_compare
+USR|And the date ranges?|request_compare
+SYS|It all depends on which one you choose but I have departures as early as August 27 and as late as Sept 8.|suggest
+SYS|All packages return by Sept 13 at the latest.|suggest
+USR|What if I left from Mexico City?|inform
+SYS|Mexico City to Belem?|confirm
+USR|Yes|affirm
+SYS|Same dates?|confirm
+USR|Yes|affirm
+SYS|I have a wider variety of ratings on hotels available from Mexico City.|suggest
+SYS|Which type of rating are you looking for?|suggest
+SYS|Are you looking for something near the beach?|suggest
+USR|Sure, beach side would be nice.|inform
+USR|And a 4 star rating at least|inform
+SYS|How long do you want to stay?|request
+USR|Doesn't matter, just want to travel within my date range|inform
+SYS|I have a 10 day package deal at Hotel Triumph, a 4 star rated hotel which includes all the amenities such as wifi, parking and breakfast.|offer
+SYS|This package is available from August 28 to Sept 6 and can be booked on either economy class or business class.|offer
+USR|Lovely!|inform
+USR|Can you tell me what is available in Indianapolis as well?|inform
+SYS|From Mexico City to indianapolis?|confirm
+USR|Yes please :smile:|affirm
+SYS|Are you able to extend your stay until Sept 15?|suggest
+USR|Sure, We could do that|switch_frame
+SYS|I have plenty showing up as available once I extend the date.|offer
+SYS|These are all 9, 14 and 15 day packages, Any particular ones of interest?|offer
+USR|Great :smile: I don't care too much about the length of the stay, I just want the hotel to be as nice as possible|inform
+SYS|These are all 3 star hotels.|inform
+SYS|The nicest hotels available were from Ulsan to Belem.|inform
+USR|Hmm ok, well what about from Ulsan to Indianapolis?|inform
+SYS|All 2.5 and 3 star rated hotels for that time period.|suggest
+SYS|Everything else is booked.|suggest
+USR|Ok well lets go back to Belem from Ulsan
+I like the Hotel Triumph
+Would it be available for my 6 colleagues as well?|inform
+SYS|Unfortunately not|sorry
+USR|Just book the Triumph for one adult please!|switch_frame
+SYS|That will be a total of $7706.49USD on a business class flight.|confirm
+SYS|I just want to confirm that business class is fine?|confirm
+USR|Yes, business class is preferred thanks!|thankyou

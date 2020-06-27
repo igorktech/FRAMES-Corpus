@@ -1,0 +1,20 @@
+USR|I want to go on a 4 day trip|inform
+SYS|Great!|request
+SYS|Where would you like to go and from where will you be leaving?|request
+USR|how bout La Paz.|inform
+USR|i live in dallas|inform
+SYS|Between which dates were you thinking of taking this trip?|request
+USR|august 19 to september 7 anytime in there|inform
+SYS|I have 4 day packages to La Paz starting at 921.10 USD.|request
+SYS|Do you have a budget in mind?|request
+USR|do you have anything in Fortaleza?|inform
+SYS|Certainly, I have packages to Fortaleza starting at 1589.99 USD.|offer
+USR|both sound good as long as it is within my dates i cannot move those around do you have anything in a 4 star hotel in Le Paz|inform
+SYS|Yes, the Echo package is  a 4 star hotel for 921.10 USD.|offer
+SYS|You would depart on September 4th and arrive on September 7th.|offer
+USR|Is the Echo near the museum?|request
+SYS|I do not have that information, but I can tell you that the hotel includes breakfast, wifi and parking.|inform
+USR|well okay I can always take the tram in to the city.|inform
+USR|I will book that one.|inform
+SYS|Your trip is booked.|inform
+SYS|Enjoy!|inform

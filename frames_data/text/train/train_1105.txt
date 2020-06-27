@@ -1,0 +1,28 @@
+USR|I want to go to Hamburg from Washington.|inform
+USR|no more than 1000.|inform
+SYS|Sorry, we don't have anything under your budget.|suggest
+SYS|Would you be able to make your budget flexible?|suggest
+USR|No.|inform
+USR|do you have anything from Washington to San Antonio?|inform
+SYS|Yup I do!|request
+SYS|When can you be there?|request
+USR|Anytime|inform
+SYS|Great, I can offer you a 13 day stay at a 2.0 star hotel in San Antonio.|offer
+SYS|It has a guest rating of 7.15/10.|offer
+USR|Nice.|inform
+USR|Do you have anything from St. Petersburg to Hamburg?|inform
+SYS|Nothing under your budget unfortunately.|sorry
+USR|St. Petersburg to San Antonio?|inform
+SYS|I have a 13 day package the same hotel in San Antonio.|offer
+USR|What’s the difference between this 13day package and the other 13day package?|request_compare
+SYS|This one is from the 14th to the 26th and costs 464.36.|inform
+SYS|The other is from the 12th to the 24th and costs 676.52.|inform
+USR|Are those both economy?|request_compare
+SYS|Yes they are.|affirm
+USR|Okay so I’m assuming I cant afford business then?|request
+SYS|You can actually.|offer
+SYS|The 13 day business package from St. Petersburg costs 519.59 and business from Washington costs 758.76.|offer
+USR|I’ll do the one from St. Petersburg then.|inform
+USR|Business class.|inform
+SYS|Sure, I will confirm the booking for you!|inform
+USR|Thanks|thankyou

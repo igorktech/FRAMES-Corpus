@@ -1,0 +1,5 @@
+USR|I want to go to Santa Cruz from Indianapolis|inform
+SYS|Sorry, we do not offer any trips to Santa Cruz.|sorry
+SYS|Do you have somewhere else in mind?|sorry
+USR|what a rip off.|null
+USR|why do i even bother with technology, the old ways of doing things are much more concrete.|null

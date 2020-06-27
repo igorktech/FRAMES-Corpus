@@ -1,0 +1,26 @@
+USR|SL to Rome, what hotels you got?|request
+SYS|Good day, I will help you with your booking.|request
+SYS|Would you have departure dates and number of people?|request
+USR|2 people.|inform
+USR|Departing ASAP.|inform
+USR|Back before Sept 14|inform
+SYS|All of our packages from St. Louis to Rome are a 10 day stay.|request
+SYS|Do you have any special requests concerning hotels?|request
+USR|They just have to be the best|inform
+SYS|All of our hotels in Rome, except for 1,  carry a 4 star rating.|offer
+SYS|I can give you the price on the most expensive.|offer
+USR|Does the most expensive one also have the highest guest rating?|request
+SYS|The Hotel Grand Residence is $9455.55USD and has a 8.8 /10 star rating.|inform
+SYS|Our earliest flight departs on Sept 2.|inform
+USR|and return date?|request
+SYS|September 10.|inform
+SYS|At that price, we have placed you in business class all the way.|inform
+USR|Good, I'm glad you did that.|inform
+USR|Ok lets just check Miami really quickly.|inform
+USR|Whats the best hotel you can find me there?|inform
+SYS|3.5 stars located near the airport|offer
+USR|Yea...lets go with Rome instead then.|inform
+USR|Book it|inform
+SYS|I have taken care of the booing for you.|goodbye
+SYS|Have a good trip.|goodbye
+USR|THANK YOU!|thankyou

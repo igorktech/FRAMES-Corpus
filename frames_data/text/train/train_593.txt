@@ -1,0 +1,2 @@
+USR|get me from mexicoh city to birmingham|inform
+SYS|Sorry, I dont have any thing for that|no_result

@@ -1,0 +1,30 @@
+USR|Hi I only have 4000 dollars|inform
+SYS|Where would you like to go and where will you be leaving from?|request
+USR|I dunno|inform
+SYS|Are you travelling with other people?|request
+USR|meh haven't thought about it yet|inform
+SYS|Do you know when you want to travel?|request
+USR|between august 26 and September 2 I think|inform
+SYS|Great!|request
+SYS|Have you given any more thought to where you want to go?|request
+USR|New York could be fun|inform
+SYS|Where will you be leaving from?|request
+USR|Baltimore|inform
+SYS|Are your dates flexible?|request
+USR|yeahhhhhhh sorta|inform
+SYS|I can offer you a 2.5 star hotel, this includes free breakfast, wifi, and parking.|offer
+SYS|The dates are from August 24th to September 5th.|offer
+SYS|The cost is 1066.66.|offer
+SYS|Does this package interest you?|offer
+USR|yaaaa maybe... what about Kobe?|inform
+SYS|There is a 3 star hotel from August 27th to September 1st.|offer
+SYS|This package includes free breakfast and wifi and costs 2793.63.|offer
+USR|What about atlanta|inform
+SYS|Unfortunately there are no flights to Atlanta.|sorry
+USR|Well then I'm thinking the Kobe package would be the best...|switch_frame
+SYS|Great!|suggest
+SYS|Would you like me to book it for you?|suggest
+USR|yepppppp|affirm
+SYS|Your trip is booked!|inform
+SYS|Have a great vacation!|inform
+USR|Thank you!|thankyou

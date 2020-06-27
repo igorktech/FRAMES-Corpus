@@ -1,0 +1,33 @@
+USR|Hi there...this is my first time traveling and I'm so excited!|inform
+USR|I've lived in Boston all my life and want to see the world|inform
+SYS|Congratulations, what is your budget ?|request
+USR|I have 1900 budget and 13 days|inform
+SYS|What date would you like to leave?|request
+USR|I'm flexible, some time soon I hope!|inform
+SYS|Is it just for yourself?|suggest
+USR|Yes just me myself and I|affirm
+SYS|you can go to Punta Cana, Fort Lauderdale, Phoenix, Miami, Burlington, all for between about 450USD and 550USD, between 6 and 13 days|suggest
+USR|You are a lifesaver!|request_compare
+USR|Which destination has the highest rated hotel?|request_compare
+SYS|Miami and Phoenix have 3 star hotels|inform
+USR|Do they both have the same amount of amenities?|request_compare
+SYS|Yes about the same.|inform
+SYS|Here are the details:  
+
+The Recreation Inn  - 7 days, Phoenix, United States, hotel, museum, university
+Total price: 550.61USD
+
+Triple Aegis - 8 days, Miami, United States, park, mall
+Total price: 534.37USD|inform
+USR|Okay cool.|request_compare
+USR|Which destination can I stay for the longest time at?|request_compare
+SYS|Fort Lauderdale, 13 days, 2 star hotel.|inform
+SYS|for 553.0USD|inform
+USR|Okay, does this hotel at least have a decent user rating?|request
+SYS|yes 6.51|inform
+USR|Ok I'm leaning towards this one but just to help me decide, can you tell me if this hotel is near any attractions or has any amenities?|request
+SYS|it is near a market and has free wifi, breakfast and parking.|inform
+USR|Ok great, I think I'll book this one|inform
+SYS|I will send an confirmation email to you.|thankyou
+SYS|Thanks|thankyou
+USR|Thanks!|thankyou

@@ -1,0 +1,12 @@
+USR|looking to go from mos eisley to kyoto on august 27|inform
+SYS|I can't seem to find any flights from Mos Eisley to Kyoto.|suggest
+SYS|Would you be able to leave from another destination?|suggest
+USR|ok lets leave from sacramento|inform
+SYS|You're in luck!|suggest
+SYS|I can book you at the Quiet Garden Resort from August 27th to September 2nd.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|that works great!|inform
+USR|book book book !|inform
+SYS|Booked!|inform
+USR|thanks|thankyou
+SYS|Thank you for using our service!|thankyou

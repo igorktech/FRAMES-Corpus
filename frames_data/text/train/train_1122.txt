@@ -1,0 +1,16 @@
+USR|Get me outta St. Petersburg!|inform
+USR|I need a beach vacation!|inform
+SYS|I can certainly help you with that!|request
+SYS|How many of you will there be and which city would you like to go to?|request
+USR|Just me.|inform
+USR|Santo Domingo.|inform
+SYS|Do you have a budget in mind for this vacation?|request
+USR|2900|inform
+SYS|And is there a certain number of days you would like to spend?|request
+USR|My vacation time is from September 24 to September 27.|inform
+SYS|The shortest package we have to Santo Domingo is 10 days long.|request
+SYS|Are your dates flexible at all?|request
+USR|No they are not.|inform
+SYS|DO you have another destination in mind?|suggest
+USR|No I don't.|thankyou
+USR|Thanks for your help anyway, Good day.|thankyou

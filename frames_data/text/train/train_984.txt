@@ -1,0 +1,40 @@
+USR|hey buddy.|inform
+USR|i have some work to do
+looking to domesticate a savage little tea cup yorkie in Pittsburgh
+I am available between the 12th and 19th of September
+I can leave from wherever, so long as it costs me under 3700 bucks|inform
+SYS|How many people are travelling and are you looking for anything specific in a hotel?|request
+USR|I need access to a dog park.|inform
+USR|and i will be travelling by myself|inform
+SYS|I have 2 hotels in Pittsburgh available and they are both located near the park.|inform
+USR|saWEEEET.|moreinfo
+USR|When?|moreinfo
+USR|What are the details?|moreinfo
+SYS|The Sunny Wolf Inn & Suites is 2.5 star hotel located near a park and the museum, offering wifi, parking and breakfast as part of your package.|offer
+SYS|Majestic Mountain Inn is also a 2.5 star hotle located near a park offering wifi, parking and breakfast as part of the package.|offer
+SYS|The Sunny Wolf Inn & Suites has the higher guest rating at  8.49 / 10.|offer
+USR|Sunny Wolf Inn sounds splendid!|request
+USR|what would the dates of travel be?|request
+SYS|Do you prefer to stay 8 or 9 days?|suggest
+USR|either is fine, so long as is between 12th and 19th of September.|inform
+USR|and under 3700 dollars|inform
+SYS|The Sunny Wolf Inn & Suites meets your exact requirements for a Sept 12 departure with a return date of Sept 19, a total of a 9 day package at 3066.76USD economy flight.|offer
+USR|that would be quite ideal.|inform
+USR|However, before we rush into that, there is a Tibetan Mastiff in Ulsan with some serious people issues that is deparate for my assistance|inform
+SYS|Should I proceed with booking?|suggest
+USR|can you look into Ulsan packages for me please?|negate
+USR|No- no booking yet|negate
+SYS|I have nothing near a park in Ulsan but there are hotels near the palace.|suggest
+USR|oh dear, no I don’t think that will be suitable.|inform
+USR|how about Naples?|inform
+USR|could you send me there?|inform
+SYS|I'm finding nothing for your specifications|no_result
+USR|They could just be near a park and I would be happy|inform
+SYS|I meant there's no park!|no_result
+USR|ahh, ok.|inform
+USR|so it seems that Pittsburgh is my only viable option
+let’s book the higher guest rating hotel with 8.49/10 in Pittsburgh|inform
+SYS|So I will confirm a reservation for the Sunny Wolf Inn & Suites, located near the park,  for a 9 day stay departing on Sept 12 and returning on Sept 19 at 3480.49USD.|inform
+SYS|Correct?|inform
+USR|Wonderful!|thankyou
+USR|thank you kindly|thankyou

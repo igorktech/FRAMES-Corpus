@@ -1,0 +1,23 @@
+USR|Hi there|greeting
+SYS|Hello|greeting
+USR|Looking for some trips out to Baltimore!|inform
+SYS|And where are you located?|request
+USR|Tijuana!!|inform
+USR|Dates are Aug 31 to Sept 19|inform
+SYS|For how many and do you have a spending limit?|request
+USR|No spending limit, for one!|inform
+SYS|The hotels available in Baltimore at the moment are 3 star hotels.|inform
+SYS|Are you okay with that?|inform
+USR|Which one has the best ratings?|inform
+SYS|The Countryside Inn  is a 3 star hotel but it has a guest rating of 8.69 / 10.|offer
+SYS|It also includes wifi and parking and breakfast is part of the package.|offer
+USR|Can you check Chicago also?|inform
+SYS|The hotels in Chicago are 2 and 2.5 star hotels.|offer
+SYS|The one with the highest guest rating is the Quiet Sanctuary available for a 7 day stay for  1047.61USD|offer
+USR|What about flights to Calgary?|inform
+SYS|4 star hotel, Amusement available for 12 days at a price of 851.44USD, wifi and parking included.|offer
+USR|And the dates are?|request
+SYS|September 7th departure with a return date of September 18th|inform
+USR|Ok book it!|inform
+USR|Thanks for your service!|inform
+SYS|I have booked the trip.|inform

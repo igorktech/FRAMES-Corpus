@@ -1,0 +1,14 @@
+USR|hello.|inform
+USR|please find me a vacation from Fort Lauderdale to Rome!!!|inform
+SYS|Do you have a budget?|request
+USR|noooo|inform
+SYS|Yes, it's great!|request
+SYS|Are you travelling with anyone?|request
+USR|I LOVE travelling alone without having to worry about any budgets!!|inform
+SYS|When would you like to leave?|request
+USR|oh ok like, tommorow?!|inform
+SYS|Unfortunately there are no results in my database for flights from Fort Lauderdale to Rome.|no_result
+USR|Okay, send me to Birmingham|inform
+SYS|I'm sorry but I can't get you there out of Fort Lauderdale.|sorry
+USR|omg.|inform
+USR|Alright, I can leave from anywhere!|inform

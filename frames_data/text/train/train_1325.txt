@@ -1,0 +1,25 @@
+USR|Hi I've got 9 days free and I'm looking for a vacation.|inform
+USR|I live in San Francisco.|inform
+SYS|Absolutely!|request
+SYS|Where do you want to go and when do you want to go there?|request
+USR|No, dates or places in mind.|inform
+USR|Was hoping you could help me.|inform
+USR|Something as cheap as possible.|inform
+SYS|Do you have a budget?|request
+USR|Just something crazy cheap.|inform
+SYS|I have 9 days at the Cosmos Inn in Kingston for $2764.|offer
+USR|That's not crazy cheap|negate
+SYS|I can't accomodate your request|canthelp
+USR|what's the cheapest you got?|inform
+SYS|The cheapest package I can see at this point is to Mexico City for 1061.36USD.|inform
+USR|How about a budget of $400?|inform
+SYS|I have one trip under 400 - 7 days at the Crown Jungle Inn in Columbus for 399.8USD.|offer
+USR|Yes let's go with that!|inform
+SYS|Ok!|hearmore
+SYS|I will go ahead and book it for you.|hearmore
+SYS|Would you like further information first?|hearmore
+USR|No, it sounds good.|inform
+USR|I'll take it.|inform
+SYS|Ok, consider it booked!|inform
+SYS|Please watch for confirmation|inform
+USR|Thanks!|thankyou

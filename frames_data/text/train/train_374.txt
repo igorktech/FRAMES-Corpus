@@ -1,0 +1,32 @@
+USR|I must go to Vancouver from Tijuana.|inform
+SYS|Great!|offer
+SYS|How about Parallel Carnaval Bed & Breakfast?|offer
+SYS|7 days for only $1465!|offer
+USR|Can you check trips to Essen?|inform
+USR|I'm very meticulous so I need lots of options.|inform
+USR|I also need to go from August 30th to September 12th.|inform
+SYS|ok, absolutely!|hearmore
+SYS|I have packages to Essen from August 31-September 7 or August 30-September fifth.|hearmore
+SYS|Would you like to hear more about this place?|hearmore
+USR|Sure!|switch_frame
+USR|Tell me more|switch_frame
+SYS|The first date range would find you staying at the Motel Ivory Safari, a 2.0 star hotel with free wifi and parking.|inform
+SYS|Alternatively, from August 30-Sept 5 you could stay at the Relaxation Hotel, located near the city’s palace and featuring free wifi, free breakfast, boasting a 3.0 star rating.|inform
+USR|are there any packages to Cleveland?|inform
+USR|I've been there before and i might want to go again|inform
+SYS|Sure thing!|offer
+SYS|From September 6-12 I have the Pleasant Court Inn available.|offer
+SYS|Its a three star hotel located near a park and a theatre with a guest rating of 8.98|offer
+USR|not too shabby....Do you have any packages to Milan?|request
+SYS|Certainly!|offer
+SYS|In Milan I have packages from September 8th-12th or from the 1st-10th.|offer
+USR|Can you tell me about the one from the 1st to 10th please?|moreinfo
+SYS|Sure!|inform
+SYS|The El Mundo Hotel is a 4.0 star hotel with free wifi and breakfast included.|inform
+SYS|The guest rating is 9.16 and the price for these dates would be $3500 USD.|inform
+USR|Sold!|inform
+USR|I'll take this package!|inform
+SYS|Wonderful :slightly_smiling_face: Consider it booked.|thankyou
+SYS|Enjoy your stay and thank you for booking|thankyou
+USR|Thank you!|thankyou
+SYS|My pleasure|you_are_welcome

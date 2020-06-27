@@ -1,0 +1,24 @@
+USR|Hi.|greeting
+USR|First time trying this out.|greeting
+USR|What do I do?|greeting
+SYS|Tell me where you're coming from and where you would like to go :slightly_smiling_face:|request
+USR|Okay.|inform
+USR|I am in Fukuoka and I really have to go to Osaka.|inform
+SYS|Will it be just you?|request
+SYS|And are you travelling on a budget?|request
+USR|Just me.|inform
+USR|$1200.|inform
+USR|I heard Osaka is really nice.|inform
+USR|Can I leave on September 20 please?|inform
+SYS|I have a 4 day package to Osaka leaving on September 20.|offer
+SYS|It's involves a 3 star hotel and it costs 523.92 for business class and 474.62 for economy.|offer
+SYS|Would you be interested in this package at all?|offer
+USR|What is the exact return date and can you tell me where the hotel is located?|request
+SYS|The return date is Friday September 23rd and it's a hotel with a 6.61 out of 10 rating, located near a museum.|suggest
+SYS|Are you interested in booking this?|suggest
+USR|Yes sure!|inform
+USR|I'll take it and since I can afford it I will go business class!|inform
+SYS|Perfect!|inform
+SYS|You should receive an email with all the details very soon!|inform
+USR|Thank you!|thankyou
+SYS|You're most welcome!|you_are_welcome

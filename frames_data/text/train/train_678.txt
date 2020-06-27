@@ -1,0 +1,30 @@
+USR|valencia to munich.|inform
+USR|sept 8 to 26|inform
+SYS|Have you got a budget?|request
+USR|no budget, i'm gonna go hard|inform
+SYS|Ok, how many travellers?|request
+USR|just me|inform
+SYS|I have two five star options: Regal Bluff and Jade Harbor.|offer
+USR|ooh can you tell me more about each one?|request_compare
+SYS|Absolutely!|inform
+SYS|The Regal Bluff is near a university, has free wifi, and is unrated by guests.|inform
+SYS|The Jade Harbor also have no user reviews, free wifi, but also have on-site spa services.|inform
+USR|hm im a little sketched out by the unrated factor.can you take a look at milan for me?|inform
+SYS|Ok!|inform
+SYS|I have many options in Milan.|inform
+SYS|How long would you like to stay?|inform
+USR|as long as possible!!|inform
+SYS|I have ten days at The Double Pastures, a 4.0 star hotel with free breakfast and wifi near a cathedral for 907.3USD.|offer
+USR|Could you get a longer trip at one of the 5 star Munich hotels?|inform
+SYS|I’m sorry but I have only 8 or 6 day stays at the Munich hotels within your date range.|sorry
+USR|fair enough.|request
+USR|what guest rating does that Roman hotel have?|request
+SYS|8.98/10|inform
+USR|ok im convinced, but what are the dates?|request
+SYS|Sept 11-20|inform
+USR|sounds good to me|null
+SYS|Ok!|suggest
+SYS|I will book it?|suggest
+USR|please do|inform
+SYS|Done :slightly_smiling_face:|inform
+USR|thanks!|thankyou

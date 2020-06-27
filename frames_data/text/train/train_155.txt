@@ -1,0 +1,28 @@
+USR|So Hey, I'm an intern- it's pretty fantastic/exciting.|inform
+USR|So anyways I need to go to Monterrey between August 27 and September 15.|inform
+USR|What do you have leaving from Stuttgart?|inform
+SYS|Will you be travelling alone or with a companion?|request
+USR|All alone, and for the first time!|inform
+USR|If I wasn't so excited, I would be really nervous.|inform
+SYS|Do you need to stay in Monterrey right until the 15th of September?|confirm
+USR|My dates are kinda flexible, but I absolute cannot go over a budget of 3100 dollars.|inform
+SYS|Is a five day package in Monterrey acceptable for you?|offer
+SYS|I have a flight departing on Aug 27 and returning on Aug 30 at the Oriental Peaks Hotel.|offer
+SYS|It is a little bit more than what your budget allows for at 3240.72USD but it is a 4-star resort with an excellent client rating and it includes free breakfast, free wifi and free parking.|offer
+USR|Hmmm it's a little bit too expensive... they have another location in Kingston, can we see what's available there?|inform
+SYS|I have a lot available in Kingston within your travel dates.|inform
+SYS|Are there any special amenities you are looking for at the hotel?|inform
+USR|Hmmm well this is the first time I book any kind of vacation... Can you tell me what amenities are usually offered?|request
+SYS|In Kingston, I have hotels available from a 2.5 rated hotel to a 4 star hotel.|suggest
+SYS|I also have some hotels that are located near the museum for when you have some leisure time.|suggest
+USR|Wow I'd love to spend some time near the Museum, is this one within my budget?|request
+SYS|All are within your budget.|offer
+SYS|I can recommend the Golden Excalibur which is available from Aug 27 to Aug 30, is rated 3.5 stars and includes wifi and breakfast.|offer
+USR|Well that one sounds very nice.|request_compare
+USR|Can you give me the name of the hotel near the Museum?|request_compare
+USR|I'd like to compare the two hotels with my mom.|request_compare
+SYS|This one is located right beside the museum.|offer
+SYS|I also have the at the Raven which is a 3 star and the Ebony Manor Inn & Suites which is a 4 star located near the museum.|offer
+USR|Great!|thankyou
+USR|I'll talk about it with my mom and get back to you tomorrow.|thankyou
+USR|Thanks so much for your help!!|thankyou

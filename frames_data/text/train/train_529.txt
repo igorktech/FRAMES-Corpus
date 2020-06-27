@@ -1,0 +1,22 @@
+USR|Ok I'm turning 20 soon Daddy promised that I would get to take me and 7 friends wherever I wanted.|inform
+USR|Get me from Sydney to Miami
+Mind you we only fly business class
+And stay at the best hotels|inform
+SYS|When would you prefer to go?|request
+USR|Next week but I can wait if it means you get me a five star hotel|inform
+SYS|Our highest rated hotel in the database is a 3.5 star hotel.|suggest
+USR|Thats disgusting.|inform
+USR|How do I turn up at a 3.5 star hotel?|inform
+USR|Ok look up Mannheim then|inform
+SYS|We have a 5 star hotel with a 8.98/10 guest rating near a park.|offer
+SYS|Amenities include free wifi and a spa.|offer
+SYS|This package is from September 4th to September 15th and business class which comes to a total of 27240.35.|offer
+USR|you got me any 5 star hotels in the city?|inform
+USR|You know, SL.|inform
+SYS|We have a 5 star hotel with 8.98/10 guest rating, with free breakfast and wifi.|offer
+SYS|This package is from August 31st to September 14th and business class for a total of 6003.40.|offer
+USR|Business class??|confirm
+SYS|Yes|affirm
+USR|SL sounds good to us|inform
+SYS|I will book this for you!|inform
+USR|:+1:|thankyou

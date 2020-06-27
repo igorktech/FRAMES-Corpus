@@ -1,0 +1,38 @@
+USR|Hi.|inform
+USR|I need to book a vacation to Long Beach between August 25 and September 3.|inform
+USR|Departure is from Paris|inform
+SYS|Would you like to depart Paris on September 6th?|suggest
+USR|Preferably by the 3rd.|inform
+USR|Is there anything available?|inform
+SYS|Sorry, looks like there is nothing available from Paris to Long Beach on September 3rd.|no_result
+USR|I'm not quite sure I understand, is there anything available leaving Long Beach to go to Paris between August 25 and September 3rd?|inform
+SYS|Would you like to depart Paris on September 6th?|suggest
+USR|No.|inform
+USR|I would like to leave Long Beach around the 25th of August to go to Paris for some reason.|inform
+USR|What is so confusing about that!?|inform
+SYS|You can leave Long Beach, USA and go to Paris, France on Tuesday, August 30th.|suggest
+SYS|Will I book this?|suggest
+USR|Finally!|request
+USR|No, don't book yet, I would like to know more about the hotel.|request
+USR|Is there free breakfast?|request
+SYS|There is free wifi.|inform
+USR|Look buddy, is there free breakfast or not?|request
+USR|Tell me, am I gonna get eggs, toast, cereal, etc?|request
+USR|You know?|request
+USR|The good stuff?|request
+SYS|There is free wifi at the hotel.|inform
+USR|What is the price of this toastless package?|request
+SYS|This package costs 2191.55USD.|inform
+USR|Is this the cheapest option?|confirm
+SYS|Yes, this is the cheapest option from Long Beach to Paris.|affirm
+USR|And the hotel has how many stars?|request
+SYS|Muse Hotel has 2.0 stars.|inform
+USR|Ok I will book this one.|inform
+SYS|Great.|inform
+SYS|You will leave Paris on September 7th.|inform
+USR|What do you mean?|null
+SYS|You will depart from Paris at 3:00 am on Wednesday, September 7th.|inform
+USR|I will not book this trip.|negate
+USR|Goodbye.|negate
+SYS|Thank you!|goodbye
+SYS|Goodbye!|goodbye

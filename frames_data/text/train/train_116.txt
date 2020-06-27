@@ -1,0 +1,13 @@
+USR|hey there, I'm doing some travelling for business soon.|inform
+USR|It needs to be around August 18-August 26.|inform
+USR|What can you do for me?|inform
+SYS|Let’s see what we can find, can you tell me if you have a budget and who you will be travelling with?|request
+USR|no budget - work is paying :wink:|inform
+SYS|Where are you coming from?|request
+USR|just me for now, but if we can find something that works out then I have 5 other colleagues who will be attending meetings with me|inform
+SYS|Any chance you can go to or from somewhere else?|suggest
+USR|hm... I could go to Milan.|inform
+USR|we have an office there|inform
+SYS|again i am sorry there are no results|no_result
+USR|i will take my business elsewhere.. thanks for nothing|goodbye
+SYS|my apologies|sorry

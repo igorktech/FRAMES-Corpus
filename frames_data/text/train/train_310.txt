@@ -1,0 +1,35 @@
+USR|Good afternoon :slightly_smiling_face: I want to book a vacation for myself, my husband and our daughter.|inform
+USR|The time frame for our holiday is between August 31st and September 9th|inform
+SYS|Will that be 2 adults and 1 child?|confirm
+USR|Yes exactly!|affirm
+SYS|Where will you be departing from?|request
+SYS|Do you have a special destination in mind?|request
+USR|We live in Portland and we don't have any destinations in mind, we look forward to your suggestions!|inform
+USR|Our constraint is that our budget is of 4800$|inform
+SYS|I have a package available to Miami which suits your dates perfectly.|offer
+SYS|It would be at the  Triple Aegis which is a 3 star hotel quite a bit under your budget.|offer
+SYS|The total cost for your entire stay would be $2134.14.|offer
+SYS|How does that sound?|offer
+USR|How long is this vacation for?|request
+SYS|10 days.|inform
+SYS|It departs on August 31st and returns on Sept 9 on an economy class flight.|inform
+USR|Ok!|request_alts
+USR|That is a pretty good deal for the length of the trip!|request_alts
+USR|Do you have options for trips outside the US?|request_alts
+SYS|I have Ciudad Juarez or I have a 9 day package available in Mexico City, Mexico at the Exalted Willow Resort & Suites 3.5 star, on the beach, close to the shopping district and beside the mall.|offer
+SYS|It included free wifi and parking.|offer
+SYS|The cost on this one is also within your budget at 2284.41USD.|offer
+USR|What an attractive sounding package?|request
+USR|Does the hotel have good reviews?|request
+SYS|It has an above average rating of  8.37 / 10|inform
+USR|Great!|request
+USR|I might need to get some work done in the evenings, is there wifi or computers I can use at the hotel?|request
+SYS|There is free wifi|inform
+USR|That works for me!|request
+USR|Last thing, can you give me the dates of this trip?|request
+SYS|Departing Sept 1 and returning Sept 9.|inform
+USR|Fantastic, i'm looking forward to this!|inform
+USR|Can you book this for us?|inform
+SYS|I will proceed with the booking and send confirmation.|inform
+SYS|Have a nice day.|inform
+USR|Thank you so much!|thankyou

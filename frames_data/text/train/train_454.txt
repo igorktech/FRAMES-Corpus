@@ -1,0 +1,8 @@
+USR|PORTLAND TO ATHENS SEPT 11 TO 15 I WANT THESE EXACT DATES PLEASE|inform
+SYS|Do you have a budget?|request
+USR|UNDER 1800|inform
+SYS|How many people?|request
+USR|ME ONLY|inform
+SYS|I'm sorry to inform you but there are no flights to Athens.|sorry
+SYS|Is there a different destination you'd like to explore?|sorry
+USR|NOOOOO|negate

@@ -1,0 +1,36 @@
+USR|I would like to take my soon to be wife on a great honeymoon, she deserves the best but we can only afford something up to 4200 for 6 days.|inform
+USR|We had discussed going to Punta Cana from Sapporo where our wedding will take place on the 17th, we can leave after that.|inform
+SYS|for 2 adults?|confirm
+USR|yeah lol we dont want a third wheel|affirm
+SYS|There are 2 hotel in Punta Cana that I can offer you - La Estrella del Mar and el Mar. La Estrella del Mar is an unrated hotel whereas the el Mar is rated 2.5 stars.|offer
+SYS|Both offer 6 day packages for under your budget.|offer
+SYS|How do you feel about these choices?|offer
+USR|What is the guest rating for the 2.5 star hotel?|request
+SYS|0/10|inform
+USR|oh.|request
+USR|Well that’s okay.|request
+USR|What is the hotel like?|request
+SYS|It's on the beach.|inform
+SYS|Asides from that I don't have much information on it.|inform
+USR|do they have wifi or anything?|request
+SYS|There is no information provided as to which amenities are included with this hotel.|inform
+USR|okay.|request
+USR|are there any at the 0 star hotel?|request
+SYS|No information provided for the one either.|inform
+USR|That’s okay I’ve heard only good things about Cuba plus everything is cheap there because everyone get’s paid a dollar a day.|request
+USR|I think we will take the 2.5 star hotel .|request
+USR|What are the dates for this package and the cost?|request
+SYS|The dates are from Sept 24th to 28th.|inform
+SYS|The cost of this 6 day stay  is  3708.63USD if you want us to fly you there from Sapporo on business class.|inform
+USR|Is there anything earlier?|inform
+SYS|The unrated hotel La Estrella del Mar is available for the 18th|inform
+USR|Thats perfect.|request
+USR|since the hotels probably arent that much different anyway i will book this one.|request
+USR|How much is this package?|request
+SYS|There are only economy class seats left in this flight and the total cost of the package is  3424.71USD for 2 adults|inform
+USR|Perfect.|inform
+USR|Sign me up!|inform
+SYS|You are all signed up.|inform
+SYS|Have an excellent trip.|inform
+USR|Thanks!|thankyou
+USR|You were a great help!|thankyou

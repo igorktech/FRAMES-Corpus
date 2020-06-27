@@ -1,0 +1,13 @@
+USR|I would like to go to Ulsan from San Juan with my wife and son.|inform
+USR|I need inspiration for my novel|inform
+SYS|No problem!|request
+SYS|Do you have a budget in mind?|request
+USR|4800 and id like to stay there for 3 days|inform
+SYS|I'm afraid we don't have anything that fits your budget.|sorry
+SYS|Would it be possible to expand your budget?|sorry
+USR|no but we can try going to hiroshima too|inform
+SYS|I'm afraid we don't have anything that fits your budget for that either.|sorry
+SYS|Would you like to try another destination?|sorry
+USR|no but we can stay for 9 days instead of 3|inform
+SYS|I'm afraid we don't have anything that fits your budget.|sorry
+SYS|Is there anything else I can help you with?|sorry

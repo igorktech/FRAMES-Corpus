@@ -1,0 +1,39 @@
+USR|My brother and I both recently divorced our spouses and we want to take our 7 children away from all the drama for a bit.|inform
+USR|Do you have a fun package destination after August 31st?|inform
+USR|Something like the Atlantis?|inform
+SYS|I can help you find something!|request
+SYS|Can you please provide me with your departure city and your budget?|request
+USR|We live in Lima and we have a total of $9500|inform
+SYS|I have a lot of options for you.|request
+SYS|To narrow it down, are you looking for something close to the beach or in the city?|request
+SYS|And did you have a vacation length in mind?|request
+USR|We have to be back by September 7 so about a week?|inform
+USR|We live near the beach so it would be fun to visit some museums somewhere, make it a learning experience for everyone|inform
+SYS|Sure!|offer
+SYS|I don't have any holiday packages to Atlantis, but I can offer you a 7 day holiday in Chicago.|offer
+SYS|Galaxy Temple is a 2.5 star hotel located close to a park and to a museum.|offer
+SYS|How does that sound?|offer
+USR|How much is that?|request
+SYS|It would cost 6326.16USD, so well within your budget.|inform
+USR|do you have 4 star or more hotel available?|inform
+USR|the kids would love that!|inform
+SYS|The fanciest hotel I can offer you within your budget and date constraints is the 3.5 star Sunrise Elephant Hotel in Punta Cana.|offer
+SYS|It is not close to a museum, but there is a cathedral and a palace nearby.|offer
+SYS|You would be staying there for 6 days between September 2nd and 7th.|offer
+USR|what if we stayed until the 12th and increased our budget by $200?|inform
+USR|What could you do for us?|inform
+USR|Forget the museum, I don't know what I was thinking, the kids will be bored to death.|inform
+USR|Back to the Atlantis idea, anything near a beach?|inform
+SYS|I still don't have flights to Atlantis on those dates but how about this: I could send you to Exalted Willow Resort & Suites for 8 days.|offer
+SYS|This is a 3.5 star hotel in Mexico City and its close to the beach, shopping and a mall.|offer
+SYS|It has really great user reviews.|offer
+USR|I've heard of that place!|request
+USR|I used to be a travel agent and I actually sent someone there myself, not sure why I didn't think about it!|request
+USR|is this below our budget?|request
+SYS|The total would come out to 7701.59USD.|inform
+USR|and what are the dates?|request
+SYS|September 1st to the 8th.|inform
+USR|this looks like the perfect place to get away, thanks for your help!|thankyou
+SYS|My pleasure!|inform
+SYS|I'll book it for you and you should receive a confirmation shortly.|inform
+USR|gracias!|thankyou

@@ -1,0 +1,17 @@
+USR|Hey, I need to get on the next flight to Sao Paulo.|inform
+USR|I'm in Portland.|inform
+SYS|Just one adult?|suggest
+USR|Correct.|affirm
+SYS|We don't have any packages from Portland to Sao Paulo.|no_result
+USR|What about Mannheim to Sao Paulo then?|inform
+SYS|There are a few.|offer
+SYS|The earliest  available is on Sept 2nd.|offer
+USR|Are there earlier ones if I fly from Portland to Denver?|inform
+SYS|None|no_result
+USR|What about Mannheim to Denver?|inform
+SYS|None either|no_result
+USR|Okay I guess the September 2 one is my only option!|request
+USR|How much is that one?|request
+SYS|Azure Spire Hotel is 5 day package including parking, breakfast and wifi for 2980.32USD|inform
+USR|Please book it for me.|inform
+SYS|Perfect I will book it for you then!|inform

@@ -1,0 +1,10 @@
+USR|Hey there, I'm excited to book a trip somewhere for me and my colleagues.|inform
+SYS|How many of you?|request
+USR|There will be 27 of us.|inform
+SYS|Where are you located, and where would you like to go?|request
+USR|We're in Beijing we're thinking of going to Santo Domingo.|inform
+SYS|I’m sorry, but we currently do not operate out of Beijing.|sorry
+SYS|Is there an alternative departure point available for you?|sorry
+USR|No, because all 27 of us live in Beijing.|inform
+SYS|I’m sorry, then I cannot help you.|sorry
+USR|That's okay, I'll find another way to book it, I'm sure!|thankyou

@@ -1,0 +1,8 @@
+USR|Me and my terrific wife are actually getting married in Porto and wanna honeymoon in Montreal|inform
+SYS|When would you like to depart on your honeymoon?|request
+USR|any time after the wedding on the 20th|inform
+SYS|I have no packages from Porto Alegre to Montreal|no_result
+USR|PATHETIC.|inform
+USR|well can you book something in Brasilia instead??|inform
+SYS|That destination is not available either|no_result
+USR|YOU ARE RUINING MY MARRIAGE|null

@@ -1,0 +1,2 @@
+USR|DO YOU FLY OUT OF THE KABUL?|inform
+SYS|I’m sorry, we don't|sorry

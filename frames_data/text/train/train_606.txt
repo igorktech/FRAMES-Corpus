@@ -1,0 +1,23 @@
+USR|Get me to Fukuoka|inform
+SYS|Where are you leaving from?|request
+USR|Toronto.|inform
+USR|I can only spend $4100 and travel between Aug 31 and Sep 7|inform
+SYS|Are you travelling alone?|suggest
+USR|nope, with my assistant|inform
+SYS|I found one result for Fukuoka.|offer
+SYS|This is a 3 star hotel, 6.61/10 guest rating, free wifi, and it is in the heart of the city.|offer
+SYS|The trip is from August 31st to September 7th and is an economy flight.|offer
+SYS|Total price is 3824.56.|offer
+USR|What about Mexico City?|inform
+SYS|This is a 3.5 star hotel, 8.37/10 guest rating, free parking and wifi, and the hotel is near the beach, shopping, and a mall.|offer
+SYS|This package is from September 1st to 7th.|offer
+SYS|The cost for the business package is 2315.20 and the cost for the economy package is 1874.48.|offer
+USR|Do you know if it is close to parks?|request
+SYS|No park, just the beach, shopping, and mall.|inform
+USR|Is the Fukuoka one close to a park?|request
+SYS|No park, but this is in the heart of the city.|inform
+USR|Okay, I want to book the economy one for Mexico City.|switch_frame
+SYS|Great!|inform
+SYS|Your flight is booked!|inform
+SYS|You will receive a confirmation email shortly!|inform
+SYS|Have a nice day!|inform

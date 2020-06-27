@@ -1,0 +1,12 @@
+USR|Hi there.|inform
+USR|I need to go to Tel Aviv for a meeting
+Are there any flights from Paris?|inform
+SYS|Do you have a budget?|request
+USR|Show me what you've got.|inform
+SYS|Nothing.|no_result
+USR|Monterrey then?|inform
+USR|In this case we'll be going 7 adults total.|inform
+SYS|There are no avialabilities.|no_result
+USR|Unbelievable...Tofino is my last option|inform
+SYS|There are no results for this either.|no_result
+USR|I guess this is going to work|thankyou

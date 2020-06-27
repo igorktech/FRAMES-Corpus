@@ -1,0 +1,14 @@
+USR|Are there 5 star hotels in Kyoto?|inform
+SYS|Not that I can see from an initial search.|request
+SYS|Perhaps if you give me a budget, dates, number of travellers, or some other information I can take a closer look.|request
+USR|Well we can leave anytime.|inform
+USR|Need to back in San Antonio by the 15th though	
+It'll be the 2 of us|inform
+SYS|Unfortunately I’m only seeing 3 star hotels..|sorry
+USR|What about Guadalajara?|inform
+USR|I could also leave from Brasilia too if that changes anything..|inform
+SYS|In Guadalajara I have a 3 star hotel with a 8.22/10 guest rating.|offer
+SYS|This is the closest thing I can find to a 5 star hotel.|offer
+USR|Okay 3 :star: aint gonna work|negate
+SYS|Sorry I couldn’t help!|sorry
+USR|No worries thanks!|thankyou

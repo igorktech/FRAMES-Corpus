@@ -1,0 +1,68 @@
+USR|Hi!|greeting
+SYS|To start, just give me some information on where you'd like to travel, your budget, your point of departure, or any other travel info you can think of.|greeting
+USR|Ok great!|inform
+USR|I'm looking for a trip from August 19th to September 3rd, and I'm thinking of going to Mexico City.|inform
+USR|I would be departing from Busan.|inform
+SYS|I've got some options available for you.|confirm
+SYS|Will you be travelling alone?|confirm
+USR|Yes!|affirm
+USR|For the first time.|affirm
+SYS|Ok!|offer
+SYS|I have 5 days at a 3 star hotel available for 3259.79USD.|offer
+SYS|What do you think?|offer
+USR|That sounds nice.|request
+USR|What is the name of the hotel?|request
+SYS|The hotel is called Sublime Echo.|inform
+USR|Does it have a view of the ocean?|null
+SYS|I am not sure|canthelp
+USR|Great!|request
+USR|Do you know if there is free wifi and breakfast?|request
+SYS|There is free parking and free wifi, but no free breakfast.|inform
+USR|What are the departure dates?|request
+SYS|You would leave Busan at 7:00 am - Wednesday, August 24th and depart from Mexico City at 1:00 am - Saturday, August 27th.|suggest
+SYS|I also have a free breakfast hotel available for 4002.28USD which leaves Busan at 7:00 am - Saturday, August 27th.|suggest
+USR|The second option is how many days?|switch_frame
+SYS|The second option is also 5 days.|inform
+USR|I'll keep the second Mexico City option in mind.|request_alts
+USR|I have some other places that I'd like to consider.|request_alts
+SYS|Ok!|request
+SYS|Where would you like to go?|request
+USR|What about Santo Domingo for the same dates?|inform
+SYS|I can get you a hotel in Santo Domingo for 2446.15USD.|offer
+USR|5 days?|confirm
+SYS|9 days actually.|inform
+USR|With free breakfast?|request
+SYS|Free breakfast, wifi, and parking!|inform
+USR|Amazing!|request
+USR|This one is already looking better than Mexico City.|request
+USR|What are the departure and arrival dates and times?|request
+SYS|It is a great deal!|inform
+SYS|You would depart Busan at 11:00 am - Wednesday, August 24th and leave Santo Domingo at 1:00 am - Wednesday, August 31st.|inform
+USR|That sounds great to me.|inform
+USR|I have two other cities that I'd like to consider.|inform
+USR|Let's start with Toronto.|inform
+USR|What can you get me for the same dates with free breakfast?|inform
+SYS|Ok!|suggest
+SYS|I can get you 7 days in Toronto for 2732.81USD.|suggest
+USR|I like the sound of that.|request
+USR|What are the departure and arrival dates and times for this one?|request
+SYS|9:00 am - Wednesday, August 17th you would leave Busan and arrive in Toronto at  9:04 pm of the same day.|inform
+SYS|Your return trip would depart from Toronto at 1:00 am on Monday, August 22nd and arrive in Busan at 1:04 pm that day.|inform
+USR|Excellent.|inform
+USR|Can you see what's available in Athens?|inform
+SYS|Would you like to hear only options with free breakfast in Athens?|suggest
+USR|Yes please!|switch_frame
+SYS|Unfortunately I have nothing available in Athens with free breakfast within your date range.|sorry
+SYS|However, I can get you a hotel with free parking and wifi for 3998.37USD.|sorry
+USR|Not interested.|request
+USR|Let's go back to the Toronto package.|request
+USR|How many stars?|request
+SYS|For the package priced at 2732.81USD in Toronto the hotel has a 4 star rating.|inform
+USR|Does it have a spa?|request
+SYS|There is no spa.|inform
+USR|I will still book the Toronto package.|inform
+USR|I can't wait!|inform
+SYS|Ok!|inform
+SYS|I will book that package for you.|inform
+SYS|Enjoy!|inform
+USR|Great thank you so much!|thankyou

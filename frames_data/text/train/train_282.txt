@@ -1,0 +1,24 @@
+USR|Hello, book me a trip from San Antonio to Phoenix leaving September 9th and returning September 11th please.|inform
+SYS|What is your budget?|request
+USR|No budget.|inform
+USR|Book me business class and the best hotel you can find.|inform
+USR|Oh and this is for two adults.|inform
+SYS|Wow!|sorry
+SYS|Unfortunately there are no packages available for this request|sorry
+USR|Try coming back on September 11th instead|inform
+SYS|No, sorry, there are no results for this either.|sorry
+USR|Hmm.|inform
+USR|Try La Paz instead of Phoenix
+Same dates, still leaving from Rio de Janeiro|inform
+SYS|There are two results from Rio de Janeiro to La Paz.|suggest
+USR|Do share|switch_frame
+SYS|The options are at the same hotel.|offer
+SYS|The hotel is 4 stars and offers free wifi, breakfast, and parking.|offer
+SYS|One package is from August 25th to 31st and the other package is from August 30th to September 1st.|offer
+USR|Are there results for Rio de Janeiro to Phoenix?|inform
+SYS|There is one for this request from September 2nd to September 9th.|offer
+USR|Is it a five star hotel?|request
+SYS|No, it is a 2.5 star hotel.|inform
+USR|Okay book us for Rio de Janeiro to La Paz, business class, August 25th to 31st please|inform
+SYS|Great!|inform
+SYS|The price for this package is 4569.98.|inform

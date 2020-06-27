@@ -1,0 +1,2 @@
+USR|Hi Do you fly from Ulsan to London??|greeting
+SYS|No, sorry!|sorry

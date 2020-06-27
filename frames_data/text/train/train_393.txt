@@ -1,0 +1,17 @@
+USR|Hi, I'd like to go from Burlington to Valencia with my family.|inform
+USR|We are 6 kids and 4 adults.|inform
+USR|Our budget is 19900.|inform
+SYS|I have two choices for you.|hearmore
+SYS|Both depart on Sept 6 and return on Sept 11.|hearmore
+SYS|We offer a 5 star rated property near the museum and market for 18927.46USD.|hearmore
+SYS|We also offer a 4 star rated property for just $79 over your budget at 9079.49USD.|hearmore
+SYS|This property is located on the other side of the museum.|hearmore
+SYS|Can I interest you in either of these?|hearmore
+USR|I like the 5 star option, do you have any more information on this?|moreinfo
+SYS|Our 5 star rated property, the The Gold, has an excellent guest rating of 8.98 / 10.|suggest
+SYS|This is a 7 day package available with free wifi.|suggest
+SYS|You will fly via economy class seats directly from Burlington to Valencia.|suggest
+SYS|Would you like me to book this luxury package for you?|suggest
+USR|yes please!|affirm
+SYS|Perfect|inform
+USR|thanks|thankyou

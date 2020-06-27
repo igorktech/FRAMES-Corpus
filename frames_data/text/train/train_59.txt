@@ -1,0 +1,21 @@
+USR|Hi 7 colleagues and i are planning on going on a trip can you help?|inform
+SYS|Where are you leaving from?|request
+USR|we can leave from Birmingham|inform
+SYS|Ok!|suggest
+SYS|Did you have a date and destination in mind, or would you like to hear your cheapest options?|suggest
+USR|there is no budget at the moment.|inform
+USR|We are planning on going to paris|inform
+SYS|Sounds good - I've got a hotel in Paris from August 17-26|offer
+USR|We need to find a vacation between August 26th and September 15th|inform
+SYS|Would August 30-September 8 work?|suggest
+USR|yes it would!!|affirm
+SYS|Great!|offer
+SYS|I have the Queen's Jungle Hotel available for those dates.|offer
+USR|what type of rating does it have|switch_frame
+SYS|The hotel has a 4 star rating.|inform
+USR|how much would that be?|request
+SYS|For 8 adults at the Queen's Jungle Hotel from August 26-Sept 15 the cost would be 15570.5USD.|inform
+USR|this sounds perfect!|null
+SYS|Great!|suggest
+SYS|Shall I go ahead and book that for you?|suggest
+USR|yes please|affirm

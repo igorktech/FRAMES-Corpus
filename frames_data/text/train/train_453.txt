@@ -1,0 +1,46 @@
+USR|i need to get out of the city its so much hustle and bustle a neon flashy jungle ive just got a real sensory overload honestly|inform
+SYS|Where would you like to go?|request
+USR|im thinking about leon.|inform
+USR|id be departing from kobe.|inform
+USR|ive got a few days off from august 27 until september 9|inform
+SYS|Do you have a budget?|request
+USR|no, im trying to treat myself|inform
+SYS|We have a 7 days trip at 23460.93USD in Business class or 18186.97USD in economy class|offer
+USR|Is that the only thing available between my date range to leon?|request
+SYS|Yes|affirm
+USR|Ok.|inform
+USR|Well, I’ll keep this option in mind.|inform
+USR|In the meantime, can you tell me what’s available in Belem for the same date range?|inform
+SYS|We have 7 days trip at  29251.35USD in Business class  or 7 days at 22382.4USD in economy class|offer
+USR|Ok, just one hotel option?|confirm
+SYS|Yes, it is the Zion Hotel|inform
+USR|Can you tell me more about it?|moreinfo
+SYS|4.5 star hotel near the beach|inform
+USR|Nice!|request
+USR|That’s what I like If I were to go to Rosario, would I be able to spend longer than 7 days there?|request
+SYS|You can stay 17 days there at 35118.37USD|offer
+USR|Wow, nice!|request
+USR|What dates would I be there?|request
+SYS|September 10 to September 25|inform
+USR|Hmm that’s no good..Anything within my date range?|switch_frame
+SYS|I have August 30 to September 8th, 11 days for  32291.93USD|offer
+USR|That would be perfect!|moreinfo
+USR|Can you give me some more information about the hotel.|moreinfo
+SYS|It is a four-star hotel|inform
+USR|Where is it located?|request
+USR|What amenities are included?\|request
+SYS|Near shopping mall with  free wifi and free breakfast|inform
+USR|Ok, I’m not sure I want to be in a commercial area like a mall district though.. So, could you tell me what the hotel in Leon would be like?|negate
+SYS|I have 5 star hotels near markets|offer
+USR|Nice!|switch_frame
+USR|Free breakfast?|switch_frame
+USR|Wifi?|switch_frame
+SYS|We have one with a spa, at 27447.71, for 7 days.|offer
+SYS|Leaving on August 27 and coming back on Sept 1st|offer
+USR|A spa would be wonderful.|inform
+USR|Are there any other hotels within my date range?|inform
+SYS|I have El Hotel Del Mar - 11 days, 16389.12USD, from August 31 to September 9th|offer
+USR|Nice!|switch_frame
+USR|And the rating?|switch_frame
+SYS|5 star hotel|inform
+USR|Ok, lets book it!|inform

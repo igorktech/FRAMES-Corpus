@@ -1,0 +1,14 @@
+USR|I'd like to book a trip to Atlantis from Caprica on Saturday, August 13, 2016 for 8 adults.|inform
+USR|I have a tight budget of 1700.|inform
+SYS|Hi...I checked a few options for you, and unfortunately, we do not currently have any trips that meet this criteria.|sorry
+SYS|Would you like to book an alternate travel option?|sorry
+USR|Yes, how about going to Neverland from Caprica on August 13, 2016 for 5 adults.|inform
+USR|For this trip, my budget would be 1900.|inform
+SYS|I checked the availability for this date and there were no trips available.|suggest
+SYS|Would you like to select some alternate dates?|suggest
+USR|I have no flexibility for dates... but I can leave from Atlantis rather than Caprica.|negate
+USR|How about that?|negate
+SYS|I checked the availability for that date and there were no trips available.|suggest
+SYS|Would you like to select some alternate dates?|suggest
+USR|I suppose I'll speak with my husband to see if we can choose other dates, and then I'll come back to you.|thankyou
+USR|Thanks for your help|thankyou

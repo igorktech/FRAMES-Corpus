@@ -1,0 +1,12 @@
+USR|Long Beach to Kingston, business only|inform
+SYS|For how many?|request
+USR|uno|inform
+SYS|When would you like to leave and return?|request
+USR|I can travel between September 1st and September 14|inform
+SYS|Okay, the best we have in Kingston is a 3.5 star hotel close to the museum with a guest rating of 8.69/10.|offer
+SYS|I can put you on a business flight for 2289.41.|offer
+USR|Nothing with a higher rating?|inform
+SYS|Not in Kingston.|no_result
+USR|Okay I'll take it|inform
+SYS|Alright, your reservation is confirmed.|inform
+SYS|Have a good trip!|inform

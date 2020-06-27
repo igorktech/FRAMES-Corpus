@@ -1,0 +1,30 @@
+USR|Hello.|inform
+USR|I am a deeply tormented children’s writer and I need to get away to Lima to write my upcoming book, The Little Engine That Let Everyone Down.|inform
+USR|I have a deplorable sales record and so I need to stay under 2000 dollars.|inform
+USR|I am leaving from Minneapolis.|inform
+SYS|Certainly, how many adults and how many children will be traveling on this trip?|request
+USR|I travel alone and my solitude is the source of my suffering.|inform
+SYS|That sounds excellent!|request
+SYS|Do you have any dates in mind?|request
+USR|I care not about the arbitrary constraints of calendars.|inform
+SYS|You are in luck!|suggest
+SYS|I have a trip from August 31 to September 7, where you would be staying at the Olive Summit Hotel, a picturesque 4-star hotel located near a park.|suggest
+SYS|Free wi-fi is included, and the total cost of the trip is 801.13.|suggest
+SYS|Should I go ahead and book this trip for you?|suggest
+USR|I do not wish to be located near a park and I do not want to have to be exposed to the sounds of joyful youths’ merrymaking.|request_alts
+USR|I need more options.|request_alts
+SYS|I regret to inform you that all Lima hotels in our database are in close proximity to parks.|suggest
+SYS|Would you like me to conduct a search in an alternate destination?|suggest
+USR|How miserable.|inform
+USR|Yes, please search for Seattle results.|inform
+SYS|Certainly!|suggest
+SYS|I am pleased to present you with a trip to Seattle from September 6 to 11, where you will be staying at the inimitable Emerald, a 5-star institution located near the airport.|suggest
+SYS|Free parking comes standard with this hotel, and the total cost comes to 1323.78.|suggest
+SYS|Would this option be to your liking?|suggest
+USR|Yes, I would like to stay near the barren desert airport and be confined to the comforts of my own room.|inform
+USR|Please book this.|inform
+SYS|Done!|inform
+SYS|Its a pleasure to have your business; we will send an email confirmation to you shortly.|inform
+SYS|We wish you a joyful voyage!|inform
+USR|Thank you.|thankyou
+USR|I will be full of joy.|thankyou

@@ -1,0 +1,20 @@
+USR|I need to book a trip for the whole family from Tampa but we don't know where to go.|inform
+USR|Can you help us?|inform
+SYS|Sure!|request
+SYS|How many are you and what's your budget?|request
+USR|5 adults and 7 kids!|inform
+USR|Yup, the lot of us.|inform
+USR|We want to spend no more than 32800.|inform
+SYS|Do you have any date constraints?|request
+USR|Oh yes!|inform
+USR|Between September 12 and 26!|inform
+SYS|In that case, I would like to recommend you our best deal: a 15 day stay at a prestigious 4 star hotel in Queenstown with free breakfast, wifi, and parking during your entire stay.|offer
+SYS|For the whole family it will just be 31122.0.|offer
+USR|That sounds amazing, and it's within those dates?|request
+USR|Is that economy class?|request
+SYS|Yup it's from the 12th to the 25th, and it will be economy class.|inform
+USR|Ok perfect, book me!|inform
+SYS|Consider it done!|inform
+SYS|Have a good trip :slightly_smiling_face:|inform
+USR|Thanks!|thankyou
+SYS|My pleasure!|you_are_welcome

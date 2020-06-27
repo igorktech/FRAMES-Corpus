@@ -1,0 +1,16 @@
+USR|Please help!|inform
+USR|I need to get mommy and daddy out of town between Sep 2 and 19|inform
+SYS|Ok!|request
+SYS|Where would they leave from?|request
+USR|MonTErrey|inform
+SYS|Sure!|request
+SYS|Budget?|request
+USR|I got 2200 in my piggybank|inform
+SYS|I can send them to SL for 15 days from Sept 4-18.|offer
+SYS|The cost for this package would be $2089.|offer
+USR|Ok say no more fam.|switch_frame
+USR|You book it yet?|switch_frame
+SYS|No- would you like me to?|suggest
+USR|Hurry up and do it, idiot!|inform
+SYS|Just finished - all booked|inform
+USR|Ok :+1: we out|goodbye

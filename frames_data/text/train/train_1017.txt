@@ -1,0 +1,47 @@
+USR|Hi there, I'm looking to go to Stuttgart please.|inform
+SYS|I can help with that!|request
+SYS|Where will you be coming from?|request
+USR|I'll be coming from Hiroshima.|inform
+SYS|How many people will be traveling?|request
+USR|Just me!|inform
+USR|I'm thinking of going there for a while.|inform
+USR|I'm thinking about 6 weeks or so.|inform
+USR|I'm kinda flexible.|inform
+SYS|We have a 6 day trip from September 20-24 at a 3 star hotel.|offer
+SYS|Will this work for you?|offer
+USR|6 weeks, not 6 days.|inform
+USR|Sorry!|inform
+USR|Can you do that?|inform
+SYS|Unfortunately the 6 day trip is the only offer we have for Stuttgart.|sorry
+SYS|Is there somewhere else you would like to go?|sorry
+USR|Oh I see.|inform
+USR|In that case, do you have any trips to Kingston anytime soon?|inform
+SYS|Yes we do!|request
+SYS|When would you like to go?|request
+USR|Sometime this week or next week.|inform
+USR|I'm flexible.|inform
+SYS|The longest trip we have is a 10 day trip from September 8-16.|suggest
+SYS|Or would you be interested in shorter trips?|suggest
+USR|Yeah, shorter trips would be great.|inform
+SYS|In that case, I'd like to recommend our best hotel in Kingston.|offer
+SYS|A 4.0 star hotel close to the museum.|offer
+SYS|We offer 7 day trips here.|offer
+USR|That sounds great.|moreinfo
+USR|Could you give me more details?|moreinfo
+SYS|Of course.|inform
+SYS|It has a a guest rating of 8.22/10 and offers free parking, free breakfast, and free wifi.|inform
+SYS|The trip will run from September 12-17.|inform
+USR|That sounds really good.|null
+USR|Can you add anything to the package?|null
+SYS|I will not be able to do that; however, you can visit the museum that is very closeby.|inform
+USR|Okay cool, thanks.|request
+USR|How much does it come to?|request
+SYS|It will be 4041.98 if you choose to fly economy.|offer
+SYS|Or you can update to business flights for a total of 5241.40.|offer
+USR|I'll take business please.|inform
+SYS|Sounds good!|inform
+SYS|You are headed to Kingston!|inform
+SYS|Booking confirmation will come via email.|inform
+SYS|Anything else for today?|inform
+USR|Nope, I'm all good, thanks!|thankyou
+SYS|Glad to help :slightly_smiling_face:|you_are_welcome

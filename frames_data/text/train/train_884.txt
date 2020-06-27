@@ -1,0 +1,15 @@
+USR|What good is money if I can't spend it???|inform
+USR|I have 5600 saved up, can't actually travel, but want to see where I could go if maybe things were different and I had time off work.|inform
+USR|Like for example
+Would I be able to go from Ulsan to Washington?|inform
+SYS|No.|no_result
+USR|Oh.|inform
+USR|Ulsan to..Paris?|inform
+SYS|No.|no_result
+USR|Ok this isn't working out as intended.|inform
+USR|Do you fly from Ulsan to London?|inform
+SYS|No|no_result
+USR|Ok.|inform
+USR|Last chance
+Ulsan to Dublin|inform
+SYS|We have a 2.5 star hotel for 2375.19 for economy and 3085.51 for business.|offer

@@ -1,0 +1,22 @@
+USR|HELLO|greeting
+SYS|Hi!|greeting
+USR|I HAVE 32,700 DOLLARS TO BLOW ON A TRIP JUST WON BIG CHASING THE ACE.|inform
+USR|OK SO I AM BRINGING A BUTT LOAD OF MY FRIENDS AND MY 4 KIDS ON A TRIP OK
+WE WANNA GO BETWEEN SEPTEMBER 8 AND 22ND ….|inform
+USR|LEAVING FROM CORDOBA|inform
+SYS|How many adults will there be?|request
+USR|SEVEN|inform
+SYS|There are packages to Buenos Aires, Denver, Toronto, Santo Domingo, New York, and Manaus.|suggest
+USR|WHAT IS THE BEST HOTEL|request_compare
+SYS|Would you rather be near a beach and shopping, or airport and cathedral?|suggest
+USR|BEACH AND SHOPPIN!!!!|inform
+SYS|Our best package is a 4 star hotel in Santo Domingo with a 8.8/10 guest rating, free parking, breakfast, and wifi.|offer
+SYS|This is from September 8th to 21st.|offer
+SYS|The business class package is 20967.48 and the economy class package is 16431.51.|offer
+USR|WOW GREAT!!|inform
+USR|I WANT IT
+BOOK PLEASE|inform
+SYS|Done!|inform
+SYS|You will receive confirmation soon!|inform
+SYS|Have a great trip and safe travels!|inform
+USR|THANK U|thankyou

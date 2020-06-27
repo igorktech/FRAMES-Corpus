@@ -1,0 +1,44 @@
+USR|Hello!|greeting
+USR|I am located in Germany and I'm getting married next month, We would really like to go to Naples .|greeting
+USR|can you find me a nice package please!|greeting
+SYS|Good day!|greeting
+SYS|I can book you a 14-day stay in the Tower Hotel from the 2nd to the 15th of September.|greeting
+SYS|Your flight would leave from Frankfurt.|greeting
+SYS|How does that sound?|greeting
+USR|We need to leave from Hamburg.|inform
+USR|Do you have anything leaving on August 30th?|inform
+USR|We have a week off then and don't really want to change our vacation time.|inform
+USR|We are also on a budget cause this wedding cost us a fortune so try to find us a real deal please.|inform
+SYS|It looks like I do have a flight from Hamburg to Naples.|suggest
+SYS|I can book you a room in the Tower Hotel from the second to the seventh of September.|suggest
+SYS|The best deal I can offer you on this package is 1232.50USD.|suggest
+SYS|Do you want me to book this trip?|suggest
+USR|The 2nd to the 7th of September is not good for us.|inform
+USR|How about  Vitoria?|inform
+USR|Do you have anything in Vitoria leaving on August 18th?|inform
+SYS|If you're leaving from Vitoria, I could book you a flight which leaves on the 19th of August.|hearmore
+SYS|Would you like to hear more about this package?|hearmore
+USR|No, I would leave from Hamburg still...and go to Vitoria.|inform
+USR|We have $1800.00.|inform
+USR|What can you do for us?|inform
+USR|I apologize but it needs to be around August 30th.|inform
+SYS|My apologies for the misunderstanding.|sorry
+SYS|The closest day I could give you for a flight from Hamburg to Vitoria would be the second of September.|sorry
+SYS|You would be returning the following week on the seventh.|sorry
+SYS|Would you like to hear more about this package?|sorry
+SYS|It is well within your budget.|sorry
+USR|I suppose a couple of days later is fine, it will give us a chance to recover from the wedding!|moreinfo
+USR|Yes, please give me more information!|moreinfo
+SYS|Of course!|suggest
+SYS|You would be staying for 6 nights at the Hotel Oro, a 3-star hotel with a 0/10 guest rating which offers free breakfast, fre wifi and parking.|suggest
+SYS|Your flight would leave from Hamburg on Friday, September 6th at 10:56a.m.|suggest
+SYS|The total cost of this package is 771.36 USD.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|I thought our flight departed on September 2nd?|confirm
+SYS|My apologies, you are correct.|sorry
+SYS|Your flight departs on Friday, September 2nd at 10:56a.m.|sorry
+SYS|Would you like me to book this package?|sorry
+USR|Hold your horse!|thankyou
+USR|It sounds like a great deal but I need to check with my bride first.|thankyou
+USR|I will get back to you.|thankyou
+USR|Thank you for your help.|thankyou

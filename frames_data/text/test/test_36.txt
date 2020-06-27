@@ -1,0 +1,17 @@
+USR|I want to go to Paris from Maceio with 6200$.|inform
+SYS|We have two 4 star hotels.|suggest
+USR|what about from Maceio to Detrut|inform
+SYS|There are no results from Maceio to Detrut.|no_result
+USR|from maceio to Paris?|switch_frame
+SYS|I have packages to paris|inform
+USR|what about to Minneapolis?|inform
+SYS|How about a 2.5 star for 3422.75?|offer
+USR|3422.75.|switch_frame
+USR|looks good to me|switch_frame
+SYS|This package has a museum, park, and mall, plus free wifi, breakfast, and parking.|inform
+SYS|This trip is from August 27th to September 4th.|inform
+USR|ok|null
+SYS|Would you like me to book this package for you?|suggest
+USR|yes please|affirm
+SYS|Your flight is booked!|inform
+USR|thak you|thankyou

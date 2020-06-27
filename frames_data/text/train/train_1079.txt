@@ -1,0 +1,21 @@
+USR|I need to get to Goiania from Beijing today or after but asap.|inform
+USR|emergency at home.|inform
+SYS|I apologize, but I cannot get you to Goiania from Beijing|sorry
+USR|k fine i can leave from North Vancouver too.|inform
+SYS|I can get you to Goiania from North Vancouver.|request
+SYS|How much money do you have?|request
+USR|6200|inform
+SYS|My soonest flight is on Sept 12th|offer
+USR|Is there anything sooner for flights to Lima?|inform
+SYS|Departing from North Vancouver?|confirm
+USR|Yeah|affirm
+SYS|I have a flight departing tomorrow from North Vancouver to Lima.|offer
+SYS|Your stay in Lima would be at the Wolf Inn, a 3.5 star hotel near the park.|offer
+SYS|It is an 11 day package with a value of  1119.59USD.|offer
+USR|When does it leave?|request
+SYS|Tomorrow Sept 8 at at 2pm|inform
+USR|is there anything shorter than 11 days?|request_alts
+SYS|No,  That is the shortest package I have available from North Vancouver to Lima.|inform
+USR|well crap.|thankyou
+USR|Ugh I have not other options.|thankyou
+USR|I'll look at some other sites or just go to the airport myself and see if they can help me out.|thankyou

@@ -1,0 +1,21 @@
+USR|I need a flight from Ulsan to Denver leaving on September 6|inform
+SYS|Ok!|offer
+SYS|I can do that for you.|offer
+SYS|Would you be ok with returning on the 9th.|offer
+USR|Damn straight.|inform
+USR|Actually no hold up
+See if you got anything from Ulsan to Chicago also
+Also leaving September 6|inform
+SYS|Do you have a budget?|request
+USR|I have a big budget, don't you worry|inform
+SYS|I only have trips from Sept 12-25.|sorry
+SYS|Nothing from the 6th sorry|sorry
+USR|What about flights leaving August 23rd instead|inform
+SYS|The only flights on August 23 would be to Denver and would return to Ulsan on August 23 as well.|suggest
+USR|No.|switch_frame
+USR|Book the Denver flight leaving Sept 6 then|switch_frame
+SYS|Okay, I will do that for you :slightly_smiling_face:|null
+USR|Whats the cost?|request
+SYS|17094.37USD|inform
+USR|Ok deal|null
+SYS|Great - I will book that!|inform

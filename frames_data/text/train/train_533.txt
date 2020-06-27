@@ -1,0 +1,18 @@
+USR|i am looking to explore some options for an upcoming internship.|inform
+USR|i have a week off from sept 2-9 to see where i’d like to spend my next 6 months
+i have a 5800 budget and im leaving from la paz
+can you tell me whats available in Ulsan|inform
+SYS|You are leaving between sept 2 and 9?|confirm
+USR|I am leaving sept 2 and returning the 9 or within that time frame|inform
+SYS|I have 5 days at a 5 star hotel for 5462.71USD, or 5 days at 2.5 stars hotel for  3735.33USD|offer
+USR|that sounds lovely.|inform
+USR|what about in nagoya?|inform
+SYS|I am sorry, I didn't find anything within that date range|sorry
+USR|ok fine.|inform
+USR|how about in indianapolis?|inform
+SYS|Are you dates flexible?|request
+USR|no|inform
+SYS|Sorry, I dont have anything within that date range to Indianapolis ...|sorry
+USR|fine.|inform
+USR|i guess lets book the 5 star is ulsan|inform
+SYS|you're booked|inform

@@ -1,0 +1,4 @@
+USR|I'm looking to pay 0 to get out Tijuana|inform
+SYS|We don't offer any free flights.|no_result
+USR|What about $400|inform
+SYS|There are no results within your budget.|no_result

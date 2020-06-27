@@ -1,0 +1,5 @@
+USR|I’m looking to book a vacation between september 18th and 22nd to Vitoria from North Vancouver for under 2700|inform
+SYS|I’m sorry, we do not offer direct packages from North Vancouver to Vitoria.|sorry
+SYS|Perhaps you could depart from an alternate location?|sorry
+USR|no.|negate
+USR|thats ok, ill look elsewhere|negate

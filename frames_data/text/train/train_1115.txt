@@ -1,0 +1,18 @@
+USR|Alexandria to Toronto|inform
+SYS|When?|request
+USR|13th of September.|inform
+USR|until the 24th|inform
+SYS|Any budget?|request
+USR|yes.|inform
+USR|I have 2100|inform
+SYS|Alone?|suggest
+USR|yes, just me|affirm
+SYS|There are no results showing for Alexandria, are you able to leave from somewhere else?|suggest
+USR|…no, I live here.|inform
+USR|I am checking out several places though
+check Belem|inform
+SYS|Nothing to Belem|no_result
+USR|um.|inform
+USR|what
+Valencia then|inform
+SYS|Nothing for Valencia either.|no_result

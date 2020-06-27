@@ -1,0 +1,17 @@
+USR|I need to find a vacation between the 12 of september and 2nd of October for under 6500, leaving from Sydney.|inform
+SYS|and heading to ?|request
+USR|anywhere|inform
+SYS|For how many travelers?|request
+USR|just me|inform
+SYS|I have 19 days available at the Sunset Baron, rated 3.5 stars which provides breakfast, parking and wifi at no charge.|offer
+USR|kk what are the date|request
+SYS|Sept 14 to oct 2nd|inform
+USR|That's perfect!|request
+USR|Is the hotel near anything in particular?|request
+SYS|It is close to the airport and not far from the museum and shopping|inform
+USR|Perfect!|inform
+USR|So convenient!|inform
+USR|Book it for me please :slightly_smiling_face:|inform
+SYS|I will book the package at 2799.45USD.|inform
+SYS|Thank you and enjoy the weekend.|inform
+USR|Thanks!|thankyou

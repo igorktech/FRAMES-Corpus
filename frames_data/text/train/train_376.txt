@@ -1,0 +1,41 @@
+USR|Hi!!!|inform
+USR|I really need your help!|inform
+USR|I'm getting married in a week and with everything going on I haven't had time to book a honeymoon trip yet|inform
+SYS|We  are here to help you with your request.|request
+SYS|May I please have your city of departure and destination city?|request
+USR|We live in Montreal (JUST BOUGHT A HOUSE THERE!!|inform
+USR|haha so our budget is pretty tight right now).|inform
+USR|We were thinking of going to Cleveland but it would have to be for less than 1400|inform
+SYS|What dates would you like to travel on and how long would you like your package to be?|request
+USR|Our wedding is August 31st so leaving September 2nd would be perfect.|inform
+USR|Any 8 day packages?|inform
+SYS|Our earliest available package is on Sept 6 and is a 10 day package.|suggest
+SYS|Does that work for you?|suggest
+USR|My wife would really like us to leave as early as possible after the wedding... How much is it?|request
+USR|And how many stars does the hotel have?|request
+SYS|It is the Pleasant Court Inn and it it actually also available for 5 and 7 day packages, but the earliest available date out of Montreal is Sept 6.|suggest
+SYS|This is a 3 star hotel near the park and theatre.|suggest
+SYS|any other destinations you would like me to check?|suggest
+USR|Are there any trips to Sydney that leave earlier?|inform
+USR|My wife has always wanted to go visit and it would be a nice surprise for her|inform
+SYS|To Calgary I have the Lunar Resort  available.|offer
+SYS|For under your budget, I only have a departure date of Sept 18 available with on a 4 day package.|offer
+SYS|I also have it in a 7 day package with a departure date of Sept 5th, but it is over your budget at 1705.53USD.|offer
+USR|That leaves way too late for us and we really can't go over budget :confused: Do you think my wife would mind if we only left September 6th?|switch_frame
+SYS|If you could depart on Sept 7, the Pleasant Court Inn in Cleveland has a special on a 7 day package for only  476.70USD.|suggest
+USR|She is really nervous about us spending too much so a sweet deal might make her happy.|request
+USR|Plus then I can afford to take her to fancy restaurants  and to the theatre every night for a week haha.|request
+USR|What have previous guests thought of this place?|request
+SYS|It has a guest rating of 8.98/10.|suggest
+SYS|This package includes free wifi, free parking and a free breakfast.|suggest
+SYS|It is located near a park and the theatre for your entertainment.|suggest
+SYS|Would you like me to proceed with booking?|suggest
+USR|Wow thats super high!|affirm
+USR|Ya, please book this for us, it would have been better to leave earlier but at this point this might be the best we can find|affirm
+SYS|would you like an upgrade to a business class flight?|suggest
+SYS|That package is 532.10USD and departs on the same day.|suggest
+USR|YES PLEASE!|switch_frame
+USR|for that price, I can treat my beautiful bride to that|switch_frame
+SYS|I will take care of that booking for you.|inform
+SYS|Thank you for booking!|inform
+USR|Thank YOU!!|thankyou

@@ -1,0 +1,15 @@
+USR|I need to book a flight to find my last Pokemon.|inform
+USR|I would need to leave from Montreal and go to Hiroshima.|inform
+USR|I will also need to leave on August 19th.|inform
+USR|Im with 4 other adults as well.|inform
+SYS|Is there a budget for your trip?|request
+USR|Yes, $16600.|inform
+SYS|I have a nice 4.5 star hotel for 5 days starting at 13685.34USD for you, however it leaves on the 26th of August.|request
+SYS|Are you flexible with your dates?|request
+USR|Look, just tell me, is there anything for Curitiba?|inform
+SYS|There's a nice 7 day package for a 3 star hotel with a departure flight on the 18th.|offer
+USR|That's perfect, how much would this end up being?|request
+SYS|The package comes to a total of 12496 USD and that's including breakfast, wifi and parking!|inform
+USR|That is excellent!|thankyou
+USR|I can finally find my last Pokemon!|thankyou
+USR|Thank you!|thankyou

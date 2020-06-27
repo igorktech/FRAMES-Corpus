@@ -1,0 +1,26 @@
+USR|Hey hey!|inform
+USR|So spring break is Sept 26 - Oct 3.|inform
+SYS|I can check for spring break packages for you.|request
+SYS|Do you have certain places you would like me to check for you?|request
+USR|Curitiba is one of the hot destinations of this year.|inform
+USR|It'd be totally awesome if we can go there!|inform
+SYS|Where would you be leaving from?|request
+USR|We study in Atlanta.|inform
+SYS|And how many will you be?|request
+USR|Myself and my 6 best friends!|inform
+SYS|Do you have a budget for this trip?|request
+USR|Together we have 17900.|inform
+SYS|Then the Dual Basin Residence is within your budget at 16097.25USD.|offer
+SYS|It is located on the beach near shopping, market and the mall and includes breakfast for your whole party every morning along with wifi and parking.|offer
+USR|How's the ratings of this hotel?|request
+SYS|It is a 3 star hotel with a 8.22/10 guest rating.|inform
+USR|Actually we were also think of Dublin... wondering if there's anything better available there?|inform
+SYS|In Dublin, I have a 6 day stay available at a 2 star rated hotel in the heart of the city and close to the park, university and mall.|offer
+SYS|This stays also includes wifi, parking and breakfast for your whole party.|offer
+USR|Okay we would definitely prefer Curitiba then.|inform
+USR|We'll take it :slightly_smiling_face:|inform
+SYS|Curitiba it is.|inform
+SYS|I will book that for you right away.|inform
+SYS|Happy spring break!|inform
+USR|Thx!! :|thankyou
+USR|heart:|thankyou

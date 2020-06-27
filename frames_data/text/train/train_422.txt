@@ -1,0 +1,24 @@
+USR|I wan to go to Porto alegre from Tokyo|inform
+SYS|Do you have a date range or a budget?|request
+USR|$7000 and no date range|inform
+SYS|I have 13 days and 16 days trips,|suggest
+USR|16|switch_frame
+SYS|3.5 star hotel near shopping, university, mall for 6490.67USD in economy class, is that ok?|offer
+USR|sure.|inform
+USR|Can i get info to Manaus?|inform
+SYS|from Porto?|confirm
+USR|no from Tokyo|inform
+SYS|I have 6 8 9  and 10 days trip|suggest
+USR|10 day trip|switch_frame
+SYS|3.5 star hotel, park, market @ 5513.47USD|offer
+USR|Any trips from Tokyo to Pittsburgh?|inform
+SYS|Yes.|request
+SYS|Do you have a budget?|request
+USR|7000|inform
+SYS|7 days or 11 days?|suggest
+USR|11|switch_frame
+SYS|I have a trip at 4020.20USD at  a 3.5 star hotel|offer
+USR|cool.|goodbye
+USR|okay.|goodbye
+USR|thanks.|goodbye
+USR|bye|goodbye

@@ -1,0 +1,25 @@
+USR|santiago to burlington, go!|inform
+SYS|Do you have a budget?|request
+USR|no budget.|inform
+USR|but it has to be between sept 7 and 15, ok?|inform
+SYS|All we have available is a 2.5 star hotel in the heart of the city.|offer
+SYS|1328.16 for economy flights and 1705.16 for business flights.|offer
+USR|What are the dates?|request
+SYS|September 7th to 14th|inform
+USR|Okay but what about Columbus, you go there?|inform
+SYS|There are no results within your date range.|no_result
+USR|does Cleveland work within my dates?|inform
+SYS|Unfortunately not.|sorry
+USR|And Leon?|inform
+SYS|I think this will be the winner.|offer
+SYS|This is a 5 star hotel from September 8th to 15th.|offer
+SYS|Economy class flights for 598.77 and business for 668.48.|offer
+USR|Does the Burlingtonian hotel have good amenities?|request
+SYS|Burlington has free parking and wifi,  Leon has only free wifi.|inform
+USR|Yeah seeing as the dates are a good match, I've never been, and its not that much more expensive, lets book that|inform
+SYS|Would you like economy flights or business flights?|offer
+USR|Economy would be fine|switch_frame
+SYS|Great!|inform
+SYS|Your trip is booked!|inform
+SYS|Have fun!|inform
+USR|thanks!|thankyou

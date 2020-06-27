@@ -1,0 +1,27 @@
+USR|Ok!|inform
+USR|So I am planning a trip with my 6 best friends.|inform
+USR|We want to go from Guadalajara to somewhere else
+First on our list is Cairo.|inform
+USR|Could you get us there?|inform
+SYS|Yup!|request
+SYS|What is your budget?|request
+SYS|And when would you guys like to go?|request
+USR|we have 6400 budgeted.|inform
+USR|and we would have to keep this trip between Sept 9 to 23|inform
+SYS|I can take you to Indianapolis, New York, Fort Lauderdale, Cairo, Atlanta, San Antonio, and Lima.|offer
+SYS|Any of these sound interesting to you?|offer
+USR|Cairo would be our top choice|switch_frame
+SYS|It is a 2.5 star hotel near the park, market, cathedral, and palace.|offer
+SYS|Historically, guests have rated in 8.22/10 on average.|offer
+SYS|Free parking, breakfast, and wifi is available during your entire stay.|offer
+SYS|I have economy and business packages that work with you budget.|offer
+USR|Could we find a better hotel if we increased the budget by 1000?|inform
+SYS|Not in Cairo.|suggest
+SYS|Are you still open to any city in the US?|suggest
+USR|I know I should be more open-minded, but this time around we really wanted to go to Cairo|inform
+SYS|we don't have anything better in Cairo.|offer
+SYS|I could put you all on business flights though, and you can stay in Cairo for 10 days and still be okay budget-wise!|offer
+USR|Ok lets book that!|inform
+SYS|It's done!|inform
+SYS|5716.58 for everything.|inform
+SYS|Is that all for today?|inform

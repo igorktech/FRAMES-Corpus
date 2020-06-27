@@ -1,0 +1,19 @@
+USR|PUebla to Manas for 2 adults please!|inform
+SYS|I'm afraid we do not currently have any available flights between those cities.|sorry
+SYS|Any other destinations I can search for you?|sorry
+USR|how bout puebla to fukuoka|inform
+SYS|You could stay for 10 days at the Oceanside Hotel for 6371.69USD.|offer
+USR|is that a good hotel?|request
+SYS|It depends what you are looking for.|inform
+SYS|This one has 3.5 stars and is located in the heart of the city.|inform
+USR|that is not a good hotel...is there a better one?|inform
+SYS|We do not have hotels with more than 3.5 stars in Fukuoka|no_result
+USR|i guess we’ll have to settle for that... do you offer business class flights at least|inform
+SYS|Yes we do, with business class flights the package costs 8275.17USD.|offer
+USR|ok thats more like it just so i can feel okay about my decision
+what amenities at the hotel?|request
+SYS|You will have free wifi.|inform
+USR|and?|request
+SYS|That is the only amenity offered by this hotel.|suggest
+SYS|If you would also want free breakfast I can offer you 10 days at Historic Mansion Hotel which is a 3.5 star hotel.|suggest
+USR|No thats the last straw, we are taking our business elsewhere|goodbye

@@ -1,0 +1,61 @@
+USR|Hi!|inform
+USR|I'd like to do some vacation shopping!|inform
+SYS|Sure thing!|request
+SYS|That's what I'm here for!|request
+SYS|Where are you located?|request
+USR|I live in Campinas, and I'd like to travel from August 25 the September 7.|inform
+USR|Let's start by looking at Vancouver!|inform
+SYS|Great!|offer
+SYS|You could spend 10 days in Vancouver for 3051.29USD.|offer
+USR|Is there free breakfast, wifi or parking?|request
+SYS|Yes- all three!|affirm
+USR|How many stars?|request
+SYS|The hotel has a 4.0 star rating !|inform
+USR|Great!|inform
+USR|Now what about La Paz?|inform
+SYS|You can travel to La Paz from Campinas from August 27th to September 2nd.|offer
+USR|I would like some details about this one, please.|request
+USR|For how much and how many days?|request
+SYS|You will spend 8 days in La Paz for 2758.9USD.|inform
+USR|What amenities does the hotel have?|request
+SYS|This hotel has free wifi, free breakfast, and free parking.|inform
+USR|Can we take a look at trips to Kyoto?|inform
+SYS|Would you like to travel to Kyoto between August 25-30 or September 1-6?|inform
+USR|Let's look at August 25 to 30th.|switch_frame
+SYS|I could also do August 26-31, August 27-Sept 1, or August 30-September 4.|suggest
+SYS|Do any of those dates interest you?|suggest
+USR|Yes actually, I prefer August 27 to September 1.|switch_frame
+SYS|Ok!|offer
+SYS|There is a 3 star hotel available for 8135.48USD for those dates.|offer
+USR|Great!|request
+USR|what are the options for August 26 to 31?|request
+SYS|I have a different 3 star hotel for those dates at 5218.82USD.|offer
+USR|Wow considerably cheaper!|switch_frame
+USR|Can you tell me about the hotel's amenities?|switch_frame
+SYS|That hotel has free wifi and free breakfast.|inform
+USR|Great!|inform
+USR|I also want to look at Puebla for the same dates.|inform
+SYS|I can book August 25-September 5 in Puebla for 2320.70USD.|offer
+USR|The Puebla package is the cheapest, I'd like to know more about it.|request
+USR|The hotel has how many stars?|request
+SYS|Sure thing!|inform
+SYS|The hotel is 4.0 stars.|inform
+USR|I really like this package.|request
+USR|Is there a spa?|request
+SYS|No spa unfortunately. :|suggest
+SYS|slightly_frowning_face: Would you like me to look into options in Puebla with a spa?|suggest
+USR|If you don't mind yes please!|switch_frame
+SYS|Sorry, there are no options available in Puebla with a spa.|no_result
+USR|That's ok, let's go back to the 4.0 star hotel.|request
+USR|Is there free wifi and breakfast?|request
+USR|I won't have a car, so I don't need free parking.|request
+SYS|The 4.0 star hotel in Puebla has free wifi and free breakfast!|inform
+USR|Great!|request
+USR|What's the name of the hotel?|request
+USR|I'd like to give them a call.|request
+SYS|Absolutely!|inform
+SYS|Los Campeones is the name.|inform
+USR|The hotel is great.|inform
+USR|I will book this one please!|inform
+SYS|I will go ahead and book that for you.|inform
+USR|Thanks!|thankyou

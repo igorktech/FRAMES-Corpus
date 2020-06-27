@@ -1,0 +1,30 @@
+USR|Hi there!|inform
+SYS|Yes.|request
+SYS|Where are you looking at going?|request
+USR|Recife would be nice.|inform
+SYS|Where from?|request
+USR|Sorry, we'll actually be leaving from Recife.|inform
+USR|Going to Hamburg if possible.|inform
+SYS|Do you have a budget?|request
+USR|Not specifically.|inform
+SYS|When would you like to leave?|request
+USR|Between 8/31 and 9/15 ideally|inform
+SYS|Traveling alone?|suggest
+USR|I'm actually booking for two of my colleagues.|inform
+SYS|So just 2 adults?|confirm
+USR|Correct!|affirm
+SYS|We have a 4 star hotel and a 3 star hotel.|inform
+SYS|The 4 star hotel is in the heart of the city, has a 8.98/10 guest rating, free breakfast and wifi, September 1st to 12th, business is 8044.94, economy is 6249.91.|inform
+USR|Cool, we could be interested in the 4 star hotel.|request
+USR|What is it close to?|request
+SYS|Everything.|inform
+SYS|It is in the heart of the city.|inform
+USR|That sounds pretty sweet.|inform
+USR|Before we decide on anything, can you check Naples for me too?|inform
+SYS|There is a 4 star hotel, 8.86/10 guest rating, free breakfast and wifi, August 31st to September 7th, business is 4608.28, economy is 3580.28.|offer
+USR|Is this one also in the heart of the city?|request
+SYS|My database does not say.|canthelp
+USR|I think it's safer to go with the Hamburg option then!|inform
+SYS|Okay!|inform
+SYS|I will book this for you!|inform
+SYS|Have a great day!|inform

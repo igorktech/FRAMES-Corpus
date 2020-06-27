@@ -1,0 +1,33 @@
+USR|Hi there I'd like to take my family on vacation.|inform
+SYS|Ok!|request
+SYS|Where?|request
+USR|We haven't decided on a destination yet, but we'll be leaving from Boston.|inform
+SYS|Ok!|request
+SYS|When can you travel?|request
+SYS|And how many of you are there?|request
+USR|We'll be 4 adults and 1 child, looking for a trip between Monday September 12 and Saturday October 1st.|inform
+SYS|Ok!|offer
+SYS|I have a lovely trip for you to Goiania that would cost 12388.4USD for your whole family.|offer
+SYS|The hotel is Scarlet Palms Resort which is 3.5 stars and is located near both parks and shopping districts.|offer
+USR|That does sound pretty good.|request
+USR|How many days is that?|request
+SYS|13 days.|inform
+USR|It does suit my budget, which is 14700 maximum.|request_alts
+USR|But I am curious about other destinations.|request_alts
+SYS|You can all travel to Light View Hotel in Columbus and spend 18 days for only 4697.60USD.|offer
+USR|Whoa that's amazing.|request_alts
+USR|But we're looking for somewhere more exotic, so preferably somewhere outside the continent, if possible!|request_alts
+SYS|How about 17 days in New York for 3487.19USD?|offer
+USR|Isn't that still in the US?|inform
+USR|Can you suggest another interesting place for me?|inform
+USR|Maybe with a four or five star hotel?|inform
+SYS|The highest rated hotels I am seeing are the Light View and Scarlet Palms hotels in Columbus and Goiania, respectively.|inform
+USR|What are the travel dates for the Goiania package please?|request
+SYS|September 13-October 1.|inform
+USR|Wow, that's perfect!|inform
+USR|Yes, please book this trip for us!|inform
+USR|My family will be so happy!|inform
+SYS|Ok - consider it booked :slightly_smiling_face:|inform
+USR|Perfect!|thankyou
+USR|Thank you.|thankyou
+SYS|No problem.|you_are_welcome

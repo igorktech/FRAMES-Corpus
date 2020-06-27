@@ -1,0 +1,27 @@
+USR|Good afternoon, I'd like to book a trip with my son from August 18 to August 29.|greeting
+USR|He and I would be leaving from Curitiba.|greeting
+USR|What destinations can you offer?|greeting
+SYS|I can offer 11 days in Hamburg for 3550.41USD.|offer
+SYS|You would return on August 28th|offer
+USR|Goodness that's too expensive.|inform
+USR|Is there anything you can offer around $2600?|inform
+SYS|I can also offer 10 days in Vancouver, Canada for 4319.83USD, 9 days in Frankfurt for 4615.35USD, or 12 days in Paris for 4771.39USD.|suggest
+USR|Is there anything for 2600USD between the dates of August 18 and August 29th?|inform
+USR|For less than 10 days?|inform
+SYS|Would you be interested in spending 9 days in Manaus for 1162.21USD?|offer
+USR|Fantastic!|switch_frame
+USR|What are the departure and arrival dates?|switch_frame
+SYS|You would depart on Friday, August 19th and return Saturday, August 28th.|inform
+USR|What is the hotel, and how many stars does it have?|request
+SYS|The hotel is called Hotel Mundo and has a 2.5 star rating.|suggest
+SYS|I can also offer you 5 days at Scarlet Palms Resort, a 3.5 star rating hotel, for 1358.78USD.|suggest
+USR|I like the Scarlet Palms Resort.|request
+USR|What are the departure and arrival dates?|request
+SYS|You will depart Wednesday, August 24th 2016 and return home on Sunday, August 28th 2016.|inform
+USR|Is there an indoor pool at the hotel?|null
+SYS|There is free wifi and breakfast at the hotel.|inform
+USR|Ok I'll book this one.|inform
+SYS|Sure thing.|thankyou
+SYS|I will book 5 days at the Scarlet Palms resort for one adult and one child.|thankyou
+SYS|Thank you.|thankyou
+USR|Thank you!|thankyou

@@ -1,0 +1,13 @@
+USR|I have 4800 dollars|inform
+SYS|Where would you like to go?|request
+USR|i dont care i just need to leave from milan|inform
+SYS|I can offer you 19 days in Porto for 3272.95USD|offer
+USR|can you give me a list of possible destinations?|request_alts
+SYS|Would you rather spend 17 days in Montreal?|offer
+USR|Are there any other places?|request_alts
+SYS|I only see one hotel in Montreal.|inform
+SYS|Would you like me to look for more?|inform
+USR|are porto and montreal the only places i can go?|request_alts
+SYS|Where would you like to go?|request
+USR|anwhere im just wondering if there are only the 2 destinations|inform
+SYS|I can offer you 19 days in Porto for 3272.95USD.|inform

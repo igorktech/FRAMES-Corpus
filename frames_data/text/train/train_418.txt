@@ -1,0 +1,25 @@
+USR|Hi, this is quite urgent, my sister needs me to book a trip for her.|inform
+USR|She needs to go to Queenstown between september 9-24 leaving from Queenstown.|inform
+USR|What do you have?|inform
+SYS|I do not understand.|suggest
+SYS|Would you like to go to Queenstown and leave from Essen?|suggest
+USR|She lives in Fort Lauderdale and needs to go to Queenstown|inform
+SYS|How about the Silver Orb Palace?|offer
+SYS|It is five stars and can be booked from August 30-September 7th for 2281USD|offer
+USR|Her dates are not flexible, she is only available between the dates I gave you|inform
+SYS|What are the dates?|request
+SYS|Are they flexible?|request
+USR|September 9-24.|inform
+USR|Like I said, they are not flexible|inform
+SYS|You will arrive in Queenstown on September 12 and stay at the Emerald Mountain Hotel.|suggest
+SYS|You will return to Fort Lauderdale on September 20th.|suggest
+USR|It's not for me, its for my sister, can you please cut me some slack and pay attention?|null
+USR|Like I said, it's been a rough week|null
+SYS|Will I book this trip?|suggest
+USR|Not yet, tell me more abut the Emerald Mountain Hotel|moreinfo
+SYS|Emerald Mountain Hotel is a 4 star hotel near a museum with free wifi, breakfast, and parking.|inform
+USR|How much is it?|request
+SYS|4012.13USD|inform
+USR|Just under budget.|goodbye
+USR|ok bye now|goodbye
+SYS|Goodbye|goodbye

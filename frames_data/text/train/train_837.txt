@@ -1,0 +1,25 @@
+USR|Do you do flights out of Seoul?|inform
+SYS|Sure do!|request
+SYS|Where to?|request
+USR|I have Boston in mind|inform
+SYS|We do have a few options for Boston from Seoul.|inform
+SYS|When would you like to go?|inform
+SYS|And how many are you traveling with?|inform
+USR|Traveling alone.|inform
+USR|September 5 to 16|inform
+SYS|We have a 6 day package at a 2.5 star hotel that matches your needs for 3616.69.|offer
+USR|Which six days?|switch_frame
+SYS|September 6-10.|inform
+USR|Ok I’d like to find a longer stay elsewhere if possible.|inform
+USR|Can you also look up Santos for me?|inform
+SYS|Unfortunately we don't have any trips form Seoul to Santos.|sorry
+SYS|Any other places you'd like to visit?|sorry
+USR|Try San Francisco|inform
+SYS|In San Francisco we have a 10 day package from September 5-13 at a 2.5 star hotel.|offer
+SYS|Does that sound better?|offer
+USR|Whats the cost?|switch_frame
+SYS|We have the economy package for 2871.66 and the business package for 3713.8.|offer
+USR|Please get me on the economy!|inform
+SYS|You are all set!|inform
+SYS|An email confirmation is on its way to your inbox.|inform
+USR|Thanks!|thankyou

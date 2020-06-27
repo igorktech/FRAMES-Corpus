@@ -1,0 +1,44 @@
+USR|please get me out to paris!|inform
+SYS|When would you like to leave and where would you like to go?|request
+USR|sept 11-26.|inform
+USR|I don't care about my point of departure|inform
+SYS|Do you want to go to Paris or leave from Paris?|confirm
+USR|the former|inform
+SYS|Can you leave from Rosario?|suggest
+USR|can you get me to paris for under 4000?|inform
+SYS|For under $4000, I have 14 day packages in Paris from several points of departure.|offer
+SYS|Can you leave from New York?|offer
+USR|yes i can!|inform
+USR|Is it by a park, then?|inform
+SYS|I do not have hotels available in Paris near a park at the moment.|suggest
+SYS|However, I do have one near a palace.|suggest
+USR|ok lets try birmingham|inform
+SYS|Birmingham from anywhere?|confirm
+USR|yes, i can just use my points|affirm
+SYS|All my hotels in Birmingham are near a museum|inform
+USR|what about Marseille?|inform
+SYS|In Marseille, I have hotels either by the museum or the cathedral|offer
+USR|what rating are these hotels?|request_compare
+SYS|In Birmingham or Marseille?|confirm
+USR|Marseille first|inform
+SYS|In Marseille, all available hotels around your date of September 11 are 4 star hotels|inform
+USR|do any of them stand out?|moreinfo
+SYS|Hotel Duchesse has an excellent guest rating of 8.98/10, includes wifi and is near the museum.|offer
+USR|Which is the hotel near the cathedral?|switch_frame
+USR|I'm thinking I could take my dogs out in that area|switch_frame
+SYS|I have the Grand Hotel, a 4 star hotel which also has an excellent guest rating of 8.69/10, includes wifi and has a spa to relax in.|offer
+USR|Where would you have me flying from, if I were to go to Marseille?|inform
+SYS|Are you able to go from Cancun, Mexico?|suggest
+USR|How much would that cost?|request
+SYS|Puebla?|offer
+USR|cost?|request
+SYS|One more choice - Athens, Greece.|inform
+SYS|The cheapest is out of Puebla at 2954.73USD|inform
+USR|How long would I be staying at the Grand Hotel in that Puebla option?|request
+SYS|Your stay would span 10 days from September 12 to September 20.|inform
+USR|And the flights are in which class?|request
+SYS|2954.73USD for economy and  3804.65USD for business|offer
+USR|okay put me on economy please!|switch_frame
+SYS|I will book you at the Grand Hotel for your 10 day stay via economy class right away.|inform
+SYS|I wish you a pleasant trip.|inform
+USR|much appreciated, thanks|thankyou

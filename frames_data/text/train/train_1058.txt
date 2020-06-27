@@ -1,0 +1,28 @@
+USR|Hi!|inform
+USR|I have 6 days vacation and I don’t know where i’d like to go, was hoping you could help.|inform
+SYS|Happy to help!|request
+SYS|Which dates are your vacation and where are you coming from?|request
+USR|I can leave on or after Monday and i would need to leave from Rosario|inform
+SYS|Is there a budget you'd like me to work with?|request
+USR|nope!|inform
+SYS|Okay, we offer 6 day trips starting on Monday to Maceio, St. Louis, and New York.|offer
+SYS|If none of these destinations interest you, we have a few other destinations with 5 day trips.|offer
+USR|I’d like to look at just the 6 day trips and if i dont find anything i like we can look at the 5 day trips.|inform
+USR|Whats the best you have in Maceio?|inform
+SYS|It would be a 3.5 star hotel close to the park and shopping with 8.37/10 guest ratings.|inform
+USR|not too shabby, anything to St. Louis?|switch_frame
+SYS|In SL we have a 3.0 star beachside hotel with 7.15/10 guest ratings.|inform
+USR|That’s the best in SL?|request
+SYS|It's the best that works with your vacation dates.|inform
+USR|Okay, um let’s hear what ya got for New York.|switch_frame
+SYS|We've got a 2.5 star hotel near the museum and airport.|inform
+SYS|It has a guest rating of 8.22/10.|inform
+USR|no way.|inform
+USR|Do you have any 5 star hotels anywhere?|inform
+SYS|No|no_result
+USR|Well can i hear them anyway, I might be willing to work something out if i find a package that’s worth it.|moreinfo
+SYS|We actually don't have 5 star hotels available for any trips 6 days or under leaving from Rosario.|suggest
+SYS|Would you be able to make your dates flexible or leave from another city?|suggest
+USR|No.|thankyou
+USR|You know what, it’s fine, I’ll just look somewhere else or take my vacations days another time if i cant find a trip.|thankyou
+USR|Thanks anyway.|thankyou

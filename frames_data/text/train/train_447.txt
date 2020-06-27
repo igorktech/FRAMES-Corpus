@@ -1,0 +1,13 @@
+USR|I know this is an uncommon trip but I gotta take my 2 children to a great and venerable hospital in Sacramento.|inform
+USR|I got 5400 to spend, can you please please help me.|inform
+USR|Leaving from Brasilia|inform
+SYS|You will be 1 adult?|suggest
+USR|Yes|affirm
+SYS|There is a 5 star hotel, 14 day stay from September 1st to 14th.|offer
+SYS|Amenities include free breakfast and free wifi.|offer
+SYS|Business class flights and a total cost of 4897.31.|offer
+SYS|How does this sound?|offer
+USR|My gosh that sounds perfect I'll take it You have no idea how much this helps us, you're truly an angel|thankyou
+SYS|Wonderful!|you_are_welcome
+SYS|Glad I could be of assistance!|you_are_welcome
+USR|Thank you!|thankyou

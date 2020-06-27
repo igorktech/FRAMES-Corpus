@@ -1,0 +1,6 @@
+USR|hey i have 14 kids.|greeting
+USR|We wanna go to theed|greeting
+SYS|Hi there!|sorry
+SYS|Unfortunately I don't have any packages for Theed.|sorry
+SYS|Did you have another destination in mind?|sorry
+USR|bummer.. no thanks good bye|goodbye

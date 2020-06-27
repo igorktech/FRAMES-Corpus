@@ -1,0 +1,35 @@
+USR|I am from London and am looking to book a vacation package!|inform
+SYS|Certainly, I can offer you several packages for Denver, Calgary, Pittsburgh or Minneapolis, USA.|suggest
+USR|are there any that go to San Diego?|inform
+SYS|I can offer you something to San Diego, USA.|offer
+SYS|You would be flying economy out of Phoenix, USA on the 15th of August and returning on the 20th of August.|offer
+SYS|You would be staying at a 2-star hotel with a 6.51 out of 10 guest rating.|offer
+SYS|Your total for this trip would be 588.49USD.|offer
+USR|hmmm I can only leave from London, what are the best options in Denver?|inform
+SYS|I can offer you a 5-day package to Denver for 340.29USD.|offer
+SYS|You would by flying out of London, Canada and staying at the Oriental Resort, a 3.0-star hotel with a 0/10 guest rating.|offer
+USR|let's see what we can do with something a bit further how about pittsburgh?|inform
+USR|what packages do we have there?|inform
+SYS|I can offer you a 7-day stay in Pittsburgh Beginning August 17.|offer
+SYS|You would be staying in a 2.5-star hotel with a 8.22/10 guest rating.|offer
+SYS|This resort offers free parking, free wifi and free breakfast.|offer
+SYS|Your total for this trip would be 433.92USD.|offer
+USR|is there anything leaving a bit later|inform
+SYS|Yes, I can offer you packages leaving on the 18th, 23rd, 24th or 27th of August.|suggest
+USR|anything after the 30th?|inform
+SYS|I have several flights leaving on the 8th or the 12th of September.|suggest
+USR|when would they be returning?|request_compare
+SYS|If you would like to fly out on the 8th you will be returning on the 14th.|inform
+SYS|If you would like to fly out on the 12th you will be returning on the 18th.|inform
+USR|can we book the one that returns on the 18th?|inform
+SYS|Actually I have several packages returning on the 18th.|offer
+SYS|You can choose between a business and an economy flight and two hotels: The Sunny Wolf Inn & Suites, a 2.5-star hotel which has a 8.22/10 guest rating, or the Majestic Mountain Inn a 2.5-star hotel which has a which has a 6.91/10 guest rating.|offer
+SYS|Both hotels include free parking, free wifi and free breakfast.|offer
+USR|the sunny wolf seems to be a better place.|request
+USR|how much would that be?|request
+SYS|With an economy flight your total comes to 706.97USD.|offer
+SYS|With a business flight your total comes to 795.22USD.|offer
+USR|can we book the economy flight?|inform
+SYS|Absolutely, your trip has been booked!|inform
+USR|Thank you!|goodbye
+USR|Goodbye.|goodbye

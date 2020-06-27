@@ -1,0 +1,6 @@
+USR|You got any flights from New York to Naples departing Aug 27 returning Sep 15?|inform
+SYS|Welcome.|request
+SYS|I will proceed with your request.|request
+SYS|How many in your party?|request
+USR|1 adult|inform
+SYS|I regret I do not have any flight availability  departing from New York destination Naples.|no_result

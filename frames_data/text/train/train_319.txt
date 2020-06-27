@@ -1,0 +1,17 @@
+USR|Hi!|inform
+USR|Can you help me book a family vacation?|inform
+USR|Great!|inform
+USR|I'm looking to book a trip for 7 adults and 6 kids.|inform
+USR|We live in Campinas and we are going to Berlin.|inform
+USR|What options can you offer me?|inform
+SYS|When would you like to depart?|request
+USR|We don't have specific dates in mind yet but we would like a holiday that is over a week long|inform
+SYS|I have only 5 star hotels available.|request
+SYS|How much do you have to allocate to this trip?|request
+USR|We want to spend at most 29000|inform
+SYS|I apologize but after double checking I realize that I do not have any direct flight s from Campinas to Berlin.|sorry
+SYS|Is there anywhere else you would like to go?|sorry
+USR|No, we are specifically looking to book a trip to Berlin.|inform
+USR|Thank you, I'll try going through other agencies.|inform
+SYS|I apologize for any inconvenience.|sorry
+SYS|Have a nice day.|sorry

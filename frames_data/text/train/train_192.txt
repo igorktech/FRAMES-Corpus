@@ -1,0 +1,23 @@
+USR|oh man oh man
+i am so fed up with work
+i cant wait til 5 oclock.|inform
+USR|but i need a vacation|inform
+SYS|How can I help?|greeting
+USR|i've got a few days off from august 26-august 31.|inform
+USR|im not flexible on this, but i still want to somehow treat myself with an 8 day trip (??)|inform
+USR|im leaving Dallas
+and i wanna check out mannheim|inform
+SYS|would a 5 day trip suffice?|suggest
+USR|sure dude|switch_frame
+SYS|A 5 star hotel called the Regal Resort, it has free wifi and a spa|offer
+USR|dates?|request
+SYS|Starts on august 27th until the 30th|inform
+USR|ok that could work.|inform
+USR|I would like to see my options in Santos as well|inform
+SYS|regal resort goes for $2800 or there is the Hotel Globetrotter in Santos it has 3 stars and comes with breakfast and wifi, It leaves on the 25th and returns on the 30th!|offer
+SYS|all for $2000|offer
+USR|ahh I can't leave until august 26 though|inform
+SYS|then i guess you might have to choose the Regal resort|suggest
+USR|yeah.|inform
+USR|I will book it|inform
+SYS|Thank you!|thankyou

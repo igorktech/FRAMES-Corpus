@@ -1,0 +1,28 @@
+USR|I’d like to go from Ulsan to Indianapolis soon but keep it under 5700 please|inform
+SYS|Travelling alone?|suggest
+USR|indeeed I am!|affirm
+SYS|Do you have travel dates in mind?|request
+USR|nope - just soon|inform
+SYS|We have 2.5 and 3 star hotels, which do you prefer to hear about?|offer
+USR|Which is in a better area?|request_compare
+SYS|3 star for sure.|suggest
+SYS|Would you rather have economy flights or business?|suggest
+USR|What is around the hotel?|request
+USR|And what is the guest rating?|request
+SYS|A park, beach, airport, and university.|inform
+SYS|The guest rating is 7.15/10.|inform
+SYS|They also offer free parking, breakfast, and wifi.|inform
+USR|What can you find me in Maceio?|inform
+USR|I’d like something in the heart of the city.. maybe near markets or shopping districts|inform
+SYS|A 3.5 star hotel near a park and shopping.|offer
+USR|Even if I left from Fukuoka instead?|inform
+SYS|Yes.|inform
+SYS|This is the only result.|inform
+USR|Maceio, what’s the travel date?|request
+SYS|September 12th to 21st.|inform
+USR|Price?|request
+SYS|5569.34.|inform
+USR|Ok let’s do it|inform
+SYS|Done!|inform
+SYS|have a great day!|inform
+USR|Thanks - you too|thankyou

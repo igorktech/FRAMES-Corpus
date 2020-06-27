@@ -1,0 +1,15 @@
+USR|Mexico to Ulsan, pronto|inform
+SYS|I will take pronto to mean as soon as possible.|request
+SYS|For how many globetrotters will that be?|request
+USR|There will be but one|inform
+SYS|and during what travel period may that be?|request
+USR|Aug 31 to Sept 17|inform
+SYS|I am afraid I cannot oblige your request since there is nothing available at that time.|sorry
+SYS|Any other destinations I can verify for you?|sorry
+USR|Nothing?|inform
+USR|Ok what about Puebla to Punta Cana|inform
+SYS|I cannot oblige that request either.|no_result
+USR|Mexico City?|inform
+SYS|No packages available there either|no_result
+USR|One last try…Puebla to Kingston?|inform
+SYS|It appears we do not have many flights out of Puebla.|no_result

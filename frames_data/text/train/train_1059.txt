@@ -1,0 +1,37 @@
+USR|Hi there, I'd love to book a vacation from Frankfurt please.|inform
+SYS|Where would you like to go?|request
+USR|I don't have a destination in mind.|inform
+USR|I was hoping you could help me with that.|inform
+SYS|How much money are you willing to spend?|request
+USR|I'm flexible about that.|inform
+USR|But I'm looking for a 6 day vacation package.|inform
+SYS|When would you like to leave?|request
+USR|Either on or after Sunday September 18 please.|inform
+SYS|Are you travelling by yourself?|suggest
+USR|Yep!|affirm
+SYS|I have a 6 day package to Silver Palace in Queenstown for 766.63USD.|offer
+SYS|This is at a 5 star hotel near the airport and a museum with free breakfast, free wifi, and a guest rating of 8.86/10.|offer
+USR|Wow, that sounds really good!|switch_frame
+SYS|Would you like to book ?|suggest
+USR|I was wondering... is there anything else you can offer?|request_alts
+USR|As great as that sounds, I'd like to explore my options.|request_alts
+SYS|There is also a 6 day package at a 3 star hotel in Stuttgart for 724.50USD.|offer
+USR|So far, the Queenstown one sounds best.|request_alts
+USR|Have you got anything else though?|request_alts
+SYS|You could spend 6 days at a 5 star hotel with free wifi in Munich for 293.87USD.|offer
+USR|Wow that's really cheap.|request
+USR|You know what, I think I'll take the Queenstown one please.|request
+USR|What are the dates for that|request
+SYS|September 28-October 3|inform
+USR|Oh!|switch_frame
+USR|I have to ask... Is the Munich package closer to September 18?|switch_frame
+SYS|You would leave September 20 and return the 26th with the Munich package.|inform
+USR|Sorry for being so indecisive.|inform
+USR|I'll take the Munich package in the end!|inform
+SYS|Sure!|offer
+SYS|I can upgrade your package to business class flights for a total of only 392.22 USD.|offer
+SYS|Do you want to do that?|offer
+USR|Sure why not!|switch_frame
+SYS|Ok, I will go ahead and book that in that case.|inform
+USR|Great, thank you.|thankyou
+SYS|I am happy to help :slightly_smiling_face:|you_are_welcome

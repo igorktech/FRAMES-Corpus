@@ -1,0 +1,19 @@
+USR|I'd like to get away from Monday, August 15, 2016 to Wednesday, August 31, 2016.|inform
+USR|My budget is $3200 and I would leave from Detroit.|inform
+SYS|And what destination would you like to travel to?|request
+USR|Anywhere, I'm looking for an adventure.|request
+USR|What do you have?|request
+SYS|How about Mexico or Porto Alegre?|offer
+USR|Let's look at both|request_compare
+SYS|Mexico is unavailable.|inform
+SYS|Porto Alegre is available, but you would have to leave from Santos.|inform
+USR|Can you please suggest some destinations that are available?|inform
+USR|I am leaving from Detroit.|inform
+SYS|I have no departures available from Detroit.|suggest
+SYS|for these dates.|suggest
+SYS|Would you like to make a date change?|suggest
+USR|Anything between August 15 and August 31?|inform
+SYS|I'm sorry, but we do not have any departures from Detroit available for these dates for the budget you provided.|suggest
+SYS|Would you like to adjust your budget for this trip?|suggest
+USR|No I cannot.|thankyou
+USR|Thank you for your help|thankyou

@@ -1,0 +1,22 @@
+USR|pokemon pokemon pokemon.|inform
+USR|i am looking for mewtwo in busan at the start of next month and i need a travel package|inform
+SYS|The best deal I can offer you is 14 days in Busan for 342.36USD.|offer
+SYS|Would you be able to leave from Seoul?|offer
+USR|i need to leave from Barcelona.|request
+USR|whats the price now|request
+SYS|If you're leaving from Barcelona I can book you 6 days at the Lethargy Hotel for 3107.49USD.|suggest
+SYS|Am I correct that you would like to leave as soon as possible?|suggest
+USR|I would like to leave September 1|inform
+SYS|Great!|inform
+SYS|This package runs from the 1st to the 5th of September.|inform
+USR|and if I was to go to Dublin… what do the availabilities look like there?|inform
+SYS|For Dublin the earliest I can book you is the 4th of September.|suggest
+SYS|Would you like to hear more about this package?|suggest
+USR|I’d prefer to leave the first.|switch_frame
+USR|can you give me more info on the Busan hotel tho?|switch_frame
+SYS|You would be staying at the Smile Hotel, a 3-star hotel with a 7.06/10 guest rating, free breakfast, free wifi and free parking.|inform
+SYS|This resort is located within close proximity to both the park and the museum.|inform
+USR|ok lets book it|inform
+SYS|Your trip has been successfully booked!|inform
+SYS|Enjoy your stay!|inform
+USR|Thank you, my friend|thankyou

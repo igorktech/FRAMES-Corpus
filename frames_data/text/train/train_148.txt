@@ -1,0 +1,37 @@
+USR|hey|greeting
+SYS|Hello there!|greeting
+SYS|How can I help you?|greeting
+USR|I'm tryina go to on spring break w the squad can u help me out|inform
+SYS|Sure thing buddy, can you tell me more about what you're looking for?|request
+USR|well we are thinking las vegas sounds like a really nice place to spend spring break.|inform
+SYS|How many people are in your squad and where will you be travelling from?|request
+USR|me and 3 homies.|inform
+USR|leaving baltimore|inform
+SYS|Do you have a range of dates in mind for this trip?|request
+USR|yasssss.|inform
+USR|we are off aug 27-sept 5|inform
+SYS|And do you have a budget for this trip?|request
+USR|trying to keep it under 2900 $$|inform
+SYS|I have a few 6 day 2.5 star packages starting at only 2191.40 USD!|offer
+SYS|How does that sound?|offer
+USR|dope price but 2.5 stars sounds meh.. anything for Fukuoka?|inform
+SYS|I have just the package for you!|offer
+SYS|How about a 7 day trip in a 3 star hotel for 2881.29 USD?|offer
+USR|sweet!|request
+USR|that's in fukuoka?|request
+USR|what amenities does the hotel have?|request
+SYS|The hotel has free wifi, but for only 10 dollars more, I can offer you a 3.5 star hotel with breakfast AND wifi included.|offer
+USR|And if we increase the budget by 1000 ... anything lookin good?|inform
+SYS|I can offer you a 7 day, 3 star trip to Fukuoka for 3727.11USD|offer
+USR|meh, i'd rather the 2890 one then|switch_frame
+SYS|Would you like to know more about it or shall I book it for you?|suggest
+USR|well we got 3.5 star, breakfast and wifi .. whats the hotel called?|confirm
+SYS|It's called Historic Mansion Hotel.|inform
+USR|oh sweet i've heard of that place.|request
+USR|what are the dates ?|request
+SYS|Your departure is on August 30th and you return September 4th.|inform
+USR|thats perfect!|inform
+USR|ok - lets book it for 4 adults|inform
+SYS|Great!|inform
+SYS|Your reservation is complete, you will receive a confirmation email shortly.|inform
+USR|thank you wozbot :slightly_smiling_face: toodles|thankyou

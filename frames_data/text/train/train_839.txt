@@ -1,0 +1,18 @@
+USR|I have a total of $4200 to go to Kingston from Seoul.|inform
+USR|What can you do for me?|inform
+SYS|Are you travelling alone?|suggest
+USR|I am|affirm
+SYS|When would you  like to leave?|request
+USR|The dates don't matter as long as you stay within my spending limit|inform
+SYS|Ok!|offer
+SYS|I have several options available.|offer
+SYS|There is an 8 day package at a 2.5 star hotel inthe heart of the city, 7 days at a 3.5 star near a museum, 6 days at the Raven B&B of a 3 star rating, or several 5 day packages at hotels ranging from 2.5-4 star ratings, also for 5 days.|offer
+USR|Can you tell me a little bit more about the 5 day package at the 4 star hotel?|switch_frame
+SYS|Sure, that’s the Ebony Manor Inn & Suites.|inform
+SYS|It is near a museum and also has 8.22/10 for its guest rating.|inform
+SYS|The hotel package includes complimentary breakfast, free wifi, and free parking for a total cost of 3384 dollars.|inform
+USR|Ugh it would be nice to see a photo or something but go ahead and book that one please|inform
+SYS|Ok, I will send confirmation shortly!|inform
+SYS|Enjoy your stay.|inform
+USR|thanks|thankyou
+SYS|so long|goodbye

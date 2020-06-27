@@ -1,0 +1,34 @@
+USR|We're finally going on vacation isn't that amazing?|inform
+USR|We have lots of money- 15600 even!|inform
+SYS|Where to?|request
+USR|Anywhere!|inform
+USR|Just get us out of Cleveland!|inform
+SYS|How many people?|request
+USR|14 total, can you believe it?|inform
+SYS|All adults?|confirm
+USR|nope 7 adults|inform
+SYS|When would you like to leave?|request
+USR|Sept 12 and we all need to be back by the 1st|inform
+SYS|Our best package is 12 days in SL at a 3 star hotel from the 14th to 30th.|offer
+SYS|The hotel is close to the airport and beach, they have a 6.91/10 guest rating and offer free breakfast and wifi.|offer
+SYS|The cost for business is 9043.35 and for economy is 7573.39.|offer
+USR|Not big on SL...got anything else?|request_alts
+SYS|New York, San Antonio, Dublin, Indianapolis, and Fort Lauderdale.|offer
+USR|What can you give us in Indianapolis?|switch_frame
+SYS|2.5 stars, beach, shopping, 6.37/10 guest rating, free parking, breakfast, wifi, 13th to 29th, 7983.43 for economy, and 9596.90 for business.|offer
+USR|Not great...Fort Lauderdale?|switch_frame
+SYS|2 star hotel near market, 8.22/10 guest rating, free parking, breakfast and wifi, 14th to 29th, 10656.19, economy.|inform
+USR|Nice guest rating but 2 star is just way too low, plus it's more expensive.|negate
+USR|SL makes more sense.|negate
+USR|Is it $7573.39 for all 14 of us?|negate
+SYS|yes.|affirm
+USR|Can you give me the departure time please so i can let everyone know?|request
+SYS|3 pm for departure.|inform
+USR|Those times are reasonable with kids.|inform
+USR|I guess I will reserve that one.|inform
+USR|What do you need from me?|inform
+SYS|You will receive a confirmation email soon where you can give us information and payment.|inform
+SYS|Have a great trip!|inform
+USR|Fantastic.|thankyou
+USR|Thanks a bunch!|thankyou
+SYS|No problem!|you_are_welcome

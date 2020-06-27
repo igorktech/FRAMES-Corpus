@@ -1,0 +1,20 @@
+USR|Hi there, I'm looking to book a trip to Manaus.|inform
+USR|Do you think you can help me find the best deal?|inform
+SYS|Sure can!|request
+SYS|Where are you hailing from?|request
+USR|My family and I will be coming from Leon.|inform
+SYS|And how big is the family?|request
+USR|I'll just be going with my wife and son.|inform
+SYS|Do you have a budget range?|request
+USR|Yeah actually, I do.|inform
+USR|I have absolutely no plans of spending beyond 2900.|inform
+SYS|Unfortunately that budget won't work.|sorry
+SYS|Do you have any other cities you would like to visit?|sorry
+USR|Are you sure about this?|inform
+USR|Not even for just a few days?|inform
+SYS|Unfortunately not for Manaus.|sorry
+SYS|did you have any alternatives?|sorry
+USR|No i'm afraid not!|negate
+SYS|I'm sorry I will not be able to help then.|sorry
+SYS|Good luck with your search!|sorry
+USR|Thank you.|thankyou

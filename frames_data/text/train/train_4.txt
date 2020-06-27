@@ -1,0 +1,19 @@
+USR|Hey, i Want to go to St. Louis on the 17th of August|greeting
+SYS|For how many days?|request
+USR|I need to back by the 31st|inform
+SYS|What will your departure city be?|request
+USR|I’m from Calgary|inform
+SYS|I have a direct flight leaving from Calgary on August 18 and returning on August 28th.|suggest
+SYS|Does that work for you?|suggest
+USR|Yes that sounds perfect may you please tell me about the destination place|moreinfo
+SYS|It is the Glorious Cloak inn hotel in St. Louis.|inform
+SYS|It has a 3-star rating.|inform
+USR|That sounds lavish, what type of flight would that be?|request
+SYS|You would be flying business class, for a grand total of only $1858.14|inform
+USR|Are there any possible flights with economy class?|inform
+SYS|I have a package at the Lunar whcih has a 5 star rating on an economy class flight on the same dates for $1558.00|suggest
+USR|that sounds even better.|switch_frame
+SYS|This deal includes free breakfast and free wifi.|suggest
+SYS|Would you like me to book it for you?|suggest
+USR|Yes please, that sounds wonderful.|thankyou
+USR|thank you|thankyou

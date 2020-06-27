@@ -1,0 +1,7 @@
+USR|hi.|request
+USR|how much does it cost for 4 people from Kabul to go to Tampa?|request
+SYS|Are all four people adults?|confirm
+USR|yup|affirm
+SYS|Unfortunately there are no results.|sorry
+USR|we can also go to Kochi|inform
+SYS|There are no results for this either.|no_result

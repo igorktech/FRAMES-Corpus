@@ -1,0 +1,51 @@
+USR|Hi im from punta cana looking to go on a trip|inform
+SYS|Where would you like to travel to?|request
+USR|Im thinking to Fukuoka|inform
+SYS|Did you have any specific dates in mind?|request
+USR|maybe the 15th of August until the 20th|inform
+SYS|How many people will be travelling with you?|request
+USR|just myself|inform
+SYS|would the 15th to the 18th work for you?|offer
+USR|where would i be staying?|switch_frame
+SYS|HOTEL Sugoi in Fukuoka|inform
+USR|what is the rating|request
+SYS|It is a 3-star hotel and your package includes free wifi|inform
+USR|and what if i were to go to Essen?|inform
+SYS|I have a couple of choices in Essen.|suggest
+SYS|Are you looking for a 2-star or a 3-star option?|suggest
+USR|The three star option|switch_frame
+SYS|Your best choice would be the Relaxation Hotel which is a 3-star hotel and includes breakfast and wifi.|offer
+SYS|It is available either from August 15th to August 27 or from August 27th to September 2nd.|offer
+SYS|Do either one of those dates fit into your schedule?|offer
+USR|these dates don’t look like they would be compatible with my schedule.|inform
+USR|Hey, how about going to hiroshima?|inform
+SYS|I apologize, I have nothing available to Hiroshima.|sorry
+SYS|Would you like me to explore other options?|sorry
+USR|Is there a flight to Santiago|inform
+SYS|I have several that suit your dates.. Your stay would be at the Una casa which is a 3-star hotel and includes free breakfast, wifi and parking, should you wish to rent a car and explore the surrounding areas.|inform
+SYS|The flight departs on August 15th and returns on the 20th.|inform
+USR|can you compare the price of this and the one to the package in St. Loius|request_compare
+SYS|The package to Santiago is $2455.37 as opposed to the package to Essen which would be $3016.94.|inform
+SYS|Please keep in mind that the trip to Essen is a longer trip though.|inform
+USR|and how much is the trip to Fukuoka and what are the dates?|request
+SYS|That package was $3794 based on economy class.|inform
+SYS|It departed on August 15th with a return date of August 18th.|inform
+USR|which of these have the best rated hotels?|request_compare
+SYS|In Fukuoka, the hotel is a 3-star, in Essen you have the option of a 2-star at $3016.94 or a 3-star at $3073.16 and in Santiago the hotel has a 3-star rating.|inform
+USR|it seems to me that the packages in Essen are the best offer.|request
+USR|So what are the dates?|request
+SYS|Are you interested in the 2-star option or the 3-star option?|confirm
+USR|the 3 star hotel seems to be the best how much would it be to book a business class flight?|request
+SYS|If you are looking for a business class flight, I only have one package that has the availability.|suggest
+SYS|It would be at the Motel Ivory which is the 2-star hotel and  is only available from August 26 to September 1st.|suggest
+SYS|The total price for that package is $3314.99.|suggest
+USR|If i were to choose economy class what would it be?|inform
+SYS|At the 2-star Motel Ivory Safari, for your original departure date of August 15 it is $3016.94.|confirm
+SYS|At the 3-star Relaxation Hotel,  it is $3073.16.|confirm
+SYS|Is Essen your final choice for the destination?|confirm
+USR|yes i believe it will be.|inform
+USR|lets book the 3 star hotel|inform
+SYS|Fantastic.|inform
+SYS|Let me get all your information so that we can finalize your reservation.|inform
+USR|sounds perfect!|thankyou
+USR|thank you!|thankyou

@@ -1,0 +1,19 @@
+USR|PLEASE GET ME ALL THE WAY TO CHICAGO|inform
+SYS|Okay, where will you be coming from?|request
+USR|can you get me to chicago from Rosario like… soon?|inform
+USR|dont care the price, or when - they can deal LOL|inform
+SYS|I can book for you a business class deal for 14 days from Tuesday September 13th to Sunday September 25th.|suggest
+SYS|Would you like to book this trip now?|suggest
+USR|what is the hotel like tho?|request
+USR|room service?|request
+USR|free breakfast?|request
+SYS|Free breakfast, free parking, and free wifi.|inform
+SYS|And it has a guest rating of 8.69/10.|inform
+SYS|Sounds like a great deal, doesn't it?|inform
+USR|is it near a mall tho… like with a food court...|request
+SYS|There is a museum and a university.|suggest
+SYS|Ready to proceed with booking now?|suggest
+USR|lets do it|inform
+SYS|Your booking is now complete.|inform
+USR|thanks boo!|thankyou
+USR|mwah|thankyou

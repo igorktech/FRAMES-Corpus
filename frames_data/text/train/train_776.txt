@@ -1,0 +1,15 @@
+USR|u do buenos aires to hiroshima, and if so at what cost|request
+SYS|What would your travel dates be and for how many people?|request
+USR|dates don't matter, traveling alone here|inform
+SYS|Would you prefer to stay in Hiroshima for 8 or 10 days?|offer
+USR|can 2900 last me for either of these options?|inform
+SYS|$2900 won't get you anything in Hiroshima.|suggest
+SYS|Would you like to go somewhere else?|suggest
+USR|Could it get me to Sao Paulo?|inform
+SYS|The best hotel in Sao Paulo is the Hotel Primavera, a 3 star rated hotel with 6.91/10 guest rating.|offer
+SYS|it is located in the heart of the city close to the cathedral and the theater.|offer
+SYS|Your breakfast is included and so is wifi.|offer
+SYS|This 7 day package is a value of 1455.47USD.|offer
+USR|I think that should work, yeah|affirm
+SYS|Should I proceed with the reservation?|suggest
+USR|Yes, let's book|inform

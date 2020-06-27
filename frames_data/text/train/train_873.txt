@@ -1,0 +1,31 @@
+USR|I have a number of potential destinations.|inform
+USR|Trying to narrow them down a little
+So we are departing from Pittsburgh
+There are 9 of us: 2 adults and 7 children
+With 9400, can we get to Chicago?|inform
+SYS|Sure can!|request
+SYS|The best hotels we have in Chicago are 2.5 stars, and you can stay up to 9 days.|request
+SYS|When would you like to go there?|request
+USR|The time frame would be Sept 8 to 20|inform
+SYS|In this case, we have a 6 day vacation for you at a 2.5 star hotel near a museum and a university.|offer
+USR|Thats doable.|inform
+USR|Can you also look up Fort Lauderdale?|inform
+SYS|In Fort Lauderdale we can only offer you a 2 star hotel near a market but you can stay 11 days.|offer
+USR|Perfect.|inform
+USR|I didn’t even think we had much of a choice with our low budget, but I’m pleasantly surprised
+I’m going to push my luck a little more
+Can you check Belem?|inform
+SYS|Sorry I think you just ran out of luck.|sorry
+SYS|Nothing in Belem.|sorry
+SYS|Is there another destination you would like me to help you check?|sorry
+USR|I’d like to know more about Fort Lauderdale.|request
+USR|Specifically, the dates and prices|request
+SYS|The Fort Lauderdale hotel has been rated 8.22/10 by guests and offers free parking, free breakfast, and free wifi.|offer
+SYS|The package is from Sept 8-18, economy is available for 5512.8 and business is 6518.86.|offer
+USR|That one is good enough|inform
+SYS|Great!|suggest
+SYS|Would you prefer the economy or business package?|suggest
+USR|economy please!|inform
+SYS|Sure thing, I will book the economy for you.|inform
+SYS|You should receive email confirmation shortly!|inform
+USR|Thank you so much|thankyou

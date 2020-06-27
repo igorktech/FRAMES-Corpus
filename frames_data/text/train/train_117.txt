@@ -1,0 +1,30 @@
+USR|me again... I'm still burnt out from work|greeting
+SYS|Oh hello, let me try and book something accommodating|greeting
+USR|I've got august 17- september 2 off tho so I'm gonna treat myself before my second vacation|inform
+SYS|where are you from?|request
+SYS|and where do you plan on going?|request
+USR|I'm leaving from Marseille and I want to go to Osaka... I have a penpal there|inform
+SYS|are your dates flexible?|request
+SYS|do you have a budget to consider?|request
+USR|or maybe I will visit the woman who donated a kidney to me in St. Petersburg... either one is fine.|inform
+USR|no, I have to go in the time that I am off from August 17-Sept 2.|inform
+USR|lets not worry about the money yet|inform
+SYS|okay perfect!|suggest
+SYS|we only have 5 day trips will that be okay?|suggest
+USR|hmmm yeah I guess I could do that.|request
+USR|what is available?|request
+SYS|there are three hotels available, Hotel Opportunity (3.0 star), Prophecy hotel (2.5 stars) both have free wifi and Breakfast and the Aquamarine Majesty Hotel which is 4 stars and has free wifi and parking|inform
+USR|ok, and anything in St. Peterburg?|switch_frame
+SYS|viewpoint is the only available hotel in St. Petersburg.|offer
+SYS|its a 3 star hotel with free parking, wifi and breakfast starting at $1883|offer
+USR|ok.|request
+USR|and what is the price for Aquamarine Majesty Hotel?|request
+SYS|majesty Hotel Starts at $3453 and the other two start at $2500|inform
+USR|could you tell me the user rating of Viewpoint in St. Petersburg?|request
+SYS|the guest rating is 8.69/10|inform
+USR|that sounds lovely.|inform
+USR|let's go ahead and book Majesty|inform
+SYS|perfect!|inform
+SYS|done and done!|inform
+USR|dope!|thankyou
+USR|thanks|thankyou

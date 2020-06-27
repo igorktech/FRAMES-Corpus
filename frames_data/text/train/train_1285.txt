@@ -1,0 +1,23 @@
+USR|I want to go to Burlington from Valencia|inform
+SYS|Do you have a budget in mind and will you be going alone?|suggest
+USR|I will be going alone and I have 4100|inform
+SYS|You can go for 11 days for 2722.53 with economy.|suggest
+SYS|This includes free breakfast and wifi.|suggest
+SYS|Would you like to book?|suggest
+USR|When is this trip?|switch_frame
+SYS|From Sunday September 17th to Monday September 26th.|suggest
+SYS|Want to book?|suggest
+USR|Do you have anything between the 10th and 20th?|inform
+SYS|Yes, we have a 12 day package with those exact dates costing 2337.54 for economy.|suggest
+SYS|Are you interested?|suggest
+USR|Maybe.|moreinfo
+USR|Can you give me more info on the hotel?|moreinfo
+SYS|It's a 3 star hotel that is near a park and includes free wifi.|inform
+SYS|Still interested?|inform
+USR|Yeah I think I would like to book this.|request
+USR|How much for business class?|request
+SYS|It would be 3006.32.|offer
+USR|Business|switch_frame
+SYS|It's been booked.|inform
+SYS|Enjoy your trip.|inform
+USR|Thank you!|thankyou

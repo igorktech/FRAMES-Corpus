@@ -1,0 +1,18 @@
+USR|Madonna and I need to get as far away from the paparazzi as humanly possible.|inform
+USR|We want to go to Paris from Toluca and I need to be back by September 11th because I am performing the next day.|inform
+SYS|I have several options to offer you, do you have a budget in mind?|request
+USR|NO!|inform
+USR|of course not lol i'm rich AF|inform
+SYS|In that case, the best package we have for you is a 13 day holiday at the Hotel Blueberry.|offer
+SYS|It is a 4 star hotel and you would be flying in business class.|offer
+SYS|You would leave August 25th and return to Tolucca on September 5th.|offer
+USR|yes!|inform
+USR|those dates are great!|inform
+USR|I'll book it !|inform
+USR|I just really need to get away from the paparazzi stalker peeping toms|inform
+SYS|Perfect!|inform
+SYS|It's all yours, enjoy your vacation.|inform
+USR|Awe thank you!|goodbye
+USR|you're such a sweet robot lol.|goodbye
+USR|okay toodles :v:|goodbye
+SYS|Have a great evening!|goodbye

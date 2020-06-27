@@ -1,0 +1,19 @@
+USR|I'm looking to book a trip to Fukuoka from Mannheim leaving on August 27th for my honeymoon.|inform
+SYS|Do you have a return date or a budget for this trip?|request
+USR|I don't have a return date but my budget is $4700.|inform
+SYS|I can offer you a 5 day stay at a 3 star hotel for 3188.44 USD leaving of September 2nd, or 5 day stay at a 3.5 star hotel for 3602.35 USD.|offer
+USR|Are there any availabilities for trips to Kyoto leaving from Mannheim on August 27th?|inform
+SYS|The 5 day 3.5 star Historic Mansion Hotel package begins August 30th.|offer
+SYS|Is this suitable?|offer
+USR|Maybe.|request
+USR|Is there anything to Kyoto?|request
+SYS|How about a 5 day stay in a 3 star hotel for 3680.73?|offer
+USR|I think I like the 5 day stay at the 3.5 star hotel in Fukuoka.|request
+USR|What day does that leave?|request
+SYS|It leaves on August 30th at 5:02pm and returns September 2nd at 12:02 pm.|inform
+USR|Yes, that'll work.|inform
+USR|I'd like to book this one.|inform
+SYS|Great!|goodbye
+SYS|Your booking is complete.|goodbye
+SYS|Have a nice day!|goodbye
+USR|Thank you|thankyou

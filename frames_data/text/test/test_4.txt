@@ -1,0 +1,33 @@
+USR|Good day, please book me a trip from Vancouver, Jamaica to Recife.|inform
+USR|I would like to leave for 17 days on August 24.|inform
+SYS|Would you like to travel to Vancouver, Canada from Dublin, USA?|suggest
+USR|No, I would like to depart from Vancouver, Jamaica for the aforementioned destination.|inform
+SYS|I can book you an 8 day trip from Calgary to Vancouver, Canada for 810.50USD.|suggest
+USR|I would not like to travel to Vancouver, Canada.|inform
+USR|Do you have any trips to Recife, Brazil?|inform
+SYS|I can book you a trip from Porto Alegre to Recife for 682.19USD.|suggest
+USR|I will take any package you give me to any destination as long as it leaves from Vancouver, Jamaica.|inform
+SYS|I can book you a trip from Vancouver, Canada to Toronto, Canada for 837.99USD.|suggest
+USR|If you cannot book me a flight that leaves from Vancouver, Jamaica then I cannot book a trip.|inform
+SYS|I cannot book you a trip leaving from Vancouver, Jamaica.|no_result
+USR|Actually I will be departing from Vancouver, British Columbia, do you have packages to Recife?|inform
+SYS|I can book 11 days in Recife leaving from Vancouver for 2171.6USD.|offer
+USR|Do you have any similar packages to Goiania?|inform
+SYS|I can book 5 days in Goiania for 2190.68USD.|suggest
+USR|What kind of hotel would I be staying at in Recife?|moreinfo
+SYS|3.5 star hotel for free wi-fi, free parking, and free breakfast.|inform
+USR|Would my room have a view of the city?|null
+USR|How much would it cost to upgrade to a room with a view?|null
+SYS|I cannot provide this information|canthelp
+USR|Ok, I'm ready to buy this package|inform
+SYS|Ok.|inform
+SYS|I will book this package for you.|inform
+SYS|You will be leaving Vancouver, Canada at 1:00 pm - Monday, August 15th 2016 and arriving in Recife, Brazil at 10:16 pm - Monday, August 15th 2016.|inform
+SYS|You will be staying at La Casa Del Amor.|inform
+SYS|Enjoy your trip.|inform
+USR|I was supposed to leave on August 24th.|inform
+USR|Do you have any packages that leave on that date?|inform
+SYS|I can book you 11 days in Recife leaving Vancouver on August 27th for 3119.42USD.|suggest
+USR|Actually I would like to purchase the first package to Recife.|inform
+SYS|Ok, I will book you the package to Recife that leaves Vancouver, Canada on August 15.|inform
+USR|Thanks|thankyou

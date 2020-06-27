@@ -1,0 +1,19 @@
+USR|i need to book a trip to rio de janeiro|inform
+SYS|Where are you leaving from?|request
+USR|from belem.|inform
+USR|we are 9
+7 children
+two adults|inform
+SYS|When would you like to leave?|request
+USR|august 31 and sept 19|inform
+SYS|Do you have a budget?|request
+USR|4900|inform
+SYS|We have one hotel to Rio de Janeiro.|offer
+SYS|This hotel is 2.5 stars and offers free wifi, breakfast, and parking, there is also a park and shopping mall.|offer
+SYS|Economy class is 2848.99 and business class is 3798.11.|offer
+SYS|The trip is from September 1st to 13th.|offer
+USR|and this is for 9?|confirm
+SYS|yes|affirm
+USR|ok
+ii need my wife's approval.|goodbye
+USR|so wont be booking right now|goodbye

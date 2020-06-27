@@ -1,0 +1,41 @@
+USR|I want to go to Dublin|inform
+SYS|Where are you coming from?|request
+SYS|And when would you like to go?|request
+USR|Dublin|inform
+SYS|How many will you be?|request
+USR|just me for now|inform
+SYS|Okay, I have for you an 11 day stay from Sept 12-21 at a 2.5 star hotel close to the park, university, and mall.|offer
+USR|Anything with a higher rated hotel?|inform
+SYS|Unfortunately no, that is our only availability in Dublin that meets your criteria.|sorry
+USR|Hmmm, could you check Rome then?|inform
+SYS|I regret to inform you that there are no trips to Rome that works for you.|no_result
+USR|my dates are flexible, would that change anything?|inform
+SYS|That certainly does!|offer
+SYS|We can offer you a 12 day stay from Sept 11-21 at a 4.0 star hotel near the cathedral with a whooping 8.98/10 guest rating.|offer
+USR|well thats definitely sounding pretty good.|inform
+USR|I'm just curious to see if I can find a 5 star hotel.|inform
+USR|What if I leave from Melbourne instead and fly to Dublin?|inform
+SYS|I could not find a 5.0 star hotel for you with those selections, sorry!|sorry
+SYS|The best is in fact a 2.5 star hotel.|sorry
+USR|Anything from Melbourne to Rome for 5 stars?|inform
+SYS|Sadly no, the best in Rome is still the one that I previously mentioned.|sorry
+USR|hmm okay well how about if I go to Sendai?|inform
+SYS|Our best in Sendai is also a 4.0 star hotel.|suggest
+SYS|It has guest ratings of 8.8/10 and is near a park and museum.|suggest
+USR|How long is the trip to Sendai?|request
+SYS|You will be there for 9 days from Sept 7-14.|inform
+USR|what is the price for business class flights?|request
+SYS|It would be 2843.16.|offer
+USR|how about going from Kochi to Rome?|inform
+SYS|12 days with business flights would be 3258.45.|offer
+USR|well that's not a huge difference and the Rome trip is longer......better guest rating too....yeah.|inform
+USR|I want this one, can you book it for me? ...|inform
+USR|actulally
+can you book it for me and 2 others?|inform
+SYS|Absolutely!|suggest
+SYS|The same package for the 3 of you will be a total of 9775.37.|suggest
+SYS|Should I confirm this reservation for you?|suggest
+USR|Definitely!|inform
+SYS|It is confirmed for you!|inform
+SYS|Hope you have a great trip!|inform
+USR|Thanks!|thankyou

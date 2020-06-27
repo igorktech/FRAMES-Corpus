@@ -1,0 +1,24 @@
+USR|I'd like to book a trip to Monterrey from August 17th to August 25th.|inform
+SYS|Hello!|greeting
+SYS|What city will you be departing from?|greeting
+USR|Sacramento|inform
+SYS|Unfortunately I don't have any packages for those dates, however I can book you a stay from the 27th of August to the 3rd of September.|sorry
+SYS|Would this interest you?|sorry
+USR|Okay, well what about a trip to Caprica for August 17th to the 25th?|inform
+SYS|I can't seem to find any packages to Caprica for those dates.|suggest
+SYS|Would you be interested in a trip to Punta Cana from the 17th to the 24th of August?|suggest
+USR|No thanks.|inform
+USR|I think i will take the trip to Monterrey from August 27th to September 3rd.|inform
+SYS|Done!|inform
+SYS|Your trip has been booked.|inform
+SYS|Enjoy your trip!|inform
+USR|how much would the trip be for two people?|inform
+SYS|Will that be for two adults or one child and one adult?|suggest
+USR|two adults|inform
+SYS|The total cost of this trip will be 3668.31USD.|suggest
+SYS|If you're interested, I can upgrade your flights from economy to business class, bringing your total to 4550.28USD.|suggest
+USR|I'll take the cheaper option.|inform
+SYS|Excellent!|inform
+SYS|Your trip has been booked!|inform
+SYS|Enjoy your vacation!|inform
+USR|Thanks!|thankyou

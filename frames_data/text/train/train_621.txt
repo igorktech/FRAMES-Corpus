@@ -1,0 +1,11 @@
+USR|Hello there I am looking for a travel package departing from Tofino on or after August 29.|inform
+USR|I would like to go to Calgary with a party of fourteen adults.|inform
+SYS|Hello, I have nothing that matches your request.|no_result
+SYS|Can I look for other destinations?|no_result
+USR|I can leave from Kabul if need be|inform
+SYS|I have nothing available from Kabul but should you want to leave from Sacramento I definitely have packages.|suggest
+USR|nah I can’t do that.|inform
+USR|What about Washington with 7 adults?|inform
+SYS|Washington to Calgary for seven?|confirm
+USR|Sure|affirm
+SYS|Nothing available from Washington to Calgary|no_result

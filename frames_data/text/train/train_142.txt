@@ -1,0 +1,32 @@
+USR|hey im looking to check out fortaleza.|greeting
+USR|im leaving from sapporo on august 27|greeting
+SYS|Hi there!|greeting
+SYS|I can offer you a six-day vacation package starting August 27th for only 3933.10USD.|greeting
+SYS|Does this fit within your budget?|greeting
+USR|when is the return date?|request
+SYS|You would be returning on the 31st of August.|inform
+USR|i would like to travel until september 7, or closer to that date.|inform
+USR|is there anything available is frankfurt for that window?|inform
+SYS|Unfortunately those are the closest days I can offer you to your specifications.|sorry
+USR|what about in ulsan?|inform
+SYS|It looks like every package available is for the 27th-30th of August, with the best deal being 472.37USD for the trip.|offer
+USR|ok.|inform
+USR|one last destination I am wondering about.|inform
+USR|Curitiba - what've you got there?|inform
+SYS|How about August 30th-September 6th at the Hotel Leisure?|offer
+SYS|4234.65USD if you book now.|offer
+USR|i like the sounds of that.|moreinfo
+USR|what is the hotel like?|moreinfo
+USR|any details?|moreinfo
+SYS|The Hotel Leisure is a 3-star resort with a 6.91/10 guest rating, free breakfast, free wifi and free parking.|suggest
+SYS|Would you like me to book this destination?|suggest
+USR|what is the hotel in fortaleza like?|moreinfo
+SYS|The Elder Angel  is a 3-star resort with a 7.15/10 guest rating, free breakfast, free wifi and free parking.|suggest
+SYS|Would you like me to book this destination?|suggest
+USR|lets book Curitiba!|inform
+USR|i want to spend more time away|inform
+SYS|Fantastic!|goodbye
+SYS|I have just finished booking your trip.|goodbye
+SYS|Enjoy your stay!|goodbye
+USR|thanks!|goodbye
+USR|have a good day to you|goodbye

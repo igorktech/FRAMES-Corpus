@@ -1,0 +1,32 @@
+USR|hi i want to go on vacation i leave from cancun|greeting
+SYS|Ok!|request
+SYS|Where would you like to go?|request
+USR|im thinking of Santos|inform
+SYS|Sure thing!|request
+SYS|Any dates in mind?|request
+USR|i want to leave on the 15th|inform
+SYS|The 15th of August?|confirm
+SYS|I can do that for you.|confirm
+USR|perfect!|affirm
+SYS|I have a trip available from August 15-August 26.|confirm
+SYS|Does this work for you?|confirm
+USR|yes it does!|switch_frame
+USR|what type of hotel?|switch_frame
+SYS|Great!|inform
+SYS|The hotel I've found for you has a 4 star rating.|inform
+USR|very nice!|request
+USR|whats the pricing like?|request
+SYS|The price for that package would be 2877.68USD.|inform
+USR|and how much if i were to go to pittsborgh?|request
+SYS|You could fly from Cancun to Pittsburgh and spend 12 days for a cost of 1075.60USD.|offer
+USR|which hotel is better?|request_compare
+SYS|The hotel in Santos has a 3.0 rating while the hotel in Pittsburgh has a 2.5 star rating.|inform
+USR|and what are the classes of the flights?|request
+SYS|The price I've given you is for economy class.|inform
+USR|i think i would prefer to go to Santos|switch_frame
+SYS|Ok, great!|inform
+SYS|Would you like to book the package I've quoted you for to Santos?|inform
+USR|yes please!|thankyou
+USR|thanks!|thankyou
+SYS|Consider it done :slightly_smiling_face: Thank you for travelling!|thankyou
+USR|thanks you!|thankyou

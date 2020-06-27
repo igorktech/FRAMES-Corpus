@@ -1,0 +1,28 @@
+USR|i live in toluca but want 2 vacation somewhere can u help me|inform
+SYS|You want a vacation for 2 people?|suggest
+USR|no i  want a vacation for myself|inform
+SYS|Well, there are many places we can send you to from Toluca.|inform
+SYS|Do you have any preference whatsoever?|inform
+SYS|Departure date?|inform
+SYS|Budget?|inform
+USR|i have 4 thousand, eighth hundred dollars... and i can travel between sept 6-19|inform
+SYS|I have a very good package for you at 2925.98USD.|offer
+SYS|This deal is a 15 day stay at the 5 STAR Hotel Serene Palms Resort in Leon, Spain, on the beach, close to the palace.|offer
+USR|oh wow that sounds amazing!!|request
+USR|is there a spa??|request
+USR|can i get free breakfast??|request
+SYS|No spa or free breakfast at this one|inform
+USR|well where else can i go|request_alts
+SYS|My next highest rated hotel is the Hotel Grand Residence, 4 star rated hotel near shopping and the cathedral located in Rome.|offer
+SYS|Includes breakfast and wifi but still no spa.|offer
+USR|ok what's the next best?|request_alts
+SYS|The Elton in Houston, 2.5 stars, located near the mall, includes parking, wifi and breakfast|offer
+USR|not impressive... so.. Rome or Leon
+well Leon is a nicer hotel - how long is the Rome trip tho?|request
+SYS|14 days|inform
+USR|minor difference.|switch_frame
+USR|I prefer Leon in that case|switch_frame
+SYS|Do you want me to start the process of booking Leon for you?|suggest
+USR|yeah, do that please|inform
+SYS|It has been booked!|inform
+USR|much appreciated|thankyou

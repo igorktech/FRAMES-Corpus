@@ -1,0 +1,19 @@
+USR|hey.|inform
+USR|i wanna go from birmingham|inform
+SYS|Ok, where would you like to go?|request
+USR|for 10 days vacation|inform
+SYS|There are 10 day trips available in Sacramento and Las Vegas for just over $500.|offer
+USR|thats too expensive|negate
+SYS|I’m sorry but I have no 10 day trips from birmingham for less than that price.|sorry
+USR|what about santiago|inform
+SYS|You can spend 6 days in Santiago for 1342.39USD|offer
+USR|no.|inform
+USR|i only have 400$. maybe from bh for lesser days|inform
+SYS|In that case your only options are Denver or Calgary.|offer
+USR|oh ok|null
+SYS|Would you like to hear more about these packages?|hearmore
+USR|yup|affirm
+SYS|You can spend 3 days in Denver for $177.60 and stay at a 3 star hotel near a museum and university.|inform
+SYS|In Calgary you could spend 8 days for $303.45 at a 4 star hotel near a university with free wifi and free parking.|inform
+USR|i will go to calgary|switch_frame
+SYS|Great :slightly_smiling_face: I will book that for you|inform

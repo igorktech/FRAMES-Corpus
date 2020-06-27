@@ -1,0 +1,9 @@
+USR|hi|greeting
+SYS|Hello|greeting
+USR|my name is Cosmos and I need to go to Kobe from Tampa|inform
+SYS|Do you have a budget?|request
+USR|lol ya 3 adults 4 children willing to pay 31400 $$$|inform
+SYS|Unfortunately there are no results for this request.|sorry
+SYS|Is there another destination you'd like me to check for you?|sorry
+USR|no actually i meant to go to Fukuoka|inform
+SYS|There are no results for this destination either.|no_result

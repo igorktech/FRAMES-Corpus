@@ -1,0 +1,30 @@
+USR|hello.|greeting
+SYS|Hi!|greeting
+SYS|How can I assist you?|greeting
+USR|im looking to go from portland to toluca what can you do fo rme|inform
+SYS|What is your budget?|request
+USR|lol.|inform
+USR|im insulted you would even ask just do the little search thing that you do im not worried about the cost so neither should you|inform
+SYS|Is there a certain date you'd like to leave on?|request
+USR|dont care but i have to be back here for September 6|inform
+SYS|The closest package we have that is close to this return date is from August 27th to September 7th.|offer
+SYS|Is this okay?|offer
+USR|I’m going to need some more information before i tell you that..|moreinfo
+SYS|This package is at a 3.5 star hotel that offers free breakfast, wifi, and parking.|inform
+SYS|Business class seats are 909.86.|inform
+USR|no nothing else?|negate
+SYS|No, sorry.|sorry
+USR|ok whats available in philadelphia|inform
+SYS|There is a 2 star hotel from August 30th to September 6th.|offer
+SYS|This hotel is near a park and museum and includes free wifi, breakfast, and parking.|offer
+SYS|The cost is 556.35 for business seats.|offer
+USR|is that it.. 2 star/|confirm
+SYS|Yes, that is all for this request.|affirm
+USR|kingston to toluca what is available|request
+SYS|We have a 3.5 star hotel with free breakfast, wifi, and parking.|offer
+SYS|This package leave August 27th and returns September 3rd.|offer
+SYS|With business class seats this package comes to 2480.10.|offer
+USR|kingston to philadelphia??|confirm
+SYS|Yes|affirm
+USR|what|null
+SYS|This is a 2 star hotel.|inform

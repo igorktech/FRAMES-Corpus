@@ -1,0 +1,21 @@
+USR|Get me out of Berlin and to Campinas.|inform
+USR|Business class flights only.|inform
+USR|Get me the best hotel in Campinas|inform
+SYS|What dates are you looking into and what is your budget?|request
+USR|Leave ASAP, return before September 2|inform
+SYS|I am sorry, I don't have anything within that date range|sorry
+USR|Ok what if we take a longer trip and return on September 11|inform
+SYS|would you like 11 days or 15 days trip?|suggest
+USR|Just get me back before September 11 is all I ask|inform
+SYS|we have 2 options|inform
+USR|Praytell|moreinfo
+SYS|We have 11 days for 4489.34USD or  15 days for 4722.70USD.|inform
+SYS|Both 4 star hotel business class.|inform
+SYS|One comes back Sept 10, the other Sept 15.|inform
+USR|I also want to see if I can go to Stuttgart from Berlin.|inform
+USR|Again, book the best hotel only|inform
+SYS|We only have 3 star hotels ranging from 632 - 700$|offer
+USR|3 stars???|inform
+USR|Um no :mask: Ok book two adults to Campinas, returning on September 10.|inform
+USR|Its business class right?|inform
+SYS|ok will do, booking right away!|inform

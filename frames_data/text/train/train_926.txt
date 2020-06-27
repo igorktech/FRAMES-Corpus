@@ -1,0 +1,8 @@
+USR|essen to osaka.|inform
+USR|sept 2-16|inform
+SYS|number of people?|request
+USR|one|inform
+SYS|I have nothing to Osaka from Essen.|suggest
+SYS|Can I interest you in other destinations?|suggest
+USR|what if i change the dates and leave a day earlier|inform
+SYS|It does not make a difference|no_result

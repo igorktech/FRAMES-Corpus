@@ -1,0 +1,32 @@
+USR|My best friend Paris Hilton and I want to go all out for my birthday this year so you must find me the hippest place in Hiroshima okay?|inform
+SYS|Sure thing!|request
+SYS|Where will you girls be coming from?|request
+USR|Indianapolis|inform
+SYS|How long would you like to go for?|request
+SYS|And do you have a budget in mind?|request
+USR|Neither matters just find us the bestest place where  all the celebrities and rich people stay|inform
+SYS|The very best that we have is the 4.5 star Hotel Oishi with a 13 day stay costing at 8942.68 for business class.|offer
+USR|Is there a spa?|request
+SYS|Not that I know, I'm afraid.|sorry
+SYS|There is a famous museum nearby though.|sorry
+USR|Do you have a 5 star in Kochi?|inform
+SYS|I'm afraid not.|sorry
+SYS|The best we have in Kochi is a 3.5 star.|sorry
+SYS|Sorry.|sorry
+USR|Toronto?|inform
+USR|I heard Toronto is the BEST!|inform
+SYS|Toronto is an excellent choice but we can only offer you 3 star hotels in Toronto at this moment.|offer
+USR|NOT GOOD ENOUGH|negate
+SYS|Would you like me to book you the 4.5 star hotel in Hiroshima for you ladies?|suggest
+USR|What does the Hotel Oishi  offer in  amenities?|request
+SYS|Unlimited wifi!|inform
+USR|yippeeee how about food?|request
+SYS|Sorry.|sorry
+SYS|There is no complimentary breakfast with this package.|sorry
+USR|I guess if that is all you have in Hiroshima  what choice do we have.|inform
+USR|Does it at least have an awesome guest rating?|inform
+SYS|Yes, 8.86 out of 10 :slightly_smiling_face: Shall I book this for you?|suggest
+SYS|And for business class?|suggest
+USR|well of course business class yes go ahead send Paris the bill lol|inform
+SYS|A confirmation email with all the details will be headed your way shortly.|inform
+SYS|Thank you for using our services.|inform

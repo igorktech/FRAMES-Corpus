@@ -1,0 +1,32 @@
+USR|Hi i want to go to burlington|inform
+SYS|Where are you leaving from?|request
+USR|Melbourne|inform
+SYS|Do you have a budget?|request
+USR|$1,500|inform
+SYS|Travelling alone?|suggest
+USR|yes|affirm
+SYS|When would you like to leave?|request
+USR|August 26th|inform
+SYS|We have 2.5 star hotels and 3 star hotels.|inform
+SYS|Which do you prefer?|inform
+SYS|All are within your budget.|inform
+USR|3 star|switch_frame
+SYS|The first option has a park and free wifi.|inform
+SYS|The flight is from August 27th to September 4th and the cost is 1087.50 with economy seats.|inform
+SYS|The second option has a park and free wifi.|inform
+SYS|The flight is from August 27th to September 4th and the cost is 1319.15 with business class seats.|inform
+USR|What about Campinnas|inform
+SYS|We have no flights to Cammpinnas|no_result
+USR|any to Minneapolis?|inform
+SYS|We have 2.5 star hotels for Minneapolis.|offer
+SYS|Two of them leave on August 26th.|offer
+SYS|Would you like information for these two hotels?|offer
+USR|honestly not really sounds a little peasanty, are there other hotels in burlington?|switch_frame
+SYS|The highest rated hotel is 3 stars|inform
+USR|Which one is least expensive|inform
+SYS|The economy class package is cheaper.|offer
+USR|let's book it|inform
+SYS|Great!|inform
+SYS|You're now booked for this package!|inform
+SYS|Have a great day!|inform
+USR|Thanks!|thankyou

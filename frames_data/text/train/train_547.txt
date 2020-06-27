@@ -1,0 +1,19 @@
+USR|hello i need to get to curitiba.|inform
+USR|im going to need to stay at the most luxurious facility that you have
+and im leaving from santos
+on or after august 30th|inform
+SYS|I have 10 days, 15 days or 16 days trip|offer
+USR|any of them under 1700 dollars?|request_compare
+SYS|16 days at 3.5 stars hotel for 1416.47USD|inform
+USR|hm, 3.5 stars is the best you've got?|request
+SYS|yes unfortunately, but the guest rating is 8.22|sorry
+USR|even with a 2700 dollar budget|confirm
+SYS|Yes unfortunately|sorry
+USR|is it just the one hotel?|request
+SYS|no there are others at 3.0 star|offer
+USR|can you give me details on the 3.5 star|moreinfo
+SYS|Crown Market Palace, near beach, free parking, free breakfast, free wifi|inform
+USR|That does sound somewhat luxurious.|inform
+USR|ok i guess we should book it|inform
+SYS|It leaves on september 2nd and comes back on September 17|inform
+USR|book it thanks|thankyou

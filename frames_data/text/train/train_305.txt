@@ -1,0 +1,20 @@
+USR|Planning a honeymoon, please help!|inform
+USR|Can you get me on a flight out of Punta Cana to La Paz on August 24|inform
+SYS|Absolutely!|suggest
+SYS|Would August 25 be ok?|suggest
+USR|Okay fine.|inform
+USR|Can you book us for four days and tell us how much it would cost?|inform
+SYS|Sure!|suggest
+SYS|From the 25th to the 29th would cost 1003.11.|suggest
+SYS|Are you travelling alone?|suggest
+USR|How much would it cost for two?|inform
+USR|Can you do any honeymoon discounts?|inform
+SYS|For two it would cost 2006.22USD.|offer
+USR|Our budget is 1200, that won't work :disappointed: How much would a trip for two to San Diego cost?|inform
+SYS|Oh dear.|sorry
+SYS|Well I’m sorry but I have nothing available within your parameters.|sorry
+SYS|Are you flexible with any of your conditions?|sorry
+USR|I'm flexible with destination and length of trip.|inform
+USR|The only thing that is inflexible is budget|inform
+SYS|I can send 2 people from Punta Cana to Atlanta for $306.38 from Aug 24-Septemeber 7.|offer
+USR|Okay will consider it and get back to you, thanks!|thankyou

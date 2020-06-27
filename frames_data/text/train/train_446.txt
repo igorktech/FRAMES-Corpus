@@ -1,0 +1,18 @@
+USR|Good morning!|greeting
+USR|I'm an expat writer living in Kobe, Richard O'Brien, ever heard of me?|greeting
+SYS|Are you looking for a destination from Tokyo?|request
+USR|Well I need that to change, which is why I need to book a trip to somewhere calm where I can finish my novel which will hopefully make me a world renowned author, not like my last book...So yes, to answer your question, I am looking for a trip from Kobe to maybe Munich.|inform
+USR|I am a real family man and will be travelling with my wife and our son, can't live without those two.|inform
+USR|2 adults and 1 child|inform
+SYS|when would you like to leave and return?|request
+USR|the sooner we could leave the better, but I don't have specific date constraints.|inform
+USR|I would like to be away for 7 days though|inform
+SYS|I have a 6 day package available at our highest rated hotel in Munich departing Sept 6 and returning Sept 10.|offer
+SYS|Does this interest you sir?|offer
+USR|I'm not sure I can afford a highly rated hotel, our budget is 3600|inform
+SYS|I have no packages available in Munich for under $3600.00.|suggest
+SYS|I can check other destinations for you if you like, or I can check to see if there are shorter packages available.|suggest
+USR|I really need about 7 days to work.. How about if we went to Hamburg instead?|inform
+SYS|At the present time, there are no flights available from Kobe to Hamburg.|no_result
+USR|Oh well, thank you for your help, I understand that our budget is quite limiting I will see if other agencies have cheaper trips we can affoord Cheers!|thankyou
+SYS|Have a pleasant day|goodbye

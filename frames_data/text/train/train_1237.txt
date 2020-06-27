@@ -1,0 +1,29 @@
+USR|I want to find a vacation between the 7th to 24 for 3100 leaving from Cordoba.|inform
+USR|Can you help me find something good?|inform
+SYS|I sure can!|request
+SYS|Are you willing to go anywhere?|request
+USR|Yes anywhere is fine, just like to hear some options.|inform
+SYS|Ok - first off, I have an 18 day package in Recife at a 3.5 star hotel with a 8.69/10 guest rating.|offer
+USR|What else?|request_alts
+SYS|There is a 17 day package in Paris at a 4 star hotel with free breakfast and wifi near a museum, shopping district, and a cathedral.|offer
+USR|Better.|request_alts
+USR|Are there other places available?|request_alts
+SYS|In Madrid I have a 5 star hotel near a palace, a museum, and a cathedral.|offer
+SYS|The package lasts 16 days and includes free breakfast and wifi.|offer
+USR|5 stars!|inform
+USR|Now we're talkin!|inform
+USR|Any other places with 5 stars?|inform
+SYS|Not that I can see from my initial list..|no_result
+USR|Okay well is there any more information on the 5 star hotel in Madrid?|switch_frame
+SYS|Yes - the hotel has a 9.16 guest rating and the package spans from September 9th to the 24th.|inform
+USR|That sounds like a pretty good package.|request
+USR|What is the cost?|request
+SYS|For economy class 937.60USD.|inform
+USR|good good, very affordable.|inform
+USR|Can you book it for me?|inform
+SYS|Sure!|offer
+SYS|Business class would cost 1078.0USD.|offer
+SYS|Do you want to upgrade?|offer
+USR|Yeah of course!|switch_frame
+SYS|Great :slightly_smiling_face: All booked!|inform
+USR|Thank you very much, i'm sure I'll be back again the next time I plan on travelling.|thankyou

@@ -1,0 +1,25 @@
+USR|Hi I'm a grandma living in Tampa and I want to take my grandchildren to Kabul on vacation to teach them a history lesson.|inform
+SYS|I offer no trips from Tampa to Kabul.|no_result
+USR|I understand that not exactly a vacation destination.|inform
+USR|How about Madrid, lots of history there too.|inform
+SYS|How many children will be travelling with you?|request
+USR|6|inform
+SYS|And one adult?|suggest
+USR|yes me and my grandchildren.|affirm
+SYS|I have an 11 day package in Madrid for 15506.24USD.|offer
+USR|oh nooo that is just way too much I only have 3200.|inform
+SYS|I can get you a 5 day package for 10887.64USD.|offer
+USR|that is 6000.00 more than I have!|negate
+SYS|Then I cannot help you.|no_result
+USR|okay forget the history lesson, let's just go have some fun on the beach in Punta Cana!|inform
+SYS|I can offer 10 days in Punta Cana for 2905.4USD.|offer
+USR|Now we're talking, baby!|moreinfo
+USR|tell me more more more|moreinfo
+SYS|The hotel has a 2.5 star rating, 7.15/10 guest rating; it is near a museum, a cathedral, and a palace; and it includes wifi and complimentary breakfast.|inform
+USR|anything on the beach?|request
+SYS|No.|sorry
+SYS|Sorry.|sorry
+USR|you do know that I cannot leave until August 31st and have to be back before the 19th right?|inform
+SYS|This package begins September 7th and ends the 15th.|inform
+USR|:+1::grinning::airplane::sunglasses::beers::surfer: Book it!|inform
+SYS|You’ve got it!|inform

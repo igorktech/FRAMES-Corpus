@@ -1,0 +1,11 @@
+USR|Where could I go if I had almost no money?|request
+USR|I need to physically leave from Busan what if I came up with $400?|request
+SYS|You could go to Kobe, spend 17 days, and have 57 dollars left over.|suggest
+USR|Holy crap I'll take it!|inform
+SYS|Would you like any more information?|hearmore
+USR|17 days in Kobe including flights for under $400?|request
+USR|I'm gonna sound greedy now, but is breakfast included?|request
+SYS|No, sorry.|sorry
+USR|well can't have it all, save it for me anyways!|inform
+SYS|Ok!|affirm
+SYS|I’ll send email confirmation as soon as its booked.|affirm

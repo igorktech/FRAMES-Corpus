@@ -1,0 +1,48 @@
+USR|Hi there, I'd like to book a trip!|inform
+SYS|Hi!|request
+SYS|I'd be happy to help with that.|request
+SYS|Where are you coming from and where would you like to go?|request
+USR|I haven't really decided a destination yet.|inform
+USR|We're leaving from Buenos Aires and we're looking for a nice family vacation.|inform
+SYS|I see!|request
+SYS|How many will you be?|request
+SYS|And when would you be available to travel?|request
+USR|Oh it's going to be a huge family vacation, so we'll be 5 adults and 7 children!|inform
+USR|We're looking for something between Monday September 12 and Monday September 19.|inform
+SYS|That sounds very nice!|request
+SYS|Do you want me to stay under a certain budget?|request
+USR|Yes please!|inform
+USR|That would be great.|inform
+USR|I don't want to spend any more than $29, 400 total|inform
+SYS|That's reasonable.|offer
+SYS|Alrighty, since there are a lot of options, I will throw a few cities at you.|offer
+SYS|Let me know if any of these catches your eye: Pittsburgh, Santos, Denver, San Diego, La Paz, Boston, and Sao Paulo.|offer
+USR|Oh wow they all sound so good.|request_compare
+USR|Which ones are the most affordable?|request_compare
+SYS|The options I have previously presented are the longest and best trips that make the most of your budget.|suggest
+SYS|However, shorter trips would be more affordable.|suggest
+SYS|Would you like me to find the most affordable trips for you instead?|suggest
+USR|Oh I'll see what the longest and best trips are!|moreinfo
+USR|Please tell me about them.|moreinfo
+USR|Let's start with San Diego!|moreinfo
+SYS|Maybe Santos, La Paz, or Sao Paulo might interest you.|sorry
+SYS|Of course I can run searches for shorter trips and perhaps get a few more available cities if you would like.|sorry
+USR|Let's try La Paz!|switch_frame
+SYS|Nice choice!|inform
+SYS|In La Paz we can offer you an 8 day stay at a fantastic 4.0 star hotel with free parking, free breakfast, and free wifi.|inform
+USR|Ooh sounds nice!|request
+USR|How much would that cost in the end?|request
+SYS|It would be 22481.6 for economy seats and 28631.92 for business.|offer
+USR|Wow that sounds really good!|request
+USR|What are the departure and return dates of this trip?|request
+SYS|This trip runs from Sept 13-19.|inform
+USR|That's perfect.|inform
+USR|Could you please book that for me for economy?|inform
+SYS|Sure thing!|inform
+SYS|It is all booked for you.|inform
+SYS|Stay in tune for an email confirmation with all the details.|inform
+USR|Thank you so much!|thankyou
+SYS|It's my absolute pleasure!|you_are_welcome
+SYS|Anything else I can do for you today?|you_are_welcome
+USR|Nope, it's all good.|goodbye
+USR|Have a nice day!|goodbye

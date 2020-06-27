@@ -1,0 +1,3 @@
+USR|san juan to puebla for under 5500 i will go whenever and am travelling alone ok|inform
+SYS|My apologies, we do not serve trips between those two cities.|suggest
+SYS|Could you leave from or go to another city?|suggest

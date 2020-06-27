@@ -1,0 +1,22 @@
+USR|I have 8 days off coming up.|inform
+USR|Really want to get out of the country
+the country being brazil
+do you have flights to mexico city?|inform
+SYS|Can you provide desired dates please|request
+USR|september 9 to 17|inform
+SYS|What city in Brazil would you like to depart from?|inform
+USR|Fortaleza.|inform
+USR|For one adult only|inform
+SYS|I have the perfect package for you: Fortaleza to Mexico City, 8 days, departing Sept 10th and returning Sept 17, at the 3.5 star Coast, with an excellent location near the beach, museum and close to shopping|offer
+USR|I was actually just googling attractions in Phoenix.|inform
+USR|do you offer flights there?|inform
+SYS|No flights to Phoenix|no_result
+USR|Ok lets go with that Mexico City package|switch_frame
+SYS|Would you like the price?|hearmore
+USR|I have an uncapped budget but sure, can't hurt to know|request
+SYS|2317.74USD if you fly on  business class seating|inform
+USR|How much for economy class|request
+SYS|1834.55USD on economy class seating for the 8 day package|offer
+USR|Ok book it!|switch_frame
+SYS|I shall book it for you right away|inform
+USR|thank you!|thankyou

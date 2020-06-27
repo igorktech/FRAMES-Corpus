@@ -1,0 +1,30 @@
+USR|whats available in atlanta starting august 30th?|inform
+USR|we're leaving from north vancouver|inform
+SYS|Any budget in mind?|request
+USR|2700 is all we have left over after wedding expenses|inform
+SYS|I have found the place you are looking for, that atlanta USA right?|confirm
+USR|yes yea of course.|request
+USR|how much?|request
+SYS|are your dates flexible, the package i have here start on september 6th|suggest
+USR|no i wanna go the 30th|inform
+SYS|Well then I am sorry, there is nothing available on that date|sorry
+USR|anything available from north vancouver to montreal?|inform
+USR|we would love to fly from north vancouver to montreal because it sounds like such a logical and reasonable thing to do for our honeymoon :hugging_face:|inform
+SYS|the Illustrious Haven Hotel.|offer
+SYS|4 stars.|offer
+SYS|Free parking and wifi.|offer
+SYS|Business class.|offer
+SYS|and all for $1234|offer
+USR|wow - amazing!|request
+USR|when do we leave?|request
+SYS|September 12th|inform
+USR|ok send me literally anywhere from north vancouver on august 30th for under 2700|inform
+SYS|fine we can do that same hotel just Economy class, leaving on August 30th and returning on the 4th|offer
+USR|which hotel?|request
+USR|how much?|request
+USR|What's the hotel like?|request
+SYS|Same hotel, it will be easily accessible, in total $930|inform
+USR|ok book it|inform
+SYS|Perfect!|inform
+SYS|it is all done|inform
+USR|amazing thank you so much|thankyou

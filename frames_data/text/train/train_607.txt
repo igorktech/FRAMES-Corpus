@@ -1,0 +1,10 @@
+USR|i want to go somewhere|inform
+SYS|I want to help you go somewhere.|request
+SYS|But where did you have in mind?|request
+USR|idk.|inform
+USR|i will leave from calgary|inform
+SYS|How does 17 days in Puebla sound?|offer
+USR|i can travel between september 1 and september 20.|inform
+USR|3700 dollar budget|inform
+SYS|Perfect, then you might enjoy a stay at the Grand Brewery Mexico between September 1 and 17 for 1817.31USD.|inform
+USR|done, book|inform

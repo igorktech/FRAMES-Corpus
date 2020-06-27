@@ -1,0 +1,36 @@
+USR|Vacay time woooohooooooo|null
+SYS|May I book a trip for you?|greeting
+USR|Listen I'm on a budget soooooo I want you to find me the best deal ever understand?|inform
+USR|We want to go to Phoenix with the kids.|inform
+SYS|How many of you will there be?|request
+SYS|And where will you be leaving from?|request
+USR|There is my wife, me, her mother :grimacing: and our gaggle of 5 kids|inform
+SYS|3 adults and 5 children then?|confirm
+USR|Yes that's it  we need a good deal|affirm
+SYS|What is your budget and where will you be leaving from?|request
+USR|We live in Atlanta and no more than $4800 for ALL of us got it?|inform
+SYS|I have an amazing 15 day package costing at a total of $4415.39 for all of you.|suggest
+SYS|You will be all set up at a 3 star hotel located near a museum and a university, and this will include free parking, free breakfast, and free wifi.|suggest
+SYS|Would you like me to book this for you?|suggest
+USR|3 star?|request
+USR|Got anything better?|request
+SYS|I'm afraid not.|sorry
+SYS|That is the most upscale hotel we have of all the packages.|sorry
+USR|What 't the guest rating on the 15 day package?|request
+SYS|It's the same hotel for the two packages that we have, and the guest rating is 6.91 out of 10.|inform
+SYS|Would you be interested in booking the 15 day package?|inform
+USR|NO.|request_alts
+USR|I would like to see what else you have.|request_alts
+USR|Do you have any other hotels or are you giving me just one choice?|request_alts
+SYS|I'm afraid we only have two packages available for what you're looking for, and they're both with the same hotel.|sorry
+SYS|Would you be interested in booking one of these packages?|sorry
+USR|Can you stop asking me that please!|inform
+USR|We take one vacation every 3 years and I need to look at all my options!|inform
+USR|If I increase my budget to $5800, what can you offer us?|inform
+SYS|I am afraid that increasing your budget will leave you with the same options, with the 3 star hotel.|sorry
+SYS|Is there another destination you would like me to search for you?|sorry
+USR|It's nice that you are meeting my budget but I really need to look at more than just one 3 star hotel in Phoenix.|goodbye
+USR|I will shop around and get back to you if I can't find something better.|goodbye
+USR|Have a nice day.|goodbye
+SYS|Thank you for stopping by.|thankyou
+SYS|Good luck!|thankyou

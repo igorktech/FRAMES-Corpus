@@ -1,0 +1,27 @@
+USR|Hey man, I'm like the best Pokémon hunter in the WORLD and I'm only missing one and I need to get to Punta Cana cause rumour like has it he's at one of those places but you know rumours are only rumours so I'm not in a total hurry but I want to see how much it will cost me to get go there, can you give me some pricing|greeting
+SYS|Hi!|greeting
+SYS|For sure, where will you be departing from?|greeting
+USR|I would be leaving from Fukuoka to Punta Cana.|inform
+SYS|ya that sounds good!|suggest
+SYS|will you be travelling alone?|suggest
+USR|Yes I am.|inform
+USR|Anyway I can leave on August 24th?|inform
+SYS|Is that date flexible?|request
+USR|Kinda I can also leave on September 2nd.|inform
+USR|I only have 4200 so let's try and keep it on the cheap|inform
+SYS|I found two hotels for you to stay at, one being El Mar for 5 day and La Estrella del Mar for 5 day stays|inform
+USR|Is that leaving on Sept 2nd?|request
+USR|Can you give me the prices and hotel ratings?|request
+SYS|El Mar is a 2.5 star hotel with a flight leaving on september 2nd for 5 days, at $3815 or it can be on August 24th for $2900|offer
+USR|August 24th work for me!|inform
+USR|How about flights package to Columbus leaving from Fukuoka on the same date what do you have|inform
+SYS|For Columbus, you have the Crown Jungle inn for an 11 day stay leaving on August 26th with free parking and wifi for $3130|offer
+USR|11 days for $3130 is so much a better a deal what's the rating on this hotel|request
+SYS|it has a 2.5 star rating|inform
+USR|so same do any include breakfast|request
+SYS|This one has free parking and wifi, but no breakfast.|suggest
+SYS|Would you like me to book that for you?|suggest
+USR|yes I like the Columbus deal better screw Punta Cana I can go there next time thanks man|negate
+SYS|perfect!|goodbye
+SYS|glad i can help!|goodbye
+SYS|enjoy your stay!|goodbye

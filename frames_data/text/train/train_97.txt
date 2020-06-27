@@ -1,0 +1,26 @@
+USR|Good morning.|inform
+USR|We are planning a family reunion and since we are spread out all over the world, we have decided on a couple of possibilities.|inform
+USR|Can you please give me information on packages available in Fukuoka?|inform
+USR|My husband and I would be leaving from Manaus and we will be travelling with our 4 children.|inform
+SYS|Hi!|greeting
+SYS|Let me see what I can do for you!|greeting
+USR|We need to leave on August 15 and be back by August 22nd as I go back to work the next day.|inform
+SYS|We have multiple options for Fukuoka.|request
+SYS|Do you have a budget for this trip?|request
+USR|Not really.|inform
+SYS|I can offer something in Fukuoka that is 1886.81USD leaving on August 17th and returning August 21st.|offer
+SYS|Does this suit your needs?|offer
+USR|Wow, that's pretty pricey!|request
+USR|Does that include breakfast?|request
+USR|For that price, we at least better have free wifi!|request
+SYS|Yes, breakfast and wifi are included in this 3.5 star package!|inform
+USR|How have other guests rated it?|request
+SYS|The Historic Mansion Hotel has a rating of 6.77/10.|offer
+SYS|I can offer you a 3.5 star hotel with a 8.22/10 guest rating for only 200 USD more.|offer
+USR|I like that....is breakfast included in that one too?|request
+SYS|Yes breakfast and wifi are included!|inform
+USR|Are the flights for this package the same?|request_compare
+SYS|Yes, they are both economy and have the same departure and return flights.|inform
+USR|Well it's more than I wanted to pay but it sounds like a pretty good deal.|goodbye
+USR|I need to discuss it with the rest of the family and I will get back to you.|goodbye
+USR|What is your name?|goodbye

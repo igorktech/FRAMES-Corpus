@@ -1,0 +1,25 @@
+USR|Hey I'm in santo domingo and i need to get to birmingham|inform
+SYS|Sorry, we don't have any availabilities for Santo Domingo to Birmingham.|sorry
+SYS|Are there nearby cities you can land at or depart from?|sorry
+USR|no but i could go to Ulsan instead|inform
+SYS|We can get you to Ulsan!|inform
+SYS|When would you like to go?|inform
+SYS|And how long would you like to stay?|inform
+USR|it doesnt matter|inform
+SYS|How much are you planning on spending?|request
+USR|it doesnt matter|inform
+SYS|Are you going on your own?|suggest
+USR|yep|affirm
+SYS|I would recommend you our best package to Ulsan.|offer
+SYS|It is a stay at a luxurious 5 star hotel, with 8.98/10 guest rating.|offer
+SYS|It boasts free parking, free wifi, and convenient access to a park, a market, and a theater.|offer
+SYS|I can offer a 9 day package or a 14 day package.|offer
+USR|wow that perfect, are there any other package?|request_alts
+SYS|The second best would be a 9 day package at a 4.0 star hotel, rated 7.06/10 by guests.|offer
+SYS|This hotel also offers free parking and wifi, and is next to a market and a palace.|offer
+USR|Nope i like the 1st one, book it for me|inform
+SYS|We have both business and economy packages for the 9 and 14 day package, which one would you like to book?|offer
+USR|14 days and business please|switch_frame
+SYS|That would be 6344.38.|inform
+SYS|Consider it done!|inform
+USR|Thanks|thankyou

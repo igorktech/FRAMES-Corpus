@@ -1,0 +1,21 @@
+USR|Salut!|inform
+USR|I am ze number one pastry chef in ze world!|inform
+USR|There is this fantastic beautiful intoxication pastry made by an ami of mine in Melbourne.|inform
+USR|Im in Guadalajara and I need, need, need to have a taste can you get me there, my good friend?|inform
+SYS|Sure!|request
+SYS|Do you have a budget?|request
+USR|$3300 around I think should suffice for everyone|inform
+SYS|How many people will be travelling?|request
+USR|all my lawyers and my 3 cherished children|inform
+SYS|How many adults are going?|request
+USR|5 will be joining me|inform
+SYS|So that will be 5 adults and 3 children people altogether?|confirm
+USR|yess|affirm
+SYS|Great!|request
+SYS|When would you like to leave and return?|request
+USR|anytime works for us|inform
+SYS|Unfortunately there are no results for your request in my database.|sorry
+SYS|Is there another destination you would like to try?|sorry
+USR|NO, it has to be melbourne|inform
+SYS|There are no results in my database, apologies.|sorry
+USR|thanks for nothing|thankyou

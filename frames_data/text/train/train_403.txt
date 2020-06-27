@@ -1,0 +1,13 @@
+USR|I want to go to Washington.|inform
+USR|From Madrid|inform
+SYS|Washington?|confirm
+USR|Yeah man, Washington.|affirm
+SYS|will you be travelling alone?|suggest
+USR|no, i'll be with 9 other adults so 10 altogether|inform
+SYS|how much did you want to spend|request
+USR|$2000 but I am willing to increase my budget by $300 if need be|inform
+SYS|and did you have any specific dates that you wanted to travel on?|request
+USR|we'd like to travel between august 23rd and august 26 but our dates are flexible.|inform
+SYS|sadly, we do not have any flights form Madrid to Washington|sorry
+USR|that's okay, I'll come back at a later date.|thankyou
+USR|Thank you anyway|thankyou

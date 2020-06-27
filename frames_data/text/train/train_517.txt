@@ -1,0 +1,28 @@
+USR|Can I get to Pittsburgh from Naples?|inform
+SYS|Is this for one person?|suggest
+USR|YEs it is jsut for me|affirm
+SYS|For how long would you like to stay in Pittsburgh?|confirm
+USR|As long as it takes.|inform
+USR|Got $4500 to burn|inform
+SYS|Alright.|offer
+SYS|The longest trip I have for you is 10 days from September 2nd to 10th.|offer
+SYS|Would those dates work for you?|offer
+USR|I think so.|inform
+USR|But can you check out Recife too?|inform
+SYS|The longest holidays there are 7 days long.|offer
+USR|Thats fine by me|switch_frame
+SYS|La Casa Del Amor has 3.5 stars and The Glee has 4 stars.|offer
+SYS|Which one would you like to hear about first?|offer
+USR|Tell me about the 4 star one|switch_frame
+SYS|It has free breakfast and wifi, its close to a park and has guest reviews of 8.22/10.|inform
+USR|Nice.|inform
+USR|How about Toronto|inform
+SYS|The longest package in Toronto is a 7 day stay at Hotel Richard which has 3 stars.|offer
+SYS|Its close to a market and a cathedral.|offer
+USR|richard you say.|inform
+USR|and what if i wanted to go to los angeles|inform
+SYS|This is the longest trip so far: 14 days at a 3 star hotel called Secret Ribbon Inn.|offer
+SYS|It includes free breakfast, parking and wifi.|offer
+USR|ok i have a confession to make i can’t actually go on any of these trips but thank you for indulging me|thankyou
+SYS|Come back anytime!|goodbye
+USR|will do|null

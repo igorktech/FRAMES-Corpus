@@ -1,0 +1,14 @@
+USR|Say, With just 1900 dollars and little more than a dream, could I make it from Seattle to North Vancouver?|inform
+SYS|We have a 2.5 star hotel near the beach, departing August 30th and returning September 9th.|offer
+SYS|Business class costs 1142.65 and economy costs 962.46.|offer
+USR|but, for even more of a hard-hitting pacific fog/rain/drizzle getaway….. where oh where might he be able to stay in San Juan?|inform
+SYS|There is a 13 day at a 2.5 star hotel.|offer
+SYS|The hotel is close to a market and offers free breakfast and wifi.|offer
+SYS|Departing flight is September 1st, returning September 13th.|offer
+SYS|Cost is 892.82 for business class.|offer
+USR|and if I took my little nineteen hundo nest egg flew on over to Miami.|inform
+USR|what might that look like?|inform
+SYS|Where do you want to leave from?|request
+USR|alas Seattle is what i call “home"|inform
+SYS|There's a 3.5 star hotel near the airport, departing September 2nd and returning on the 10th.|offer
+SYS|1096.28 is the price for the business flight.|offer

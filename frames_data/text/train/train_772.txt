@@ -1,0 +1,12 @@
+USR|can you help me book a flight?|inform
+USR|this is my first time using this service|inform
+SYS|Certainly!|request
+SYS|Can you being by telling me where you would like to go, where you are coming from, and what are your preferred travel dates?|request
+USR|I hail from Fort Lauderdle.|inform
+USR|Would like to go anytime between sept 2 and 15.|inform
+USR|Am prepared to spend up to 2000|inform
+SYS|Sadly, we have no flights out of Fort Lauderdle.|sorry
+SYS|Is there another city you can fly from?|sorry
+USR|what if i changed the dates.|inform
+USR|sept 2 and 23|inform
+SYS|Still no luck.|no_result

@@ -1,0 +1,29 @@
+USR|Hi im from Los Angeles.|inform
+USR|looking for a good vacation|inform
+SYS|Cool!|request
+SYS|Where would you like to go?|request
+USR|im not sure to be honest|inform
+SYS|10 days in Punta Cana will run you about 660, whereas Rome is around 1500.|offer
+USR|what about san francisco?|inform
+SYS|I haven't got any packages out of Los Angeles travelling to San Francisco unfortunately.|sorry
+USR|how about vancouver?|inform
+SYS|You can do 12 days in Vancouver for 761.48USD.|offer
+USR|how long would the stay in Rome be?|request
+SYS|Rome is 10 days.|inform
+USR|i think i might have to go with Rome|inform
+SYS|I have several 4 star hotels available as well as one 1 star hotel.|offer
+USR|can i see the options for the 4 star hotels?|switch_frame
+SYS|Sure!|offer
+SYS|There's the Hotel Grand Residence, Hotel Emerald Legacy, or The Double Pastures.|offer
+USR|all have wifi?|request_compare
+SYS|They do; all three have free breakfast and wifi!|inform
+USR|perfect!|inform
+USR|book me the cheapest one please|inform
+SYS|OK, that would be the Hotel Grand Residence for 1806.15USD.|offer
+SYS|Sound good, or would you like to upgrade your flights to business class for a total of 2308.43USD?|offer
+USR|please upgrade it!|thankyou
+USR|and thank you!|thankyou
+SYS|Sure thing!|inform
+SYS|Consider it booked :slightly_smiling_face:|inform
+USR|thx|thankyou
+SYS|Have a good day, and thanks for coming by!|thankyou

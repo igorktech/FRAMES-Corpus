@@ -1,0 +1,26 @@
+USR|Find me something flashy for 6 adults in Buenos Aires.|inform
+USR|Its my birthday so I don’t care what it costs|inform
+SYS|Will try!|request
+SYS|Where will you be coming from?|request
+USR|Tijuana|inform
+SYS|Do you have a strict budget?|request
+USR|Its my birthday so I don’t care what it costs|inform
+SYS|Okay, how does this sound?|offer
+SYS|Business flights for all of you to a 4 star hotel in the heart of Buenos Aires!|offer
+USR|Ahh it has potential I suppose.. what points of interest is it handy do?|inform
+USR|Is the guest rating above 8.22/10|inform
+SYS|It is also close to a park.|inform
+SYS|The guest rating is 8.69/10, and it offers free parking, free breakfast, and free wifi.|inform
+USR|Anything better in Campinas?|inform
+SYS|Not exactly.|offer
+SYS|We only have a 3.5 star hotel with 8.49/10 guest ratings in Campinas.|offer
+USR|Yeah.. not interested.|inform
+USR|What about in San Antonio?|inform
+SYS|In San Antonio our only availabilities are 2 star hotels.|offer
+USR|Yikes.|inform
+USR|Ok Buenos Aires it is
+Book it please
+Business class|inform
+SYS|I'm happy to book it for you!|inform
+SYS|The total is 18451.61.|inform
+SYS|The 6 of you will be there for 10 days from Sep 8-16.|inform

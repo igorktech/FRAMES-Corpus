@@ -1,0 +1,17 @@
+USR|Hi im looking for a nice destination that i could go to from Columbus|greeting
+SYS|I have 2 choices, Vancouver or Toronto.|suggest
+USR|What options are there for both|request
+SYS|I have a few.|inform
+SYS|Do you have a budget in mind?|inform
+USR|$3700 is my budget at the moment|inform
+SYS|I have the Obsidian Gem Inn in Vancouver which is a 4-star hotel at $1934.64 or the Hotel Richard in Toronto which is a 3-star hotel at $2393.00.|offer
+SYS|Both are for a 14 day stay.|offer
+USR|Toronto seems like a better place this time of year, when would the flights be?|switch_frame
+SYS|I have a direct flight to Toronto departing on August 15th and returning on August 28th.|suggest
+SYS|Would you like me to book that for you?|suggest
+USR|would by chance have one leaving on the 19th|inform
+SYS|I have a flight available departing on August 24th and returning on September 6th|offer
+USR|let’s go ahead and book this|switch_frame
+SYS|Perfect.|thankyou
+SYS|Thank you.|thankyou
+USR|thank you|thankyou

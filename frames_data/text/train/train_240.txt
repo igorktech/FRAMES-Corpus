@@ -1,0 +1,28 @@
+USR|my 4 friends and i want to get away|inform
+SYS|Where would you like to go?|request
+USR|not sure where but we would like to leave from nepal|inform
+SYS|Do you have a budget?|request
+USR|$10,000|inform
+SYS|What dates would you like to be travelling?|request
+USR|planning leaving on August 19 and returnign the 31|inform
+SYS|We have trips to Kyoto, Belo Horizonte, Brasilia, and Hamburg.|suggest
+SYS|Do any of these destinations interest you?|suggest
+USR|Let's check out Kyoto|switch_frame
+SYS|We have a 3 star hotel that offers free breakfast and wifi.|offer
+SYS|The trip is from the 25th to 31st and costs 554.65.|offer
+USR|are there any better rated hotels in Belo Horizonte or Brasilia|request_compare
+SYS|A 3 star hotel is the best I can offer.|offer
+SYS|Belo Horizonte has a 2.5 star hotel and Brasilia has a 3 star hotel.|offer
+USR|what are the prices there?|request_compare
+SYS|Belo Horizonte is 720.91 and Brasilia is 721.50.|inform
+USR|What do the hotels offer?|request_compare
+USR|what dates do these fall on|request_compare
+SYS|Both destinations are from August 27th to 31st and both offer free breakfast, wifi, and parking.|inform
+SYS|The hotel in Belo Horizonte has a beach and places to shop nearby, Brasilia has a museum, beach, and theatre.|inform
+USR|It seems that belo horizonte is the way to go :wink:|switch_frame
+SYS|Great!|suggest
+SYS|Would you like me to book this for you?|suggest
+USR|Please do!|affirm
+SYS|Congratulations!|inform
+SYS|Your trip has been booked!|inform
+USR|Thank you!|thankyou

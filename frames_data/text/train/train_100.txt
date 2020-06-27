@@ -1,0 +1,28 @@
+USR|Hi!|inform
+USR|I'm getting married and we are super tight on money but I want to be able to give my new bride the best possible honeymoon despite our tight budget, do you have any cool honeymoon destinations that you can recommend?|inform
+SYS|Hi yes i will try my best to find the perfect location!|request
+SYS|what budget do you have in mind?|request
+SYS|Where are you from and Where are you thinking of going?|request
+USR|Actually, my bride, who is sitting next to me just told me that she wants to go to Porto!|inform
+USR|Do you have anything in Porto Alegre?|inform
+USR|We are getting married in Fort Lauderdale on August 18th, so we want to leave on our honeymoon on the 19th.|inform
+USR|I CANNOT spend more than $4000.00 though.|inform
+SYS|So it seems that there are no packages available to Porto, is there anywhere else in mind?|suggest
+USR|Well, how about Guadalajara then.|inform
+USR|I heard it's still pretty dangerous there, but it apparently has some nice beaches!|inform
+USR|We just gotta keep it under $4000!|inform
+SYS|im sorry to tell you this but there seems to be no packages for there either, we have dominican republic if you are interested?|sorry
+USR|I heard the food sucks in Dominican Republic, but if it's within our budget and at least 6 days, I guess I'll take some info on Dominican Republic.|request
+USR|Is it at least a five star hotel?|request
+SYS|Actually there is only a 2.5 star  hotel|inform
+USR|Okay this really sucks, is that all you can offer me?|inform
+USR|No Porto, no Guadalajara and a crappy hotel in Dominican Republic.|inform
+USR|Surely you must have other destinations on August 19th???|inform
+SYS|We have a 9 day trip starting on August 29th to Mexico City in a 3.0 star hotel called Sublime Echo|offer
+USR|That does not work for us, we have to leave on the 19th and I only have a week off work.|inform
+USR|Have a nice day.|inform
+SYS|it seems that there are packages to Porto but only later in august are you flexible with your dates?|request
+USR|Like I said, we are NOT flexible.|goodbye
+USR|The wedding is already planned for the 18th.|goodbye
+USR|Good bye.|goodbye
+SYS|bye bye|goodbye

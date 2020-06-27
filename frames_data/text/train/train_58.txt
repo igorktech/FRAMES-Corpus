@@ -1,0 +1,25 @@
+USR|Hi im planning my Spring break can you help me find the best deals?|inform
+SYS|Of course!|request
+SYS|How many people will you be traveling with?|request
+USR|my three best friends and myself|inform
+SYS|And which city will you be departing from?|request
+USR|we are in Montreal|inform
+SYS|Do you have a destination in mind?|suggest
+SYS|I can offer you packages for Seattle, Montreal, San Juan, San Francisco or Sydney.|suggest
+USR|Calgary seems fun!|inform
+USR|we want to leave between the 19th and 31st of august|inform
+SYS|Are you traveling on a budget?|request
+USR|I will be, around $4700|inform
+SYS|In that case, I can book you a package for Calgary for the 27th-30th of August.|suggest
+SYS|You will be staying at the Amusement.|suggest
+SYS|It is a four-star hotel with a 0/10 guest rating, free wifi and free parking.|suggest
+SYS|You will be flying economy.|suggest
+SYS|The total cost of this package will be 4235.61USD.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|are there any flights with Business class?|inform
+SYS|The total cost will be 5651.86USD.|suggest
+SYS|Would you like me to book this package?|suggest
+USR|then nevermind lets book the one within my budget!|inform
+SYS|Your trip has successfully been booked!|thankyou
+SYS|Thank you for using our sevice!|thankyou
+USR|Thank you|thankyou

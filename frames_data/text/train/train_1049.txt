@@ -1,0 +1,24 @@
+USR|I want to got to Kochi|inform
+SYS|Hello!|request
+SYS|I would love to help with that.|request
+SYS|Where will you be leaving from?|request
+USR|anywhere.|inform
+USR|ive got 8000 and i wanna go between the 11th and 20th but my dates are flexible|inform
+SYS|Sounds good!|offer
+SYS|We have a 3.5 star hotel in the heart of Kochi close to a park.|offer
+SYS|It has average guest ratings of 7.15/10 and offers free wifi.|offer
+SYS|Would this interest you?|offer
+USR|maybe....is there anything with a better hotel rating?|inform
+SYS|That is the only availability in Kochi.|inform
+USR|Does it leave from Santos?|inform
+USR|I just found out that i'll need to leave from there.|inform
+SYS|We could take you there from Santos!|offer
+SYS|How does a 10 day stay for 5474.10 sound?|offer
+USR|sounds good to me, when is this trip?|request
+SYS|It's from September 11th to 19th.|inform
+USR|Perfect!|inform
+USR|Can you book me this trip then?|inform
+SYS|Of course!|inform
+SYS|Consider it done :slightly_smiling_face: Anything else for today?|inform
+USR|nope!|thankyou
+USR|thanks!|thankyou

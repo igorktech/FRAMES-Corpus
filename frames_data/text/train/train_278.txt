@@ -1,0 +1,15 @@
+USR|IM IN TIJUANA FIND ME A FLIGHT TO CURITIBA AUG 27 TO SEPT 4|inform
+SYS|Would you be willing to return on September 3 instead?|suggest
+USR|COST?|inform
+USR|BUT SEPT 4 IF POSSIBLE|inform
+SYS|2926.99USD|inform
+USR|HOW ABOUT FRANKFURT.|inform
+USR|AUG 27 TO SEPT 4|inform
+SYS|I can do August 29-September 4 for $3724.80|offer
+USR|ARE HOTELS INCLUDED FOR EITHER PLACE|moreinfo
+SYS|Yes they are included for both.|hearmore
+SYS|Would you like to hear more about the hotels?|hearmore
+USR|YES WHICH ONE HAS BETTER HOTEL?|request_compare
+SYS|In Frankfurt you would be staying at a 4.5 star hotel while in Curitiba you would be staying at a 3.0 star hotel.|inform
+USR|OK BOOK ME FRANKFURT PLEASE|inform
+SYS|You're booked!|inform

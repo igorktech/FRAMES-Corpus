@@ -1,0 +1,29 @@
+USR|Hi!|inform
+USR|I need to get over to Rome|inform
+SYS|Where from?|request
+USR|Im from Ulsan|inform
+SYS|Do you have a budget?|request
+USR|$20000 would that get me far?|inform
+SYS|Are you travelling alone?|suggest
+USR|Yes i need to find MEWTWO|affirm
+SYS|Do you know when you'd like to travel?|request
+USR|September 2nd i need to be there|inform
+SYS|The earliest flight we have is on September 6th, is this alright?|offer
+USR|Nope!|inform
+USR|do you have anything to kingston during my preferred dates|inform
+SYS|There is a 2.5 star hotel that includes free breakfast, wifi, and parking, from the 2nd to the 5th.|offer
+SYS|There is a park, and it is in the heart of the city.|offer
+SYS|The cost is 3649.51.|offer
+USR|that looks good!|request_alts
+USR|are there any other hotels|request_alts
+SYS|This is the only one for your dates but there is also a business class option for 4751.53.|offer
+USR|Let's look at thos|moreinfo
+SYS|It has the same information as the previous one, 2.5 stars, free breakfast, wifi, and parking.|inform
+SYS|The park is near the hotel and it is in the heart of the city.|inform
+SYS|Which do you prefer?|inform
+USR|Also from the 2nd to the 5th?|request_compare
+SYS|Yes.|affirm
+USR|PLease book the more expensive one'|inform
+SYS|Great!|inform
+SYS|Your business class trip is booked!|inform
+USR|Thank you!|thankyou

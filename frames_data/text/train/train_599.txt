@@ -1,0 +1,23 @@
+USR|I've got a group of 5 and we're looking to go to Fortaleza leaving this weekend, Sep 3 maybe|inform
+SYS|Is this 5 adults or are there children as well?|confirm
+USR|all adults|inform
+SYS|Where are you leaving from?|request
+USR|Oops sorry totally forgot to tell you!|inform
+USR|Santos|inform
+SYS|There are no trips to Fortaleza from Santos but I have found trips to St. Louis, Rosario, Paris, Sacramento, and Recife.|request
+SYS|What is your budget?|request
+USR|What about Toronto?|inform
+USR|My budget is 18400|inform
+SYS|Sure, our best package is at a 4 star hotel with a 8.8/10 guest rating.|offer
+SYS|This hotel is close to the airport and a cathedral, they also offer free breakfast and wifi.|offer
+SYS|This trip leaves September 8th and returns September 20th and the business class flights costs 15535.14.|offer
+USR|Can you also let me know some other options for Toronto so I can compare?|request_alts
+SYS|There is a 3 star hotel with a 9.16/10 guest rating that offers free breakfast and wifi.|offer
+SYS|This hotel is near a cathedral.|offer
+SYS|This package is from September 13th to 21st and for business seats included the total cost of this package is 12725.14.|offer
+USR|I'll go with the first one!|inform
+SYS|Great!|inform
+SYS|I will book this package for you and you will receive a confirmation email within 20 minutes!|inform
+SYS|Thank you and come again!|inform
+USR|Thanks so much!|thankyou
+USR|Bye!|thankyou

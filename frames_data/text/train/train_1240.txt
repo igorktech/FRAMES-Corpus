@@ -1,0 +1,18 @@
+USR|I need to fly to Fukuoka from Hiroshima|inform
+SYS|For how many people?|request
+USR|just me if you can find something for Fukuoka.|inform
+SYS|I definitely have packages but can you please tell me your budget?|request
+USR|I dont have one|inform
+SYS|Okay can please provide me with your dates?|request
+USR|I don’t have any in particular.|inform
+SYS|May I suggest the Historic Mansion Hotel  for a 10 day stay?|offer
+SYS|This is our highest rated hotel in Fukuoka at 3.5 stars and the package includes breakfast and wifi.|offer
+USR|Sure.|request
+USR|Is it near anything?|request
+USR|Does it have a pool?|request
+SYS|I have no information on it's location or on whether it has a spa or not.|inform
+USR|oh ok.|inform
+USR|That’s fine, let’s book it anyway, business class style|inform
+SYS|I have taken care of the booking for you on business class at 800.73USD.|inform
+SYS|Thank you for your booking and have happy travels to you.|inform
+USR|Thanks!|thankyou

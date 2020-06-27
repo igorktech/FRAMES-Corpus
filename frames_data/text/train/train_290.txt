@@ -1,0 +1,16 @@
+USR|yooooo i'm live in pittsburgh, gotta get away for a few days.|inform
+USR|u got anything for me leaving this sat coming back mon?|inform
+SYS|Do you have a budget?|request
+USR|nah just find me something good|inform
+SYS|Our best package is from the 27th to 29th of August at a 3 star hotel with free wifi and spa.|offer
+SYS|This hotel is near a museum, and a mall.|offer
+SYS|This package costs 5107.17 and includes business class seats.|offer
+USR|which city tho|request
+SYS|Tokyo, Japan.|inform
+USR|how much do economy class seats cost|inform
+SYS|3931.83 for economy class.|offer
+USR|k book it dawg|inform
+SYS|Done!|inform
+SYS|Your flights is booked!|inform
+SYS|Have fun!|inform
+USR|kk|null

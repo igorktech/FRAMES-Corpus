@@ -1,0 +1,27 @@
+USR|Get me on a business class flight to Washington please.|inform
+USR|Coming in hot from SL|inform
+SYS|Do you have a budget?|request
+USR|Unlimited, duh!|inform
+SYS|Are you travelling alone?|suggest
+USR|Yes ma'am|affirm
+SYS|When would you like to leave?|request
+USR|ASAP but I'm not picky!|inform
+SYS|There isn't anything to Washington but there are trips to Santo Domingo, Curitiba, Vancouver, Athens, and Buenos Aires.|suggest
+USR|Ok what if I leave from a different city than SL It could be any city|inform
+SYS|There aren't any flights to Washington.|no_result
+USR|Fine.|inform
+USR|What about...if I went to Milan instead|inform
+SYS|If you go to Milan, you would need to leave from Montreal, Tampa, Porto Alegre,  Goiania, or Atlanta.|confirm
+USR|I can get to Montreal, but can I get business class seats?|inform
+SYS|Yes!|hearmore
+SYS|There is a business class option!|hearmore
+SYS|Would you like more details?|hearmore
+USR|Yes please!|inform
+USR|I'm meeting my bestie and I'd like to have a five star hotel in Milan|inform
+SYS|I can only offer you a 4 star hotel from Montreal to Milan.|inform
+SYS|This hotel is near a museum, cathedral and is in the heart of the city, it also has a 8.37/10 guest rating and offers free breakfast and wifi.|inform
+SYS|This package is from August 26th to September 13th, with business class seats this package costs 3066.91.|inform
+USR|Ok lets do it...4 star isn't great but that way the paparazzi won't suspect I'm there either!|inform
+SYS|Great!|goodbye
+SYS|You're flights are booked for this package!|goodbye
+SYS|Have a great trip!|goodbye

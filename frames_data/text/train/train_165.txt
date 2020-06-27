@@ -1,0 +1,29 @@
+USR|Hi there!|inform
+USR|I have a couple interviews coming up.|inform
+USR|Do you have anything to Kyoto?|inform
+SYS|where would you be coming from and can you provide me with your travel dates please?|request
+USR|I'll be leaving from Santos, and ideally I'd like to be there between August 27 and 30.|inform
+SYS|I have flights to Kioto but not out of Santos.|suggest
+SYS|Are you able to depart from Nagoya?|suggest
+USR|Not really, but I can travel to Toronto instead!|inform
+SYS|You are in luck, I have packages available from Santos to Toronto close to your desired dates.|suggest
+SYS|Would an August 30th departure date be acceptable?|suggest
+USR|I would really prefer getting there for the 27th, is that possible?|inform
+SYS|I have nothing available on the 27th but I have a package available from August 24th to September 1st|offer
+USR|What if I went to Porto Alegre instead?|inform
+SYS|From Santos to Porto Alegre, I have a package from the 25th to the 28th and a package from the 26th to 29th.|suggest
+SYS|The first package would be at a 3.5 star hotel and the second at a 3 star hotel.|suggest
+SYS|Are you travelling alone?|suggest
+USR|The second package sounds interesting.|inform
+USR|What amenities does it include.|inform
+USR|Yes I'll be travelling alone.|inform
+SYS|The Deluxe Hotel is located near the University and includes a free continental breakfast and of course wifi.|offer
+SYS|It has a very good guest rating of 8.69 / 10 all for the low price of 787.76USD.|offer
+SYS|Does this offer appeal to you?|offer
+USR|It sure does!|switch_frame
+SYS|Fantastic.|suggest
+SYS|May I proceed with the booking then?|suggest
+USR|Yes, please do!|affirm
+SYS|done|inform
+USR|Great!|thankyou
+USR|Thank you so much!|thankyou

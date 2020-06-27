@@ -1,0 +1,23 @@
+USR|ay bruh i got 3300 and some naggy ass parental figures i need out of my hair.|inform
+USR|where can u get 2 adults from maceio between like ... september 11th and 24th within my budgeT?|inform
+SYS|They can have 13 days in Santos or 12 days in Sao Paulo, Manaus, Buenos Aires, or Rosario.|offer
+USR|tell me about the santos hotel|moreinfo
+SYS|It's a 3 star hotel with 8.37/10 previous guest ratings and it's next to shopping.|inform
+SYS|Free breakfast and wifi is available during the stay.|inform
+USR|not bad not bad.|inform
+USR|i would bank on that 8.37 as my sell point.|inform
+USR|for those other 12 packages - are any of them super cheap and swanky?|inform
+SYS|Nothing cheaper and also better than the Santos option.|inform
+USR|so Santos is the cheapest??|request_compare
+USR|cheapest with a 3 star rating at least|request_compare
+SYS|The 12 days in Buenos Aires is slightly cheaper at 1484.67.|inform
+SYS|But the hotel only has a guest rating of 6.61/10.|inform
+USR|but in Santos they would be gone from the 11-24 right?|confirm
+SYS|It's actually from the 12th to the 24th.|affirm
+USR|oh good enough.|request
+USR|howmuch is that package|request
+SYS|1528.79|inform
+USR|book it please|inform
+SYS|Alright, I've booked it for you!|inform
+SYS|Your confirmation will arrive via email.|inform
+SYS|Anything else for today?|inform

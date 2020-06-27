@@ -1,0 +1,17 @@
+USR|Hello - need to fly out to Queenstown soon|inform
+SYS|From where will you be flying from?|request
+USR|I could leave from two options First is Indianapolis|inform
+SYS|Do you have a budget?|request
+USR|I’d like to spend at most 4400|inform
+SYS|When would you like to leave?|request
+USR|Times are flexible for me|inform
+SYS|Our longest package is 12 days and it's from September 12th to 22nd at a 5 star hotel.|offer
+USR|That sound superb actually!|request
+USR|Could you tell me which hotel it is?|request
+SYS|It is the Illustrious Pool Hotel.|inform
+USR|Ok how much would it cost?|request
+SYS|The cost is 3456.10.|inform
+USR|I’ll confirm this booking.|inform
+SYS|Great!|inform
+SYS|Your trip is booked!|inform
+SYS|Have a great day and enjoy the trip!|inform

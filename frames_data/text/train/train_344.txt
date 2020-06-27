@@ -1,0 +1,36 @@
+USR|Hello, I represent a group of people who want to get out of Munich.|inform
+USR|our group comprises 4 adults and 6 children|inform
+SYS|Wonderful!|confirm
+SYS|Just to confirm, you will be be booking for 4 adults and 6 children?|confirm
+USR|I forgot that there is a fifth adult travelling with our group|inform
+SYS|Wonderful!|confirm
+SYS|Just to confirm, you will be booking for 5 adults and 6 children?|confirm
+USR|If you want to know, our budget for this trip is 33900|inform
+SYS|Excellent, what is the destination that you seek?|request
+USR|Our group does not care where it travels|inform
+SYS|I am pleased to extend to you an opportunity to indulge in 13 days at the exquisite Sunrise Elephant Hotel in Punta Cana.|suggest
+SYS|The hotel is rated 3.5 stars, and 8.69/10 by its guests, thanks to its close proximity to both the cathedral and the palace.|suggest
+SYS|As an added bonus, free wifi and parking are included!|suggest
+SYS|The trip costs 30025.62USD - would you like to book?|suggest
+USR|There isn't anything else I can afford with my money?|request_alts
+SYS|Alternatively, I have located a once-in-a-lifetime 8 day vacation to exotic Kochi!|offer
+SYS|You will live at the breathtaking Hotel Grandiose Rose, a 3.5 star establishment in the heart of the city, near a park.|offer
+SYS|Free parking is provided, and the trip comes to 30229.54USD.|offer
+SYS|Would you like me to book this trip instead?|offer
+USR|could I not afford any other trips for less than 33900?|inform
+SYS|how about 6 days in gorgeous Ulsan!|offer
+SYS|Live like royalty at The Sapphire Time, a 5-star flagship hotel situated near local parks, malls, and theaters.|offer
+SYS|Taking in the sights is made all the more convenient by provision of free wifi and parking - guests have given this hotel a rating of 8.98/10!|offer
+USR|sounds beautiful!!!!|request
+USR|what are trip dates|request
+SYS|The trip dates to Ulsan are from September 2 to September 6.|inform
+USR|What about the dates for KOCHI|switch_frame
+SYS|The trip dates to Kochi are from September 6 to September 12.|inform
+USR|ok what are the dates for Punta Cana|switch_frame
+SYS|The trip dates to Punta Cana are from August 27 to September 8.|inform
+USR|How much of my money would I have to spend going to Ulsan?|switch_frame
+SYS|The cost for the Ulsan trip package comes to 30332.12USD.|inform
+USR|Please, please book this terrific trip|inform
+SYS|Booking completed, email confirmation sent!|inform
+SYS|Bon voyage!|inform
+USR|Thank you.|thankyou

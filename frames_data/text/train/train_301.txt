@@ -1,0 +1,35 @@
+USR|Well to be honest I have no vacation days left and not savings to actually book something, but it doesn't hope to dream right?|inform
+USR|I figured I'd better do some research in case I win the lottery tomorrow haha|inform
+SYS|We can help you plan your dream vacation.|request
+SYS|Where would you like to go?|request
+USR|How about Milan?|inform
+USR|What's the most luxurious package you have for there?|inform
+SYS|I can check that for you.|request
+SYS|What city are you able to leave from?|request
+USR|Columbus|inform
+SYS|I regret that we have no flights from Columbus to Milan.|suggest
+SYS|Do you have other places that interest you?|suggest
+USR|Really?|inform
+USR|You have no flights at all?|inform
+USR|The dates don't matter for me|inform
+SYS|Not from Columbus.|suggest
+SYS|Are you interested in going to Seattle or San Francisco?|suggest
+USR|Oh well, even planning an imaginary vacation isn't going well for me.. Guess its not my day haha.|inform
+USR|Those cities don't interest me too much.|inform
+USR|the next city on my list is Sacramento.|inform
+USR|Do you have trips going there?|inform
+SYS|I do have packages from Columbus to Sacramento.|hearmore
+SYS|What is it that you are looking for in a hotel?|hearmore
+USR|The longest, fanciest stay EVER.|inform
+USR|oh and free breakfast!|inform
+USR|that's always fun|inform
+SYS|The Bronze Luxury Hotel in Sacramento is a five star rated hotel, our highest.|offer
+SYS|It is located near the museum and features a 10/10 guest rating, the highest possible.|offer
+SYS|You would fly business class and your five day stay would include wifi and breakfast.|offer
+SYS|The total cost on this package is $2019.63USD|offer
+USR|That would be sooooo nice.|inform
+USR|Keep it coming, what about a dream vacation to Frankfurt?|inform
+SYS|The most expensive package available in Frankfurt is a 15 day stay at the Mellow Palms Resort, a 4.5 class hotel with a guest rating of 8.86/10.|offer
+SYS|Again you would fly business class and your wifi and breakfast would be included in the total price of 4613.37USD.. Should I book it?|offer
+USR|Anyway, i'd better go and finish my work for the day.|thankyou
+USR|Thank you for the mini escape :stuck_out_tongue:|thankyou

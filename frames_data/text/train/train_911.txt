@@ -1,0 +1,23 @@
+USR|Hello.|inform
+USR|Looking to travel out of Leon with a client
+I want to find a really nice hotel to impress him - have big business deals to close|inform
+SYS|Where would you like to go?|request
+USR|Denver would be one choice.|inform
+USR|With an unlimited budget, can you describe the best trip money can buy?|inform
+SYS|When would you like to go?|request
+USR|Anytime after September 6|inform
+SYS|Our best package is a 4 star hotel, 8.69/10 guest rating, free wifi, from September 9th to 21st, business class flights, 4214.99.|offer
+USR|Thats a good start.|request
+USR|near the university?|request
+SYS|My database doesn't tell me.|canthelp
+USR|ok great.|inform
+USR|lets check some other places in that case
+look into the best package in brasilia?|inform
+SYS|We have a 3.5 star hotel near a beach, theatre, and shopping, 8.69/10 guest rating, free parking, breakfast and wifi, September 10th to 19th, business flights, 6632.76.|offer
+USR|I like that its near the beach, but 3.5 star is a little low.|inform
+USR|Lets also check out Punta Cana then|inform
+SYS|We have a 3 star hotel.|offer
+USR|Ok book 2 adults business class to Denver|inform
+SYS|Done!|inform
+SYS|Enjoy the trip!|inform
+USR|Excellent, thank you|thankyou

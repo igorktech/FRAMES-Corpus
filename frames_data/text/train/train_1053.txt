@@ -1,0 +1,22 @@
+USR|Terribly!|inform
+USR|I need to get home to Los Angeles from Milan!|inform
+USR|It's an emergency hurry!!!|inform
+SYS|Do you have a budget?|request
+USR|4200|inform
+SYS|And it'll just be you?|suggest
+USR|yes just me!|affirm
+SYS|Okay, the earliest trip leaves tomorrow and takes you to Los Angeles for 10 days.|offer
+SYS|Another option is to wait until Friday to leave and stay in Los Angeles for 14 days.|offer
+SYS|Both fit under your budget.|offer
+SYS|Which one would you prefer?|offer
+USR|No I need to leave tomorrow!|switch_frame
+SYS|Alright.|suggest
+SYS|That will be 2815.47 on economy flights.|suggest
+SYS|You will be staying at a 3.0 star hotel (8.86/10 guest rated) near the airport and mall.|suggest
+SYS|While there, you can access wifi, breakfast, and parking free of charge.|suggest
+SYS|Would you like me to confirm the booking for you?|suggest
+USR|yes!|inform
+USR|please!!!|inform
+SYS|Consider it done :slightly_smiling_face: Pack your bags and head to the airport!|inform
+USR|Thank you!|thankyou
+USR|You were a great help!!!|thankyou

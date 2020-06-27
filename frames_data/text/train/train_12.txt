@@ -1,0 +1,15 @@
+USR|Hi there, im from Vitoria and I want to go on vacation|inform
+SYS|where would you like to go?|request
+USR|I would like to go to Santo domingo|inform
+SYS|would a 7 day trip work for you?|suggest
+USR|yes that sounds fine, looking to leave on the 19th|inform
+SYS|great, I have a flight departing on the 19th and returning on the 25th of August|offer
+USR|what is the hotel like?|switch_frame
+SYS|It is called the Rose Sierra Hotel and it is a 3-star hotel that includes free breakfast, wifi and parking.|inform
+SYS|The total cost would be  $2170.90.|inform
+USR|what type of flight is that going to be?|request
+SYS|It is an economy class flight|inform
+USR|let’s book it please|inform
+SYS|Perfect.|inform
+SYS|Have a great trip.|inform
+USR|Thank you|thankyou

@@ -1,0 +1,8 @@
+USR|ahhhh hey bud.|inform
+USR|I need to get the heck outta tel aviv ASAP
+can ya get me to London for, say, 2900?|inform
+USR|and TODAY please|inform
+SYS|There are no results.|suggest
+SYS|Is there a different destination you'd like to visit?|suggest
+USR|ahhh I can leave from Sacramento|inform
+SYS|We only have packages from Sacramento to puebla, San Francisco, Indianapolis, Dublin, and San Antonio.|suggest

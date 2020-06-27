@@ -1,0 +1,11 @@
+USR|hi there|greeting
+SYS|Hello!|greeting
+SYS|How can I help you today?|greeting
+USR|i am part of a travelling circus and our van broke down.|inform
+USR|we need to get from gotham city to diagon alley|inform
+SYS|Hmm, I can't seem to find any flights to Diagon Alley.|suggest
+SYS|Did you have another destination in mind?|suggest
+USR|no i need to travel from gotham to diagon alley cause that's our next gig.|thankyou
+USR|thanks anyway|thankyou
+SYS|We hope to hear from you again soon!|goodbye
+USR|ok see ya|goodbye

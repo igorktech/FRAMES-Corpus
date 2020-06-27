@@ -1,0 +1,9 @@
+USR|I just got an intership and I need to check out my possibilities Puebla to Minneapolis and I have a 4300 budget to travel between Septemeber second until september eighteenth|inform
+SYS|We can't provide anything for you at the moment destination Minneapolis.|suggest
+SYS|Can I look up other cities for you?|suggest
+USR|Disappointing.. But yes, look at Rome|inform
+SYS|Nor to Rome.|no_result
+SYS|Neither of these destinations are available through Puebla.|no_result
+USR|What about in Atlanta?|inform
+SYS|Nor Atlanta.|no_result
+USR|This is HORRIBLE|null

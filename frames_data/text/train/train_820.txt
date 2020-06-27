@@ -1,0 +1,45 @@
+USR|I want to go to san juan from Washington.|inform
+USR|with 4 friends|inform
+SYS|Ok!|request
+SYS|What is your budget?|request
+USR|no budget|inform
+SYS|When would you like to travel?|request
+USR|whenever homeslice|inform
+SYS|Ok!|offer
+SYS|I have 14 days at The Brass Tower Inn for 6642.36 USD.|offer
+USR|Tell me more about the hotel|moreinfo
+SYS|This 2.5 star hotel is near a market.|inform
+SYS|It features free breakfast and wifi, and has received a 7.06/10 from its guests.|inform
+USR|that doesnt really interest me.|inform
+USR|Is there anything to stuttgart|inform
+SYS|I also have the Fairyland, a 4 star hotel near shopping, museums, and a market with a 8.98/10 from recent guests.|offer
+USR|not bad.|moreinfo
+USR|ill think about it.|moreinfo
+USR|Can you give me some info on stuttgart?|moreinfo
+SYS|I can book you 11 days in Stuttgart at a 3 star hotel near a museum with 7.15 from its guests.|offer
+USR|is that the best hotel?|request
+SYS|It is the only option in Stuttgart.|inform
+USR|ok.|inform
+USR|Are there any options in Kyoto?|inform
+SYS|I have Southern Palace Hotel in the heart of the city for 13 days at a price of 22481 USD.|offer
+USR|whats the hotel like|moreinfo
+SYS|3 stars, near a museum, with free breakfast and wifi.|inform
+USR|Are there any 5 star hotels?|inform
+SYS|No, not in Kyoto.|no_result
+USR|are there any 5 star hotels to the other places?|inform
+SYS|Where?|request
+USR|the other places i asked about|inform
+SYS|No, sorry - only 2.5 stars in San Juan or the one hotel in Stuttgart.|sorry
+USR|da poo?|inform
+USR|Okay fine i guess we will take the business flights for the 4 star hotel to san juan|inform
+SYS|Would you like to fly business class or economy?|suggest
+USR|business!|inform
+USR|Do yo not listen!?!?|inform
+USR|I literally said business flights|inform
+SYS|So business class?|confirm
+USR|are you stupid?|affirm
+SYS|The price for business class is 10042.46USD.|offer
+USR|finally.|inform
+USR|yes book it|inform
+SYS|Ok, I will book it.|inform
+USR|thank u|thankyou

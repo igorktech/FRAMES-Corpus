@@ -1,0 +1,4 @@
+USR|Hi there.|inform
+USR|I am writing to inquire if you do departures out of Beijing?|inform
+SYS|We do not|no_result
+USR|Thank you for the information|thankyou

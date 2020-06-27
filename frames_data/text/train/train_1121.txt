@@ -1,0 +1,50 @@
+USR|hi|greeting
+SYS|Hello!|greeting
+SYS|How may I be of help?|greeting
+USR|im just... exhausted.|inform
+USR|i need to get out of toluca
+and i cant make up my mind where to go
+i know a couple places but
+i dunno
+maybe you can tell me which is better|inform
+SYS|I'd love to help with that!|request
+SYS|When would you like to take this trip?|request
+USR|well i am off from the 15th to 26th of september|inform
+SYS|And how much budget do you have for this trip?|request
+USR|i don't really have one, i need to treat myself... within reason of course..|inform
+SYS|In that case, I'll let you know a few offerings we have and we can start from there.|offer
+SYS|Given your selections, we've got a 13 day trip to Paris, and 11 day trips to Detroit, Atlanta, Kyoto, Hiroshima, and Essen.|offer
+SYS|These are the longest trips we offer.|offer
+USR|oh wow, thanks, but i was actually thinking about going to porto alegre|inform
+SYS|No problem.|offer
+SYS|In Porto we can offer you a 5 day stay at a 3.5 star hotel next to shopping, a university, and a mall.|offer
+USR|that's alright - i would rather be near like a park, beach, garden.. something like that, i've just been cooped up in an office for ages so outdoor attractions would be better|inform
+SYS|We have no particular hotels in Porto close to outdoor attractions.|suggest
+SYS|Would you like to try another destination?|suggest
+USR|ahh, ok, well i was also thinking about denver|inform
+SYS|We only have a 3.0 star hotel in Denver that matches your needs; however, it is not particularly close to any outdoor activities.|offer
+USR|hm.. well how else does it suit my needs?|moreinfo
+SYS|It works well with your dates since it's a 10 day trip from September 15 to 24, and it is in your destination of choice.|inform
+USR|ah, ok.|moreinfo
+USR|maybe you could go back to those places you mentioned before.. i would like to hear about Hiroshima'|moreinfo
+SYS|Sure, in Hiroshima we can bring you to a 3.0 star hotel with 7.15/10 guest ratings near a museum.|inform
+USR|what about Kyoto?|switch_frame
+SYS|In Kyoto we also have a 3 star hotel near a museum.|inform
+SYS|This one has 8.69/10 guest ratings.|inform
+USR|nice!|request_compare
+USR|which is cheaper, hiroshima or kyoto?|request_compare
+SYS|Hiroshima would be an 11 day trip for 4164.55 while Kyoto would be an 8 day trip for 3435.68.|inform
+USR|gotcha.|inform
+USR|well I like the kyoto place more
+what is the hotel called?|inform
+SYS|It is none but the Sakura Inn.|inform
+USR|ok.|moreinfo
+USR|what is the Paris option you mentioned earlier?|moreinfo
+SYS|Our Paris trip includes a 13 day stay at a prestigious 4.0 star hotel with 8.49/10 rating for 2888.25.|inform
+USR|wow, that's better than the others so far... is it near anything cool?|request
+SYS|I do not have any information on that unfortunately.|sorry
+USR|ah that's ok .. seems like the best deal.|inform
+USR|I'll take it'\|inform
+SYS|Sure, I will book it for you!|inform
+SYS|You're headed to Paris from September 15-26!|inform
+USR|much appreciated - thanks!|thankyou

@@ -1,0 +1,29 @@
+USR|I need to get to Marseille from Dallas|inform
+SYS|Sure!|request
+SYS|When do you want to go?|request
+USR|trip for 1 september 9th and...
+23rd|inform
+SYS|Have you got a budget?|request
+USR|i have 1400|inform
+SYS|Sorry, but I can’t accommodate this request.|sorry
+SYS|Anything else I could try for you?|sorry
+USR|I can go to Denver|inform
+SYS|Would you prefer a 4, 5, or 6 day trip?|offer
+USR|6|switch_frame
+SYS|Ok - I have two different hotels.|offer
+SYS|Both are 3 stars, one is near a park with a 8.86/10 guest rating.|offer
+SYS|The other is near nothing of note and has a 8.69/10 guest rating.|offer
+SYS|The first hotel offers a package from September 13th-18th while the second is available from the 15th to the 20th.|offer
+USR|The one with 8.86/10 guest rating is better.|inform
+USR|Do you have anything in San Antonio?|inform
+SYS|I have two hotels from the 12th to the 19th.|offer
+SYS|Both are 2 stars, one has 7.15/10 user rating and the other has 4.74/10 from guests.|offer
+SYS|Both are near parks and malls while the higher rated one from guests is also near a museum; the lower guest rated hotel is near a theatre as well.|offer
+SYS|Both include free parking, free wifi, and free breakfast with their packages.|offer
+USR|ill go with the 3 star hotel in denver.|request
+USR|how much for the 13th to 18th|request
+SYS|With economy class flights, the total price would be 1134.6USD.|inform
+USR|good ill book it|inform
+SYS|Great!|inform
+SYS|Consider it done :slightly_smiling_face:|inform
+USR|Thnx|thankyou

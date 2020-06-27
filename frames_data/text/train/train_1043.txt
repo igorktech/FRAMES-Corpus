@@ -1,0 +1,20 @@
+USR|I have 14 days vacation|inform
+SYS|Could you provide the dates for me please?|request
+USR|whenever|inform
+SYS|Where would you like to go and from where?|request
+USR|I don’t know where i want to go, i was hoping you could help me decide.|inform
+USR|I would be leaving from Rome.|inform
+USR|I only have $400 tho|inform
+SYS|I have no packages available out of Rome for $400.|suggest
+SYS|best I can do is 4 days in Milan at $710.13|suggest
+USR|cant afford it.|inform
+USR|What if I left from Porto?|inform
+SYS|If you left from Porto instead of Rome,  I can offer you a 4 day package at the Hotel Fernando Ribero for 193.43USD|offer
+USR|Can you tell me more about the hotel?|moreinfo
+SYS|It is a 2.5 star hotel located near the park, shopping and a mall and it includes free parking, unlimited wifi use and a nice breakfast.|inform
+SYS|It is available from September 18 to September 21.|inform
+USR|Sounds pretty damn good!|inform
+USR|I’ll take er!|inform
+SYS|I will take down all your details and proceed with the reservation.|inform
+SYS|Thank you for your time today and enjoy your trip.|inform
+USR|Thank you!|thankyou

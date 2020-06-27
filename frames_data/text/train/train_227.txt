@@ -1,0 +1,17 @@
+USR|Hi I live in Kakariko Village and I want to go away!|inform
+USR|Where could I go?|inform
+SYS|I can't seem to find any flights out of Kakariko Village.|suggest
+SYS|Would you like to try another departure location?|suggest
+USR|Well I have no money... what if I just stay here and find a hotel in my own town?|inform
+USR|Do you have any packages IN Kakariko Village I can just hang out at lol?|inform
+SYS|I can't find any available hotels in Kakariko Village, would you like to try another destination?|no_result
+USR|Do you have any packages anywhere for $400?|inform
+SYS|If you can leave from Nagoya, I can book you for 7 days in Kyoto for 110.93USD.|offer
+SYS|Would you like to hear more about this package?|offer
+USR|I will find a way to get to Nagoya for that price, whatever the package is book it!|inform
+USR|$110.93 is totally within my $400 budget.|inform
+USR|:grinning:|inform
+SYS|Done!|inform
+SYS|Your package has been booked.|inform
+SYS|Enjoy your stay!|inform
+USR|Thank you for your assistance in finding this killer deal.|thankyou

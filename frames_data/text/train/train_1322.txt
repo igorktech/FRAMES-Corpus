@@ -1,0 +1,16 @@
+USR|hey, we're having a huge family trip.|inform
+USR|Think you can help us?|inform
+SYS|Of course :slightly_smiling_face: How many travellers?|request
+USR|13 kids and 13 adults!|inform
+USR|Big family eh?|inform
+SYS|Yes, indeed!|request
+SYS|Where are you travelling to and from?|request
+USR|We'll be going to Santa Cruz from Tofino.|inform
+USR|Please get us the very best :slightly_smiling_face:|inform
+SYS|I can’t book any packages out of Tofino unfortunately.|sorry
+USR|Oh no, really?|null
+SYS|Nope.|sorry
+SYS|Sorry.|sorry
+USR|Oh no, the children will be so disappointed.|inform
+USR|All 13 of them.|inform
+SYS|Sorry.|sorry

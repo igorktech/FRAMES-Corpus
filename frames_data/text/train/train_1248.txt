@@ -1,0 +1,19 @@
+USR|Next stop is San Jose!|inform
+USR|Can you get me there?|inform
+SYS|Sure thing!|request
+SYS|Where from?|request
+USR|Current stop is Manaus.|inform
+SYS|How long do you plan to go away for?|request
+USR|Just give me your best hotels.|inform
+SYS|The best hotel we have is the Tranquil Seaside Inn, rated at 4 stars with a 8.8/10 guest rating.|offer
+SYS|Our package is 9 days long and we offer both business and economy class flights.|offer
+SYS|Does this interest you?|offer
+USR|Is there any cool stuff around?|request
+SYS|Yes indeed!|suggest
+SYS|There is a beach and a museum nearby!|suggest
+SYS|Still interested?|suggest
+USR|Sign me up.|switch_frame
+USR|In business class of course|switch_frame
+SYS|Not a problem!|inform
+SYS|Your reservation has now been made.|inform
+USR|Thanks!!|thankyou

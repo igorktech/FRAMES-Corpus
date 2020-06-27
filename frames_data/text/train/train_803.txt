@@ -1,0 +1,38 @@
+USR|I have 9 days for vacation.|inform
+USR|I'm from atlanta and i'd like to leave on or after september 8th|inform
+SYS|What is your ideal budget?|request
+USR|i dont have one|inform
+SYS|Any general idea where you want to go?|request
+USR|nope|inform
+SYS|Do you need to get back by a certain day?|request
+USR|no|inform
+SYS|Alrighty, I have trips to Berlin, Baltimore, Maceio, Seattle, and San Antonio.|offer
+USR|Can you give me information for your best package in Berlin|inform
+SYS|We have a 9 day package at a 5.0 star hotel (rated 8.8/10 by guests), nearby a museum and with free wifi & breakfast.|inform
+USR|great, can you give me info on your best package in Baltimore|inform
+SYS|We only have one hotel in Baltimore.|offer
+SYS|It is a 3.0 star hotel with 7.06/10 guest rating.|offer
+SYS|There is free parking, free breakfast, and free wifi.|offer
+SYS|We offer 9 and 4 day packages here.|offer
+USR|What is your best package for Maceio|inform
+SYS|Maceio 's best is a 3.5 star hotel right by a park, a market, and a theater.|inform
+SYS|It has been rated 8.8/10 by guests and provides free wifi and breakfast.|inform
+SYS|We offer 8 day packages here.|inform
+USR|What is the best you have for Seattle|inform
+SYS|That would be a 5.0 star hotel with 8.8/10 guest rating.|inform
+SYS|We've got a 9 day package here and you get free parking and convenient access to the airport.|inform
+USR|Okay what is the best in san antonio|inform
+SYS|The best option is a 2 star hotel.. it has 7.15/10 ratings though.|inform
+SYS|It's also close to a park, a museum, a mall, and offers free wifi, parking, and breakfast.|inform
+USR|i like the option for Seattle|switch_frame
+SYS|Great!|offer
+SYS|I have the business package for 2110.58 and the economy package for 1709.68.|offer
+USR|Sure ill take the business package please|switch_frame
+SYS|It has been reserved for you!|inform
+SYS|Anything else I can do for you today?|inform
+USR|no.|moreinfo
+USR|can you send me the info tho so i dont forget the information for the trip|moreinfo
+SYS|Sure thing, it is a 9 day business package from September 10-18 at The Emerald (5.0 stars, rated 8.8/10).|inform
+SYS|The hotel offers free parking and convenient access to the airport.|inform
+SYS|You will be charged for a total of $2110.58 for this trip.|inform
+USR|thanks bye|thankyou

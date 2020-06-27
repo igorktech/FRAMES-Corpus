@@ -1,0 +1,22 @@
+USR|What hotels do you have in Vancouver?|inform
+SYS|Where are you leaving from?|request
+USR|Santos|inform
+SYS|Do you have a budget?|request
+USR|Well, I kind of want to see what hotels you have first.|inform
+USR|My budget can change a bit based on the options|inform
+SYS|How many people are travelling?|request
+USR|Just myself|inform
+SYS|Would you like a 3 star hotel or a 4 star hotel?|suggest
+USR|For sure I want the best you've got|inform
+SYS|Our very best package is a 4 star hotel, 10/10 guest rating, near a park and museum, free parking, breakfast, and wifi, from September 3rd to 14th, the business class package is 3015.77 and the economy package is 2362.11.|offer
+USR|Okay that hotel sounds good!|switch_frame
+USR|Sorry I forgot to tell you my dates: I can leave Friday September 2nd or later.|switch_frame
+USR|Are those prices for a week?|switch_frame
+SYS|The prices are from September 3rd to 14th.|inform
+USR|Can I spend a bit more to stay longer?|inform
+SYS|This is the longest package there is.|inform
+USR|I'll take it!|inform
+SYS|Great!|inform
+SYS|I'll book this trip and then send you confirmation!|inform
+SYS|Have a nice day!|inform
+USR|Perfect, thanks!|thankyou

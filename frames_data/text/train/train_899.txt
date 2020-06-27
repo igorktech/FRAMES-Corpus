@@ -1,0 +1,32 @@
+USR|I need to book a vacation.|inform
+USR|ok I’m leaving from Rio de Janeiro
+I don’t particularly care about where we go|inform
+SYS|Alright, how many are you and when would you like to leave?|request
+USR|5 adults and two children.|inform
+USR|We can travel between the second of September and the eighteenth|inform
+SYS|That sounds good.|request
+SYS|We have quite a few offerings that matches your selections.|request
+SYS|Do you have a budget in mind?|request
+USR|Yes, 13500 dollars.|inform
+SYS|Alrighty, I'm gonna throw a few possible destinations at you, let me know if something strikes the right cord: Curitiba, Santos, Mexico City, Punta Cana, Pittsburgh, Rosario.|offer
+SYS|If none of these interest you, I can give you a few more.|offer
+USR|out of all these options I am of course most intrigued by Pittsburgh!|moreinfo
+USR|do tell me more|moreinfo
+SYS|What a great choice!|inform
+SYS|In Pittsburgh you will be in a 3.5 star hotel with a whoping guest rating of 8.86/10.|inform
+SYS|You will enjoy free parking, free breakfast, free wifi, and strolls at a nearby park.|inform
+USR|Sounds very nice!|request
+USR|What would be the price of this getaway?|request
+SYS|The economy package is priced right under your budget for 13349.78.|inform
+USR|Not bad, not bad.|switch_frame
+USR|Before I proceed with anything can you tell me what your package for Rosario is like?|switch_frame
+SYS|It's at a 2 star hotel with 0/10 guest rating.|inform
+SYS|However, I can get you economy seats for as low as 3715.59.|inform
+USR|What are the dates for the Punta Cana package?|request
+SYS|The trip to Punta Cana spans from September 2 to September 14, but the hotel option is even less impressive.|inform
+USR|Oh dear.. and could you remind me what the Pittsburgh dates were?|request
+SYS|Sure!|inform
+SYS|The Pittsburgh trip runs for the same 14 days: from Sept 2-14.|inform
+USR|I think we’ll go ahead and book Pittsburgh.|inform
+SYS|Awesome!|inform
+SYS|It is booked|inform

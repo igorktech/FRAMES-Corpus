@@ -1,0 +1,35 @@
+USR|Hi there, I'd like to book a trip to Denver please|inform
+SYS|Sure thing!|request
+SYS|Where from and when?|request
+USR|From Houston.|inform
+USR|Ideally on Monday September 12th, but my dates are flexible|inform
+SYS|How many are you booking for?|request
+USR|one adult and 7 children|inform
+SYS|And do you have a budget in mind?|request
+USR|Yes, I'd like to spend no more than 4500|inform
+SYS|Perfect, our best package that works for you is a 13 day stay at a 3.0 star hotel with 8.86/10 guest rating by a park.|hearmore
+SYS|We also have two other 3 star hotels in Denver, one with 8.69/10 guest rating, and the other with 0/10 guest rating.|hearmore
+SYS|Would you like to hear more about any of these options?|hearmore
+USR|Actually, I was thinking about a stay under ten days.|inform
+SYS|We don't offer any trips to Denver from Houston under 10 days.|suggest
+SYS|Would you want to try another destination?|suggest
+USR|Sure, the other destination I was thinking of is Rio de Janeiro|inform
+SYS|We also do not offer any trips under 10 days to Rio de Janeiro.|suggest
+SYS|Can I help you search for trips in another city?|suggest
+USR|Yes sure, do you have any trips for New York?|inform
+SYS|In New York we offer 6 day packages and 10 day packages.|inform
+SYS|Do these interest you?|inform
+USR|Yes, I'm looking for a package that leaves either on or after Monday, September 12 and returns on Wednesday September 21 at the latest.|inform
+SYS|Great!|offer
+SYS|I have a 6 day package that works perfectly for you!|offer
+SYS|It is at a 2.5 star hotel from September 12-17.|offer
+SYS|The accommodation is rated 8.22/10 by guests and is conveniently located close to the airport and a museum.|offer
+USR|Are those the only options you have?|confirm
+SYS|You are correct.|affirm
+USR|Okay great, how much would that cost?|request
+SYS|4195.31 for all of you!|inform
+USR|Great, I'll take it!|thankyou
+USR|Thanks for all your help!|thankyou
+SYS|My absolute pleasure!|inform
+SYS|I will book this trip for you.|inform
+SYS|Watch out for an email confirmation coming your way!|inform

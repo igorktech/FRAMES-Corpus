@@ -1,0 +1,28 @@
+USR|Just looking into vacations departing Phili.|inform
+USR|Where could I go for under 1200?|inform
+SYS|Just you?|suggest
+USR|yup|affirm
+SYS|When are you planning on taking your vacation?|request
+USR|Sept 12 to 20|inform
+SYS|I could get you to quite a few places!|offer
+SYS|San Diego, Toronto, Dublin, San Antonio, Long Beach... any of these interest you?|offer
+USR|Whats the hotel in San Diego?|switch_frame
+SYS|In San Diego it would be a 2.5 star hotel with a 6.91/10 rating near a park.|inform
+USR|Ok, would you do any better in Toronto?|inform
+SYS|In Toronto it would be a 3.0 star hotel near the cathedral and market.|inform
+SYS|This one has 8.86/10 rating.|inform
+USR|What about in Dublin?|switch_frame
+SYS|That would be a 2.5 star hotel with 6.77/10 rating.|inform
+USR|San Antonio?|switch_frame
+SYS|In San Antonio it will only be a 2 star hotel with a 7.15/10 rating.|inform
+USR|Ok just to put you through one last search, whats good in Long Beach?|switch_frame
+SYS|Not a problem, in Long Beach we've got a 2.5 star hotel with 6.91/10 rating.|inform
+USR|Could you tell me more about the Toronto hotel?|switch_frame
+SYS|Sure!|inform
+SYS|It offers free parking, free breakfast, and free wifi.|inform
+SYS|You can stay there 8 days from Sept 13-20.|inform
+USR|Lets book it|inform
+SYS|Would you like the business tickets for 1108.4 or economy tickets for 924.67?|offer
+USR|economy please|switch_frame
+SYS|Your trip is booked!|inform
+USR|thanks!|thankyou

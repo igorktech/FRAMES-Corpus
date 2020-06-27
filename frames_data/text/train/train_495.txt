@@ -1,0 +1,17 @@
+USR|Burlington to Busan.|inform
+USR|Aug 30 to Sept 10.|inform
+USR|Got a flight dude?|inform
+SYS|I do!|offer
+SYS|I have 6 or 7 day stays at the Lethargy Hotel.|offer
+USR|Not bad, how much it cost?|request_compare
+SYS|Would you prefer flight seats in economy or in business class?|offer
+USR|Can I get business class for less than 5000?|request
+SYS|Yes!|offer
+SYS|With business class the 7 day package is 3781.35USD and the 6 day one is 4461.76USD.|offer
+USR|Is the six day package at a better hotel?|request_compare
+SYS|They are at the same hotel.|inform
+USR|Ok then as long as it fits in my dates then I’m ok with the 7 day package|request
+SYS|The dates for that one are September 1st to 6th.|suggest
+SYS|Can I book it for you?|suggest
+USR|yeah why not|affirm
+SYS|Excellent, you will receive a confirmation shortly.|inform

@@ -1,0 +1,25 @@
+USR|I've got 9 days to take off this month.. any time is good.|inform
+USR|I was looking to see where I can go from Barcelona.|inform
+SYS|Is there a budget you'd like to stay under?|request
+USR|Nope!|inform
+SYS|We've got trips to Detroit, Curitiba, Kingston, Santos, Kyoto, and Kochi.|offer
+USR|Tell me about the Kochi package first please.|switch_frame
+SYS|It is a 9 day trip from Sept 11-18 with stays at a 3.5 hotel in the heart of Kochi.|inform
+SYS|You can enjoy easy access to the park and free access to wifi.|inform
+SYS|Guests in the past have rated the experience 7.15/10.|inform
+SYS|Total will be 4963.13 with business flights.|inform
+USR|Nice!|switch_frame
+USR|I just want to hear about the package to Curitiba to compare.|switch_frame
+SYS|Our best in Curitiba is a 3.5 star beachside hotel with a solid 8.22/10 guest rating.|inform
+SYS|Free parking, free breakfast, and free wifi are offered.|inform
+SYS|The 9 day stay with business flights is 1999.50.|inform
+USR|Curitiba is a great deal!|inform
+USR|I think I'll go with that one|inform
+SYS|Sure!|inform
+SYS|I will book it for you.|inform
+SYS|Email confirmation is coming your way.|inform
+SYS|Anything else?|inform
+USR|No - that's it.|thankyou
+USR|I appreciate it :slightly_smiling_face:|thankyou
+SYS|No problem!|you_are_welcome
+SYS|Have a good trip :slightly_smiling_face:|you_are_welcome

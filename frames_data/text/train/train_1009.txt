@@ -1,0 +1,23 @@
+USR|Let me tell you about the succulent oysters I had last time I was in Kingston..
+I'm trying to get back there though, and to leave from Stuttgart
+For 4300 dollars|inform
+SYS|Is Kingston your destination?|confirm
+USR|Yea|affirm
+SYS|I can help you with that.|request
+SYS|I have several choices in Kingston.|request
+SYS|How many people will be travelling to Kingston from Stuttgart?|request
+USR|I'm travelling alone ; helps me focus on my sensitive pallet|inform
+SYS|My hotels in Kingston go up to 4 stars and the length of stays between 4 days and ten days.|inform
+USR|Higher stars are my preference, heart of the city or near a market helps too.|inform
+USR|Usually close to good restaurants|inform
+SYS|I have the Ebony Manor Inn & Suites, a 4 star hotel which is close to the museum available for 10 days or I have the Cosmos Inn which is a 2.5 star hotel located in the heart of the city available for 7 days.|offer
+USR|Cosmos Inn sounds like a better location|switch_frame
+SYS|It also includes free breakfast, parking and wifi and has a user rating of 6.37/10|inform
+USR|However I would love to hear about San Juan 's accommodation offerings.|inform
+SYS|I have the Fairyland with a 4 star rating and a great location near the  museum, shopping and the food market at 2667.37USD for a 6 day stay.|offer
+USR|Heyy that sounds awesome!|request_compare
+USR|What's the price difference between that one and Kingston's package in the heart of the city?|request_compare
+SYS|The Cosmos Inn in Kingston is  1225.8USD for a 7 day stay, so about half the price.|inform
+USR|Hmm but yea, San Juan is still a little more appealing...Can we book that one?|inform
+SYS|Yes of course!|inform
+USR|:ok_hand::knife_fork_plate:|thankyou

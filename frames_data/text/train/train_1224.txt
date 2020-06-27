@@ -1,0 +1,29 @@
+USR|I want to throw my parents on a plane and get them out of my hair|inform
+SYS|Sure, I can help book a trip for 2 adults :slightly_smiling_face: Where is the departure point, and what is the budget?|inform
+USR|departing from Sendai and i only have 4400|inform
+SYS|Sure!|request
+SYS|When would you like to have them travel?|request
+USR|between the 17th and 30th|inform
+SYS|There’s a 4 star hotel in Marseille available for those exact dates for 3618.78USD.|offer
+SYS|It has a spa and free wifi and is located near a cathedral.|offer
+USR|is the flights economy or business?|request
+SYS|Economy.|inform
+USR|Ok, do you have any other packages?|request_alts
+USR|I'll probably end up going with the Marseille one cuz marseille is romantic so it's an easy sell but I'm curious what else there is.|request_alts
+SYS|Yes, there are packages to Atlanta, Chicago, St. Louis, Ulsan, Fukuoka, and Las Vegas all within your budget and date range.|offer
+USR|What do you have in SL?|switch_frame
+SYS|The 3 star Glorious Cloak Inn, which is on the beach and includes free breakfast and wifi.|offer
+SYS|Guest rating for this hotel is 7.15/10.|offer
+USR|What's in Chicago?|switch_frame
+SYS|Soft Summit Inn near the airport and a mall.|offer
+USR|whats the hotel like there?|moreinfo
+SYS|2.5 stars with 6.91/10 guest rating.|inform
+SYS|Free parking, free breakfast, and free wifi as well.|inform
+USR|okay.|inform
+USR|Well I still like the Marseille package the best.|inform
+USR|How much is it for business?|inform
+SYS|It would be above your budget.|no_result
+USR|ok then i'll book it economy|inform
+SYS|Great, that’ll be 3618.78USD.|inform
+USR|Thanks|thankyou
+SYS|You are so very welcome!|you_are_welcome

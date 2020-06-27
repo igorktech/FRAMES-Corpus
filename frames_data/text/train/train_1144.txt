@@ -1,0 +1,9 @@
+USR|My beeeeeauuuuuuutiful wedding will take place in Cordoba on Saturday and we decided to take a honeymoon after all, even though we will pretty broke from the wedding but it's okay, you only get married once, right?|inform
+SYS|Where would you like to go and what is your budget?|request
+USR|Manaus is supposed to be sooooooooo romantic.|inform
+USR|What can we get for $3400?|inform
+USR|Anything on the beach with a spa?|inform
+SYS|Well unfortunately there are no availabilities for 2 people.|sorry
+USR|:white_frowning_face: What, am I supposed to leave my husband behind?|inform
+USR|What about Montreal??|inform
+SYS|You're in the same boat here too.|no_result

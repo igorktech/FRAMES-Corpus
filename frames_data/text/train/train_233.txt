@@ -1,0 +1,30 @@
+USR|Hi Imm looking to book a vacation to Curitiba|inform
+SYS|Ok, great!|request
+SYS|What is your preferred departure city|request
+USR|I can leave from Detroit|inform
+SYS|Awesome :slightly_smiling_face: Would you like to travel from August 30th to September 9th?|suggest
+USR|i would rather go on August 19th until September 3rd|inform
+SYS|How about the 19th-29th of August?|suggest
+USR|that would work too|switch_frame
+SYS|Great!|offer
+SYS|I can offer 11 days at the Dual Basin Residence.|offer
+SYS|It is near shopping malls, a market, and located right on the beach.|offer
+SYS|The rating is 3 stars with a guest rating of 8.22/10.|offer
+USR|That sounds interesting are there any other hotels?|request_alts
+SYS|That is the only one available within your date range.|inform
+USR|Anything in Essen during those dates?|inform
+SYS|Nothing during those dates.|no_result
+USR|Okay if i leave from manaus what would i have|inform
+SYS|You could stay 9 days at either a 2 or 3 star hotel.|offer
+USR|how much for a 3 star?|request
+SYS|With economy flights, $3602|suggest
+USR|and for business|inform
+SYS|With business flights, 4667.70USD|offer
+USR|and if i go to curitiba?|inform
+SYS|From Manaus you can spend 9 days for 1140.78USD|offer
+USR|would that be cheaper if i left from Detroit?|inform
+SYS|It would not be cheaper from Detroit.|inform
+SYS|You would stay at a 3.0 star hotel.|inform
+USR|and from manaus also a 3 star?|confirm
+SYS|yes|affirm
+USR|lets book|inform

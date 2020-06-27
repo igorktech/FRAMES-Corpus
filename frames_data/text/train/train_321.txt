@@ -1,0 +1,40 @@
+USR|Good evening.|inform
+USR|I am Hugo, father to five darling children|inform
+SYS|Hi Hugo!|request
+SYS|Where are you going?|request
+USR|We reside in Mannheim, and have been eyeing Miami as a possible destination for quite some time.|inform
+SYS|Ok!|request
+SYS|Are all of your children travelling with you?|request
+SYS|Any other adults?|request
+USR|They sure are!|inform
+USR|Do you have a flight for two adults and five children leaving on the 27th of August, returning on the 7th of September.|inform
+SYS|I do have a trip leaving on August 27 until August 31!|offer
+USR|Hmph that is unsatisfactory|negate
+SYS|Sorry :disappointed: When would you like to return?|sorry
+USR|We would have preferred to returned on the 7th of September, as I have previously stated.|inform
+SYS|You could return on September 5 instead!|offer
+USR|Would this also be leaving on the 27th of August?|confirm
+SYS|No, you would leave on August 31.|inform
+USR|Since you are unable to make our Miami plans come to fruition, then perhaps you may be of more use helping us book a flight to St. Louis instead.|inform
+USR|Same dates, also leaving from Mannheim|inform
+SYS|I can book you from August 27 until September 5?|offer
+SYS|I hope that might be somewhat satisfactory for you.|offer
+USR|That is a marked improvement indeed.|request
+USR|What are the costs associated with such a journey?|request
+SYS|At the 5 star hotel, Lunar, you would pay $18155.|inform
+USR|Are there cheaper alternatives?|inform
+USR|That is far beyond our budget|inform
+SYS|Sadly, no.|sorry
+USR|This is most unfortunate.|inform
+USR|In that case, we shall look to travel closer to home: can you book us a flight to Essen instead
+Same details as before|inform
+SYS|Only thing available is from August 31-September 3.|offer
+USR|For comparison's sake, what is the cost of the trip to Miami from August 31 to September 5|request
+SYS|8970.25USD|inform
+USR|Is there any chance you could lower that?|null
+USR|We will make do with budget airlines and seedy motels.|null
+USR|Its time the young'uns see the real world anyway.|null
+SYS|I cannot negotiate the price.|canthelp
+USR|Very well.|request
+USR|How about the price for the trip to Essen?|request
+SYS|2293.34USD|inform

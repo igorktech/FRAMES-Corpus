@@ -1,0 +1,14 @@
+USR|I need to book a trip for me and Madonna to Birmingham from Milan.|inform
+SYS|How many passengers?|request
+USR|2|inform
+SYS|Desired dates for travel please|request
+USR|anytime but i should be back by the 25th or 27th|inform
+SYS|I have the  4 star The Emerald right by the museum from Sept 17 to the 27th|offer
+USR|Do you have anything in Las Vegas for 5 stars?|inform
+SYS|Only 3 star hotels available in Las Vegas|inform
+USR|ok well i think we will go with the 4 star then.|switch_frame
+USR|Can you tell me some more about the hotel?|switch_frame
+SYS|4 star hotel with a 8.86/10 guest rating, includes free wifi.|inform
+SYS|A 12 day package via business class is 6467.39USD|inform
+USR|sign us up.|inform
+USR|business class for sure|inform

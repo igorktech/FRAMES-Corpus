@@ -1,0 +1,9 @@
+USR|Hello!|inform
+USR|I need to go to Minneapolis please.|inform
+SYS|Where are you coming from?|request
+USR|Tofino|inform
+SYS|I regret to inform you that we don't offer any trips out of Tofino.|suggest
+SYS|Is it possible to leave from another city?|suggest
+USR|No it's not|negate
+SYS|Very sorry I will not be able to help you then.|sorry
+USR|No worries|null

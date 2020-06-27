@@ -1,0 +1,36 @@
+USR|hello there|greeting
+SYS|Hello to you too|greeting
+USR|i am in need of some price comparisons, I can leave from wherever|inform
+SYS|where would you like to travel to?|request
+USR|I have requests for my available window between sept 12 until the 29th.|inform
+USR|can you tell me what you offer in Milan|inform
+SYS|Do you have a budget?|request
+USR|4300 dollars|inform
+SYS|I have several points of departure to Milan with all 9 day stays at the same hotel.|offer
+SYS|The least expensive is out of Recife, Brazil|offer
+USR|ok - whats the price and whatre the hotel details?|request
+SYS|Your 9 day stay at the 4 star Pink Star Hotel would cost 2690.20USD.|inform
+SYS|This hotel is located downtown and is near the cathedral and the museum.|inform
+SYS|Your package deal includes breakfast and wifi.|inform
+USR|hmmm downtown - sounds a little congested.|inform
+USR|I need something near a park|inform
+SYS|There's nothing in Milan with a park|no_result
+USR|if I can’t get that in Milan then I’ll try Ciudad Juarez|inform
+SYS|How many days are you looking for in Ciudad Juarez?|inform
+USR|4 at the least|inform
+SYS|In Ciudad Juarez, all my hotels are located either near the palace or the museum.|inform
+USR|what about in Long Beach?|inform
+SYS|Are you able to depart from Santo Domingo on September 20th?|suggest
+USR|whats the package?|moreinfo
+SYS|Muse Inn is located right near a park and is available for a 10 day stay at 1547.70USD.|inform
+SYS|This is a 3 star hotel with a 8.49/10 user rating.|inform
+USR|awesome!|request
+USR|is breakfast included?|request
+USR|And parking?|request
+SYS|yes parking|inform
+USR|lets go ahead and book it|inform
+SYS|Should I begin the booking process then?|suggest
+USR|please|affirm
+SYS|I will send email confirmation with all the pertinent details.|inform
+SYS|Have a pleasant day!|inform
+USR|thank you much appreciated|thankyou

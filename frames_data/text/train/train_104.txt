@@ -1,0 +1,21 @@
+USR|I'd like to book a trip from Chicago to San Diego between August 26th and September 5th.|inform
+SYS|Where will you be leaving from?|request
+USR|Chicago, and i have a strict budget of $2300.|inform
+SYS|Please excuse me, I see that you have already told me you are travelling to Chicago.|request
+SYS|Will you have any other adults of children joining you?|request
+USR|Yes i will have 3 adults coming as well|inform
+SYS|I can offer you a 4 day stay in San Diego for 2115.10USD.|offer
+USR|What rating is the hotel?|switch_frame
+SYS|Spare Time has a very good rating of 8.86/10.|inform
+USR|Are there any activities to do there?|moreinfo
+USR|We are travelling for spring break|moreinfo
+SYS|The hotel includes free breakfast, wifi and parking.|suggest
+SYS|I am unable to provide details about activities.|suggest
+SYS|Shall I book this package for you?|suggest
+USR|Yes please.|affirm
+SYS|The booking is complete.|inform
+SYS|A confirmation email will be sent to your address.|inform
+SYS|Can I help you with anything else?|inform
+USR|Nope that is everything thank you!|thankyou
+SYS|Thank you.|thankyou
+SYS|Have a nice day!|thankyou

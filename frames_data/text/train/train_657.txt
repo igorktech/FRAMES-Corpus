@@ -1,0 +1,31 @@
+USR|Hi there!|inform
+USR|My wife and I have 5 lovely children.|inform
+USR|We are free to travel between August 31 and September 18.|inform
+USR|We have a few destinations in mind, first one is Sacramento.|inform
+USR|Oh, and we're located in Sendai.|inform
+SYS|Sure thing.|suggest
+SYS|We can send you to Sacramento for 7 days or 13 days, what would you like?|suggest
+USR|Well, I have a budget of 9700.|inform
+USR|Which would fit in my budget zone?|inform
+SYS|The cheapest option in Sacramento for that many people is Salt Water Inn at 15399.53USD, so Sacramento is not within your budget.|offer
+USR|How about Rio de Janeiro?|inform
+SYS|Nothing is available in Rio de Janeiro.|request
+SYS|I can try to see if I can get some options by making your dates flexible.|request
+SYS|Would you like me to try?|request
+USR|My dates are not exactly flexible.|inform
+USR|However, I have a third destination in mind.|inform
+USR|Maybe I'll have better luck with Vancouver?|inform
+SYS|No Vancouver is not available either.|no_result
+USR|Okay fine let's make the dates flexible and see if we can find something.|inform
+SYS|It still did not yield results, any other destinations I could check for you?|suggest
+USR|Nothing for Rio de Janeiro either?|inform
+SYS|Nothing to Rio de Janeiro either.|no_result
+USR|Would you see if there's anything cheaper for Sacramento if the dates are made flexible?|inform
+SYS|I am no longer showing packages form Sendai to Sacramento, I am sorry everything must have booked up.|sorry
+SYS|Please come again.|sorry
+USR|That's unfortunate!|goodbye
+USR|I think I will have a discussion with my wife again.|goodbye
+USR|We might need to change our preferred destinations.|goodbye
+USR|I will contact you again once we reach a decision.|goodbye
+USR|Regardless, thanks for your help!|goodbye
+SYS|Thank you for your immense patience!|thankyou

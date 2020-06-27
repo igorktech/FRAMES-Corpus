@@ -1,0 +1,13 @@
+USR|Ok I would like to go to Melbourne from Santiago Actually it can be any city
+But on one condition: I want to travel for free
+My guru told me that I could make anything happen if I dreamed hard enough and focused on making it a reality
+So my dream is to travel for free and you will help make it happen|inform
+SYS|There is no such thing as free trips in my system.|no_result
+USR|My guru told me that I would encounter haters on my path to enlightenment
+It would now appear that you are a hater.|inform
+USR|What if I paid $400, where can I go from Melbourne|inform
+SYS|I am sorry, I don't have anything for that budget.|sorry
+USR|Can you check again.|inform
+USR|I am sure there has got to be something for me.|inform
+USR|I have focused on this with all my mental energy for weeks now, guru said it would work...|inform
+SYS|I am sorry.|sorry

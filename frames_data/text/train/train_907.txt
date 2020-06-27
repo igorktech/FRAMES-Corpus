@@ -1,0 +1,22 @@
+USR|ONE first class ticket to Santios|inform
+SYS|Where would you like to depart from?|request
+USR|Kingston|inform
+SYS|Sorry, there are no availabilities from Kingston to Santos.|sorry
+SYS|Maybe we can try another destination?|sorry
+USR|try Leon|inform
+SYS|We do have some trips to Leon!|request
+SYS|When would you like to go?|request
+USR|Anytime is good.|inform
+USR|But please get me into a nice hotel|inform
+SYS|I actually have two 5 star hotels in Leon.|offer
+SYS|One is close to the beach and palace and the other is close to the market.|offer
+SYS|Which one do you want me to put you in?|offer
+USR|Put me near the beach!|confirm
+USR|Do you do business class flights?|confirm
+SYS|Sure do!|offer
+SYS|I can get you business seats for 2285.14.|offer
+SYS|Your trip will be for 11 days from Sep 6-16.|offer
+SYS|Would you like me to process the booking for you?|offer
+USR|Yes do that|inform
+SYS|Consider it done!|inform
+SYS|Anything else I can help with today?|inform

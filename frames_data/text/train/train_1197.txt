@@ -1,0 +1,30 @@
+USR|Seattle it is!!|inform
+SYS|Yes!|inform
+SYS|Seattle!|inform
+SYS|Ok!|inform
+SYS|Where are you leaving from?|inform
+USR|Good old Atlanta|inform
+SYS|Any days in mind?|request
+USR|Anytime anytime!|inform
+USR|Just need to be there.|inform
+USR|Oh also with my 6 lawyers
+And my kid.. why not|inform
+SYS|I have the 5 star Emerald!|offer
+SYS|It is all I can see that is currently available for such a large party.|offer
+SYS|The guest rating is 8.8/10 and airport pickup is included.|offer
+SYS|Free parking is also available.|offer
+USR|When can we go?|request
+SYS|September 10th until the 18th.|inform
+USR|How much is it for everyone?|request
+SYS|All together the cost is 13024.40USD for economy class flights.|inform
+USR|Would business class cost a lot more?|request
+SYS|Upgrading to business class would bring your total cost to 16078.42USD.|offer
+USR|Yeah..... no.|inform
+USR|Okay I'll take the economy flights!!|inform
+SYS|Ok!|inform
+SYS|Absolutely - I will proceed with booking for you in that case..|inform
+USR|Thanks!|thankyou
+USR|Anything else needed from me?|thankyou
+SYS|Nope - I will send along a confirmation email and you can proceed through the link provided to confirm your billing and ticketing information.|inform
+SYS|Enjoy!|inform
+USR|Thanks!|thankyou

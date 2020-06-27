@@ -1,0 +1,11 @@
+USR|hello my little pet.|inform
+USR|i have a little angel to see to in phoenix and i may leave from anywhere|inform
+SYS|Destination - Phoenix?|request
+SYS|Departure - ?|request
+USR|i must travel between september seventh and seventeenth and with 1100 dollars at the most.|inform
+USR|i will depart from St. Louis i suppose|inform
+SYS|We do not fly from St. Louis to Phoenix|no_result
+USR|oh no!|inform
+USR|what about to atlanta?|inform
+SYS|From St. Louis?|confirm
+USR|yes|affirm

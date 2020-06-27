@@ -1,0 +1,23 @@
+USR|I want to go to Kabul from Baltimore|inform
+SYS|I'm afraid we do not have any flights from Baltimore to Kabul.|sorry
+SYS|Would you like to go to another city?|sorry
+USR|London?|inform
+SYS|I'm afraid we do not have any flights from Baltimore to London.|sorry
+SYS|Would you like to go to another city?|sorry
+USR|Toluca?|inform
+SYS|I'm afraid we do not have any flights from Baltimore to Toluca.|sorry
+SYS|Would you like to go to another city?|sorry
+USR|Fortaleza?|inform
+SYS|Yes, we have packages for that.|suggest
+SYS|How long would you like to go for and what is your budget?|suggest
+USR|4100 budget.|inform
+SYS|And is this flight for one person?|suggest
+USR|ya|affirm
+SYS|How long would you like to go for?|offer
+SYS|We have 8, 12 and 13 day packages.|offer
+USR|13|switch_frame
+SYS|Excellent choice.|suggest
+SYS|Would you like me to book it straight away?|suggest
+USR|actually no.|negate
+USR|I cant book anything.|negate
+USR|I dont have any vacation days left.|negate

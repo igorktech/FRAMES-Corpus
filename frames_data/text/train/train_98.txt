@@ -1,0 +1,28 @@
+USR|hi im in mannheim and want to spend a week away|inform
+SYS|Where are you planning on going?|request
+USR|i was thinking about burlington|inform
+SYS|Do you have a budget for this trip?|request
+USR|no id just like to compare packages|inform
+SYS|okay, how many people will be attending this trip?|request
+USR|just me|inform
+SYS|any dates in mind?|request
+USR|august 17-august 24|inform
+SYS|OKay let’s find something, Would you rather stay at Celestial inn & Suites a 3.0 star hotel or at Excursion Motel which is a 2.5 star hotel?|offer
+USR|hm.. well i don't know about 3.0 stars only.|inform
+USR|what about trips to Sendai?|inform
+SYS|Sorry, unfortunately there are no trips to Sendai|no_result
+USR|how about curitiba?|inform
+SYS|As well no packages available|no_result
+USR|ok... well how about to SL?|inform
+SYS|Sorry nothing to SL but we have trips from Mannheim to Germany and Italy|inform
+USR|can you give me some more information on the burlington packages?|moreinfo
+SYS|The Excursion motel has free wifi and Free Parking while celestial has Free breakfast and free wifi|inform
+USR|how much are each of the packages?|request_compare
+SYS|celestial goes for about $2145 and the Excursion Motel is $1900.|inform
+SYS|that is for economy seating of course.|inform
+USR|ok let's book celestial.. how much to upgrade to business?|request
+SYS|celestial will be $2740 for business class should i book that for you?|suggest
+USR|yes lets do it!|affirm
+SYS|cool beans!|goodbye
+SYS|have a good trip!|goodbye
+USR|:grimacing: thanks!|thankyou

@@ -1,0 +1,28 @@
+USR|Hey I need to get out of here, just need some space to myself!|inform
+SYS|Sure :slightly_smiling_face: Where are you looking to get out of?|request
+USR|Seattle!|inform
+USR|I just need a break from all the performing all those cameras.|inform
+USR|My best friend will be coming with me.|inform
+USR|We're thinking of going to Minneapolis|inform
+SYS|I have a lovely 2.5 star hotel in Minneapolis for a 9 day stay.|offer
+USR|2.5 stars?|inform
+USR|Are you kidding me?|inform
+USR|Do you think I'm a 2.5 star kind of person?|inform
+USR|I think I deserve much better than that!|inform
+USR|Give me the best you got!|inform
+SYS|I only have 2.5 star hotels available in Minneapolis.|inform
+USR|Let's try Punta Cana then, there's got to be something better there!|inform
+SYS|Certainly!|inform
+SYS|I have 3 and 3.5 star hotels available in Punta Cana.|inform
+SYS|Which one would you like to hear about first?|inform
+USR|3.5 only?|inform
+USR|I guess if that's the best you've got... I also need to get back by October 1st at the latest for my gig.|inform
+SYS|I have a package leaving Sept 26 and returning to Seattle on the 1st!. 6 days at 3.5 star rated Sunrise Elephant Hotel.|offer
+SYS|It has 8.69/10 from past users, is near a cathedral and a palace, and includes free wifi and parking.|offer
+USR|That sounds pretty good.|inform
+USR|But do you have anything longer?|inform
+SYS|No- this is the longest trip available.|inform
+USR|Fine, if that's the best you got, I'll take it.|switch_frame
+SYS|Yes, of course.|inform
+SYS|Expect email confirmation shortly.|inform
+USR|Cool!|null

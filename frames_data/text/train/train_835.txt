@@ -1,0 +1,37 @@
+USR|Hi there!|inform
+USR|I'm stuck in Burlington and I need to go to Dublin.|inform
+SYS|Hi!|greeting
+SYS|What are your travel needs?|greeting
+USR|My needs are that I need travel sometime between September 12 and September 17.|inform
+SYS|Ok, sure!|request
+SYS|Have you got a budget?|request
+USR|I do not but I am going to make you work here cause I want it to be the best deal possible meaning value per dollar.|inform
+SYS|Unfortunately I only have trips returning by September 21st if you leave by the 14th.|sorry
+USR|No, I need to travel sometime between September 12 and September 17.|inform
+USR|What about if I go to NY instead.?|inform
+SYS|Sorry, still nothing within this date range.|sorry
+USR|Geez, you guys suck.|inform
+USR|Let's try Osaka then.|inform
+SYS|I have one hotel available!|offer
+SYS|R&B Hotel Prophecy from the 12th to the 17th.|offer
+USR|Okay now we are getting somewhere.|moreinfo
+USR|Tell me ALL about this hotel.|moreinfo
+SYS|It is 2.5 stars, near a museum, has free breakfast and wifi, and has received a 7.06/10 rating from previous guests.|inform
+SYS|The package would cost 3793.39 USD for economy class flights.|inform
+USR|wow that's pretty pricey for 2.5 star hotel.|request_alts
+USR|Is that all you got in Osaka?|request_alts
+SYS|Yes, that is it.|no_result
+USR|That just leaves Denver.|inform
+USR|Please tell me you have something in Denver!|inform
+SYS|I have Solar Inn Of Denver available from September 12 until the 17th.|offer
+SYS|It is 3.0 stars, 8.69/10 guest rating, has free wifi, and costs 1049.46 for economy class flights.|offer
+USR|What's it close to?|request
+SYS|I do not have that information.|canthelp
+USR|What about the Osaka one, what's that close to?|request
+SYS|A museum.|inform
+USR|Value for dollar Denver seems to be a much better deal and I don't have to travel as far....I'll go with Denver.|inform
+USR|Can you upgrade me to business class?|inform
+SYS|Yes, that brings your total to 1242.1USD.|offer
+USR|That sounds good.|switch_frame
+USR|Go ahead and reserve that for me.|switch_frame
+SYS|Great, will do!|inform

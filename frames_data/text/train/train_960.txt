@@ -1,0 +1,16 @@
+USR|im broke but wanna dip out of north vancouver|inform
+SYS|If you give me your budget, where you would like to go, and when you would like to go, I'll see what I can do.|request
+USR|im broke ok|inform
+SYS|Alright.|offer
+SYS|The cheapest possible way out North Vancouver I can get for you, as unbelievable as it sounds, is a 9 day trip to San Juan for 127.38.|offer
+USR|ok well i can swing 400 bucks.|request_alts
+USR|anything else?|request_alts
+SYS|Nope, it can still only get you to San Juan.|offer
+SYS|Although you can choose to stay 9 or 10 days and afford to fly on business class if you'd like.|offer
+USR|uyeah ok well i wanna go for 10 days then in that case|switch_frame
+SYS|Alright, a 10 days stay + business flights to San Juan will be 189.83.|suggest
+SYS|Would you like me to book it?|suggest
+USR|yes book|inform
+SYS|Done!|inform
+SYS|You are getting out of North Vancouver :slightly_smiling_face:|inform
+USR|thanks ur dope|thankyou

@@ -1,0 +1,34 @@
+USR|so i need to get from Milan to Ulsan.|inform
+USR|sept 6 to 11|inform
+SYS|Certainly!|offer
+SYS|How does five days at the Crimson Seaside Hotel sound?|offer
+USR|i dont know, how well rated is this hotel?|switch_frame
+SYS|Quite well - 4.0 stars.|inform
+USR|hm sell me on it a bit more.|request
+USR|what amenities do they offer|request
+SYS|As you wish!|inform
+SYS|The hotel is located near a bustling market and picturesque palace in downtown Ulsan.|inform
+SYS|Your stay will feature free wifi usage as well as free parking.|inform
+USR|But I'll have to pay for breakfast?|request
+SYS|Sadly there is no free breakfast at the Seaside Hotel :disappointed:|sorry
+USR|but how much would i stand to pay|request
+SYS|If flying economy class the price would be 2835.82USD for the whole package.|inform
+USR|can you confirm the dates for me?|request
+SYS|You would depart Milan on September 6th, returning on September 9th.|inform
+USR|and thats the longest trip you can get me, based on the range of dates i gave you?|confirm
+SYS|Yes, I’m sorry|sorry
+USR|how about if i were to leave on august 30th instead could you still book me there but for longer?|inform
+SYS|I sure could!|sorry
+SYS|I have 10 day packages at the Sapphire Time or the Escape Cave.|sorry
+SYS|Both are 5 star hotels located near parks and shopping districts; the former near a market and theatre with the latter near a mall.|sorry
+SYS|Both offer free parking and wifi, sadly no free breakfast, and The Sapphire Time features a 8.98 guest rating with the Escape Cave boasting 8.8/10 in user reviews.|sorry
+USR|How could I say no to the Sapphire??|inform
+USR|What's the longest stay you can arrange for me?|inform
+SYS|I can give you 10 days at the Sapphire Time from September 3 until the 11th.|offer
+USR|Put me down for that, please and thank you!|switch_frame
+SYS|You’ve got it :slightly_smiling_face: Economy or Business class flights?|suggest
+USR|How much more does business class cost?|request
+SYS|4638.5USD, economy package would total 3612.60USD)|suggest
+USR|don't mind if i do...business class.|inform
+USR|book it...|inform
+SYS|Sure|inform

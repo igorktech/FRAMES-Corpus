@@ -1,0 +1,18 @@
+USR|I need to maybe go to to Ciudad Juarez|inform
+SYS|Where from?|request
+USR|Anywhere it's cheap|inform
+SYS|What is your budget?|request
+USR|1600 dolaritos|inform
+SYS|Are you looking for a long trip or a shorter trip?|request
+USR|4 days|inform
+SYS|We have a 4 day package from the 8th to 11th of September at a 3.5 star hotel.|offer
+SYS|Does this interest you?|offer
+USR|How much $$$ and is it near a park?|switch_frame
+SYS|1564.89 and it is near a palace.|inform
+USR|k no I need something near a park|inform
+SYS|There are no hotels hear near any parks.|no_result
+USR|How about in San Diego then?|inform
+SYS|There are no results.|no_result
+USR|Anything in La Paz?|inform
+SYS|Nothing near a park.|negate
+USR|Do you think they will let me use the palace grounds in Ciudad Juarez?|switch_frame

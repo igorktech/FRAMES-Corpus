@@ -1,0 +1,7 @@
+USR|you do flights from North Vancouver to Washington?|inform
+SYS|Will you be travelling as one?|suggest
+USR|I will indeed.|affirm
+SYS|What date would you like to arrive in Washington?|inform
+USR|I’d want to get there on August 29 or right after|inform
+SYS|Regretfully, we do not have any flights from North Vancouver to Washington.|suggest
+SYS|Can I help you with other destinations?|suggest

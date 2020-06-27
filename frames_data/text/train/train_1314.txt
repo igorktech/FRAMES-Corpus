@@ -1,0 +1,18 @@
+USR|I need to find a nice travel package that is available between today and Friday Sept 16|inform
+SYS|Do you have a budget?|request
+USR|2900|inform
+SYS|Do you have a destination in mind?|request
+USR|No as long as I leave from Cordoba|inform
+SYS|Travelling alone?|suggest
+USR|yes|affirm
+SYS|We have two results.|offer
+SYS|A 6 day package to Tampa from the 11th to 16th, and a 5 day package to Atlanta from the 12th to 16th.|offer
+USR|I can only leave on the 12th.|switch_frame
+USR|So tell me more about the second option please|switch_frame
+SYS|It is a 3 star hotel near the beach, 7.15/10 guest rating, free parking and wifi, economy flights, and the cost is 2801.25.|inform
+USR|No breakfast included?|request
+SYS|No, unfortunately.|sorry
+USR|I guess that sound okay, I'll take it|inform
+SYS|Great!|inform
+SYS|Booked!|inform
+SYS|Have a nice day!|inform

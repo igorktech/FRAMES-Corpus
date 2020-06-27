@@ -1,0 +1,22 @@
+USR|I have a CRUCIAL meeting with my investors in Santa Cruz, you MUST get me there|inform
+SYS|Okay!|request
+SYS|Where will you leave from?|request
+USR|Santiago|inform
+SYS|Do you have a budget?|request
+USR|Not for Santa Cruz|inform
+SYS|Ok.|suggest
+SYS|Are you traveling alone?|suggest
+USR|To Santa Cruz, yes|inform
+SYS|When would you like to leave?|request
+USR|Anytime, I'll schedule the meeting once I get my flights confirmed|inform
+SYS|We have no flights from Santiago to Santa Cruz|no_result
+USR|Okay I thought that may be the case so I have a back-up plan.|inform
+USR|Fly me to Washington from Santiago with my 5 colleagues then.|inform
+USR|No more than 2600 though.|inform
+SYS|There are still no results.|no_result
+USR|Can you try Tofino then?|inform
+USR|For 12 of us?|inform
+SYS|Budget?|request
+USR|2000|inform
+SYS|Nothing.|no_result
+USR|Ridiculous|null

@@ -1,0 +1,7 @@
+USR|Hi there.|inform
+USR|I need flights from Beijing to Busan
+For 3 adults|inform
+SYS|Hello!|sorry
+SYS|I’m sorry to inform you we actually don’t service Beijing.|sorry
+SYS|Can I help you with something else?|sorry
+USR|thanks!|thankyou

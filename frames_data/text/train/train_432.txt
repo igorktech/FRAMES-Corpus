@@ -1,0 +1,13 @@
+USR|Well I am currently living permanently in a cubicle on the 8th floor of a building in Puebla but I want to pretend I am somewhere else instead.|inform
+USR|Fly me to Leon please
+Whats the fanciest place I can go to for 3600|inform
+SYS|I must inform you that we do not fly from Puebla to Leon.|no_result
+USR|How about to beautiful Toronto, can you take me there?|inform
+SYS|No we have limited flights to Toronto too and none from Puebla|no_result
+USR|How about Athens?|inform
+SYS|I regret to inform you that we do not have any flights available from Puebla to Athens either.|suggest
+SYS|Do you have any other dream destinations I can search for?|suggest
+USR|Monterrey?|inform
+SYS|I have no flights from Puebla to Monterrey.|no_result
+SYS|You may fly from other cities to Monterrey, but not Puebla.|no_result
+USR|Thank you, but I will go use another service that can better satisfy my escapist fantasies|thankyou

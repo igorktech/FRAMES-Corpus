@@ -1,0 +1,25 @@
+USR|Hello.|inform
+USR|I’m hearing good things about the uni in Hiroshima.|inform
+USR|I would like to visit there and leave from Burlington.|inform
+SYS|Burlington to Hiroshima for one?|suggest
+USR|Correct.|affirm
+SYS|Do you have dates and length of stay desired?|request
+USR|Nope - I’m free as a bird!|inform
+USR|Aside from having 2 grand to spend, that is.|inform
+SYS|I have no packages for under $2000.|suggest
+SYS|best I can do is $2415.57 for 8 day stay.|suggest
+USR|Well, what if I left from Manaus to Hiroshima?|inform
+SYS|Nothing in Hiroshima for under $2000.|no_result
+USR|I guess I’ll have to go to San Juan.|inform
+SYS|Burlington to San Juan?|confirm
+USR|Sure.|affirm
+USR|Go for it.|affirm
+SYS|Our best hotel in San Juan for under $2000 is the Fairyland, 4 STAR, wifi included , 10 day stay  all for one low price of  1277.49USD|offer
+USR|Sounds good.|switch_frame
+USR|Is it downtown?|switch_frame
+USR|Near any nice dive bars or brew pubs?|switch_frame
+SYS|No but it's near the museum, shopping and market.|inform
+SYS|I do not know if there are "dive bars or brew pubs" nearby.|inform
+USR|Ok let’s book that package to San Juan please.|inform
+SYS|Processing booking, have a nice weekend.|inform
+USR|Thanks :smile:|thankyou

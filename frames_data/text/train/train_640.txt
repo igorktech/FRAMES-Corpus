@@ -1,0 +1,23 @@
+USR|Cleveland to Fukuoka|inform
+SYS|Hi!|request
+SYS|How many adults and children will be traveling on this trip?|request
+USR|2|inform
+SYS|2 adults and 0 children, is that correct?|suggest
+USR|yes|affirm
+SYS|I can get you a 11 day trip at the Oceanside Hotel hotel, would you want this?|offer
+USR|whats its rating|request
+SYS|3.5 star hotel, rated 8.22/10 by its guests.|inform
+USR|where else can I stay with a higher rating|inform
+SYS|That's our best hotel in Fukuoka!|suggest
+SYS|Would you like check a different destination?|suggest
+USR|fine, check buenos aires|inform
+SYS|We've got a 4 star hotel in Buenos Aires, rated 8.69 by its guests.|offer
+SYS|Would you like to know more about this option?|offer
+USR|yeah, sure!|switch_frame
+USR|whats it like|switch_frame
+SYS|You would be living in heart of the city, next to a park.|suggest
+SYS|You'd also get to indulge in amenities such as free parking, free breakfast, and free wifi.|suggest
+SYS|Total trip is 12 days, should I go ahead and book this trip?|suggest
+USR|but fine, book it|inform
+SYS|Will do!|inform
+SYS|Hope the rest of your day goes swimmingly :slightly_smiling_face:|inform

@@ -1,0 +1,33 @@
+USR|Hello|inform
+SYS|Ok!|request
+SYS|I can try to help.|request
+SYS|Where are you located?|request
+USR|I live in Lima.|inform
+USR|where can i go for 2600|inform
+SYS|How about 19 days in Puebla?|offer
+USR|oh i only have 6 days|inform
+SYS|Well, how about 6 days in Minneapolis?|offer
+USR|tell me more!|request
+USR|where would i be staying?|request
+SYS|Antique Mantle is near a university, has a 2.5 star rating with 7.15/10 user review.|inform
+SYS|This facility has free parking, free breaking, and free wifi.|inform
+USR|Thats okay, but I feel like I can do better.|request_alts
+USR|have any other suggestions?|request_alts
+SYS|I have a 3.5 star hotel in Punta Cana.|offer
+USR|I was just going to ask about Punta Cana!|request
+USR|Are there any attractions nearby?|request
+SYS|Yes!|inform
+SYS|A cathedral and a palace.|inform
+USR|And this is a better hotel right?|confirm
+USR|Any amenities?|confirm
+SYS|Free parking, free wifi, and 8.69 guest rating.|inform
+USR|not bad.|request
+USR|and whats the cost|request
+SYS|1495.70USD|inform
+USR|what dates would i be booked on?|request
+SYS|Septembre 2-7|inform
+USR|book it|inform
+SYS|Ok.|inform
+SYS|I will book this package for you.|inform
+USR|Ok|affirm
+SYS|Enjoy!|goodbye

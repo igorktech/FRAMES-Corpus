@@ -1,0 +1,17 @@
+USR|get me out of santiago for 13 days|inform
+SYS|where would you like to go?|request
+USR|i dont care|inform
+SYS|when would you like to go?|request
+USR|anytime|inform
+SYS|I have several options out of Santiago.|request
+SYS|Do you have a spending limit for this trip?|request
+USR|400|inform
+SYS|For $365.36USD,  I can get you to Vitoria, Spain to a 3 star hotel located right in town, in business class to boot.|offer
+USR|Is this my only option?|confirm
+SYS|yes|affirm
+USR|oh…well then I guess I’ll take it hahah|inform
+SYS|Business or economy?|suggest
+USR|business duh|inform
+SYS|Your trip has been booked at the Hotel Oro  for 4 days.|inform
+SYS|Enjoy your stay.|inform
+USR|thank ya kindly.|thankyou

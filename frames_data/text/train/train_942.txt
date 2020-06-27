@@ -1,0 +1,26 @@
+USR|You too!|greeting
+SYS|How can I help you?|greeting
+USR|Could you get me to Berlin, from Portland?|inform
+SYS|No unfortunately.|sorry
+SYS|Can we get you there from another city?|sorry
+USR|Could you try again but this time with me departing from Dublin?|inform
+SYS|Can't get you there out of Dublin either.|no_result
+USR|can you check flights to baltimore|inform
+SYS|I can get you to Baltimore from Berlin!|offer
+USR|i can only depart from dublin!|inform
+SYS|You never mentioned your budget|request
+USR|oh yes, my budget is 2100|inform
+SYS|We have the resort Countryside available for you in Baltimore for 16 or 11 days, whatever you prefer.|offer
+SYS|16 day stay is 1558.65USD and an 11 day stay is 1320.96USD.|offer
+SYS|It is a 3 star hotel and you will have free wifi, breakfast and parking should you require it.|offer
+USR|but which one gets there earliest?|request_compare
+SYS|The 16 day package has a Sept 4th departure whereas the 11 day package is not available until Sept 12th.|inform
+USR|ok then definitely the 16 day package.|request
+USR|i assume the prices are for economy class?|request
+SYS|Yes do you want to fly business?|suggest
+USR|no just fly economy please|inform
+SYS|Should I go ahead and book the 16 day package at 1558.65USD for you then?|suggest
+USR|Yes please :slightly_smiling_face:|affirm
+SYS|Your booking is confirmed.|inform
+SYS|Good luck and safe tarvels.|inform
+USR|Thank you, glad to be going back so soon|thankyou

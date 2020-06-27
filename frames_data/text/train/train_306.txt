@@ -1,0 +1,23 @@
+USR|Hi, can you please tell me how much would it cost to for two adults and a child to go from Seoul to Naples for five days?|inform
+SYS|Would you be interested in spending 11 days in Naples for $6351?|offer
+USR|That is way over our budget of 3200.|inform
+USR|There really isn't a shorter trip available?|inform
+SYS|I’m sorry, there is nothing else available in my database for shorter duration.|sorry
+USR|Can you please try Seoul to Long Beach.|inform
+USR|Also for five days and same amount of travelers.|inform
+SYS|6 days in Long Beach would cost $7119.86USD|offer
+USR|Can you find any flights leaving Seoul that I could look into instead?|inform
+SYS|I can send you to Hiroshima for 4 days at 1429.35USD.|offer
+SYS|If you could spend 14 days away I can find you a package in Kyoto for only 645 dollars.|offer
+USR|How good are the hotels in Hiroshima and Kyoto?|request_compare
+SYS|In Kyoto you would stay at a 3 star hotel.|inform
+SYS|In Hiroshima, the same.|inform
+USR|Which hotel has higher customer ratings?|request_compare
+SYS|In Kyoto the guest rating is 0/10.|inform
+SYS|Hiroshima for 7.15.|inform
+USR|Glad I asked, wow.|inform
+USR|Okay book us for Hiroshima for 4 days please.|inform
+SYS|Ok!|inform
+SYS|I will book that for you :slightly_smiling_face:|inform
+USR|Thank you!|thankyou
+SYS|You're welcome|you_are_welcome

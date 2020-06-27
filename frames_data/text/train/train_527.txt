@@ -1,0 +1,23 @@
+USR|Hi there, I'm trying to buy a nice anniversary surprise for my lovely parents.|inform
+SYS|Lovely!|greeting
+SYS|How can I help you?|greeting
+USR|I saved up 2400, but I don't know what flights I can get Can you help me?|request
+SYS|Sure!|request
+SYS|When would you like to leave and how many people are traveling?|request
+USR|It will just be my two parents Something between August 29 to September 14, as long as possible|inform
+SYS|Where will the flight need to leave from?|request
+USR|New York|inform
+SYS|There are packages to Monterrey, Long Beach, Hamburg, Sacramento, Las Vegas, and Miami.|offer
+USR|Which one leads to the longest trip?|request_compare
+SYS|Our longest package is a trip to Monterrey!|suggest
+SYS|Oriental Peaks Hotel is a 4 star hotel near a beach, museum, and theatre.|suggest
+SYS|This hotel has a 8.8/10 guest rating and offers free breakfast, wifi, and parking.|suggest
+SYS|This is a 17 day package from August 29th to September 14th as you requested.|suggest
+SYS|This economy flight costs 2085.77.|suggest
+SYS|Would you like to book this package?|suggest
+USR|Wow that is phenomenal, please book it for us!|inform
+SYS|Done!|goodbye
+SYS|This flight is booked!|goodbye
+SYS|Thank you!|goodbye
+SYS|Have a nice day!|goodbye
+USR|Thanks, you too!|thankyou

@@ -1,0 +1,39 @@
+USR|Hi!|greeting
+USR|I am very excited!!!!|greeting
+SYS|That's great news!|greeting
+SYS|How can I help make your day better?|greeting
+USR|Help me find a flight and a hotel in Chicago!!!!|inform
+SYS|From where?|request
+USR|Fortaleza!!!|inform
+SYS|Do you have a budget?|request
+USR|2600 but I really don't want to spend it all!!!|inform
+SYS|I'll see what I can do.|request
+SYS|When would you like to leave?|request
+USR|I can only do my internship between Sept 13 and 23|inform
+SYS|Travelling alone?|suggest
+USR|Yesssss!!!|affirm
+USR|For the very first time!!!|affirm
+SYS|We have an 8 day package from the 13th to 19th at a 2.5 star hotel near a museum and university.|offer
+SYS|The hotel has a 8.69/10 guest rating and offers free parking, breakfast, and wifi.|offer
+SYS|This trip has economy class flights for 1637.45 and business class flights for 2048.81.|offer
+USR|That sounds pretty good to me but since I am new at this and travelling alone for the first time I need to look at ALL my internship options.|inform
+USR|What about flights and hotels to Detroit?|inform
+SYS|We have an 8 day stay from the 16th to 23rd at a 3 star hotel near a park and mall.|offer
+SYS|The hotel has a 8.86/10 guest rating and offers free parking, breakfast, and wifi.|offer
+SYS|The cost of this package is 2265.38 and it is only available in economy.|offer
+USR|What about in Santo Domingo?|inform
+SYS|We have no results for Santo Domingo|no_result
+USR|It really would be better if I was near the university.|inform
+USR|Do you have anything in Detroit near the university?|inform
+SYS|I don't have anything else to offer in Detroit|no_result
+USR|That decides it then, I'll take the one in Chicago!!!|switch_frame
+USR|How do I book it?|switch_frame
+SYS|Would you like to book Business or economy flights?|suggest
+USR|Definitely economy|inform
+SYS|Ok!|inform
+SYS|Consider it done!|inform
+SYS|You will receive the email shortly.|inform
+SYS|Have a great day and enjoy the trip!|inform
+USR|Thank you!!! :|thankyou
+USR|hugging_face:|thankyou
+SYS|Come again next time you want to book a trip!|you_are_welcome

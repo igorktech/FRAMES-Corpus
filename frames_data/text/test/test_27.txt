@@ -1,0 +1,32 @@
+USR|hi|greeting
+SYS|Hi !|greeting
+USR|I would like to go to burlington from new york on august 27.|inform
+USR|four adults.|inform
+USR|budget is 10800|inform
+SYS|Ok!|offer
+SYS|I can book Sept 7-9 for 1801 dollars|offer
+USR|what about naples from new york|inform
+SYS|For 4 adults I can book Aug 31-Sep 6 for 7559 dollars|offer
+USR|and Burlington from New York for 4 adults?|inform
+SYS|Sept 7-9 for 1801 as mentioned earlier.|inform
+USR|for 4?|confirm
+SYS|yes|affirm
+USR|i need to go from august 27 to 31 though|inform
+SYS|Ok!|offer
+SYS|I can book New York to Naples for  Aug 31 to Sept 6 or Sept 5|offer
+USR|ok.|confirm
+USR|sounds good
+for four people|confirm
+SYS|Yes, for four people the price could be $7559.38|offer
+USR|sounds good|affirm
+SYS|Would you like to hear about the hotels?|hearmore
+USR|yes|affirm
+SYS|From Aug 31-Sept 6 the Tower Hotel is available which is 4.0 stars.|inform
+SYS|If you went until the 5 of September the Courtyard Resort would be available which is 3.0 stars and located in the heart of the city.|inform
+USR|tower hotel.|switch_frame
+USR|looks
+good|switch_frame
+SYS|Ok!|inform
+SYS|I will book that for you.|inform
+SYS|The total will be 7559.38 USD.|inform
+USR|thanks|thankyou

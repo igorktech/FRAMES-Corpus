@@ -1,0 +1,21 @@
+USR|Hello.|inform
+USR|I'd like to leave from Tel Aviv
+And go to Puebla|inform
+SYS|Are you travelling alone?|suggest
+USR|I'm traveling with 6 adults including myself.|inform
+USR|We have 2200 between us|inform
+SYS|There are no results.|no_result
+USR|How about......if we left from Tofino?|inform
+SYS|Still nothing.|no_result
+USR|How about......if we went to Portland instead
+...but this time...
+...with 3 adults...
+...and...
+...wait for it...
+...2500 in cold, hard, cash|inform
+SYS|Portland from Tofino or Tel Aviv?|inform
+USR|Whichever works|inform
+SYS|There are no results.|no_result
+USR|Well I can't say I didn't try hard enough|goodbye
+SYS|Bye!|goodbye
+SYS|Come again!|goodbye

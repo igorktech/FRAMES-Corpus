@@ -1,0 +1,40 @@
+USR|Hey!|inform
+USR|I've got 6 vacation days starting August 27.|inform
+USR|I want to see what's available from Chicago!|inform
+SYS|Hello, do you have a budget?|request
+USR|Nope!|request
+USR|What can you find me?|request
+SYS|I have flights to Santos, for 6 days at about $3000|offer
+USR|Ok, ok.|request_alts
+USR|Anything else?|request_alts
+SYS|There is a trip to Rio de Janeiro, Brazil, staying at 2.5 star hotel for about 2700.49USD|offer
+USR|interesting.. What else?|request_alts
+SYS|That is it|no_result
+USR|Ok, what if I have a flexible departure date?|inform
+SYS|Oh, you can go to Fukuoka, Senbai, Busan and Seoul|offer
+USR|Now you're talking.|request
+USR|What's available in Seoul?|request
+SYS|19 days for 4921.46USD or 3801.27USD in economy class.|offer
+SYS|3 star hotel|offer
+USR|I like it.|switch_frame
+USR|Where is the hotel?|switch_frame
+USR|What's included?|switch_frame
+SYS|Harborview Hostel and Suites is near a park|inform
+USR|I'd love something on a beach.|request
+USR|are any of the hotels in busan on the beach|request
+SYS|No beach, I am sorry, but the ones in Fukuoka are near a palace|sorry
+USR|What is the hotel in Santos like?|moreinfo
+SYS|3.5 star hotel near museum & palace for 3170.80USD (6 days stay)|inform
+USR|Nice, nice.|switch_frame
+USR|what about in Rio de Janeiro?|switch_frame
+SYS|3 stars hotel  near park, museum, university, @ 2049.25USD|inform
+USR|Ok.|request
+USR|What rating is the Fukuoka hotel|request
+SYS|3.5 stars|inform
+USR|free breakfast?|request
+SYS|only free wifi|inform
+USR|What are the dates in Busan?|request
+SYS|August 30 to September 12|inform
+USR|Ok.|inform
+USR|Well lets book Santos|inform
+SYS|ok|inform

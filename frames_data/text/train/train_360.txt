@@ -1,0 +1,12 @@
+USR|I want to go to Monterrey from Tofino|inform
+SYS|Do you have a budget?|request
+USR|no I am very flexible with the price.|inform
+USR|but I would like it if it could be around 3300 for 7 adults|inform
+SYS|I am sorry, but  I don't have any results for that|sorry
+USR|I could increase my budget by 200.|inform
+SYS|Hi, so after double checking, I found that we do have something to Long Beach|suggest
+USR|No, that wont work.|goodbye
+USR|hmm i guess i'll have to go somewhere else.|goodbye
+USR|that's okay.|goodbye
+USR|Thanks for the help anyway.|goodbye
+SYS|Goodbye|goodbye

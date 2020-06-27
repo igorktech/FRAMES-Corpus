@@ -1,0 +1,8 @@
+USR|hi im from Coruscant looking to go to atlantis|greeting
+SYS|Hey there!|greeting
+SYS|I'm unable to come up with anything for those locations, how about a trip from Cleveland to San Juan?|greeting
+USR|i can leave from Kakariko Village does that work?|inform
+SYS|Kakariko Village eh?|confirm
+SYS|I'm having trouble finding that location.|confirm
+USR|im gonna go now, thanks anyway|thankyou
+SYS|Thank you for using this service.|thankyou

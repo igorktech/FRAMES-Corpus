@@ -1,0 +1,25 @@
+USR|Hey, I need a break from work, a break from SL|greeting
+SYS|I'd be happy to help you find the perfect getaway.|request
+SYS|Where would you like to go?|request
+USR|i’d be leaving from indianapolis thinking about going to Fortaleza september 2 until the tenth|inform
+SYS|I have two trips that fit your exact dates.|hearmore
+SYS|Both are 3 star hotels.|hearmore
+SYS|One of them has a guest rating of 7.15/10 while the other has a guest rating of 9.32/10.|hearmore
+SYS|Do you have any questions about these two?|hearmore
+USR|Oh, yes tell me more about the 9.32 guest rating hotel!|moreinfo
+SYS|It is conveniently located close to a park and a museum.|offer
+SYS|While there, you enjoy wifi, breakfast, and parking free of charge.|offer
+SYS|Flying business will cost you 3767.4, and flying economy will cost you 2956.73.|offer
+USR|can you tell me whats available in Queenstown from Indianapolis - same dates?|inform
+SYS|Unfortunately we don't offer any trips from Fortaleza to Queenstown that fit within your dates.|sorry
+SYS|Can you make your dates flexible?|sorry
+USR|In Fortaleza, is the 7.15 guest rating hotel on the beach by any chance?|request
+SYS|there is no nearby beach... but it is close to a mall!|inform
+USR|well in that case I think we should go with the higher rated option|switch_frame
+SYS|Sure!|inform
+SYS|Do you want to go with business for 3767.4 or economy for 2956.73?|inform
+USR|i think ill splurge for business!|switch_frame
+SYS|Sounds good!|inform
+SYS|I will confirm the reservation for you.|inform
+SYS|Have a good vacation!|inform
+USR|thank you , i need it :smile:|thankyou

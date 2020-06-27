@@ -1,0 +1,4 @@
+USR|Long Beach to Belo Horizonte September eighth|inform
+SYS|is there any flexibility on your date?|request
+USR|sure|affirm
+SYS|Regretfully we do not have flight packages from Long Beach to Belo Horizonte|no_result

@@ -1,0 +1,19 @@
+USR|i am daydreaming late at work and i want to think about maybe possibly perhaps going to phoenix|inform
+SYS|Hello, how can I help you?|greeting
+USR|leaving from porto alegrie.|inform
+USR|can i get to phoenix for.... 4600?|inform
+SYS|We have 15 days trip at 2497.34USD, near museum and airport,  or 3211.27USD in business class.|offer
+SYS|includes free breakfast parking and wifi|offer
+USR|WOW.|inform
+USR|perhaps i could go across the ocean on my budget...paris is supposed to be lovely this time of year.|inform
+USR|whats available from porto to paris?|inform
+SYS|We have 7 days trip at 4339.88USD in 4 star hotels in business class or 2401.95USD in economy class.|offer
+SYS|Its near a museum and a palace|offer
+USR|Just under budget!|inform
+USR|pretttttty neat.|inform
+USR|whats Paris got to offer?|inform
+SYS|7 days at 4 star hotel for 2686.56 flying business class.|offer
+USR|nice, nice.|moreinfo
+USR|can you tell me a litle more about that hotel?|moreinfo
+SYS|near museum, guest rating of 8.86 includes free wifi|inform
+USR|wonderful well I can't book anything right now.. I've gotta get back to work|goodbye

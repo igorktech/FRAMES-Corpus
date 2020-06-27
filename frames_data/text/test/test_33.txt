@@ -1,0 +1,15 @@
+USR|from san antoni to anywhere.|inform
+USR|leaving friday sept 2.|inform
+USR|coming back on tues sept 15|inform
+SYS|What is your budget?|request
+USR|1100|inform
+SYS|We have a flight to Calgary, Punta Cana, San Diego, Atlanta, Denver, Burlington, and Houston.|suggest
+USR|to atlanta|switch_frame
+SYS|This is a 3.5 star hotel that offers free wifi and free parking and is also on the beach and near a park.|inform
+SYS|The cost of this package is 500.70 and is from September 8th to 13th.|inform
+USR|well, im gonna book the one you suggested|inform
+SYS|The package to Atlanta?|confirm
+USR|yup from san antoni|inform
+SYS|Great!|inform
+SYS|Your trip is booked!|inform
+SYS|Glad I could help and have a nice day!|inform

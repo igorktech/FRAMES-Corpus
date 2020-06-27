@@ -1,0 +1,13 @@
+USR|Hello, I'm looking to book a trip for two from Puebla to Hamburg|inform
+SYS|I can help you with that!|request
+SYS|Any dates in mind?|request
+USR|The date doesn't matter; i just need to pay less than $1400.|inform
+USR|$1300*|inform
+SYS|Unfortunately the cheapest package I can offer you is 2814.82USD.|sorry
+SYS|Did you have any other destinations in mind?|sorry
+USR|Okay that definitely does not work.|inform
+USR|How much would it cost to leave from Guadalajara instead?|inform
+SYS|It would be significantly cheaper, however it would still be over your budget :disappointed:|inform
+USR|What if I were to increase my budget to $1700.|inform
+USR|Would you be able to find me anything departing from Puebla at that price point?|inform
+SYS|The best deal I can offer you would be 1819.63USD for Guadalajara to Hamburg.|offer

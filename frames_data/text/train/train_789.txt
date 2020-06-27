@@ -1,0 +1,24 @@
+USR|I would like to go to Nagoya please :slightly_smiling_face:|inform
+SYS|Sure!|request
+SYS|And where would you like to leave from?|request
+USR|Busan|inform
+SYS|Do you have a travel date in mind?|request
+USR|september 7-21 and i have a tight budget of 3800|inform
+SYS|Ok!|offer
+SYS|I have a trip well under your budget.|offer
+SYS|The 3 star Oceanside Resort is available from Sept 12-20.|offer
+SYS|It has a guest rating of 8.69/10, is near a university, and the cost of wifi, breakfast, and parking are all included in the package price of $617.53.|offer
+USR|what’s the best package you have for Leon?|inform
+SYS|I have the 5 star Sunny Aurora Hotel available from either Sept 8-13 or 12-19.|offer
+SYS|The first set of dates would be cheaper as it is a shorter duration.|offer
+SYS|The second set has a longer duration|offer
+USR|oo baby, now we’re cookin’.|inform
+USR|Do you have any packages to Paris?|inform
+SYS|Yes!|offer
+SYS|I have Sept 7-19 at a 4 star hotel near museums, shopping, and a cathedral for just about 2700 dollars.|offer
+SYS|Business class flights included in this price.|offer
+USR|Okay, How much does the longer package at the 5 star hotel in leon cost?|switch_frame
+SYS|3657.5USD for economy class flights.|inform
+USR|I’ll take it please|inform
+SYS|You’ve got it :slightly_smiling_face: Thanks for booking!|thankyou
+USR|Thank you!|thankyou

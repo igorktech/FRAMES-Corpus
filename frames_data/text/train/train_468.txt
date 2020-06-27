@@ -1,0 +1,24 @@
+USR|Hi there I have a very important request to make today I need to get from Essen to Porto Alegre on August 28 or some point thereafter.|inform
+USR|But most importantly I need you to book me the best hotel in Porto|inform
+SYS|I can definitely help you with that.|request
+SYS|How many adults and children will be travelling?|request
+USR|I am a lone wolf|inform
+SYS|Do you have a budget and length of trip in mind?|request
+USR|I got 5G, want to stay as long as it will permit|inform
+SYS|I can offer you a 4 star hotel with outstanding guest reviews of 10/10.|inform
+SYS|The Golden Keep Hotel is close to a park, beach, shopping and a mall and you will enjoy free wifi and breakfast.|inform
+SYS|However, this trip is only 8 days long.|inform
+SYS|I can offer you longer trips, but the hotel will not be as luxurious.|inform
+SYS|What would you prefer?|inform
+USR|Wow thats not bad.|inform
+USR|But there’s no 5 star hotel?|inform
+SYS|And you would be flying in business class!|inform
+USR|Alright|null
+SYS|Unfortunately we do not have 5 star hotels available for your dates and within your buget|sorry
+USR|I’m willing to spend up to 6000 if it means I get a 5 star|inform
+SYS|Actually, I'm afraid there are no 5 star hotels in my database in Porto.|sorry
+USR|Thats a letdown.|inform
+USR|Ok put me up in the Golden Keep hotel then, book it|inform
+SYS|I will, enjoy your stay!|inform
+SYS|Rest assured that you are staying in our best hotel in Porto.|inform
+USR|Thanks!|thankyou

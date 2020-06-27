@@ -1,0 +1,2 @@
+USR|Kabul to Marseille!!!!!|inform
+SYS|We do not fly out of Kabul|no_result

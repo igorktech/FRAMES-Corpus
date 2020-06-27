@@ -1,0 +1,17 @@
+USR|you do flights from north vancouver to c-bus?|inform
+SYS|Would c-bus stand for Columbus?|confirm
+USR|it would, yes|affirm
+SYS|Columbus it is.|inform
+SYS|Dates and number of people travelling please?|inform
+USR|sept 16 to 20.|inform
+USR|1 person, but needs to be under 3300|inform
+SYS|In Columbus, we are presently offering a 4 night stay at the 2.5 star Crown Jungle Inn located on the beach and close to the palace.|offer
+SYS|Does this interest you?|offer
+USR|If thats my best option, then sure|switch_frame
+SYS|It suits your dates with a departure on the 16th and a return date on the 19th.|inform
+SYS|Total cost is 959.36USD on economy class.|inform
+USR|I’m ok with that|null
+SYS|Should I proceed with booking then?|suggest
+USR|:+1:|affirm
+SYS|Booking confirmed. :|inform
+SYS|+1:|inform

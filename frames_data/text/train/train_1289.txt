@@ -1,0 +1,14 @@
+USR|I want to go to Cancun from Dallas|inform
+SYS|Okay, will you be going on your own?|request
+SYS|And will you have a budget?|request
+USR|I am going alone and my budget is unlimited, but I would like to travel between the 17th and 30th|inform
+SYS|We have one package that suits your needs.|offer
+SYS|It's 9 days long at a wonderful 4 star hotel that includes free parking, breakfast and wifi, coming to a total of 869.43 for economy and 1052.86 for business.|offer
+SYS|Doesn't that sound amazing?|offer
+USR|What are the dates for the 9 day package?|request
+SYS|September 20th to September 28th.|suggest
+SYS|Would you like to book?|suggest
+USR|Yes!|affirm
+SYS|Your amazing package deal has now been booked!|inform
+SYS|An email with all the details will be with you shortly!|inform
+USR|Thanks!|thankyou

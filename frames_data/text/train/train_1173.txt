@@ -1,0 +1,26 @@
+USR|san jose to guadalajara|inform
+SYS|When would you like to go?|request
+USR|between septemeber 6 to 21|inform
+SYS|How many total will be traveling?|request
+SYS|And do you have a budget?|request
+USR|one no|inform
+SYS|Alrighty then, our very best in Guadalajara is a 3.0 star hotel with 8.37/10 guest ratings and located near a park and an airport.|offer
+SYS|I can offer you a 14 day stay with business flights.|offer
+USR|san jose to cordoba|inform
+SYS|In Cordoba I can get you a 5.0 star hotel with 8.98/10 ratings next to a museum.|offer
+SYS|We have a 11 day trip available.|offer
+USR|san jose to kyoto|inform
+SYS|In Kyoto it will be a 3.0 star hotel also next to a museum.|offer
+SYS|Average guest rating is 8.22/10 and the longest trip is 9 days.|offer
+USR|san jose to calgary|inform
+SYS|In Calgary we have a 14 day trip to a 4 star hotel next to a university.|offer
+USR|how much for the cordoba one|request
+SYS|2990.99 in business class and 2330.97 in economy class.|offer
+USR|what is the calgary guest rating|request
+SYS|0/10|inform
+USR|ok cordoba... sounds better..|switch_frame
+SYS|I agree.|suggest
+SYS|Would you like me to confirm the business or economy package for you?|suggest
+USR|business pls|switch_frame
+SYS|Done!|inform
+SYS|Anything else I can do for you today?|inform

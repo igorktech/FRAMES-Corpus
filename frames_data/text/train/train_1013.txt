@@ -1,0 +1,25 @@
+USR|HaaaAAAaaaYYYY.|inform
+USR|I’m just a normal girl, just like everybody else, I just wanna go to Monterrey ok??|inform
+SYS|Hi!|request
+SYS|Sure!|request
+SYS|from where?|request
+USR|I can leave from wherever !|inform
+SYS|Great!|request
+SYS|Do you have a budget?|request
+USR|omg NooOoOo|inform
+SYS|Okay, when would you like to leave?|request
+USR|Whenever!|inform
+SYS|Do you need to return by a certain date?|request
+USR|Nope!!|inform
+USR|I can just do my thang whenever however long|inform
+SYS|Well my database tells me that there are no flights to Monterrey.|no_result
+USR|WHAAAAT omg.|inform
+USR|You  must have something in Columbus available for me|inform
+SYS|Our best package is a 3.5 star hotel, business class flights, hotel is near a museum, shopping, mall, and is also in the heart of the city, 8.22/10 guest rating, free breakfast and wifi, from September 12th to 25th, and the cost is 4942.67.|offer
+USR|oh god 3.5.|inform
+USR|BUT Book me the package anyway I’ll just crash with my girl if the concierge is chill|inform
+SYS|Okay, sounds great!|inform
+SYS|This package is booked for you!|inform
+SYS|Have a good trip and safe travels!|inform
+USR|thanks omg this has been such a pleasant experience!!|thankyou
+USR|Booking trips just like everyone else HA|thankyou

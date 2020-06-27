@@ -1,0 +1,35 @@
+USR|I would like to go on a trip with my wife and 2 kids.|inform
+USR|Our budget is 3700 and we'd like to go between august 27th and september 10th.|inform
+USR|I've been thinking about going to Curitiba from Paris|inform
+SYS|I have one option available for you.|sorry
+SYS|Unfortunately, it is slightly above your budget at 4961.26USD.|sorry
+SYS|However, it is an 11 day package.|sorry
+SYS|Would you like some more details on it?|sorry
+USR|yes I would like more details please|moreinfo
+SYS|We have the Muse available from August 27 to  Sept 6.|inform
+SYS|It carries a 2 star rating but with a very high user rating of 8.98/10.|inform
+SYS|It included free wifi throughout your stay.|inform
+USR|how much is this package?|request
+SYS|$4961.25USD based on you travelling on economy class.|inform
+USR|I will have to reject this package, it is just too expensive.|inform
+USR|Maybe you could check flights to Seattle for me?|inform
+SYS|I do have several packages available in Seattle but all are higher than your budget, the least expensive costing 5301.23USD.|suggest
+USR|hm...how about Miami?|inform
+USR|I can increase my budget by $1000|inform
+SYS|No need.|request
+SYS|In Miami, I have several packages available which fit your budget and date criteria.|request
+SYS|Would you prefer to be near the airport or the mall?|request
+USR|I think we'd rather be by the mall so my wife can shop!|inform
+SYS|Close to the mall and park, I have the 3 STAR Triple Aegis, with an option of 9 or 11 days.|suggest
+SYS|A 9 day stay will cost you  2435.97USD and an 11 day stay will cost you 2219.45USD.|suggest
+SYS|These are both also available on business class seats and still under your budget.|suggest
+USR|What are the dates for the cheaper package?|switch_frame
+SYS|Departing Aug 30th, returning Sept 6th|inform
+USR|That sounds good to me.|request
+USR|How much are business seats for this package?|request
+SYS|3122.50USD|inform
+USR|not too shabby.|inform
+USR|I like this one and so does the wife, so we will go ahead and book this one please|inform
+SYS|I will proceed with booking.|inform
+SYS|Have a great day.|inform
+USR|Thank you so much!|thankyou

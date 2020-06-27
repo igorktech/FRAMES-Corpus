@@ -1,0 +1,13 @@
+USR|hi there i want 2 search on a trip 2 go………..|inform
+SYS|Where would you like to go and where are you leaving from?|request
+USR|i live in  sydney and i am going 2 bring my grandkids on a special vacation…..can we go to curitiba……...|inform
+SYS|How many people are you bringing?|request
+USR|my 3 grandchildren….|inform
+SYS|Do you have a budget?|request
+USR|3100 dollars...|inform
+SYS|There are no results.|no_result
+USR|what if we go to maceio…………………..|inform
+SYS|No results for this either.|no_result
+USR|u are breaking this old womans heart………….. can we go 2 vancouver...|inform
+SYS|There are no results for this either.|sorry
+SYS|Sorry!|sorry

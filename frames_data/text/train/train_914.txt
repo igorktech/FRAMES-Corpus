@@ -1,0 +1,32 @@
+USR|Hi there.|inform
+USR|Looking to get out of Toronto with a few friends|inform
+SYS|Where to?|request
+USR|We don't need to go far, but we would like to see how far our budget can stretch us as far as luxury hotels|inform
+SYS|What is your budget?|request
+USR|We have 6200|inform
+SYS|How many people?|request
+USR|6 of us|inform
+SYS|All adults?|confirm
+USR|all adults.|affirm
+SYS|When would you like to leave?|request
+USR|we'd like to fit this trip between sept 1 to 12|inform
+SYS|We have a package to Las Vegas, Calgary, Sacramento, Vancouver, Phoenix, and Burlington.|offer
+USR|yes, what do you have for us in calgary?|switch_frame
+SYS|We have a 2 star hotel near a park and airport, 6.51/10 guest rating, free parking, breakfast and wifi, from September 2nd to 11th, 4661.23 for business flights, and 4059.51 for economy flights.|offer
+USR|can we get a better hotel in Vancouver?|negate
+USR|2 star hotel definitely wouldn't be our first choice|negate
+SYS|I double checked and we also have a 4 star hotel in Calgary near a university.|offer
+SYS|They have a 0/10 guest rating, free parking and wifi, from September 2nd to 9th, business flights costs 2289.75 and economy flights cost 1717.77.|offer
+USR|but do also look at Vancouver for me please|inform
+SYS|We have a 4 star in Vancouver.|offer
+SYS|It is near a park and museum, 10/10 guest rating, free parking, breakfast and wifi, from September 2nd to 10th, business flights for 5176.65 and economy flights for 4707.32.|offer
+USR|Booking business class flights still leaves us with some room|switch_frame
+SYS|Would you like to book?|suggest
+USR|Yes why not|affirm
+SYS|Great!|suggest
+SYS|Business flights or economy?|suggest
+USR|business|inform
+SYS|Awesome!|inform
+SYS|Your flight will book automatically after you confirm your payment details in the confirmation email I have sent.|inform
+SYS|Safe travels and have a great day!|inform
+USR|Great, thanks a lot!|thankyou

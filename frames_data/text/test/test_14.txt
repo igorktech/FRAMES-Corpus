@@ -1,0 +1,32 @@
+USR|I want to book a travel package to melbourne from puebla|inform
+SYS|Okay.|request
+SYS|Do you have a budget for your trip?|request
+USR|yes 3400.|inform
+USR|leaving on sunday august 21|inform
+SYS|Will you be travelling alone?|suggest
+USR|yes.|inform
+USR|can you tell me the prices of all the hotels available in melbourne|inform
+SYS|The prices for each hotel are 868.86, 953.63, 1052.51,  1144.95, 1155.19, 1382.78.|offer
+USR|868.86 sounds like a nice price, I'll go with that|switch_frame
+SYS|No, but there is a great package at a 4 star hotel, with a park, free wifi, breakfast and parking.|inform
+SYS|The cost is 868.86 and leaves August 24th.|inform
+SYS|Does this interest you?|inform
+USR|i would like to leave on august 21 though...|inform
+SYS|None of the packages in my database leave on August 21st.|inform
+SYS|The earliest flight leaves on the 24th.|inform
+USR|can i get the price for one night at each hotel in melbourne|request_compare
+SYS|We have two 4 star hotels near a park that include free breakfast, free wifi, and free parking.|inform
+SYS|Both packages are from August 24th to September 5th.|inform
+SYS|One package costs 868.86 and 1052.51.|inform
+SYS|The cheaper package is for economy class flight and the expensive package is for the business class flight.|inform
+USR|ok.|inform
+USR|i will stay there for as long as 3500 will get me.|inform
+USR|the best hotel in town.|inform
+USR|5 stars|inform
+SYS|The highest rated hotel in my database for your request is 4 stars.|inform
+USR|ok.|inform
+USR|fine.|inform
+USR|I have a 4500 $ budjet and I will star as long as that money lasts.|inform
+USR|thx|inform
+SYS|The packages are at the same 4 star hotel.|inform
+SYS|One package is for economy seats and the other package is for business class.|inform

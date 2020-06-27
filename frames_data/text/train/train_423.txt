@@ -1,0 +1,23 @@
+USR|get me from Buenos Aires to the nicest hotel in Punta Cana.|inform
+USR|And I mean ASAP!!!!|inform
+SYS|Does August 30th as a departure date work for you?|suggest
+USR|Yes, I just need to get back by Sepetember 12.|inform
+SYS|Great!|inform
+SYS|The package I’m looking at would have you back on Sept 4|inform
+USR|Ok, but how good is the hotel.|inform
+USR|I need business class tickets also.|inform
+SYS|The hotel is unrated.|inform
+SYS|The price with a business class ticket would cost 2625.38USD|inform
+USR|What about Fukuoka then, can you find me a five star hotel there|inform
+SYS|The hotel is in Punta Cana.|inform
+USR|I want Buenos Aires to Fukuoka|inform
+SYS|And you would only like options for 5 star hotels?|confirm
+USR|Preferably, yes.|affirm
+USR|Thats where my superstar self ought to stay, away from the riff raff.|affirm
+SYS|I’m sorry but the highest hotel rating I can find is the Oceanside Hotel with a 4 star rating.|sorry
+USR|Ratings, amenities, is it near anything cool?|request
+SYS|Its in the heart of the city and has free wifi.|inform
+SYS|The package costs 8316.1USD from September 3-11|inform
+USR|What would it cost if I booked for two adults|request
+SYS|14828.39USD with business class flights.|offer
+USR|BOOK IT.|inform

@@ -1,0 +1,26 @@
+USR|Hi there|greeting
+SYS|Hello there, how may I be of help?|greeting
+USR|You can take me to Tampa.|inform
+USR|Whats the nicest hotel you have there?|inform
+SYS|The nicest is a 3 star hotel close to the park, museum, beach, and airport.|offer
+SYS|It offers free wifi, breakfast, and parking.|offer
+SYS|Guests in the past have rated it 8.8/10.|offer
+SYS|Does this sound appealing to you?|offer
+USR|I just want to ascertain that it is somewhere a pop star might stay at.|confirm
+USR|You can verify that you don't have anything better in town?|confirm
+SYS|I confirm.|affirm
+USR|I’ll take your word for it!|inform
+USR|Ok lets talk numbers
+I have 1300
+And I’d like to get there on September 12|inform
+SYS|Where are you leaving from?|request
+USR|Portland|inform
+SYS|I can offer you a 10 day business package at the hotel previously mentioned for 938.53 starting from Sep 14.|inform
+USR|I don’t need business class.|inform
+USR|Well actually
+It can’t hurt I suppose
+Yes I’m down
+Lets do it|inform
+SYS|Okay, I will book the business package for you!|inform
+SYS|Anything else you need?|inform
+USR|Thats it|thankyou

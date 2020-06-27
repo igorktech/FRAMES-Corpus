@@ -1,0 +1,26 @@
+USR|I need to get to porto alegre for 9 days from seattle.|inform
+USR|I only got 3600 dollars and need to get there september first.|inform
+SYS|Unfortunately I don't have any ten-day packages to Porto Alegre.|suggest
+SYS|I could book you a stay in the Breakwater Hotel from the 27th to the 31st of August for 2715.16USD.|suggest
+USR|try going to Busan instead|inform
+SYS|I can book you an 8-day package in the Lethargy Hotel  for 2172.95 USD.|offer
+USR|i would indeed like to hear more about this package|switch_frame
+SYS|You would be staying at the Lethargy Hotel, a 3-star hotel with a 6.77/10 guest rating, free wifi, free breakfast and free parking.|suggest
+SYS|This resort is conveniently located in proximity to the park, museum and university.|suggest
+SYS|You would be departing on Thursday, August 25th at 10:00a.m.|suggest
+SYS|and returning on Wednesday, August 31st at 5:00 p.m. Would you like me to book this package?|suggest
+USR|I suddenly want to go to Phoenix|inform
+SYS|I could send you to Phoenix for 9 days for 1500.75USD.|offer
+SYS|You would fly out the 27th of August.|offer
+USR|when do i return from there!|switch_frame
+SYS|How about the Recreation Inn, a 3-star hotel with a 6.91/10 guest rating, free breakfast, free wifi and free parking?|offer
+SYS|This resort is located in close proximity to both the museum and the university.|offer
+SYS|You would be departing for your destination on Saturday, August 27th at 12:00p.m.|offer
+SYS|and leaving on Sunday, September 4th at 5:00a.m.|offer
+SYS|The total cost of this package is 1500.75USD.|offer
+USR|I need to leave sept 1 and come back around the 10th|inform
+SYS|I could do this for you from 6th to the 14th of September.|offer
+SYS|This would cost a total of 881.63USD.|offer
+USR|and this is in phoenix?|confirm
+SYS|That's correct.|affirm
+USR|ok no thats not good enough im going elsewhere|goodbye

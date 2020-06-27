@@ -1,0 +1,35 @@
+USR|Good day!|inform
+USR|We got married last week and we'd like to go off to San Antonio for a bit!|inform
+SYS|Hello, from which city would you be leaving from?|request
+USR|From beautiful Houston man!|inform
+SYS|Wonderful, do you have departure and return dates in mind?|request
+USR|We gotta leave on Sept 1st if we wanna make the game.|inform
+USR|I'd like to stay ten days, maybe we can catch 2 games!|inform
+SYS|Great, and how many adults and children are coming in this trip?|request
+USR|Just the two of us man!|inform
+SYS|Will that be two adults?|confirm
+USR|Yes, of course,  you gotta be 18 to get married in Houston|affirm
+SYS|I am pleased to inform you that we have a travel package available, leaving Houston for San Antonio on September 1st and returning on September 10th.|offer
+SYS|You will be staying at the charming Winter Hill Inn, a 2 star hotel with close proximity to parks, malls, and theatres, and featuring free breakfast, free wi-fi, and free parking.|offer
+SYS|You would be flying business class, and the total cost comes out to 1219.94.|offer
+SYS|Would you like to confirm this booking?|offer
+USR|Hey bud, I only have $900 bucks!|request_alts
+USR|Anything cheaper?|request_alts
+USR|We really don't have to fly business class!|request_alts
+SYS|I am pleased to inform you that we have a travel package available, leaving Houston for San Antonio on September 1st and returning on September 10th.|offer
+SYS|You will be staying at the charming Winter Hill Inn, a 2 star hotel with close proximity to parks, malls, and theatres, and featuring free breakfast, free wi-fi, and free parking.|offer
+SYS|You would be flying economy class, and the total cost comes out to 1051.85.|offer
+SYS|Would you like to confirm this booking?|offer
+USR|Do you know what that's close to?|request
+SYS|I can confirm that the hotel in close proximity to parks, malls, and theatres.|inform
+USR|I guess my bride can go shopping while I go to the game.|inform
+USR|This sounds like a great package but I only have $900.|inform
+SYS|Unfortunately that is the lowest price I can find for the given dates.|sorry
+SYS|Would you be open to changing the dates so that more pricing options are made available?|sorry
+USR|I guess $150 is not that big a deal and this one works with the games, just go ahead and book it.|inform
+USR|Thanks, bud.|inform
+SYS|Excellent, I have booked your trip for you and will send you an email confirmation shortly.|inform
+SYS|Bon voyage!|inform
+USR|Merci!|thankyou
+SYS|Glad to be of help! :|null
+SYS|slightly_smiling_face:|null

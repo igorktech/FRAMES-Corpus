@@ -1,0 +1,10 @@
+USR|Hi there, my team and I are thinking of going to Monterrey please.|inform
+SYS|Ok!|request
+SYS|From where?|request
+USR|We all work together in Kabul.|inform
+SYS|I’m sorry, but we do not have any trips out of Kabul.|sorry
+USR|Oh really?|goodbye
+USR|That's too bad.|goodbye
+USR|I guess we'll have to look elsewhere then.|goodbye
+USR|Thank you for your services.|goodbye
+SYS|Yes, sorry I could not be of more service.|sorry

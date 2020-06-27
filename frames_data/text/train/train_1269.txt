@@ -1,0 +1,16 @@
+USR|I need to get home on or after September 8th!|inform
+SYS|Where are you going and where will you be coming from?|request
+USR|I need to go to Belem from Stuttgart!|inform
+SYS|Will you be going on your own?|request
+SYS|And do you have a budget in mind?|request
+USR|yes and I have 4000|inform
+SYS|How long would you like to go for?|request
+USR|as long as I can, its a family emergency|inform
+SYS|Not a problem.|offer
+SYS|We have a 10 day package at the fabulous 4.5 Zion Hotel, costing only 1989.62 for economy class and 2553.44 for business.|offer
+SYS|Is this something that interests you?|offer
+USR|yes!|switch_frame
+USR|Please book me the economy package!|switch_frame
+SYS|Your package is now booked.|inform
+SYS|Enjoy your stay.|inform
+USR|Thank you!|thankyou

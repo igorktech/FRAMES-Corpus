@@ -1,0 +1,16 @@
+USR|I just can't wait to get away from it all.|inform
+USR|I live in Dublin and I'd like to go to Pittsburgh.|inform
+USR|What's available?|inform
+SYS|I have 2 options, when is it you would like to travel?|request
+USR|Between August 17 and 30 would be ideal|inform
+SYS|I have 2.5 and 3.5 star packages available.|offer
+SYS|Both are 11 day packages that work within your dates.|offer
+USR|Let's explore the 3.5 star packages.|request
+USR|What's included?|request
+SYS|That would be the Onyx Isle Hotel, which includes all the usual amenities such as wifi, parking and a complimentary continental style breakfast with freshly baked buttery French croissants.|offer
+SYS|It is available form August 17 to August 27th on both economy and business class flights.|offer
+SYS|Is this you your liking?|offer
+USR|How can I say no to that?!|inform
+USR|I'll book it right away!|inform
+SYS|Awesome.|inform
+SYS|I will reserve that for you.|inform

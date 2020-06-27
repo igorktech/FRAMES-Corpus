@@ -1,0 +1,5 @@
+USR|I want you to find me a package from Jerusalem to Miami between August 31st and September 3rd, if you dont find me a package i will sue|inform
+SYS|I’m sorry, we do not service Jerusalem.|sorry
+SYS|Perhaps another departure point?|sorry
+USR|HAHAHA no.|negate
+USR|that is not acceptable|negate

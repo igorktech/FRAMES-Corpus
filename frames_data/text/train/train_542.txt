@@ -1,0 +1,23 @@
+USR|Got an internship with the UN, but they're such cheapskates they can't pay for my flights!|inform
+USR|I only have 3300
+but I can choose from a number of their offices
+oh yeah and the dates I need are between August 28 and September 11|inform
+SYS|Where are you leaving from and where would you like to go?|request
+USR|Leaving from Rome.|inform
+USR|can I get to detroit|inform
+SYS|We have one result at a 3 star hotel near a park and mall, this hotel has a 8.86/10 guest rating and offers free breakfast, wifi, and parking.|offer
+SYS|The package is from August 28th to September 4th and is an economy flight for 3201.20.|offer
+USR|I like most things about this but I was hoping for a longer stay What if i went to the Belem office instead?|inform
+SYS|The longest stay we have for this destination is from August 28th to September 5th at a 4 star hotel that is near the beach and airport.|offer
+SYS|This hotel has a 8.8/10 guest rating and offers free parking, breakfast, and wifi.|offer
+SYS|This economy class package is 3141.50.|offer
+USR|I can also work in Santiago, is there something to be had there?|inform
+SYS|There are no results for this.|no_result
+USR|The Belem option might make the most sense then|switch_frame
+SYS|Would you like me to book this?|suggest
+USR|Ok yeah do it|inform
+SYS|Great!|goodbye
+SYS|Your flight has been booked!|goodbye
+SYS|Have a great day!|goodbye
+USR|Thanks! :|thankyou
+USR|slightly_smiling_face:|thankyou

@@ -1,0 +1,29 @@
+USR|I want to find a vacay between sept.12 and 19 for under 5500, leaving from Mannheim|inform
+SYS|Do you have your heart set on a destination?|request
+USR|Nope|inform
+SYS|I can help change that... Are you vacationing solo?|suggest
+USR|yeppers, all by my lonesome|inform
+SYS|We can take you to Manaus, Hiroshima, Curitiba, Cordoba, and Paris.|offer
+SYS|Any of these sound appealing?|offer
+USR|Can you give me some info on Cordoba|switch_frame
+SYS|That's a great choice.|offer
+SYS|We have an amazing 5 star hotel with a 8.98 average rating.|offer
+SYS|You have free access to wifi and breakfast, and are located close to a museum.|offer
+SYS|We have a 8 day business package for your exact dates for only 1260.52.|offer
+USR|Wow!|switch_frame
+USR|That's lucky!|switch_frame
+USR|I think i'll end up going with this package but before I make up my mind can you check packages to Paris?|switch_frame
+SYS|With pleasure!|offer
+SYS|For the same 8 days in Stockholm, we can put you in a 4 star hotel with 9.16/10 rating.|offer
+SYS|This hotel also has free wifi + breakfast, and is close to a museum and a palace.|offer
+SYS|We have a great deal for the business package for just 968.76!|offer
+USR|pass, what about Hiroshima|switch_frame
+SYS|The best one in Hiroshima is a 4.5 star hotel with 8.86/10 rating.|offer
+SYS|It has free wifi and a museum nearby.|offer
+SYS|For the same dates, you can get an economy deal for 3180.57 or a business deal for 4084.30.|offer
+USR|nope, im deinintely goin with the 5 star hotel.|inform
+USR|hook me up|inform
+SYS|Done!|inform
+SYS|The 5 star hotel business package is booked for you.|inform
+SYS|Have fun in Cordoba!|inform
+USR|thanks|thankyou

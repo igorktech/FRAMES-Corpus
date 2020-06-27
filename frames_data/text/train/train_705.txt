@@ -1,0 +1,11 @@
+USR|I need you to book me a trip to San Antonio please|inform
+SYS|Sure, where would you like to leave from?|request
+USR|I'm actually flexible on departure city, so just tell me whatever is cheapest.|inform
+USR|However, I do need to stay at least 4 days.|inform
+USR|My budget is 2700 by the way|inform
+SYS|I can offer you a 13 day package from Washington for only $493.|offer
+USR|Oh I forgot.|request
+USR|What I do is difficult, dangerous, and requires me to be near a park.|request
+SYS|The Winter Hill Inn is near a park, mall, and theatre!|inform
+USR|Then I will take it!|inform
+SYS|Alright, you're booked|inform

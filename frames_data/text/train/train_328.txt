@@ -1,0 +1,16 @@
+USR|Hello I am currently in Tel Aviv on business and would like to get to Houston next Saturday, August 27th.|inform
+SYS|I'm sorry but we currently do not have any flights between Tel Aviv and Houston.|sorry
+USR|Well what if i left from Maceio?|inform
+SYS|I can offer you a 6 day stay at the Elton.|offer
+SYS|The only dates available though are from September 6th to September 11th.|offer
+SYS|Are your dates flexible?|offer
+USR|Hmm, I’d like to leave the 27th.. in that case I can perhaps switch around my schedule, as I also have to make it to Burlington for an old colleague’s retirement party.|inform
+USR|Can you look into trips to Burlington for me from Maceio?|inform
+USR|I would have a coworker travelling with me.|inform
+SYS|What date is this for?|request
+USR|I would like to leave Maceio on the 27th of August, can you tell me my options?|inform
+SYS|I apologize for the inconvenience but once again I have no flights leaving August 27th to offer you.|sorry
+SYS|The earliest you could fly from Maceio to Burlington would be on September 2nd.|sorry
+USR|Hmmm well that’s it I guess.. what would the cost be?|request
+SYS|It would be a 13 day stay at the Excursion Motel and it would cost a total of 5579.42USD if you flew in economy or 7214.67USD in business class.|offer
+USR|Well that is no good.. Goodbye.|goodbye

@@ -1,0 +1,11 @@
+USR|Hi there!|inform
+USR|Got anything from Kabul to Tel Aviv?|inform
+SYS|Do you have a budget?|request
+USR|Show me the cheapest you've got|inform
+SYS|Oops, there are no results for this request.|no_result
+USR|Nothing from Kabul to Tel Aviv??|inform
+SYS|No sorry!|sorry
+USR|That sucks.|goodbye
+USR|I'll look somewhere else|goodbye
+SYS|Sorry I couldn't be more help!|goodbye
+SYS|Have a nice day!|goodbye

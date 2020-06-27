@@ -1,0 +1,24 @@
+USR|Denver, here I come!|inform
+USR|I need you to help me book a trip.|inform
+USR|It's THE most important trip of my life!|inform
+SYS|Hey, sounds fun!|request
+SYS|Where are you leaving from?|request
+USR|St. Petersburg.|inform
+USR|I just got an internship!|inform
+USR|I only have $3200 at the moment, so let's keep it under that until I start to make some big bucks!|inform
+SYS|How does under one tenth of your budget sound?|offer
+SYS|I can give you a deal from August 26-31 for 316.46USD.|offer
+USR|Holy crap that's cheap!|moreinfo
+USR|Anything wrong with it?|moreinfo
+USR|That's just like way to cheap!|moreinfo
+SYS|It’s a 3 star hotel with free wifi.|offer
+SYS|I can do a 4.0 star hotel for 833.82 if you prefer, but the dates would be Aug 27-Sept 1.|offer
+USR|I'll stick to the 3 star and save some $$$.|inform
+USR|What's the name of the hotel?|inform
+USR|Is there anything to do on my down time?|inform
+USR|It's my first trip alone and I need stuff to do on the weekend.|inform
+SYS|Ok!|inform
+SYS|Well the 3 star, the Oriental Resort, is near a university and a museum for your entertainment!|inform
+USR|Looks like I've lucked out then, Denver here I come!!!|inform
+SYS|Wonderful :slightly_smiling_face: So I will go ahead and book that for you?|suggest
+USR|YEAH!|affirm

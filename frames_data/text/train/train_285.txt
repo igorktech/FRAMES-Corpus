@@ -1,0 +1,18 @@
+USR|Hello there, please check to see if there is a flight leaving from Toronto to Osaka on Sept 1 and returning on September 9.|inform
+SYS|Do you have a budget?|request
+USR|Just let me know if you have flights for those dates please.|inform
+SYS|There are no flights from Toronto to Osaka|no_result
+USR|How about from Toronto to Porto Alegre?|inform
+SYS|We have trips from September 1st to 5th, 6th to 9th, and 3rd to 8th.|offer
+USR|How much does the 3rd to 8th cost?|request
+SYS|Economy class is 2838.25 and business is 3639.37.|offer
+USR|Okay before I make up my mind...can you also check to see if there's anything from Toronto to Minneapolis?|inform
+USR|Also between Sept 1 and 9|inform
+SYS|There is one trip from September 2nd to 6th.|offer
+USR|What's the cost?|request
+SYS|Economy is 755.00 and business is 884.18.|offer
+USR|Okay book that for me instead, business class|inform
+SYS|Great!|inform
+SYS|Your flight is booked!|inform
+SYS|Have a great trip and thank you!|inform
+USR|Thanks|thankyou

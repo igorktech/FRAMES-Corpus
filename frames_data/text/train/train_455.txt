@@ -1,0 +1,16 @@
+USR|Listen up!|inform
+USR|im marrying my boo on saturday, and afterwards her and I want to have the best honeymoon 4600 can buy
+get us to kyoto will ya?|inform
+SYS|Okay.|request
+SYS|Where from?|request
+USR|detroit|inform
+SYS|When would you like to leave for your honeymoon?|request
+USR|anytime after this saturday|inform
+SYS|We have a package leaving on the 4th of September and returning on the 13th.|offer
+SYS|This is at a 3 star hotel that offers free breakfast and wifi and the cost is 4168.49 for business class seats.|offer
+SYS|Does this interest you?|offer
+USR|wow you know what, that absolutely works.|inform
+USR|how can i confirm this booking?|inform
+SYS|I will book it for you and you will receive a confirmation email within the hour.|goodbye
+SYS|Have a great day and enjoy the trip!|goodbye
+USR|Thank you!|thankyou

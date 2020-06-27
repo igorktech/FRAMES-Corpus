@@ -1,0 +1,35 @@
+USR|allo I am leaving Marseille Thursday August 18 and I want to travel until September 7|inform
+SYS|How about Hamburg?|offer
+SYS|I can book you 7 days at the Hotel Peter for 182.33USD.|offer
+USR|wow that was actually one of the places I was thinking of going!|request
+USR|whats the hotel like?|request
+SYS|You would be staying at the Hotel Peter  a  3.0-star hotel with a 0/10 guest rating, located in close proximity to the museum in the heart of downtown .|inform
+SYS|This resort offers free breakfast, free wifi and free parking.|inform
+SYS|The total cost of this package is 182.33USD.|inform
+USR|what is available in porto alegre|inform
+SYS|I can offer you a 12-day package in Porto Alegre starting August 26th.|offer
+SYS|You would be staying at the Deluxe Hotel,  a  3-star hotel with a 8.69/10 guest rating, located in close proximity to  the local University.|offer
+SYS|This resort offers free breakfast, free wifi and free parking.|offer
+USR|wow very nice.|request
+USR|How much?|request
+SYS|The total cost of this package is 2949.53USD.|suggest
+SYS|Would you like me to book either of these packages?|suggest
+USR|i want to also know what is available in new york|inform
+SYS|If you're interested in New York, I can book you a 10-day stay starting on August 24th for 1846.81USD.|offer
+USR|what is the hotel details|request
+SYS|You would be staying at the Soft Brook,  a  2.5-star hotel with a 8.22/10 guest rating, located in close proximity to both the airport and the museum.|inform
+SYS|This resort offers free breakfast, free wifi and free parking.|inform
+USR|can i go to phoenix|inform
+SYS|I can book you 6 days at Phoenix's Recreation Inn for 1991.87USD.|offer
+USR|oh ok.|request
+USR|What is the hotel like?|request
+SYS|You would be staying at the Recreation Inn, a 3-star hotel with a 6.91/10 guest rating, located in close proximity to the museum.|inform
+SYS|This resort offers free breakfast, free wifi and free parking.|inform
+USR|oh ok that sounds nice!|inform
+USR|but i think i like the hotel in Porto more
+lets book that one|inform
+SYS|Great!|inform
+SYS|Your vacation has been booked.|inform
+SYS|Have fun on your trip!|inform
+USR|great!|thankyou
+USR|thanks!|thankyou

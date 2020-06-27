@@ -1,0 +1,27 @@
+USR|Everyone in Europe is raving about this artisanal bratwurst they’re serving up in Hamburg, and I must get myself other there as soon as I can to blog about it!|inform
+USR|Do you offer flights there out of Seattle?|inform
+SYS|I sure do!|request
+SYS|When do you want to travel?|request
+USR|ASAP, but otherwise dates are flexible
+budget is 3800|inform
+SYS|Great!|offer
+SYS|I have a package leaving on August 31 until September 11.|offer
+SYS|The cost is 2157 dollars|offer
+USR|Oh nice I’m just going to check my other travel options for something cheaper
+such as…Santos to Hamburg?|inform
+SYS|There is nothing cheaper.|no_result
+USR|Now if I really wanted to pinch pennies, I could also just travel to St. Louis instead|inform
+SYS|From Santos?|confirm
+USR|From Seattle|inform
+SYS|You could go from August 31st to September 16th for $532, at a 5 star hotel!|offer
+USR|That is dirt cheap!|moreinfo
+USR|I could just splurge on my meals instead.|moreinfo
+USR|What kind of hotel do you have?|moreinfo
+USR|As in, tell me more about the 5 star|moreinfo
+SYS|5 stars, as I said.|inform
+USR|Amenities?|request
+SYS|Free breakfast and free wifi are included.|inform
+USR|Ok lets do that|inform
+SYS|Ok!|inform
+SYS|I’ll book it for you.|inform
+USR|Thanks!|thankyou

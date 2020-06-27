@@ -1,0 +1,33 @@
+USR|Hi there, what is the best hotel in Toronto?|inform
+SYS|You alone?|suggest
+USR|Yes|affirm
+SYS|Where are you coming from?|request
+USR|San Juan is where I reside.|inform
+SYS|How long would you like to go to Toronto for?|inform
+USR|As long as the 1800 dollars in my wallet can take me.|inform
+SYS|Well then you're in luck!|offer
+SYS|Because I can get you the 8 day package at the 4 star Hotel Eric Perrier, costing a total of 1668.81 for business class!|offer
+SYS|How does that sound?|offer
+USR|Nice!|inform
+USR|Is that the best hotel in Toronto?|inform
+SYS|Yes it is the best.|affirm
+SYS|What do you think?|affirm
+USR|Can I get a longer package if I opt for economy flights?|inform
+SYS|You can get a longer package if you opt for worse hotel.|offer
+SYS|It's up to you.|offer
+USR|Okay no it's got to be the best hotel.|switch_frame
+USR|When does this trip depart?|switch_frame
+SYS|It leaves September 20th and returns September 27th.|inform
+SYS|Does this entice you?|inform
+USR|Could I get a longer stay or a better hotel with an additional $1000?|inform
+SYS|No.|no_result
+USR|Okay at least I tried!|inform
+USR|I'll take the first offer!|inform
+SYS|The 8 day package with the 4 star hotel?|confirm
+SYS|And business class?|confirm
+USR|Sure... might see some celebrities in business class :wink:|affirm
+SYS|Excellent choice.|inform
+SYS|Your package has now been booked.|inform
+SYS|Details will be sent to you shortly.|inform
+USR|Fantastic!!|null
+SYS|You're welcome.|you_are_welcome

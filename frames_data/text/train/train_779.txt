@@ -1,0 +1,22 @@
+USR|Hello!|inform
+USR|I would like to book a classic Marseille getaway
+Would be leaving from Birmingham City|inform
+SYS|Can you tell me some of the things you are looking for as well as for how many people and your desired date of departure?|request
+USR|i'd like to book the poshest trip 3900 can fetch me.|inform
+USR|just for one|inform
+SYS|How about a 7 day getaway to Marseille for 3123.49USD?|offer
+USR|What kind of hotel would that be at?|switch_frame
+SYS|That would be a 4 star hotel near the museum.|suggest
+SYS|I also have a 4 star hotel near the cathedral for 2437.41USD.|suggest
+SYS|Would you rather be near the museum or the cathedral?|suggest
+USR|What amenities would I get with the cathedral place?|request
+SYS|The Grand Hotel, located near the cathedral, not only has free wifi, but also a spa on the premises.|inform
+SYS|The guest rating is a 8.69/10.|inform
+USR|But no wifi?|confirm
+SYS|It has free wifi.|affirm
+USR|Lets do it then|inform
+SYS|Are you okay with a September 12th departure and return on the 17th?|confirm
+USR|Yes that will work!|affirm
+SYS|I will start the booking.|inform
+SYS|Thank you and enjoy your stay in Marseille.|inform
+USR|Thanks!|thankyou

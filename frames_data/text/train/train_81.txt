@@ -1,0 +1,15 @@
+USR|Hi looking for a vacation to hamburg|greeting
+SYS|Hello!|greeting
+SYS|Where will you be departing from?|greeting
+USR|Ill be departing from san jose|inform
+SYS|I have a package for an 11-day stay in Hamburg from August 18 to August 27.|offer
+SYS|The total cost of this package is 2373.14 USD.|offer
+USR|sounds good!|switch_frame
+USR|what is the hotel like?|switch_frame
+SYS|You will be staying at the Hotel Peter, a 3-star hotel with a 0/10 guest rating, free wifi, free parking and free breakfast.|suggest
+SYS|Do you want me to book this trip?|suggest
+USR|sounds good!|inform
+USR|please book it!|inform
+SYS|Your trip has been booked!|inform
+SYS|Your flight leaves on Saturday, August 18th at 10:13 p.m. Enjoy your stay!|inform
+USR|thanks!|thankyou

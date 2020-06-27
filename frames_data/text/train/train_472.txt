@@ -1,0 +1,25 @@
+USR|Hi there!|inform
+USR|So, between September 7 and 27 I would like to see what is available from Curitiba to Mexico City|inform
+SYS|We have a 3.5 star hotel near a museum, beach, and shopping mall.|offer
+SYS|Amenities include free parking and wifi.|offer
+SYS|This vacation is from September 10th to 20th and business class seats included costs 2701.20.|offer
+USR|Hmmm ok . .|request_alts
+USR|that sounds decent.|request_alts
+USR|Is that the only option?|request_alts
+SYS|In that case, we also have a 3 star hotel near the beach and shopping.|offer
+SYS|They offer free wifi and parking.|offer
+SYS|This package is from September 8th to 19th and for business seats this package will cost 2029.88.|offer
+USR|Sweet!|request_compare
+USR|So a day longer and cheaper.. I like that.|request_compare
+USR|What are the names of the hotels?|request_compare
+SYS|The first hotel was Coast and the last one is Hotel Tropic.|inform
+USR|Ok, thank you.|thankyou
+SYS|Would you like me to book one for you?|suggest
+USR|Could you tell me the user reviews on each before I make a final decision?|request_compare
+SYS|The Coast has a 6.37/10 guest rating and the Hotel Tropic has a 6.77/10 guest rating.|inform
+USR|Nice, nice.|inform
+USR|Let’s go ahead and book the Tropic|inform
+SYS|Great!|goodbye
+SYS|I will send you a confirmation email!|goodbye
+SYS|Have a great day!|goodbye
+USR|Thanks :slightly_smiling_face:|thankyou

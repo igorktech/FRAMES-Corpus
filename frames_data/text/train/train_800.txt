@@ -1,0 +1,19 @@
+USR|I am ze most famous chef and i need to get to Kochi from Tijuana|inform
+SYS|Are you traveling alone or with your assistants?|request
+USR|I will be travelling with lawyers and children.|inform
+USR|There will be 6 adults and 6 children in total|inform
+SYS|Any budget or dates in mind?|request
+USR|36300 for budget and the dates dont matter|inform
+SYS|Thanks for the information!|offer
+SYS|We only have one package that matches your needs.|offer
+SYS|It is an economy package at a 2.5 star hotel with 6.77/10 guest rating.|offer
+SYS|You get to enjoy free parking, free breakfast, free wifi, and strolls to a nearby park with the children.|offer
+SYS|Total cost is 35780.47.|offer
+USR|what if i up my budget by 1500|inform
+SYS|Nothing better sadly.|sorry
+USR|well thats alright i guess.|inform
+USR|book it|inform
+SYS|Great!|inform
+SYS|You are one step closer to Tijuana!|inform
+SYS|Keep an eye out for the confirmation email.|inform
+USR|thanks!|thankyou

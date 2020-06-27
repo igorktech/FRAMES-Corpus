@@ -1,0 +1,18 @@
+USR|Hello there!|greeting
+USR|Looking to get away between August 27th and August 30th!|greeting
+USR|Can you help me?|greeting
+SYS|Do you have a destination in mind?|request
+USR|Not at the moment, but i am from Mexico City|inform
+SYS|I have several packages to Punta Cana, Dominican Republic available.|request
+SYS|How flexible are you with your dates?|request
+USR|Im thinking as long as we end before August 31st.|request
+USR|What are the packages like in Punta Cana?|request
+SYS|Unfortunately I do not have any packages ending before August 31st.|sorry
+SYS|However I can offer you two packages which end on the 31st of August.|sorry
+SYS|Both feature a stay in La Estrella del Mar,  a 0.0 star hotel with a 0/10 guest rating.|sorry
+SYS|However you have the choice between flying business and economy, bringing your total to 292.21USD or 219.58USD, respectively.|sorry
+USR|0 stars seems attracting!|inform
+USR|I think i will fly Economy for this cheap trip!|inform
+SYS|Wonderful, your trip has been booked!|inform
+USR|amazing!|thankyou
+USR|thanks!|thankyou

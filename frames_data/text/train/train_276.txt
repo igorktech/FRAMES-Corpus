@@ -1,0 +1,31 @@
+USR|i need to know how much it costs to go from ciudad juarez to la paz leaving august 22 to september 8|inform
+SYS|I can look into that for you.|request
+SYS|Are your dates flexible by chance?|request
+USR|nope|inform
+SYS|Within your date range I can book you 6 days in La Paz from August 25-30 for 1050.42USD.|offer
+USR|try ciudad juarez to paris, august 22 to september 8|inform
+SYS|I have trips available from August 27-Sept 4, Sept 5-Sept 8, Aug 23-26, Aug 31-Sept 5, Aug 30-Sept 7.|suggest
+SYS|Are any of these ok with you?|suggest
+USR|how much do the august 27 to sept 4 and august 30 to sept 7 packages cost?|request_compare
+SYS|That depends, would you like to fly business class or economy?|suggest
+USR|economy please|switch_frame
+SYS|Ok.|offer
+SYS|In that case, the costs are 3591.44USD and 2129.86USD, respectively.|offer
+USR|can you try ciudad juarez to queenstown from august 22 to september 8|inform
+SYS|I can book you Aug 30-Sept 4, Aug 22-25, or Sept 5-Sept 5 in Queenstown.|inform
+USR|how much do the first two packages cost|request
+SYS|With economy flights they would cost $3685 and $3474, respectively.|inform
+USR|try ciudad juarez to indianapolis, august 22 to september 8|inform
+SYS|Does August 30th to September 8th work?|suggest
+USR|try aug 22 to sept 8 if you can|inform
+SYS|I can do August 27-September 5.|suggest
+USR|cost?|request
+SYS|$630.50 for 10 days.|inform
+USR|i'll take that one|inform
+SYS|Great :slightly_smiling_face: You will be staying at Hotel Vanilla, a 3.0 star hotel located near the beach, airport, park, and university.|inform
+SYS|You will have free parking, breakfast, and wifi included in your package.|inform
+SYS|I booked the package|inform
+USR|thank you! :|thankyou
+USR|slightly_smiling_face:|thankyou
+SYS|My pleasure!|you_are_welcome
+SYS|Have a good day.|you_are_welcome

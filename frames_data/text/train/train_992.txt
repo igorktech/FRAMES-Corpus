@@ -1,0 +1,23 @@
+USR|Hey there.|inform
+USR|I just want you to entertain me
+I can't take any trips right now..
+but if I could would I be able to get to Belem for under $3900?|inform
+USR|I'm in Los Angeles|inform
+SYS|Yes you could!|offer
+SYS|Our best package is a 4.5 star hotel near the beach, 8.8/10 guest rating, free parking, breakfast, and wifi.|offer
+SYS|This package is from September 8th to 19th and the prices are 2771.60 for economy flights and 3558.90 for business flights.|offer
+USR|I would also love to explore the lush surroundings of Santos
+Would I ever be able to get there with my mere 3900?|inform
+SYS|Yes, we have a lovely 4 star hotel near shopping hot spots, 8.49/10 guest rating, free breakfast and wifi, September 6th to 23rd and the prices are 3726.61 for business flights and 2893.69 for economy flights.|offer
+USR|If only I could get the vacation days off.. I could be there today :sleepy: I have one other place that tops my bucket list
+Vancouver
+What've you got there?|inform
+SYS|Here we have a 4 star hotel near a park, museum, and cathedral.|offer
+SYS|This is a 12 day stay from September 11th to 22nd.|offer
+SYS|The hotel has a 8.8/10 guest rating and offers free parking, breakfast, and wifi.|offer
+SYS|This would cost 1091.30 for business flights and 926.52 for economy.|offer
+USR|Wow - so cheap.|thankyou
+USR|What a steal!. Thanks for looking at my options for me, but for now I'll just be stuck here at work|thankyou
+SYS|No problem!|you_are_welcome
+SYS|Come back when you are able to book a flight and I'll get you the best package there is!|you_are_welcome
+SYS|Have a great day!|you_are_welcome

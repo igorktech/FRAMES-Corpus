@@ -1,0 +1,18 @@
+USR|I need to get out of Kabul on September 6th.|inform
+USR|Can you get me to Leon for 3200|inform
+SYS|We do not offer any flights that leave from Kabul.|no_result
+SYS|Would you like to leave from somewhere else?|no_result
+USR|Calgary|inform
+SYS|Will you be the only one travelling?|request
+SYS|And is there number of days you would like to spend in Leon?|request
+USR|Yeah just me.|inform
+USR|It doesnt matter how long I stay but the longer the better.|inform
+SYS|We have a great deal for you at a 5 star hotel for 12 days.|offer
+SYS|It costs 2335.98 for economy class and 2963.64 for business.|offer
+SYS|Are you interested?|offer
+USR|Yes!|inform
+USR|Put me for business and book it!|inform
+SYS|Your package has now been booked.|inform
+SYS|You will soon receive an email confirming your purchase of this package.|inform
+SYS|Have a good day.|inform
+USR|Thanks!|thankyou

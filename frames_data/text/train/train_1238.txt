@@ -1,0 +1,12 @@
+USR|Yes!|inform
+USR|I'm booking for 20 of us!|inform
+USR|Heard Recife is a sweet destination|inform
+SYS|Wow, all 20 of you!|confirm
+SYS|Is there a budget in mind?|confirm
+SYS|And where will you all be coming from?|confirm
+USR|Open budget!|inform
+USR|We're based in Tofino.|inform
+SYS|I'm afraid we do not have any flights that depart from Tofino.|sorry
+SYS|Would you like to choose another city of departure?|sorry
+USR|What??? :|null
+USR|disappointed:|null

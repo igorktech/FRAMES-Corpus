@@ -1,0 +1,14 @@
+USR|from Fukuoka to Leon between 6 and 11th of September no budget- just tell me my options|inform
+SYS|There are no options available.|no_result
+USR|…what?|inform
+USR|you haven’t told me anything about Leon yet….|inform
+SYS|There are no availabilities from Fukuoka to Leon.|no_result
+USR|what about to Seattle|inform
+SYS|There are no results for this either.|no_result
+USR|Fukuoka to Atlanta|inform
+SYS|There are no results for this either.|no_result
+USR|fukuoka to la paz|inform
+SYS|There's a 4 star hotel from September 8th to 11th, 8.98/10 guest rating, free parking, breakfast, and wifi, 4966.50 for business flights, and 3837.70 for economy flights.|offer
+USR|fine I guess that’s my only option|switch_frame
+SYS|Would you like to book?|suggest
+USR|since apparently you only travel to 1/4 of my desired destinations... no|negate

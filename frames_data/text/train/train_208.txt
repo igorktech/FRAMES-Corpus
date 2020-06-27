@@ -1,0 +1,4 @@
+USR|Hello :slightly_smiling_face:|greeting
+SYS|Hi there!|greeting
+SYS|How can I help you today?|greeting
+USR|I would like to find a trip to Punta Cana :slightly_smiling_face: I am leaving from :slightly_smiling_face: Birmingham :slightly_smiling_face:|inform

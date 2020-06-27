@@ -1,0 +1,44 @@
+USR|i am travel from septeber 8 until 20.|inform
+USR|to berlin from santa cruz|inform
+SYS|Okay great!|request
+SYS|Do you have a budget in mind?|request
+USR|no budget just tell me what is best trip i can do|inform
+SYS|I can get you an amazing 13 day package at a 5 star hotel leaving and returning exactly on the dates that you want!|offer
+SYS|It would come to 3597 total for economy and 4679.70 for business.|offer
+SYS|What do you think? :|offer
+SYS|slightly_smiling_face:|offer
+USR|5 star is very great.|request
+USR|is this a hotel on the beach?|request
+SYS|I'm afraid we don't have any hotels on the beach, but there is a museum and a cathedral nearby!|sorry
+SYS|Would you like to book this trip?|sorry
+USR|ok pls check la paz from santa cruz|inform
+SYS|For La Paz we have only a 10 day trip at a 4 star hotel.|offer
+SYS|Economy would cost 2726.75 and business would cost 3491.67.|offer
+SYS|What do you think?|offer
+USR|cheaper, hotel still nice.|request
+USR|what is guest rating?|request
+USR|are there nice amenities?|request
+SYS|The hotel has a guest rating of 8.98/10, and there is free parking, free breakfast, and free wifi!|suggest
+SYS|Are you interested in booking this trip?|suggest
+USR|it sounds good.|inform
+USR|i want to check denver too|inform
+SYS|We have a 3 star hotel with a guest rating of 8.86/10 with free breakfast and free wifi costing at 3258.92, and it's for 10 days.|offer
+SYS|What do you think?|offer
+USR|not bad but not as nice of a hotel.|request
+USR|good guest rating i guess tho
+can you remind  me the guest rating from the first hotel in berlin..|request
+SYS|It has a guest rating of 8.49/10.|inform
+SYS|Does anything sound appealing to you yet?|inform
+USR|pretty good - but lower than the 4 and 3 star ones... weird
+can u check for st.|inform
+USR|petersburg as well|inform
+SYS|I'm afraid we don't have any flights from Santa Cruz to St. Petersburg.|sorry
+USR|ok.|request
+USR|well i like the denver package
+do u know what attractions are nearby|request
+SYS|There is a park nearby.|inform
+USR|i like it.|inform
+USR|go with that one|inform
+SYS|Okay I've just booked it for you.|inform
+SYS|Enjoy your trip to Denver :slightly_smiling_face:|inform
+USR|thank uy|thankyou

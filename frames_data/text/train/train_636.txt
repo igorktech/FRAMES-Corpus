@@ -1,0 +1,48 @@
+USR|I'm looking for a trip between September 1 and 11|inform
+SYS|Perfect, where will you be travelling to and what city would you like to depart from?|request
+USR|Leaving from St. Petersburg Destination Punta Cana!|inform
+SYS|Number of people?|request
+SYS|Adults and kids.|request
+USR|Just 1 adult|inform
+SYS|Did you have a budget in mind?|request
+USR|Not exactly.|inform
+USR|I want to compare a few different options.|inform
+SYS|From St. Petersburg to Punta Cana, I have no available packages.|request
+SYS|Are your dates flexible, by any chance?|request
+USR|my dates aren't too flexible unfortunately, but I have a few other destinations in mind, Can you check for Kobe?|inform
+SYS|I have a 6 day package available to Kobe from St. Petersburg during those dates.|offer
+SYS|The Resort Ancient Angel is a 3.5 star hotel and the Royal Island Inn is a 3 star located near the market and the palace.|offer
+SYS|Do either one of these interest you?|offer
+USR|What are the main difference between the two hotels?|request_compare
+SYS|There's not a huge difference.|offer
+SYS|One is a 3 star the other a 3.5 star.|offer
+SYS|The 3.5 star Resort Ancient Angel has a guest rating of 8.69/10 and is available from Sept 6th to the 10th whereas the 3 star Royal Island Inn has no guest ratings yet and is available from Sept 1st to the 5th.|offer
+SYS|They both include free wifi.|offer
+SYS|The 3.5 star Resort Ancient Angel is about $600 more for a 6 day stay.|offer
+USR|Can you help me check for options in Miami?|inform
+SYS|The Majestic Island Inn & Suites  is our only option in Miami.|offer
+SYS|It is a 3.5 star rated hotel with a guest rating of 8.8/10 and is open for a 7 day stay.|offer
+SYS|Wifi, parking and breakfast are included.|offer
+USR|How many days is this package?|request
+SYS|7 days for the price of  1008.99USD if you travel via economy class|inform
+USR|Lastly can you help me check for Valencia?|inform
+SYS|In Valencia, I have 2 choices for your stay.|offer
+SYS|Stardust Hotel which has a 4 star rating or The Gold  which has a 5 star rating.|offer
+SYS|Both are available for a 7 day stay.|offer
+USR|Can you tell me a bit more about these hotels?|request_compare
+SYS|The Stardust Hotel has an excellent guest rating of 9.32/10 and includes free wifi.|inform
+SYS|It is located near the museum and is priced at 2378.72USD.|inform
+SYS|The Gold - 7 days also has an excellent guest rating of 8.98/10, includes free wifi  and is priced at 2358.99USD.|inform
+USR|What will be the travel dates for these two packages?|request_compare
+SYS|The flights on both these packages are the same - Sept 6 to Sept 11 and the flights are available in both economy or business class.|offer
+USR|Can you let me know the costs for the two Kobe packages?|request_compare
+SYS|Royal Island Inn is 2837.59USD and the Ancient Angel  is 3408.83USD.|inform
+SYS|Pricing is based on economy class flights.|inform
+USR|And the Valencia prices you gave me earlier are also based on economy flights?|confirm
+SYS|Yes they are.|affirm
+USR|I will go with the Stardust Hotel in Valencia.|inform
+USR|Can you confirm the booking?|inform
+SYS|I will process the booking for the Stardust hotel in Valencia from sept 6 to Sept 11 and send you an email confirmation.|inform
+SYS|Thank you for your patience and have a lovely day.|inform
+USR|Amazing!|thankyou
+USR|Thanks for the help!|thankyou

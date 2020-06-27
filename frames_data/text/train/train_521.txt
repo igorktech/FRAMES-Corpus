@@ -1,0 +1,15 @@
+USR|Hi there, I'm looking for a trip for 5 between Tofino and Dallas.|inform
+USR|It needs to be between Aug 25 and Aug 28.|inform
+SYS|Will that be 5 adults?|confirm
+USR|Yeah 5 adults|inform
+SYS|Great!|confirm
+SYS|Are you leaving from Tofino or Dallas?|confirm
+USR|Leaving from Tofino|inform
+SYS|Do you have a budget?|request
+USR|Unlimited budget :slightly_smiling_face:|inform
+SYS|There are no results leaving from Tofino.|no_result
+USR|How about Tofino to Curitiba?|inform
+USR|This time for 11 adults|inform
+SYS|Unfortunately there are no flights leaving from Tofino.|sorry
+SYS|Is there another place you could leave from?|sorry
+USR|Thats the only place, but thanks for letting me know|thankyou

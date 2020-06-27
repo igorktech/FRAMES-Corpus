@@ -1,0 +1,10 @@
+USR|Hey there, sooo I’m in a bit of a bind where I’m getting married next week and have yet to book a honeymoon..|inform
+SYS|Hello!|request
+SYS|Where would you like to go?|request
+USR|We’ve got a fair bit of money on hand - 4100.|inform
+USR|Would love to go to Porto Alegre!|inform
+USR|Our wedding will be in Leon|inform
+SYS|When would you like to leave?|request
+USR|Any time after the wedding, which is September 3|inform
+SYS|There's nothing to Porto Alegre but is there somewhere else you'd be willing to go?|suggest
+USR|Ahhh dammit No|negate

@@ -1,0 +1,28 @@
+USR|Hello.|inform
+USR|I have 12 vacation days saved up and I’m looking to explore my options departing from Mexico City.|inform
+USR|Budget doesn’t matter, but I can’t leave until Monday, the 12th of September.|inform
+USR|What’s available?|inform
+SYS|I found a beautiful 12 day trip for you in Frankfurt, Germany departing on Monday 12th September.|offer
+SYS|It's a 4.5 star hotel costing a total of 2893.33 for economy class and 3717.75 for business class.|offer
+SYS|Are you interested in booking this trip?|offer
+USR|Sounds lovely!|request_alts
+USR|Just want to hear what else is available first.|request_alts
+SYS|There's also an 11 day trip in Maceio, Brazil at a 3.5 star hotel that's situated near a park and with some great shopping around the corner!|offer
+SYS|This costs 2312.44 for economy class and 2954.98 for business.|offer
+SYS|What do you think?|offer
+USR|Ok.|request_alts
+USR|Not bad!|request_alts
+USR|Frankfurt sounds a bit better though.|request_alts
+USR|What else?|request_alts
+SYS|There is an 11 day package in Hiroshima, Japan, at a 3 star hotel with a museum nearby.|offer
+SYS|Economy flights cost 3442 while business class would be 4481.63.|offer
+SYS|What do you think?|offer
+USR|So the ratings just keep going down hey?|switch_frame
+USR|What is the guest rating there.|switch_frame
+SYS|I'm afraid so!|sorry
+SYS|The Iceberg Resort in Hiroshima has a rating of 7.15/10.|sorry
+SYS|Shall I book the Frankfurt trip for you?|sorry
+USR|Yeah, lets go with Frankfurt.|inform
+SYS|Alright perfect!|inform
+SYS|It's all booked now.|inform
+SYS|Have a brilliant time!|inform

@@ -1,0 +1,20 @@
+USR|Hey hey :slightly_smiling_face:|inform
+SYS|How many people in your group?|request
+USR|So, me and the 5 little ones wanna go to see their mother who works in Washington|inform
+SYS|From where?|request
+USR|Kingston|inform
+SYS|Any specific dates?|request
+USR|nope - we can go whenever!|inform
+SYS|We have no direct flights from Kingston to Washington.|suggest
+SYS|Can you meet somewhere else?|suggest
+USR|we can go to Phoenix and borrow my sister’s mini van - we’ll make a little road trip out of it!|inform
+SYS|would you prefer to stay in Phoenix 6, 7 or 9 days?|inform
+USR|9 would be better to give us extra driving time|switch_frame
+SYS|For 9 days I have the The Prism 2.5 star hotel at The Prism.|inform
+SYS|How does that sound?|inform
+USR|What is the guest rating?|request
+SYS|7.06/10|inform
+USR|not bad.|request
+USR|amenities?|request
+SYS|free parking, free breakfast, free wifi|inform
+USR|alright, Let’s book it !|inform

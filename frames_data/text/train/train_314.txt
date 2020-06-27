@@ -1,0 +1,20 @@
+USR|Hi there|greeting
+SYS|HI :smile:|greeting
+USR|I'm looking to leave from San Diego to a vacation destination.|inform
+USR|I have saved up approximately $0 for this trip.|inform
+USR|Can you help me find a suitable location?|inform
+SYS|No|no_result
+USR|Wow alright.|inform
+USR|How about if I told you I had $400, can you buy me a round trip ticket to Phoenix?|inform
+SYS|I can send you to Calgary, Philadelphia, Punta Cana, or Atlanta.|suggest
+USR|Phili sounds good!|request
+USR|How many days?|request
+SYS|You can spend 6 days in historic Philadelphia, United States for only $366.99 if you leave from rustic San Diego, USA.|inform
+USR|How many days can I spend in Calgary?|switch_frame
+SYS|You can go to Calgary for 6 days.|inform
+USR|Can you put me up at the Super 5 Hotel?|inform
+SYS|How about the Amusement?|inform
+SYS|It may only but 4 stars but it is pretty good|inform
+USR|Book it!|inform
+USR|Nothing like fun in the city with my tight budget|inform
+SYS|You're trip is booked!|inform

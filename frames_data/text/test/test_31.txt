@@ -1,0 +1,13 @@
+USR|hello I id like to go to manaus from ciudad juarez.|inform
+USR|4,600$|inform
+SYS|Are you travelling alone?|suggest
+USR|ya|affirm
+SYS|When would you prefer to travel?|request
+USR|this week|inform
+SYS|What day would you like to leave?|request
+USR|tomorrow|inform
+SYS|There aren't any trips that leave tomorrow but there is one that leaves on the 24th.|offer
+USR|ok|switch_frame
+SYS|This is a 3.5 star hotel from the 24th to 30th.|offer
+SYS|The hotel offers free wifi, parking, and breakfast and is near a park and museum.|offer
+SYS|The economy class is 2089.41 and the business class is 2695.90.|offer

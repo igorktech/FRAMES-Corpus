@@ -1,0 +1,27 @@
+USR|I need to get to Boston please, it's an emergency.|inform
+SYS|Where are you currently?|request
+USR|I'm in Belo Horizonte.|inform
+USR|I need to leave on Sunday September 18 or later.|inform
+SYS|Is it just you?|request
+SYS|Do you have a budget?|request
+USR|Yeah just me.|inform
+USR|I've just spent all this money backpacking around South America, so I've only got 2800 left.|inform
+USR|Can you find something with that?|inform
+SYS|Yes!|offer
+SYS|We have a 12 day trip leaving on the 19th at a 2.5 star hotel close to the mall.|offer
+SYS|Does this interest you at all?|offer
+USR|Yeah, how much does that cost?|request
+SYS|It'll be 2417.77 with economy flights.|inform
+USR|It sounds good, do you have any other good packages though?|request_alts
+SYS|We have another 12 day trip to a 2.5 star hotel with a slightly better guest rating for 2670.57.|offer
+SYS|Otherwise, we have a 7 day package at a 3 star hotel for 2679.33.|offer
+USR|Oh no.|request
+USR|The first option sounds the best.|request
+USR|But when does it leave?|request
+SYS|It leaves on the 19th and returns on the 29th.|inform
+USR|Okay that sounds really good.|inform
+USR|I'll take it!|inform
+SYS|Perfect!|inform
+SYS|It is all booked for you!|inform
+USR|Awesome, thanks!|thankyou
+SYS|Happy to help :slightly_smiling_face:|you_are_welcome

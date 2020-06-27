@@ -1,0 +1,28 @@
+USR|Hello.|inform
+USR|Do you have five star hotels for me in Osaka?|inform
+SYS|Where are you leaving from?|request
+USR|I'm leaving from Maceio.|inform
+USR|Well
+...We...
+My friend and I|inform
+SYS|Budget?|request
+USR|We have all the money in the world, my friend!|inform
+SYS|When would you like to leave and/or return?|request
+USR|We can travel whenever.|inform
+USR|I do have obligations back here on the 19th of September|inform
+SYS|Unfortunately we do not have any packages.|sorry
+USR|None at all?|inform
+USR|Then try getting me there from Baltimore instead|inform
+SYS|We have a package at a 4 star hotel near a park and museum, 8.69/10 guest rating, free parking and wifi, from September 2nd to 14th, business is 5841.26, economy is 4543.31.|offer
+USR|There's no better hotel?|inform
+USR|We're used to five star hotels|inform
+SYS|No 5 star hotels, sorry.|sorry
+USR|Let me ask my friend, one second...Ok we'll settle for this|inform
+SYS|Okay, thanks for the input.|suggest
+SYS|Would you like to book the business flights or economy flights?|suggest
+USR|Um business|switch_frame
+SYS|Okay!|inform
+SYS|Your package is now booked!|inform
+SYS|Have a great day!|inform
+USR|Thank you|thankyou
+SYS|Anytime!|you_are_welcome

@@ -1,0 +1,4 @@
+USR|I heard Madonna was in Tel Aviv, can you get me there from Santos?|inform
+SYS|Unfortunately not|sorry
+USR|Oh Okay well i'll look somewhere else.|goodbye
+USR|Thanks anyway.|goodbye

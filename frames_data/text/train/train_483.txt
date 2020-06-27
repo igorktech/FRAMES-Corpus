@@ -1,0 +1,30 @@
+USR|Ok so I need to get from Vitoria to a bunch of possible places between September 2 and 21.|inform
+USR|budget is strictly 3200.|inform
+USR|can you first look at paris pls|inform
+SYS|Are your dates flexible at all?|request
+USR|It just needs to be within that time period|inform
+SYS|would you prefer a 6 or 12 day stay?|offer
+USR|12 days|switch_frame
+SYS|I have a 2 star hotel available with free wifi departing on August 30 and returning on Sept 10.|offer
+SYS|Total price on this 12 day package is $828.33USD.|offer
+SYS|Is this of interest to you?|offer
+USR|Its not bad.|inform
+USR|But I want to see if there's better options elsewhere Can you check, for the same parameters, Punta Cana?|inform
+SYS|For the record, that package is called the Muse.|offer
+SYS|I will now proceed with your second request.|offer
+SYS|To Punta Cana, Dominican Republic from Vitoria, Spain I have 15 day and 21 day stays open.|offer
+SYS|Which would you prefer?|offer
+USR|21 if it fits the dates I gave you.|request
+USR|Whats the price?|request
+SYS|That package departs on Sept 2nd returning on Sept 21.|inform
+SYS|The total price for this 21 day stay including flights, is $1654.42USD.|inform
+SYS|please note that there are no amenities included with this package.|inform
+USR|Oh ok I might be able to put up with that.|inform
+USR|Ok let me ask about one last city: what you got for Curitiba?|inform
+SYS|A 12 day stay at the Crown Market Palace, located on the beach is $2113.27USD.|offer
+SYS|This package includes all the amenities such as free wifi, breakfast and free parking.|offer
+USR|Its cool how many options there are for my budget.|switch_frame
+USR|Ok since the Punta Cana trip is the longest, I'll take that one|switch_frame
+SYS|I will confirm your stay at the La Estrella del Mar for 21 days on an economy class flight for a grand total of 1654.42USD.|goodbye
+SYS|We appreciate you using our services.|goodbye
+USR|Wonderful|null

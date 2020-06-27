@@ -1,0 +1,4 @@
+USR|Do you have trips out of Tel Aviv?|inform
+SYS|Unfortunately no.|sorry
+SYS|Are you able to depart from elsewhere?|sorry
+USR|I can’t!!!|negate

@@ -1,0 +1,31 @@
+USR|Oh man, I need a holiday.|inform
+SYS|Where would you like to go?|request
+USR|Hmm somewhere in Asia sounds nice.|inform
+USR|I'm thinking Fukuoka.|inform
+SYS|Where do you need to leave from?|request
+USR|Cordoba.|inform
+SYS|Do you have a budget?|request
+USR|Not really, but I only have Monday September 26 to October 14 off.|inform
+SYS|Will you be vacationing alone?|suggest
+USR|Yeah, just me|affirm
+SYS|We have 14 days from September 28th to October 10th at a 3 star hotel near a palace.|offer
+SYS|Would you like to know more about the hotel?|offer
+USR|Sure!|switch_frame
+SYS|The hotel has a 8.49/10 guest rating and they offer free wifi.|inform
+USR|What about Ulsan?|inform
+USR|I hear it's nice there.|inform
+SYS|We have a 12 day package from September 26th to October 6th at 2.5 star hotel near a park and university.|offer
+SYS|They offer free parking and wifi, and they have a 0/10 guest rating.|offer
+SYS|We also have an 8 day package from the 7th to 13th of October at a 5 star hotel with 8.8/10 guest rating and free parking and wifi.|offer
+USR|Ooh that 8 day package in Ulsan sounds nice.|request
+USR|How much would that cost?|request
+SYS|For business flights it is 3960.92 and for economy flights it is 3073.60.|offer
+USR|May I ask how much the 14 day package in Fukuoka is please?|request
+SYS|For economy flights it is 2630.86 and for business flights it is 3401.34.|offer
+USR|Whoa that's quite a difference!|inform
+USR|I'll take the 14 day package in Fukuoka please.|inform
+USR|Economy.|inform
+SYS|Great!|inform
+SYS|Consider it booked!|inform
+USR|Thanks!|thankyou
+SYS|Anytime!|you_are_welcome

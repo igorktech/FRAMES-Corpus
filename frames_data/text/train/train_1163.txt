@@ -1,0 +1,25 @@
+USR|Is it possible to get from Alexandria to Fukuoka for 3200|inform
+SYS|Will you be travelling on your own?|suggest
+USR|No - there will be two adults and one child in total.|inform
+SYS|I'm afraid it's not possible with that budget of yours.|sorry
+USR|Surely you can get us to Indianapolis.|inform
+SYS|I sure can!|offer
+SYS|What about a 14 day package at Hotel Vanilla for just 1914.82 for the whole family?|offer
+USR|Great price for a two week stay!|request
+USR|What’s the hotel like though?|request
+SYS|There is free parking, free breakfast and free wifi!|inform
+SYS|It's also by a park, beach, airport, and university so there are plenty of activities for your family to get involved in!|inform
+USR|Lovely - beachside is ideal for the young one.|request
+USR|May I ask what the rating is?|request
+SYS|The guest rating is 7.15 out of 10.|suggest
+SYS|Want to purchase this trip?|suggest
+USR|What is the official rating though&gt;|request
+SYS|3 stars.|inform
+SYS|It's the best we have.|inform
+USR|That’s fine ; I am but a mere writer after all.|inform
+USR|And the length of stay certainly trumps the quality of residence.|inform
+USR|Please book it.|inform
+SYS|Perfect!|inform
+SYS|I'ts been booked!|inform
+SYS|Enjoy your stay :slightly_smiling_face:|inform
+USR|Thank you kindly.|thankyou

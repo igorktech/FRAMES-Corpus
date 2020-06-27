@@ -1,0 +1,35 @@
+USR|hello.|inform
+USR|I have internship offerings and I need to check out a few cities
+im leaving essen and can only spend 2900 dollars, got it???|inform
+SYS|Which city would you like us to check first?|request
+USR|punta cana|inform
+SYS|when would you like to go?|request
+USR|I’m free from the 13th until the 21st of september|inform
+SYS|For those dates, we only have the La Estrella del Mar available, a still unrated hotel for  2825.61USD|offer
+USR|Unrated huh?|inform
+USR|sketchy.. i dunno.|inform
+USR|check Alexandria please|inform
+SYS|I have a 9 day stay available in Alexandria during your dates at the Bronze Inn & Suites, a 3 star hotel.|offer
+SYS|It is located near the university and has a price of 1607.40USD.|offer
+USR|What kind of user rating does it have|request
+SYS|8.86 / 10!|inform
+USR|that’s quite nice.|inform
+USR|do you have anything to rival that in Denver?|inform
+SYS|We have the Brass Renaissance Resort, another 3 star rated hotel with a 8.86/10 guest rating located near the park at 1525.51USD|offer
+USR|nice.. but which of them has the most amenities?|request_compare
+SYS|They both have the same amenities with free wifi and free breakfast offered at both but Bronze also provides you with free parking, should you require it.|inform
+USR|oh ok.|request
+USR|i wont be renting a car so i dont care about that
+how long is the package in denver|request
+SYS|10 days|inform
+USR|ok.|inform
+USR|I want denver please|inform
+SYS|Would you like an upgrade to business class?|suggest
+USR|how much?|request
+USR|is that within my budget?|request
+SYS|Your budget is $2900 and business class is $1931.76USD, so you are well below it.|inform
+USR|oh wow - let’s do that then|inform
+SYS|Business class it is.|inform
+SYS|That trip has been booked for you.|inform
+SYS|Safe travels.|inform
+USR|awesome|thankyou

@@ -1,0 +1,43 @@
+USR|Morning!|inform
+USR|Lovely weather we are having :smiley:  Are you in St. Louis too?|inform
+USR|I need to book a trip!|inform
+SYS|Good morning!|greeting
+USR|Thanks much appreciated!|inform
+USR|I'm sooooo excited, I get to go to away for the first time EVER by myself!|inform
+USR|Can you help me get to Sapporo?|inform
+SYS|Absolutely, I would be happy to help!|suggest
+SYS|Would you be interested in leaving SL on August 27th and returning on September 5th?|suggest
+USR|That would work with my new internship.|inform
+USR|I'm on a very tight budget though, the UN doesn't pay for internships!|inform
+SYS|Oh ok!|request
+SYS|How much would you like to spend?|request
+USR|Not a dime over $4100, it's all I've got!|inform
+SYS|Well you’re in luck - I can offer you the dates listed above for $2816.73 !|offer
+USR|Cool!|request
+USR|Tell me about the package please, I want to make sure it is JUST right.|request
+SYS|Absolutely!|inform
+SYS|You would be staying at the Hotel Prism, a gorgeous three star hotel with free breakfast, free wifi, and free parking!|inform
+SYS|You would be conveniently located next to a park and museum as well.|inform
+USR|That sounds great but I better check out your flights to Belem on the same dates.|inform
+USR|The UN also has an office there.|inform
+USR|If you have something leaving on the 26th, it would be better.|inform
+SYS|I have a 4.5 star hotel in Belem that fits your budget!|offer
+SYS|It would leave August 26 and return on September 6th - is this ok?|offer
+USR|4.5 stars!|request
+USR|Wow, never stayed in one of those!|request
+USR|Tell me some more about this package please! :|request
+USR|airplane_departure:|request
+SYS|Yes!|inform
+SYS|You would be staying at Zion Hotel which is located on the beach and features free breakfast.|inform
+USR|And how much is this package?|request
+SYS|You could splurge on business class flights for 4069.74 and still be within your budget, otherwise it would be $3155.22 for economy class.|offer
+USR|I really need to think about this...I can go to Sapporo for $2816.73 or to Belem for $3155.22, correct?|request_compare
+USR|Which one do you thing offers better value?|request_compare
+SYS|Correct!|inform
+SYS|The Sapporo stay will last 11 days, while you would be in Belem for 13 days.|inform
+USR|How many stars is the Zion Hotel?|inform
+SYS|The Zion is 4.5 stars!|inform
+USR|That sounds like the better hotel.|inform
+USR|Can't be too cautious travelling by myself for the first time!|inform
+USR|I will book that deal in an economy class ticket, I'm not ready for business class YET, need to pass that bar exam!|inform
+SYS|I will go ahead and book that for you.|inform

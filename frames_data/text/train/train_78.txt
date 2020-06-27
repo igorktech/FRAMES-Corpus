@@ -1,0 +1,13 @@
+USR|Hi im from Barkcelona, looking for a trip!|greeting
+SYS|Hi there!|greeting
+SYS|Will you be traveling alone this time?|greeting
+USR|i will be travelling alone|inform
+SYS|Unfortunately I don't have any flights leaving Barkcelona, however there is a flight leaving from Cleveland for San Juan on the 17th of August.|sorry
+SYS|You would be staying for 8 days.|sorry
+SYS|How does that sound?|sorry
+USR|i was thinking of going to Santo domingo are there any flights from Barkcelona?|inform
+SYS|Unfortunately there are no flights from Barkcelona to Santo Domingo.|sorry
+SYS|However, there is a flight from Punta Cana to Santo Domingo on the 27th of August, with a return flight on the 31st.|sorry
+USR|i need to leave from Barkcelona i dont think this will work out thank you tho!|thankyou
+SYS|Thank you too!|thankyou
+SYS|We hope to hear from you in the future!|thankyou

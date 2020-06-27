@@ -1,0 +1,30 @@
+USR|Hi!|inform
+USR|You can help me by giving me the best honeymoon in Cancun!|inform
+SYS|Sure thing!|request
+SYS|Where will you be coming from?|request
+SYS|And do you have a budget?|request
+USR|Well we just finished our wedding in Burlington so we can leave from here anytime.|inform
+USR|We blew out both of our bank accounts for the wedding so now the both of us can put together only 1800.|inform
+SYS|I'm afraid we don't offer anything that fits your budget.|sorry
+SYS|Is your budget flexibl?|sorry
+USR|Can you find me something in Tampa?|inform
+SYS|Most certainly.|suggest
+SYS|We have a 7 day package at the Dual Loch Hotel which has 3 stars and has a guest rating of 8.8/10.|suggest
+SYS|It includes free parking, breakfast, and wifi, costing at 1487.43 for economy and 1785.35 for business.|suggest
+SYS|Would you be interested in booking?|suggest
+USR|Nice!|request
+USR|Is it close to something cool?|request
+SYS|It is close to many things, including a park, a museum, a beach, and an airport.|suggest
+SYS|Would you like to book this trip?|suggest
+USR|Before I get too carried away, is this the only option that works for us?|request_alts
+SYS|The only other package we have is a 4 day one with the same hotel, costing at 1755.8 for economy class.|offer
+SYS|Which package would you prefer?|offer
+USR|So it's actually cheaper to stay longer??|request_compare
+SYS|That's what I've found in my database, yes.|affirm
+USR|Okay.. We were thinking of only stay 4 days to save money and go back to work earlier... but in this case... We'll go for the 7 days!|inform
+SYS|Would you like to book economy or business class?|suggest
+USR|I'm going to splurge for biz since I can afford it :slightly_smiling_face:|switch_frame
+SYS|Good choice!|inform
+SYS|Your package has now been booked.|inform
+SYS|Enjoy your holiday!|inform
+USR|Thank you!|thankyou

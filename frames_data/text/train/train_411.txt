@@ -1,0 +1,38 @@
+USR|Any week long trips to Brasilia from Mannheim between august 30 and september 15?|inform
+SYS|I have 6 days at the Sublime Tower from Sept 8-12.|hearmore
+SYS|Would you like to hear more?|hearmore
+USR|Does it cost less than 3500?|request
+SYS|2678.5USD for economy flights, 3436.17USD for business class.|offer
+USR|Great its under my budget so please tell me more!|moreinfo
+SYS|Sure!|inform
+SYS|The hotel is 3.5 officially but has a 8.69 guest rating, its near the beach, shopping, and a theatre, and features free wifi, parking, and breakfast.|inform
+USR|Sounds like a good place to stay!|inform
+USR|I'm also considering Curitiba|inform
+SYS|I have multiple packages in Curitiba for 14, 15, or 9 days.|suggest
+USR|As long as they fit my budget and my dates, please tell me about them all|inform
+SYS|All packages are less than 3500 dollars.|inform
+SYS|You can stay at the Crown Market Palace on the beach, a 3.5 star with all amenities listed above; Pinnacle, a 3.0 star hotel near a museum and market also featuring all amenities; or the Dual Basin Residence, one again featuring all previously listed amenities, and located on the beach near a shopping mall and market.|inform
+USR|What do you mean by all amenities listed above?|request
+SYS|Free wifi, breakfast, and parking.|inform
+USR|ok thanks!|confirm
+USR|Pinnacle is the 15 day one right?|confirm
+SYS|There are 15 day packages available at Market Palace or Pinnacle.|suggest
+SYS|You may also stay at Pinnacle for 9 days if that suits you better.|suggest
+USR|I would prefer to stay at Market since it is by the beach and a longer stay is more that fine with me if I can afford it haha.|request
+USR|What are the dates for that one?|request
+SYS|September 2-15|inform
+USR|That would be perfect!|request
+USR|That's my favorite one so far :slightly_smiling_face: How much is it?|request
+SYS|2589.23USD or I could upgrade you to business class flights for a total of 3326.96USD|suggest
+USR|Fantastic, I would prefer to go with economy.|inform
+USR|Last place I could go to is Fortaleza|inform
+SYS|great :slightly_smiling_face: Shall I book that now?|suggest
+USR|I would still like to compare that package with your options in Fortaleza|request_compare
+SYS|Within your budget and date range I have Elder Angel from Sept 8 - 14, a 3 star hotel near a mall with free wifi, breakfast, and parking; I also have this hotel available from Sept 2-6 for around 2900 dollars (the 8-14 would cost 2100).|offer
+SYS|Additionally, the Riverside 3.0 star hotel is available from Sept 2-6 for just under 3000 dollars.|offer
+SYS|This hotel has free wifi, breakfast, and parking and is located near a park and a museum.|offer
+SYS|The final option would be Private Hotel from Sept 6-10.|offer
+SYS|Private Hotel has a 3.0 star rating, is located near a mall, and includes complimentary breakfast, free wifi, and free parking.|offer
+USR|I think Market Palace is still my favorite one, did it have good reviews?|request
+SYS|User reviews are 8.22/10 for the Market Palace.|inform
+USR|Ok good to know, I'll go with that one then!|inform

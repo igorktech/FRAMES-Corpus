@@ -1,0 +1,15 @@
+USR|Good afternoon, my man!|greeting
+USR|I'd like to plan a honeymoon in Naples for 5 days leaving from Madrid on August 17.|greeting
+USR|What is available?|greeting
+SYS|Hello, I can accommodate your request for a 5 day stay in Naples for 2 adults flying from Madrid direct, but I only have availability from August 19 to the 23 or from August 24th to 28th.|offer
+SYS|Are you able to work withing those dates?|offer
+USR|August 19 to the 23rd would be perfect.|request
+USR|Can you tell me about the hotel's amenities?|request
+SYS|You would stay at the beautiful Courtyard resort, which has a three star rating.|inform
+SYS|Breakfast and wifi are included.|inform
+SYS|The price for this package is $1975.62USD for your 5 day stay.|inform
+USR|Wonderful!|request
+USR|Can you provide me with the flight times?|request
+SYS|Madrid to Naples departing at 8:00 am - Friday, August 19th 2016 to 10:21 am - Friday, August 19th 2016 and your return flight would be at 4:00 am - Tuesday, August 23rd 2016 to 6:21 am - Tuesday, August 23rd 2016 from Naples to Madrid.|suggest
+SYS|If these flight times are suitable, should we go ahead and book?|suggest
+USR|Yes lets do that.|affirm

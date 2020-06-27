@@ -1,0 +1,41 @@
+USR|This is my first time booking a trip with a machine....hope this works....so I will be very specific.|inform
+USR|I need to go to Berlin.|inform
+USR|From Sao Paulo.|inform
+USR|We are 3 adults and 1 child.|inform
+USR|We have $14900 at most to spend on this trip.|inform
+USR|Can you figure this out?|inform
+USR|Cause if not I will call a travel agent.|inform
+USR|Please confirm that you comprehend.|inform
+USR|Over and out.|inform
+SYS|When would you like to travel?|request
+USR|As soon as possible.|inform
+USR|Do you comprehend?|inform
+SYS|I will check results for your specific requests.|null
+USR|Okay how about on August 27|inform
+SYS|Yes we have trips from August 27th to September 2nd.|offer
+SYS|All hotels are 5 stars.|offer
+SYS|We have a great package for 11185.19 and free breakfast and wifi included.|offer
+SYS|Does this interest you?|offer
+USR|Yes.|moreinfo
+USR|Yes it does.|moreinfo
+USR|Can you please provide more details?|moreinfo
+USR|Are you sure this is correct?|moreinfo
+SYS|Yes.|inform
+SYS|The hotel has a 8.86/10 guest rating.|inform
+SYS|Flights leave at 10:00am on August 27.|inform
+SYS|Returning flights leave at 1:00am on September 2nd.|inform
+USR|Do you know from your database whether it is an economy flight or a business class flight?|request
+SYS|This is an economy flight.|suggest
+SYS|Would you like me to check the information for a business class flight?|suggest
+USR|yes please check this information for a business class flight|switch_frame
+SYS|Everything is the same for this flight except the price will change to 14268.47.|offer
+USR|I have $14900 to spend so that will work.|inform
+USR|Please book this exactly as discussed and send me a confirmation.|inform
+USR|I am not used to dealing with a....machine.|inform
+SYS|Great!|inform
+SYS|Your flight has been booked.|inform
+SYS|You will get a confirmation email soon.|inform
+SYS|Have a great day and thank you!|inform
+USR|Thank you.|thankyou
+USR|You did well.|thankyou
+USR|I will definitely use you again.|thankyou

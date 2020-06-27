@@ -1,0 +1,13 @@
+USR|I want to go to Sapporo|inform
+SYS|From where?|request
+USR|Santo Domingo|inform
+SYS|On which days?|request
+USR|August 23 to 26|inform
+SYS|Hi, how can I help you today?|greeting
+USR|I want to go to Sapporo from Santo Domingo from August 23 to 26|inform
+SYS|What is your budget?|request
+USR|3000 for 1 adult|inform
+SYS|Sorry, I don't have any results|sorry
+USR|That unfortunate....oh well.|thankyou
+USR|Thank you anyway!|thankyou
+SYS|Thank you !|thankyou

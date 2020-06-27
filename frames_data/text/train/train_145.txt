@@ -1,0 +1,29 @@
+USR|im married now boi.|inform
+USR|takin my new spouse 2 mexico city
+10 days
+lets keep it 1500 max
+cool?|inform
+USR|leaving from detroit
+do your thang|inform
+SYS|Hi there!|greeting
+SYS|I can offer you 8 days in the Sublime Echo for 712.15USD.|greeting
+SYS|How does that sound?|greeting
+USR|ooooooo i like that.|inform
+USR|no 10 day options?|inform
+SYS|Not for Mexico City, unfortunately.|sorry
+SYS|Would you like to try another destination?|sorry
+USR|toronto perhaps|inform
+SYS|Right now it looks like I can offer you 10 days in the Hotel Richard for 781.72USD.|offer
+USR|sweet!|request
+USR|ok i like that.|request
+USR|leaving august 27?|request
+SYS|If you'd like to leave on the 27th rather than the 24th that will bring your price to 1123.51USD.|inform
+SYS|Is this OK?|inform
+USR|thats fine, its still under 1500.|inform
+USR|and the hotel - what is it like?|inform
+SYS|It is a 4-star resort with a 8.8/10 guest rating, free breakfast and free wifi.|suggest
+SYS|Would you like me to book this trip?|suggest
+USR|sweet!|inform
+USR|yes, lets book it|inform
+SYS|Thank you for using our service!|thankyou
+USR|thank you :slightly_smiling_face:|thankyou

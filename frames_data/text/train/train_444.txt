@@ -1,0 +1,22 @@
+USR|Good morning to you!|greeting
+USR|I'd like to take my family somewhere exotic...I've been coming up with a list of where to go from Punta Cana.|greeting
+USR|Can you check on Mexico City|greeting
+SYS|Do you have a budget?|request
+USR|2900 for 2 adults and 4 children|inform
+SYS|When would you like to go?|request
+USR|Look for travel packages to Mexico City first|inform
+SYS|We have two 3 star hotels and two 3.5 star hotels.|offer
+SYS|All packages are 5 day stays.|offer
+SYS|Do any of these spark interest?|offer
+USR|Can I get the 3.5 star hotel and the business class flight for under my budget?|request
+SYS|No sorry, the business flight is for a 3 star hotel.|sorry
+USR|Book one thats between August 31 and September 8|inform
+SYS|There is a flight from September 2nd to 6th at a 3 star hotel and there is also a trip from September 1st to 5th at a 3.5 star hotel.|offer
+SYS|Which one would you like me to book?|offer
+USR|How much does the second trip cost?|request
+SYS|2860.74|inform
+USR|Perfect, book it|inform
+SYS|Great!|goodbye
+SYS|Your package has been booked!|goodbye
+SYS|Safe travels!|goodbye
+USR|Thanks!|thankyou

@@ -1,0 +1,40 @@
+USR|I want to go to Leon from Nagoya between the 13th and october 2nd.|inform
+SYS|Are you travelling with a budget?|request
+USR|no|inform
+SYS|I have a 5 star hotel available for you from September 20th-29th for only 2976.60USD.|offer
+SYS|How does this sound?|offer
+USR|That sounds amazing.|inform
+USR|Before I make up my mind can you check a few other places for me?|inform
+USR|I was thinking about Boston.|inform
+SYS|Of course!|inform
+SYS|In Boston I have two 2.5 star hotels and one 3 star hotel available.|inform
+USR|Tell me more about the 3 star hotel.|switch_frame
+SYS|It has a 8.37/10 user rating, is near a park, and provides free breakfast, wifi, and parking.|inform
+USR|Not bad.|inform
+USR|Can you check packages to Sapporo?|inform
+SYS|In Sapporo I have one hotel available with 8 or 12 day packages.|offer
+SYS|It is 3 stars, unrated by users, and is near a park and a museum.|offer
+USR|Tell me more|moreinfo
+SYS|It has free wifi, parking, and breakfast.|inform
+USR|Great!|inform
+USR|One more place i'd like to know about is Hamburg.|inform
+SYS|In Hamburg I have 4.5, 3, and 4 star hotels.|inform
+USR|can I hear about the 4.5 star|switch_frame
+SYS|That would be the Glacier: it is near the airport with a 9.16 user rating.|inform
+SYS|The hotel includes free parking and wifi use.|inform
+USR|That sounds ideal.|switch_frame
+USR|Can you tell me more about the 5 star Leon package?|switch_frame
+SYS|The hotel is near a market and has free wifi.|inform
+USR|What is the guest rating?|request
+SYS|9.16/10|inform
+USR|Great!|inform
+USR|I would like to book this package then|inform
+SYS|Ok!|suggest
+SYS|Economy or business class seats?|suggest
+USR|Business|inform
+SYS|Okie doke - that’ll be 3837.41USD.|offer
+USR|Awesome!|inform
+USR|book it!|inform
+SYS|It's booked!|thankyou
+SYS|Thanks for working with us!|thankyou
+USR|thank you!|thankyou

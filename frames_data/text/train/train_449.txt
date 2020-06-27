@@ -1,0 +1,19 @@
+USR|Hey there, I'd like to book a long vacation for myself.|greeting
+USR|I live in Cordoba but thinking of going abroad to Fortaleza|greeting
+SYS|what is your budget?|request
+USR|Do you have a 16 day trip between September 2 and 22?|inform
+USR|I'm willing to spend what it takes, have been doing nothing but work for years now|inform
+SYS|We have a 13 day stay from September 3rd to 14th at a 3 star hotel at the amazing price of 2918.45 for business class seats!|offer
+USR|Ooh that could work!|inform
+USR|I just want to check out a couple of other destinations, just for comparisons sake Can you look for something under the same parameters but heading to Kyoto?|inform
+SYS|There is a 12 day stay from September 2nd to 12th at a 3 star hotel for 4635.28 for business class seats.|offer
+USR|Alright, can you just quickly look at Queenstown as well|inform
+SYS|There is a 10 day stay from September 12th to 21st at a 5 star hotel for 994.43 for business class seats.|offer
+USR|There's nothing for longer?|inform
+SYS|No, sorry.|sorry
+USR|In that case just book me for the Fortaleza trip then!|inform
+USR|I think that would work best|inform
+SYS|Alright!|goodbye
+SYS|Your trip is booked!|goodbye
+SYS|Have a great day!|goodbye
+USR|Thanks, you too!|thankyou

@@ -1,0 +1,9 @@
+USR|Get me to Milan like I said.|inform
+USR|I need a flight departing Aug 26 from Kingston|inform
+SYS|How can I be of assistance?|greeting
+USR|KINGSTON TO MILAN|inform
+SYS|Do you have a departure date?|request
+USR|August 26 HOW MANY TIMES DO I HAVE TO REPEAT MYSELF??|inform
+SYS|I do not have flights to Milan from Kingston.|no_result
+SYS|Can I be of further assistance?|no_result
+USR|No You can not|negate

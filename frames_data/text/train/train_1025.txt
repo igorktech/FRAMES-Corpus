@@ -1,0 +1,14 @@
+USR|I want to go to San Juan.|inform
+SYS|Where would you need to leave from?|request
+USR|Detroit.|inform
+SYS|Do you have a budget?|request
+USR|2300|inform
+SYS|When would you like to leave?|request
+USR|September 12th|inform
+SYS|Will you be travelling alone?|suggest
+USR|Yeah|affirm
+SYS|Do you need to be back by a certain time?|request
+USR|By September 20|inform
+SYS|The only thing available is a 2.5 star hotel near a museum, 8.49/10 guest rating, free parking, breakfast and wifi, from September 12th to 20th, business flights for 1522.20, and economy flights for 1239.84.|offer
+USR|That’s fine.|thankyou
+USR|Thank you!|thankyou

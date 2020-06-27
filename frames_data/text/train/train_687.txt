@@ -1,0 +1,17 @@
+USR|Can you get me from Indianapolis to St. Louis?|inform
+USR|I need to leave as soon as possible, something horrible has happened back home… :(:(:(|inform
+SYS|I am sorry to hear that.|sorry
+SYS|Regretfully there are no flights presently available from Indianapolis to St. Louis.|sorry
+USR|How about Boston to SL?|inform
+SYS|Neither available|no_result
+USR|Boston to Chicago??|inform
+SYS|I have a flight departing Boston to Chicago tomorrow, August 31st.|offer
+SYS|That is the soonest available flight.|offer
+SYS|It's attached to an 11 day package in Chicago at the low price of 959.36USD including your flights and stay.|offer
+USR|That sounds decent.|request
+USR|How is the hotel?|request
+SYS|The Sierra Inn & Suites is located near the airport and has a 2 star rating.|inform
+SYS|It includes your parking, wifi use in the hotel and a complimentary breakfast.|inform
+USR|I don’t think I have any other options here, and I’m short on time…please book it!|inform
+SYS|I will look after that right away and get the flight details over to you right away for your departure tomorrow.|inform
+USR|Thanks!|thankyou
