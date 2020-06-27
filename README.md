@@ -71,6 +71,6 @@ The following is an example of the JSON format for the FRAMES corpus.
     }
 ```
 ## Licensing and Attribution
-The original papaer for the FRAMES corpus: Asri, L. El, Schulz, H., Sharma, S., et al., (2017) [Frames: A Corpus for Adding Memory to Goal-Oriented Dialogue Systems](https://www.aclweb.org/anthology/W17-5526/).
+The original paper for the FRAMES corpus: Asri, L. El, Schulz, H., Sharma, S., et al., (2017) [Frames: A Corpus for Adding Memory to Goal-Oriented Dialogue Systems](https://www.aclweb.org/anthology/W17-5526/).
 
 The code within this repository is distributed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html).
