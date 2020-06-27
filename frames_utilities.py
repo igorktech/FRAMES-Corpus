@@ -1,27 +1,22 @@
 import traceback
+import os
 import json
 
 
-def load_json_data(path, file_name):
-    try:
-        with open(path + file_name + ".json") as file:
-            data = json.load(file)
-
-    except (IOError, ValueError):
-        traceback.print_exc()
-        return False
-
+def load_json_data(path):
+    with open(path + ".json") as file:
+        data = json.load(file)
     return data
 
 
-def save_json_data(path, file_name, data):
-    with open(path + file_name + '.json', 'w+') as file:
+def save_json_data(path, data):
+    with open(path + '.json', 'w+') as file:
         json.dump(data, file, sort_keys=False, indent=4, separators=(',', ': '))
 
 
 def frames_split(input_path, file_name):
     # Load frames data
-    dialogues = load_json_data(input_path, file_name)
+    dialogues = load_json_data(os.path.join(input_path, file_name))
 
     # Get training and test splits
     fold = 1
