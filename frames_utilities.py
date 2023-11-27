@@ -22,13 +22,13 @@ def dialogue_to_file(path, dialogue, utterance_only, write_type):
                 file.write(utterance['text'].strip() + "\n")
             elif utterance['ap_label']:
                 file.write(utterance['speaker'] + "|" +
-                           utterance['text'].strip() + "|" +
+                           utterance['text'].strip().replace("\n", "")+ "|" +
                            utterance['ap_label'] + "|" +
                            utterance['da_label'] + "\n")
             else:
                 file.write(utterance['speaker'] + "|" +
-                           utterance['text'].strip() + "|" +
-                           utterance['da_label'] + "\n")
+                           utterance['text'].strip().replace("\n", "") + "|" +
+                           utterance['da_label'] + "|" + dialogue["dialogue_id"] + "\n")
 
 
 def remove_file(data_dir, file, utterance_only):
